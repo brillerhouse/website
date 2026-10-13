@@ -20,7 +20,7 @@ export function MikeAdvisor({ locale }: { locale: Locale }) {
       </figure>
       <div className="mike-example">
         <Sparkles size={16} aria-hidden="true"/>
-        <blockquote>{c.quote}</blockquote>
+        <p className="mike-example-text">{c.quote}</p>
         <p>{c.quoteNote}</p>
       </div>
     </div>

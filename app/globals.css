@@ -89,7 +89,7 @@
 /* Compact header controls retain readable sizing without crowding narrow screens. */
 @media(max-width:500px){.site-header{gap:8px}.site-header .header-actions{gap:10px}.site-header .header-cta{font-size:var(--text-caption);padding:10px 9px}}
 
-/* Mike Briller's AI-advisor profile; portrait and channel are configured in content/mike.json. */
+/* Mike Briller's advisor profile; portrait and channel are configured in content/mike.json. */
 .mike-section{background:var(--sage);display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);align-items:center;gap:8%}
 .mike-profile{width:100%;max-width:440px;justify-self:center;min-width:0}
 .mike-avatar{margin:0}
@@ -105,7 +105,7 @@
 .mike-avatar figcaption{font-size:var(--text-caption);color:var(--muted);line-height:1.7;margin-top:10px}
 .mike-example{margin-top:21px;border:1px solid var(--line);border-radius:6px;background:var(--paper);padding:22px 25px}
 .mike-example>svg{color:var(--accent)}
-.mike-example blockquote{font-size:var(--text-body);line-height:1.8;margin:10px 0 13px;color:var(--ink)}
+.mike-example .mike-example-text{font-size:var(--text-body);line-height:1.8;margin:10px 0 13px;color:var(--ink)}
 .mike-example>p{font-size:var(--text-caption);line-height:1.7;color:var(--muted);margin:0}
 .mike-introduction{min-width:0}
 .mike-introduction>.eyebrow{font-size:var(--text-label);color:var(--muted);margin-bottom:20px}

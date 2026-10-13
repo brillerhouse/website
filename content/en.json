@@ -97,15 +97,15 @@
       ]
     },
     "mike": {
-      "eyebrow": "MEET YOUR AI DESIGN ADVISOR",
+      "eyebrow": "MEET YOUR DESIGN & CONSTRUCTION ADVISOR",
       "title": "Meet Mike Briller.\nIdeas with a practical next step.",
-      "intro": "Mike brings architecture, design and construction knowledge into the Briller experience — helping you explore the look, the budget and the practical details of your project.",
-      "avatarAlt": "Mike Briller, the AI-generated advisor for Briller",
+      "intro": "Mike Briller brings his knowledge of architecture, design and construction to Briller — helping you explore design choices, budget options and practical ways to bring your ideas to life.",
+      "avatarAlt": "AI-generated portrait of Mike Briller",
       "avatarPending": "Avatar preview",
-      "avatarDisclosure": "Mike Briller is an AI-generated advisor.",
-      "role": "AI design advisor",
+      "avatarDisclosure": "AI-generated portrait of Mike Briller.",
+      "role": "Design & construction advisor",
       "quote": "Start with essential, balanced and premium options for the same room. Then compare materials, labour and lighting separately.",
-      "quoteNote": "Illustrative AI advice. Estimates need local pricing and a confirmed project scope.",
+      "quoteNote": "Illustrative budget-planning example. Estimates need local pricing and a confirmed project scope.",
       "planned": "Planned",
       "budgetLevels": [
         "Essential",
