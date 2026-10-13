@@ -74,7 +74,33 @@
     "beforeLabel": "Before",
     "afterLabel": "The possibility",
     "compareLabel": "Compare the original kitchen and an illustrative redesign",
-    "stripTitle": "More than a beautiful image"
+    "stripTitle": "More than a beautiful image",
+    "brillDemo": {
+      "eyebrow": "BRILL INSIGHTS",
+      "title": "Brill’s take on this room.",
+      "intro": "Select a Smart Spark to connect a detail in the design with an idea you can explore.",
+      "imageAlt": "Illustrative living-room render with an oak sideboard, warm wall light and a clear passage to the window",
+      "imageNote": "Illustrative AI render and example advice.",
+      "sparkLabel": "Smart Spark",
+      "tipLabel": "Show Brill’s advice about",
+      "tips": [
+        {
+          "title": "Materials that work together",
+          "spark": "What if the material palette felt a little calmer?",
+          "advice": "Pair the oak sideboard with warm, matte walls and linen upholstery. Check real material samples in daylight and under your evening lighting."
+        },
+        {
+          "title": "A softer evening atmosphere",
+          "spark": "Could softer light change the way this room feels at night?",
+          "advice": "Try dimmable 2700K wall lighting with a separate reading lamp beside the sofa. Layers of light give you more control over the room’s evening atmosphere."
+        },
+        {
+          "title": "Room to move, not just to look",
+          "spark": "Could a small furniture adjustment open up this walkway?",
+          "advice": "Keep the route to the window clear when positioning the chair and side table. Confirm door swings, socket access and furniture dimensions before final placement."
+        }
+      ]
+    }
   },
   "featureItems": [
     [
