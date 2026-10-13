@@ -34,7 +34,6 @@ export function MikeAdvisor({ locale }: { locale: Locale }) {
           return <li key={topic.title}><Icon size={22} strokeWidth={1.5} aria-hidden="true"/><div>
             <h3>{topic.title}{statuses[i] !== 'available' && <span className="mike-planned">{c.planned}</span>}</h3>
             <p>{topic.text}</p>
-            {i === 1 && <ul className="mike-budget-levels" aria-label={topic.title}>{c.budgetLevels.map(level => <li key={level}>{level}</li>)}</ul>}
           </div></li>;
         })}
       </ul>
