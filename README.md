@@ -28,6 +28,7 @@ npm test
 - `content/en.json`, `content/uk.json`: тексти, FAQ, підписи, навігація.
 - `content/plans.json`: єдине джерело цін, кредитів, лімітів і пакунків.
 - `content/gallery.json`: фотографії, фільтри та двомовні назви.
+- `content/mike.json`: зображення аватара Mike Briller, YouTube-посилання й статуси порад щодо бюджету та будівництва.
 - `content/legal.json`: юридичні чернетки обома мовами.
 - `lib/content.ts`: канонічний домен, адреса застосунку, email.
 - `app/globals.css`: кольори, шрифти, адаптивність і дизайн.

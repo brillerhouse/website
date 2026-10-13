@@ -52,11 +52,6 @@
         "Review your visualisation, refine the details and find your direction."
       ]
     ],
-    "brillLabel": "MEET YOUR CREATIVE CO-PILOT",
-    "brillTitle": "A bright idea.\nAnd someone to build on it.",
-    "brillText": "Meet Briller. An AI assistant that connects your visual ideas with practical decisions — from warm lighting and material combinations to details worth discussing with your builder.",
-    "brillQuote": "Try warm, 2700K lighting alongside natural oak. It could give this room a softer evening atmosphere.",
-    "brillNote": "Illustrative Briller suggestion · verify technical details with a qualified professional",
     "featuresLabel": "MORE THAN A BEAUTIFUL IMAGE",
     "featuresTitle": "Designed around\nyour real space.",
     "galleryLabel": "A FEW POSSIBLE DIRECTIONS",
@@ -100,6 +95,42 @@
           "advice": "Keep the route to the window clear when positioning the chair and side table. Confirm door swings, socket access and furniture dimensions before final placement."
         }
       ]
+    },
+    "mike": {
+      "eyebrow": "MEET YOUR AI DESIGN ADVISOR",
+      "title": "Meet Mike Briller.\nIdeas with a practical next step.",
+      "intro": "Mike brings architecture, design and construction knowledge into the Briller experience — helping you explore the look, the budget and the practical details of your project.",
+      "avatarAlt": "Mike Briller, the AI-generated advisor for Briller",
+      "avatarPending": "Avatar preview",
+      "avatarDisclosure": "Mike Briller is an AI-generated advisor.",
+      "role": "AI design advisor",
+      "quote": "Start with essential, balanced and premium options for the same room. Then compare materials, labour and lighting separately.",
+      "quoteNote": "Illustrative AI advice. Estimates need local pricing and a confirmed project scope.",
+      "planned": "Planned",
+      "budgetLevels": [
+        "Essential",
+        "Balanced",
+        "Premium"
+      ],
+      "topics": [
+        {
+          "title": "Design with a clear direction",
+          "text": "Explore layouts, materials and lighting, and understand which choices work together."
+        },
+        {
+          "title": "Plan for your budget",
+          "text": "Compare different budget levels with indicative cost breakdowns for materials, labour and finishes."
+        },
+        {
+          "title": "Understand the practical details",
+          "text": "Explore how a detail could be implemented, what to check with your builder and where an idea needs refinement."
+        }
+      ],
+      "cta": "Explore Briller",
+      "youtube": "Watch Mike Briller on YouTube",
+      "youtubePending": "Mike Briller on YouTube · Coming soon",
+      "youtubeText": "Design, construction and architecture, explained through video.",
+      "technicalNote": "Confirm costs, measurements and technical decisions with your project professionals."
     }
   },
   "featureItems": [

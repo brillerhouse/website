@@ -88,3 +88,45 @@
 
 /* Compact header controls retain readable sizing without crowding narrow screens. */
 @media(max-width:500px){.site-header{gap:8px}.site-header .header-actions{gap:10px}.site-header .header-cta{font-size:var(--text-caption);padding:10px 9px}}
+
+/* Mike Briller's AI-advisor profile; portrait and channel are configured in content/mike.json. */
+.mike-section{background:var(--sage);display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);align-items:center;gap:8%}
+.mike-profile{width:100%;max-width:440px;justify-self:center;min-width:0}
+.mike-avatar{margin:0}
+.mike-portrait{position:relative;overflow:hidden;border-radius:12px;background:#e6dfd0;aspect-ratio:10/11}
+.mike-portrait>img{width:100%;height:100%;object-fit:cover;object-position:center 25%}
+.mike-portrait-placeholder{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(circle at 38% 25%,#fff6dc,#e6dfd0 70%);padding-bottom:40px}
+.mike-portrait-placeholder>span{font-size:72px;line-height:1;letter-spacing:-5px;font-weight:500;color:#ad7751}
+.mike-portrait-placeholder>p{font-size:var(--text-caption);color:var(--muted);margin:18px 0 0}
+.mike-nameplate{position:absolute;left:22px;bottom:22px;right:22px;background:#f8f6f1ed;border:1px solid #fff8;border-radius:6px;padding:16px 19px}
+.mike-nameplate>strong{display:block;font-size:24px;font-weight:600;letter-spacing:-1px;line-height:1.3}
+.mike-nameplate>strong>span{font-size:19px;color:var(--accent);display:inline-block;margin-left:6px;vertical-align:top}
+.mike-nameplate>span{display:block;font-size:var(--text-label);letter-spacing:.7px;margin-top:5px;color:var(--muted)}
+.mike-avatar figcaption{font-size:var(--text-caption);color:var(--muted);line-height:1.7;margin-top:10px}
+.mike-example{margin-top:21px;border:1px solid var(--line);border-radius:6px;background:var(--paper);padding:22px 25px}
+.mike-example>svg{color:var(--accent)}
+.mike-example blockquote{font-size:var(--text-body);line-height:1.8;margin:10px 0 13px;color:var(--ink)}
+.mike-example>p{font-size:var(--text-caption);line-height:1.7;color:var(--muted);margin:0}
+.mike-introduction{min-width:0}
+.mike-introduction>.eyebrow{font-size:var(--text-label);color:var(--muted);margin-bottom:20px}
+.mike-introduction>h2{font-size:clamp(32px,3.1vw,48px);line-height:1.15;margin-bottom:23px}
+.mike-intro{font-size:var(--text-body);line-height:1.85;color:var(--muted);max-width:580px;margin-bottom:29px}
+.mike-topics{list-style:none;padding:0;margin:0 0 21px;display:grid;gap:20px}
+.mike-topics>li{display:flex;gap:16px;align-items:flex-start}
+.mike-topics>li>svg{color:var(--accent);flex-shrink:0;margin-top:3px}
+.mike-topics h3{font-size:var(--text-title-small);line-height:1.6;margin-bottom:6px;font-weight:600;letter-spacing:-.02em}
+.mike-topics p{font-size:var(--text-body);line-height:1.8;color:var(--muted);margin:0}
+.mike-planned{display:inline-block;margin-left:10px;padding:2px 7px;border:1px solid #cdd0c3;border-radius:3px;font-size:var(--text-label);font-weight:500;color:var(--muted);letter-spacing:0;vertical-align:middle}
+.mike-budget-levels{list-style:none;padding:0;margin:11px 0 0;display:flex;gap:7px;flex-wrap:wrap}
+.mike-budget-levels>li{padding:5px 9px;border:1px solid #d2d6c7;border-radius:4px;font-size:var(--text-caption);line-height:1.5;color:var(--muted)}
+.mike-youtube{margin-top:23px;padding-top:19px;border-top:1px solid #cfd4c4}
+.mike-youtube>.text-link{font-size:var(--text-ui);padding:0}
+.mike-youtube-pending{display:flex;align-items:center;gap:9px;font-size:var(--text-ui);font-weight:600;margin-bottom:8px;line-height:1.7}
+.mike-youtube-pending>svg,.mike-youtube>.text-link>svg:first-child{color:var(--accent);flex-shrink:0}
+.mike-youtube>p:last-child{font-size:var(--text-body);color:var(--muted);margin:8px 0 0}
+.mike-technical-note{font-size:var(--text-caption);line-height:1.7;color:var(--muted);margin:18px 0 0}
+@media(max-width:1100px){.mike-section{gap:5%;align-items:start}.mike-introduction>h2{font-size:35px}.mike-nameplate{left:16px;right:16px;bottom:16px}.mike-example{padding:19px}.mike-nameplate>strong{font-size:22px}}
+@media(max-width:800px){.mike-section{grid-template-columns:1fr;gap:38px}.mike-profile{max-width:500px}.mike-introduction>h2{font-size:38px}.mike-topics{gap:23px}}
+@media(max-width:500px){.mike-nameplate{padding:14px 16px}.mike-introduction>h2{font-size:32px}.mike-topics>li{gap:12px}.mike-topics h3{font-size:var(--text-title-small)}.mike-planned{margin-left:7px}.mike-youtube>.text-link{flex-wrap:wrap}.mike-profile{max-width:none}}
+
+.page-features .mike-section{margin:70px -5.55% 0}
