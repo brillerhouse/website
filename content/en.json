@@ -5,7 +5,8 @@
     "gallery": "Inspiration",
     "pricing": "Pricing",
     "faq": "Help",
-    "contact": "Contact & demo"
+    "contact": "Contact & demo",
+    "solutions": "Solutions"
   },
   "brandLine": "Architecture, illuminated.",
   "start": "Start free",
@@ -233,7 +234,9 @@
     "pack": "credits",
     "billingNote": "Prices in USD. Annual amounts are calculated from the monthly equivalents provided. Confirm taxes, checkout totals and final entitlements in the app.",
     "creditNote": "Free includes 20 iterations/month. Paid plans use credits; the credit cost of an operation is shown in the app.",
-    "manage": "Payments and subscription management take place in the app through Stripe."
+    "manage": "Payments and subscription management take place in the app through Stripe.",
+    "fastQueue": "Faster generation queue",
+    "sharedProjects": "Shared projects"
   },
   "planDescriptions": [
     "A first look at what’s possible.",
@@ -276,7 +279,7 @@
     ],
     [
       "Can I use a render commercially?",
-      "The Studio / Architect plan includes a commercial licence according to the supplied plan specification. Review the final Terms of Service and your plan entitlements before commercial use."
+      "All paid plans — Explorer, Pro Design and Studio / Architect — include commercial licensing. Review the current app terms for the scope of your licence."
     ],
     [
       "Are my projects public?",

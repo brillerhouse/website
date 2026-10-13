@@ -4,7 +4,7 @@
 
 ## Product
 - [Features](https://briller.house/en/features/): Photo and sketch-led concepts, moodboards, natural-language and voice interaction, Briller Insights, Shop the Look, optional drawings and Smart Sparks.
-- [Use cases](https://briller.house/en/use-cases/): Homeowners, designers, architects and property professionals.
+- [Solutions](https://briller.house/en/solutions/): Browse 27 audience and use-case pages by role or project. Includes homeowners, renters, remote workers, designers, architects, contractors, kitchen/bath remodelers, real estate agents, investors, developers and rental hosts.
 - [Pricing](https://briller.house/en/pricing/): Free includes 3 active projects and 20 watermarked iterations per month. Explorer: $9.99/month, or $7.99 monthly equivalent billed annually, 60 credits/month. Pro Design: $24.99/month, or $19.99 monthly equivalent billed annually, 200 credits/month. Studio / Architect: $69.99/month, or $59.99 monthly equivalent billed annually, 650 credits/month and 3 team seats. Confirm taxes and entitlements in app checkout.
 - [FAQ](https://briller.house/en/faq/): Workflow, credits, billing and limitations.
 - [Contact](https://briller.house/en/contact/): hello@briller.house.
@@ -15,3 +15,35 @@ AI outputs are visual concepts and should be checked against the original room. 
 
 ## Knowledge behind Briller.House
 Briller.House's AI-assisted knowledge base brings together Mike Briller's hands-on experience and the practical know-how of his colleagues: architects, designers and construction workers. It covers modern design and construction solutions, budget options and implementation details. Mike Briller is a real person and the face of the project, representing this shared expertise. His YouTube channel is https://www.youtube.com/@BrillerBuilds.
+
+## Solutions directory
+- [First room refresh](https://briller.house/en/solutions/first-room-refresh/): Upload one room, describe the direction, and see it before you spend a dollar on it.
+- [Whole-home renovation](https://briller.house/en/solutions/whole-home-renovation-planning/): One project per room, each with its own history — so three renovations don't turn into one blur.
+- [Renter-friendly makeover](https://briller.house/en/solutions/renter-friendly-makeover/): Upload the room, describe the direction, explore reversible changes to discuss with your landlord.
+- [Home office & workspace](https://briller.house/en/solutions/home-office-workspace/): One small room or corner, one small budget, a real difference in how it functions.
+- [Interior designers & decorators](https://briller.house/en/solutions/interior-designers-freelance-decorators/): Upload the client's room and moodboard, describe the direction, iterate in minutes instead of days.
+- [Architects & architecture studios](https://briller.house/en/solutions/architects-architecture-studios/): Upload blueprints alongside the room photo — dimensions and constraints inform the render, not just the finish.
+- [Contractors & remodeling companies](https://briller.house/en/solutions/general-contractors-remodeling-companies/): Show them a direction, hand them a materials list they can actually price against.
+- [Kitchen & bath remodelers](https://briller.house/en/solutions/kitchen-bath-remodelers/): Briller's notes go into cabinetry, plumbing, and ventilation — not just the paint color.
+- [Real estate agents & listing prep](https://briller.house/en/solutions/real-estate-agents-listing-prep/): Upload a listing photo, stage the room, let the before/after do the work.
+- [Property investors & house flippers](https://briller.house/en/solutions/real-estate-investors-house-flippers/): Photograph the rooms that need work, get a direction with real cost logic attached, before you're locked into a purchase.
+- [Property developers](https://briller.house/en/solutions/property-developers/): Turn a blueprint into a buyer-facing render, with the material story to back it up in the sales deck.
+- [Short-term rental & Airbnb hosts](https://briller.house/en/solutions/short-term-rental-airbnb-hosts/): Describe your furnishing budget, see a few directions, then shop the pieces that got you there.
+- [Try a design style](https://briller.house/en/solutions/try-a-design-style/): Upload your room, run it through Japandi, Scandinavian, Industrial, Modern Minimalism, and Classic, and see what actually fits.
+- [Paint & wall colours](https://briller.house/en/solutions/paint-wall-color-testing/): Upload the room, describe the color direction, see it on your actual walls before buying a sample.
+- [Lighting & fixtures](https://briller.house/en/solutions/lighting-design-fixture-selection/): Upload the room as it is, tell Briller what's wrong with the light, and see fixture and placement changes before you buy anything.
+- [Flooring & finishes](https://briller.house/en/solutions/flooring-finish-comparison/): One room, three flooring directions, each with its own Materials and Installation notes.
+- [Kitchen surfaces](https://briller.house/en/solutions/kitchen-surfaces/): The three decisions that drive a kitchen budget, shown together in your actual room.
+- [Fireplace & mantel](https://briller.house/en/solutions/fireplace-mantel-redesign/): Upload the room, describe the fireplace direction, see it restyled without redesigning the whole room around it.
+- [Closets & built-in storage](https://briller.house/en/solutions/closet-built-in-storage-redesign/): Upload the closet or storage space, describe what actually needs to fit, see a layout before you build it.
+- [Small spaces & studio apartments](https://briller.house/en/solutions/small-space-studio-apartment-layout/): Upload the room, describe what it needs to do, see a layout that actually works at the scale you have.
+- [Nursery & kids’ rooms](https://briller.house/en/solutions/nursery-kids-room-design/): Upload the room, describe the direction, see it before the deadline gets closer.
+- [Home gym](https://briller.house/en/solutions/home-gym-conversion/): Upload the room, describe the equipment and layout, see if it actually fits before you buy anything.
+- [Open-plan layout concepts](https://briller.house/en/solutions/open-concept-wall-removal/): Visualize an opened-up sightline as a concept, before anyone determines whether the wall can actually come down.
+- [Basement & garage conversions](https://briller.house/en/solutions/basement-garage-conversion/): Upload the unfinished space, describe what you want it to become, see it before committing to the build-out.
+- [Exterior & curb appeal](https://briller.house/en/solutions/exterior-curb-appeal/): Upload the exterior, describe the direction, see siding, paint, and entryway changes before you buy any of it.
+- [Backyard & outdoor living](https://briller.house/en/solutions/backyard-outdoor-living-redesign/): Upload the outdoor space, describe the direction, see a patio, deck, or seating area before you build any of it.
+- [Rental turnover refresh](https://briller.house/en/solutions/airbnb-turnover-refresh/): Upload the room as it stands today, describe a fast style update, see it before the next booking window.
+
+## Plan capabilities
+Commercial licensing is available on all paid plans. PDF specification export and a dedicated faster generation queue are available on Pro Design and Studio / Architect. Shared projects are available on Studio / Architect, which includes three team seats. Confirm current terms and entitlements in the app.

@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
-const pages=['','features','use-cases','gallery','pricing','faq','contact','privacy','terms','refunds','cookies'];
+const solutions=JSON.parse(fs.readFileSync('content/solutions/en.json','utf8')).pages;
+const pages=['','features','use-cases','gallery','pricing','faq','contact','privacy','terms','refunds','cookies','solutions',...solutions.map(page=>'solutions/'+page.slug)];
 const failures=[];let checked=0;
 function check(condition,message){if(!condition)failures.push(message);}
 for(const locale of ['en','uk'])for(const page of pages){
@@ -26,7 +27,25 @@ for(const locale of ['en','uk'])for(const page of pages){
   try{const data=JSON.parse(m[1]);check(data['@context']==='https://schema.org',`Invalid schema context ${file}`)}catch{failures.push(`Invalid JSON-LD ${file}`)}
  }
 }
+const ukSolutions=JSON.parse(fs.readFileSync('content/solutions/uk.json','utf8')).pages;
+assert.equal(solutions.length,27,'All supplied solution pages must be included');
+assert.deepEqual(ukSolutions.map(page=>page.slug),solutions.map(page=>page.slug),'Localized solution slugs must match');
+const navigation=JSON.parse(fs.readFileSync('content/solutions/navigation.json','utf8'));
+for(const solution of solutions){
+ check(navigation.categories.some(category=>category.id===solution.category),`Unknown category: ${solution.slug}`);
+ check(solution.audiences.every(role=>navigation.audiences.some(audience=>audience.id===role)),`Unknown audience: ${solution.slug}`);
+ check(solution.related.every(slug=>solutions.some(page=>page.slug===slug)&&slug!==solution.slug),`Broken related solution: ${solution.slug}`);
+ for(const locale of ['en','uk']){
+  const hub=fs.readFileSync(`out/${locale}/solutions/index.html`,'utf8');
+  check(hub.includes(`href="/${locale}/solutions/${solution.slug}/"`),`Solution absent from hub: ${locale}/${solution.slug}`);
+  check(fs.readFileSync('out/sitemap.xml','utf8').includes(`/${locale}/solutions/${solution.slug}/`),`Solution absent from sitemap: ${locale}/${solution.slug}`);
+ }
+}
 const plans=JSON.parse(fs.readFileSync('content/plans.json'));
+assert.deepEqual(plans.plans.map(plan=>plan.commercial),[false,true,true,true]);
+assert.deepEqual(plans.plans.map(plan=>plan.pdf),[false,false,true,true]);
+assert.deepEqual(plans.plans.map(plan=>plan.fastQueue),[false,false,true,true]);
+assert.deepEqual(plans.plans.map(plan=>plan.sharedProjects),[false,false,false,true]);
 assert.equal(plans.plans[2].monthly,24.99);assert.equal(plans.plans[3].credits,650);assert.equal(plans.topups[4][2],750);
 check(fs.readFileSync('out/sitemap.xml','utf8').includes('/uk/pricing/'),'Missing translated pricing in sitemap');
 check(!fs.readFileSync('out/sitemap.xml','utf8').includes('/privacy/'),'Draft legal page in sitemap');

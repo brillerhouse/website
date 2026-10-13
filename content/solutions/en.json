@@ -1,0 +1,3129 @@
+{
+  "hub": {
+    "eyebrow": "SOLUTIONS",
+    "title": "Your space. Your work.\nYour next step.",
+    "intro": "Find yourself here — whether you’re making a home, helping a client or planning a property project. Start with your role, or jump straight to the change you have in mind.",
+    "audienceTitle": "Who are you designing for?",
+    "audienceIntro": "A starting point that speaks your language.",
+    "projectTitle": "What are you planning?",
+    "projectIntro": "Explore every solution by project, audience or a few words about what you need.",
+    "browseAudience": "Find your audience",
+    "browseProjects": "Explore projects",
+    "all": "All projects",
+    "allAudiences": "Every audience",
+    "searchLabel": "Search solutions",
+    "searchPlaceholder": "Try “kitchen”, “rental” or “lighting”",
+    "audienceLabel": "Your role",
+    "clear": "Clear filters",
+    "empty": "No solutions match yet. Try another word or clear the filters.",
+    "results": "solutions found",
+    "open": "Explore this solution",
+    "groupLinks": "Choose a starting point",
+    "overview": "The starting point",
+    "benefits": "How Briller helps",
+    "workflow": "Your workflow",
+    "advice": "Briller Insights",
+    "directions": "Directions to explore",
+    "briefs": "Try these briefs",
+    "notes": "Before you commit",
+    "faq": "Questions you might have",
+    "related": "Keep exploring",
+    "allSolutions": "All solutions",
+    "home": "Home",
+    "start": "Explore in Briller",
+    "pricing": "Compare plans",
+    "sampleLabel": "Illustrative advice for this use case",
+    "sampleNote": "An example of the kind of guidance you can explore. Briller’s AI-assisted knowledge base brings together Mike’s experience and the practical know-how of architects, designers and builders. Check the details against your actual space.",
+    "briefIntro": "Copy an example, add your constraints and budget, then paste it into the Briller app.",
+    "copyBrief": "Copy brief",
+    "copied": "Copied",
+    "copyFailed": "Select and copy the text manually.",
+    "sectionNav": "On this page",
+    "nextStep": "Start with an idea like this",
+    "ctaTitle": "Let’s make your next step clearer.",
+    "ctaText": "Bring your space, your budget and what matters most. Explore a direction before you commit.",
+    "faqIntro": "A few practical answers before you start."
+  },
+  "pages": [
+    {
+      "slug": "first-room-refresh",
+      "title": "See Your Kitchen Three Ways Before You Touch a Wall",
+      "intro": "Upload one room, describe the direction, and see it before you spend a dollar on it.",
+      "problemTitle": "Not Sure a New Look Is Worth the Cost of Finding Out?",
+      "problem": "Committing to a full redo on a hunch is how \"small refresh\" turns into \"took out a loan.\" Most of that risk disappears once you can actually see the direction first.",
+      "pains": [
+        "A color or material you loved in a showroom that looked completely different at home",
+        "A contractor quote that assumes a finish you never actually confirmed you wanted",
+        "Not knowing if \"just paint and hardware\" will actually read as different enough",
+        "Committing to tile before seeing it next to the counter you're keeping",
+        "A Pinterest board full of kitchens that cost five times your actual budget"
+      ],
+      "benefits": [
+        [
+          "One Room, Real Constraints",
+          "Briller works from your actual kitchen, not a generic layout"
+        ],
+        [
+          "Plain-Language Brief",
+          "describe what's bothering you, no design vocabulary required"
+        ],
+        [
+          "Try Before You Buy",
+          "compare two or three directions before committing to any of them"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload Your Room",
+          "one photo of the kitchen as it is today"
+        ],
+        [
+          "Describe the Direction",
+          "\"warmer, more storage, keep the window\""
+        ],
+        [
+          "Magic Render",
+          "Briller generates a direction styled to your actual room"
+        ],
+        [
+          "Refine",
+          "not right? Adjust the brief and try again"
+        ],
+        [
+          "Download",
+          "HD image, ready to compare against a contractor's quote"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "White oak veneer cabinet fronts, honed quartz counter (~2cm)"
+        ],
+        [
+          "Lighting & Ambiance",
+          "3000K LED strip under the upper cabinets"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "Reface only — this design assumes your existing cabinet boxes stay, which is what keeps it in spot-renovation budget territory."
+        ]
+      ],
+      "directions": [
+        [
+          "Cabinet Refresh Only",
+          "existing boxes kept, fronts and hardware swapped"
+        ],
+        [
+          "Backsplash Swap",
+          "same layout, new tile pattern and grout color"
+        ],
+        [
+          "Paint + Hardware",
+          "no material changes, just color and hardware direction"
+        ]
+      ],
+      "briefs": [
+        "Keep the layout, just make it feel warmer and less dated",
+        "Show me this kitchen with white oak cabinets instead of the dark wood",
+        "I want more counter space without moving anything structural"
+      ],
+      "related": [
+        "paint-wall-color-testing",
+        "kitchen-surfaces",
+        "try-a-design-style",
+        "whole-home-renovation-planning"
+      ],
+      "note": "This level of detail is part of Pro Design — Explorer gives you Smart Sparks, Briller's faster, plainer-language pointers, not a full materials breakdown. Renders assume your existing cabinet boxes and layout stay put; anything involving moving plumbing or walls needs Pro Design's fuller notes at minimum, plus a contractor.",
+      "faqs": [
+        [
+          "Does this work if my kitchen is already fully furnished?",
+          "Yes — Briller works from the room as it is, furniture and all."
+        ],
+        [
+          "How many directions can I try?",
+          "Try directions within your available credits. The app shows the cost of an action before you run it."
+        ],
+        [
+          "Do I need to know design terms to write a brief?",
+          "No — plain language like \"warmer\" or \"less cluttered\" works."
+        ],
+        [
+          "Is this the same detail level as Pro Design?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "First room refresh",
+      "category": "refresh",
+      "audiences": [
+        "homeowners"
+      ]
+    },
+    {
+      "slug": "whole-home-renovation-planning",
+      "title": "Plan Every Room Without Losing Track of Any of Them",
+      "intro": "One project per room, each with its own history — so three renovations don't turn into one blur.",
+      "problemTitle": "Renovating Room by Room and Losing Track of What You Decided?",
+      "problem": "A whole-home renovation isn't one decision, it's forty small ones, spread across months and usually across more than one contractor. Losing track of what you already decided is how budgets creep.",
+      "pains": [
+        "Forgetting which flooring you picked for the hallway versus the bedroom",
+        "Two contractors quoting against two different versions of \"the plan\"",
+        "A material decided on in March that nobody can find by June",
+        "Losing the thread on what's already budgeted vs. still undecided",
+        "A whole-home vision that looks cohesive in your head, incoherent on paper"
+      ],
+      "benefits": [
+        [
+          "One Project Per Room",
+          "kitchen, primary bath, basement, each tracked separately"
+        ],
+        [
+          "Full History, Not Just the Latest Version",
+          "every Refine saved"
+        ],
+        [
+          "Unlimited Projects",
+          "nothing capped while you're mid-renovation"
+        ],
+        [
+          "HD, Contractor-Ready Downloads",
+          "no watermark"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload Each Room",
+          "start a separate project per room"
+        ],
+        [
+          "Brief Per Room",
+          "describe the direction for that specific space"
+        ],
+        [
+          "Magic Render",
+          "Briller generates a direction for each project"
+        ],
+        [
+          "Refine",
+          "adjust any project independently"
+        ],
+        [
+          "Download",
+          "HD, watermark-free, project by project"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "5\" wide-plank white oak flooring, engineered, throughout the main living area"
+        ],
+        [
+          "Lighting & Ambiance",
+          "2700K dimmable recessed lighting; spacing depends on fixture output and the room"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "Wide-plank engineered flooring floats over most subfloors — but if underfloor heating is part of the plan, get that spec'd before you buy the flooring, not after."
+        ]
+      ],
+      "directions": [
+        [
+          "Kitchen Project",
+          "cabinet and counter direction, tracked independently"
+        ],
+        [
+          "Primary Bath Project",
+          "fixture and tile direction"
+        ],
+        [
+          "Main Living Area",
+          "flooring direction, shown on its own timeline"
+        ]
+      ],
+      "briefs": [
+        "Match the flooring direction from the living room into the hallway",
+        "Same cabinet tone as the kitchen, scaled down for the laundry room",
+        "Show me this room with the wall opened up, just as a concept"
+      ],
+      "related": [
+        "flooring-finish-comparison",
+        "kitchen-surfaces",
+        "open-concept-wall-removal",
+        "first-room-refresh"
+      ],
+      "note": "Unlimited projects means unlimited rooms, not unlimited scope creep. Structural changes can alter the whole-home budget. Explore the idea, then have an engineer assess the structure and a contractor price the actual scope.",
+      "faqs": [
+        [
+          "Can I track a kitchen and two bathrooms at once?",
+          "Yes — each is its own project with its own history."
+        ],
+        [
+          "Does Refine history help me stay consistent across rooms?",
+          "Yes — you can reference an earlier project's direction in a new brief."
+        ],
+        [
+          "Is there a limit on projects with Pro Design?",
+          "No — unlimited projects on this tier."
+        ],
+        [
+          "Can I hand these renders to more than one contractor?",
+          "Yes — HD, watermark-free downloads are built for that."
+        ]
+      ],
+      "label": "Whole-home renovation",
+      "category": "renovation",
+      "audiences": [
+        "homeowners",
+        "investors"
+      ]
+    },
+    {
+      "slug": "renter-friendly-makeover",
+      "title": "Make It Feel Like Yours Without Losing the Deposit",
+      "intro": "Upload the room, describe the direction, explore reversible changes to discuss with your landlord.",
+      "problemTitle": "Want the Place to Feel Like Yours Without Losing the Deposit?",
+      "problem": "Most design inspiration assumes you can paint, drill, and renovate freely — a renter's actual constraint is usually the opposite, and most tools don't design around that at all.",
+      "pains": [
+        "A style you love that assumes you can paint or drill wherever you want",
+        "Not knowing what's actually reversible versus what risks the security deposit",
+        "Command hooks and removable wallpaper that look flimsy in every example photo you find",
+        "A landlord who's unclear about what's actually allowed",
+        "Wanting the space to feel finished without any permanent investment in someone else's property"
+      ],
+      "benefits": [
+        [
+          "Reversible-Only Direction",
+          "every suggestion is designed to come down cleanly"
+        ],
+        [
+          "Landlord-Safe Materials Named",
+          "command hooks, removable wallpaper, no drilling, stated explicitly"
+        ],
+        [
+          "Real Room, Real Constraints",
+          "works from your actual rental, not an idealized version"
+        ],
+        [
+          "Budget-Aware Styling",
+          "a full refresh on a renter's typical budget"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Room",
+          "the rental space as it stands today"
+        ],
+        [
+          "Brief the Direction, Noting It's a Rental",
+          "Briller styles within that constraint"
+        ],
+        [
+          "Magic Render",
+          "a fully reversible direction"
+        ],
+        [
+          "Refine",
+          "adjust the style or budget"
+        ],
+        [
+          "Shop the Look",
+          "for renter-safe items"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Removable peel-and-stick wallpaper, command-hook gallery wall, freestanding shelving"
+        ],
+        [
+          "Lighting & Ambiance",
+          "Plug-in sconces instead of hardwired fixtures, 2700K"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "Every item here is reversible or landlord-safe — no drilling, no permanent alteration, and no assumption that hardwired lighting can be changed."
+        ]
+      ],
+      "directions": [
+        [
+          "Plain Rental Wall, Removable Wallpaper",
+          "reversible pattern applied to an otherwise bare wall"
+        ],
+        [
+          "Rental Room, Full Reversible Refresh",
+          "full styling direction using only non-permanent changes"
+        ]
+      ],
+      "briefs": [
+        "Style this room using only removable, renter-friendly changes",
+        "Add a gallery wall using command hooks only, no drilling",
+        "Show this wall with removable wallpaper instead of paint"
+      ],
+      "related": [
+        "home-office-workspace",
+        "paint-wall-color-testing",
+        "small-space-studio-apartment-layout"
+      ],
+      "note": "\"Reversible\" and \"landlord-approved\" aren't always the same thing — confirm with your actual lease or landlord before applying anything, even removable products.",
+      "faqs": [
+        [
+          "Does this guarantee my landlord will approve the changes?",
+          "No — confirm with your actual lease or landlord; \"reversible\" isn't automatically \"approved.\""
+        ],
+        [
+          "Are the suggested products actually removable?",
+          "Materials notes name renter-safe options like removable wallpaper and command hooks — always check the specific product's own instructions."
+        ],
+        [
+          "Can I use this for a shared room, not just a full apartment?",
+          "Yes — brief the specific room or area."
+        ],
+        [
+          "Is this available on the free plan?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "Renter-friendly makeover",
+      "category": "layout",
+      "audiences": [
+        "renters"
+      ]
+    },
+    {
+      "slug": "home-office-workspace",
+      "title": "Make the Corner You Work From Actually Work",
+      "intro": "One small room or corner, one small budget, a real difference in how it functions.",
+      "problemTitle": "Working From a Corner That Doesn't Actually Work?",
+      "problem": "A home office that's really just a desk wedged into a spare corner tends to stay that way indefinitely, because a full room redesign feels like overkill for a corner.",
+      "pains": [
+        "A desk setup that technically exists and doesn't actually work for a full workday",
+        "Glare or bad lighting nobody addresses because it's \"just a corner\"",
+        "Storage that's either nonexistent or eating the room's only open space",
+        "A workspace that doesn't feel separate from the rest of the room",
+        "A furnishing budget too small to justify hiring a designer for one corner"
+      ],
+      "benefits": [
+        [
+          "Small-Space Focus",
+          "built for a corner or spare room, not a dedicated office"
+        ],
+        [
+          "Task Lighting Called Out",
+          "where the light should actually be, not just how the room looks"
+        ],
+        [
+          "Shop the Look",
+          "the desk, chair, and shelving, priced and linked"
+        ],
+        [
+          "Freestanding-First Direction",
+          "minimal to no wall work assumed"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Room or Corner",
+          "the space as it is today"
+        ],
+        [
+          "Brief the Direction and Budget",
+          "plain language, no design terms needed"
+        ],
+        [
+          "Magic Render",
+          "a workspace direction within that budget"
+        ],
+        [
+          "Refine",
+          "adjust the layout or style"
+        ],
+        [
+          "Shop the Look",
+          "for the final direction"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Wall-mounted floating desk, white oak, 120cm"
+        ],
+        [
+          "Lighting & Ambiance",
+          "4000K task lamp at the desk, 2700K ambient elsewhere in the room"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "A wall-mounted desk needs to land on studs or use rated anchors — worth checking before you buy it, not after it's on the wall."
+        ]
+      ],
+      "directions": [
+        [
+          "Corner Desk Setup",
+          "unused corner turned into a working desk area"
+        ],
+        [
+          "Closet-to-Office Conversion",
+          "a small closet reimagined as a compact workspace"
+        ]
+      ],
+      "briefs": [
+        "Turn this corner into a workspace without changing anything else in the room",
+        "Small desk setup that doesn't feel like an office when I'm not working",
+        "Add proper task lighting to this desk area"
+      ],
+      "related": [
+        "lighting-design-fixture-selection",
+        "small-space-studio-apartment-layout",
+        "first-room-refresh"
+      ],
+      "note": "A floating desk looks cleaner in a render than a desk with drawers. If you actually need file storage, say so in the brief before you fall for the look.",
+      "faqs": [
+        [
+          "Does this require a dedicated room?",
+          "No — built for a corner or shared-use space."
+        ],
+        [
+          "Can I see furniture pricing before buying?",
+          "Yes — Shop the Look includes name, price, and where to buy."
+        ],
+        [
+          "Is task lighting placement included in the notes?",
+          "Yes — Lighting & Ambiance notes call out where light should go."
+        ],
+        [
+          "Is this available on the free plan?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "Home office & workspace",
+      "category": "layout",
+      "audiences": [
+        "remote-workers",
+        "homeowners",
+        "renters"
+      ]
+    },
+    {
+      "slug": "interior-designers-freelance-decorators",
+      "title": "Move From Brief to Concept Without Waiting on a Render Queue",
+      "intro": "Upload the client's room and moodboard, describe the direction, iterate in minutes instead of days.",
+      "problemTitle": "Client Wants Five Directions and You've Got Two Days?",
+      "problem": "Concept development eats the hours a freelance schedule doesn't have — five directions for one client is a full day of work if you're building each one from scratch.",
+      "pains": [
+        "A client who wants to \"see a few options\" before committing to a direction",
+        "Moodboard references that don't translate cleanly into an actual room",
+        "Iteration rounds that blow past what you quoted for concept development",
+        "Explaining a design decision without a visual to point to",
+        "A portfolio that needs fresh work between paying projects"
+      ],
+      "benefits": [
+        [
+          "Explore several concepts",
+          "Develop alternatives from the same room photo and compare them with your client."
+        ],
+        [
+          "Full Refine History",
+          "walk a client back through how you got to a direction"
+        ],
+        [
+          "PDF exports",
+          "Export specification notes on Pro Design and Studio / Architect."
+        ],
+        [
+          "Faster generation queue",
+          "Available on Pro Design and Studio / Architect."
+        ]
+      ],
+      "steps": [
+        [
+          "Upload Client's Room",
+          "plus a moodboard reference, if there is one"
+        ],
+        [
+          "Brief the Direction",
+          "describe the concept in the client's language"
+        ],
+        [
+          "Magic Render",
+          "Briller generates a concept styled to the direction"
+        ],
+        [
+          "Refine With Client Feedback",
+          "iterate live or between meetings"
+        ],
+        [
+          "Download",
+          "HD, ready to present"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Bouclé upholstery, brushed brass hardware, fluted oak panel accent wall"
+        ],
+        [
+          "Lighting & Ambiance",
+          "Layered — 2700K ambient, warm accent uplighting on the panel"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "The fluted panel is a surface application over drywall, not structural — confirm wall condition, mounting details and any landlord permissions before specifying it."
+        ]
+      ],
+      "directions": [
+        [
+          "Two Directions, Same Room",
+          "a warm-traditional pass and a modern-minimal pass, same starting photo"
+        ],
+        [
+          "Moodboard to Room",
+          "a Pinterest-style reference translated into the client's actual space"
+        ]
+      ],
+      "briefs": [
+        "Same room, but lean into the moodboard's warmer palette",
+        "Client wants two directions: one bolder, one safer — show both",
+        "Keep the furniture layout, change only the finishes"
+      ],
+      "related": [
+        "try-a-design-style",
+        "closet-built-in-storage-redesign",
+        "architects-architecture-studios"
+      ],
+      "note": "If a render is going in front of a paying client or into work you're commercially licensing, confirm your plan actually covers that use before you deliver it — don't assume it from the subscription tier alone.",
+      "faqs": [
+        [
+          "Can I use the Community Gallery as a moodboard source?",
+          "Yes — save references as an image, then add it to your project manually."
+        ],
+        [
+          "How many iterations can one client project have?",
+          "As many as your Credits allow, with full history saved."
+        ],
+        [
+          "Can I use these renders in client deliverables?",
+          "All paid plans include commercial licensing. Confirm the current app terms for the scope of your licence before publishing or delivering client work."
+        ],
+        [
+          "Does this replace a full 3D rendering package?",
+          "No — it's fast concept alignment, not a final construction rendering."
+        ],
+        [
+          "Can I share projects with my team?",
+          "Shared projects are available on Studio / Architect, which includes 3 team seats."
+        ]
+      ],
+      "label": "Interior designers & decorators",
+      "category": "professional",
+      "audiences": [
+        "designers"
+      ]
+    },
+    {
+      "slug": "architects-architecture-studios",
+      "title": "Start From the Actual Floor Plan, Not a Guess at One",
+      "intro": "Upload blueprints alongside the room photo — dimensions and constraints inform the render, not just the finish.",
+      "problemTitle": "Tired of Renders That Ignore Your Actual Floor Plan?",
+      "problem": "Most AI visualization tools generate a plausible-looking room with no relationship to your actual dimensions — fine for inspiration, useless for a client conversation about a real project.",
+      "pains": [
+        "A gorgeous render that ignores where a load-bearing wall actually sits",
+        "Client excitement about a layout that doesn't fit their real square footage",
+        "Generic finishes that don't reflect the spec you're actually proposing",
+        "No way to hand a client something more substantial than a picture",
+        "Concept tools that assume every project starts from an empty room"
+      ],
+      "benefits": [
+        [
+          "Blueprint-Aware Generation",
+          "dimensions and constraints shape the render"
+        ],
+        [
+          "Briller Insights",
+          "Explore materials, lighting and implementation questions alongside the concept."
+        ],
+        [
+          "PDF exports",
+          "Export specification notes on Pro Design and Studio / Architect."
+        ],
+        [
+          "Faster generation queue",
+          "Available on Pro Design and Studio / Architect."
+        ]
+      ],
+      "steps": [
+        [
+          "Upload Room Photo + Blueprint",
+          "the actual plan, not a stand-in"
+        ],
+        [
+          "Brief the Direction",
+          "describe materials, finish level, or layout intent"
+        ],
+        [
+          "Magic Render",
+          "dimension-aware, constraint-informed"
+        ],
+        [
+          "Refine",
+          "adjust and regenerate as the concept develops"
+        ],
+        [
+          "Export PDF + Download",
+          "client-ready documentation"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "4\" structural steel column, clad in blackened steel panel"
+        ],
+        [
+          "Lighting & Ambiance",
+          "Linear cove lighting, 3500K, running the perimeter of the exposed ceiling"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "The column cladding is decorative and non-load-bearing — the column itself is structural, and this render assumes it stays exactly where the blueprint shows it."
+        ]
+      ],
+      "directions": [
+        [
+          "Open-Concept Concept",
+          "existing wall removed as a visualization, structural column called out explicitly"
+        ],
+        [
+          "Material Study",
+          "same layout, two finish packages compared"
+        ]
+      ],
+      "briefs": [
+        "Show this with the wall opened per the blueprint, column exposed and clad",
+        "Same footprint, propose a finish package for a mid-range budget",
+        "Match the ceiling height and window placement exactly to the plan"
+      ],
+      "related": [
+        "open-concept-wall-removal",
+        "basement-garage-conversion",
+        "general-contractors-remodeling-companies",
+        "property-developers"
+      ],
+      "note": "A render that ignores your blueprint's dimensions can look great and still be unbuildable in the actual footprint — that gap is the reason this page exists, not the finish. A blueprint can add dimensional context to a concept; it's a concept aid for client conversations, not a stamped structural determination.",
+      "faqs": [
+        [
+          "What blueprint formats work?",
+          "Standard floor plan uploads alongside the room photo — check current supported formats in-app."
+        ],
+        [
+          "Does this replace CAD or BIM work?",
+          "No — it's fast concept alignment before that stage, not a replacement for it."
+        ],
+        [
+          "Can my team work from the same project?",
+          "Shared projects are available on Studio / Architect, which includes 3 team seats."
+        ],
+        [
+          "Is there a commercial license on Studio renders?",
+          "All paid plans include commercial licensing. Confirm the current app terms for the scope of your licence before publishing or delivering client work."
+        ]
+      ],
+      "label": "Architects & architecture studios",
+      "category": "professional",
+      "audiences": [
+        "architects"
+      ]
+    },
+    {
+      "slug": "general-contractors-remodeling-companies",
+      "title": "Get the Client to Yes Before You Write the Quote",
+      "intro": "Show them a direction, hand them a materials list they can actually price against.",
+      "problemTitle": "Client Loves the Look, Then Balks at the Quote?",
+      "problem": "The gap between what a client imagines and what a quote actually costs is where deals stall — usually because nobody showed them a real direction before the number.",
+      "pains": [
+        "A client who can't picture the finished room from a verbal description alone",
+        "Sticker shock on a quote that reflects a finish they never actually agreed to",
+        "Competing bids where the client is comparing apples to oranges",
+        "Redoing a proposal because the client's mental image didn't match the plan",
+        "No easy way to show two budget tiers side by side"
+      ],
+      "benefits": [
+        [
+          "Client-Ready Renders",
+          "a direction to react to before the estimate"
+        ],
+        [
+          "Budget-tier comparison",
+          "Show a mid-range and premium finish package before pricing the installation."
+        ],
+        [
+          "PDF exports",
+          "Export specification notes on Pro Design and Studio / Architect."
+        ],
+        [
+          "Faster generation queue",
+          "Available on Pro Design and Studio / Architect."
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Room",
+          "the client's actual space"
+        ],
+        [
+          "Brief the Proposed Direction",
+          "the scope you're planning to quote"
+        ],
+        [
+          "Magic Render",
+          "a client-ready visual"
+        ],
+        [
+          "Refine With the Client in the Room",
+          "adjust live if useful"
+        ],
+        [
+          "Export PDF for the Bid",
+          "materials list attached to the proposal"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Porcelain slab backsplash, full height, 12mm"
+        ],
+        [
+          "Lighting & Ambiance",
+          "Task lighting under cabinets, 4000K, plus one 2700K pendant over the island"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "Full-height slab needs a flat substrate and typically two installers — budget for that labor line, it's often left off a first estimate."
+        ]
+      ],
+      "directions": [
+        [
+          "Budget Tier vs. Premium Tier",
+          "same room, two finish packages, shown side by side"
+        ],
+        [
+          "Client Walkthrough Concept",
+          "existing room next to the proposed direction"
+        ]
+      ],
+      "briefs": [
+        "Show the mid-range and the premium version of this kitchen, side by side",
+        "Match the finish package we quoted for the economy bid line",
+        "Keep the layout, change only the surfaces we're bidding on"
+      ],
+      "related": [
+        "kitchen-bath-remodelers",
+        "basement-garage-conversion",
+        "architects-architecture-studios",
+        "real-estate-investors-house-flippers"
+      ],
+      "note": "Renders inform the client conversation — they don't replace a real quote or an engineering sign-off. Say that plainly to the client before the render does the selling for you. The client fell in love with the full-height slab render; the budget says tile to counter height. Show both, name the price gap, let them choose with eyes open.",
+      "faqs": [
+        [
+          "Can I show two budget tiers in one client meeting?",
+          "Yes — prepare both directions before the meeting, then use feedback to refine the proposal."
+        ],
+        [
+          "Does the PDF export replace my own bid documentation?",
+          "No — it's a materials/spec reference to attach alongside your actual bid."
+        ],
+        [
+          "Can I use renders in my marketing?",
+          "All paid plans include commercial licensing. Confirm the current app terms for the scope of your licence before publishing or delivering client work."
+        ],
+        [
+          "How many team members can access one project?",
+          "Shared projects are available on Studio / Architect, which includes 3 team seats."
+        ]
+      ],
+      "label": "Contractors & remodeling companies",
+      "category": "professional",
+      "audiences": [
+        "contractors"
+      ]
+    },
+    {
+      "slug": "kitchen-bath-remodelers",
+      "title": "The Two Rooms Where the Wrong Material Costs You the Most",
+      "intro": "Briller's notes go into cabinetry, plumbing, and ventilation — not just the paint color.",
+      "problemTitle": "One Material Choice Away From Blowing the Whole Budget?",
+      "problem": "Kitchens and bathrooms carry more of a renovation budget than any other room, and most of that cost lives in decisions that don't show up in a pretty render — substrate, venting, water lines.",
+      "pains": [
+        "A tile choice that looks simple and isn't, labor-wise",
+        "Countertop overhang that looks fine in a render and isn't structurally supported",
+        "A vent fan relocation nobody priced into the original scope",
+        "GFCI placement that becomes an afterthought until inspection",
+        "A finish that reads \"mid-range\" in a photo and prices like \"premium\""
+      ],
+      "benefits": [
+        [
+          "Room-Specific Detail",
+          "cabinetry construction, edge profiles, tile setting patterns"
+        ],
+        [
+          "Plumbing & Electrical Notes",
+          "where a vent stack, GFCI, or supply line realistically lands"
+        ],
+        [
+          "PDF exports",
+          "Export specification notes on Pro Design and Studio / Architect."
+        ],
+        [
+          "Faster generation queue",
+          "Available on Pro Design and Studio / Architect."
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Room",
+          "kitchen or bath as it is today"
+        ],
+        [
+          "Brief the Direction",
+          "note any layout changes, not just finish preferences"
+        ],
+        [
+          "Magic Render",
+          "styled and material-specific"
+        ],
+        [
+          "Refine",
+          "adjust materials or layout independently"
+        ],
+        [
+          "Download",
+          "full spec notes included"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Handmade zellige tile, shower surround, 4x4"
+        ],
+        [
+          "Lighting & Ambiance",
+          "3000K waterproof recessed fixture, IC-rated"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "Zellige is hand-formed and irregular — budget 15–20% more tile than a standard rectified job to account for cutting waste, and a setter experienced with it."
+        ]
+      ],
+      "directions": [
+        [
+          "Tub to Shower Conversion",
+          "layout change shown alongside the finish direction"
+        ],
+        [
+          "Cabinet Refacing vs. Full Replacement",
+          "two budget tiers, same room"
+        ]
+      ],
+      "briefs": [
+        "Show this bathroom with a curbless shower instead of the tub",
+        "Same cabinet boxes, new fronts and hardware only",
+        "Full-height tile versus tile-to-counter-height, side by side"
+      ],
+      "related": [
+        "general-contractors-remodeling-companies",
+        "flooring-finish-comparison",
+        "architects-architecture-studios"
+      ],
+      "note": "Handmade tile looks better in every render. It also costs more in labor than the tile itself — the render should say so, not just show it. A render this specific can make a labor-intensive material look like a simple swap; price the install, not just the material, before it goes in a client-facing quote.",
+      "faqs": [
+        [
+          "Does this account for plumbing relocation cost?",
+          "It notes where fixtures realistically need to land — actual relocation cost still needs your own estimate."
+        ],
+        [
+          "Can I compare a tub-to-shower layout change?",
+          "Yes — describe the layout change in the brief and Refine from there."
+        ],
+        [
+          "Is this detail level available on Explorer?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ],
+        [
+          "Can I export a spec sheet for a client?",
+          "Yes — PDF specification export is available on Pro Design and Studio / Architect."
+        ],
+        [
+          "Can I share projects with my team?",
+          "Shared projects are available on Studio / Architect, which includes 3 team seats."
+        ],
+        [
+          "Can I use renders commercially?",
+          "All paid plans include commercial licensing. Confirm the current app terms for the scope of your licence before publishing or delivering client work."
+        ]
+      ],
+      "label": "Kitchen & bath remodelers",
+      "category": "professional",
+      "audiences": [
+        "remodelers",
+        "contractors"
+      ]
+    },
+    {
+      "slug": "real-estate-agents-listing-prep",
+      "title": "Show a Buyer What the Room Could Be, Not Just What's Empty",
+      "intro": "Upload a listing photo, stage the room, let the before/after do the work.",
+      "problemTitle": "Empty Rooms Sitting on the Market?",
+      "problem": "An empty room reads smaller and colder in photos than it does in person, and most buyers scroll past a listing before they ever picture themselves in it.",
+      "pains": [
+        "A vacant room that photographs smaller than it actually is",
+        "Buyers who can't picture furniture placement from an empty photo",
+        "Listing photos that get less engagement than staged comparables",
+        "A seller who's already moved out, no furniture left to stage with",
+        "A tight turnaround between the listing going live and the first showing"
+      ],
+      "benefits": [
+        [
+          "Before/After Slider",
+          "the room as it is, and staged, one image"
+        ],
+        [
+          "Minutes Per Room",
+          "about the time it takes to write the listing description"
+        ],
+        [
+          "Beyond Furniture",
+          "a stated style direction, not just \"add a couch\""
+        ],
+        [
+          "Style Range",
+          "direction described in plain language to match your buyer pool"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Listing Photo",
+          "the room as it currently stands"
+        ],
+        [
+          "Brief the Staging Direction",
+          "style and target buyer, in plain language"
+        ],
+        [
+          "Magic Render",
+          "staged, photorealistic light and proportions preserved"
+        ],
+        [
+          "Refine",
+          "try a second style before choosing one"
+        ],
+        [
+          "Download for MLS",
+          "ready for the listing"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Light oak console, linen slipcover sofa, jute rug"
+        ],
+        [
+          "Lighting & Ambiance",
+          "Warm 2700K floor lamp, staged for a late-afternoon listing photo"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "Staging only — nothing here assumes construction, which is worth saying plainly on the listing. Check your local MLS rules on disclosing virtually staged photos."
+        ]
+      ],
+      "directions": [
+        [
+          "Empty Living Room, Staged",
+          "sofa, rug, and lighting direction added"
+        ],
+        [
+          "Empty Primary Bedroom, Staged",
+          "bed, nightstands, and a warm lighting pass"
+        ]
+      ],
+      "briefs": [
+        "Stage this living room for a young family buyer, warm and casual",
+        "Modern, minimal staging for this condo, target a first-time buyer",
+        "Neutral, broad-appeal staging — nothing too specific to one taste"
+      ],
+      "related": [
+        "paint-wall-color-testing",
+        "try-a-design-style",
+        "real-estate-investors-house-flippers",
+        "property-developers"
+      ],
+      "note": "Stage each room in minutes — this isn't a one-pass, whole-listing batch tool today, so budget a few minutes per room rather than one action for the whole property. Virtual staging sells the room's potential, not a fact about what's included in the sale — disclose it as staged, every time.",
+      "faqs": [
+        [
+          "Can I stage an entire listing in one action?",
+          "Not currently — each room is staged individually."
+        ],
+        [
+          "Do I need to disclose virtual staging?",
+          "Check your local MLS and state disclosure rules — this varies by market."
+        ],
+        [
+          "Can I try more than one staging style for the same room?",
+          "Yes — Refine to compare styles before choosing one for the listing."
+        ],
+        [
+          "Is this available on the free plan?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "Real estate agents & listing prep",
+      "category": "property",
+      "audiences": [
+        "agents"
+      ]
+    },
+    {
+      "slug": "real-estate-investors-house-flippers",
+      "title": "Know What a Renovation Actually Takes Before You Make an Offer",
+      "intro": "Photograph the rooms that need work, get a direction with real cost logic attached, before you're locked into a purchase.",
+      "problemTitle": "Not Sure This Flip Actually Pencils Out?",
+      "problem": "The math on a flip lives or dies on renovation cost, and most of that number gets guessed at during a walkthrough, before anyone's actually priced the work.",
+      "pains": [
+        "A \"cosmetic\" fix that's actually a subfloor problem in disguise",
+        "Two competing offers where the renovation budget is the real unknown",
+        "A render-worthy idea that doesn't match the property's actual comps",
+        "Underestimating labor on a finish that looks simple in a photo",
+        "A walkthrough that happens too fast to think through each room"
+      ],
+      "benefits": [
+        [
+          "Room-by-Room Renders",
+          "every room that needs work gets its own project"
+        ],
+        [
+          "Cost-Aware Direction",
+          "materials and installation notes, not just a nicer photo"
+        ],
+        [
+          "Fast Turnaround",
+          "a direction in minutes, while you're still deciding on the offer"
+        ],
+        [
+          "Budget-Tier Framing",
+          "see the realistic version, not just the aspirational one"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload Each Problem Room",
+          "as many as the walkthrough turns up"
+        ],
+        [
+          "Brief the Direction",
+          "at a stated budget tier"
+        ],
+        [
+          "Magic Render",
+          "a cost-aware direction, not just a prettier photo"
+        ],
+        [
+          "Refine",
+          "compare a light refresh against a fuller renovation"
+        ],
+        [
+          "Download for the Offer Decision",
+          "before you're locked in"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "LVP flooring, mid-grade, throughout"
+        ],
+        [
+          "Lighting & Ambiance",
+          "Standard 2700K flush-mounts, builder-grade"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "This is the budget version deliberately — LVP goes over existing subfloor if it's flat and dry. Visible cupping or moisture staining is a subfloor problem this render can't price for you, and it changes the math."
+        ]
+      ],
+      "directions": [
+        [
+          "Dated Kitchen, Budget Refresh",
+          "LVP, repaint cabinets, new hardware only"
+        ],
+        [
+          "Bathroom, Cosmetic-Only Pass",
+          "no layout change, surface refresh only"
+        ]
+      ],
+      "briefs": [
+        "Show the budget-tier version of this kitchen, cosmetic changes only",
+        "What would this bathroom look like with just paint and fixtures changed",
+        "Compare a light refresh against a full gut, same room"
+      ],
+      "related": [
+        "real-estate-agents-listing-prep",
+        "flooring-finish-comparison",
+        "kitchen-surfaces"
+      ],
+      "note": "A render this clean can make a real problem look like a light refresh. It's a direction, not an inspection — the numbers still need a contractor's eyes on the actual property.",
+      "faqs": [
+        [
+          "Can this replace a contractor walkthrough?",
+          "No — it's a fast first pass, not an inspection or a bid."
+        ],
+        [
+          "Can I compare a light refresh against a full renovation?",
+          "Yes — brief both directions and Refine to compare."
+        ],
+        [
+          "How fast can I get a direction on a property I'm about to bid on?",
+          "Minutes per room, assuming photos are ready."
+        ],
+        [
+          "Is there a limit on how many rooms I can visualize per property?",
+          "No — unlimited projects on Pro Design."
+        ]
+      ],
+      "label": "Property investors & house flippers",
+      "category": "property",
+      "audiences": [
+        "investors"
+      ]
+    },
+    {
+      "slug": "property-developers",
+      "title": "Sell Units Before the Drywall Goes Up",
+      "intro": "Turn a blueprint into a buyer-facing render, with the material story to back it up in the sales deck.",
+      "problemTitle": "Trying to Sell Units That Don't Exist Yet?",
+      "problem": "Pre-construction sales depend on a buyer trusting a picture of something that doesn't exist yet — generic stock renders don't build that trust, and neither does a spec sheet nobody reads.",
+      "pains": [
+        "A generic stock render that doesn't match the actual unit plan",
+        "Buyers who can't tell what's a standard finish and what's an upgrade",
+        "Sales materials that go stale every time a finish package changes",
+        "A brochure that oversells and creates a closing-day surprise",
+        "No fast way to visualize multiple unit types for one development"
+      ],
+      "benefits": [
+        [
+          "Blueprint-to-Render",
+          "starts from the actual unit plan, not a stock interior"
+        ],
+        [
+          "Commercial License Included",
+          "use renders in sales materials and brochures"
+        ],
+        [
+          "PDF exports",
+          "Export specification notes on Pro Design and Studio / Architect."
+        ],
+        [
+          "Faster generation queue",
+          "Available on Pro Design and Studio / Architect."
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Unit Blueprint",
+          "the actual plan for the unit type"
+        ],
+        [
+          "Brief the Finish Package",
+          "standard or upgrade tier"
+        ],
+        [
+          "Magic Render",
+          "buyer-facing, dimension-aware"
+        ],
+        [
+          "Refine Per Unit Type",
+          "as many variations as the development needs"
+        ],
+        [
+          "Export PDF",
+          "ready for sales materials"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Matte black kitchen hardware, quartz waterfall island edge"
+        ],
+        [
+          "Lighting & Ambiance",
+          "3000K throughout, integrated island pendant cluster"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "The waterfall edge is a finish spec, not a structural one — flag it in buyer materials as a standard finish package, not a guaranteed as-built, if buyers can select alternates."
+        ]
+      ],
+      "directions": [
+        [
+          "Blueprint to Finished Unit",
+          "floor plan next to the rendered interior"
+        ],
+        [
+          "Standard vs. Upgrade Package",
+          "two finish tiers, same unit plan"
+        ]
+      ],
+      "briefs": [
+        "Show the standard finish package for Unit Type B",
+        "Same unit plan, upgraded to the premium finish tier",
+        "Match this render to the actual floor plan dimensions exactly"
+      ],
+      "related": [
+        "architects-architecture-studios",
+        "general-contractors-remodeling-companies",
+        "kitchen-surfaces"
+      ],
+      "note": "A pre-construction render that oversells the finish package creates a buyer walkthrough problem at closing. State clearly what's standard and what's upgrade, every time it's used in sales materials.",
+      "faqs": [
+        [
+          "Can I visualize multiple unit types for one development?",
+          "Yes — each unit type is its own project."
+        ],
+        [
+          "Does the render commit us to an exact finish at closing?",
+          "No — state clearly in sales materials what's standard vs. optional upgrade."
+        ],
+        [
+          "Can my sales team access the same projects?",
+          "Shared projects are available on Studio / Architect, which includes 3 team seats."
+        ],
+        [
+          "Is the commercial license included at this tier?",
+          "All paid plans include commercial licensing. Confirm the current app terms for the scope of your licence before publishing or delivering client work."
+        ]
+      ],
+      "label": "Property developers",
+      "category": "property",
+      "audiences": [
+        "developers"
+      ]
+    },
+    {
+      "slug": "short-term-rental-airbnb-hosts",
+      "title": "Furnish the Listing Photos Before You Furnish the Room",
+      "intro": "Describe your furnishing budget, see a few directions, then shop the pieces that got you there.",
+      "problemTitle": "Listing Photos Not Landing the Bookings You Want?",
+      "problem": "A host's furnishing budget is real and usually tight, and guessing at furniture before seeing it in the actual room is how that budget gets spent twice.",
+      "pains": [
+        "Furniture that looked right online and wrong in the actual room",
+        "A style direction that doesn't match what similar listings nearby are doing",
+        "A furnishing budget that's already spent before the room looks finished",
+        "Listing photos that don't stand out against nearby comparable listings",
+        "Needing to refresh the look between seasons without buying everything twice"
+      ],
+      "benefits": [
+        [
+          "Budget-Aware Styling",
+          "describe your actual furnishing budget in the brief"
+        ],
+        [
+          "Shop the Look",
+          "explore product suggestions inspired by the render; check current prices and availability"
+        ],
+        [
+          "Fast Iteration",
+          "try a second style before buying anything"
+        ],
+        [
+          "Freestanding-Only Direction",
+          "no wall work assumed, matches a furnishing-only budget"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Room",
+          "empty or with existing furniture"
+        ],
+        [
+          "Brief the Style and Budget",
+          "described in plain language"
+        ],
+        [
+          "Magic Render",
+          "a furnished direction within that budget"
+        ],
+        [
+          "Refine",
+          "try a second style before deciding"
+        ],
+        [
+          "Shop the Look",
+          "for the final direction"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Bouclé accent chair, rattan pendant, white oak console"
+        ],
+        [
+          "Lighting & Ambiance",
+          "2700K warm ambient, one statement pendant"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "Everything here is freestanding furniture — no wall work, no electrical — which is exactly why it fits a furnishing-only budget."
+        ]
+      ],
+      "directions": [
+        [
+          "Empty Room, Furnished",
+          "full furnishing direction on a stated budget"
+        ],
+        [
+          "Style Refresh",
+          "existing furniture layout, new accent pieces only"
+        ]
+      ],
+      "briefs": [
+        "Furnish this room for a mid-range nightly rate, casual and durable",
+        "Refresh this room for the season without replacing the big furniture",
+        "Match the style of nearby listings in this area, but make it distinct"
+      ],
+      "related": [
+        "airbnb-turnover-refresh",
+        "lighting-design-fixture-selection",
+        "paint-wall-color-testing"
+      ],
+      "note": "A styled render sets guest expectations. If the real room won't have that exact rug or that exact art, don't publish the exact render as the listing photo — furnish close to it.",
+      "faqs": [
+        [
+          "Can I set a specific furnishing budget in the brief?",
+          "Yes — describe it in plain language and Briller styles within that direction."
+        ],
+        [
+          "Does Shop the Look link to real, purchasable items?",
+          "Shop the Look suggests purchasable items. Check current price, availability and suitability before buying."
+        ],
+        [
+          "Can I try more than one style before buying furniture?",
+          "Yes — Refine as many directions as your Credits allow."
+        ],
+        [
+          "Is this available on the free plan?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "Short-term rental & Airbnb hosts",
+      "category": "property",
+      "audiences": [
+        "hosts"
+      ]
+    },
+    {
+      "slug": "try-a-design-style",
+      "title": "See Your Actual Room in Five Styles Before You Pick One",
+      "intro": "Upload your room, run it through Japandi, Scandinavian, Industrial, Modern Minimalism, and Classic, and see what actually fits.",
+      "problemTitle": "Like a Style in Photos, Not Sure It'll Work in Your Actual Room?",
+      "problem": "A style that looks great in someone else's photos doesn't automatically translate to your actual room, your actual light, or your actual furniture — and most people only find that out after committing to it.",
+      "pains": [
+        "A style you love in inspiration photos that doesn't match your room's actual proportions",
+        "Not knowing if a bold style (industrial, maximalist) will feel right long-term",
+        "Committing to a full style direction before testing it on your actual space",
+        "A style quiz result that doesn't match what you'd actually pick when you see options",
+        "Wanting to compare styles side by side instead of imagining them separately"
+      ],
+      "benefits": [
+        [
+          "Five Styles, Same Room",
+          "Japandi, Scandinavian, Industrial, Modern Minimalism, and Classic, side by side"
+        ],
+        [
+          "Inspiration by style",
+          "Browse curated interior references before choosing a direction."
+        ],
+        [
+          "No Commitment Required",
+          "explore before writing a full design brief"
+        ],
+        [
+          "Fast Comparison",
+          "multiple styles in the time it takes to explore one"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload Your Room",
+          "the space you're deciding on"
+        ],
+        [
+          "Select or Describe the Styles to Compare",
+          "pick from the five or name your own mix"
+        ],
+        [
+          "Magic Render (Multiple Styles)",
+          "each style applied to your actual room"
+        ],
+        [
+          "Refine Your Favorite",
+          "once a direction stands out"
+        ],
+        [
+          "Download",
+          "the comparison or your chosen direction"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Varies by style — Japandi pairs light oak and linen; Industrial pairs blackened steel and leather"
+        ],
+        [
+          "Lighting & Ambiance",
+          "Warmer, layered lighting for Japandi and Scandinavian; more directional, exposed fixtures for Industrial"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "This comparison is cosmetic only — no layout or structural changes across any of the five style directions."
+        ]
+      ],
+      "directions": [
+        [
+          "Same Room, Five Styles",
+          "one room shown across all five style directions"
+        ],
+        [
+          "Style Deep-Dive",
+          "two closely related styles compared side by side (e.g., Scandinavian vs. Japandi)"
+        ]
+      ],
+      "briefs": [
+        "Show this room in Japandi, then Scandinavian, so I can compare",
+        "Try Industrial style on this exact room",
+        "Which of these five styles works best with my existing furniture?"
+      ],
+      "related": [
+        "interior-designers-freelance-decorators",
+        "first-room-refresh",
+        "paint-wall-color-testing"
+      ],
+      "note": "Style comparisons here are cosmetic — furniture, color, and material direction — not layout or structural changes. That's a separate step once a style direction is chosen.",
+      "faqs": [
+        [
+          "Can I compare all five styles at once?",
+          "Yes — brief multiple styles and Refine to compare them side by side."
+        ],
+        [
+          "Does this work for any room type?",
+          "Yes — living rooms, bedrooms, kitchens, and exteriors all support style comparison."
+        ],
+        [
+          "Can I browse references by style first?",
+          "Yes — filter the Inspiration gallery by style, download a reference and add it to your moodboard manually. These are curated references, not verified customer renders."
+        ],
+        [
+          "Is this available on the free plan?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "Try a design style",
+      "category": "refresh",
+      "audiences": [
+        "homeowners",
+        "renters",
+        "designers"
+      ]
+    },
+    {
+      "slug": "paint-wall-color-testing",
+      "title": "Try the Color Before You Buy the Can",
+      "intro": "Upload the room, describe the color direction, see it on your actual walls before buying a sample.",
+      "problemTitle": "Fifteen Paint Chips Taped to the Wall and Still Not Sure?",
+      "problem": "Paint chips lie — under store lighting, at swatch size, next to nothing. The only honest test is the color on your actual wall, in your actual light, and that used to mean buying sample cans and waiting for them to dry.",
+      "pains": [
+        "A color that reads completely different under your room's actual light",
+        "Swatch-sized samples that give no sense of a full wall",
+        "Sample cans and painted test patches that still don't settle the decision",
+        "A color that works with your furniture in theory and clashes in person",
+        "Choosing a whole-house palette without seeing rooms next to each other"
+      ],
+      "benefits": [
+        [
+          "Real Wall, Real Light",
+          "your actual room, not a swatch"
+        ],
+        [
+          "Full-Wall Preview",
+          "see the color at full scale, not a 2-inch square"
+        ],
+        [
+          "Compare Multiple Colors",
+          "try three directions before buying one can"
+        ],
+        [
+          "Whole-Palette Testing",
+          "preview how colors carry across adjoining rooms"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Room",
+          "the wall or space you're repainting"
+        ],
+        [
+          "Brief the Color Direction",
+          "a tone, mood, or specific color in plain language"
+        ],
+        [
+          "Magic Render",
+          "the color applied to your actual wall"
+        ],
+        [
+          "Refine to Compare Colors",
+          "try a second or third direction"
+        ],
+        [
+          "Download",
+          "to compare against paint swatches"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Matte finish wall paint, warm greige tone"
+        ],
+        [
+          "Lighting & Ambiance",
+          "Existing room lighting held constant for an accurate color read"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "This shows color only — surface prep (patching, priming over a dark existing color) still applies before painting."
+        ]
+      ],
+      "directions": [
+        [
+          "Accent Wall Test",
+          "three color directions on the same wall"
+        ],
+        [
+          "Whole-Room Repaint",
+          "full color change, same furniture and lighting"
+        ]
+      ],
+      "briefs": [
+        "Show this wall in a warm greige, then in a cool white, side by side",
+        "Try this room in three different paint directions",
+        "Match the color from my living room into this hallway"
+      ],
+      "related": [
+        "first-room-refresh",
+        "real-estate-agents-listing-prep",
+        "try-a-design-style"
+      ],
+      "note": "The render suggests a colour direction — it doesn't account for surface prep. A dark existing color usually needs primer regardless of which new color you pick.",
+      "faqs": [
+        [
+          "Does the render match the exact paint brand and color code?",
+          "It previews the tone and finish direction — match it to an actual paint code using a physical sample before buying full cans."
+        ],
+        [
+          "Can I test more than one color at once?",
+          "Yes — brief multiple directions and Refine to compare."
+        ],
+        [
+          "Is this available on the free plan?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ],
+        [
+          "Can I preview a whole-house palette?",
+          "Yes, especially useful across multiple projects on Pro Design."
+        ]
+      ],
+      "label": "Paint & wall colours",
+      "category": "refresh",
+      "audiences": [
+        "homeowners",
+        "renters",
+        "designers"
+      ]
+    },
+    {
+      "slug": "lighting-design-fixture-selection",
+      "title": "See the Room Under the Light It'll Actually Have",
+      "intro": "Upload the room as it is, tell Briller what's wrong with the light, and see fixture and placement changes before you buy anything.",
+      "problemTitle": "Room Feels Off and You Suspect It's the Lighting?",
+      "problem": "Bad lighting is the most common reason a finished room still feels wrong — and the easiest thing to get wrong twice, because a fixture that looks right in a store photo can land completely differently once it's actually in your ceiling.",
+      "pains": [
+        "The room looks fine in daylight and flat the moment the sun goes down",
+        "One overhead fixture doing a job that really needs three different light sources",
+        "A \"warm white\" bulb that reads more yellow than expected once it's installed",
+        "Task lighting that's technically there but not actually where the task is",
+        "A fixture you love online, with no real sense of how big it'll look overhead"
+      ],
+      "benefits": [
+        [
+          "Room-Real Lighting Logic",
+          "Briller reads your room's actual window placement and ceiling height before suggesting a fixture, not just a style"
+        ],
+        [
+          "Kelvin & Placement, Not Just a Look",
+          "every lighting note names a color temperature and where the fixture goes"
+        ],
+        [
+          "Layered, Not Single-Source",
+          "Briller separates ambient, task, and accent lighting instead of proposing one fixture to do everything"
+        ],
+        [
+          "Iterate Before You Buy",
+          "try a pendant, then a flush mount, then a different Kelvin, before a single fixture ships"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload Your Room",
+          "one photo of the room as it is, any time of day"
+        ],
+        [
+          "Tell Briller What's Off",
+          "a design brief in plain language: \"too dim over the table,\" \"want warmer light in the evening\""
+        ],
+        [
+          "Magic Render",
+          "Briller proposes fixtures and placement, styled to match the room"
+        ],
+        [
+          "Refine",
+          "not quite right? Adjust the brief and try again"
+        ],
+        [
+          "Download",
+          "HD render plus Briller's lighting notes, ready to bring to an electrician if wiring's involved"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Matte black pendant, seeded glass shade, 14\" diameter"
+        ],
+        [
+          "Lighting & Ambiance",
+          "2700K, dimmable, hung 30\" above the table surface"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "This assumes there's already a ceiling electrical box roughly where the pendant needs to hang. Moving that box is an electrician's job, not a lighting-only fix, and changes the budget."
+        ]
+      ],
+      "directions": [
+        [
+          "Dining Nook, Overhead Swap",
+          "one flush-mount fixture replaced with a single dimmable pendant, same ceiling box"
+        ],
+        [
+          "Home Office, Added Task Light",
+          "a desk lamp added at 4000K, ambient light left untouched at 2700K"
+        ],
+        [
+          "Living Room, Layered Fix",
+          "one lamp added at the reading chair, no change to the existing overhead"
+        ]
+      ],
+      "briefs": [
+        "Warmer light in here in the evening, keep it bright enough to read",
+        "Replace the overhead fixture with a pendant over the table, 2700K",
+        "Add task lighting near the desk without changing anything else",
+        "Make this feel less like an office and more like a living room at night"
+      ],
+      "related": [
+        "first-room-refresh",
+        "whole-home-renovation-planning",
+        "short-term-rental-airbnb-hosts",
+        "home-office-workspace",
+        "paint-wall-color-testing",
+        "kitchen-surfaces"
+      ],
+      "note": "This shows a lighting and fixture direction — it doesn't confirm whether your current wiring or ceiling box supports the fixture you picked. A fixture that needs a new electrical box or a dimmer-compatible switch is still a conversation with an electrician. Briller can't verify local code on fixture placement (like required clearance over a tub) — treat the render as the design direction, not code sign-off.",
+      "faqs": [
+        [
+          "Does this handle wiring or electrical work?",
+          "No — Briller visualizes the fixture and placement; any new wiring, box relocation, or code compliance is a licensed electrician's call."
+        ],
+        [
+          "Will the Kelvin value in the render match the bulb I buy?",
+          "Buy a bulb rated at the Kelvin value in Briller's notes — that number is the point, not just how warm the render looks on your screen."
+        ],
+        [
+          "Can I try more than one lighting direction on the same room?",
+          "Yes — Refine as many times as you want within your Credits for the project."
+        ],
+        [
+          "Is this available on the free plan?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "Lighting & fixtures",
+      "category": "refresh",
+      "audiences": [
+        "homeowners",
+        "designers",
+        "remodelers"
+      ]
+    },
+    {
+      "slug": "flooring-finish-comparison",
+      "title": "Put Three Floors in the Same Room and Actually Compare Them",
+      "intro": "One room, three flooring directions, each with its own Materials and Installation notes.",
+      "problemTitle": "Can't Decide Between Hardwood, Tile, and LVP?",
+      "problem": "Flooring samples never look like the actual floor once it's installed under your furniture and your light — and it's one of the most expensive mistakes to walk back.",
+      "pains": [
+        "A sample chip that looks nothing like the floor once it covers 400 square feet",
+        "Hardwood that looks warm in the showroom and orange under your actual lighting",
+        "Not knowing if tile will feel too cold or too formal for the room",
+        "LVP that looks convincing in photos and cheap in person",
+        "A flooring choice made without seeing it next to the trim and walls you're keeping"
+      ],
+      "benefits": [
+        [
+          "Same Room, Three Options",
+          "hardwood, tile, and LVP shown side by side"
+        ],
+        [
+          "Installation Notes Per Material",
+          "what each option actually requires underneath"
+        ],
+        [
+          "Real Light, Real Room",
+          "not a showroom sample, your actual room's light"
+        ],
+        [
+          "Budget Tiers Named",
+          "a premium option next to a budget-conscious one"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Room",
+          "the space as it is today"
+        ],
+        [
+          "Brief the Flooring Options",
+          "name the materials you're comparing"
+        ],
+        [
+          "Magic Render",
+          "multiple directions generated for comparison"
+        ],
+        [
+          "Refine",
+          "narrow down or adjust any option"
+        ],
+        [
+          "Download Side by Side",
+          "ready to compare against samples"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "5\" wide-plank engineered white oak vs. matte porcelain plank tile vs. mid-grade LVP"
+        ],
+        [
+          "Lighting & Ambiance",
+          "Existing room lighting held constant across all three comparisons"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "Engineered hardwood floats or glues down depending on subfloor; tile needs a flat, rigid substrate and adds the most labor; LVP still needs a subfloor that meets the manufacturer’s flatness and moisture requirements."
+        ]
+      ],
+      "directions": [
+        [
+          "Living Room, Three Floors",
+          "same room, hardwood vs. tile vs. LVP"
+        ],
+        [
+          "Hallway Continuity",
+          "flooring matched from an adjacent room for a consistent look"
+        ]
+      ],
+      "briefs": [
+        "Show this room in wide-plank hardwood, then in matte tile, same layout",
+        "Compare a premium hardwood against a budget LVP in this exact room",
+        "Match the flooring direction from my living room into this hallway"
+      ],
+      "related": [
+        "whole-home-renovation-planning",
+        "real-estate-investors-house-flippers",
+        "kitchen-surfaces"
+      ],
+      "note": "A flooring render helps you explore colour and pattern — it can't tell you what's actually under your current floor. Get a subfloor check before committing to a material that assumes a flat, dry surface.",
+      "faqs": [
+        [
+          "Can I compare more than two flooring options at once?",
+          "Yes — brief multiple directions and Refine to compare them."
+        ],
+        [
+          "Does this account for subfloor condition?",
+          "No — that needs an in-person check before you commit to a material."
+        ],
+        [
+          "Can I match flooring across multiple rooms?",
+          "Yes, especially useful on Pro Design with multiple linked projects."
+        ],
+        [
+          "Is this available on the free plan?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "Flooring & finishes",
+      "category": "refresh",
+      "audiences": [
+        "homeowners",
+        "designers",
+        "remodelers"
+      ]
+    },
+    {
+      "slug": "kitchen-surfaces",
+      "title": "See Cabinets, Counters, and Backsplash Together, Not One at a Time",
+      "intro": "The three decisions that drive a kitchen budget, shown together in your actual room.",
+      "problemTitle": "Picking Finishes One at a Time and Hoping They Work Together?",
+      "problem": "Cabinet color, counter material, and backsplash tile all get picked at different showrooms, on different days, and the first time anyone sees them together is after they're installed.",
+      "pains": [
+        "A cabinet color and countertop that clash once they're side by side",
+        "A backsplash tile that looked neutral in the store and busy on the wall",
+        "Three separate decisions made without seeing them in the same room",
+        "A material combination that reads more expensive or cheaper than intended",
+        "Not knowing if a bold choice on one surface needs the other two to stay simple"
+      ],
+      "benefits": [
+        [
+          "All Three Surfaces, One Render",
+          "cabinets, counters, and backsplash shown together"
+        ],
+        [
+          "Material-Specific Notes",
+          "what each surface is actually made of and how it's installed"
+        ],
+        [
+          "Compare Combinations",
+          "try a few pairings before committing to any"
+        ],
+        [
+          "Budget Awareness",
+          "a premium combination next to a budget-conscious one"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Kitchen",
+          "as it stands today"
+        ],
+        [
+          "Brief All Three Surfaces Together",
+          "cabinet, counter, and backsplash direction"
+        ],
+        [
+          "Magic Render",
+          "the full combination, styled together"
+        ],
+        [
+          "Refine Each Surface Independently",
+          "swap one without redoing the rest"
+        ],
+        [
+          "Download",
+          "the full combination, ready to compare against samples"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "White oak veneer cabinets, honed quartz counter, handmade zellige backsplash"
+        ],
+        [
+          "Lighting & Ambiance",
+          "3000K under-cabinet lighting to show true material color"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "Zellige costs more in labor than material — budget the setter's time, not just the tile price."
+        ]
+      ],
+      "directions": [
+        [
+          "Full Surface Combination",
+          "cabinets, counter, and backsplash shown together, current vs. proposed"
+        ],
+        [
+          "Two Combinations Compared",
+          "a bold pairing next to a safer, more neutral one"
+        ]
+      ],
+      "briefs": [
+        "Show white oak cabinets with a honed quartz counter and simple subway tile",
+        "Try a bold backsplash with simple cabinets and counter, then the reverse",
+        "Keep the counter, change only the cabinet color and backsplash"
+      ],
+      "related": [
+        "kitchen-bath-remodelers",
+        "whole-home-renovation-planning",
+        "flooring-finish-comparison"
+      ],
+      "note": "Seeing all three surfaces together reduces clash risk, but it doesn't replace holding a physical material sample. Order a real quartz or tile sample before finalizing anything this expensive.",
+      "faqs": [
+        [
+          "Can I change one surface without regenerating all three?",
+          "Yes — Refine lets you adjust one element at a time."
+        ],
+        [
+          "Does this account for how the surfaces are actually installed together?",
+          "Installation notes address sequencing and labor considerations, but always confirm details with your contractor."
+        ],
+        [
+          "Is this available on Explorer?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ],
+        [
+          "Can I compare a budget combination against a premium one?",
+          "Yes — brief both and Refine to compare."
+        ]
+      ],
+      "label": "Kitchen surfaces",
+      "category": "refresh",
+      "audiences": [
+        "homeowners",
+        "designers",
+        "remodelers"
+      ]
+    },
+    {
+      "slug": "fireplace-mantel-redesign",
+      "title": "Update the One Thing Everyone Looks At First",
+      "intro": "Upload the room, describe the fireplace direction, see it restyled without redesigning the whole room around it.",
+      "problemTitle": "Fireplace Surround Stuck in the Decade It Was Built?",
+      "problem": "A fireplace is usually the visual anchor of a living room, and it's also usually the one thing nobody's updated since the house was built, because redoing it feels disproportionate to redoing everything else.",
+      "pains": [
+        "A dated brick or tile surround that ages the whole room around it",
+        "A mantel that doesn't match anything else in the space anymore",
+        "Not knowing if a surround update means changing anything structural or gas-related",
+        "Assuming a fireplace update requires redesigning the entire room",
+        "A big swing (full stone wall) considered when a smaller update would work"
+      ],
+      "benefits": [
+        [
+          "Focal-Point-Only Direction",
+          "restyle the fireplace without touching the rest of the room"
+        ],
+        [
+          "Surround Material Options",
+          "tile, stone veneer, or paint, shown realistically"
+        ],
+        [
+          "Scale Options",
+          "a modest refresh next to a full floor-to-ceiling redo"
+        ],
+        [
+          "Real Room Context",
+          "the fireplace shown in your actual space, not isolated"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Room",
+          "with the fireplace visible"
+        ],
+        [
+          "Brief the Surround Direction",
+          "paint, reface, or full re-clad"
+        ],
+        [
+          "Magic Render",
+          "the fireplace restyled, room otherwise unchanged"
+        ],
+        [
+          "Refine",
+          "compare a modest update against a full redo"
+        ],
+        [
+          "Download",
+          "ready to compare against contractor quotes"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Painted brick surround, walnut floating mantel shelf"
+        ],
+        [
+          "Lighting & Ambiance",
+          "Existing room lighting held constant to show true material tone"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "Painting existing brick is a surface-only change; a full stone veneer re-clad is a heavier install and may require confirming the hearth can support the added weight."
+        ]
+      ],
+      "directions": [
+        [
+          "Painted Brick Update",
+          "dated brick surround painted, mantel swapped"
+        ],
+        [
+          "Full Stone Veneer Redo",
+          "complete re-clad, floor to ceiling"
+        ]
+      ],
+      "briefs": [
+        "Paint this brick surround white, add a simple wood mantel",
+        "Show a full stone veneer re-clad on this fireplace",
+        "Modest refresh versus a full redo, same fireplace"
+      ],
+      "related": [
+        "whole-home-renovation-planning",
+        "backyard-outdoor-living-redesign",
+        "first-room-refresh"
+      ],
+      "note": "Painting or refacing a surround is a surface-level change; a full re-clad in heavier material can add real weight to the hearth. Confirm the hearth can support it before committing to a heavier material.",
+      "faqs": [
+        [
+          "Can I update just the fireplace without redesigning the room?",
+          "Yes — that's exactly what this is built for."
+        ],
+        [
+          "Does this address gas lines or structural elements?",
+          "No — this is a surface and material direction only; anything involving gas lines or structure needs a licensed professional."
+        ],
+        [
+          "Can I compare a modest update against a full redo?",
+          "Yes — brief both and Refine to compare."
+        ],
+        [
+          "Is this available on the free plan?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "Fireplace & mantel",
+      "category": "refresh",
+      "audiences": [
+        "homeowners",
+        "remodelers"
+      ]
+    },
+    {
+      "slug": "closet-built-in-storage-redesign",
+      "title": "Design Storage That Actually Holds What You Own",
+      "intro": "Upload the closet or storage space, describe what actually needs to fit, see a layout before you build it.",
+      "problemTitle": "Closet That Looks Fine and Holds Nothing?",
+      "problem": "Most closet and built-in redesigns start with a Pinterest photo of someone else's storage needs, not an honest inventory of what actually needs to fit in yours.",
+      "pains": [
+        "A closet system that looks organized in a photo and doesn't match what you actually own",
+        "Built-ins planned around a generic layout instead of your actual items",
+        "Storage that looks beautiful and holds noticeably less than the space it replaced",
+        "Not knowing if a custom closet system fits your specific budget tier",
+        "A \"before\" closet so cluttered it's hard to picture any version of \"after\""
+      ],
+      "benefits": [
+        [
+          "Storage-First Framing",
+          "what actually fits, not just what looks organized"
+        ],
+        [
+          "Works From Cluttered Rooms",
+          "Briller reads the space regardless of its current state"
+        ],
+        [
+          "Budget-Tier Systems",
+          "a simple shelving update next to a full custom build"
+        ],
+        [
+          "Item-Specific Layouts",
+          "describe what needs to fit, see it placed realistically"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Closet or Space",
+          "as it currently stands, clutter and all"
+        ],
+        [
+          "Brief What Needs to Fit",
+          "the actual items, not a generic wish list"
+        ],
+        [
+          "Magic Render",
+          "a realistic storage layout"
+        ],
+        [
+          "Refine",
+          "compare a basic update against a full custom build"
+        ],
+        [
+          "Download",
+          "ready to plan against"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Painted MDF shelving system, matte black hardware"
+        ],
+        [
+          "Lighting & Ambiance",
+          "3000K closet light, motion-activated"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "A custom shelving system this size typically mounts to wall studs — confirm stud placement before finalizing the exact layout width."
+        ]
+      ],
+      "directions": [
+        [
+          "Cluttered Closet to Organized System",
+          "full reorganization and shelving redesign"
+        ],
+        [
+          "Basic Shelf to Built-in",
+          "a single shelf and rod replaced with a full custom system"
+        ]
+      ],
+      "briefs": [
+        "Design a closet system that fits mostly hanging clothes and shoes",
+        "Show a simple shelving update versus a full custom built-in",
+        "Storage system for a mix of clothes, linens, and off-season items"
+      ],
+      "related": [
+        "interior-designers-freelance-decorators",
+        "small-space-studio-apartment-layout",
+        "nursery-kids-room-design"
+      ],
+      "note": "The render shows a realistic storage layout — it doesn't verify wall stud placement or confirm your items will fit exactly as pictured. Measure your actual items before finalizing a custom system.",
+      "faqs": [
+        [
+          "Does this work for a cluttered, unorganized closet as a starting point?",
+          "Yes — Briller reads the space regardless of its current state."
+        ],
+        [
+          "Can I compare a basic update against a full custom build?",
+          "Yes — brief both and Refine to compare."
+        ],
+        [
+          "Is stud placement confirmed automatically?",
+          "No — confirm that in person before finalizing a mounted system."
+        ],
+        [
+          "Is this available on Explorer?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "Closets & built-in storage",
+      "category": "layout",
+      "audiences": [
+        "homeowners",
+        "designers"
+      ]
+    },
+    {
+      "slug": "small-space-studio-apartment-layout",
+      "title": "Make a Small Footprint Work Harder",
+      "intro": "Upload the room, describe what it needs to do, see a layout that actually works at the scale you have.",
+      "problemTitle": "Square Footage That Fights You at Every Turn?",
+      "problem": "Small-space design advice is usually written for a generic small space, not your actual studio, and furniture that's technically \"compact\" often isn't compact enough for the room it needs to go in.",
+      "pains": [
+        "Furniture labeled \"space-saving\" that still doesn't fit the actual room",
+        "A studio that needs to be a bedroom, office, and living room, with no clear zones",
+        "Storage competing with the only open floor space in the room",
+        "A layout that looks fine on paper and doesn't leave room to walk",
+        "Multi-purpose furniture that turns out to be a compromise on every function"
+      ],
+      "benefits": [
+        [
+          "Real Dimensions, When Available",
+          "works from a blueprint if you have one, your room's actual proportions either way"
+        ],
+        [
+          "Function-First Framing",
+          "what the space needs to do, not just how it should look"
+        ],
+        [
+          "Zone-by-Zone Layout",
+          "sleeping, working, and living areas defined within one room"
+        ],
+        [
+          "Honest About Limits",
+          "plain about what a small footprint genuinely can't do"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Room (and Blueprint, if Available)",
+          "your actual proportions"
+        ],
+        [
+          "Brief the Functions It Needs to Serve",
+          "sleeping, working, living, in one space"
+        ],
+        [
+          "Magic Render",
+          "a zoned layout for your actual footprint"
+        ],
+        [
+          "Refine",
+          "adjust zones or furniture choices"
+        ],
+        [
+          "Download",
+          "ready to plan against"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Murphy bed unit, slim-profile dining table, wall-mounted shelving"
+        ],
+        [
+          "Lighting & Ambiance",
+          "Layered — 2700K ambient, 4000K task lighting at the desk zone"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "A wall-mounted murphy bed unit needs to land on studs or use a rated mounting system — confirm that before ordering."
+        ]
+      ],
+      "directions": [
+        [
+          "Studio, Zoned Layout",
+          "undefined open space divided into sleeping, working, and living zones"
+        ],
+        [
+          "Multi-Function Furniture Swap",
+          "bulky furniture replaced with space-efficient alternatives"
+        ]
+      ],
+      "briefs": [
+        "Divide this studio into a sleeping zone and a living zone",
+        "Fit a real desk setup into this room without losing floor space",
+        "Show multi-function furniture options for this exact room"
+      ],
+      "related": [
+        "home-office-workspace",
+        "closet-built-in-storage-redesign",
+        "renter-friendly-makeover"
+      ],
+      "note": "A render can show furniture fitting on paper — it can't replace measuring your actual doorways and hallways for delivery clearance on larger pieces like a murphy bed unit.",
+      "faqs": [
+        [
+          "Does this work without a blueprint?",
+          "Yes — a room photo alone works; a blueprint adds more dimensional precision if you have one."
+        ],
+        [
+          "Can I define specific zones within one room?",
+          "Yes — describe the functions needed and Briller lays them out."
+        ],
+        [
+          "Does this account for furniture delivery clearance?",
+          "No — measure doorways and hallways separately before ordering larger pieces."
+        ],
+        [
+          "Is this available on the free plan?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "Small spaces & studio apartments",
+      "category": "layout",
+      "audiences": [
+        "homeowners",
+        "renters",
+        "designers"
+      ]
+    },
+    {
+      "slug": "nursery-kids-room-design",
+      "title": "Design the Nursery Without the Overwhelm",
+      "intro": "Upload the room, describe the direction, see it before the deadline gets closer.",
+      "problemTitle": "Nursery Deadline Coming Up and No Direction Yet?",
+      "problem": "A nursery has a real deadline attached to it, and the number of decisions — color, furniture, storage, safety — tends to arrive all at once.",
+      "pains": [
+        "A color palette decision that feels bigger than it should with a deadline attached",
+        "Furniture that needs to be anchored or safety-rated, easy to overlook when focused on style",
+        "Storage that has to work for a room that will change constantly in its first few years",
+        "A Pinterest-perfect nursery that doesn't reflect what's actually practical for daily use",
+        "Budget stretched thin by items that get outgrown within a year"
+      ],
+      "benefits": [
+        [
+          "Softer Palette Guidance",
+          "age-appropriate direction without the overwhelm"
+        ],
+        [
+          "Safety Notes Stated Plainly",
+          "anchoring and safety-relevant details, not glossed over"
+        ],
+        [
+          "Storage-First Framing",
+          "designed to grow with the room's changing needs"
+        ],
+        [
+          "Budget-Aware Styling",
+          "a full nursery on a defined, realistic budget"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Room",
+          "the space as it stands today"
+        ],
+        [
+          "Brief the Direction and Budget",
+          "palette, must-haves, and budget"
+        ],
+        [
+          "Magic Render",
+          "a full nursery direction"
+        ],
+        [
+          "Refine",
+          "adjust palette or furniture"
+        ],
+        [
+          "Shop the Look",
+          "for the final direction"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Painted wood crib, upholstered glider, woven storage baskets"
+        ],
+        [
+          "Lighting & Ambiance",
+          "2700K dimmable, layered with a separate nightlight-level option"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "Anchor furniture that could tip using its manufacturer’s instructions — this is a safety note, not a style suggestion, and applies regardless of the direction chosen."
+        ]
+      ],
+      "directions": [
+        [
+          "Empty Room to Full Nursery",
+          "full furnishing and color direction"
+        ],
+        [
+          "Shared Room, Kid Zone Carved Out",
+          "a defined kids' area within a larger room"
+        ]
+      ],
+      "briefs": [
+        "Soft, gender-neutral nursery on a defined furnishing budget",
+        "Show this room with a crib, glider, and dresser, anchored furniture",
+        "Design a shared space where half the room is a kids' zone"
+      ],
+      "related": [
+        "paint-wall-color-testing",
+        "closet-built-in-storage-redesign",
+        "small-space-studio-apartment-layout"
+      ],
+      "note": "Safety-relevant details — anchoring furniture, outlet covers, crib clearance — are noted plainly wherever they apply. Treat those as non-negotiable, not optional styling choices.",
+      "faqs": [
+        [
+          "Are safety notes included automatically?",
+          "Yes, wherever relevant — anchoring and clearance notes are stated plainly, not left out for the sake of a cleaner render."
+        ],
+        [
+          "Can I set a specific nursery budget?",
+          "Yes — describe it in the brief and Briller styles within that direction."
+        ],
+        [
+          "Does Shop the Look include safety-rated furniture?",
+          "Shop the Look links to real, purchasable pieces — confirm safety ratings and recalls independently before buying."
+        ],
+        [
+          "Is this available on the free plan?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "Nursery & kids’ rooms",
+      "category": "layout",
+      "audiences": [
+        "homeowners"
+      ]
+    },
+    {
+      "slug": "home-gym-conversion",
+      "title": "Fit a Real Workout Space Into the Room You Have",
+      "intro": "Upload the room, describe the equipment and layout, see if it actually fits before you buy anything.",
+      "problemTitle": "Want a Home Gym but Not Sure It'll Actually Fit?",
+      "problem": "Gym equipment looks compact on a product page and takes up more floor space than expected once it's actually in a spare room, a garage bay, or a basement corner.",
+      "pains": [
+        "A squat rack that looks reasonable online and dominates the actual room",
+        "Not knowing if there's enough clearance to actually use the equipment safely",
+        "Flooring that isn't rated for dropped weights or heavy equipment",
+        "A gym layout that ignores where the mirror or ventilation actually needs to go",
+        "Buying equipment before confirming it fits the space at all"
+      ],
+      "benefits": [
+        [
+          "Real Room, Real Clearance",
+          "works from your actual room dimensions"
+        ],
+        [
+          "Equipment-Specific Layout",
+          "describe the gear, see it placed realistically"
+        ],
+        [
+          "Flooring Called Out By Name",
+          "rated for the actual use, not just a look"
+        ],
+        [
+          "Budget-Tier Options",
+          "a minimal setup next to a fuller build-out"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Room",
+          "spare room, garage bay, or basement corner"
+        ],
+        [
+          "Brief the Equipment and Layout",
+          "what you're planning to fit"
+        ],
+        [
+          "Magic Render",
+          "a realistic layout for your actual space"
+        ],
+        [
+          "Refine",
+          "try a different equipment combination"
+        ],
+        [
+          "Download",
+          "with flooring and clearance notes"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Interlocking rubber gym flooring, 3/4\" thick"
+        ],
+        [
+          "Lighting & Ambiance",
+          "4000K bright, even lighting for visibility during workouts"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "Rubber flooring this thick needs a flat subfloor and typically doesn't require adhesive — but confirm ceiling height clears any overhead equipment before committing to a layout."
+        ]
+      ],
+      "directions": [
+        [
+          "Spare Room to Home Gym",
+          "full equipment layout in a previously empty room"
+        ],
+        [
+          "Garage Bay Gym",
+          "equipment placed around existing garage storage"
+        ]
+      ],
+      "briefs": [
+        "Show a squat rack and bench in this room, with clearance to move around it",
+        "Minimal home gym setup — just space for mats and free weights",
+        "Fit a full gym layout into this garage bay, keep the door usable"
+      ],
+      "related": [
+        "basement-garage-conversion",
+        "small-space-studio-apartment-layout",
+        "lighting-design-fixture-selection"
+      ],
+      "note": "A render can show equipment fitting in a space — it can't confirm ceiling height clearance for overhead lifts or floor load capacity for heavy equipment. Measure and check both before buying.",
+      "faqs": [
+        [
+          "Does this confirm my equipment will actually fit?",
+          "It shows a realistic layout based on your room's dimensions — always double check clearance and ceiling height for specific equipment before buying."
+        ],
+        [
+          "Can I try different equipment combinations?",
+          "Yes — Refine to compare layouts."
+        ],
+        [
+          "Is flooring guidance included?",
+          "Yes — Materials notes call out flooring type suited to gym use."
+        ],
+        [
+          "Is this available on the free plan?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "Home gym",
+      "category": "layout",
+      "audiences": [
+        "homeowners"
+      ]
+    },
+    {
+      "slug": "open-concept-wall-removal",
+      "title": "See the Open Layout Before You Call an Engineer",
+      "intro": "Visualize an opened-up sightline as a concept, before anyone determines whether the wall can actually come down.",
+      "problemTitle": "Wondering What Your Place Would Feel Like Without That Wall?",
+      "problem": "Everyone considers opening up a layout at some point, and almost nobody can picture it accurately without seeing it — which means the idea either gets abandoned too early or pursued too far before anyone confirms it's feasible.",
+      "pains": [
+        "A wall you assume is \"probably not load-bearing\" with no way to confirm that from a render",
+        "Picturing an open floor plan from a verbal description alone",
+        "Spending on an engineer's assessment before knowing if the concept is even worth pursuing",
+        "A neighbor's or friend's open-concept reno that may not translate to your actual layout",
+        "Confusing \"I can picture it\" with \"it's structurally possible\""
+      ],
+      "benefits": [
+        [
+          "Sightline Visualization",
+          "see the opened-up space as a concept"
+        ],
+        [
+          "Explicit Structural Caveat",
+          "every render states plainly this isn't an engineering determination"
+        ],
+        [
+          "Compare Partial vs. Full Opening",
+          "a header-beam pass-through next to a full wall removal"
+        ],
+        [
+          "Pairs With Blueprints on Studio",
+          "architects and contractors can layer in actual dimensions"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Room With the Wall in Question",
+          "the space as it is today"
+        ],
+        [
+          "Brief the Opening You're Picturing",
+          "full removal or partial"
+        ],
+        [
+          "Magic Render (Concept Only)",
+          "the sightline visualized"
+        ],
+        [
+          "Refine",
+          "compare a partial opening against a full removal"
+        ],
+        [
+          "Download",
+          "to bring to an engineer or contractor"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Matching flooring transition where the wall used to be"
+        ],
+        [
+          "Lighting & Ambiance",
+          "Light from the adjoining room's windows now reaching further into the space"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "This render assumes the wall can come down. Load-bearing status, header sizing, and code compliance require a licensed engineer or contractor — always, no exceptions."
+        ]
+      ],
+      "directions": [
+        [
+          "Full Wall Removal, Concept",
+          "existing wall next to a fully opened sightline"
+        ],
+        [
+          "Partial Opening",
+          "a pass-through or half-wall version next to the full-removal version"
+        ]
+      ],
+      "briefs": [
+        "Show this space with the wall between the kitchen and living room removed",
+        "Show a partial opening instead of removing the whole wall",
+        "Match the flooring across where the wall used to be"
+      ],
+      "related": [
+        "architects-architecture-studios",
+        "whole-home-renovation-planning",
+        "basement-garage-conversion"
+      ],
+      "note": "This is a concept render, not a structural determination, every time. Never treat it as confirmation that a wall can safely come down — that's an engineer's call, always, regardless of how convincing the render looks.",
+      "faqs": [
+        [
+          "Does this tell me if a wall is load-bearing?",
+          "No — never treat it as a structural determination. Only a licensed engineer or contractor can confirm that."
+        ],
+        [
+          "Can I compare a full removal against a partial opening?",
+          "Yes — brief both directions and Refine to compare."
+        ],
+        [
+          "Should I get an engineer involved before or after trying this?",
+          "Either works — this is meant to help you decide if the concept is worth pursuing, not to replace the assessment."
+        ],
+        [
+          "Is blueprint upload available for this use case?",
+          "Yes, on Studio, for dimension-aware accuracy."
+        ]
+      ],
+      "label": "Open-plan layout concepts",
+      "category": "renovation",
+      "audiences": [
+        "homeowners",
+        "architects",
+        "contractors"
+      ]
+    },
+    {
+      "slug": "basement-garage-conversion",
+      "title": "Turn Unfinished Space Into a Room You'd Actually Use",
+      "intro": "Upload the unfinished space, describe what you want it to become, see it before committing to the build-out.",
+      "problemTitle": "Got Unfinished Square Footage Doing Nothing for You?",
+      "problem": "Unfinished basements and garages are usually the cheapest square footage in the house to gain, and usually the last to get any attention, because it's hard to picture what \"finished\" would even look like.",
+      "pains": [
+        "A basement that's technically usable and functionally just storage",
+        "A garage bay nobody's parked in for years, still not doing anything else either",
+        "Moisture or egress concerns nobody's actually confirmed one way or the other",
+        "Not knowing if the ceiling height even works for the room type you want",
+        "A conversion idea that sounds great until you picture the actual mechanicals in the way"
+      ],
+      "benefits": [
+        [
+          "Unfinished-Space Starting Point",
+          "works from concrete, exposed framing, and mechanicals as they are"
+        ],
+        [
+          "Room-Type Flexibility",
+          "gym, office, guest suite, whatever the space needs to become"
+        ],
+        [
+          "Installation Notes Lead With the Unglamorous Stuff",
+          "moisture, egress, insulation, before the finish"
+        ],
+        [
+          "Budget-Tier Framing",
+          "a basic finish-out next to a fuller build"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Unfinished Space",
+          "concrete, framing, and mechanicals as they are"
+        ],
+        [
+          "Brief the Intended Room Type",
+          "gym, office, guest suite, etc."
+        ],
+        [
+          "Magic Render",
+          "the space finished, styled to the intended use"
+        ],
+        [
+          "Refine",
+          "compare a basic finish-out against a fuller build"
+        ],
+        [
+          "Download",
+          "with installation notes"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Painted drywall over furring strips, LVP flooring rated for below-grade use"
+        ],
+        [
+          "Lighting & Ambiance",
+          "3000K recessed lighting, supplemented given likely lack of natural light"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "Below-grade LVP needs to be moisture-rated, and this render assumes the space is already dry — a moisture or egress issue changes the scope and budget significantly before finishes matter at all."
+        ]
+      ],
+      "directions": [
+        [
+          "Unfinished Basement to Home Gym",
+          "concrete and exposed framing to a finished workout space"
+        ],
+        [
+          "Garage Bay to Home Office",
+          "exposed framing to an insulated, finished workspace"
+        ]
+      ],
+      "briefs": [
+        "Show this basement finished as a guest bedroom with a closet",
+        "Turn this garage bay into a home office, keep the door functional",
+        "Basic finish-out versus a fuller build, same space"
+      ],
+      "related": [
+        "home-gym-conversion",
+        "general-contractors-remodeling-companies",
+        "architects-architecture-studios"
+      ],
+      "note": "This render assumes the space is structurally sound, dry, and free of moisture issues. If any of that isn't confirmed, that's the first conversation to have — before any finish decision.",
+      "faqs": [
+        [
+          "Does this account for moisture or egress requirements?",
+          "It flags them as considerations in the notes, but doesn't verify them — that needs an in-person assessment."
+        ],
+        [
+          "Can I compare a basic finish-out against a fuller build?",
+          "Yes — brief both and Refine to compare."
+        ],
+        [
+          "Does ceiling height affect what's possible?",
+          "Yes, and the render works from your actual room's proportions to reflect that."
+        ],
+        [
+          "Is this available on Explorer?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "Basement & garage conversions",
+      "category": "renovation",
+      "audiences": [
+        "homeowners",
+        "contractors",
+        "investors"
+      ]
+    },
+    {
+      "slug": "exterior-curb-appeal",
+      "title": "See the Front of the House Before You Commit to a Siding Color",
+      "intro": "Upload the exterior, describe the direction, see siding, paint, and entryway changes before you buy any of it.",
+      "problemTitle": "Can't Picture the House Before You Commit to a Color?",
+      "problem": "Exterior decisions are expensive to get wrong and hard to undo — a full re-side isn't something you get a second free attempt at, unlike swapping a throw pillow.",
+      "pains": [
+        "A paint color that reads completely differently in real sunlight than on the swatch",
+        "Siding material that looks premium in a catalog photo and cheap installed",
+        "Not knowing if a color will clash with a neighbor's house or the roofline",
+        "An entryway update that doesn't account for the actual door and trim",
+        "A landscaping plan considered separately from the facade it's supposed to complement"
+      ],
+      "benefits": [
+        [
+          "Exterior Room Type",
+          "a dedicated category, not an afterthought"
+        ],
+        [
+          "Real Material Options",
+          "siding profile and material, not just a color swatch"
+        ],
+        [
+          "Landscaping Context",
+          "see planting and hardscape against the new facade"
+        ],
+        [
+          "Multiple Directions, Same House",
+          "compare a repaint against a full re-side"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Exterior Photo",
+          "the facade as it stands today"
+        ],
+        [
+          "Brief the Direction",
+          "repaint, re-side, or entryway update"
+        ],
+        [
+          "Magic Render",
+          "the exterior restyled, landscaping context included"
+        ],
+        [
+          "Refine",
+          "compare directions before deciding"
+        ],
+        [
+          "Download",
+          "to compare against contractor quotes"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Fiber cement lap siding, 7\" reveal, board-and-batten accent gable"
+        ],
+        [
+          "Lighting & Ambiance",
+          "Warm-white 2700K sconces flanking the entry door"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "Fiber cement is a full re-side, not a paint job. If the existing siding is sound, repainting in the same tone gets a similar look for a fraction of the cost — worth trying both directions."
+        ]
+      ],
+      "directions": [
+        [
+          "Repaint Only",
+          "same siding material, new color direction"
+        ],
+        [
+          "Full Re-Side",
+          "material and profile changed, shown next to the repaint option"
+        ]
+      ],
+      "briefs": [
+        "Repaint only, keep the siding material the same",
+        "Show a full re-side in fiber cement, board-and-batten accent",
+        "Update just the entry door and light fixtures, nothing else"
+      ],
+      "related": [
+        "backyard-outdoor-living-redesign",
+        "home-office-workspace",
+        "first-room-refresh",
+        "whole-home-renovation-planning"
+      ],
+      "note": "The dramatic exterior render and the realistic-budget exterior render are usually two different projects — a full re-side and a repaint are not the same decision. See both before you pick a direction.",
+      "faqs": [
+        [
+          "Does this account for HOA or neighborhood color restrictions?",
+          "No — check those separately before committing to a direction."
+        ],
+        [
+          "Can I compare a repaint against a full re-side?",
+          "Yes — brief both directions and Refine to compare."
+        ],
+        [
+          "Does this include landscaping?",
+          "Yes — the Exterior category includes planting and hardscape context."
+        ],
+        [
+          "Is this available on the free plan?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "Exterior & curb appeal",
+      "category": "renovation",
+      "audiences": [
+        "homeowners",
+        "agents",
+        "investors"
+      ]
+    },
+    {
+      "slug": "backyard-outdoor-living-redesign",
+      "title": "Turn the Yard Into a Room You Use, Not Just Mow",
+      "intro": "Upload the outdoor space, describe the direction, see a patio, deck, or seating area before you build any of it.",
+      "problemTitle": "Yard That's More Potential Than Actual Living Space?",
+      "problem": "Most backyards have more usable space than they actually get used, mainly because it's hard to picture furniture and structure in an open outdoor area the way it's easy to picture inside a room with four walls.",
+      "pains": [
+        "An outdoor space with no clear sense of where furniture or a structure would go",
+        "Materials that don't actually hold up outdoors, chosen because they looked good in a catalog",
+        "A deck or patio size that looks right on paper and wrong once it's built",
+        "Landscaping planned separately from the seating or structure it's supposed to complement",
+        "A backyard vision that's really a Pinterest board for a climate that isn't yours"
+      ],
+      "benefits": [
+        [
+          "Outdoor-Rated Materials Named",
+          "what actually holds up outside, called out by name"
+        ],
+        [
+          "Structure & Landscaping Together",
+          "patio, deck, or pergola shown with the planting around it"
+        ],
+        [
+          "Real Proportions",
+          "your actual yard, not a generic outdoor space"
+        ],
+        [
+          "Budget-Tier Options",
+          "a simple patio next to a fuller build-out"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Yard or Patio Area",
+          "the space as it stands today"
+        ],
+        [
+          "Brief the Direction",
+          "structure, seating, and landscaping intent"
+        ],
+        [
+          "Magic Render",
+          "the outdoor space furnished and landscaped"
+        ],
+        [
+          "Refine",
+          "compare a simple patio against a fuller build"
+        ],
+        [
+          "Download",
+          "to compare against quotes"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "Pressure-treated pergola frame, composite decking, outdoor-rated wicker seating"
+        ],
+        [
+          "Lighting & Ambiance",
+          "Warm 2700K string lighting plus low path lighting"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "Composite decking needs a proper joist structure underneath — this render assumes new construction, not a resurface of an existing deck."
+        ]
+      ],
+      "directions": [
+        [
+          "Bare Yard to Patio Seating Area",
+          "empty lawn to a defined outdoor living space"
+        ],
+        [
+          "Deck Addition",
+          "existing yard with a new deck structure and furnishing"
+        ]
+      ],
+      "briefs": [
+        "Add a patio with seating for six, outdoor-rated materials",
+        "Show this yard with a pergola and string lighting",
+        "Simple patio versus a full deck build, same space"
+      ],
+      "related": [
+        "exterior-curb-appeal",
+        "first-room-refresh",
+        "fireplace-mantel-redesign"
+      ],
+      "note": "A render can show a beautiful pergola or deck — it can't confirm your soil, drainage, or whether a permit's required for the structure size you're picturing. Check those before committing to a build.",
+      "faqs": [
+        [
+          "Does this account for permit requirements?",
+          "No — check local permit rules for decks, pergolas, or other structures before building."
+        ],
+        [
+          "Can I compare a simple patio against a fuller deck build?",
+          "Yes — brief both and Refine to compare."
+        ],
+        [
+          "Are the materials shown actually outdoor-rated?",
+          "Yes — Materials notes specifically call out outdoor-suitable options."
+        ],
+        [
+          "Is this available on Explorer?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "Backyard & outdoor living",
+      "category": "renovation",
+      "audiences": [
+        "homeowners",
+        "designers"
+      ]
+    },
+    {
+      "slug": "airbnb-turnover-refresh",
+      "title": "Refresh the Listing Photos Without a Full Furnishing Project",
+      "intro": "Upload the room as it stands today, describe a fast style update, see it before the next booking window.",
+      "problemTitle": "Same Listing Photos Since the Day You Furnished It?",
+      "problem": "A listing that looked fresh at launch starts to blend into every other listing in the area after a year of the same photos, and a full re-furnishing project isn't worth it just to keep photos current.",
+      "pains": [
+        "Listing photos that haven't changed since the property was first furnished",
+        "A style that's dated compared to newer listings in the same market",
+        "Wanting a seasonal refresh without buying an entirely new set of furniture",
+        "Small wear and tear that shows up in photos more than it does in person",
+        "A turnover window too short to justify a big styling project"
+      ],
+      "benefits": [
+        [
+          "Fast, Narrow Scope",
+          "a style refresh for one room, not a full furnishing project"
+        ],
+        [
+          "Existing Furniture, New Accents",
+          "layout mostly kept, accent pieces updated"
+        ],
+        [
+          "Seasonal Direction",
+          "a quick refresh tied to the season or market trend"
+        ],
+        [
+          "Shop the Look for the Small Stuff",
+          "pillows, art, and small decor, priced and linked"
+        ]
+      ],
+      "steps": [
+        [
+          "Upload the Room as It Is Now",
+          "including current furniture"
+        ],
+        [
+          "Brief the Refresh Direction",
+          "accent-level, not a full furnishing change"
+        ],
+        [
+          "Magic Render",
+          "the refreshed look"
+        ],
+        [
+          "Refine",
+          "try a different accent direction"
+        ],
+        [
+          "Shop the Look",
+          "for the accent pieces"
+        ]
+      ],
+      "advice": [
+        [
+          "Materials & Composition",
+          "New throw pillows, updated wall art, a single new accent piece"
+        ],
+        [
+          "Lighting & Ambiance",
+          "Warmer bulb swap in the existing fixtures, no fixture change"
+        ],
+        [
+          "Installation & Engineering Notes",
+          "This refresh assumes no furniture layout change and no fixture replacement — it's accent-level only, which is what keeps it fast between bookings."
+        ]
+      ],
+      "directions": [
+        [
+          "Same Layout, New Accents",
+          "existing furniture kept, accessories updated"
+        ],
+        [
+          "Seasonal Swap",
+          "warm-season styling versus cool-season styling, same room"
+        ]
+      ],
+      "briefs": [
+        "Refresh this room's accents for a warmer, more current look, keep the furniture",
+        "Show a seasonal update for this space without changing the layout",
+        "Update just the art and pillows, nothing structural"
+      ],
+      "related": [
+        "short-term-rental-airbnb-hosts",
+        "lighting-design-fixture-selection",
+        "paint-wall-color-testing"
+      ],
+      "note": "This is an accent-level refresh by design — if the room actually needs a layout or furniture overhaul, that's the fuller Short-Term Rental & Airbnb Hosts use case, not this one.",
+      "faqs": [
+        [
+          "Does this replace existing furniture?",
+          "No — it's an accent-level refresh; existing layout and major furniture stay."
+        ],
+        [
+          "How often should I refresh listing photos this way?",
+          "There's no fixed schedule — whenever photos start looking dated relative to newer listings nearby."
+        ],
+        [
+          "Can Shop the Look help with just small decor items?",
+          "Yes — pillows, art, and accents are linked with pricing."
+        ],
+        [
+          "Is this available on the free plan?",
+          "Start with Free for basic exploration. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Compare the current plans for credits, exports and team features."
+        ]
+      ],
+      "label": "Rental turnover refresh",
+      "category": "property",
+      "audiences": [
+        "hosts",
+        "investors"
+      ]
+    }
+  ]
+}

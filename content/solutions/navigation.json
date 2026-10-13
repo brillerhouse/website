@@ -1,0 +1,27 @@
+{
+  "categories": [
+    {"id":"refresh","icon":"palette","title":{"en":"Refreshes & finishes","uk":"Оновлення й оздоблення"}},
+    {"id":"layout","icon":"layout","title":{"en":"Everyday spaces & storage","uk":"Житлові зони й зберігання"}},
+    {"id":"renovation","icon":"house","title":{"en":"Renovations & outdoors","uk":"Ремонт і відкриті простори"}},
+    {"id":"professional","icon":"ruler","title":{"en":"Design & construction clients","uk":"Клієнти дизайну й будівництва"}},
+    {"id":"property","icon":"building","title":{"en":"Property & rental projects","uk":"Нерухомість і оренда"}}
+  ],
+  "audiences": [
+    {"id":"homeowners","label":{"en":"Homeowners","uk":"Власники житла"}},
+    {"id":"renters","label":{"en":"Renters","uk":"Орендарі"}},
+    {"id":"remote-workers","label":{"en":"Remote workers","uk":"Ті, хто працює вдома"}},
+    {"id":"designers","label":{"en":"Designers & decorators","uk":"Дизайнери й декоратори"}},
+    {"id":"architects","label":{"en":"Architects","uk":"Архітектори"}},
+    {"id":"contractors","label":{"en":"Contractors","uk":"Підрядники"}},
+    {"id":"remodelers","label":{"en":"Kitchen & bath remodelers","uk":"Фахівці з кухонь і ванних"}},
+    {"id":"agents","label":{"en":"Real estate agents","uk":"Рієлтори"}},
+    {"id":"investors","label":{"en":"Property investors","uk":"Інвестори"}},
+    {"id":"developers","label":{"en":"Developers","uk":"Девелопери"}},
+    {"id":"hosts","label":{"en":"Rental & Airbnb hosts","uk":"Власники орендного житла"}}
+  ],
+  "groups": [
+    {"id":"home-projects","icon":"house","title":{"en":"For your home","uk":"Для вашого дому"},"intro":{"en":"Make room for how you live — from a first refresh to a whole-home plan.","uk":"Облаштовуйте дім під своє життя — від першого оновлення до великого ремонту."},"pages":["first-room-refresh","whole-home-renovation-planning","renter-friendly-makeover","home-office-workspace"]},
+    {"id":"client-projects","icon":"ruler","title":{"en":"For your clients","uk":"Для ваших клієнтів"},"intro":{"en":"Make ideas easier to discuss, finishes easier to compare and scope easier to agree.","uk":"Пояснюйте ідеї, порівнюйте оздоблення та узгоджуйте обсяг робіт."},"pages":["interior-designers-freelance-decorators","architects-architecture-studios","general-contractors-remodeling-companies","kitchen-bath-remodelers"]},
+    {"id":"property-projects","icon":"building","title":{"en":"For your property business","uk":"Для вашої роботи з нерухомістю"},"intro":{"en":"Explore a property’s potential, plan furnishing and explain the next investment.","uk":"Досліджуйте потенціал об’єкта, плануйте меблювання та наступні вкладення."},"pages":["real-estate-agents-listing-prep","real-estate-investors-house-flippers","property-developers","short-term-rental-airbnb-hosts"]}
+  ]
+}
