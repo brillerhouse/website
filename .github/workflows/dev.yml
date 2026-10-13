@@ -1,0 +1,84 @@
+name: Briller Dev
+on:
+  push:
+    branches: [dev]
+  workflow_dispatch:
+permissions:
+  contents: read
+  id-token: write
+concurrency:
+  group: briller-dev
+  cancel-in-progress: false
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/dev'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment: dev
+    env:
+      PROJECT_ID: nifty-atlas-473013-f9
+      REGION: europe-west1
+      SERVICE: briller-website-dev
+      REGISTRY: briller-web
+      BRILLER_PREVIEW: '1'
+      NEXT_TELEMETRY_DISABLED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Build and verify
+        run: |
+          npm ci --no-audit --no-fund
+          npm run build
+          npm run check
+          npm test
+      - name: Package downloadable site
+        run: |
+          mkdir -p "$RUNNER_TEMP/briller-export"
+          zip -qr "$RUNNER_TEMP/briller-export/briller-static.zip" out
+          git archive --format=zip --output="$RUNNER_TEMP/briller-export/briller-source.zip" HEAD
+      - uses: actions/upload-artifact@v4
+        with:
+          name: briller-site-${{ github.sha }}
+          path: ${{ runner.temp }}/briller-export/
+          retention-days: 30
+      - uses: google-github-actions/auth@v2
+        if: vars.GCP_WORKLOAD_IDENTITY_PROVIDER != '' && vars.GCP_DEPLOY_SERVICE_ACCOUNT != ''
+        with:
+          workload_identity_provider: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ vars.GCP_DEPLOY_SERVICE_ACCOUNT }}
+      - uses: google-github-actions/setup-gcloud@v2
+        if: vars.GCP_WORKLOAD_IDENTITY_PROVIDER != '' && vars.GCP_DEPLOY_SERVICE_ACCOUNT != ''
+      - name: Build and upload verified static image
+        if: vars.GCP_WORKLOAD_IDENTITY_PROVIDER != '' && vars.GCP_DEPLOY_SERVICE_ACCOUNT != ''
+        run: |
+          gcloud auth configure-docker "$REGION-docker.pkg.dev" --quiet
+          mkdir -p "$RUNNER_TEMP/briller-container"
+          cp -R out "$RUNNER_TEMP/briller-container/out"
+          cp deployment/nginx.conf "$RUNNER_TEMP/briller-container/nginx.conf"
+          cp deployment/Dockerfile.runtime "$RUNNER_TEMP/briller-container/Dockerfile"
+          IMAGE="$REGION-docker.pkg.dev/$PROJECT_ID/$REGISTRY/$SERVICE:$GITHUB_SHA"
+          docker build -t "$IMAGE" "$RUNNER_TEMP/briller-container"
+          docker push "$IMAGE"
+          echo "BRILLER_IMAGE=$IMAGE" >> "$GITHUB_ENV"
+      - name: Update Dev only
+        if: vars.GCP_WORKLOAD_IDENTITY_PROVIDER != '' && vars.GCP_DEPLOY_SERVICE_ACCOUNT != ''
+        run: |
+          gcloud run deploy "$SERVICE" \
+            --image="$BRILLER_IMAGE" \
+            --project="$PROJECT_ID" --region="$REGION" \
+            --service-account="briller-web-runtime@$PROJECT_ID.iam.gserviceaccount.com" \
+            --port=8080 --min-instances=0 --max-instances=1 \
+            --cpu=1 --memory=256Mi --concurrency=80 --timeout=30 \
+            --allow-unauthenticated --quiet
+          URL="$(gcloud run services describe "$SERVICE" --project="$PROJECT_ID" --region="$REGION" --format='value(status.url)')"
+          curl --fail --retry 5 --retry-delay 2 --silent --show-error "$URL/uk/" -o /dev/null
+          curl --fail --silent --show-error "$URL/robots.txt" | grep -F 'Disallow: /'
+          printf '### Briller Dev\n\n[Переглянути сайт](%s/uk/)\n\nCommit: `%s`\n' "$URL" "$GITHUB_SHA" >> "$GITHUB_STEP_SUMMARY"
+      - name: Report pending Google Cloud setup
+        if: vars.GCP_WORKLOAD_IDENTITY_PROVIDER == '' || vars.GCP_DEPLOY_SERVICE_ACCOUNT == ''
+        run: |
+          echo "::warning::Build and downloadable artifacts are ready. Online Dev deployment is pending one-time Google Cloud setup."
+          printf '### Build ready; online Dev pending\n\nDownload source/static ZIPs from this run. Configure Google Cloud with `deployment/setup-gcp-dev.sh`, then rerun this workflow.\n' >> "$GITHUB_STEP_SUMMARY"

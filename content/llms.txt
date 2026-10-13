@@ -1,0 +1,14 @@
+# Briller
+
+> Briller is an AI co-pilot for interior design and architectural visualisation. The marketing website is https://briller.house. The app is https://build.briller.house.
+
+## Product
+- [Features](https://briller.house/en/features/): Photo and sketch-led concepts, moodboards, natural-language and voice interaction, Brill Insights, Shop the Look, optional drawings and Smart Sparks.
+- [Use cases](https://briller.house/en/use-cases/): Homeowners, designers, architects and property professionals.
+- [Pricing](https://briller.house/en/pricing/): Free includes 3 active projects and 20 watermarked iterations per month. Explorer: $9.99/month, or $7.99 monthly equivalent billed annually, 60 credits/month. Pro Design: $24.99/month, or $19.99 monthly equivalent billed annually, 200 credits/month. Studio / Architect: $69.99/month, or $59.99 monthly equivalent billed annually, 650 credits/month and 3 team seats. Confirm taxes and entitlements in app checkout.
+- [FAQ](https://briller.house/en/faq/): Workflow, credits, billing and limitations.
+- [Contact](https://briller.house/en/contact/): hello@briller.house.
+- [Українська версія](https://briller.house/uk/): Повна українська версія маркетингового сайту.
+
+## Interpretation
+AI outputs are visual concepts and should be checked against the original room. They are not verified construction documents. The inspiration gallery is curated illustrative photography, not verified Briller output, public customer projects or proof of generation quality. Legal pages are drafts awaiting company information and legal-policy confirmation. Billing and accounts are handled by the app; this website does not authenticate users or process payments.
