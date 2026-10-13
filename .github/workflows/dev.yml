@@ -22,8 +22,8 @@ jobs:
       REGISTRY: briller-web
       BRILLER_PREVIEW: '1'
       NEXT_TELEMETRY_DISABLED: '1'
-      GCP_WORKLOAD_IDENTITY_PROVIDER: ''
-      GCP_DEPLOY_SERVICE_ACCOUNT: ''
+      GCP_WORKLOAD_IDENTITY_PROVIDER: 'projects/1097780641970/locations/global/workloadIdentityPools/briller-website-dev/providers/github-dev'
+      GCP_DEPLOY_SERVICE_ACCOUNT: 'briller-dev-deployer@nifty-atlas-473013-f9.iam.gserviceaccount.com'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
