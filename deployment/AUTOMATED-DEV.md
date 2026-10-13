@@ -2,11 +2,11 @@
 
 ## Everyday workflow
 
-Edit in chat → commit/push to `dev` → GitHub Actions verifies static output → uploads source/static artifacts → pushes a container to Google Artifact Registry → updates Cloud Run `briller-website-dev` → keeps the same online URL.
+Default edits in chat go to `preview` for local review. This branch does not trigger CI or deployment. The user runs Next.js locally and pulls preview changes; see [LOCAL-PREVIEW.md](LOCAL-PREVIEW.md).
 
-This requires a repository write connection in the conversation. Local changes that have not been pushed do not reach the online preview. Updates are automatic after push, usually taking a few minutes; they are not instantaneous keystroke previews. A build failure before deployment leaves the previous revision serving. Production is deployed separately and does not auto-update from this workflow.
+After explicit approval of the reviewed commit, the agent promotes that commit to `dev`. GitHub Actions verifies static output, uploads source/static artifacts, pushes a container to Artifact Registry and updates Cloud Run `briller-website-dev` at the same online URL.
 
-Download `briller-static.zip` or `briller-source.zip` from the workflow run’s artifacts (30-day retention). Static output can be served by Nginx on the final server. Dev output has `noindex` and robots `Disallow: /`; build production from the same source with `BRILLER_PREVIEW` unset to generate indexable output.
+Repository write access in this conversation is configured. Updates to the online site take a few minutes after approved promotion. Production is separate. Download source/static ZIPs from a successful Dev run’s artifacts (30-day retention). Dev static output has noindex and robots Disallow: /; build production with BRILLER_PREVIEW unset for indexable marketing pages.
 
 ## One-time setup
 

@@ -2,6 +2,10 @@
 
 Двомовний сайт EN / UK для Briller. Next.js 15 + React 19 + TypeScript. Статичний export: усі сторінки мають готовий HTML і не потребують Node.js у production. Реєстрація, авторизація, генерація, білінг та кабінет залишаються на https://build.briller.house.
 
+## Зміни з чату та локальний preview
+
+Звичайні зміни з чату тепер публікуються в гілку `preview` без деплою. Для локального перегляду скопіюйте її, запустіть `npm run dev` та після оновлень виконуйте `git pull --ff-only`. У `dev` переносимо лише схвалену версію — це запускає Google Cloud Run. Детальні команди: [LOCAL-PREVIEW.md](deployment/LOCAL-PREVIEW.md).
+
 ## Запуск і перевірка
 
 ```bash
