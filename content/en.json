@@ -33,7 +33,7 @@
     ],
     "workflowLabel": "FROM FIRST PHOTO TO NEXT CHAPTER",
     "workflowTitle": "A little input.\nA whole new outlook.",
-    "workflowIntro": "Keep your space at the heart of the process. Bring the references, tell Brill what matters, and explore the possibilities.",
+    "workflowIntro": "Keep your space at the heart of the process. Bring the references, tell Briller what matters, and explore the possibilities.",
     "steps": [
       [
         "Bring your space",
@@ -54,9 +54,9 @@
     ],
     "brillLabel": "MEET YOUR CREATIVE CO-PILOT",
     "brillTitle": "A bright idea.\nAnd someone to build on it.",
-    "brillText": "Meet Brill. An AI assistant that connects your visual ideas with practical decisions — from warm lighting and material combinations to details worth discussing with your builder.",
+    "brillText": "Meet Briller. An AI assistant that connects your visual ideas with practical decisions — from warm lighting and material combinations to details worth discussing with your builder.",
     "brillQuote": "Try warm, 2700K lighting alongside natural oak. It could give this room a softer evening atmosphere.",
-    "brillNote": "Illustrative Brill suggestion · verify technical details with a qualified professional",
+    "brillNote": "Illustrative Briller suggestion · verify technical details with a qualified professional",
     "featuresLabel": "MORE THAN A BEAUTIFUL IMAGE",
     "featuresTitle": "Designed around\nyour real space.",
     "galleryLabel": "A FEW POSSIBLE DIRECTIONS",
@@ -76,13 +76,13 @@
     "compareLabel": "Compare the original kitchen and an illustrative redesign",
     "stripTitle": "More than a beautiful image",
     "brillDemo": {
-      "eyebrow": "BRILL INSIGHTS",
-      "title": "Brill’s take on this room.",
+      "eyebrow": "BRILLER INSIGHTS",
+      "title": "Briller’s take on this room.",
       "intro": "Select a Smart Spark to connect a detail in the design with an idea you can explore.",
       "imageAlt": "Illustrative living-room render with an oak sideboard, warm wall light and a clear passage to the window",
       "imageNote": "Illustrative AI render and example advice.",
       "sparkLabel": "Smart Spark",
-      "tipLabel": "Show Brill’s advice about",
+      "tipLabel": "Show Briller’s advice about",
       "tips": [
         {
           "title": "Materials that work together",
@@ -113,7 +113,7 @@
       "02",
       "References that resonate",
       "Your moodboard, made meaningful",
-      "Bring styles, textures and colours you love. Brill helps connect them into a coherent design direction."
+      "Bring styles, textures and colours you love. Briller helps connect them into a coherent design direction."
     ],
     [
       "03",
@@ -124,7 +124,7 @@
     [
       "04",
       "Ideas with substance",
-      "Brill Insights & Smart Sparks",
+      "Briller Insights & Smart Sparks",
       "Explore material, lighting and space-planning suggestions, then refine your design through natural-language dialogue."
     ]
   ],
@@ -167,7 +167,7 @@
     ],
     "faq": [
       "Good questions.\nClearer answers.",
-      "A practical guide to getting started, working with Brill and choosing a plan."
+      "A practical guide to getting started, working with Briller and choosing a plan."
     ],
     "contact": [
       "Let’s build\nsomething brighter.",
@@ -187,7 +187,7 @@
     "credits": "Monthly credits / iterations",
     "projects": "Active projects",
     "watermark": "Watermark",
-    "insights": "Brill Insights",
+    "insights": "Briller Insights",
     "resolution": "HD / 4K",
     "seats": "Team seats",
     "pdf": "PDF export",
@@ -224,8 +224,8 @@
       "The workflow accepts room photos or sketches, style references and optional architectural drawings. Check the studio upload interface for current supported file types and size limits."
     ],
     [
-      "Can I talk to Brill in Ukrainian?",
-      "Yes. Brill supports natural-language interaction, including English and Ukrainian, with text and voice input."
+      "Can I talk to Briller in Ukrainian?",
+      "Yes. Briller supports natural-language interaction, including English and Ukrainian, with text and voice input."
     ],
     [
       "What is included in the Free plan?",
@@ -248,7 +248,7 @@
       "The website inspiration gallery contains curated reference photography. It does not read or publish private app projects. The app’s data retention, sharing and AI-processing policies must be confirmed in its final Privacy Policy."
     ],
     [
-      "Are Brill’s suggestions construction advice?",
+      "Are Briller’s suggestions construction advice?",
       "Use them as design ideas to discuss with qualified professionals. Verify measurements, structural changes, lighting, electrical work and material installation before implementation."
     ],
     [

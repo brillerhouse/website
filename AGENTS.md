@@ -20,3 +20,5 @@ Production remains separate and is updated when the user requests a release. Nev
 ## Content and branding
 
 Copy is in content/en.json and content/uk.json. Plans in content/plans.json are the single source for pricing. Gallery images and the hero kitchen illustration are explicitly illustrative. Legal policies remain drafts with noindex until the user supplies and confirms their content. Keep the warm Briller palette. The header logo is briller followed by an asterisk, and the hero eyebrow is YOUR SPACE. A NEW PERSPECTIVE with an asterisk (localized in Ukrainian).
+
+Use **Briller** for the product/assistant in all user-facing copy. The user corrected the earlier name Brill. Internal component and CSS names may remain unchanged.

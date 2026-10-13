@@ -45,43 +45,43 @@
 
 /* Materials, lighting and practical details immediately below the hero. */
 .value-strip{margin:0;padding:27px 6%;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--sage);display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,3fr);align-items:center;gap:32px}
-.value-strip h2{font-size:13px;font-weight:650;line-height:1.6;letter-spacing:-.02em;white-space:normal;margin:0}
+.value-strip h2{font-size:15px;font-weight:650;line-height:1.6;letter-spacing:-.02em;white-space:normal;margin:0}
 .strip-items{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
-.strip-items li{display:flex;align-items:center;gap:11px;font-size:12px;line-height:1.6;color:var(--muted)}
+.strip-items li{display:flex;align-items:center;gap:11px;font-size:14px;line-height:1.6;color:var(--muted)}
 .strip-items .strip-icon{color:var(--accent);flex-shrink:0}
 @media(min-width:1600px){.value-strip{padding-left:max(6%,calc((100vw - 1520px)/2));padding-right:max(6%,calc((100vw - 1520px)/2))}}
-@media(max-width:1100px){.value-strip{padding-left:5%;padding-right:5%;gap:24px}.strip-items{gap:24px}.strip-items li{font-size:11px;gap:8px}.value-strip h2{font-size:12px}}
-@media(max-width:800px){.value-strip{grid-template-columns:1fr;gap:20px;padding-top:23px;padding-bottom:23px}.value-strip h2{font-size:13px}.strip-items li{font-size:12px}}
-@media(max-width:500px){.strip-items{gap:16px}.strip-items li{flex-direction:column;align-items:flex-start;gap:8px;font-size:11px}}
+@media(max-width:1100px){.value-strip{padding-left:5%;padding-right:5%;gap:24px}.strip-items{gap:24px}.strip-items li{font-size:13px;gap:8px}.value-strip h2{font-size:14px}}
+@media(max-width:800px){.value-strip{grid-template-columns:1fr;gap:20px;padding-top:23px;padding-bottom:23px}.value-strip h2{font-size:15px}.strip-items li{font-size:14px}}
+@media(max-width:500px){.strip-items{gap:16px}.strip-items li{flex-direction:column;align-items:flex-start;gap:8px;font-size:13px}}
 
-/* Render annotations and concrete examples of Brill's advice. */
+/* Render annotations and concrete examples of Briller's advice. */
 .brill-demo{padding:46px 6% 58px;background:var(--sage);display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,1fr);gap:56px;align-items:center}
 .sparks-illustration{margin:0;min-width:0}
 .sparks-room{position:relative;border-radius:10px;overflow:hidden;background:#ded7c9;isolation:isolate}
 .sparks-room>img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
-.sparks-badge{position:absolute;top:18px;left:18px;display:flex;align-items:center;gap:7px;padding:8px 11px;background:#f8f6f1ed;border:1px solid #f8f6f199;border-radius:5px;font-size:9px;font-weight:650;color:var(--ink)}
+.sparks-badge{position:absolute;top:18px;left:18px;display:flex;align-items:center;gap:7px;padding:8px 11px;background:#f8f6f1ed;border:1px solid #f8f6f199;border-radius:5px;font-size:11px;font-weight:650;color:var(--ink)}
 .sparks-badge svg{color:var(--accent)}
 .spark-hotspot{position:absolute;transform:translate(-50%,-50%);width:44px;height:44px;padding:6px;border:0;background:transparent;border-radius:50%;display:grid;place-items:center;z-index:2}
 .spark-hotspot>span{display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--paper);color:#a96c23;border:1px solid #e0b66b;box-shadow:0 2px 12px #292c2620;transition:background .2s,box-shadow .2s}
 .spark-hotspot:hover>span,.spark-hotspot.selected>span{background:#fff0c9;box-shadow:0 0 0 5px #ffdf963b,0 3px 14px #292c2626}
 .spark-question{position:absolute;bottom:18px;left:18px;right:18px;max-width:350px;padding:14px 17px;background:#f8f6f1f0;border:1px solid #fff8;border-radius:6px;box-shadow:0 5px 25px #292c2612;pointer-events:none}
-.spark-question-label{display:flex;align-items:center;gap:6px;font-size:8px;font-weight:650;color:var(--accent);letter-spacing:.45px;text-transform:uppercase}
-.spark-question p{font-size:12px;line-height:1.65;margin:7px 0 0;color:var(--ink)}
-.sparks-illustration figcaption{font-size:9px;color:var(--muted);line-height:1.7;margin-top:10px}
+.spark-question-label{display:flex;align-items:center;gap:6px;font-size:10px;font-weight:650;color:var(--accent);letter-spacing:.45px;text-transform:uppercase}
+.spark-question p{font-size:14px;line-height:1.65;margin:7px 0 0;color:var(--ink)}
+.sparks-illustration figcaption{font-size:11px;color:var(--muted);line-height:1.7;margin-top:10px}
 .brill-demo-advice{min-width:0}
-.brill-demo-advice>.eyebrow{font-size:9px;letter-spacing:1.7px;color:var(--accent);margin-bottom:14px}
-.brill-demo-advice>h2{font-size:31px;line-height:1.2;letter-spacing:-.045em;white-space:normal;margin-bottom:14px}
-.brill-demo-intro{font-size:12px;line-height:1.75;color:var(--muted);max-width:470px;margin-bottom:23px}
+.brill-demo-advice>.eyebrow{font-size:11px;letter-spacing:1.7px;color:var(--accent);margin-bottom:14px}
+.brill-demo-advice>h2{font-size:34px;line-height:1.2;letter-spacing:-.045em;white-space:normal;margin-bottom:14px}
+.brill-demo-intro{font-size:15px;line-height:1.75;color:var(--muted);max-width:470px;margin-bottom:23px}
 .brill-advice-list{list-style:none;margin:0;padding:0;display:grid;gap:12px}
-.brill-advice-card{padding:18px 20px;background:#f8f6f180;border:1px solid var(--line);border-radius:6px;transition:border-color .2s,background .2s}
+.brill-advice-card{padding:20px 22px;background:#f8f6f180;border:1px solid var(--line);border-radius:6px;transition:border-color .2s,background .2s}
 .brill-advice-card.selected{background:var(--paper);border-color:#bf8e71}
 .brill-advice-card h3{margin:0}
 .brill-advice-select{display:flex;align-items:center;gap:12px;text-align:left;width:100%;padding:0;background:transparent;border:0;color:var(--ink)}
 .brill-advice-select>svg{color:var(--accent);flex-shrink:0}
-.brill-advice-category{display:block;font-size:8px;font-weight:650;letter-spacing:.8px;text-transform:uppercase;color:var(--muted);line-height:1.6;margin-bottom:3px}
-.brill-advice-title{display:block;font-size:13px;font-weight:600;letter-spacing:-.015em;line-height:1.6}
-.brill-advice-card>p{font-size:11px;line-height:1.8;color:var(--muted);margin:11px 0 0 31px}
+.brill-advice-category{display:block;font-size:10px;font-weight:650;letter-spacing:.8px;text-transform:uppercase;color:var(--muted);line-height:1.6;margin-bottom:3px}
+.brill-advice-title{display:block;font-size:16px;font-weight:600;letter-spacing:-.015em;line-height:1.6}
+.brill-advice-card>p{font-size:14px;line-height:1.75;color:var(--muted);margin:11px 0 0 31px}
 @media(min-width:1600px){.brill-demo{padding-left:max(6%,calc((100vw - 1520px)/2));padding-right:max(6%,calc((100vw - 1520px)/2))}}
-@media(max-width:1100px){.brill-demo{padding-left:5%;padding-right:5%;gap:30px;align-items:start}.brill-advice-card{padding:15px}.brill-demo-advice>h2{font-size:28px}.brill-advice-card>p{margin-left:0}.spark-question{padding:12px 14px}.spark-question p{font-size:11px}}
-@media(max-width:800px){.brill-demo{grid-template-columns:1fr;gap:32px;padding-top:30px;padding-bottom:40px}.brill-demo-advice>h2{font-size:30px}.brill-demo-intro{max-width:550px}.brill-advice-card{padding:18px 20px}.brill-advice-title{font-size:14px}.brill-advice-card>p{font-size:12px;margin-left:31px}.spark-question{max-width:360px;padding:14px 17px}}
-@media(max-width:500px){.sparks-badge{top:12px;left:12px;font-size:8px;padding:7px 9px}.spark-question{bottom:12px;left:12px;right:12px;padding:11px 13px}.spark-question-label{font-size:7px}.spark-question p{font-size:10px;margin-top:5px}.spark-hotspot>span{width:29px;height:29px}.spark-hotspot>span svg{width:15px;height:15px}.brill-demo-advice>h2{font-size:27px}.brill-advice-card{padding:17px}.brill-advice-card>p{margin-left:0;font-size:11px}}
+@media(max-width:1100px){.brill-demo{padding-left:5%;padding-right:5%;gap:30px;align-items:start}.brill-advice-card{padding:15px}.brill-demo-advice>h2{font-size:31px}.brill-advice-card>p{margin-left:0}.spark-question{padding:12px 14px}.spark-question p{font-size:13px}}
+@media(max-width:800px){.brill-demo{grid-template-columns:1fr;gap:32px;padding-top:30px;padding-bottom:40px}.brill-demo-advice>h2{font-size:32px}.brill-demo-intro{max-width:550px}.brill-advice-card{padding:20px 22px}.brill-advice-title{font-size:16px}.brill-advice-card>p{font-size:14px;margin-left:31px}.spark-question{max-width:360px;padding:14px 17px}}
+@media(max-width:500px){.sparks-badge{top:12px;left:12px;font-size:10px;padding:7px 9px}.spark-question{bottom:12px;left:12px;right:12px;padding:11px 13px}.spark-question-label{font-size:9px}.spark-question p{font-size:12px;margin-top:5px}.spark-hotspot>span{width:29px;height:29px}.spark-hotspot>span svg{width:15px;height:15px}.brill-demo-advice>h2{font-size:29px}.brill-advice-card{padding:17px}.brill-advice-card>p{margin-left:0;font-size:13px}}
