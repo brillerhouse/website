@@ -27,9 +27,9 @@
     "imageLabel": "A kitchen before and after an illustrative AI redesign",
     "imageNote": "Drag to explore. AI-generated design illustration.",
     "strip": [
-      "Room-aware design",
-      "Your style, understood",
-      "Ideas you can build"
+      "Materials",
+      "Lighting",
+      "Practical details"
     ],
     "workflowLabel": "FROM FIRST PHOTO TO NEXT CHAPTER",
     "workflowTitle": "A little input.\nA whole new outlook.",
@@ -73,7 +73,8 @@
     "primary": "Design your space",
     "beforeLabel": "Before",
     "afterLabel": "The possibility",
-    "compareLabel": "Compare the original kitchen and an illustrative redesign"
+    "compareLabel": "Compare the original kitchen and an illustrative redesign",
+    "stripTitle": "More than a beautiful image"
   },
   "featureItems": [
     [
