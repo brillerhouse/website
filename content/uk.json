@@ -355,6 +355,10 @@
     "howItWorks": "Як це працює",
     "solutions": "Рішення",
     "resources": "Ресурси",
-    "plans": "Тарифи"
+    "plans": "Тарифи",
+    "byAudience": "За аудиторією",
+    "byProject": "За проєктом",
+    "viewCategory": "До категорії",
+    "allSolutions": "Переглянути всі рішення"
   }
 }

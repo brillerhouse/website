@@ -4,8 +4,10 @@ import { ArrowUpRight, Menu, X, Download, Check, Sparkles, ArrowLeftRight } from
 import { copy, href, site, Locale } from '@/lib/content';
 import pricing from '@/content/plans.json';
 import gallery from '@/content/gallery.json';
+import { SolutionsMenu } from './SolutionsMenu';
+import type { SolutionMenuGroup } from '@/lib/solutions';
 export function Language({locale}:{locale:Locale}){useEffect(()=>{document.documentElement.lang=locale},[locale]);return null;}
-export function Header({locale,page}:{locale:Locale,page:string}) {
+export function Header({locale,page,solutionMenu}:{locale:Locale,page:string,solutionMenu:SolutionMenuGroup[]}) {
   const [open,setOpen]=useState(false);
   const toggle=useRef<HTMLButtonElement>(null);
   const c=copy(locale);
@@ -26,7 +28,7 @@ export function Header({locale,page}:{locale:Locale,page:string}) {
       <span className="brand-name">briller<span className="brand-asterisk" aria-hidden="true">✳</span></span>
     </a>
     <nav id="primary-navigation" className={open?'nav open':'nav'} aria-label={locale==='uk'?'Головна навігація':'Main navigation'}>
-      {links.map(link=><a aria-current={link.active?'page':undefined} href={link.url} key={link.label} onClick={()=>setOpen(false)}>{link.label}</a>)}
+      {links.map((link,i)=>i===1?<SolutionsMenu key={link.label} locale={locale} page={page} groups={solutionMenu} mobileOpen={open} onNavigate={()=>setOpen(false)}/>:<a aria-current={link.active?'page':undefined} href={link.url} key={link.label} onClick={()=>setOpen(false)}>{link.label}</a>)}
     </nav>
     <div className="header-actions">
       <a className="locale" href={href(locale==='en'?'uk':'en',page)} hrefLang={locale==='en'?'uk':'en'} aria-label={locale==='en'?'Перемкнути українською':'Switch to English'}>{locale==='en'?'UK':'EN'}</a>

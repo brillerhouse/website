@@ -355,6 +355,10 @@
     "howItWorks": "How it works",
     "solutions": "Solutions",
     "resources": "Resources",
-    "plans": "Plans"
+    "plans": "Plans",
+    "byAudience": "By audience",
+    "byProject": "By project",
+    "viewCategory": "View category",
+    "allSolutions": "Explore all solutions"
   }
 }

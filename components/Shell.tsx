@@ -1,5 +1,6 @@
 import { copy, href, site, Locale } from '@/lib/content';
 import { Header, Language } from './UI';
+import { buildSolutionMenu } from '@/lib/solutions';
 
 type Breadcrumb = { name: string; href: string };
 export function Shell({ locale, page = '', children, breadcrumbs }: { locale: Locale; page?: string; children: React.ReactNode; breadcrumbs?: Breadcrumb[] }) {
@@ -17,7 +18,7 @@ export function Shell({ locale, page = '', children, breadcrumbs }: { locale: Lo
       ] }] : [])
     ]
   };
-  return <><Language locale={locale}/><a className="skip" href="#main">{locale === 'uk' ? 'До основного вмісту' : 'Skip to content'}</a><Header locale={locale} page={page}/><main id="main" lang={locale}>{children}</main>
+  return <><Language locale={locale}/><a className="skip" href="#main">{locale === 'uk' ? 'До основного вмісту' : 'Skip to content'}</a><Header locale={locale} page={page} solutionMenu={buildSolutionMenu(locale)}/><main id="main" lang={locale}>{children}</main>
     <footer><div className="footer-top"><div><a className="wordmark" href={href(locale)}>briller<span>✳</span></a><p>{c.footerLine}</p><a className="email" href={'mailto:' + site.email}>{site.email} ↗</a></div>
       <div><h3>{c.product}</h3>{Object.entries(c.nav).filter(([key]) => key !== 'use-cases').map(([key,label]) => <a key={key} href={href(locale,key)}>{label}</a>)}</div>
       <div><h3>{c.legal}</h3>{legal.map(([key,label]) => <a key={key} href={href(locale,key)}>{label}</a>)}</div>

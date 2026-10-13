@@ -232,3 +232,33 @@
 @media(max-width:1100px){.solution-audience-grid{gap:25px}.solution-audience-grid h3{font-size:23px}.solution-hero{gap:5%;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr)}.solution-starter{padding:25px}.solution-starter blockquote{font-size:20px}.solution-card{padding:22px}.solution-card-grid{gap:20px}.solution-workflow ol{grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}.solution-benefit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.solution-advice-grid{gap:18px}.solution-advice-grid article{padding:22px}}
 @media(max-width:800px){.solutions-heading{padding-top:40px;padding-bottom:50px}.solution-audience-grid{grid-template-columns:1fr;gap:38px}.solution-audience-grid article>p{max-width:550px}.solution-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.solution-controls{grid-template-columns:1fr;gap:20px}.solution-role{max-width:100%}.solution-hero{grid-template-columns:1fr;gap:32px;padding-top:40px;padding-bottom:45px}.solution-starter{max-width:650px}.solution-overview{grid-template-columns:1fr;gap:30px}.solution-section-nav{gap:25px}.solution-insights .section-heading{flex-direction:column;gap:20px}.solution-insights .section-heading>p{max-width:100%}.solution-advice-grid{grid-template-columns:1fr}.solution-advice-grid article{padding:25px}.solution-direction-grid{grid-template-columns:1fr}.solution-workflow ol{grid-template-columns:repeat(2,minmax(0,1fr))}.solution-brief-section,.solution-related{padding-top:0}.solution-briefs li{align-items:flex-start;gap:16px}.solution-breadcrumbs{padding-top:20px}}
 @media(max-width:500px){.solution-card-grid,.solution-benefit-grid,.solution-workflow ol{grid-template-columns:1fr}.solution-hero h1{font-size:38px}.solution-starter blockquote{font-size:19px}.solution-directory-group>h3{font-size:22px}.solution-audience-grid h3{font-size:25px}.solution-briefs li{flex-direction:column;padding:21px}.solution-card{padding:24px}.solution-breadcrumbs li:last-child{flex-basis:100%}.solution-breadcrumbs li:last-child:before{display:none}.solution-result-status{gap:10px}.solution-filters button{padding:9px 13px}.solution-practical-note{gap:14px}}
+
+/* Three-level Solutions disclosure: section, audience/project category, individual page. */
+.solutions-dropdown{display:flex;align-items:center}
+.solutions-trigger{display:flex;align-items:center;gap:6px;border:0;padding:9px 0;background:transparent;font-size:var(--text-ui);font-weight:600;color:var(--muted);white-space:nowrap;line-height:1.6}
+.solutions-trigger:hover,.solutions-trigger[aria-current],.solutions-trigger[aria-expanded=true]{color:var(--accent)}
+.solutions-trigger>svg{transition:transform .2s}
+.solutions-trigger[aria-expanded=true]>svg{transform:rotate(180deg)}
+.solution-menu-panel{position:absolute;right:5%;top:calc(100% - 1px);width:800px;max-width:90%;padding:22px;background:var(--paper);border:1px solid var(--line);border-radius:0 0 9px 9px;box-shadow:0 18px 45px #292c261c;max-height:calc(100dvh - 110px);overflow-y:auto}
+.solution-menu-panel[hidden],.solution-menu-links[hidden]{display:none}
+.solution-menu-body{position:relative;min-height:455px;padding-right:calc(100% - 255px)}
+.solution-menu-kind+.solution-menu-kind{margin-top:18px}
+.solution-menu-label{font-size:var(--text-label);letter-spacing:1.3px;text-transform:uppercase;color:var(--muted);margin:0 0 7px;padding:0 12px;font-weight:650}
+.solution-menu-category{display:flex;align-items:center;justify-content:space-between;gap:14px;width:100%;text-align:left;font-size:var(--text-ui);line-height:1.6;border:0;border-radius:5px;background:none;padding:10px 12px;color:var(--ink)}
+.solution-menu-category>svg{flex-shrink:0;color:var(--muted)}
+.solution-menu-category:hover,.solution-menu-category[aria-expanded=true]{background:var(--sage);color:var(--accent)}
+.solution-menu-links{position:absolute;top:0;left:280px;right:0;padding-left:24px;border-left:1px solid var(--line)}
+.solution-menu-group-heading{margin-bottom:13px}
+.solution-menu-group-heading>strong{display:block;font-size:var(--text-title-small);line-height:1.6;font-weight:600;margin-bottom:7px}
+.site-header .solution-menu-group-heading>a{display:inline-flex;align-items:center;gap:7px;font-size:var(--text-caption);color:var(--accent);font-weight:500;padding:3px 0}
+.solution-menu-links ul{list-style:none;margin:0;padding:0}
+.site-header .solution-menu-links li>a{display:flex;align-items:center;justify-content:space-between;gap:14px;font-size:var(--text-ui);line-height:1.6;white-space:normal;border-top:1px solid var(--line);padding:12px 0;color:var(--ink);font-weight:500}
+.solution-menu-links a>svg{flex-shrink:0;color:var(--accent)}
+.site-header .solution-menu-links li>a:hover,.site-header .solution-menu-links li>a[aria-current=page]{color:var(--accent)}
+.site-header .solution-menu-all{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-top:20px;padding:16px 12px 0;border-top:1px solid var(--line);color:var(--accent);font-size:var(--text-ui);font-weight:600}
+@media(max-width:1100px){.solution-menu-panel{padding:20px;width:760px}.solution-menu-body{padding-right:calc(100% - 240px);min-height:480px}.solution-menu-links{left:260px;padding-left:20px}}
+@media(max-width:800px){.site-header .nav.open{max-height:calc(100dvh - 78px);overflow-y:auto}.solutions-dropdown{display:block}.solutions-trigger{width:100%;justify-content:space-between;padding:0}.solution-menu-panel{position:static;width:100%;max-width:none;max-height:none;overflow:visible;box-shadow:none;border-radius:6px;margin-top:16px;padding:18px}.solution-menu-body{padding:0;min-height:0}.solution-menu-links{position:static;border-left:0;padding:10px 12px 18px}.solution-menu-group-heading>strong{display:none}.solution-menu-category[aria-expanded=true]>svg{transform:rotate(90deg)}.solution-menu-category{min-height:44px}.solution-menu-kind+.solution-menu-kind{margin-top:22px}.site-header .solution-menu-all{margin-top:12px;padding-top:16px;white-space:normal}}
+@media(max-width:500px){.solution-menu-panel{padding:13px}.solution-menu-links{padding-left:10px;padding-right:10px}.solution-menu-category{padding:10px;font-size:var(--text-ui)}.solution-menu-label{padding-left:10px}}
+.site-header .nav{align-items:center}
+.site-header .nav .solution-menu-all{color:var(--accent)}
+@media(max-width:800px){.site-header .nav.open{align-items:stretch}}
