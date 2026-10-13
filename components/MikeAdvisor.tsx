@@ -12,7 +12,7 @@ export function MikeAdvisor({ locale }: { locale: Locale }) {
       <figure className="mike-avatar">
         <div className="mike-portrait">
           {mike.avatarSrc
-            ? <img src={mike.avatarSrc} alt={c.avatarAlt} loading="lazy" width={600} height={660}/>
+            ? <img src={mike.avatarSrc} alt={c.avatarAlt} loading="lazy" width={512} height={512}/>
             : <div className="mike-portrait-placeholder"><span aria-hidden="true">MB</span><p>{c.avatarPending}</p></div>}
           <div className="mike-nameplate"><strong>Mike Briller<span aria-hidden="true">✳</span></strong><span>{c.role}</span></div>
         </div>
