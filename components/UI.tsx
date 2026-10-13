@@ -23,8 +23,7 @@ export function Header({locale,page}:{locale:Locale,page:string}) {
   },[open]);
   return <header className="site-header">
     <a className="header-brand" href={href(locale)} aria-label={locale==='uk'?'Briller — головна':'Briller home'}>
-      <span className="brand-mark" aria-hidden="true">b</span>
-      <span className="brand-name">briller<span>.</span></span>
+      <span className="brand-name">briller<span className="brand-asterisk" aria-hidden="true">✳</span></span>
     </a>
     <nav id="primary-navigation" className={open?'nav open':'nav'} aria-label={locale==='uk'?'Головна навігація':'Main navigation'}>
       {links.map(link=><a aria-current={link.active?'page':undefined} href={link.url} key={link.label} onClick={()=>setOpen(false)}>{link.label}</a>)}

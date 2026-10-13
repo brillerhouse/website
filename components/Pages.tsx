@@ -8,7 +8,7 @@ function Audience({locale,full=false}:{locale:Locale,full?:boolean}){const c=cop
 function Brill({locale}:{locale:Locale}){const c=copy(locale);return <section className="brill-section section"><div className="brill-visual"><div className="brill-orbit orbit-one"/><div className="brill-orbit orbit-two"/><div className="brill-orb"><Sparkles size={48} strokeWidth={1.3}/></div><span className="brill-name">brill<span>✦</span></span><div className="brill-quote"><span className="status-dot"/><p>“{c.home.brillQuote}”</p><small>{c.home.brillNote}</small></div></div><div><p className="eyebrow">{c.home.brillLabel}</p><h2>{c.home.brillTitle}</h2><p className="body-copy">{c.home.brillText}</p><a className="text-link" href={href(locale,'features')}>{locale==='uk'?'Познайомитися з можливостями':'Discover your co-pilot'}<ArrowUpRight size={18}/></a></div></section>;}
 export function Home({locale}:{locale:Locale}){const c=copy(locale);const h=c.home;return <><link rel="preload" as="image" href="/images/kitchen-comparison.webp"/><section className="hero hero-redesign">
   <div className="hero-copy">
-    <p className="eyebrow">{h.eyebrow}</p>
+    <p className="eyebrow"><span className="tiny-spark" aria-hidden="true">✳</span>{h.eyebrow}</p>
     <h1><span className="hero-title-main">{h.title.split('\n')[0]}</span>{' '}<span className="hero-title-muted">{h.title.split('\n').slice(1).join(' ')}</span></h1>
     <p className="hero-intro">{h.intro}</p>
     <div className="button-row"><a className="button" href={site.app}>{h.primary}</a><a className="button outline hero-secondary" href="#how-it-works">{h.secondary}</a></div>
