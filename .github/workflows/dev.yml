@@ -22,6 +22,8 @@ jobs:
       REGISTRY: briller-web
       BRILLER_PREVIEW: '1'
       NEXT_TELEMETRY_DISABLED: '1'
+      GCP_WORKLOAD_IDENTITY_PROVIDER: ''
+      GCP_DEPLOY_SERVICE_ACCOUNT: ''
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -45,14 +47,14 @@ jobs:
           path: ${{ runner.temp }}/briller-export/
           retention-days: 30
       - uses: google-github-actions/auth@v2
-        if: vars.GCP_WORKLOAD_IDENTITY_PROVIDER != '' && vars.GCP_DEPLOY_SERVICE_ACCOUNT != ''
+        if: env.GCP_WORKLOAD_IDENTITY_PROVIDER != '' && env.GCP_DEPLOY_SERVICE_ACCOUNT != ''
         with:
-          workload_identity_provider: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER }}
-          service_account: ${{ vars.GCP_DEPLOY_SERVICE_ACCOUNT }}
+          workload_identity_provider: ${{ env.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ env.GCP_DEPLOY_SERVICE_ACCOUNT }}
       - uses: google-github-actions/setup-gcloud@v2
-        if: vars.GCP_WORKLOAD_IDENTITY_PROVIDER != '' && vars.GCP_DEPLOY_SERVICE_ACCOUNT != ''
+        if: env.GCP_WORKLOAD_IDENTITY_PROVIDER != '' && env.GCP_DEPLOY_SERVICE_ACCOUNT != ''
       - name: Build and upload verified static image
-        if: vars.GCP_WORKLOAD_IDENTITY_PROVIDER != '' && vars.GCP_DEPLOY_SERVICE_ACCOUNT != ''
+        if: env.GCP_WORKLOAD_IDENTITY_PROVIDER != '' && env.GCP_DEPLOY_SERVICE_ACCOUNT != ''
         run: |
           gcloud auth configure-docker "$REGION-docker.pkg.dev" --quiet
           mkdir -p "$RUNNER_TEMP/briller-container"
@@ -64,7 +66,7 @@ jobs:
           docker push "$IMAGE"
           echo "BRILLER_IMAGE=$IMAGE" >> "$GITHUB_ENV"
       - name: Update Dev only
-        if: vars.GCP_WORKLOAD_IDENTITY_PROVIDER != '' && vars.GCP_DEPLOY_SERVICE_ACCOUNT != ''
+        if: env.GCP_WORKLOAD_IDENTITY_PROVIDER != '' && env.GCP_DEPLOY_SERVICE_ACCOUNT != ''
         run: |
           gcloud run deploy "$SERVICE" \
             --image="$BRILLER_IMAGE" \
@@ -78,7 +80,7 @@ jobs:
           curl --fail --silent --show-error "$URL/robots.txt" | grep -F 'Disallow: /'
           printf '### Briller Dev\n\n[Переглянути сайт](%s/uk/)\n\nCommit: `%s`\n' "$URL" "$GITHUB_SHA" >> "$GITHUB_STEP_SUMMARY"
       - name: Report pending Google Cloud setup
-        if: vars.GCP_WORKLOAD_IDENTITY_PROVIDER == '' || vars.GCP_DEPLOY_SERVICE_ACCOUNT == ''
+        if: env.GCP_WORKLOAD_IDENTITY_PROVIDER == '' || env.GCP_DEPLOY_SERVICE_ACCOUNT == ''
         run: |
           echo "::warning::Build and downloadable artifacts are ready. Online Dev deployment is pending one-time Google Cloud setup."
           printf '### Build ready; online Dev pending\n\nDownload source/static ZIPs from this run. Configure Google Cloud with `deployment/setup-gcp-dev.sh`, then rerun this workflow.\n' >> "$GITHUB_STEP_SUMMARY"

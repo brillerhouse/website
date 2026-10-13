@@ -17,7 +17,7 @@ Download `briller-static.zip` or `briller-source.zip` from the workflow run’s 
 5. Create runtime account `briller-web-runtime` with no application roles, and deployer account `briller-dev-deployer`.
 6. Give the deployer `roles/run.admin` in the project and `roles/artifactregistry.writer` on the `briller-web` repository; give `roles/iam.serviceAccountUser` on the runtime account. An organisation policy may additionally restrict public invoker; do not bypass it.
 7. Set up a Workload Identity pool/provider for GitHub’s OIDC issuer `https://token.actions.githubusercontent.com`. Attribute mapping: `google.subject=assertion.sub`, `attribute.repository=assertion.repository`. Restrict the provider condition to the exact GitHub repository AND `assertion.ref == 'refs/heads/dev'`. Prefer immutable repository and owner IDs when available. Grant `roles/iam.workloadIdentityUser` on the deployer account to this repository principalSet only.
-8. In the GitHub repository environment `dev`, set variables `GCP_WORKLOAD_IDENTITY_PROVIDER` to the full provider resource name and `GCP_DEPLOY_SERVICE_ACCOUNT` to `briller-dev-deployer@nifty-atlas-473013-f9.iam.gserviceaccount.com`. Do not add a JSON service-account key.
+8. Set the non-secret `GCP_WORKLOAD_IDENTITY_PROVIDER` and `GCP_DEPLOY_SERVICE_ACCOUNT` values in the `env` section of `.github/workflows/dev.yml`. The provider is the full resource name; the deployer is `briller-dev-deployer@nifty-atlas-473013-f9.iam.gserviceaccount.com`. Do not add a JSON service-account key.
 9. Push the prepared workflow and source to `dev`. Confirm the run’s deployment URL and verify online content.
 
 IAM provisioning is a one-time administrator action; exact commands must be completed with the chosen repo, its immutable IDs, project number and existing IAM state. No private credentials are stored in source. This workflow has been prepared locally but has not yet run in GitHub or deployed Google Cloud resources.
@@ -38,6 +38,6 @@ cat setup-gcp-dev.sh
 bash setup-gcp-dev.sh
 ```
 
-The script enables required APIs, creates the image repository and two service accounts if absent, grants the documented deployment IAM roles, and creates a GitHub OIDC provider restricted to this repository and branch. It does not create a private key or alter app data/DNS. The printed provider resource and service-account email are not secrets; they can be supplied back in chat so the assistant can set the repository variables and rerun Dev.
+The script enables required APIs, creates the image repository and two service accounts if absent, grants the documented deployment IAM roles, and creates a GitHub OIDC provider restricted to this repository and branch. It does not create a private key or alter app data/DNS. The printed provider resource and service-account email are not secrets; they can be supplied back in chat so the assistant can update the tracked workflow configuration and rerun Dev.
 
-Until variables are configured, the workflow builds/tests and exports ZIPs, then explicitly reports that online deployment is pending. A successful build in this state is not a successful Google Cloud deployment.
+Until identity references are configured, the workflow builds/tests and exports ZIPs, then explicitly reports that online deployment is pending. A successful build in this state is not a successful Google Cloud deployment.
