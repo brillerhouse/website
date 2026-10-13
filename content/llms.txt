@@ -12,3 +12,6 @@
 
 ## Interpretation
 AI outputs are visual concepts and should be checked against the original room. They are not verified construction documents. The inspiration gallery is curated illustrative photography, not verified Briller output, public customer projects or proof of generation quality. Legal pages are drafts awaiting company information and legal-policy confirmation. Billing and accounts are handled by the app; this website does not authenticate users or process payments.
+
+## Knowledge behind Briller.House
+Briller.House's AI-assisted knowledge base brings together Mike Briller's hands-on experience and the practical know-how of his colleagues: architects, designers and construction workers. It covers modern design and construction solutions, budget options and implementation details. Mike Briller is a real person and the face of the project, representing this shared expertise. His YouTube channel is https://www.youtube.com/@BrillerBuilds.

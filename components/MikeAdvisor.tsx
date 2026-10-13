@@ -16,7 +16,6 @@ export function MikeAdvisor({ locale }: { locale: Locale }) {
             : <div className="mike-portrait-placeholder"><span aria-hidden="true">MB</span><p>{c.avatarPending}</p></div>}
           <div className="mike-nameplate"><strong>Mike Briller<span aria-hidden="true">✳</span></strong><span>{c.role}</span></div>
         </div>
-        <figcaption>{c.avatarDisclosure}</figcaption>
       </figure>
       <div className="mike-example">
         <Sparkles size={16} aria-hidden="true"/>
@@ -28,6 +27,7 @@ export function MikeAdvisor({ locale }: { locale: Locale }) {
       <p className="eyebrow">{c.eyebrow}</p>
       <h2 id="mike-heading">{c.title}</h2>
       <p className="mike-intro">{c.intro}</p>
+      <p className="mike-intro">{c.avatarStory}</p>
       <ul className="mike-topics">
         {c.topics.map((topic, i) => {
           const Icon = icons[i];

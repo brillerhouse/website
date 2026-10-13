@@ -97,13 +97,12 @@
       ]
     },
     "mike": {
-      "eyebrow": "MEET YOUR DESIGN & CONSTRUCTION ADVISOR",
-      "title": "Meet Mike Briller.\nIdeas with a practical next step.",
-      "intro": "Mike Briller brings his knowledge of architecture, design and construction to Briller — helping you explore design choices, budget options and practical ways to bring your ideas to life.",
-      "avatarAlt": "AI-generated portrait of Mike Briller",
+      "eyebrow": "REAL EXPERIENCE. HERE TO HELP.",
+      "title": "Hey, I’m Mike Briller.",
+      "intro": "I’ve spent the last 15 years building houses and apartments — thousands of them, actually. Somewhere along the way, I got tired of watching people make the same expensive mistakes over and over.",
+      "avatarAlt": "Portrait of Mike Briller",
       "avatarPending": "Avatar preview",
-      "avatarDisclosure": "AI-generated portrait of Mike Briller.",
-      "role": "Design & construction advisor",
+      "role": "Founder of Briller.House",
       "quote": "Start with essential, balanced and premium options for the same room. Then compare materials, labour and lighting separately.",
       "quoteNote": "Illustrative budget-planning example. Estimates need local pricing and a confirmed project scope.",
       "planned": "Planned",
@@ -115,22 +114,23 @@
       "topics": [
         {
           "title": "Design with a clear direction",
-          "text": "Explore layouts, materials and lighting, and understand which choices work together."
+          "text": "Explore modern layouts, materials and lighting with guidance informed by real design projects."
         },
         {
           "title": "Plan for your budget",
-          "text": "Compare different budget levels with indicative cost breakdowns for materials, labour and finishes."
+          "text": "Compare essential, balanced and premium options using practical knowledge of materials, labour and finishes."
         },
         {
           "title": "Understand the practical details",
-          "text": "Explore how a detail could be implemented, what to check with your builder and where an idea needs refinement."
+          "text": "Learn from construction experience: how a detail can be implemented, what works in practice and what to check with your builder."
         }
       ],
       "cta": "Explore Briller",
       "youtube": "Watch Mike Briller on YouTube",
       "youtubePending": "Mike Briller on YouTube · Coming soon",
       "youtubeText": "Design, construction and architecture, explained through video.",
-      "technicalNote": "Confirm costs, measurements and technical decisions with your project professionals."
+      "technicalNote": "Confirm costs, measurements and technical decisions with your project professionals.",
+      "avatarStory": "That’s why I built Briller.House: to bring together what I’ve learned and the knowledge of hundreds of colleagues — architects, designers and builders — and put it to work for you. Modern AI makes that shared experience easier to use, from your first design idea to your budget and the details of the build."
     }
   },
   "featureItems": [
@@ -156,7 +156,7 @@
       "04",
       "Ideas with substance",
       "Briller Insights & Smart Sparks",
-      "Explore material, lighting and space-planning suggestions, then refine your design through natural-language dialogue."
+      "Explore materials, lighting and space-planning ideas through an AI-assisted knowledge base informed by Mike’s and his colleagues’ practical design and construction experience."
     ]
   ],
   "audiences": [
@@ -245,6 +245,10 @@
     [
       "How do I get started?",
       "Open the Briller studio, create an account and add a room photo or sketch. You can then add references and describe the direction you want to explore."
+    ],
+    [
+      "What knowledge is Briller built on?",
+      "Briller.House brings together Mike Briller’s personal experience and the practical know-how of his colleagues — architects, designers and construction workers — in an AI-assisted knowledge base of modern design and construction solutions. Mike is the face of this shared expertise."
     ],
     [
       "Will Briller preserve my room’s geometry?",
