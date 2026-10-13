@@ -5,7 +5,65 @@ import { copy, href, site, Locale } from '@/lib/content';
 import pricing from '@/content/plans.json';
 import gallery from '@/content/gallery.json';
 export function Language({locale}:{locale:Locale}){useEffect(()=>{document.documentElement.lang=locale},[locale]);return null;}
-export function Header({locale,page}:{locale:Locale,page:string}){const [open,setOpen]=useState(false);const c=copy(locale);return <header><a className="wordmark" href={href(locale)} aria-label="Briller home">briller<span>✳</span></a><nav className={open?'nav open':'nav'} aria-label={locale==='uk'?'Головна навігація':'Main navigation'}>{Object.entries(c.nav).slice(0,4).map(([key,label])=><a aria-current={page===key?'page':undefined} href={href(locale,key)} key={key}>{label}</a>)}</nav><div className="header-actions"><a className="locale" href={href(locale==='en'?'uk':'en',page)} hrefLang={locale==='en'?'uk':'en'} aria-label={locale==='en'?'Перемкнути українською':'Switch to English'}>{locale==='en'?'UK':'EN'}</a><a className="header-cta button" href={site.app}>{c.start}<ArrowUpRight size={16}/></a><button className="mobile-menu" aria-label={open?c.close:c.menu} aria-expanded={open} onClick={()=>setOpen(!open)}>{open?<X/>:<Menu/>}</button></div></header>;}
+export function Header({locale,page}:{locale:Locale,page:string}) {
+  const [open,setOpen]=useState(false);
+  const toggle=useRef<HTMLButtonElement>(null);
+  const c=copy(locale);
+  const links=[
+    {label:c.header.howItWorks,url:href(locale)+'#how-it-works',active:false},
+    {label:c.header.solutions,url:href(locale,'use-cases'),active:page==='use-cases'},
+    {label:c.header.resources,url:href(locale,'faq'),active:page==='faq'},
+    {label:c.header.plans,url:href(locale,'pricing'),active:page==='pricing'},
+  ];
+  useEffect(()=>{
+    if(!open)return;
+    const escape=(event:KeyboardEvent)=>{if(event.key==='Escape'){setOpen(false);toggle.current?.focus();}};
+    window.addEventListener('keydown',escape);
+    return ()=>window.removeEventListener('keydown',escape);
+  },[open]);
+  return <header className="site-header">
+    <a className="header-brand" href={href(locale)} aria-label={locale==='uk'?'Briller — головна':'Briller home'}>
+      <span className="brand-mark" aria-hidden="true">b</span>
+      <span className="brand-name">briller<span>.</span></span>
+    </a>
+    <nav id="primary-navigation" className={open?'nav open':'nav'} aria-label={locale==='uk'?'Головна навігація':'Main navigation'}>
+      {links.map(link=><a aria-current={link.active?'page':undefined} href={link.url} key={link.label} onClick={()=>setOpen(false)}>{link.label}</a>)}
+    </nav>
+    <div className="header-actions">
+      <a className="locale" href={href(locale==='en'?'uk':'en',page)} hrefLang={locale==='en'?'uk':'en'} aria-label={locale==='en'?'Перемкнути українською':'Switch to English'}>{locale==='en'?'UK':'EN'}</a>
+      <a className="header-cta button" href={site.app}>{c.login}</a>
+      <button ref={toggle} className="mobile-menu" aria-label={open?c.close:c.menu} aria-expanded={open} aria-controls="primary-navigation" onClick={()=>setOpen(!open)}>{open?<X/>:<Menu/>}</button>
+    </div>
+  </header>;
+}
+export function HeroComparison({locale}:{locale:Locale}) {
+  const h=copy(locale).home;
+  const [position,setPosition]=useState(50);
+  const dragging=useRef(false);
+  function update(event:React.PointerEvent<HTMLInputElement>){
+    const rect=event.currentTarget.getBoundingClientRect();
+    setPosition(Math.max(0,Math.min(100,Math.round((event.clientX-rect.left)/rect.width*100))));
+  }
+  return <figure className="hero-room-comparison">
+    <div className="hero-room-frame">
+      <span className="sr-only">{h.imageLabel}</span>
+      <div className="hero-room-photo hero-room-before" aria-hidden="true"/>
+      <div className="hero-room-photo hero-room-after" style={{clipPath:`inset(0 0 0 ${position}%)`}} aria-hidden="true"/>
+      <span className="hero-room-label hero-room-label-before">{h.beforeLabel}</span>
+      <span className="hero-room-label hero-room-label-after">{h.afterLabel}</span>
+      <div className="hero-room-divider" style={{left:`${position}%`}} aria-hidden="true"><span><ArrowLeftRight size={21} strokeWidth={1.8}/></span></div>
+      <input className="hero-room-range" type="range" min={0} max={100} value={position} aria-label={h.compareLabel} aria-describedby="hero-comparison-caption"
+        aria-valuetext={`${h.beforeLabel}: ${position}%. ${h.afterLabel}: ${100-position}%.`}
+        onChange={event=>setPosition(Number(event.target.value))}
+        onPointerDown={event=>{event.preventDefault();event.currentTarget.focus({preventScroll:true});dragging.current=true;event.currentTarget.setPointerCapture(event.pointerId);update(event);}}
+        onPointerMove={event=>{if(dragging.current){event.preventDefault();update(event);}}}
+        onPointerUp={()=>{dragging.current=false;}}
+        onPointerCancel={()=>{dragging.current=false;}}
+        onLostPointerCapture={()=>{dragging.current=false;}}/>
+    </div>
+    <figcaption id="hero-comparison-caption">{h.imageNote}</figcaption>
+  </figure>;
+}
 export function Compare({locale}:{locale:Locale}){const c=copy(locale).comparison;const [position,setPosition]=useState(50);return <section className="comparison section"><div><p className="eyebrow">{c.label}</p><h2>{c.title}</h2><p className="body-copy">{c.text}</p></div><div className="compare-image"><img src="/images/detail.jpg" alt={c.before} loading="lazy"/><div className="warm-layer" style={{clipPath:`inset(0 0 0 ${position}%)`}}><img src="/images/detail.jpg" alt="" loading="lazy"/></div><span className="compare-label before">{c.before}</span><span className="compare-label after">{c.after}</span><div className="compare-line" style={{left:`${position}%`}}><span><ArrowLeftRight size={19}/></span></div><input aria-label={c.control} type="range" min="0" max="100" value={position} onChange={e=>setPosition(Number(e.target.value))}/></div></section>;}
 export function Pricing({locale,full=false}:{locale:Locale,full?:boolean}){const c=copy(locale);const p=c.pricing;const [annual,setAnnual]=useState(false);return <><div className="billing-toggle"><button aria-pressed={!annual} className={!annual?'selected':''} onClick={()=>setAnnual(false)}>{p.monthly}</button><button aria-pressed={annual} className={annual?'selected':''} onClick={()=>setAnnual(true)}>{p.annual}<span>{locale==='uk'?'до −20%':'up to −20%'}</span></button></div><p className="billing-hint">{annual?p.annualNote:p.creditNote}</p><div className="pricing-grid">{pricing.plans.map((plan,i)=><article className={'price-card '+(i===2?'featured':'')} key={plan.name}>{i===2&&<span className="popular">{p.popular}</span>}<p className="plan-index">0{i+1}</p><h3>{plan.name}</h3><p>{c.planDescriptions[i]}</p><div className="price">${(annual?plan.annualMonthly:plan.monthly).toFixed(plan.monthly===0?0:2)}<small>{p.perMonth}</small></div><p className="annual-total">{annual&&plan.monthly>0?`${p.billed}: $${(plan.annualMonthly*12).toFixed(2)}`:'\u00a0'}</p><a className={'button '+(i===2?'':'outline')} href={site.app}>{i===0?c.start:p.choose}<ArrowUpRight size={15}/></a><ul><li><Check size={15}/>{plan.credits} {i===0?(locale==='uk'?'ітерацій / міс.':'iterations / month'):(locale==='uk'?'кредитів / міс.':'credits / month')}</li><li><Check size={15}/>{plan.projects===null?p.unlimited:plan.projects} {locale==='uk'?'проєктів':'projects'}</li><li><Check size={15}/>{plan.watermark?(locale==='uk'?'З водяним знаком':'Watermarked renders'):(locale==='uk'?'Без водяного знаку':'No watermark')}</li><li><Check size={15}/>{plan.insights==='full'?p.full:p.basic} Brill</li>{plan.resolution&&<li><Check size={15}/>HD / 4K</li>}{plan.seats===3&&<li><Check size={15}/>{locale==='uk'?'3 місця · PDF · комерційна ліцензія':'3 seats · PDF · commercial licence'}</li>}</ul></article>)}</div><p className="small pricing-note">{p.billingNote}</p>{full&&<><h2 className="table-title">{p.compare}</h2><div className="table-wrap" role="region" aria-label={p.compare} tabIndex={0}><table><thead><tr><th>{locale==='uk'?'Можливість':'Feature'}</th>{pricing.plans.map(plan=><th key={plan.name} scope="col">{plan.name}</th>)}</tr></thead><tbody>{(['credits','projects','watermark','insights','resolution','seats','pdf','commercial'] as const).map(key=><tr key={key}><th scope="row">{p[key]}</th>{pricing.plans.map(plan=>{const value=plan[key];return <td key={plan.name}>{value===null?p.unlimited:typeof value==='boolean'?(value?p.yes:p.no):value==='basic'?p.basic:value==='full'?p.full:value}</td>})}</tr>)}</tbody></table></div><div className="topup-heading"><h2>{p.topups}</h2><p>{p.topupIntro}</p></div><div className="topups">{pricing.topups.map(([name,price,credits])=><a href={site.app} className="topup" key={name}><span>{name}</span><strong>${Number(price).toFixed(2)}</strong><small>{credits} {p.pack}</small><ArrowUpRight size={17}/></a>)}</div><p className="small pricing-note">{p.manage}</p></>}</>;}
 export function Faq({locale,compact=false}:{locale:Locale,compact?:boolean}){const c=copy(locale);const entries=compact?c.faqs.slice(0,5):c.faqs;return <div className="faq-list">{entries.map(([question,answer],i)=><details key={question}><summary><span className="faq-number">{String(i+1).padStart(2,'0')}</span><span>{question}</span><span className="plus">+</span></summary><p>{answer}</p></details>)}</div>;}
