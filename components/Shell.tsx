@@ -1,4 +1,4 @@
-import { copy, href, site, Locale } from '@/lib/content';
+import { copy, href, site, company, Locale } from '@/lib/content';
 import { Header, Language } from './UI';
 import { buildSolutionMenu } from '@/lib/solutions';
 import { FooterLanguages, LocaleRouting } from './LanguagePreferences';
@@ -12,7 +12,10 @@ export function Shell({ locale, page = '', children, breadcrumbs }: { locale: Lo
   const json = {
     '@context': 'https://schema.org',
     '@graph': [
-      { '@type': 'Organization', '@id': site.origin + '/#organization', name: 'Briller', url: site.origin, email: site.email, logo: site.origin + '/icon.svg' },
+      { '@type': 'Organization', '@id': site.origin + '/#organization', name: 'Briller', legalName: company.legalName, address: { '@type': 'PostalAddress', ...company.address }, taxID: company.nip, identifier: [
+        { '@type': 'PropertyValue', propertyID: 'KRS', value: company.krs },
+        { '@type': 'PropertyValue', propertyID: 'REGON', value: company.regon }
+      ], url: site.origin, email: site.email, logo: site.origin + '/icon.svg' },
       { '@type': 'WebSite', '@id': site.origin + '/#website', url: site.origin, name: 'Briller', inLanguage: ['en', 'uk'], publisher: { '@id': site.origin + '/#organization' } },
       ...(page ? [{ '@type': 'BreadcrumbList', itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Briller', item: site.origin + href(locale) },

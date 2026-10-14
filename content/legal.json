@@ -3,7 +3,7 @@
     "privacy": [
       [
         "1. Who is responsible",
-        "Briller is operated by [LEGAL COMPANY NAME], registered at [REGISTERED ADDRESS], with registration number [NUMBER]. The data controller and applicable jurisdiction must be confirmed. Contact: hello@briller.house."
+        "Briller.House is operated by {{operatorDetails}}. This company is responsible for personal-data processing on this website. For privacy enquiries and rights requests, contact hello@briller.house."
       ],
       [
         "2. This website",
@@ -47,13 +47,13 @@
       ],
       [
         "12. Providers, legal basis and retention",
-        "Optional Google Analytics and Meta tracking relies on your consent. Necessary preference storage and hosting/network processing must be assessed under the operator’s applicable legal basis. Google and Meta may process information internationally; confirm the responsible entities, processor/controller roles, transfer safeguards, account settings and retention periods before publishing a final policy. Cookie expiry is not a guarantee of deletion from provider systems. The operator identity, policy effective date and other marked company details remain to be confirmed."
+        "Optional Google Analytics and Meta tracking relies on your consent. Necessary preference storage and hosting/network processing must be assessed under the operator’s applicable legal basis. Google and Meta may process information internationally; confirm the responsible entities, processor/controller roles, transfer safeguards, account settings and retention periods before publishing a final policy. Cookie expiry is not a guarantee of deletion from provider systems. The policy effective date and other marked operational details remain to be confirmed."
       ]
     ],
     "terms": [
       [
         "1. Operator and agreement",
-        "These draft terms concern Briller, operated by [LEGAL COMPANY NAME], [REGISTERED ADDRESS], [REGISTRATION NUMBER]. Insert [EFFECTIVE DATE], applicable law and appropriate dispute resolution after legal review."
+        "These draft terms concern Briller.House, operated by {{operatorDetails}}. Contact: hello@briller.house. Insert [EFFECTIVE DATE], applicable law and appropriate dispute resolution after legal review."
       ],
       [
         "2. Scope of the service",
@@ -87,7 +87,7 @@
     "refunds": [
       [
         "1. Draft status",
-        "A final refund and withdrawal policy has not yet been supplied. This draft does not promise or deny a refund. Insert the operator’s legal identity, effective date and reviewed conditions before selling subscriptions."
+        "Briller.House is operated by {{operatorDetails}}. A final refund and withdrawal policy has not yet been supplied. This draft does not promise or deny a refund. Insert the effective date and reviewed conditions before selling subscriptions."
       ],
       [
         "2. Requesting assistance",
@@ -137,7 +137,7 @@
       ],
       [
         "7. Operator and effective date",
-        "Operator: [LEGAL COMPANY NAME], [REGISTERED ADDRESS]. Effective date: [EFFECTIVE DATE]. Questions and privacy requests: hello@briller.house. This policy remains a draft until company details, provider settings and applicable legal requirements are confirmed."
+        "Operator: {{operatorDetails}}. Effective date: [EFFECTIVE DATE]. Questions and privacy requests: hello@briller.house. This policy remains a draft until provider settings and applicable legal requirements are confirmed."
       ]
     ]
   },
@@ -145,7 +145,7 @@
     "privacy": [
       [
         "1. Хто відповідає за дані",
-        "Оператор Briller — [ЮРИДИЧНА НАЗВА КОМПАНІЇ], [ЮРИДИЧНА АДРЕСА], [РЕЄСТРАЦІЙНИЙ НОМЕР]. Потрібно підтвердити контролера даних і застосовну юрисдикцію. Контакт: hello@briller.house."
+        "Оператор Briller.House — {{operatorDetails}}. Ця компанія відповідає за обробку персональних даних на цьому сайті. З питань приватності та реалізації ваших прав звертайтеся на hello@briller.house."
       ],
       [
         "2. Цей сайт",
@@ -189,13 +189,13 @@
       ],
       [
         "12. Провайдери, правові підстави та зберігання",
-        "Необов’язкове відстеження Google Analytics і Meta спирається на вашу згоду. Правові підстави необхідного сховища налаштувань і мережевої обробки визначаються для оператора та застосовного права. Google й Meta можуть обробляти дані за кордоном; до остаточної публікації підтвердьте відповідальні юридичні особи, ролі сторін, гарантії передачі, налаштування облікових записів і строки зберігання. Закінчення строку cookie не гарантує видалення даних із систем провайдера. Юридичні дані оператора, дату чинності та інші позначені відомості ще потрібно підтвердити."
+        "Необов’язкове відстеження Google Analytics і Meta спирається на вашу згоду. Правові підстави необхідного сховища налаштувань і мережевої обробки визначаються для оператора та застосовного права. Google й Meta можуть обробляти дані за кордоном; до остаточної публікації підтвердьте відповідальні юридичні особи, ролі сторін, гарантії передачі, налаштування облікових записів і строки зберігання. Закінчення строку cookie не гарантує видалення даних із систем провайдера. Дату чинності та інші позначені відомості щодо роботи сервісу ще потрібно підтвердити."
       ]
     ],
     "terms": [
       [
         "1. Оператор та угода",
-        "Ці чернеткові умови стосуються Briller, оператор — [ЮРИДИЧНА НАЗВА КОМПАНІЇ], [АДРЕСА], [РЕЄСТРАЦІЙНИЙ НОМЕР]. Після юридичної перевірки додайте [ДАТА ЧИННОСТІ], застосовне право й порядок вирішення спорів."
+        "Ці чернеткові умови стосуються Briller.House, оператор — {{operatorDetails}}. Контакти: hello@briller.house. Після юридичної перевірки додайте [ДАТА ЧИННОСТІ], застосовне право й порядок вирішення спорів."
       ],
       [
         "2. Послуга",
@@ -229,7 +229,7 @@
     "refunds": [
       [
         "1. Статус чернетки",
-        "Остаточні правила повернення та відмови від покупки ще не надані. Ця чернетка не обіцяє й не відмовляє в поверненні. До продажу підписок додайте оператора, дату чинності та перевірені умови."
+        "Оператор Briller.House — {{operatorDetails}}. Остаточні правила повернення та відмови від покупки ще не надані. Ця чернетка не обіцяє й не відмовляє в поверненні. До продажу підписок додайте дату чинності та перевірені умови."
       ],
       [
         "2. Запит допомоги",
@@ -279,7 +279,7 @@
       ],
       [
         "7. Оператор і дата чинності",
-        "Оператор: [ЮРИДИЧНА НАЗВА КОМПАНІЇ], [ЮРИДИЧНА АДРЕСА]. Дата чинності: [ДАТА ЧИННОСТІ]. Запитання й запити щодо приватності: hello@briller.house. Політика залишається чернеткою до підтвердження даних компанії, налаштувань провайдерів і застосовних вимог."
+        "Оператор: {{operatorDetails}}. Дата чинності: [ДАТА ЧИННОСТІ]. Запитання й запити щодо приватності: hello@briller.house. Політика залишається чернеткою до підтвердження налаштувань провайдерів і застосовних вимог."
       ]
     ]
   }
