@@ -262,3 +262,10 @@
 .site-header .nav{align-items:center}
 .site-header .nav .solution-menu-all{color:var(--accent)}
 @media(max-width:800px){.site-header .nav.open{align-items:stretch}}
+
+/* Language choices live in the common footer on every page. */
+.footer-bottom{flex-wrap:wrap;gap:18px;align-items:center}
+.footer-languages{display:flex;align-items:center;gap:6px}
+.footer-languages a{display:inline-flex;align-items:center;justify-content:center;min-width:40px;min-height:40px;padding:5px 8px;font-size:var(--text-ui);font-weight:600;line-height:1.6;border:1px solid transparent;border-radius:4px;color:var(--muted)}
+.footer-languages a:hover{color:var(--accent);border-color:var(--line)}
+.footer-languages a[aria-current]{color:var(--accent);border-color:var(--line);background:var(--sage)}

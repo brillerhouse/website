@@ -15,6 +15,9 @@ for(const locale of ['en','uk'])for(const page of pages){
  check(html.includes('hrefLang="uk"')||html.includes('hreflang="uk"'),`Missing UK hreflang: ${file}`);
  check(html.includes('name="description"'),`Missing description: ${file}`);
  check(html.includes('https://build.briller.house'),`Missing app CTA: ${file}`);
+ check(!/<header[\s\S]*?class="locale"[\s\S]*?<\/header>/.test(html),`Language control still in header: ${file}`);
+ const footerLanguage=html.match(/<nav class="footer-languages"[^>]*>([\s\S]*?)<\/nav>/)?.[1]||'';
+ for(const language of ['en','uk'])check(footerLanguage.includes(`href="/${language}/${page?page+'/':''}"`),`Footer language loses page: ${file}/${language}`);
  if(process.env.BRILLER_PREVIEW==='1'||['privacy','terms','refunds','cookies'].includes(page))check(html.includes('noindex'),`Non-public page indexed: ${file}`);
  else check(!html.includes('content="noindex'),`Production marketing page has noindex: ${file}`);
  for(const m of html.matchAll(/(?:href|src)="(\/[^"?#]*)/g)){
