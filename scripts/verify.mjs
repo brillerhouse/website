@@ -15,6 +15,8 @@ for(const locale of ['en','uk'])for(const page of pages){
  check(html.includes('hrefLang="uk"')||html.includes('hreflang="uk"'),`Missing UK hreflang: ${file}`);
  check(html.includes('name="description"'),`Missing description: ${file}`);
  check(html.includes('https://build.briller.house'),`Missing app CTA: ${file}`);
+ check(html.includes('class="footer-cookie-settings"')&&html.includes('class="cookie-dialog"'),`Missing consent settings: ${file}`);
+ check(!html.includes('<script src="https://www.googletagmanager.com')&&!html.includes('<script src="https://connect.facebook.net'),`Tracker included before client consent: ${file}`);
  check(!/<header[\s\S]*?class="locale"[\s\S]*?<\/header>/.test(html),`Language control still in header: ${file}`);
  const footerLanguage=html.match(/<nav class="footer-languages"[^>]*>([\s\S]*?)<\/nav>/)?.[1]||'';
  for(const language of ['en','uk'])check(footerLanguage.includes(`href="/${language}/${page?page+'/':''}"`),`Footer language loses page: ${file}/${language}`);

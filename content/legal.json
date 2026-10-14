@@ -7,7 +7,7 @@
       ],
       [
         "2. This website",
-        "This marketing website serves static content and local images. It has no analytics, advertising scripts, account login or server-side contact-form processing by default. Hosting and network providers may process access logs, IP addresses and browser information; specify the actual providers, purpose and retention before launch."
+        "This marketing website serves product information and local images. Optional Google Analytics and Meta advertising tools load only after you consent to the relevant category and only when their identifiers are configured. Rejecting optional cookies keeps the website available. The website has no account login or server-side contact-form processing; the Briller app is separate. Hosting and network providers may process access logs, IP addresses and browser information; confirm actual providers and retention before production launch."
       ],
       [
         "3. Contact enquiries",
@@ -32,6 +32,22 @@
       [
         "8. Language selection",
         "If you have not chosen a language, your browser requests your IP country from https://api.country.is/. The provider receives your IP address to determine a country; this website reads and caches only the country code and lookup time. Visitors in Ukraine are forwarded to Ukrainian unless a manual language preference overrides it. The request omits credentials and page referrer information. Manual language choices are remembered in your browser. Confirm this provider and its processing terms in the final policy."
+      ],
+      [
+        "9. Analytics — Google Analytics",
+        "With analytics consent, and when a GA4 Measurement ID is configured, Google Analytics measures page visits and use of this website. Google may receive cookie identifiers, browser and device information, visited pages, referrer information and network information including an IP address. The implementation removes query parameters and fragments from the page and referrer URLs supplied to GA4, disables Google Signals and advertising-personalization signals, and does not send account identifiers, contact-form messages or uploaded room images as custom events. These settings do not make all processing anonymous. Google processes data under its own applicable terms: https://policies.google.com/privacy. Configure and document the property’s event-data retention before production launch."
+      ],
+      [
+        "10. Advertising — Meta tools",
+        "With advertising consent, and when a Meta Pixel ID is configured, Meta Pixel may receive a PageView event, browser and device information, page URL, referrer, network IP address and cookie identifiers such as _fbp and _fbc. These tools help measure advertising campaigns, attribute visits and support advertising audiences. Automatic advanced matching and automatic event configuration are not enabled by this implementation; it does not send email addresses, phone numbers or contact messages as custom events. Meta may combine information with data it holds under its own terms: https://www.facebook.com/privacy/policy/. This website does not currently implement server-side Meta Conversions API tracking."
+      ],
+      [
+        "11. Consent and changes to your choice",
+        "Optional analytics and advertising are off until you choose them. You can accept all, reject optional tracking or select analytics and advertising separately. Open Cookie settings in the footer to change or withdraw your choice. Your consent record is stored in local storage and a first-party cookie for up to 180 days, after which the site asks again. Withdrawal disables the relevant integration, attempts to remove its accessible first-party cookies and reloads the page to stop previously loaded vendor code. It does not erase data already sent to a provider; contact us about rights requests. Your language choice and functional country lookup remain separate."
+      ],
+      [
+        "12. Providers, legal basis and retention",
+        "Optional Google Analytics and Meta tracking relies on your consent. Necessary preference storage and hosting/network processing must be assessed under the operator’s applicable legal basis. Google and Meta may process information internationally; confirm the responsible entities, processor/controller roles, transfer safeguards, account settings and retention periods before publishing a final policy. Cookie expiry is not a guarantee of deletion from provider systems. The operator identity, policy effective date and other marked company details remain to be confirmed."
       ]
     ],
     "terms": [
@@ -96,24 +112,32 @@
     ],
     "cookies": [
       [
-        "1. Current marketing-site behaviour",
-        "The website remembers a manual EN/UK choice in local storage (briller:language, until cleared) and a first-party cookie (briller_language, up to one year). It caches the IP-country lookup result and time in local storage (briller:country) for up to 24 hours, or 10 minutes after a failed lookup. It has no analytics or advertising trackers. Images and scripts are local; the contact form opens your email application."
+        "1. Your choices",
+        "Essential preference storage keeps the site usable. Optional analytics and advertising are off by default. The cookie banner offers Accept all, Reject optional and Choose preferences with separate analytics and advertising choices. You can reopen Cookie settings in the footer on any page."
       ],
       [
-        "2. Server and network logs",
-        "Hosting providers may retain IP addresses and request logs even without cookies. These are covered by the Privacy Policy. Confirm the hosting provider and retention settings before production deployment."
+        "2. Necessary preferences",
+        "briller_language remembers a manual EN/UK choice for up to one year; briller:language in local storage remains until cleared. briller:country caches a country code and lookup time for 24 hours, or 10 minutes after lookup failure; it does not store the visitor’s IP address. briller_cookie_consent and briller:consent store analytics/advertising choices, policy version and choice time for up to 180 days."
       ],
       [
-        "3. The app is separate",
-        "Navigating to build.briller.house opens the Briller app, whose Firebase authentication and Stripe billing may use cookies or similar technologies. This statement does not describe or consent to app tracking. Document and audit the app separately."
+        "3. Google Analytics",
+        "When configured and accepted, Google Analytics may use first-party _ga and _ga_* cookies and related identifiers to distinguish visits and measure usage. This implementation configures a 180-day cookie duration and does not enable Google Signals or advertising-personalization signals. Data retention in the Google account is separate and must be configured and documented. The Google script is not requested before analytics consent."
       ],
       [
-        "4. Future analytics or embedded services",
-        "If non-essential analytics, advertising, embedded videos or similar technologies are introduced, update this policy and implement any required consent before those services load. Provide provider names, purposes, durations and preference controls."
+        "4. Meta advertising tools",
+        "When configured and accepted, Meta Pixel may use _fbp and _fbc cookies and Meta browser identifiers to measure campaigns and support advertising audiences. Cookie lifetimes and provider-side retention depend on Meta’s current implementation and account settings; confirm them before production launch. The Meta script and PageView event are not loaded before advertising consent."
       ],
       [
-        "5. Operator and contact",
-        "Operator: [LEGAL COMPANY NAME], [REGISTERED ADDRESS]. Effective date: [EFFECTIVE DATE]. Questions: hello@briller.house."
+        "5. Withdrawal and browser controls",
+        "Change your choices through Cookie settings. Withdrawal disables the relevant integration, attempts to delete accessible optional first-party cookies and reloads the page. Third-party cookies or records held on a provider’s own domain cannot be erased by this website; use your browser and provider privacy controls. Rejection does not remove necessary language and consent preferences."
+      ],
+      [
+        "6. Hosting, the app and other services",
+        "Hosting/network logs may include IP addresses without cookies. Functional IP-country lookup uses country.is as described in the Privacy Policy. The app at build.briller.house has separate authentication, billing and data-processing rules. Consent on this marketing site is not consent to tracking in the app. Add any future provider or new purpose to the policy and request appropriate consent before it loads."
+      ],
+      [
+        "7. Operator and effective date",
+        "Operator: [LEGAL COMPANY NAME], [REGISTERED ADDRESS]. Effective date: [EFFECTIVE DATE]. Questions and privacy requests: hello@briller.house. This policy remains a draft until company details, provider settings and applicable legal requirements are confirmed."
       ]
     ]
   },
@@ -125,7 +149,7 @@
       ],
       [
         "2. Цей сайт",
-        "Маркетинговий сайт віддає статичний контент і локальні зображення. За замовчуванням немає аналітики, реклами, входу в обліковий запис чи серверної обробки контактної форми. Провайдери хостингу й мережі можуть обробляти журнали запитів, IP-адреси та інформацію браузера. Перед запуском вкажіть провайдерів, мету й строки зберігання."
+        "Маркетинговий сайт показує інформацію про продукт і локальні зображення. Необов’язкові Google Analytics та рекламні інструменти Meta завантажуються лише після згоди на відповідну категорію й лише коли налаштовані їхні ідентифікатори. Відмова від необов’язкових cookies не обмежує доступ до сайту. На сайті немає входу в обліковий запис чи серверної обробки контактної форми; застосунок Briller працює окремо. Хостинг і мережеві провайдери можуть обробляти IP-адреси, журнали запитів та інформацію про браузер; перед публічним запуском підтвердьте провайдерів і строки зберігання."
       ],
       [
         "3. Звернення",
@@ -150,6 +174,22 @@
       [
         "8. Вибір мови",
         "Якщо ви ще не обрали мову, браузер запитує країну вашої IP-адреси у https://api.country.is/. Провайдер отримує IP-адресу для визначення країни; цей сайт читає та зберігає лише код країни й час перевірки. Відвідувачів з України перенаправляє на українську версію, якщо ручний вибір мови не має пріоритету. Запит не передає облікові дані чи адресу сторінки. Ручний вибір запам’ятовується у браузері. Підтвердьте провайдера й умови обробки в остаточній політиці."
+      ],
+      [
+        "9. Аналітика — Google Analytics",
+        "Після згоди на аналітику, якщо налаштований GA4 Measurement ID, Google Analytics вимірює перегляди сторінок і користування сайтом. Google може отримувати cookie-ідентифікатори, дані браузера та пристрою, відвідані сторінки, referrer і мережеву інформацію, зокрема IP-адресу. Реалізація вилучає query-параметри та фрагменти з адрес сторінки й referrer, які передає GA4, вимикає Google Signals і сигнали персоналізації реклами та не надсилає ідентифікатори облікових записів, повідомлення контактної форми чи зображення кімнат як власні події. Це не робить усю обробку анонімною. Умови Google: https://policies.google.com/privacy. До публічного запуску налаштуйте й опишіть строки зберігання подій у властивості GA4."
+      ],
+      [
+        "10. Реклама — інструменти Meta",
+        "Після згоди на рекламу, якщо налаштований Meta Pixel ID, Meta Pixel може отримувати подію PageView, дані браузера та пристрою, адресу сторінки, referrer, мережеву IP-адресу та cookie-ідентифікатори, зокрема _fbp і _fbc. Ці інструменти допомагають вимірювати рекламні кампанії, пов’язувати відвідування з рекламою та підтримувати рекламні аудиторії. Автоматичний advanced matching і автоматичне налаштування подій у цій реалізації не ввімкнені; електронні адреси, телефони й повідомлення форми не передаються як власні події. Meta може поєднувати інформацію з наявними в неї даними відповідно до своїх умов: https://www.facebook.com/privacy/policy/. Серверний Meta Conversions API на цьому сайті наразі не реалізований."
+      ],
+      [
+        "11. Згода та зміна вибору",
+        "Необов’язкова аналітика й реклама вимкнені до вашого вибору. Можна прийняти всі, відхилити необов’язкове відстеження або обрати аналітику й рекламу окремо. Відкрийте Налаштування cookies у footer, щоб змінити чи відкликати згоду. Запис вибору зберігається у local storage і власному cookie до 180 днів, після чого сайт запитає знову. Відкликання вимикає відповідну інтеграцію, намагається видалити її доступні власні cookies та перезавантажує сторінку, щоб зупинити раніше завантажений код провайдера. Воно не видаляє дані, вже надіслані провайдеру; щодо ваших прав звертайтеся до нас. Мовний вибір і функціональне визначення країни працюють окремо."
+      ],
+      [
+        "12. Провайдери, правові підстави та зберігання",
+        "Необов’язкове відстеження Google Analytics і Meta спирається на вашу згоду. Правові підстави необхідного сховища налаштувань і мережевої обробки визначаються для оператора та застосовного права. Google й Meta можуть обробляти дані за кордоном; до остаточної публікації підтвердьте відповідальні юридичні особи, ролі сторін, гарантії передачі, налаштування облікових записів і строки зберігання. Закінчення строку cookie не гарантує видалення даних із систем провайдера. Юридичні дані оператора, дату чинності та інші позначені відомості ще потрібно підтвердити."
       ]
     ],
     "terms": [
@@ -214,24 +254,32 @@
     ],
     "cookies": [
       [
-        "1. Поточна поведінка сайту",
-        "Сайт запам’ятовує ручний вибір EN/UK у local storage (briller:language, до очищення) і власному cookie (briller_language, до одного року). Результат визначення країни за IP та час перевірки зберігаються в local storage (briller:country) до 24 годин або 10 хвилин після невдалої перевірки. Аналітичних і рекламних трекерів немає. Зображення й скрипти локальні; контактна форма відкриває поштову програму."
+        "1. Ваш вибір",
+        "Необхідне сховище налаштувань забезпечує роботу сайту. Необов’язкова аналітика й реклама початково вимкнені. Банер дозволяє прийняти всі, відхилити необов’язкові або обрати аналітику й рекламу окремо. Налаштування cookies доступні у footer кожної сторінки."
       ],
       [
-        "2. Серверні й мережеві журнали",
-        "Хостинг може зберігати IP-адреси й журнали запитів без cookies. Це описується в Політиці конфіденційності. Перед запуском підтвердьте провайдера та налаштування зберігання."
+        "2. Необхідні налаштування",
+        "briller_language запам’ятовує ручний вибір EN/UK до одного року; briller:language у local storage залишається до очищення. briller:country кешує код країни й час перевірки на 24 години або 10 хвилин після помилки; IP-адреса відвідувача там не зберігається. briller_cookie_consent і briller:consent зберігають вибір аналітики/реклами, версію політики й час вибору до 180 днів."
       ],
       [
-        "3. Застосунок — окремо",
-        "Перехід до build.briller.house відкриває застосунок, де автентифікація Firebase й оплата Stripe можуть використовувати cookies чи схожі технології. Цей опис не є згодою на трекінг у застосунку. Його потрібно перевірити й описати окремо."
+        "3. Google Analytics",
+        "Після налаштування й згоди Google Analytics може використовувати власні _ga, _ga_* та пов’язані ідентифікатори для розрізнення відвідувань і аналізу користування сайтом. Реалізація задає строк cookie 180 днів і не вмикає Google Signals чи сигнали персоналізації реклами. Зберігання даних в обліковому записі Google є окремим налаштуванням, яке потрібно описати. До згоди на аналітику скрипт Google не запитується."
       ],
       [
-        "4. Майбутня аналітика та вбудовані сервіси",
-        "Після додавання необов’язкової аналітики, реклами, відео чи інших технологій оновіть політику та отримуйте потрібну згоду до їх завантаження. Вкажіть провайдерів, цілі, строки й керування налаштуваннями."
+        "4. Рекламні інструменти Meta",
+        "Після налаштування й згоди Meta Pixel може використовувати _fbp, _fbc та браузерні ідентифікатори Meta для вимірювання кампаній і підтримки рекламних аудиторій. Строки cookies й зберігання даних у провайдера залежать від поточної реалізації Meta та налаштувань облікового запису; підтвердьте їх перед публічним запуском. До згоди на рекламу скрипт Meta й подія PageView не завантажуються."
       ],
       [
-        "5. Оператор і контакт",
-        "Оператор: [ЮРИДИЧНА НАЗВА КОМПАНІЇ], [ЮРИДИЧНА АДРЕСА]. Дата чинності: [ДАТА ЧИННОСТІ]. Запитання: hello@briller.house."
+        "5. Відкликання та налаштування браузера",
+        "Змініть вибір у Налаштуваннях cookies. Відкликання вимикає відповідну інтеграцію, намагається видалити доступні необов’язкові власні cookies й перезавантажує сторінку. Цей сайт не може видалити сторонні cookies чи записи в домені провайдера; використовуйте налаштування браузера й провайдера. Відмова не видаляє необхідні мовні налаштування та запис згоди."
+      ],
+      [
+        "6. Хостинг, застосунок та інші сервіси",
+        "Мережеві журнали можуть містити IP-адреси без cookies. Функціональне визначення країни використовує country.is, як описано в Політиці конфіденційності. Застосунок build.briller.house має окремі правила автентифікації, оплати й обробки даних. Згода на цьому сайті не є згодою на відстеження в застосунку. Нові провайдери чи цілі потребують оновлення політики та належної згоди до завантаження."
+      ],
+      [
+        "7. Оператор і дата чинності",
+        "Оператор: [ЮРИДИЧНА НАЗВА КОМПАНІЇ], [ЮРИДИЧНА АДРЕСА]. Дата чинності: [ДАТА ЧИННОСТІ]. Запитання й запити щодо приватності: hello@briller.house. Політика залишається чернеткою до підтвердження даних компанії, налаштувань провайдерів і застосовних вимог."
       ]
     ]
   }
