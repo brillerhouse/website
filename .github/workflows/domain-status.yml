@@ -1,0 +1,44 @@
+name: Briller Domain Status
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  id-token: write
+concurrency:
+  group: briller-domain-status
+  cancel-in-progress: false
+jobs:
+  inspect:
+    if: github.ref == 'refs/heads/dev'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    environment: production
+    steps:
+      - uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: projects/1097780641970/locations/global/workloadIdentityPools/briller-website-dev/providers/github-dev
+          service_account: briller-dev-deployer@nifty-atlas-473013-f9.iam.gserviceaccount.com
+      - uses: google-github-actions/setup-gcloud@v2
+        with:
+          install_components: beta
+      - name: Read production service and certificate status
+        run: |
+          gcloud run services describe briller-website \
+            --project=nifty-atlas-473013-f9 --region=europe-west1 \
+            --format='json(status.url,status.latestReadyRevisionName,status.conditions)'
+          for DOMAIN in briller.house www.briller.house; do
+            gcloud beta run domain-mappings describe \
+              --project=nifty-atlas-473013-f9 --region=europe-west1 \
+              --domain="$DOMAIN" --format='json(metadata.name,spec.routeName,status.conditions,status.resourceRecords)'
+          done
+      - name: Check public HTTPS without modifying the service
+        run: |
+          for URL in https://briller.house/en/ https://briller.house/uk/ https://www.briller.house/en/; do
+            printf '\nChecking %s\n' "$URL"
+            if curl --fail --silent --show-error --location --max-time 20 \
+              --output /dev/null --write-out 'HTTP %{http_code}; final URL %{url_effective}\n' "$URL"; then
+              printf 'HTTPS ready\n'
+            else
+              printf 'HTTPS not ready (curl exit %s)\n' "$?"
+            fi
+          done
