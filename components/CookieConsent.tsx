@@ -28,6 +28,7 @@ export function CookieConsent({ locale }: { locale: Locale }) {
   const [saved, setSaved] = useState(false);
   const dialog = useRef<HTMLDialogElement>(null);
   const footerButton = useRef<HTMLButtonElement>(null);
+  const bannerButton = useRef<HTMLButtonElement>(null);
   const opener = useRef<HTMLElement | null>(null);
   const currentConsent = useRef<Consent | null>(null);
   useEffect(() => {
@@ -55,20 +56,26 @@ export function CookieConsent({ locale }: { locale: Locale }) {
     if (open && element && !element.open) element.showModal();
     if (!open && element?.open) element.close();
   }, [open]);
-  function settings() {
-    opener.current = document.activeElement as HTMLElement | null;
+  function settings(event: React.MouseEvent<HTMLButtonElement>) {
+    opener.current = event.currentTarget;
     setAnalytics(consent?.analytics ?? false); setMarketing(consent?.marketing ?? false); setOpen(true);
   }
   function close() {
     dialog.current?.close();
     setOpen(false);
-    window.requestAnimationFrame(() => (opener.current?.isConnected ? opener.current : footerButton.current)?.focus());
+    window.requestAnimationFrame(() => {
+      const target = opener.current?.isConnected ? opener.current : bannerButton.current ?? footerButton.current;
+      target?.focus({ preventScroll: true });
+      opener.current = null;
+    });
   }
   function save(allowAnalytics: boolean, allowMarketing: boolean) {
     const next = makeConsent(allowAnalytics, allowMarketing, Date.now());
     const previous = currentConsent.current;
     persist(next); applyTracking(next, tracking); currentConsent.current = next;
-    setConsent(next); setSaved(true); close();
+    setConsent(next); setSaved(true);
+    // Banner actions dismiss the banner without moving focus into the footer.
+    if (open) close();
     // Reload on withdrawal so already-executed vendor code cannot continue in this page.
     if (withdrawal(previous, next)) location.reload();
   }
@@ -77,7 +84,7 @@ export function CookieConsent({ locale }: { locale: Locale }) {
     <span className="sr-only" role="status" aria-live="polite">{saved ? c.saved : ''}</span>
     {ready && !consent && !open && <section className="cookie-banner" aria-labelledby="cookie-banner-title">
       <div className="cookie-banner-copy"><h2 id="cookie-banner-title">{c.title}</h2><p>{c.intro} <a href={href(locale,'privacy')}>{c.privacy}</a> · <a href={href(locale,'cookies')}>{c.cookies}</a></p></div>
-      <div className="cookie-banner-actions"><button className="button outline" type="button" onClick={() => save(false,false)}>{c.reject}</button><button className="button outline" type="button" onClick={() => save(true,true)}>{c.accept}</button><button className="text-link" type="button" onClick={settings}>{c.manage}</button></div>
+      <div className="cookie-banner-actions"><button className="button outline" type="button" onClick={() => save(false,false)}>{c.reject}</button><button className="button outline" type="button" onClick={() => save(true,true)}>{c.accept}</button><button className="text-link" type="button" ref={bannerButton} onClick={settings}>{c.manage}</button></div>
     </section>}
     <dialog ref={dialog} className="cookie-dialog" aria-labelledby="cookie-preferences-title" aria-describedby="cookie-preferences-intro"
       onCancel={event => { event.preventDefault(); close(); }} onClick={event => { if (event.target === dialog.current) close(); }}>
