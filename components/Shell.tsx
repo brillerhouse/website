@@ -23,8 +23,8 @@ export function Shell({ locale, page = '', children, breadcrumbs }: { locale: Lo
     <footer><div className="footer-top"><div><a className="wordmark" href={href(locale)}>briller<span>✳</span></a><p>{c.footerLine}</p><a className="email" href={'mailto:' + site.email}>{site.email} ↗</a></div>
       <div><h3>{c.product}</h3>{Object.entries(c.nav).filter(([key]) => key !== 'use-cases').map(([key,label]) => <a key={key} href={href(locale,key)}>{label}</a>)}</div>
       <div><h3>{c.legal}</h3>{legal.map(([key,label]) => <a key={key} href={href(locale,key)}>{label}</a>)}</div>
-      <div><p className="eyebrow">{c.brandLine}</p><a className="button" href={site.app}>{c.start} ↗</a><p className="small">Briller.house</p></div>
-    </div><div className="footer-bottom"><span>© {new Date().getFullYear()} {c.copyright}</span><FooterLanguages locale={locale} page={page}/><span>{c.brandLine}</span></div></footer>
+      <div><p className="eyebrow">{c.brandLine}</p><a className="button" href={site.app}>{c.start} ↗</a><div className="footer-site-language"><p className="small">Briller.house</p><FooterLanguages locale={locale} page={page}/></div></div>
+    </div><div className="footer-bottom"><span>© {new Date().getFullYear()} {c.copyright}</span><span>{c.brandLine}</span></div></footer>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(json).replace(/</g, '\\u003c') }}/>
   </>;
 }
