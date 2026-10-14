@@ -12,10 +12,10 @@ export function MikeAdvisor({ locale }: { locale: Locale }) {
       <figure className="mike-avatar">
         <div className="mike-portrait">
           {mike.avatarSrc
-            ? <img src={mike.avatarSrc} alt={c.avatarAlt} loading="lazy" width={512} height={512}/>
+            ? <img src={mike.avatarSrc} alt={c.avatarAlt} loading="lazy" width={1254} height={1254}/>
             : <div className="mike-portrait-placeholder"><span aria-hidden="true">MB</span><p>{c.avatarPending}</p></div>}
-          <div className="mike-nameplate"><strong>Mike Briller<span aria-hidden="true">✳</span></strong><span>{c.role}</span></div>
         </div>
+        <figcaption className="mike-nameplate"><strong>Mike Briller<span aria-hidden="true">✳</span></strong><span>{c.role}</span></figcaption>
       </figure>
       <div className="mike-example">
         <Sparkles size={16} aria-hidden="true"/>
