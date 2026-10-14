@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="bglow"><stop offset="0" stop-color="#FFB26B" stop-opacity="0.4"/>
+      <stop offset="0.55" stop-color="#FFB26B" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#FFB26B" stop-opacity="0.1"/></radialGradient>
+    <radialGradient id="bhalo"><stop offset="0" stop-color="#E8863A" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#E8863A" stop-opacity="0.32"/></radialGradient>
+    <radialGradient id="bcore" cx="0.38" cy="0.34" r="0.75">
+      <stop offset="0" stop-color="#FFF4E4"/><stop offset="0.45" stop-color="#FFD3A0"/>
+      <stop offset="1" stop-color="#FFB26B"/></radialGradient></defs>
+  <rect width="1024" height="1024" fill="#1C1815"/>
+  <circle cx="512.0" cy="512.0" r="330.0" fill="url(#bglow)"/>
+    <circle cx="512.0" cy="512.0" r="237.6" fill="url(#bhalo)"/>
+    <circle cx="512.0" cy="512.0" r="151.8" fill="url(#bcore)"/>
+    <circle cx="420.9" cy="420.9" r="52.8" fill="#FFFFFF" opacity="0.85"/>
+    <circle cx="512" cy="512" r="330.0" fill="none" stroke="#D98A57" stroke-width="7" opacity="0.60"/>
+</svg>
+

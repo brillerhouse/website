@@ -5,6 +5,7 @@ import { copy, href, site, Locale } from '@/lib/content';
 import pricing from '@/content/plans.json';
 import gallery from '@/content/gallery.json';
 import { SolutionsMenu } from './SolutionsMenu';
+import { BrandLogo } from './BrandLogo';
 import type { SolutionMenuGroup } from '@/lib/solutions';
 export function Language({locale}:{locale:Locale}){useEffect(()=>{document.documentElement.lang=locale},[locale]);return null;}
 export function Header({locale,page,solutionMenu}:{locale:Locale,page:string,solutionMenu:SolutionMenuGroup[]}) {
@@ -24,9 +25,7 @@ export function Header({locale,page,solutionMenu}:{locale:Locale,page:string,sol
     return ()=>window.removeEventListener('keydown',escape);
   },[open]);
   return <header className="site-header">
-    <a className="header-brand" href={href(locale)} aria-label={locale==='uk'?'Briller — головна':'Briller home'}>
-      <span className="brand-name">briller<span className="brand-asterisk" aria-hidden="true">✳</span></span>
-    </a>
+    <BrandLogo locale={locale} className="header-brand"/>
     <nav id="primary-navigation" className={open?'nav open':'nav'} aria-label={locale==='uk'?'Головна навігація':'Main navigation'}>
       {links.map((link,i)=>i===1?<SolutionsMenu key={link.label} locale={locale} page={page} groups={solutionMenu} mobileOpen={open} onNavigate={()=>setOpen(false)}/>:<a aria-current={link.active?'page':undefined} href={link.url} key={link.label} onClick={()=>setOpen(false)}>{link.label}</a>)}
     </nav>

@@ -7,6 +7,11 @@
 .brand-name{display:inline-flex;align-items:center;gap:4px;font-size:30px;font-weight:700;line-height:1;letter-spacing:-1.8px}
 .brand-asterisk{font-size:23px;letter-spacing:0;align-self:flex-start;margin-top:1px}
 .brand-name>span{color:var(--accent)}
+.header-brand.brand-logo,.footer-top .brand-logo{display:inline-flex;align-items:center;gap:6px}
+.brand-symbol{width:48px;height:48px;flex-shrink:0}
+.wordmark .brand-symbol{width:56px;height:56px}
+.wordmark .brand-name{display:inline-flex;font-size:38px;font-weight:650;letter-spacing:-2.6px;color:var(--ink);margin:0}
+@media(max-width:500px){.header-brand.brand-logo{gap:4px}.header-brand .brand-symbol{width:36px;height:36px}}
 .site-header .nav{margin-left:auto;gap:28px}
 .site-header .nav a{font-size:var(--text-ui);font-weight:600;color:var(--muted);white-space:nowrap}
 .site-header .nav a:hover,.site-header .nav a[aria-current=page]{color:var(--accent)}
@@ -93,7 +98,7 @@
 .mike-section{background:var(--sage);display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);align-items:center;gap:8%}
 .mike-profile{width:100%;max-width:440px;justify-self:center;min-width:0}
 .mike-avatar{margin:0}
-.mike-portrait{position:relative;width:100%;max-width:400px;margin:0 auto}
+.mike-portrait{position:relative;width:100%;max-width:400px;margin:0 auto;overflow:hidden;border-radius:12px}
 .mike-portrait>img{width:100%;height:auto;object-fit:contain}
 .mike-portrait-placeholder{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(circle at 38% 25%,#fff6dc,#e6dfd0 70%);padding-bottom:40px}
 .mike-portrait-placeholder>span{font-size:72px;line-height:1;letter-spacing:-5px;font-weight:500;color:#ad7751}
