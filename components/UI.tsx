@@ -31,7 +31,7 @@ export function Header({locale,page,solutionMenu}:{locale:Locale,page:string,sol
       {links.map((link,i)=>i===1?<SolutionsMenu key={link.label} locale={locale} page={page} groups={solutionMenu} mobileOpen={open} onNavigate={()=>setOpen(false)}/>:<a aria-current={link.active?'page':undefined} href={link.url} key={link.label} onClick={()=>setOpen(false)}>{link.label}</a>)}
     </nav>
     <div className="header-actions">
-      <a className="locale" href={href(locale==='en'?'uk':'en',page)} hrefLang={locale==='en'?'uk':'en'} aria-label={locale==='en'?'Перемкнути українською':'Switch to English'}>{locale==='en'?'UK':'EN'}</a>
+      <a className="locale" href={href(locale==='en'?'uk':'en',page)} hrefLang={locale==='en'?'uk':'en'} aria-label={locale==='en'?'Перемкнути українською':'Switch to English'}>{locale==='en'?<svg aria-hidden="true" focusable="false" width="22" height="15" viewBox="0 0 24 16" style={{display:'inline-block',verticalAlign:'middle',borderRadius:2}}><path fill="#0057B7" d="M0 0h24v8H0z"/><path fill="#FFDD00" d="M0 8h24v8H0z"/></svg>:'EN'}</a>
       <a className="header-cta button" href={site.app}>{c.login}</a>
       <button ref={toggle} className="mobile-menu" aria-label={open?c.close:c.menu} aria-expanded={open} aria-controls="primary-navigation" onClick={()=>setOpen(!open)}>{open?<X/>:<Menu/>}</button>
     </div>
