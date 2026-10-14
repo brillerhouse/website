@@ -17,6 +17,8 @@ If `dev` has advanced independently and a fast-forward is impossible, integrate 
 
 Production remains separate and is updated when the user requests a release. Never upload private credentials; authentication uses the configured GitHub connection and Google Workload Identity Federation. Domain/DNS changes stay within the user's requested scope.
 
+Production releases use `.github/workflows/production.yml`, manually dispatched on `dev` because the existing WIF provider trusts that execution ref. Pass the exact approved `main` SHA; the workflow verifies that source before publishing `briller-website` with BRILLER_PREVIEW=0. Main history must be preserved. The Cloudflare apex/www DNS and Google-managed TLS must be verified separately; do not claim briller.house is live based on a successful run.app service deployment. See deployment/PRODUCTION.md. The user will enter the prepared DNS records manually; preserve build.briller.house and email records.
+
 ## Content and branding
 
 Copy is in content/en.json and content/uk.json. Plans in content/plans.json are the single source for pricing. Gallery images and the hero kitchen illustration are explicitly illustrative. Legal policies remain drafts with noindex until the user supplies and confirms their content. Keep the warm Briller palette. The header logo is briller followed by an asterisk, and the hero eyebrow is YOUR SPACE. A NEW PERSPECTIVE with an asterisk (localized in Ukrainian).

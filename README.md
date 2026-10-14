@@ -68,6 +68,8 @@ docker compose -f deployment/compose.yaml up -d --build
 
 ### Google Cloud Run
 
+Production на `briller.house`: [PRODUCTION.md](deployment/PRODUCTION.md). Реліз запускається вручну для конкретного схваленого commit у `main`; звичайні зміни залишаються на `preview`. Production-сервіс `briller-website` використовує окремий image з індексацією маркетингових сторінок. DNS у Cloudflare й HTTPS перевіряються окремо від успішного запуску сервісу.
+
 Зберіть Docker image, опублікуйте у вашому Artifact Registry й розгорніть на Cloud Run із container port 8080. Налаштуйте public access для маркетингового сервісу та домен через вашу наявну GCP-інфраструктуру. Не використовуйте приватні Firebase/Stripe ключі в маркетинговому frontend: цей сайт їх не потребує.
 
 Docker-конфігурацію підготовлено; Docker image у цьому середовищі не збирали.

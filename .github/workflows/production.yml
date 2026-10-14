@@ -1,0 +1,111 @@
+name: Briller Production
+on:
+  workflow_dispatch:
+    inputs:
+      release_sha:
+        description: Exact approved main commit to publish
+        required: true
+        type: string
+      connect_domain:
+        description: Prepare briller.house and www.briller.house domain mappings
+        required: true
+        default: true
+        type: boolean
+permissions:
+  contents: read
+  id-token: write
+concurrency:
+  group: briller-production
+  cancel-in-progress: false
+jobs:
+  deploy:
+    # Existing keyless identity trusts the dev ref; source is the approved main SHA.
+    if: github.ref == 'refs/heads/dev'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment: production
+    env:
+      PROJECT_ID: nifty-atlas-473013-f9
+      REGION: europe-west1
+      SERVICE: briller-website
+      REGISTRY: briller-web
+      BRILLER_PREVIEW: '0'
+      NEXT_TELEMETRY_DISABLED: '1'
+      BRILLER_RELEASE_SHA: ${{ inputs.release_sha }}
+    steps:
+      - name: Validate release input
+        run: |
+          [[ "$BRILLER_RELEASE_SHA" =~ ^[0-9a-f]{40}$ ]]
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.release_sha }}
+      - name: Verify exact production source
+        run: |
+          [[ "$(git rev-parse HEAD)" == "$BRILLER_RELEASE_SHA" ]]
+          git fetch --no-tags origin main
+          [[ "$(git rev-parse origin/main)" == "$BRILLER_RELEASE_SHA" ]]
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Build and verify production
+        run: |
+          npm ci --no-audit --no-fund
+          npm run build
+          npm run check
+          npm test
+          grep -Fx 'Allow: /' out/robots.txt
+          ! grep -Fq 'Disallow: /' out/robots.txt
+      - name: Package production export
+        run: |
+          mkdir -p "$RUNNER_TEMP/briller-production"
+          zip -qr "$RUNNER_TEMP/briller-production/briller-static.zip" out
+          git archive --format=zip --output="$RUNNER_TEMP/briller-production/briller-source.zip" HEAD
+      - uses: actions/upload-artifact@v4
+        with:
+          name: briller-production-${{ inputs.release_sha }}
+          path: ${{ runner.temp }}/briller-production/
+          retention-days: 30
+      - uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: projects/1097780641970/locations/global/workloadIdentityPools/briller-website-dev/providers/github-dev
+          service_account: briller-dev-deployer@nifty-atlas-473013-f9.iam.gserviceaccount.com
+      - uses: google-github-actions/setup-gcloud@v2
+        with:
+          install_components: beta
+      - name: Build and upload production image
+        run: |
+          gcloud auth configure-docker "$REGION-docker.pkg.dev" --quiet
+          mkdir -p "$RUNNER_TEMP/briller-container"
+          cp -R out "$RUNNER_TEMP/briller-container/out"
+          cp deployment/nginx.conf "$RUNNER_TEMP/briller-container/nginx.conf"
+          cp deployment/Dockerfile.runtime "$RUNNER_TEMP/briller-container/Dockerfile"
+          IMAGE="$REGION-docker.pkg.dev/$PROJECT_ID/$REGISTRY/$SERVICE:$BRILLER_RELEASE_SHA"
+          docker build -t "$IMAGE" "$RUNNER_TEMP/briller-container"
+          docker run --rm "$IMAGE" nginx -t
+          docker push "$IMAGE"
+          echo "BRILLER_IMAGE=$IMAGE" >> "$GITHUB_ENV"
+      - name: Update production service
+        run: |
+          gcloud run deploy "$SERVICE" \
+            --image="$BRILLER_IMAGE" \
+            --project="$PROJECT_ID" --region="$REGION" \
+            --service-account="briller-web-runtime@$PROJECT_ID.iam.gserviceaccount.com" \
+            --port=8080 --min-instances=0 --max-instances=1 \
+            --cpu=1 --memory=256Mi --concurrency=80 --timeout=30 \
+            --allow-unauthenticated --quiet
+          URL="$(gcloud run services describe "$SERVICE" --project="$PROJECT_ID" --region="$REGION" --format='value(status.url)')"
+          curl --fail --retry 5 --retry-delay 2 --silent --show-error "$URL/en/" -o /dev/null
+          curl --fail --silent --show-error "$URL/uk/" -o /dev/null
+          curl --fail --silent --show-error "$URL/robots.txt" | grep -Fx 'Allow: /'
+          printf '### Production service ready\n\nSource: `%s`\n\n[Service URL](%s/en/)\n\nCustom-domain DNS/TLS is checked separately.\n' "$BRILLER_RELEASE_SHA" "$URL" >> "$GITHUB_STEP_SUMMARY"
+      - name: Prepare custom domains and DNS records
+        if: inputs.connect_domain
+        id: domain
+        continue-on-error: true
+        run: bash deployment/connect-domain.sh
+      - name: Report pending custom-domain setup
+        if: inputs.connect_domain && steps.domain.outcome == 'failure'
+        run: |
+          echo '::warning::Production service is ready, but custom-domain setup needs the verified domain owner. See the domain step error and deployment/PRODUCTION.md.'
+          printf '\n### Domain setup pending\n\nThe production service deployed. briller.house is not confirmed live. A verified Google domain owner must complete the domain mapping, then enter its DNS records in Cloudflare.\n' >> "$GITHUB_STEP_SUMMARY"
