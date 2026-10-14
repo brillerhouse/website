@@ -1,5 +1,5 @@
 import { ArrowUpRight, Calculator, Ruler, Sparkles, Wrench, Youtube } from 'lucide-react';
-import { copy, Locale, site } from '@/lib/content';
+import { copy, Locale } from '@/lib/content';
 import mike from '@/content/mike.json';
 
 const icons = [Ruler, Calculator, Wrench];
@@ -37,7 +37,6 @@ export function MikeAdvisor({ locale }: { locale: Locale }) {
           </div></li>;
         })}
       </ul>
-      <a className="text-link" href={site.app}>{c.cta}<ArrowUpRight size={18}/></a>
       <div className="mike-youtube">
         {mike.youtubeUrl
           ? <a className="text-link" href={mike.youtubeUrl} target="_blank" rel="noopener noreferrer"><Youtube size={20} aria-hidden="true"/>{c.youtube}<ArrowUpRight size={17}/></a>
