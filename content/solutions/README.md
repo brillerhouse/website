@@ -6,6 +6,7 @@
 - `public/images/solutions/<slug>.webp`: one original AI-generated diptych per solution, before on the left and the after concept on the right. Both panels are illustrative concepts, not customer photographs. Do not reuse an unrelated pair or imply measured accuracy.
 - `media.json`: the actual intrinsic dimensions of each image, used to reserve space during loading.
 - `components/SolutionExample.tsx`: shared before/after section, visible concept disclosure and additional advice. The original page sections remain in `Solutions.tsx`.
+- `components/SolutionComparison.tsx`: overlays the two halves of each diptych in a single frame with the homepage-style draggable divider. Supports pointer, touch and keyboard input, keeps each panel's proportions and caps the frame height at 560px. The complete source pair remains available from the full-comparison link.
 - `components/Solutions.tsx`: shared page layout; `SolutionControls.tsx`: search, filters and copyable briefs.
 - `lib/solutions.ts`: routes, metadata, localized lookups and the header menu tree.
 - `components/SolutionsMenu.tsx`: desktop category/page dropdown and mobile category accordion. Header menu labels are in `content/en.json` and `content/uk.json`. The menu uses the same categories and page labels as the hub.
