@@ -31,6 +31,8 @@ Mike Briller is a real person and the design/construction advisor in the co-pilo
 
 Briller.House's AI-assisted knowledge base collects Mike's personal hands-on experience and the practical experience of his colleagues: architects, designers and construction workers. Mike is the face of the project and represents that shared expertise. Emphasize this provenance in the profile, feature descriptions and help copy.
 
+The homepage BrillDemo uses a kitchen illustration with advice adapted from real Briller examples supplied by the user: cabinet materials and mounting, serviceable 3000 K task lighting, and tap/window clearances. Keep the advice tied to the visible kitchen, distinguish the illustrative render from the advice source, and show expandable installation/specification details with written budget alternatives. Budget comparisons are not prices or a new set of budget-selection buttons.
+
 If the execution workspace is unavailable, copy changes may be committed directly to `preview` through the GitHub connector. Preserve the current tree and use a checked branch-head lease; do not deploy or dispatch Dev CI. After the workspace recovers, fetch `preview` and reconcile any unpublished local changes before further editing.
 
 Mike's profile uses a friendly first-person voice beginning 'Hey, I’m Mike Briller.' The user supplied the biographical claims: 15 years building houses/apartments, thousands of them, and knowledge from hundreds of colleagues. Preserve that positioning; do not add further numerical claims or credentials.

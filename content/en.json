@@ -74,26 +74,44 @@
     "brillDemo": {
       "eyebrow": "BRILLER INSIGHTS",
       "title": "Briller’s take on this room.",
-      "intro": "Select a Smart Spark to connect a detail in the design with an idea you can explore.",
-      "imageAlt": "Illustrative living-room render with an oak sideboard, warm wall light and a clear passage to the window",
-      "imageNote": "Illustrative AI render and example advice.",
+      "intro": "See what makes the design work — and what it takes to build it. Open a Smart Spark for material specifications, installation details and alternatives for your budget.",
+      "imageAlt": "Illustrative oak kitchen with Smart Sparks on the cabinet fronts, under-cabinet lighting and mixer tap by the window",
+      "imageNote": "Illustrative kitchen render · Advice adapted from real Briller examples.",
       "sparkLabel": "Smart Spark",
-      "tipLabel": "Show Briller’s advice about",
+      "tipLabel": "Explore Briller’s advice about",
+      "detailLabel": "Behind the design",
+      "standardLabel": "Example specification",
+      "saveLabel": "Spend less",
+      "upgradeLabel": "Upgrade the detail",
+      "projectNote": "Use these examples to brief your cabinetmaker or installer. Confirm dimensions, product suitability and local costs for your own project.",
+      "cta": "Get advice for your space",
       "tips": [
         {
-          "title": "Materials that work together",
-          "spark": "What if the material palette felt a little calmer?",
-          "advice": "Pair the oak sideboard with warm, matte walls and linen upholstery. Check real material samples in daylight and under your evening lighting."
+          "title": "The oak look, with the details worked out.",
+          "spark": "What goes into these oak cabinets — and where could I save?",
+          "advice": "The finish is only part of the story. Compare the carcass, fronts and hardware so your cabinetmaker can quote the same design at different budgets.",
+          "detail": "Plan the hood duct and lighting cables inside the cabinetry before the fronts go on. Specify the hanging rail and anchors to suit the wall construction.",
+          "standard": "18 mm moisture-resistant laminated chipboard carcass; oak-veneered MDF fronts with a matt polyurethane finish; adjustable cabinet hangers.",
+          "save": "A 16 mm laminated carcass with oak-effect film on milled MDF fronts keeps the warm timber appearance at a lower specification.",
+          "upgrade": "An anodised aluminium frame with solid oak slats, a natural-oil finish and higher-spec lift hardware."
         },
         {
-          "title": "A softer evening atmosphere",
-          "spark": "Could softer light change the way this room feels at night?",
-          "advice": "Try dimmable 2700K wall lighting with a separate reading lamp beside the sofa. Layers of light give you more control over the room’s evening atmosphere."
+          "title": "Task lighting you can actually maintain.",
+          "spark": "How is this worktop lit — and where does the power supply go?",
+          "advice": "Hidden LED strips and warm 3000 K spots light the work surface. Briller also considers cable routes and access to the power supply for maintenance.",
+          "detail": "Route cables before closing the cabinetry. Keep the 24 V driver accessible in a ventilated cabinet. For recessed fittings near the sink, check the specified moisture protection and suitability with your installer.",
+          "standard": "Warm 3000 K task lighting, IP44 recessed fittings in the example sink area, and a separate, accessible 24 V driver.",
+          "save": "Surface-mounted fittings instead of recessed spots can reduce the joinery work needed.",
+          "upgrade": "High-colour-rendering mini-spots (CRI >95), with dimming and DALI or Zigbee control."
         },
         {
-          "title": "Room to move, not just to look",
-          "spark": "Could a small furniture adjustment open up this walkway?",
-          "advice": "Keep the route to the window clear when positioning the chair and side table. Confirm door swings, socket access and furniture dimensions before final placement."
+          "title": "A tap that works with the window.",
+          "spark": "Will the window still open with this tap in place?",
+          "advice": "If a window opens inwards above the sink, a folding or removable tap can keep it usable. Check the clearance before committing to a fitting.",
+          "detail": "Measure the window’s opening path and the tap’s folded or removed height before the worktop is drilled. Check access to the fittings below the sink, too.",
+          "standard": "A folding or bayonet-removable mixer tap selected for the actual sink and window clearances.",
+          "save": "A conventional low-profile tap, only if measurements confirm the window can still open fully.",
+          "upgrade": "A higher-spec folding or removable model with the finish and fittings matched to the rest of the kitchen."
         }
       ]
     },
