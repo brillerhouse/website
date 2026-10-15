@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { ArrowUpRight, ChevronDown, ClipboardList, Layers, Ruler, Sparkles, Sun, Wrench } from 'lucide-react';
+import { ChevronDown, ClipboardList, Layers, Ruler, Sparkles, Sun, Wrench } from 'lucide-react';
 import type { SolutionAdvice, solutionExample } from '@/lib/solutions';
 import { SolutionComparison } from './SolutionComparison';
 
@@ -9,7 +9,7 @@ const budgetLevels = ['economy', 'standard', 'premium'] as const;
 type Budget = typeof budgetLevels[number];
 const icons = { lighting: Sun, materials: Layers, joinery: Wrench, layout: Ruler, planning: ClipboardList };
 type Labels = {
-  before: string; after: string; advice: string; next: string; note: string; full: string; compare: string;
+  before: string; after: string; advice: string; next: string; compare: string;
   tipLabel: string; readAdvice: string; closeSpark: string;
   take: string; budget: string; budgetNote: string; specification: string; detail: string; difference: string; adviceNote: string;
   budgets: Record<Budget, string>;
@@ -39,7 +39,7 @@ export function SolutionProject({ slug, example, budgets, tips, labels: l }: {
       <div className="solution-project-visual">
         <SolutionComparison image={image} width={example.image.width} height={example.image.height} focusY={example.image.focusY}
           alt={`${l.before}: ${example.before} ${l.after}: ${example.after}`} before={l.before} after={l.after}
-          label={l.compare} descriptionId="solution-example-disclosure"
+          label={l.compare}
           sparks={tips.flatMap(tip => tip.position ? [{ id: tip.id, title: tip.title, position: tip.position }] : [])} selectedSpark={active} sparkLabel={l.tipLabel}
           readAdvice={l.readAdvice} closeSpark={l.closeSpark}
           onReadAdvice={id => setExpanded(id)} onSelectSpark={id => { setActive(id); setExpanded(id); }}/>
@@ -86,7 +86,6 @@ export function SolutionProject({ slug, example, budgets, tips, labels: l }: {
           </div>
         </div>
       </section>
-      <div className="solution-example-disclosure"><p id="solution-example-disclosure">{l.note}</p><a href={image} className="text-link">{l.full}<ArrowUpRight size={17} aria-hidden="true"/></a></div>
     </figcaption>
   </figure>;
 }

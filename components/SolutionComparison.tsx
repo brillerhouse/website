@@ -12,7 +12,6 @@ type Props = {
   before: string;
   after: string;
   label: string;
-  descriptionId: string;
   sparks: { id: string; title: string; position: { x: number; y: number } }[];
   selectedSpark: string;
   sparkLabel: string;
@@ -22,7 +21,7 @@ type Props = {
   onReadAdvice: (id: string) => void;
 };
 
-export function SolutionComparison({ image, width, height, focusY, alt, before, after, label, descriptionId, sparks, selectedSpark, sparkLabel, onSelectSpark, readAdvice, closeSpark, onReadAdvice }: Props) {
+export function SolutionComparison({ image, width, height, focusY, alt, before, after, label, sparks, selectedSpark, sparkLabel, onSelectSpark, readAdvice, closeSpark, onReadAdvice }: Props) {
   const [position, setPosition] = useState(50);
   const [openSpark, setOpenSpark] = useState<string | null>(null);
   const [bubblePosition, setBubblePosition] = useState({ left: 8, top: 8 });
@@ -82,7 +81,7 @@ export function SolutionComparison({ image, width, height, focusY, alt, before, 
       <span className="hero-room-label hero-room-label-before" aria-hidden="true">{before}</span>
       <span className="hero-room-label hero-room-label-after" aria-hidden="true">{after}</span>
       <div className="hero-room-divider" style={{ left: `${position}%` }} aria-hidden="true"><span><ArrowLeftRight size={21} strokeWidth={1.8}/></span></div>
-      <input ref={slider} className="hero-room-range" type="range" min={0} max={100} value={position} aria-label={label} aria-describedby={descriptionId}
+      <input ref={slider} className="hero-room-range" type="range" min={0} max={100} value={position} aria-label={label}
         aria-valuetext={`${before}: ${position}%. ${after}: ${100 - position}%.`}
         onChange={event => { setOpenSpark(null); setPosition(Number(event.target.value)); }}/>
       <div className="solution-comparison-sparks" style={{ clipPath: `inset(0 0 0 ${position}%)` }}>

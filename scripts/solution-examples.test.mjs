@@ -96,7 +96,7 @@ test('all localized exports render feature cards instead of old rows and preserv
       assert.ok(html.includes(`/images/solutions/${page.slug}.webp`));
       assert.ok(html.includes('type="range"'), `${locale}/${page.slug}: missing comparison control`);
       assert.ok(html.includes(`aria-label="${locale === 'uk' ? 'Порівняти до та після' : 'Compare before and after'}"`), `${locale}/${page.slug}: missing accessible slider name`);
-      assert.ok(html.includes('aria-describedby="solution-example-disclosure"'));
+      assert.ok(!html.includes('solution-example-disclosure'), `${locale}/${page.slug}: obsolete bottom bar or accessibility reference`);
       assert.ok(!html.includes('class="solution-smart-sparks"'), `${locale}/${page.slug}: obsolete heading above photo`);
       assert.ok(!html.includes('solution-spark-detail'), `${locale}/${page.slug}: obsolete advice panel below photo`);
       assert.ok(html.includes('class="solution-comparison-sparks"'), `${locale}/${page.slug}: missing after-image spark layer`);
@@ -117,7 +117,6 @@ test('all localized exports render feature cards instead of old rows and preserv
       for (const tip of tipsFor(locale, page.slug)) for (const text of [tip.category, tip.title, ...Object.values(tip.budgets.standard)]) {
         assert.ok(html.includes(escape(text)), `${locale}/${page.slug}: missing feature specification ${text}`);
       }
-      assert.ok(html.includes(locale === 'uk' ? 'Ілюстративна концепція' : 'Illustrative AI-generated design concept'));
       for (const text of [example.title, example.before, example.after, example.check]) {
         assert.ok(html.includes(escape(text)), `${locale}/${page.slug}: missing example text ${text}`);
       }

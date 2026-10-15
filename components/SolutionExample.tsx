@@ -6,8 +6,6 @@ const labels = {
   en: {
     eyebrow: 'A closer look', heading: 'Before & after', before: 'Before', after: 'After concept',
     advice: 'Advice for this project', next: 'Your next practical step',
-    note: 'Illustrative AI-generated design concept. Both views are examples, not photographs of a customer project or a promise of results.',
-    full: 'View full comparison',
     compare: 'Compare before and after',
     tipLabel: 'Explore advice for', readAdvice: 'Read advice', closeSpark: 'Close advice bubble',
     take: 'Briller’s take', budget: 'Explore advice for your budget',
@@ -19,8 +17,6 @@ const labels = {
   uk: {
     eyebrow: 'Розгляньмо детальніше', heading: 'До та після', before: 'До', after: 'Концепція після',
     advice: 'Поради для цього проєкту', next: 'Ваш наступний практичний крок',
-    note: 'Ілюстративна концепція, створена за допомогою ШІ. Обидва зображення — приклади, а не фото клієнтського проєкту чи обіцянка результату.',
-    full: 'Переглянути повне порівняння',
     compare: 'Порівняти до та після',
     tipLabel: 'Переглянути пораду про', readAdvice: 'Переглянути пораду', closeSpark: 'Закрити підказку',
     take: 'Погляд Briller', budget: 'Дослідіть поради під свій бюджет',
