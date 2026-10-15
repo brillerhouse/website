@@ -20,7 +20,7 @@ for(const locale of ['en','uk'])for(const page of pages){
  check(!/<header[\s\S]*?class="locale"[\s\S]*?<\/header>/.test(html),`Language control still in header: ${file}`);
  const footerLanguage=html.match(/<nav class="footer-languages"[^>]*>([\s\S]*?)<\/nav>/)?.[1]||'';
  for(const language of ['en','uk'])check(footerLanguage.includes(`href="/${language}/${page?page+'/':''}"`),`Footer language loses page: ${file}/${language}`);
- if(process.env.BRILLER_PREVIEW==='1'||['privacy','terms','refunds','cookies'].includes(page))check(html.includes('noindex'),`Non-public page indexed: ${file}`);
+ if(process.env.BRILLER_PREVIEW==='1'||['terms','refunds','cookies'].includes(page))check(html.includes('noindex'),`Non-public page indexed: ${file}`);
  else check(!html.includes('content="noindex'),`Production marketing page has noindex: ${file}`);
  for(const m of html.matchAll(/(?:href|src)="(\/[^"?#]*)/g)){
   const url=m[1];if(url.startsWith('//'))continue;
@@ -53,7 +53,7 @@ assert.deepEqual(plans.plans.map(plan=>plan.fastQueue),[false,false,true,true]);
 assert.deepEqual(plans.plans.map(plan=>plan.sharedProjects),[false,false,false,true]);
 assert.equal(plans.plans[2].monthly,24.99);assert.equal(plans.plans[3].credits,650);assert.equal(plans.topups[4][2],750);
 check(fs.readFileSync('out/sitemap.xml','utf8').includes('/uk/pricing/'),'Missing translated pricing in sitemap');
-check(!fs.readFileSync('out/sitemap.xml','utf8').includes('/privacy/'),'Draft legal page in sitemap');
+check(fs.readFileSync('out/sitemap.xml','utf8').includes('/en/privacy/')&&fs.readFileSync('out/sitemap.xml','utf8').includes('/uk/privacy/'),'Missing supplied privacy policy in sitemap');
 check(fs.existsSync('out/robots.txt')&&fs.existsSync('out/llms.txt'),'Missing crawler files');
 for(const img of JSON.parse(fs.readFileSync('content/gallery.json')))check(fs.statSync(path.join('public',img.image)).size>10000,`Invalid image ${img.image}`);
 if(failures.length){console.error([...new Set(failures)].join('\n'));process.exit(1)}

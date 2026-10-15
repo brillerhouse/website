@@ -1,55 +1,5 @@
 {
   "en": {
-    "privacy": [
-      [
-        "1. Who is responsible",
-        "Briller.House is operated by {{operatorDetails}}. This company is responsible for personal-data processing on this website. For privacy enquiries and rights requests, contact hello@briller.house."
-      ],
-      [
-        "2. This website",
-        "This marketing website serves product information and local images. Optional Google Analytics and Meta advertising tools load only after you consent to the relevant category and only when their identifiers are configured. Rejecting optional cookies keeps the website available. The website has no account login or server-side contact-form processing; the Briller app is separate. Hosting and network providers may process access logs, IP addresses and browser information; confirm actual providers and retention before production launch."
-      ],
-      [
-        "3. Contact enquiries",
-        "The contact form creates a message in your own email application. Your message is sent only when you send that email. Your name, email and message will then be processed by the confirmed mailbox provider to respond to you. Confirm lawful basis, mailbox provider, retention period and deletion process."
-      ],
-      [
-        "4. The Briller app",
-        "The app at build.briller.house uses Firebase Auth and Firestore, Google Cloud / Vertex AI and Stripe according to the supplied product specification. Before launch, document exactly which room images, references, drawings, text, voice recordings, outputs and memory data are processed; their purposes, legal bases, retention, sharing controls, deletion options and any AI-training use. Do not infer these details from this draft."
-      ],
-      [
-        "5. International processing",
-        "Confirm processing regions, processor agreements and safeguards for transfers outside the user’s jurisdiction. List relevant subprocessors and their roles, including hosting, authentication, AI, payment and email providers."
-      ],
-      [
-        "6. Your rights",
-        "Depending on applicable law, you may have rights of access, correction, deletion, restriction, portability and objection, and the right to complain to a competent supervisory authority. Contact hello@briller.house. Confirm identity-verification and response procedures."
-      ],
-      [
-        "7. Children, security and updates",
-        "Confirm minimum user age, safeguards, incident procedures and the policy effective date. Insert [EFFECTIVE DATE] and publish a reviewed version before collecting app data."
-      ],
-      [
-        "8. Language selection",
-        "If you have not chosen a language, your browser requests your IP country from https://api.country.is/. The provider receives your IP address to determine a country; this website reads and caches only the country code and lookup time. Visitors in Ukraine are forwarded to Ukrainian unless a manual language preference overrides it. The request omits credentials and page referrer information. Manual language choices are remembered in your browser. Confirm this provider and its processing terms in the final policy."
-      ],
-      [
-        "9. Analytics — Google Analytics",
-        "With analytics consent, and when a GA4 Measurement ID is configured, Google Analytics measures page visits and use of this website. Google may receive cookie identifiers, browser and device information, visited pages, referrer information and network information including an IP address. The implementation removes query parameters and fragments from the page and referrer URLs supplied to GA4, disables Google Signals and advertising-personalization signals, and does not send account identifiers, contact-form messages or uploaded room images as custom events. These settings do not make all processing anonymous. Google processes data under its own applicable terms: https://policies.google.com/privacy. Configure and document the property’s event-data retention before production launch."
-      ],
-      [
-        "10. Advertising — Meta tools",
-        "With advertising consent, and when a Meta Pixel ID is configured, Meta Pixel may receive a PageView event, browser and device information, page URL, referrer, network IP address and cookie identifiers such as _fbp and _fbc. These tools help measure advertising campaigns, attribute visits and support advertising audiences. Automatic advanced matching and automatic event configuration are not enabled by this implementation; it does not send email addresses, phone numbers or contact messages as custom events. Meta may combine information with data it holds under its own terms: https://www.facebook.com/privacy/policy/. This website does not currently implement server-side Meta Conversions API tracking."
-      ],
-      [
-        "11. Consent and changes to your choice",
-        "Optional analytics and advertising are off until you choose them. You can accept all, reject optional tracking or select analytics and advertising separately. Open Cookie settings in the footer to change or withdraw your choice. Your consent record is stored in local storage and a first-party cookie for up to 180 days, after which the site asks again. Withdrawal disables the relevant integration, attempts to remove its accessible first-party cookies and reloads the page to stop previously loaded vendor code. It does not erase data already sent to a provider; contact us about rights requests. Your language choice and functional country lookup remain separate."
-      ],
-      [
-        "12. Providers, legal basis and retention",
-        "Optional Google Analytics and Meta tracking relies on your consent. Necessary preference storage and hosting/network processing must be assessed under the operator’s applicable legal basis. Google and Meta may process information internationally; confirm the responsible entities, processor/controller roles, transfer safeguards, account settings and retention periods before publishing a final policy. Cookie expiry is not a guarantee of deletion from provider systems. The policy effective date and other marked operational details remain to be confirmed."
-      ]
-    ],
     "terms": [
       [
         "1. Operator and agreement",
@@ -142,56 +92,6 @@
     ]
   },
   "uk": {
-    "privacy": [
-      [
-        "1. Хто відповідає за дані",
-        "Оператор Briller.House — {{operatorDetails}}. Ця компанія відповідає за обробку персональних даних на цьому сайті. З питань приватності та реалізації ваших прав звертайтеся на hello@briller.house."
-      ],
-      [
-        "2. Цей сайт",
-        "Маркетинговий сайт показує інформацію про продукт і локальні зображення. Необов’язкові Google Analytics та рекламні інструменти Meta завантажуються лише після згоди на відповідну категорію й лише коли налаштовані їхні ідентифікатори. Відмова від необов’язкових cookies не обмежує доступ до сайту. На сайті немає входу в обліковий запис чи серверної обробки контактної форми; застосунок Briller працює окремо. Хостинг і мережеві провайдери можуть обробляти IP-адреси, журнали запитів та інформацію про браузер; перед публічним запуском підтвердьте провайдерів і строки зберігання."
-      ],
-      [
-        "3. Звернення",
-        "Контактна форма створює лист у вашій поштовій програмі. Він надсилається лише після вашої дії. Після цього ім’я, email і текст звернення обробляються підтвердженим поштовим провайдером для відповіді. Уточніть правову підставу, провайдера, строк зберігання та порядок видалення."
-      ],
-      [
-        "4. Застосунок Briller",
-        "За специфікацією застосунок build.briller.house використовує Firebase Auth і Firestore, Google Cloud / Vertex AI та Stripe. До запуску опишіть, які фото кімнат, референси, креслення, тексти, голосові записи, результати й дані пам’яті обробляються; цілі, правові підстави, строки, доступ, видалення та використання для навчання AI. Ця чернетка не підтверджує таких правил."
-      ],
-      [
-        "5. Міжнародна обробка",
-        "Підтвердьте регіони обробки, договори з обробниками та захист міжнародних передач даних. Перелічіть підрядників хостингу, автентифікації, AI, платежів і пошти та їхні ролі."
-      ],
-      [
-        "6. Ваші права",
-        "Залежно від закону ви можете мати права доступу, виправлення, видалення, обмеження, перенесення й заперечення та право на скаргу до компетентного органу. Звертайтеся на hello@briller.house. Підтвердьте перевірку особи та порядок відповіді."
-      ],
-      [
-        "7. Вік, безпека й оновлення",
-        "Підтвердьте мінімальний вік, заходи безпеки, порядок реагування на інциденти та дату чинності. Додайте [ДАТА ЧИННОСТІ] й опублікуйте перевірену політику до збору даних у застосунку."
-      ],
-      [
-        "8. Вибір мови",
-        "Якщо ви ще не обрали мову, браузер запитує країну вашої IP-адреси у https://api.country.is/. Провайдер отримує IP-адресу для визначення країни; цей сайт читає та зберігає лише код країни й час перевірки. Відвідувачів з України перенаправляє на українську версію, якщо ручний вибір мови не має пріоритету. Запит не передає облікові дані чи адресу сторінки. Ручний вибір запам’ятовується у браузері. Підтвердьте провайдера й умови обробки в остаточній політиці."
-      ],
-      [
-        "9. Аналітика — Google Analytics",
-        "Після згоди на аналітику, якщо налаштований GA4 Measurement ID, Google Analytics вимірює перегляди сторінок і користування сайтом. Google може отримувати cookie-ідентифікатори, дані браузера та пристрою, відвідані сторінки, referrer і мережеву інформацію, зокрема IP-адресу. Реалізація вилучає query-параметри та фрагменти з адрес сторінки й referrer, які передає GA4, вимикає Google Signals і сигнали персоналізації реклами та не надсилає ідентифікатори облікових записів, повідомлення контактної форми чи зображення кімнат як власні події. Це не робить усю обробку анонімною. Умови Google: https://policies.google.com/privacy. До публічного запуску налаштуйте й опишіть строки зберігання подій у властивості GA4."
-      ],
-      [
-        "10. Реклама — інструменти Meta",
-        "Після згоди на рекламу, якщо налаштований Meta Pixel ID, Meta Pixel може отримувати подію PageView, дані браузера та пристрою, адресу сторінки, referrer, мережеву IP-адресу та cookie-ідентифікатори, зокрема _fbp і _fbc. Ці інструменти допомагають вимірювати рекламні кампанії, пов’язувати відвідування з рекламою та підтримувати рекламні аудиторії. Автоматичний advanced matching і автоматичне налаштування подій у цій реалізації не ввімкнені; електронні адреси, телефони й повідомлення форми не передаються як власні події. Meta може поєднувати інформацію з наявними в неї даними відповідно до своїх умов: https://www.facebook.com/privacy/policy/. Серверний Meta Conversions API на цьому сайті наразі не реалізований."
-      ],
-      [
-        "11. Згода та зміна вибору",
-        "Необов’язкова аналітика й реклама вимкнені до вашого вибору. Можна прийняти всі, відхилити необов’язкове відстеження або обрати аналітику й рекламу окремо. Відкрийте Налаштування cookies у footer, щоб змінити чи відкликати згоду. Запис вибору зберігається у local storage і власному cookie до 180 днів, після чого сайт запитає знову. Відкликання вимикає відповідну інтеграцію, намагається видалити її доступні власні cookies та перезавантажує сторінку, щоб зупинити раніше завантажений код провайдера. Воно не видаляє дані, вже надіслані провайдеру; щодо ваших прав звертайтеся до нас. Мовний вибір і функціональне визначення країни працюють окремо."
-      ],
-      [
-        "12. Провайдери, правові підстави та зберігання",
-        "Необов’язкове відстеження Google Analytics і Meta спирається на вашу згоду. Правові підстави необхідного сховища налаштувань і мережевої обробки визначаються для оператора та застосовного права. Google й Meta можуть обробляти дані за кордоном; до остаточної публікації підтвердьте відповідальні юридичні особи, ролі сторін, гарантії передачі, налаштування облікових записів і строки зберігання. Закінчення строку cookie не гарантує видалення даних із систем провайдера. Дату чинності та інші позначені відомості щодо роботи сервісу ще потрібно підтвердити."
-      ]
-    ],
     "terms": [
       [
         "1. Оператор та угода",

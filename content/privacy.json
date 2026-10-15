@@ -1,0 +1,882 @@
+{
+  "en": {
+    "title": "Privacy Policy",
+    "subtitle": "Briller.House and the Briller app",
+    "effectiveLabel": "Effective date",
+    "contents": "On this page",
+    "description": "How ACTIVECHAT processes personal data for Briller.House and the Briller app, including cookies, analytics, AI processing, retention and your rights.",
+    "intro": [
+      "This policy explains what personal data we collect, why we collect it, who we share it with, and what control you have. We've written it in plain language."
+    ],
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. Who is responsible for your data",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Briller.House and the Briller app are operated by ACTIVECHAT spółka z ograniczoną odpowiedzialnością (ACTIVECHAT sp. z o.o.), pl. Solny 15, 50-062 Wrocław, Poland. KRS: 0000927136. NIP: 8971897072. REGON: 520201322."
+          },
+          {
+            "type": "paragraph",
+            "text": "This company is the controller of personal data processed on this website and in the app. For any privacy question or rights request, write to hello@briller.house."
+          }
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "2. Two products, two sets of rules",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "This policy covers two things:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "This marketing website (briller.house), which shows product information. It has no account login.",
+              "The Briller app at build.briller.house, where you sign in, upload room photos and generate renders."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The website and the app are separate. What we collect on one is not automatically collected on the other. Sections 3 to 5 cover the website. Section 6 covers the app."
+          }
+        ]
+      },
+      {
+        "id": "website",
+        "title": "3. This website",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "What the website does"
+          },
+          {
+            "type": "paragraph",
+            "text": "The website serves product information and images hosted by us. You can read it without creating an account or sending us anything."
+          },
+          {
+            "type": "heading",
+            "text": "Server logs"
+          },
+          {
+            "type": "paragraph",
+            "text": "Our hosting and network providers may process access logs. These typically include your IP address, browser and device information, the pages requested and the time of the request. We use them to deliver the site, keep it secure and fix faults. Hosting provider: Google Cloud Platform. Log retention: 3 months."
+          },
+          {
+            "type": "heading",
+            "text": "Language selection"
+          },
+          {
+            "type": "paragraph",
+            "text": "If you haven't chosen a language, your browser asks the service at https://api.country.is/ which country your IP address comes from. That provider receives your IP address to work out the country. Our website reads and stores only the country code and the time of the lookup. The request carries no credentials and no page referrer."
+          },
+          {
+            "type": "paragraph",
+            "text": "Visitors in Ukraine are sent to the Ukrainian version unless they have already picked a language. If you choose a language manually, we remember that choice in your browser. You can change it at any time."
+          },
+          {
+            "type": "heading",
+            "text": "Contact form"
+          },
+          {
+            "type": "paragraph",
+            "text": "The contact form does not send anything to our servers. It opens a message in your own email application. Nothing reaches us until you press send in that application."
+          },
+          {
+            "type": "paragraph",
+            "text": "When you do send it, we receive your name, email address and message. We use them only to answer you. Mailbox provider: Gmail. We keep enquiries for 3 months and delete them on request, unless we have to keep them by law."
+          }
+        ]
+      },
+      {
+        "id": "cookies",
+        "title": "4. Cookies and tracking on the website",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Optional analytics and advertising tools are off until you choose them. You can accept all, reject optional tracking, or pick analytics and advertising separately. Rejecting optional cookies does not limit what you can read or do on the website."
+          },
+          {
+            "type": "heading",
+            "text": "Your choice and how to change it"
+          },
+          {
+            "type": "paragraph",
+            "text": "Open Cookie settings in the footer at any time to change or withdraw your choice. We store your consent record in your browser's local storage and in a first-party cookie for up to 180 days. After that, the site asks again."
+          },
+          {
+            "type": "paragraph",
+            "text": "When you withdraw consent, the site switches off the tool, tries to remove its first-party cookies that it can reach, and reloads the page so vendor code that was already loaded stops running. Withdrawal does not erase data that was already sent to a provider. To request that, contact us (see section 8)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Your language choice and the country lookup in section 3 are separate from this consent. They are not marketing or analytics tools."
+          },
+          {
+            "type": "heading",
+            "text": "Google Analytics (analytics consent)"
+          },
+          {
+            "type": "paragraph",
+            "text": "If you consent, and only when a GA4 Measurement ID is configured, Google Analytics measures visits to and use of this website. Google may receive:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "cookie identifiers",
+              "browser and device information",
+              "the pages you visit",
+              "referrer information",
+              "network information, including your IP address"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "We've set it up to limit what Google gets. We strip query parameters and fragments from the page and referrer URLs we pass to GA4. We turn off Google Signals and advertising personalization. We do not send account identifiers, contact-form messages or uploaded room images to Google Analytics as events."
+          },
+          {
+            "type": "paragraph",
+            "text": "These settings reduce the data, but they don't make the processing anonymous. Google processes data under its own terms: https://policies.google.com/privacy. Event-data retention in our GA4 property is set to 12 months."
+          },
+          {
+            "type": "heading",
+            "text": "Meta Pixel (advertising consent)"
+          },
+          {
+            "type": "paragraph",
+            "text": "If you consent, and only when a Meta Pixel ID is configured, the Meta Pixel may receive:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "a PageView event",
+              "browser and device information",
+              "the page URL and referrer",
+              "your IP address",
+              "cookie identifiers such as _fbp and _fbc"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "We use this to measure advertising campaigns, attribute visits and support advertising audiences. We have not turned on automatic advanced matching or automatic event configuration. We do not send email addresses, phone numbers or contact messages to Meta. The website does not currently use Meta's server-side Conversions API."
+          },
+          {
+            "type": "paragraph",
+            "text": "Meta may combine this information with data it already holds, under its own terms: https://www.facebook.com/privacy/policy/."
+          },
+          {
+            "type": "heading",
+            "text": "A note on cookie lifetimes"
+          },
+          {
+            "type": "paragraph",
+            "text": "A cookie's expiry date is not a promise that the data is deleted from a provider's systems. Google and Meta keep data under their own retention rules."
+          }
+        ]
+      },
+      {
+        "id": "website-basis",
+        "title": "5. Why we process website data, and on what legal basis",
+        "blocks": [
+          {
+            "type": "table",
+            "columns": [
+              "What",
+              "Why",
+              "Legal basis (GDPR)"
+            ],
+            "rows": [
+              [
+                "Google Analytics",
+                "Understand how the website is used",
+                "Your consent, Art. 6(1)(a)"
+              ],
+              [
+                "Meta Pixel",
+                "Measure and attribute advertising",
+                "Your consent, Art. 6(1)(a)"
+              ],
+              [
+                "Server and access logs",
+                "Deliver, secure and troubleshoot the site",
+                "Our legitimate interests, Art. 6(1)(f)"
+              ],
+              [
+                "Language and country lookup, saved language choice",
+                "Show you the site in a language that fits",
+                "Our legitimate interests, Art. 6(1)(f)"
+              ],
+              [
+                "Contact enquiries",
+                "Answer your message",
+                "Our legitimate interests in responding, or steps you asked for before a contract, Art. 6(1)(b) or (f)"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "You can withdraw consent at any time. Withdrawing doesn't affect processing that happened before."
+          }
+        ]
+      },
+      {
+        "id": "app",
+        "title": "6. The Briller app",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The app at build.briller.house uses Firebase Authentication and Firestore, Google Cloud and Vertex AI, and Stripe. Here is what the app handles and why."
+          },
+          {
+            "type": "heading",
+            "text": "What we process"
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Data",
+              "Why we need it"
+            ],
+            "rows": [
+              [
+                "Account details: email address and sign-in method",
+                "Create and secure your account"
+              ],
+              [
+                "Room photos, references and drawings you upload in Design Studio",
+                "Create your design concept and renders"
+              ],
+              [
+                "Moodboard selections and design brief: text, and voice recordings if you use voice input",
+                "Understand the style and constraints you want"
+              ],
+              [
+                "Generated renders and Briller's advice (Materials & Composition, Lighting & Ambiance, Installation & Engineering Notes)",
+                "Deliver the output you asked for and let you refine it"
+              ],
+              [
+                "Credits and plan details",
+                "Track your usage and plan"
+              ],
+              [
+                "Payment details",
+                "Handled by Stripe. We don't see or store your full card number"
+              ],
+              [
+                "Memory data",
+                "Keep your preferences across sessions"
+              ],
+              [
+                "Community Gallery posts",
+                "Show what you choose to share"
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "Who processes it for us"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Google (Firebase, Google Cloud, Vertex AI): sign-in, data storage, and AI processing of your inputs to produce renders and advice.",
+              "Stripe: payments and subscription billing.",
+              "Gmail: receiving and answering emails."
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "AI training, retention, deletion and sharing"
+          },
+          {
+            "type": "paragraph",
+            "text": "We don't train AI models on your data. We do not use your photos, voice recordings, text or renders to train any AI model."
+          },
+          {
+            "type": "paragraph",
+            "text": "How long we keep it. We keep your data for one year, unless you ask us to delete it sooner. Invoices are kept forever."
+          },
+          {
+            "type": "paragraph",
+            "text": "How to delete it. You can delete content in your project settings and delete your account in your account settings."
+          },
+          {
+            "type": "paragraph",
+            "text": "What's shared, and with whom. You choose what to share. When you upload to the Community Gallery, you decide whether to include your original photo, your renders and your moodboards. Anything you post there is visible to other Briller users."
+          },
+          {
+            "type": "paragraph",
+            "text": "Why we're allowed to process app data. We process your app data to run your account and generate your renders. That is the contract between you and us, set out in our Terms of Service (Art. 6(1)(b) GDPR)."
+          }
+        ]
+      },
+      {
+        "id": "transfers",
+        "title": "7. Where your data goes",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "We and our providers may process data outside your country, including outside the European Economic Area and the UK. When that happens, we rely on safeguards such as an EU adequacy decision (including the EU–US Data Privacy Framework where the provider participates) or Standard Contractual Clauses. Google and Meta may process information internationally under their own terms."
+          },
+          {
+            "type": "paragraph",
+            "text": "Processing regions: EU. Subprocessors and their roles:"
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Provider",
+              "Role"
+            ],
+            "rows": [
+              [
+                "Google Cloud Platform",
+                "Website hosting and network delivery"
+              ],
+              [
+                "Google (Firebase)",
+                "App sign-in and data storage"
+              ],
+              [
+                "Google Cloud / Vertex AI",
+                "AI processing"
+              ],
+              [
+                "Stripe",
+                "Payments"
+              ],
+              [
+                "Gmail",
+                "Receiving and answering emails"
+              ],
+              [
+                "Google Analytics, Meta",
+                "Optional website analytics and advertising, with your consent"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "We have data processing agreements with our processors."
+          }
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. Your rights",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Depending on the law that applies to you, you may have the right to:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "access the personal data we hold about you",
+              "correct data that is wrong",
+              "delete your data",
+              "restrict how we use it",
+              "receive it in a portable format",
+              "object to processing based on our legitimate interests",
+              "withdraw consent at any time"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "To use any of these, email hello@briller.house. We may ask you to confirm who you are before we act, so we don't hand your data to someone else. We aim to respond within one month."
+          },
+          {
+            "type": "paragraph",
+            "text": "You also have the right to complain to a supervisory authority. In Poland, that is the President of the Personal Data Protection Office (UODO, Prezes Urzędu Ochrony Danych Osobowych). If you live elsewhere in the EU or the UK, you can contact your local authority."
+          },
+          {
+            "type": "paragraph",
+            "text": "If you are in California: you may have additional rights under the CCPA/CPRA, including to know, delete and correct personal information, and to opt out of its sale or sharing."
+          }
+        ]
+      },
+      {
+        "id": "children",
+        "title": "9. Children",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Briller is not meant for children. The minimum age to use the app is 18 years. We don't knowingly collect personal data from anyone below it. If you believe a child has given us data, email hello@briller.house and we'll delete it."
+          }
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. Security",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "We use technical and organizational measures to protect your data, including access controls and encrypted connections. No system is perfectly secure. If a breach puts your rights at risk, we'll notify you and the relevant authority as the law requires."
+          }
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "11. Changes to this policy",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "We'll update this policy when our practices change. The effective date at the top shows the current version. If a change is significant, we'll tell you in the app or on the website before it takes effect."
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "12. Contact",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "ACTIVECHAT sp. z o.o. pl. Solny 15, 50-062 Wrocław, Poland hello@briller.house"
+          }
+        ]
+      }
+    ]
+  },
+  "uk": {
+    "title": "Політика конфіденційності",
+    "subtitle": "Briller.House та застосунок Briller",
+    "effectiveLabel": "Дата набрання чинності",
+    "contents": "На цій сторінці",
+    "description": "Як ACTIVECHAT обробляє персональні дані на Briller.House та в застосунку Briller: cookies, аналітика, AI, строки зберігання та ваші права.",
+    "intro": [
+      "Ця політика пояснює, які персональні дані ми збираємо, навіщо, кому передаємо та як ви можете ними керувати. Ми написали її простою мовою."
+    ],
+    "sections": [
+      {
+        "id": "controller",
+        "title": "1. Хто відповідає за ваші дані",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Briller.House та застосунок Briller працюють під управлінням ACTIVECHAT spółka z ograniczoną odpowiedzialnością (ACTIVECHAT sp. z o.o.), pl. Solny 15, 50-062 Wrocław, Польща. KRS: 0000927136. NIP: 8971897072. REGON: 520201322."
+          },
+          {
+            "type": "paragraph",
+            "text": "Ця компанія є контролером персональних даних, які обробляються на цьому сайті та в застосунку. Із запитаннями про конфіденційність або для реалізації своїх прав пишіть на hello@briller.house."
+          }
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "2. Два продукти, два набори правил",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Ця політика охоплює:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Цей маркетинговий сайт (briller.house), що містить інформацію про продукт. На ньому немає входу в обліковий запис.",
+              "Застосунок Briller на build.briller.house, де ви входите в обліковий запис, завантажуєте фото кімнат і створюєте рендери."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Сайт і застосунок є окремими продуктами. Дані, які збираються в одному з них, не збираються автоматично в іншому. Розділи 3–5 стосуються сайту. Розділ 6 — застосунку."
+          }
+        ]
+      },
+      {
+        "id": "website",
+        "title": "3. Цей сайт",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "Що робить сайт"
+          },
+          {
+            "type": "paragraph",
+            "text": "Сайт надає інформацію про продукт і зображення, розміщені нами. Його можна читати без створення облікового запису та без надсилання нам будь-яких даних."
+          },
+          {
+            "type": "heading",
+            "text": "Серверні журнали"
+          },
+          {
+            "type": "paragraph",
+            "text": "Наші постачальники хостингу та мережевих послуг можуть обробляти журнали доступу. Зазвичай вони містять IP-адресу, інформацію про браузер і пристрій, запитані сторінки та час запиту. Ми використовуємо їх для роботи й захисту сайту та усунення несправностей. Постачальник хостингу: Google Cloud Platform. Строк зберігання журналів: 3 місяці."
+          },
+          {
+            "type": "heading",
+            "text": "Вибір мови"
+          },
+          {
+            "type": "paragraph",
+            "text": "Якщо ви ще не обрали мову, браузер звертається до сервісу https://api.country.is/, щоб визначити країну за вашою IP-адресою. Для цього провайдер отримує вашу IP-адресу. Наш сайт зчитує та зберігає лише код країни й час перевірки. Запит не містить облікових даних або інформації про сторінку переходу."
+          },
+          {
+            "type": "paragraph",
+            "text": "Відвідувачі з України переходять на українську версію, якщо ще не обрали мову. Якщо ви обираєте мову вручну, ми запам’ятовуємо цей вибір у браузері. Його можна змінити будь-коли."
+          },
+          {
+            "type": "heading",
+            "text": "Контактна форма"
+          },
+          {
+            "type": "paragraph",
+            "text": "Контактна форма нічого не надсилає на наші сервери. Вона відкриває повідомлення у вашому поштовому застосунку. Ми нічого не отримуємо, доки ви не натиснете «Надіслати» в цьому застосунку."
+          },
+          {
+            "type": "paragraph",
+            "text": "Після надсилання ми отримуємо ваше ім’я, email-адресу та повідомлення. Ми використовуємо їх лише для відповіді. Поштовий провайдер: Gmail. Ми зберігаємо звернення 3 місяці та видаляємо на запит, якщо закон не вимагає їх зберігати."
+          }
+        ]
+      },
+      {
+        "id": "cookies",
+        "title": "4. Cookies і відстеження на сайті",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Необов’язкові інструменти аналітики та реклами вимкнені, доки ви їх не оберете. Можна прийняти все, відхилити необов’язкове відстеження або окремо обрати аналітику та рекламу. Відмова від необов’язкових cookies не обмежує читання чи використання сайту."
+          },
+          {
+            "type": "heading",
+            "text": "Ваш вибір і як його змінити"
+          },
+          {
+            "type": "paragraph",
+            "text": "Відкрийте «Налаштування cookies» у футері, щоб будь-коли змінити або відкликати вибір. Ми зберігаємо запис згоди в локальному сховищі браузера та власному cookie до 180 днів. Після цього сайт запитає знову."
+          },
+          {
+            "type": "paragraph",
+            "text": "Після відкликання згоди сайт вимикає інструмент, намагається видалити його доступні власні cookies і перезавантажує сторінку, щоб зупинити вже завантажений код провайдера. Відкликання не видаляє дані, вже надіслані провайдеру. Щоб подати такий запит, зв’яжіться з нами (див. розділ 8)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Вибір мови та визначення країни в розділі 3 є окремими від цієї згоди. Це не маркетингові або аналітичні інструменти."
+          },
+          {
+            "type": "heading",
+            "text": "Google Analytics (згода на аналітику)"
+          },
+          {
+            "type": "paragraph",
+            "text": "Якщо ви погодитеся і лише за наявності налаштованого ідентифікатора вимірювання GA4, Google Analytics вимірює відвідування та використання сайту. Google може отримувати:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "ідентифікатори cookies",
+              "інформацію про браузер і пристрій",
+              "сторінки, які ви відвідуєте",
+              "інформацію про джерело переходу",
+              "мережеву інформацію, зокрема вашу IP-адресу"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Ми налаштували інтеграцію так, щоб обмежити дані, які отримує Google. З URL сторінок і джерел переходу, що передаються до GA4, ми прибираємо параметри запиту й фрагменти. Google Signals та персоналізацію реклами вимкнено. Ми не надсилаємо до Google Analytics як події ідентифікатори облікових записів, повідомлення контактної форми або завантажені фото кімнат."
+          },
+          {
+            "type": "paragraph",
+            "text": "Ці налаштування зменшують обсяг даних, але не роблять обробку анонімною. Google обробляє дані на власних умовах: https://policies.google.com/privacy. У нашому ресурсі GA4 строк зберігання даних подій установлено на 12 місяців."
+          },
+          {
+            "type": "heading",
+            "text": "Meta Pixel (згода на рекламу)"
+          },
+          {
+            "type": "paragraph",
+            "text": "Якщо ви погодитеся і лише за наявності налаштованого ідентифікатора Meta Pixel, Meta Pixel може отримувати:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "подію PageView",
+              "інформацію про браузер і пристрій",
+              "URL сторінки та джерело переходу",
+              "вашу IP-адресу",
+              "ідентифікатори cookies, зокрема _fbp та _fbc"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Ми використовуємо ці дані для вимірювання рекламних кампаній, атрибуції відвідувань і підтримки рекламних аудиторій. Автоматичне розширене зіставлення та автоматичне налаштування подій не ввімкнено. Ми не надсилаємо Meta email-адреси, номери телефонів або контактні повідомлення. Наразі сайт не використовує серверний Conversions API Meta."
+          },
+          {
+            "type": "paragraph",
+            "text": "Meta може поєднувати цю інформацію з даними, які вже має, на власних умовах: https://www.facebook.com/privacy/policy/."
+          },
+          {
+            "type": "heading",
+            "text": "Про строки дії cookies"
+          },
+          {
+            "type": "paragraph",
+            "text": "Дата закінчення дії cookie не є обіцянкою видалення даних із систем провайдера. Google і Meta зберігають дані відповідно до власних правил."
+          }
+        ]
+      },
+      {
+        "id": "website-basis",
+        "title": "5. Навіщо й на якій правовій підставі ми обробляємо дані сайту",
+        "blocks": [
+          {
+            "type": "table",
+            "columns": [
+              "Що",
+              "Навіщо",
+              "Правова підстава (GDPR)"
+            ],
+            "rows": [
+              [
+                "Google Analytics",
+                "Розуміти, як використовується сайт",
+                "Ваша згода, ст. 6(1)(a)"
+              ],
+              [
+                "Meta Pixel",
+                "Вимірювати та атрибутувати рекламу",
+                "Ваша згода, ст. 6(1)(a)"
+              ],
+              [
+                "Серверні журнали та журнали доступу",
+                "Забезпечувати роботу й захист сайту та усувати несправності",
+                "Наші законні інтереси, ст. 6(1)(f)"
+              ],
+              [
+                "Визначення мови й країни, збережений вибір мови",
+                "Показувати сайт відповідною мовою",
+                "Наші законні інтереси, ст. 6(1)(f)"
+              ],
+              [
+                "Контактні звернення",
+                "Відповідати на ваше повідомлення",
+                "Наші законні інтереси у відповіді або дії на ваш запит до укладення договору, ст. 6(1)(b) або (f)"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Згоду можна відкликати будь-коли. Це не впливає на обробку, що відбулася раніше."
+          }
+        ]
+      },
+      {
+        "id": "app",
+        "title": "6. Застосунок Briller",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Застосунок на build.briller.house використовує Firebase Authentication і Firestore, Google Cloud та Vertex AI, а також Stripe. Нижче описано, які дані обробляє застосунок і навіщо."
+          },
+          {
+            "type": "heading",
+            "text": "Що ми обробляємо"
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Дані",
+              "Навіщо вони потрібні"
+            ],
+            "rows": [
+              [
+                "Дані облікового запису: email-адреса та спосіб входу",
+                "Створення та захист облікового запису"
+              ],
+              [
+                "Фото кімнат, референси й креслення, які ви завантажуєте в Design Studio",
+                "Створення концепції дизайну та рендерів"
+              ],
+              [
+                "Вибір мудборда й опис дизайну: текст, а також голосові записи, якщо ви користуєтеся голосовим введенням",
+                "Розуміння бажаного стилю та обмежень"
+              ],
+              [
+                "Створені рендери та поради Briller (матеріали й композиція, освітлення й атмосфера, примітки щодо монтажу та інженерних рішень)",
+                "Надання запитаного результату та можливості його уточнити"
+              ],
+              [
+                "Кредити та дані плану",
+                "Облік використання й плану"
+              ],
+              [
+                "Платіжні дані",
+                "Обробляються Stripe. Ми не бачимо й не зберігаємо повний номер вашої картки"
+              ],
+              [
+                "Дані пам’яті",
+                "Збереження ваших уподобань між сеансами"
+              ],
+              [
+                "Публікації в Community Gallery",
+                "Показ того, чим ви вирішили поділитися"
+              ]
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "Хто обробляє дані для нас"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Google (Firebase, Google Cloud, Vertex AI): вхід, зберігання даних та AI-обробка ваших вхідних матеріалів для створення рендерів і порад.",
+              "Stripe: платежі та оплата підписки.",
+              "Gmail: отримання електронних листів і відповіді на них."
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "Навчання AI, зберігання, видалення та поширення"
+          },
+          {
+            "type": "paragraph",
+            "text": "Ми не навчаємо AI-моделі на ваших даних. Ми не використовуємо ваші фото, голосові записи, текст або рендери для навчання будь-якої AI-моделі."
+          },
+          {
+            "type": "paragraph",
+            "text": "Як довго ми зберігаємо дані. Ми зберігаємо ваші дані протягом одного року, якщо ви не попросите видалити їх раніше. Рахунки зберігаються безстроково."
+          },
+          {
+            "type": "paragraph",
+            "text": "Як видалити дані. Ви можете видалити вміст у налаштуваннях проєкту та обліковий запис у налаштуваннях облікового запису."
+          },
+          {
+            "type": "paragraph",
+            "text": "Що поширюється й кому. Ви вирішуєте, чим ділитися. Публікуючи в Community Gallery, ви обираєте, чи додавати початкове фото, рендери та мудборди. Усе опубліковане там бачать інші користувачі Briller."
+          },
+          {
+            "type": "paragraph",
+            "text": "На якій підставі ми обробляємо дані застосунку. Ми обробляємо ваші дані для роботи облікового запису та створення рендерів. Це договір між вами й нами, викладений у наших Умовах користування (ст. 6(1)(b) GDPR)."
+          }
+        ]
+      },
+      {
+        "id": "transfers",
+        "title": "7. Куди передаються ваші дані",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Ми та наші провайдери можемо обробляти дані за межами вашої країни, зокрема за межами Європейської економічної зони та Великої Британії. У таких випадках ми спираємося на гарантії, як-от рішення ЄС про належний рівень захисту (зокрема EU–US Data Privacy Framework, якщо провайдер бере участь) або Стандартні договірні положення. Google і Meta можуть обробляти інформацію міжнародно на власних умовах."
+          },
+          {
+            "type": "paragraph",
+            "text": "Регіони обробки: ЄС. Субпроцесори та їхні ролі:"
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Провайдер",
+              "Роль"
+            ],
+            "rows": [
+              [
+                "Google Cloud Platform",
+                "Хостинг сайту та мережева доставка"
+              ],
+              [
+                "Google (Firebase)",
+                "Вхід у застосунок і зберігання даних"
+              ],
+              [
+                "Google Cloud / Vertex AI",
+                "AI-обробка"
+              ],
+              [
+                "Stripe",
+                "Платежі"
+              ],
+              [
+                "Gmail",
+                "Отримання електронних листів і відповіді на них"
+              ],
+              [
+                "Google Analytics, Meta",
+                "Необов’язкова аналітика сайту та реклама за вашою згодою"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Ми маємо договори про обробку даних із нашими обробниками."
+          }
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "8. Ваші права",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Залежно від застосовного до вас законодавства ви можете мати право:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "отримати доступ до персональних даних, які ми зберігаємо про вас",
+              "виправити неправильні дані",
+              "видалити ваші дані",
+              "обмежити їх використання",
+              "отримати їх у переносному форматі",
+              "заперечити проти обробки на підставі наших законних інтересів",
+              "відкликати згоду будь-коли"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Щоб скористатися цими правами, пишіть на hello@briller.house. Перед виконанням запиту ми можемо попросити підтвердити вашу особу, щоб не передати дані іншій людині. Ми прагнемо відповісти протягом одного місяця."
+          },
+          {
+            "type": "paragraph",
+            "text": "Ви також маєте право подати скаргу до наглядового органу. У Польщі це Голова Управління захисту персональних даних (UODO, Prezes Urzędu Ochrony Danych Osobowych). Якщо ви проживаєте в іншій країні ЄС або у Великій Британії, ви можете звернутися до місцевого органу."
+          },
+          {
+            "type": "paragraph",
+            "text": "Якщо ви перебуваєте в Каліфорнії: ви можете мати додаткові права за CCPA/CPRA, зокрема право знати про персональну інформацію, видаляти й виправляти її та відмовитися від її продажу або поширення."
+          }
+        ]
+      },
+      {
+        "id": "children",
+        "title": "9. Діти",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Briller не призначений для дітей. Мінімальний вік користувачів застосунку — 18 років. Ми свідомо не збираємо персональні дані осіб молодшого віку. Якщо ви вважаєте, що дитина надала нам дані, напишіть на hello@briller.house, і ми їх видалимо."
+          }
+        ]
+      },
+      {
+        "id": "security",
+        "title": "10. Безпека",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Ми застосовуємо технічні й організаційні заходи для захисту даних, зокрема контроль доступу та зашифровані з’єднання. Жодна система не є цілком безпечною. Якщо порушення загрожує вашим правам, ми повідомимо вас і відповідний орган згідно з вимогами законодавства."
+          }
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "11. Зміни цієї політики",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Ми оновлюватимемо цю політику зі зміною наших практик. Дата набрання чинності вгорі позначає поточну версію. Про суттєві зміни ми повідомимо в застосунку або на сайті до набрання ними чинності."
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "12. Контакти",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "ACTIVECHAT sp. z o.o. pl. Solny 15, 50-062 Wrocław, Польща hello@briller.house"
+          }
+        ]
+      }
+    ]
+  }
+}

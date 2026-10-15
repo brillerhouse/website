@@ -2,8 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 const origin='https://briller.house';
 const solutions=JSON.parse(fs.readFileSync('content/solutions/en.json','utf8')).pages;
-const pages=['','features','use-cases','gallery','pricing','faq','contact','solutions',...solutions.map(page=>'solutions/'+page.slug)];
-const legal=['privacy','terms','refunds','cookies'];
+const pages=['','features','use-cases','gallery','pricing','faq','contact','privacy','solutions',...solutions.map(page=>'solutions/'+page.slug)];
+const legal=['terms','refunds','cookies'];
 for(const page of ['',...pages.slice(1),...legal]){
  const file=path.join('out','uk',page,'index.html');
  const html=fs.readFileSync(file,'utf8');

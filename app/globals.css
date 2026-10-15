@@ -355,3 +355,23 @@
 .lighting-scenario-notes dd{font-size:var(--text-body);line-height:1.75;color:var(--muted);margin:0}
 .compare-image input{touch-action:pan-y}
 @media(max-width:500px){.lighting-scenario-notes{grid-template-columns:1fr;gap:12px}.compare-label{bottom:12px}.compare-label.before{left:10px}.compare-label.after{right:10px}}
+
+/* Full supplied privacy policy: readable text, navigation and accessible data tables. */
+.privacy-policy .privacy-subtitle{font-size:var(--text-lead);margin-bottom:8px}
+.privacy-policy .privacy-effective-date{font-weight:600;color:var(--ink);margin-bottom:28px}
+.privacy-policy a{text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.privacy-contents{background:var(--sage);border:1px solid var(--line);border-radius:6px;padding:24px;margin:30px 0 40px}
+.privacy-contents h2{font-size:var(--text-title-small);margin-bottom:15px}
+.privacy-contents ol{display:grid;grid-template-columns:1fr 1fr;list-style:none;gap:10px 24px;margin:0;padding:0}
+.privacy-contents a{font-size:var(--text-body);line-height:1.7}
+.privacy-policy section h3{font-size:var(--text-title-small);letter-spacing:-.02em;line-height:1.5;margin:26px 0 10px}
+.privacy-policy ul{padding-left:23px;margin:0 0 22px}
+.privacy-policy li{font-size:var(--text-body);line-height:1.9;color:#626859}
+.privacy-table-wrap{max-width:100%;overflow-x:auto;border:1px solid var(--line);border-radius:5px;margin:18px 0 24px}
+.privacy-table-wrap table{border-collapse:collapse;width:100%;min-width:480px;text-align:left;font-size:var(--text-body);line-height:1.8}
+.privacy-table-wrap th,.privacy-table-wrap td{padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:top;white-space:normal}
+.privacy-table-wrap thead{background:var(--sage)}
+.privacy-table-wrap th{font-weight:600}
+.privacy-table-wrap tbody th{width:34%}
+.privacy-table-wrap tbody tr:last-child>*{border-bottom:0}
+@media(max-width:600px){.privacy-contents{padding:19px}.privacy-contents ol{grid-template-columns:1fr}.privacy-table-wrap th,.privacy-table-wrap td{padding:11px 12px}}
