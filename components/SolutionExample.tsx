@@ -1,7 +1,6 @@
-import { ArrowUpRight, Check, Sparkles } from 'lucide-react';
 import type { Locale } from '@/lib/content';
-import { solutionExample } from '@/lib/solutions';
-import { SolutionComparison } from './SolutionComparison';
+import { solutionBudgets, solutionExample } from '@/lib/solutions';
+import { SolutionProject } from './SolutionProject';
 
 const labels = {
   en: {
@@ -10,6 +9,10 @@ const labels = {
     note: 'Illustrative AI-generated design concept. Both views are examples, not photographs of a customer project or a promise of results.',
     full: 'View full comparison',
     compare: 'Compare before and after',
+    take: 'Briller’s take', budget: 'Explore advice for your budget',
+    budgets: { economy: 'Economy', standard: 'Standard', premium: 'Premium' },
+    budgetNote: 'The comparison shows one illustrative direction. Budget options explore alternative specifications for the project.',
+    technical: 'Technical advice', materials: 'Materials & specification', installation: 'Installation & coordination', tradeoff: 'What changes with this budget',
   },
   uk: {
     eyebrow: 'Розгляньмо детальніше', heading: 'До та після', before: 'До', after: 'Концепція після',
@@ -17,31 +20,19 @@ const labels = {
     note: 'Ілюстративна концепція, створена за допомогою ШІ. Обидва зображення — приклади, а не фото клієнтського проєкту чи обіцянка результату.',
     full: 'Переглянути повне порівняння',
     compare: 'Порівняти до та після',
+    take: 'Погляд Briller', budget: 'Дослідіть поради під свій бюджет',
+    budgets: { economy: 'Економ', standard: 'Стандарт', premium: 'Преміум' },
+    budgetNote: 'Порівняння показує один ілюстративний напрям. Варіанти бюджету досліджують альтернативні специфікації проєкту.',
+    technical: 'Технічні поради', materials: 'Матеріали та специфікація', installation: 'Монтаж і узгодження', tradeoff: 'Що змінюється з цим бюджетом',
   },
 };
 
 export function SolutionExample({ locale, slug }: { locale: Locale; slug: string }) {
   const example = solutionExample(locale, slug);
   const l = labels[locale];
-  const image = `/images/solutions/${slug}.webp`;
   return <section className="section solution-example" id="before-after" aria-labelledby="solution-example-heading">
     <p className="eyebrow">{l.eyebrow} / {l.heading}</p>
     <h2 id="solution-example-heading">{example.title}</h2>
-    <figure className="solution-example-figure">
-      <SolutionComparison image={image} width={example.image.width} height={example.image.height}
-        alt={`${l.before}: ${example.before} ${l.after}: ${example.after}`} before={l.before} after={l.after}
-        label={l.compare} descriptionId="solution-example-disclosure"/>
-      <figcaption>
-        <div className="solution-example-captions">
-          <div><h3>{l.before}</h3><p>{example.before}</p></div>
-          <div><h3>{l.after}</h3><p>{example.after}</p></div>
-        </div>
-        <div className="solution-example-kept"><Check size={20} aria-hidden="true"/><p><strong>{l.keep}: </strong>{example.keep}</p></div>
-        <div className="solution-example-disclosure"><p id="solution-example-disclosure">{l.note}</p><a href={image} className="text-link">{l.full}<ArrowUpRight size={17} aria-hidden="true"/></a></div>
-      </figcaption>
-    </figure>
-    <div className="solution-example-advice-heading"><Sparkles size={23} aria-hidden="true"/><div><p className="eyebrow">BRILLER</p><h3>{l.advice}</h3></div></div>
-    <div className="solution-example-advice">{example.advice.map(([title, text], i) => <article key={title}><span className="solution-example-number">0{i + 1}</span><h4>{title}</h4><p>{text}</p></article>)}</div>
-    <div className="solution-example-next"><h3>{l.next}</h3><p>{example.check}</p></div>
+    <SolutionProject slug={slug} example={example} budgets={solutionBudgets(locale, slug)} labels={l}/>
   </section>;
 }

@@ -234,8 +234,20 @@
 .solution-example{background:#f1eee7;scroll-margin-top:80px}
 .solution-example>h2{max-width:850px;white-space:normal}
 .solution-example-figure{margin:35px 0 40px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--paper)}
-.solution-example-image{background:var(--sage)}
-.solution-comparison{margin:0 auto;border-radius:0;cursor:ew-resize;touch-action:pan-y}
+.solution-example-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);background:var(--sage)}
+.solution-project-take{display:flex;flex-direction:column;justify-content:center;padding:36px;min-width:0}
+.solution-project-take>.eyebrow{display:flex;align-items:center;gap:9px;color:var(--accent);margin-bottom:16px}
+.solution-project-take>h3{font-size:clamp(25px,2.5vw,35px);line-height:1.25;letter-spacing:-.025em;margin:0 0 18px}
+.solution-project-summary{font-size:var(--text-lead);line-height:1.8;margin:0 0 22px;max-width:560px;min-height:5.4em}
+.solution-project-step{border-left:2px solid var(--accent);padding-left:16px;max-width:560px}
+.solution-project-step h4{font-size:var(--text-title-small);line-height:1.5;margin:0 0 7px}
+.solution-project-step p{font-size:var(--text-body);line-height:1.8;color:var(--muted);margin:0}
+.solution-project-take .solution-project-budget{margin:28px 0 0}
+.solution-project-budget .brill-budget-choices label{padding:10px 12px}
+.solution-project-budget>p{font-size:var(--text-caption);min-height:0;max-width:540px}
+.solution-example-image{display:flex;align-items:center;justify-content:flex-end;min-width:0;background:var(--sage)}
+.solution-comparison{margin:0 0 0 auto;flex-shrink:0;border-radius:0;cursor:ew-resize;touch-action:pan-y}
+.solution-comparison:focus-within{outline-offset:-4px}
 .solution-comparison .hero-room-range{pointer-events:none}
 .solution-comparison-photo{position:absolute;top:0;left:0;display:block;width:200%;max-width:none;height:100%;pointer-events:none;user-select:none}
 .solution-comparison-after{position:absolute;inset:0;overflow:hidden}
@@ -251,10 +263,16 @@
 .solution-example-disclosure a{font-size:var(--text-caption);flex-shrink:0}
 .solution-example-advice-heading{display:flex;gap:15px;align-items:center;margin-bottom:28px}.solution-example-advice-heading>svg{color:var(--accent);flex-shrink:0}
 .solution-example-advice-heading .eyebrow{margin:0 0 5px}.solution-example-advice-heading h3{font-size:var(--text-lead);margin:0;line-height:1.5}
+.solution-project-technical{padding:28px;border-top:1px solid var(--line)}
+.solution-project-tier{display:inline-block;font-size:var(--text-caption);line-height:1.5;font-weight:600;padding:4px 10px;margin-left:12px;border:1px solid var(--line);border-radius:4px;background:var(--sage);color:var(--accent);vertical-align:middle}
 .solution-example-advice{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:35px}
 .solution-example-advice article{border-top:1px solid #cbd0c1;padding-top:20px;min-width:0}
 .solution-example-number{display:block;font-size:var(--text-label);color:var(--accent);margin-bottom:18px}
-.solution-example-next{margin-top:32px;padding:24px 28px;border-left:3px solid var(--accent);background:var(--paper)}
+.solution-example-advice .solution-project-specification{color:var(--ink)}
+.solution-project-consideration{margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
+.solution-project-consideration h5{font-size:var(--text-title-small);line-height:1.5;margin:0 0 10px}
+@media(max-width:1000px){.solution-project-take{padding:26px}.solution-project-budget .brill-budget-choices label{padding:10px 9px;gap:6px}}
+@media(max-width:800px){.solution-example-layout{grid-template-columns:1fr}.solution-project-take{padding:28px}.solution-project-summary{min-height:0}.solution-example-image{justify-content:center}.solution-comparison{margin:0 auto}.solution-project-tier{margin-top:5px}}
 @media(max-width:800px){.solution-example-advice{grid-template-columns:1fr;gap:25px}.solution-example-disclosure{align-items:flex-start;flex-direction:column;gap:12px}.solution-example-captions>div{padding:20px}.solution-example-kept,.solution-example-disclosure{padding:18px 20px}}
 @media(max-width:500px){.solution-example-captions{grid-template-columns:1fr}.solution-example-captions>div+div{border-left:0;border-top:1px solid var(--line)}.solution-example-next{padding:20px}}
 .solution-benefits{background:var(--sage)}

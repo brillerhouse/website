@@ -5,6 +5,7 @@ import { test } from 'node:test';
 const read = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 const examples = read('content/solutions/examples.json');
 const media = read('content/solutions/media.json');
+const budgets = read('content/solutions/budgets.json');
 const pages = read('content/solutions/en.json').pages;
 const escape = text => text.replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#x27;' }[character]));
 
@@ -32,6 +33,19 @@ test('every Solution has its own complete bilingual example and a real WebP asse
   }
 });
 
+test('all Solutions have distinct Economy, Standard and Premium advice in both languages', () => {
+  assert.deepEqual(Object.keys(budgets).sort(), pages.map(page => page.slug).sort());
+  for (const { slug } of pages) for (const locale of ['en', 'uk']) {
+    const options = budgets[slug][locale];
+    assert.deepEqual(Object.keys(options), ['economy', 'standard', 'premium']);
+    for (const field of ['summary', 'materials', 'installation', 'tradeoff']) {
+      const values = Object.values(options).map(option => option[field]);
+      assert.ok(values.every(value => typeof value === 'string' && value.trim()), `${locale}/${slug}: missing ${field}`);
+      assert.equal(new Set(values).size, 3, `${locale}/${slug}: budget options repeat ${field}`);
+    }
+  }
+});
+
 test('all localized exports render the matching pair, advice, disclosure and existing sections', () => {
   for (const locale of ['en', 'uk']) {
     for (const page of read(`content/solutions/${locale}.json`).pages) {
@@ -43,6 +57,9 @@ test('all localized exports render the matching pair, advice, disclosure and exi
       assert.ok(html.includes('type="range"'), `${locale}/${page.slug}: missing comparison control`);
       assert.ok(html.includes(`aria-label="${locale === 'uk' ? 'Порівняти до та після' : 'Compare before and after'}"`), `${locale}/${page.slug}: missing accessible slider name`);
       assert.ok(html.includes('aria-describedby="solution-example-disclosure"'));
+      assert.equal((html.match(/<input[^>]*name="solution-project-budget"[^>]*>/g) || []).length, 3, `${locale}/${page.slug}: missing budget choices`);
+      assert.ok(html.includes('id="solution-technical-advice"'));
+      for (const text of Object.values(budgets[page.slug][locale].standard)) assert.ok(html.includes(escape(text)), `${locale}/${page.slug}: missing initial budget advice`);
       assert.ok(html.includes(locale === 'uk' ? 'Ілюстративна концепція' : 'Illustrative AI-generated design concept'));
       for (const text of [example.title, example.before, example.after, example.keep, example.check, ...example.advice.flat()]) {
         assert.ok(html.includes(escape(text)), `${locale}/${page.slug}: missing example text ${text}`);
