@@ -1,0 +1,2234 @@
+{
+  "sharedHomeTips": {
+    "home-cove": {
+      "index": 0,
+      "kind": "lighting"
+    },
+    "home-slat": {
+      "index": 1,
+      "kind": "materials"
+    },
+    "home-curtain": {
+      "index": 2,
+      "kind": "joinery"
+    },
+    "home-joinery": {
+      "index": 3,
+      "kind": "joinery"
+    }
+  },
+  "pages": {
+    "first-room-refresh": [
+      "cabinet-fronts",
+      "worktop",
+      "task-strip",
+      "backsplash"
+    ],
+    "whole-home-renovation-planning": [
+      "flooring",
+      "thresholds",
+      "home-cove",
+      "home-joinery"
+    ],
+    "renter-friendly-makeover": [
+      "portable-storage",
+      "portable-light",
+      "renter-walls"
+    ],
+    "home-office-workspace": [
+      "desk",
+      "window-glare",
+      "portable-light"
+    ],
+    "interior-designers-freelance-decorators": [
+      "home-slat",
+      "upholstery",
+      "home-curtain",
+      "home-joinery"
+    ],
+    "architects-architecture-studios": [
+      "column",
+      "home-cove",
+      "home-curtain"
+    ],
+    "general-contractors-remodeling-companies": [
+      "cabinet-fronts",
+      "worktop",
+      "backsplash",
+      "home-cove"
+    ],
+    "kitchen-bath-remodelers": [
+      "wet-system",
+      "shower-tile",
+      "bath-ventlight"
+    ],
+    "real-estate-agents-listing-prep": [
+      "virtual-staging",
+      "listing-disclosure",
+      "light-bulbs"
+    ],
+    "real-estate-investors-house-flippers": [
+      "wall-prep",
+      "flooring",
+      "cabinet-fronts"
+    ],
+    "property-developers": [
+      "finish-schedule",
+      "cabinet-fronts",
+      "home-joinery"
+    ],
+    "short-term-rental-airbnb-hosts": [
+      "upholstery",
+      "guest-storage",
+      "window-glare"
+    ],
+    "try-a-design-style": [
+      "upholstery",
+      "home-slat",
+      "portable-light"
+    ],
+    "paint-wall-color-testing": [
+      "wall-prep",
+      "paint-samples",
+      "light-bulbs"
+    ],
+    "lighting-design-fixture-selection": [
+      "pendant",
+      "portable-light",
+      "home-cove"
+    ],
+    "flooring-finish-comparison": [
+      "flooring",
+      "thresholds",
+      "floor-acoustics"
+    ],
+    "kitchen-surfaces": [
+      "cabinet-fronts",
+      "worktop",
+      "backsplash",
+      "task-strip"
+    ],
+    "fireplace-mantel-redesign": [
+      "fireplace-surround",
+      "mantel",
+      "portable-light"
+    ],
+    "closet-built-in-storage-redesign": [
+      "closet-layout",
+      "anti-tip",
+      "task-strip"
+    ],
+    "small-space-studio-apartment-layout": [
+      "wall-bed",
+      "portable-storage",
+      "desk"
+    ],
+    "nursery-kids-room-design": [
+      "cot",
+      "anti-tip",
+      "nightlight"
+    ],
+    "home-gym-conversion": [
+      "gym-floor",
+      "gym-layout",
+      "gym-light"
+    ],
+    "open-concept-wall-removal": [
+      "opening-study",
+      "thresholds",
+      "beam-finish"
+    ],
+    "basement-garage-conversion": [
+      "basement-envelope",
+      "service-access",
+      "desk"
+    ],
+    "exterior-curb-appeal": [
+      "exterior-paint",
+      "siding",
+      "outdoor-light"
+    ],
+    "backyard-outdoor-living-redesign": [
+      "patio",
+      "shade",
+      "outdoor-light"
+    ],
+    "airbnb-turnover-refresh": [
+      "accent-textiles",
+      "wall-art",
+      "light-bulbs"
+    ]
+  },
+  "topics": {
+    "cabinet-fronts": {
+      "kind": "joinery",
+      "en": {
+        "category": "Cabinetry",
+        "title": "Retained cabinet boxes, refreshed fronts",
+        "budgets": {
+          "economy": {
+            "specification": "Cabinet-compatible enamel on existing paintable doors, with replacement handles using the existing hole centres.",
+            "detail": "Remove and label the fronts, degrease them and trial the primer on the actual finish. Repair edges, apply the coating system and refit with adjusted hinges.",
+            "difference": "Painting retains the existing door profiles and avoids manufacturing a new set of fronts."
+          },
+          "standard": {
+            "specification": "Made-to-size white-oak-veneered MDF fronts, matching edge banding and compatible concealed hinges.",
+            "detail": "Survey each opening and hinge position. Order a sample front, verify clearances at appliances and corners, then fit and adjust the replacement set on sound cabinet boxes.",
+            "difference": "Natural veneer and new fronts replace the old surface while the cabinet layout stays in place."
+          },
+          "premium": {
+            "specification": "Matched-veneer fronts with detailed end panels, upgraded soft-close hinges and coordinated drawer fronts.",
+            "detail": "Approve the veneer sequence and shop measurements before manufacture. Check end-panel build-ups, handle positions and drawer operation during fitting.",
+            "difference": "Matched grain and resolved end panels add fabrication and fitting work beyond a standard front replacement."
+          }
+        }
+      },
+      "uk": {
+        "category": "Кухонні меблі",
+        "title": "Оновлені фасади на збережених корпусах",
+        "budgets": {
+          "economy": {
+            "specification": "Сумісна з фасадами емаль на придатних дверцятах і нові ручки під наявні міжосьові відстані.",
+            "detail": "Зніміть і підпишіть фасади, знежирте їх та перевірте ґрунт на цьому покритті. Відремонтуйте краї, нанесіть систему фарбування й відрегулюйте петлі після встановлення.",
+            "difference": "Фарбування залишає профілі дверцят і не потребує виготовлення нового комплекту."
+          },
+          "standard": {
+            "specification": "Фасади з МДФ із білим дубовим шпоном за розміром, узгоджені крайки й сумісні приховані петлі.",
+            "detail": "Обміряйте прорізи й петлі. Перевірте пробний фасад, зазори біля техніки й кутів, потім установіть і відрегулюйте комплект на справних корпусах.",
+            "difference": "Справжній шпон і нові фасади замінюють стару поверхню без зміни схеми шаф."
+          },
+          "premium": {
+            "specification": "Фасади з підібраним рисунком шпону, продумані торцеві панелі й кращі петлі з плавним закриванням.",
+            "detail": "До виготовлення погодьте рисунок і контрольні обміри. Під час монтажу перевірте товщини торців, положення ручок і рух шухляд.",
+            "difference": "Добір рисунка й точні торці додають виготовлення та підгонки порівняно зі звичайною заміною."
+          }
+        }
+      }
+    },
+    "worktop": {
+      "kind": "materials",
+      "en": {
+        "category": "Work surfaces",
+        "title": "Countertop edges, sink and service junctions",
+        "budgets": {
+          "economy": {
+            "specification": "A postformed laminate worktop with matching end treatment and a sink compatible with that construction.",
+            "detail": "Template the retained cabinets and check support, appliance heights and sink cut-outs. Seal cut edges and wall junctions using the specified worktop system.",
+            "difference": "Laminate reduces fabrication scope but keeps visible edge and joint details."
+          },
+          "standard": {
+            "specification": "A pale engineered-quartz worktop, with fabricator-specified thickness, sink cut-out and edge profile.",
+            "detail": "Have the fabricator survey after cabinet adjustment. Agree seams, tap holes and sink support; coordinate removal and final plumbing connections with the installer.",
+            "difference": "A templated mineral surface replaces the laminate build-up and needs coordinated handling and fitting."
+          },
+          "premium": {
+            "specification": "Selected stone or quartz slabs with matched visible edges, a detailed sink junction and planned seam positions.",
+            "detail": "Review the actual slab, support design and delivery route before cutting. Dry-check junctions and arrange professional fitting and reconnection.",
+            "difference": "Slab selection and edge matching increase design, fabrication and handling rather than simply changing the colour."
+          }
+        }
+      },
+      "uk": {
+        "category": "Робочі поверхні",
+        "title": "Торці стільниці, мийка та підключення",
+        "budgets": {
+          "economy": {
+            "specification": "Ламінована стільниця з постформінгом, узгодженими торцями й сумісним типом мийки.",
+            "detail": "Зніміть шаблон зі збережених шаф, перевірте опори, висоту техніки й вирізи. Герметизуйте відкриті крайки та примикання за системою виробника.",
+            "difference": "Ламінат спрощує виготовлення, але залишає видимі торці й стики."
+          },
+          "standard": {
+            "specification": "Світла кварцова стільниця з визначеними виробником товщиною, вирізом мийки й профілем торця.",
+            "detail": "Запросіть обмір після регулювання шаф. Узгодьте шви, отвори змішувача й опору мийки; скоординуйте демонтаж і сантехнічне підключення.",
+            "difference": "Поверхня за шаблоном замінює ламіновану конструкцію та потребує узгоджених доставки й монтажу."
+          },
+          "premium": {
+            "specification": "Обрані кам’яні або кварцові плити з підібраними видимими торцями й запланованими швами.",
+            "detail": "До різання перевірте конкретну плиту, опори й маршрут доставки. Узгодьте стики та професійний монтаж із повторним підключенням.",
+            "difference": "Добір плити й торців додає проєктування, виготовлення та переміщення, а не лише новий колір."
+          }
+        }
+      }
+    },
+    "backsplash": {
+      "kind": "materials",
+      "en": {
+        "category": "Wall finish",
+        "title": "Backsplash set-out and socket edges",
+        "budgets": {
+          "economy": {
+            "specification": "Regular-format glazed ceramic tile, a simple straight lay and compatible grout and edge trim.",
+            "detail": "Check the wall is suitable, mark the counter line and set out cuts around sockets. Use the tile system adhesive and coordinate socket adjustments with an electrician.",
+            "difference": "Standard tiles and visible trim simplify cutting and edge finishing."
+          },
+          "standard": {
+            "specification": "A coordinated porcelain tile backsplash with planned joint lines and colour-matched grout.",
+            "detail": "Prepare a flat substrate, dry-set the layout and locate socket cuts before fixing. Keep required movement joints and finish the counter junction with the specified flexible seal.",
+            "difference": "A considered set-out reduces awkward cuts while keeping a serviceable tiled finish."
+          },
+          "premium": {
+            "specification": "A large-format porcelain or mineral slab backsplash with fabricator-designed seams and exposed edges.",
+            "detail": "Confirm handling access, substrate requirements and electrical openings before fabrication. Have the fabricator template, transport and fit the pieces with the specified support.",
+            "difference": "Larger pieces reduce grout lines but add templating, handling and replacement complexity."
+          }
+        }
+      },
+      "uk": {
+        "category": "Оздоблення стіни",
+        "title": "Розкладка фартуха й краї біля розеток",
+        "budgets": {
+          "economy": {
+            "specification": "Глазурована керамічна плитка звичайного формату, пряма розкладка й сумісні затирка та торцевий профіль.",
+            "detail": "Перевірте основу, позначте лінію стільниці й розкладіть підрізи біля розеток. Застосуйте клей системи; коригування розеток узгодьте з електриком.",
+            "difference": "Звичайна плитка й видимий профіль спрощують різання та обробку країв."
+          },
+          "standard": {
+            "specification": "Узгоджений керамогранітний фартух із продуманими швами й підібраною затиркою.",
+            "detail": "Підготуйте рівну основу, перевірте розкладку й отвори розеток до фіксації. Збережіть потрібні деформаційні шви та виконайте примикання до стільниці відповідним еластичним ущільненням.",
+            "difference": "Продумана розкладка прибирає незручні підрізи, зберігаючи ремонтопридатну плиткову поверхню."
+          },
+          "premium": {
+            "specification": "Великоформатний керамогранітний або мінеральний фартух із визначеними виробником швами й торцями.",
+            "detail": "До виготовлення перевірте занесення, основу й електричні отвори. Виробник має зняти шаблони, доставити й установити деталі з потрібною опорою.",
+            "difference": "Великі деталі зменшують кількість швів, але ускладнюють шаблони, переміщення й заміну."
+          }
+        }
+      }
+    },
+    "task-strip": {
+      "kind": "lighting",
+      "en": {
+        "category": "Task lighting",
+        "title": "Shielded light below shelves and cabinets",
+        "budgets": {
+          "economy": {
+            "specification": "A surface-mounted low-voltage LED bar with an opal cover and accessible plug-in power supply.",
+            "detail": "Fix the bar to a suitable underside, place it where the task occurs and route the supply clear of doors and heat. Keep the driver accessible.",
+            "difference": "A visible fitting adds task light without routing a recess into the cabinetry."
+          },
+          "standard": {
+            "specification": "A 24 V, 3000 K LED strip in an aluminium channel with diffuser and a compatible remote driver.",
+            "detail": "Size the driver for the specified run and cable lengths. Fix the channel to the cabinet underside, conceal the low-voltage wiring and have any mains connection completed appropriately.",
+            "difference": "The diffused channel gives a more continuous work light and a tidier wiring route."
+          },
+          "premium": {
+            "specification": "A recessed aluminium LED profile with specified colour quality, dimming and accessible driver provision.",
+            "detail": "Coordinate the cabinet groove and cable exits before manufacture. Fit the profile, test dimming compatibility and retain removable access to the driver and connections.",
+            "difference": "Recessing integrates the light into the joinery and adds fabrication and control coordination."
+          }
+        }
+      },
+      "uk": {
+        "category": "Робоче світло",
+        "title": "Екрановане світло під полицями й шафами",
+        "budgets": {
+          "economy": {
+            "specification": "Накладна низьковольтна LED-планка з опаловою кришкою та доступним блоком живлення від розетки.",
+            "detail": "Закріпіть планку на придатній нижній площині в зоні роботи. Проведіть живлення подалі від дверцят і нагріву, залишивши блок доступним.",
+            "difference": "Видимий прилад додає робоче світло без фрезерування меблів."
+          },
+          "standard": {
+            "specification": "Стрічка LED 24 В, 3000 K в алюмінієвому каналі з розсіювачем і сумісним окремим драйвером.",
+            "detail": "Підберіть драйвер за довжиною стрічки й кабелів. Закріпіть канал під шафою, сховайте низьковольтні дроти й належно виконайте мережеве підключення.",
+            "difference": "Канал із розсіювачем дає рівномірніше робоче світло й охайнішу проводку."
+          },
+          "premium": {
+            "specification": "Врізний алюмінієвий LED-профіль із визначеними якістю кольору, димуванням і доступом до драйвера.",
+            "detail": "До виготовлення узгодьте паз і виходи кабелів. Установіть профіль, перевірте димування й залиште знімний доступ до драйвера та з’єднань.",
+            "difference": "Врізання інтегрує світло в меблі й додає координації виготовлення та керування."
+          }
+        }
+      }
+    },
+    "flooring": {
+      "kind": "materials",
+      "en": {
+        "category": "Flooring",
+        "title": "A floor finish chosen for the actual room",
+        "budgets": {
+          "economy": {
+            "specification": "A room-suitable click LVP or laminate system with its specified underlay and perimeter allowance.",
+            "detail": "Measure moisture and flatness, prepare the subfloor and follow the product limits at thresholds and fixed furniture. Do not add an unapproved soft underlay.",
+            "difference": "A standard modular floor replaces the premium timber finish, while preparation remains essential."
+          },
+          "standard": {
+            "specification": "Engineered oak flooring with a compatible floating or bonded installation system and matching trims.",
+            "detail": "Confirm the chosen installation method, heating compatibility and finished floor height. Acclimatise where specified and set out boards before fitting.",
+            "difference": "Real timber introduces grain and repair considerations alongside product-specific installation requirements."
+          },
+          "premium": {
+            "specification": "Selected engineered oak in a specified pattern, with matched thresholds and individually planned perimeter details.",
+            "detail": "Approve a sample layout, calculate pattern waste and have the installer resolve substrate, door and stair junctions before ordering.",
+            "difference": "A selected grade and laying pattern add setting-out, waste and fitting time."
+          }
+        }
+      },
+      "uk": {
+        "category": "Підлога",
+        "title": "Покриття для реальних умов кімнати",
+        "budgets": {
+          "economy": {
+            "specification": "Придатний для кімнати замковий вініл або ламінат із визначеними підкладкою та відступами.",
+            "detail": "Виміряйте вологість і рівність, підготуйте основу та дотримуйтеся обмежень біля порогів і нерухомих меблів. Не додавайте непогоджену м’яку підкладку.",
+            "difference": "Стандартне модульне покриття замінює дорожчу деревину, але підготовка залишається необхідною."
+          },
+          "standard": {
+            "specification": "Інженерна дубова дошка із сумісною плаваючою або клейовою системою й узгодженими профілями.",
+            "detail": "Уточніть монтаж, сумісність з опаленням і чистову висоту. За інструкцією проведіть акліматизацію й перевірте розкладку до укладання.",
+            "difference": "Справжня деревина додає рисунок і особливості ремонту разом із конкретними вимогами монтажу."
+          },
+          "premium": {
+            "specification": "Обрана інженерна дубова дошка з визначеним рисунком, порогами й продуманим периметром.",
+            "detail": "Погодьте пробну розкладку, запас на рисунок і вирішіть із монтажником основу, дверні та сходові стики до замовлення.",
+            "difference": "Добір деревини й рисунок додають розмітки, відходів і часу укладання."
+          }
+        }
+      }
+    },
+    "thresholds": {
+      "kind": "joinery",
+      "en": {
+        "category": "Floor junctions",
+        "title": "Door thresholds and changes of floor level",
+        "budgets": {
+          "economy": {
+            "specification": "Surface-mounted transition strips suited to the two floor thicknesses and required movement gap.",
+            "detail": "Measure both finished levels and the door clearance. Fix the profile to its specified base without trapping a floating floor.",
+            "difference": "A visible strip accommodates the junction with relatively little alteration."
+          },
+          "standard": {
+            "specification": "Coordinated reducer or T-profiles, with planned floor build-ups through adjoining doorways.",
+            "detail": "Agree levels before installing either room. Detail movement allowances and undercut the door or trim only where appropriate.",
+            "difference": "Coordinated levels and profiles make the transition less visually abrupt."
+          },
+          "premium": {
+            "specification": "A detailed flush or bespoke transition compatible with both flooring systems and their movement requirements.",
+            "detail": "Have the installer coordinate substrate heights, the joint location and edge support before laying. Approve a physical junction sample.",
+            "difference": "A refined junction requires early floor-height coordination rather than simply omitting the threshold."
+          }
+        }
+      },
+      "uk": {
+        "category": "Стики підлоги",
+        "title": "Пороги й переходи між рівнями",
+        "budgets": {
+          "economy": {
+            "specification": "Накладні перехідні профілі під дві товщини покриття й потрібний рухомий зазор.",
+            "detail": "Виміряйте чистові рівні та зазор дверей. Закріпіть профіль за системою, не затискаючи плаваючу підлогу.",
+            "difference": "Видимий профіль оформлює стик із відносно малим втручанням."
+          },
+          "standard": {
+            "specification": "Узгоджені перехідні або Т-профілі із запланованими товщинами в суміжних дверях.",
+            "detail": "Погодьте рівні до укладання обох кімнат. Передбачте рухомі зазори та за потреби коректно підріжте двері чи лиштви.",
+            "difference": "Узгоджені рівні й профілі роблять перехід візуально спокійнішим."
+          },
+          "premium": {
+            "specification": "Продуманий врівень або індивідуальний перехід, сумісний із рухом обох систем підлоги.",
+            "detail": "До укладання узгодьте висоти основ, положення шва й опори крайок. Погодьте фізичний зразок стику.",
+            "difference": "Точне примикання потребує раннього узгодження висот, а не простого вилучення порога."
+          }
+        }
+      }
+    },
+    "floor-acoustics": {
+      "kind": "planning",
+      "en": {
+        "category": "Floor build-up",
+        "title": "Underlay, impact noise and floor height",
+        "budgets": {
+          "economy": {
+            "specification": "The floor manufacturer’s approved underlay, with the complete assembly checked against building requirements.",
+            "detail": "Confirm slab or timber construction, existing layers and any apartment sound rules before buying. Keep perimeter isolation as specified.",
+            "difference": "The budget saving is in the finish selection, not in omitting a required acoustic layer."
+          },
+          "standard": {
+            "specification": "A documented floor-and-underlay assembly selected for the actual structure, loading and room use.",
+            "detail": "Review the assembly data, moisture provision and final height with the installer. Coordinate thresholds and skirtings without bridging isolation details.",
+            "difference": "A coordinated build-up addresses more than the appearance of the top surface."
+          },
+          "premium": {
+            "specification": "An acoustician- or designer-specified floor assembly where the building or neighbour conditions justify it.",
+            "detail": "Assess transmission paths and compatible products, then coordinate installation inspections before closing the floor. Use the specified junction details throughout.",
+            "difference": "More investigation and installation control replace assumptions that a thicker pad alone solves noise."
+          }
+        }
+      },
+      "uk": {
+        "category": "Конструкція підлоги",
+        "title": "Підкладка, ударний шум і висота",
+        "budgets": {
+          "economy": {
+            "specification": "Схвалена виробником підкладка з перевіркою всієї конструкції за вимогами будинку.",
+            "detail": "До купівлі визначте тип перекриття, наявні шари й правила шуму квартири. Збережіть потрібну ізоляцію периметра.",
+            "difference": "Економія стосується фінішу, а не вилучення обов’язкового акустичного шару."
+          },
+          "standard": {
+            "specification": "Документована система покриття й підкладки для конкретної конструкції, навантаження та використання.",
+            "detail": "Узгодьте характеристики, захист від вологи й чистову висоту. Не замикайте ізоляційні вузли порогами чи плінтусами.",
+            "difference": "Узгоджена конструкція враховує більше, ніж вигляд верхнього шару."
+          },
+          "premium": {
+            "specification": "Визначена акустиком або проєктувальником система, якщо цього потребують будинок чи сусідні приміщення.",
+            "detail": "Оцініть шляхи передавання шуму й сумісні матеріали, перевірте монтаж до закриття підлоги та застосуйте потрібні вузли.",
+            "difference": "Дослідження й контроль монтажу замінюють припущення, що товстіша підкладка сама вирішує шум."
+          }
+        }
+      }
+    },
+    "wall-prep": {
+      "kind": "materials",
+      "en": {
+        "category": "Paintwork",
+        "title": "Prepared walls and a repairable painted finish",
+        "budgets": {
+          "economy": {
+            "specification": "A compatible primer and washable matt paint on the existing wall, with local filling where sound.",
+            "detail": "Clean the surface, repair small defects and test adhesion. Prime where the coating system requires it and apply the specified coats and drying intervals.",
+            "difference": "Local preparation retains more existing texture and keeps the work focused."
+          },
+          "standard": {
+            "specification": "A coordinated primer and durable matt or eggshell system over a consistently prepared wall.",
+            "detail": "Remove loose coatings, fill and sand defects, then inspect under side light before painting. Test the sheen beside the retained trim.",
+            "difference": "More uniform preparation improves the wall as a whole rather than masking isolated marks."
+          },
+          "premium": {
+            "specification": "An installer-specified skim or lining preparation with a sample-approved decorative coating system.",
+            "detail": "Survey cracks and substrate condition before deciding on preparation. Approve a finished sample and keep records of the coating and touch-up method.",
+            "difference": "The allowance goes into surface regularity and finish control, with more preparation and drying time."
+          }
+        }
+      },
+      "uk": {
+        "category": "Фарбування",
+        "title": "Підготовлені стіни й покриття для подальшого ремонту",
+        "budgets": {
+          "economy": {
+            "specification": "Сумісний ґрунт і матова фарба для очищення з локальним шпаклюванням справної стіни.",
+            "detail": "Очистіть поверхню, усуньте дрібні дефекти й перевірте адгезію. Ґрунтуйте за системою та дотримуйтеся шарів і сушіння виробника.",
+            "difference": "Локальна підготовка залишає більше наявної фактури й звужує обсяг."
+          },
+          "standard": {
+            "specification": "Узгоджена система ґрунту та стійкої матової або напівматової фарби на рівномірно підготовленій стіні.",
+            "detail": "Зніміть нестійкі шари, заповніть і відшліфуйте дефекти, огляньте боковим світлом. Перевірте блиск поруч із лиштвами.",
+            "difference": "Рівномірна підготовка покращує всю стіну, а не маскує окремі сліди."
+          },
+          "premium": {
+            "specification": "Визначене майстром вирівнювання або підкладка з погодженою за зразком декоративною системою.",
+            "detail": "До вибору підготовки огляньте тріщини й основу. Погодьте готовий зразок і збережіть назви покриттів та спосіб підфарбування.",
+            "difference": "Бюджет спрямовано на рівність і контроль фінішу з довшою підготовкою й сушінням."
+          }
+        }
+      }
+    },
+    "paint-samples": {
+      "kind": "planning",
+      "en": {
+        "category": "Colour selection",
+        "title": "A sample palette checked against fixed finishes",
+        "budgets": {
+          "economy": {
+            "specification": "One shortlisted paint colour tested with the actual product on a movable sample board.",
+            "detail": "Place the dried sample beside the floor and trim. Check it in daylight and under the lamps you use in the evening before ordering paint.",
+            "difference": "One physical sample narrows the decision without relying on a screen colour."
+          },
+          "standard": {
+            "specification": "Two or three candidate paint samples, with the intended sheen and retained material samples beside them.",
+            "detail": "Move the boards between the walls and adjoining doorway. Compare at normal viewing times, then record the selected brand, colour code and sheen.",
+            "difference": "A small controlled comparison replaces isolated colour-chip decisions."
+          },
+          "premium": {
+            "specification": "A room-to-room sample set reviewed with the actual flooring, fabrics and final lighting choices.",
+            "detail": "Build a coordinated sample panel and inspect it on site with the decorator. Approve the palette before ordering full quantities across rooms.",
+            "difference": "Cross-room and lighting coordination adds review time while reducing incompatible finish selections."
+          }
+        }
+      },
+      "uk": {
+        "category": "Вибір кольору",
+        "title": "Палітра зразків поруч із постійними матеріалами",
+        "budgets": {
+          "economy": {
+            "specification": "Один обраний колір, випробуваний справжньою фарбою на переносному щиті.",
+            "detail": "Прикладіть висохлий зразок до підлоги й лиштв. Огляньте вдень і під своїми вечірніми лампами до замовлення фарби.",
+            "difference": "Один фізичний зразок звужує вибір без залежності від кольору екрана."
+          },
+          "standard": {
+            "specification": "Два-три пробники з потрібним блиском і зразками збережених матеріалів.",
+            "detail": "Переміщуйте щити між стінами й суміжними дверима. Порівняйте у звичний час і запишіть бренд, код та блиск вибраного кольору.",
+            "difference": "Невелике контрольоване порівняння замінює рішення за окремою карткою кольору."
+          },
+          "premium": {
+            "specification": "Набір зразків для суміжних кімнат разом із реальною підлогою, тканинами й остаточним світлом.",
+            "detail": "Зберіть узгоджений стенд і огляньте його на об’єкті з маляром. Погодьте палітру до замовлення повних обсягів.",
+            "difference": "Узгодження кімнат і світла додає перевірок, зменшуючи ризик несумісних матеріалів."
+          }
+        }
+      }
+    },
+    "portable-storage": {
+      "kind": "layout",
+      "en": {
+        "category": "Flexible storage",
+        "title": "Freestanding storage that can move with you",
+        "budgets": {
+          "economy": {
+            "specification": "Standard open shelving with removable baskets sized for your actual belongings.",
+            "detail": "Measure the unit, access route and items to store. Assemble to the manufacturer’s instructions and arrange any required anti-tip fixing with the property owner.",
+            "difference": "Open modules keep purchasing simple but leave more everyday items visible."
+          },
+          "standard": {
+            "specification": "A coordinated modular unit combining closed cupboards and adjustable open shelves.",
+            "detail": "Set out the doors and circulation, check the floor and fit the specified fixings. Keep sockets and service panels accessible behind or beside the unit.",
+            "difference": "Closed sections reduce visual clutter while the modular format remains adaptable."
+          },
+          "premium": {
+            "specification": "Quality reconfigurable storage with replaceable fronts, adjustable internals and specified connectors.",
+            "detail": "Plan a configuration that works in this room and can be disassembled. Confirm fixing, component weights and future spare-part availability before ordering.",
+            "difference": "Better internals and modular hardware add flexibility without committing to permanent built-in joinery."
+          }
+        }
+      },
+      "uk": {
+        "category": "Гнучке зберігання",
+        "title": "Окреме зберігання, яке можна забрати із собою",
+        "budgets": {
+          "economy": {
+            "specification": "Стандартні відкриті полиці зі знімними кошиками під реальні речі.",
+            "detail": "Виміряйте меблі, шлях доставки й предмети. Зберіть за інструкцією та погодьте потрібне кріплення від перекидання з власником житла.",
+            "difference": "Відкриті модулі спрощують купівлю, але залишають більше речей на видноті."
+          },
+          "standard": {
+            "specification": "Узгоджений модульний блок із закритими шафками й регульованими полицями.",
+            "detail": "Перевірте рух дверцят, проходи й підлогу, установіть потрібні кріплення. Не перекривайте розетки та сервісні люки.",
+            "difference": "Закриті секції зменшують візуальний безлад, зберігаючи гнучкість модулів."
+          },
+          "premium": {
+            "specification": "Якісна змінна система зі знімними фасадами, регульованим наповненням і визначеними з’єднувачами.",
+            "detail": "Сплануйте конфігурацію для цієї кімнати й подальшого розбирання. До замовлення перевірте кріплення, вагу частин і запасні деталі.",
+            "difference": "Краще наповнення й фурнітура додають гнучкості без постійних вбудованих меблів."
+          }
+        }
+      }
+    },
+    "portable-light": {
+      "kind": "lighting",
+      "en": {
+        "category": "Lighting",
+        "title": "Adjustable task and reading light",
+        "budgets": {
+          "economy": {
+            "specification": "A shielded plug-in LED task lamp with a stable base and adjustable head.",
+            "detail": "Test the lamp at the task, keeping the bright source out of direct sight and off the screen. Route the cable beside furniture rather than across a passage.",
+            "difference": "A movable task light improves one activity without altering the room’s wiring."
+          },
+          "standard": {
+            "specification": "A dimmable task or reading lamp with stated colour quality and a suitable beam spread.",
+            "detail": "Check reach and glare from the actual chair. Select a colour temperature for the task and test dimming without flicker before placing the cable route.",
+            "difference": "Control over brightness and beam placement improves usability beyond a decorative bulb swap."
+          },
+          "premium": {
+            "specification": "A serviceable articulated task light with specified output, colour rendering and independent controls.",
+            "detail": "Review the beam from working and seated positions. Set and label useful controls and confirm replacement light sources or driver access with the supplier.",
+            "difference": "Better optics and controls refine the task light while the installation stays portable."
+          }
+        }
+      },
+      "uk": {
+        "category": "Освітлення",
+        "title": "Регульоване світло для роботи й читання",
+        "budgets": {
+          "economy": {
+            "specification": "Екранована LED-лампа від розетки зі стійкою основою й регульованою головкою.",
+            "detail": "Перевірте світло біля задачі без прямого засліплення й відблиску екрана. Проведіть кабель уздовж меблів, а не через прохід.",
+            "difference": "Переносна лампа покращує одну дію без зміни проводки кімнати."
+          },
+          "standard": {
+            "specification": "Димована робоча лампа з визначеними якістю кольору й шириною променя.",
+            "detail": "Перевірте досяжність і засліплення з реального крісла. Оберіть температуру для задачі та випробуйте димування без мерехтіння.",
+            "difference": "Керування яскравістю й променем покращує використання більше, ніж проста заміна лампочки."
+          },
+          "premium": {
+            "specification": "Ремонтопридатна шарнірна лампа з визначеними потоком, передачею кольору й окремим керуванням.",
+            "detail": "Огляньте промінь у робочому й сидячому положеннях. Налаштуйте керування та перевірте заміну джерела або доступ до драйвера.",
+            "difference": "Краща оптика й керування уточнюють світло, зберігаючи переносний монтаж."
+          }
+        }
+      }
+    },
+    "renter-walls": {
+      "kind": "materials",
+      "en": {
+        "category": "Reversible styling",
+        "title": "Wall accents with a clear move-out plan",
+        "budgets": {
+          "economy": {
+            "specification": "Framed artwork resting on a stable low cabinet, with no adhesive wall treatment.",
+            "detail": "Check stability and keep heavy or fragile frames out of knock routes. Record the existing wall condition and leave original finishes untouched.",
+            "difference": "Portable artwork changes the room without introducing a wall-removal task."
+          },
+          "standard": {
+            "specification": "A manufacturer-approved removable wallcovering tested on the actual sound painted surface, with landlord permission where required.",
+            "detail": "Check paint cure and substrate compatibility, trial a discreet patch and follow the specified application and removal process. Retain the agreed restoration requirements.",
+            "difference": "A larger wall accent is possible, but removable adhesive can still mark unsuitable paint."
+          },
+          "premium": {
+            "specification": "A coordinated set of lightweight framed panels or a removable hanging system approved for the property.",
+            "detail": "Confirm load limits, surface suitability and any required fixing permission. Plan disassembly and safe storage before selecting the final artwork arrangement.",
+            "difference": "A more complete wall composition adds fitting and removal planning without authorising permanent renovation."
+          }
+        }
+      },
+      "uk": {
+        "category": "Зворотне оформлення",
+        "title": "Настінні акценти з планом повернення житла",
+        "budgets": {
+          "economy": {
+            "specification": "Картини на стійкій низькій шафі без клейкого оздоблення стіни.",
+            "detail": "Перевірте стійкість і приберіть важкі чи крихкі рами зі шляху руху. Зафіксуйте початковий стан і не змінюйте постійне покриття.",
+            "difference": "Переносний декор змінює кімнату без майбутнього зняття покриття зі стіни."
+          },
+          "standard": {
+            "specification": "Знімне покриття, дозволене виробником для конкретної справної фарби, з потрібним дозволом власника.",
+            "detail": "Перевірте висихання фарби й основу, випробуйте непомітну ділянку та дотримуйтеся нанесення й зняття. Збережіть погоджені умови відновлення.",
+            "difference": "Більший акцент можливий, але знімний клей усе ще може пошкодити непридатну фарбу."
+          },
+          "premium": {
+            "specification": "Узгоджений набір легких панелей у рамах або дозволена для житла знімна система підвішування.",
+            "detail": "Перевірте вагу, поверхню й дозволи на кріплення. До вибору композиції сплануйте розбирання та безпечне зберігання.",
+            "difference": "Повніша композиція додає планування монтажу й зняття, не надаючи дозволу на постійний ремонт."
+          }
+        }
+      }
+    },
+    "desk": {
+      "kind": "layout",
+      "en": {
+        "category": "Workstation",
+        "title": "A desk with real chair and cable clearance",
+        "budgets": {
+          "economy": {
+            "specification": "A freestanding desk matched to the user’s space, with a separate monitor support where needed.",
+            "detail": "Mark the desk and occupied chair on the floor. Check legroom, screen position and sockets, then secure cables clear of the chair movement.",
+            "difference": "Standard furniture keeps the work limited while the existing room remains shared."
+          },
+          "standard": {
+            "specification": "A correctly sized freestanding desk, adjustable chair and cable tray, with screen height set for the user.",
+            "detail": "Set the chair first, then place the screen and keyboard. Check the route past the occupied seat and make the cable tray accessible for changes.",
+            "difference": "A coordinated workstation improves daily fit rather than adding storage at the expense of legroom."
+          },
+          "premium": {
+            "specification": "An adjustable-height desk with suited chair, monitor arm and cable management for its full travel.",
+            "detail": "Test the seated and standing positions, monitor-arm compatibility and cable slack through the whole height range. Check stability before fixing accessories.",
+            "difference": "Height adjustment and accessory coordination add flexibility, with a larger operating envelope to allow."
+          }
+        }
+      },
+      "uk": {
+        "category": "Робоче місце",
+        "title": "Стіл із реальним місцем для крісла й кабелів",
+        "budgets": {
+          "economy": {
+            "specification": "Окремий стіл під користувача та площу, за потреби з окремою підставкою монітора.",
+            "detail": "Позначте стіл і зайняте крісло на підлозі. Перевірте ноги, екран і розетки, приберіть кабелі зі шляху крісла.",
+            "difference": "Стандартні меблі звужують роботи, залишаючи кімнату спільною."
+          },
+          "standard": {
+            "specification": "Відповідний окремий стіл, регульоване крісло й кабельний лоток з екраном під користувача.",
+            "detail": "Спершу налаштуйте крісло, потім екран і клавіатуру. Перевірте прохід повз зайняте сидіння та доступ до кабелів.",
+            "difference": "Узгоджене місце покращує щоденну посадку, не забираючи простір для ніг зберіганням."
+          },
+          "premium": {
+            "specification": "Стіл зі зміною висоти, відповідне крісло, кронштейн монітора й кабелі для повного ходу.",
+            "detail": "Перевірте роботу сидячи й стоячи, сумісність кронштейна та запас кабелів на всій висоті. Оцініть стійкість до кріплення аксесуарів.",
+            "difference": "Регулювання й аксесуари додають гнучкості, але потребують більшого робочого простору."
+          }
+        }
+      }
+    },
+    "window-glare": {
+      "kind": "materials",
+      "en": {
+        "category": "Window treatment",
+        "title": "Daylight control on existing window fixings",
+        "budgets": {
+          "economy": {
+            "specification": "A suitable ready-made blind or curtain on an existing compatible fitting, using cordless operation where needed.",
+            "detail": "Measure the opening and check handle access. Test glare at the actual working hour and keep the covering clear of heaters and furniture.",
+            "difference": "Basic screening controls direct daylight without building a new ceiling detail."
+          },
+          "standard": {
+            "specification": "A made-to-measure cordless blind or lined curtain sized for the current track or approved bracket positions.",
+            "detail": "Confirm the fixing and finished drop, then test the overlap at edges and the open stack. Preserve window operation and required ventilation.",
+            "difference": "Better sizing and lining improve light control while the installation remains within existing mounting positions."
+          },
+          "premium": {
+            "specification": "Selected solar-control or blackout fabric with a made-to-measure cordless system compatible with the existing fixing.",
+            "detail": "Review fabric samples against daylight, check the operating space and have the supplier confirm hardware compatibility before installation.",
+            "difference": "A more precise fabric and operating system improve glare or privacy control without assuming a recessed pocket."
+          }
+        }
+      },
+      "uk": {
+        "category": "Оформлення вікна",
+        "title": "Денне світло з наявними кріпленнями",
+        "budgets": {
+          "economy": {
+            "specification": "Придатна готова штора або ролета на сумісному наявному кріпленні, за потреби без шнурів.",
+            "detail": "Виміряйте проріз і перевірте ручки. Випробуйте відблиски в робочий час, залишивши відстань до опалення й меблів.",
+            "difference": "Просте затінення контролює пряме світло без нової стельової конструкції."
+          },
+          "standard": {
+            "specification": "Безшнурова ролета або штора з підкладкою за розміром для наявного карниза чи погоджених кріплень.",
+            "detail": "Перевірте опору й довжину, перекриття країв і зібрану штору. Збережіть відкривання вікна й потрібну вентиляцію.",
+            "difference": "Точніший розмір і підкладка покращують світлоконтроль у наявних монтажних положеннях."
+          },
+          "premium": {
+            "specification": "Обрана сонцезахисна або blackout-тканина з безшнуровою системою під наявне кріплення.",
+            "detail": "Огляньте зразки проти денного світла, перевірте робоче місце й сумісність фурнітури з постачальником до монтажу.",
+            "difference": "Точніша тканина й керування покращують захист від відблисків або приватність без стельової ніші."
+          }
+        }
+      }
+    },
+    "upholstery": {
+      "kind": "materials",
+      "en": {
+        "category": "Furniture & textiles",
+        "title": "Seating chosen for cleaning and replacement",
+        "budgets": {
+          "economy": {
+            "specification": "A sound retained sofa with manufacturer-compatible washable covers and replaceable cushion inserts.",
+            "detail": "Check frame condition and cover fit before ordering. Follow the stated wash cycle and allow a spare set where the room is used by guests.",
+            "difference": "Reusing the sofa limits purchasing while refreshing its most frequently handled surfaces."
+          },
+          "standard": {
+            "specification": "Modular seating with removable upholstery, stated care instructions and available replacement covers.",
+            "detail": "Measure the room and delivery route, compare fabric samples and confirm replacement availability. Assemble with clearance for cleaning under and around the furniture.",
+            "difference": "A coordinated modular seat improves fit and servicing beyond a loose-cover refresh."
+          },
+          "premium": {
+            "specification": "Serviceable seating with selected performance upholstery, replaceable components and documented care requirements.",
+            "detail": "Ask the supplier for the intended-use rating and spare-part policy. Approve a fabric sample and confirm cleaning methods before completing the order.",
+            "difference": "The allowance supports durability and serviceability rather than relying on an expensive-looking fabric alone."
+          }
+        }
+      },
+      "uk": {
+        "category": "Меблі й текстиль",
+        "title": "Сидіння з продуманим доглядом і заміною",
+        "budgets": {
+          "economy": {
+            "specification": "Справний диван із сумісними чохлами для прання та змінними наповнювачами подушок.",
+            "detail": "До замовлення перевірте каркас і посадку чохла. Дотримуйтеся режиму прання та передбачте запасний комплект для гостьової кімнати.",
+            "difference": "Збереження дивана обмежує закупівлю й оновлює поверхні щоденного використання."
+          },
+          "standard": {
+            "specification": "Модульні сидіння зі знімною оббивкою, інструкціями догляду й доступними запасними чохлами.",
+            "detail": "Виміряйте кімнату та доставку, порівняйте тканини й перевірте заміни. Залиште доступ для прибирання під меблями й довкола.",
+            "difference": "Узгоджені модулі покращують розмір і обслуговування порівняно зі зміною чохла."
+          },
+          "premium": {
+            "specification": "Ремонтопридатні сидіння з обраною зносостійкою оббивкою, змінними частинами й визначеним доглядом.",
+            "detail": "Запитайте придатність до потрібного використання й політику запасних деталей. Погодьте тканину та очищення до завершення замовлення.",
+            "difference": "Бюджет підтримує довговічність і ремонт, а не лише дорогий вигляд тканини."
+          }
+        }
+      }
+    },
+    "column": {
+      "kind": "joinery",
+      "en": {
+        "category": "Retained structure",
+        "title": "Decorative cladding around a retained column",
+        "budgets": {
+          "economy": {
+            "specification": "A compatible painted finish on the existing approved column enclosure, with structure left untouched.",
+            "detail": "Confirm the enclosure and any fire-protection system before preparation. Repair only the decorative surface and retain required inspection or service access.",
+            "difference": "A colour treatment changes the column’s presence without introducing a new cladding build-up."
+          },
+          "standard": {
+            "specification": "A non-load-bearing veneer or metal-look lining on a coordinated subframe around the retained column.",
+            "detail": "Check the measured column, fire-protection requirements and clearances. Detail the lining fixings and access before fitting it independently of the structural design.",
+            "difference": "A coordinated lining adds material texture and thickness around the existing structure."
+          },
+          "premium": {
+            "specification": "Fabricated cladding with detailed corners, concealed decorative fixings and an agreed removable access section.",
+            "detail": "Review shop drawings, tolerances and the approved fire-protection interface. Trial the corner detail and coordinate inspection access before fabrication.",
+            "difference": "Bespoke corners and removable details add fabrication control, not a change to the column’s structural role."
+          }
+        }
+      },
+      "uk": {
+        "category": "Збережені конструкції",
+        "title": "Декоративне облицювання наявної колони",
+        "budgets": {
+          "economy": {
+            "specification": "Сумісне фарбування наявної погодженої оболонки колони без втручання в конструкцію.",
+            "detail": "До підготовки перевірте оболонку й вогнезахист. Відремонтуйте лише декоративну поверхню, зберігши потрібний доступ для огляду чи обслуговування.",
+            "difference": "Колір змінює сприйняття колони без нового шару облицювання."
+          },
+          "standard": {
+            "specification": "Ненесуча шпонована або металізована обшивка на узгодженій підконструкції навколо колони.",
+            "detail": "Перевірте обміри, вогнезахист і зазори. До монтажу визначте кріплення обшивки й доступи окремо від конструктивного рішення.",
+            "difference": "Узгоджене облицювання додає фактуру та товщину навколо збереженої конструкції."
+          },
+          "premium": {
+            "specification": "Індивідуальне облицювання з продуманими кутами, прихованими декоративними кріпленнями й знімною ревізійною частиною.",
+            "detail": "Перевірте креслення, допуски й стикування з вогнезахистом. Випробуйте кутовий вузол і погодьте доступи до виготовлення.",
+            "difference": "Індивідуальні кути й ревізії додають контролю виготовлення, не змінюючи несучої ролі колони."
+          }
+        }
+      }
+    },
+    "wet-system": {
+      "kind": "materials",
+      "en": {
+        "category": "Waterproofing",
+        "title": "Continuous shower waterproofing",
+        "budgets": {
+          "economy": {
+            "specification": "A compatible liquid-applied waterproofing kit with corner tape and proprietary pipe collars beneath the tiles.",
+            "detail": "Confirm the substrate and falls first. Apply primer, reinforcement and the specified coats at the required coverage; connect the system to the drain and test it before tiling.",
+            "difference": "A liquid system keeps material costs down; drying times and application thickness still need control."
+          },
+          "standard": {
+            "specification": "A bonded sheet-membrane shower system with matched corners, pipe seals and a compatible drain flange.",
+            "detail": "Set out sheets on a suitable sloped substrate. Form overlaps and seal penetrations using one approved system; inspect and test the completed waterproof layer before covering it.",
+            "difference": "Preformed sheets make layer thickness predictable, with more seams to coordinate."
+          },
+          "premium": {
+            "specification": "An integrated waterproof shower tray or former, sheet membranes and factory-made junction pieces from one compatible system.",
+            "detail": "Verify finished floor levels and drain access before ordering. Fit the former to full support, join the wall system and test all junctions before installing the finish.",
+            "difference": "A coordinated former simplifies the falls and junctions; it still needs sound support and testing."
+          }
+        }
+      },
+      "uk": {
+        "category": "Гідроізоляція",
+        "title": "Безперервна гідроізоляція душової",
+        "budgets": {
+          "economy": {
+            "specification": "Сумісна обмазувальна гідроізоляція зі стрічками для кутів і заводськими манжетами для труб під плиткою.",
+            "detail": "Спершу перевірте основу й ухили. Нанесіть ґрунт, армування та потрібні шари з нормованою витратою; з’єднайте систему зі зливом і випробуйте до облицювання.",
+            "difference": "Обмазувальна система зменшує витрати матеріалу; товщина та час висихання залишаються обов’язковими."
+          },
+          "standard": {
+            "specification": "Листова мембрана з узгодженими кутами, ущільненнями труб і сумісним фланцем зливу.",
+            "detail": "Розкладіть полотна на придатній основі з ухилом. Виконайте нахлести й проходи однією погодженою системою; перевірте гідроізоляцію до закриття плиткою.",
+            "difference": "Готові полотна дають передбачувану товщину, але потребують узгодження швів."
+          },
+          "premium": {
+            "specification": "Комплектний водонепроникний піддон або формувач ухилу, листова мембрана та заводські вузли однієї сумісної системи.",
+            "detail": "До замовлення перевірте рівні підлоги й доступ до зливу. Забезпечте суцільне опирання формувача, з’єднайте його зі стінами та випробуйте всі стики до оздоблення.",
+            "difference": "Комплектний формувач спрощує ухили й стики; надійна основа та випробування все одно потрібні."
+          }
+        }
+      }
+    },
+    "shower-tile": {
+      "kind": "materials",
+      "en": {
+        "category": "Bathroom surfaces",
+        "title": "Shower tile and edge details",
+        "budgets": {
+          "economy": {
+            "specification": "Standard-format glazed ceramic wall tiles, porcelain floor tiles suitable for wet barefoot use and exposed edge trims.",
+            "detail": "Approve a tile layout around the mixer and drain. Use adhesive and grout compatible with the waterproofing; keep movement joints flexible rather than filling them with rigid grout.",
+            "difference": "Regular tiles and visible trims reduce cutting and specialist edge fabrication."
+          },
+          "standard": {
+            "specification": "Rectified porcelain wall tiles with aligned grout joints, matched trims and wet-area-rated floor tiles.",
+            "detail": "Check wall flatness against the tile format. Dry-set the first courses, coordinate openings and use the specified adhesive coverage while preserving falls at the drain.",
+            "difference": "Larger coordinated tiles reduce visible joints but require flatter substrates and careful setting out."
+          },
+          "premium": {
+            "specification": "Large porcelain panels with fabricated returns and a coordinated slip-resistant shower-floor finish.",
+            "detail": "Measure after the waterproof substrate is approved. Agree lifting access, cutting templates and supported edges with the fabricator; retain movement joints and drainage falls.",
+            "difference": "Fabricated panels create quieter surfaces at the cost of specialist handling and edge work."
+          }
+        }
+      },
+      "uk": {
+        "category": "Поверхні ванної",
+        "title": "Плитка душової та крайові вузли",
+        "budgets": {
+          "economy": {
+            "specification": "Керамічна плитка звичайного формату для стін, керамограніт для мокрої босоніжної зони й відкриті крайові профілі.",
+            "detail": "Погодьте розкладку біля змішувача та зливу. Використовуйте сумісні з гідроізоляцією клей і затирку; деформаційні шви заповнюйте еластичним матеріалом.",
+            "difference": "Звичайний формат і видимі профілі зменшують кількість складних підрізувань."
+          },
+          "standard": {
+            "specification": "Ректифікований керамограніт з узгодженими швами, крайовими профілями та відповідною плиткою для мокрої підлоги.",
+            "detail": "Перевірте рівність стін під обраний формат. Розкладіть перші ряди, узгодьте отвори й забезпечте потрібне заповнення клеєм, зберігаючи ухили до зливу.",
+            "difference": "Більший формат зменшує кількість швів, але потребує рівнішої основи й точної розкладки."
+          },
+          "premium": {
+            "specification": "Великі керамогранітні панелі з виготовленими поворотами та узгодженим неслизьким покриттям душової підлоги.",
+            "detail": "Обміряйте після приймання гідроізольованої основи. Погодьте занесення, шаблони різання й опирання країв; збережіть деформаційні шви та ухили.",
+            "difference": "Панелі створюють спокійнішу поверхню, але вимагають спеціалізованого монтажу й обробки країв."
+          }
+        }
+      }
+    },
+    "bath-ventlight": {
+      "kind": "lighting",
+      "en": {
+        "category": "Bathroom services",
+        "title": "Mirror lighting and extraction",
+        "budgets": {
+          "economy": {
+            "specification": "A diffused mirror light and replacement extractor using a verified suitable existing duct and electrical supply.",
+            "detail": "Have the installer confirm bathroom electrical zones, circuit protection and the external duct outlet. Select the light rating and fan capacity for the actual room; keep the fan accessible.",
+            "difference": "Retaining suitable service routes limits opening-up while still checking moisture removal."
+          },
+          "standard": {
+            "specification": "Vertical diffused mirror lights around 3000 K, CRI 90+, and a quiet humidity-controlled extractor with a planned duct route.",
+            "detail": "Coordinate cable exits behind the mirror and route the duct with few bends to outdoors. The installer should size the fan for duct resistance and provide cleaning access.",
+            "difference": "Face lighting and humidity control improve daily use, with extra service coordination."
+          },
+          "premium": {
+            "specification": "Dimmable mirror lighting with a separate low-level circuit and a remotely mounted extraction unit where the building permits.",
+            "detail": "Agree lighting zones, controls and maintenance panels before closing the walls. Have the services installer verify airflow, acoustic isolation and safe access to the remote fan.",
+            "difference": "Separate light scenes and remote extraction add control and quieter operation when properly designed."
+          }
+        }
+      },
+      "uk": {
+        "category": "Інженерія ванної",
+        "title": "Світло біля дзеркала та витяжка",
+        "budgets": {
+          "economy": {
+            "specification": "Розсіяний світильник біля дзеркала й заміна вентилятора з використанням перевіреного придатного каналу та живлення.",
+            "detail": "Нехай монтажник перевірить електричні зони ванної, захист кола й вихід каналу назовні. Доберіть захист світильника та продуктивність вентилятора під приміщення; залиште доступ.",
+            "difference": "Збереження придатних трас зменшує розкриття оздоблення без відмови від перевірки вентиляції."
+          },
+          "standard": {
+            "specification": "Вертикальні розсіяні світильники близько 3000 K, CRI 90+ і тихий вентилятор із датчиком вологості та спланованим каналом.",
+            "detail": "Узгодьте кабельні виходи за дзеркалом і виведіть канал назовні з мінімумом поворотів. Монтажник має врахувати опір каналу та доступ для очищення.",
+            "difference": "Світло для обличчя й контроль вологості поліпшують щоденне користування, потребуючи узгодження інженерії."
+          },
+          "premium": {
+            "specification": "Димоване світло біля дзеркала, окреме нижнє освітлення та виносний витяжний блок, якщо це дозволяє будівля.",
+            "detail": "До закриття стін погодьте зони, керування й ревізії. Нехай інженер перевірить повітрообмін, шумоізоляцію та безпечний доступ до виносного вентилятора.",
+            "difference": "Окремі сценарії та виносна витяжка додають керування й тиші за належного проєктування."
+          }
+        }
+      }
+    },
+    "virtual-staging": {
+      "kind": "layout",
+      "en": {
+        "category": "Listing presentation",
+        "title": "Furniture scaled to the actual room",
+        "budgets": {
+          "economy": {
+            "specification": "A simple virtual furniture arrangement using the measured room and the original photograph’s camera view.",
+            "detail": "Record room dimensions, door swings and radiator positions. Place a realistically sized sofa, rug and table in the image without altering windows, walls or permanent fittings.",
+            "difference": "A small furniture set explains room use without adding an elaborate styling scheme."
+          },
+          "standard": {
+            "specification": "A coordinated virtual furniture scheme with measured circulation clearances and a consistent palette across listing views.",
+            "detail": "Build the arrangement from verified dimensions. Check access routes and furniture scale in every image, then compare the staged view against the unedited source before release.",
+            "difference": "Coordinated views make the same proposed arrangement easier to understand throughout the listing."
+          },
+          "premium": {
+            "specification": "Two measured virtual furnishing options with consistent camera views and a furniture dimension schedule.",
+            "detail": "Test each arrangement against door openings and usable circulation. Produce a separate, clearly labelled view for each option; retain the original photograph beside the staged alternatives.",
+            "difference": "A second arrangement demonstrates flexibility without implying the furniture or alterations are included."
+          }
+        }
+      },
+      "uk": {
+        "category": "Презентація оголошення",
+        "title": "Меблі в реальному масштабі кімнати",
+        "budgets": {
+          "economy": {
+            "specification": "Проста віртуальна розстановка за обмірами кімнати й ракурсом вихідного фото.",
+            "detail": "Зафіксуйте розміри, відкривання дверей і радіатори. Додайте диван, килим і стіл реального масштабу, не змінюючи вікон, стін і постійного обладнання.",
+            "difference": "Невеликий набір меблів пояснює функцію кімнати без складної стилізації."
+          },
+          "standard": {
+            "specification": "Узгоджена віртуальна меблева схема з перевіреними проходами й єдиною палітрою всіх ракурсів.",
+            "detail": "Побудуйте розстановку за підтвердженими розмірами. Перевірте проходи й масштаб меблів у кожному кадрі, а перед публікацією звірте з оригіналом.",
+            "difference": "Узгоджені ракурси допомагають зрозуміти ту саму запропоновану розстановку в оголошенні."
+          },
+          "premium": {
+            "specification": "Два обміряні варіанти віртуального меблювання з однаковими ракурсами та відомістю габаритів.",
+            "detail": "Перевірте обидва варіанти щодо дверей і проходів. Створіть окремий підписаний кадр для кожного та збережіть поруч вихідне фото.",
+            "difference": "Друга розстановка показує гнучкість, не створюючи враження, що меблі чи зміни входять у продаж."
+          }
+        }
+      }
+    },
+    "listing-disclosure": {
+      "kind": "planning",
+      "en": {
+        "category": "Listing workflow",
+        "title": "Original photos and staging labels",
+        "budgets": {
+          "economy": {
+            "specification": "An unedited source image paired with each virtual staging image and a visible staging caption.",
+            "detail": "Keep a copy of the source photograph. Add a clear virtual-staging label before export and check the listing platform’s rules; do not erase defects or alter permanent features.",
+            "difference": "A source-and-concept pair lets a buyer distinguish the existing room from the furnishing proposal."
+          },
+          "standard": {
+            "specification": "Matched original and staged images with consistent captions and an agent-reviewed image register.",
+            "detail": "Number the image pairs and record which items are virtual. Review the source comparison and platform disclosure requirements with the listing agent before uploading.",
+            "difference": "An image register makes disclosure consistent when several rooms or platforms are involved."
+          },
+          "premium": {
+            "specification": "A complete original/staged media set with version-controlled captions and a separate proposed-furniture schedule.",
+            "detail": "Approve every image against its source and record the approved version. Publish the original views with the staged set and identify furnishings as illustrative rather than included inventory.",
+            "difference": "A coordinated media package adds traceability and furnishing detail while keeping the existing condition visible."
+          }
+        }
+      },
+      "uk": {
+        "category": "Підготовка оголошення",
+        "title": "Оригінальні фото та позначення віртуальних меблів",
+        "budgets": {
+          "economy": {
+            "specification": "Вихідне фото поруч із кожною віртуально мебльованою версією та помітний пояснювальний підпис.",
+            "detail": "Збережіть оригінал фото. До експорту додайте позначення віртуального меблювання й перевірте правила платформи; не приховуйте дефекти та не змінюйте постійні елементи.",
+            "difference": "Пара оригінал/концепція допомагає відрізнити наявний стан від пропозиції меблювання."
+          },
+          "standard": {
+            "specification": "Парні оригінальні та стилізовані кадри з однаковими підписами й погодженим агентом реєстром зображень.",
+            "detail": "Пронумеруйте пари й зазначте віртуальні предмети. Перед завантаженням перевірте зіставлення з оригіналами та вимоги платформи разом з агентом.",
+            "difference": "Реєстр забезпечує послідовні позначення для кількох кімнат і майданчиків."
+          },
+          "premium": {
+            "specification": "Повний набір оригінальних і віртуальних кадрів з обліком версій підписів та окремою відомістю запропонованих меблів.",
+            "detail": "Звірте кожен кадр з оригіналом і зафіксуйте погоджену версію. Публікуйте вихідні фото разом із концепціями, позначаючи меблі як ілюстрацію, а не комплектацію продажу.",
+            "difference": "Узгоджений медіанабір додає простежуваність і деталі меблювання, зберігаючи видимим наявний стан."
+          }
+        }
+      }
+    },
+    "light-bulbs": {
+      "kind": "lighting",
+      "en": {
+        "category": "Existing lighting",
+        "title": "A consistent light colour",
+        "budgets": {
+          "economy": {
+            "specification": "Matching 2700–3000 K LED bulbs in retained fittings, within each fitting’s wattage and enclosure limits.",
+            "detail": "Record cap types and existing controls. Trial one bulb in each fitting type, check the shade clearance and replace mismatched lamps; keep the same colour temperature in each open space.",
+            "difference": "Bulb replacement removes mixed light colours without replacing the fixtures."
+          },
+          "standard": {
+            "specification": "Matched CRI 90+ LED bulbs with consistent colour temperature, chosen for the existing dimmers and shades.",
+            "detail": "Check the manufacturer’s dimmer compatibility list. Test one circuit through its full dimming range and compare fabric and paint colours under the new lamps before buying the set.",
+            "difference": "Higher colour rendering and tested dimming improve consistency with the existing fixtures retained."
+          },
+          "premium": {
+            "specification": "A matched set of serviceable dim-to-warm or scene-controlled bulbs compatible with the retained fixtures and controls.",
+            "detail": "Test low-end dimming, power-on behaviour and any guest or wall-switch controls. Keep ordinary manual operation available and record the replacement lamp model for future maintenance.",
+            "difference": "Adjustable evening scenes add control; compatibility testing and a replacement schedule become more important."
+          }
+        }
+      },
+      "uk": {
+        "category": "Наявне освітлення",
+        "title": "Узгоджений колір світла",
+        "budgets": {
+          "economy": {
+            "specification": "Однакові LED-лампи 2700–3000 K у збережених світильниках у межах їхніх обмежень потужності й закритих плафонів.",
+            "detail": "Запишіть цоколі та наявне керування. Випробуйте по лампі в кожному типі світильника, перевірте зазори й замініть різноколірні лампи; тримайте одну температуру у відкритому просторі.",
+            "difference": "Заміна ламп прибирає змішані відтінки світла без заміни світильників."
+          },
+          "standard": {
+            "specification": "Узгоджені LED-лампи CRI 90+ з однаковою температурою, сумісні з наявними димерами й плафонами.",
+            "detail": "Перевірте таблицю сумісності димерів виробника. Випробуйте повний діапазон одного кола й порівняйте тканини та фарби під новими лампами до закупівлі комплекту.",
+            "difference": "Краще відтворення кольору й перевірене димування додають узгодженості зі збереженням світильників."
+          },
+          "premium": {
+            "specification": "Узгоджені змінні лампи dim-to-warm або зі сценаріями, сумісні зі збереженими світильниками й керуванням.",
+            "detail": "Перевірте мінімальну яскравість, поведінку після ввімкнення та гостьове керування. Збережіть звичайний ручний режим і запишіть модель лампи для обслуговування.",
+            "difference": "Вечірні сценарії додають керування; перевірка сумісності й перелік замін стають важливішими."
+          }
+        }
+      }
+    },
+    "finish-schedule": {
+      "kind": "planning",
+      "en": {
+        "category": "Repeatable finishes",
+        "title": "A room-by-room finish schedule",
+        "budgets": {
+          "economy": {
+            "specification": "One approved paint, flooring and cabinet sample set with product codes recorded for each room type.",
+            "detail": "Build a sample board, inspect it in site lighting and attach the approved codes to the room schedule. Record the substrate preparation and agreed substitution process before ordering.",
+            "difference": "A compact palette limits purchasing complexity while keeping the specification traceable."
+          },
+          "standard": {
+            "specification": "A coordinated finish schedule with physical samples, junction drawings and a signed-off first-room mock-up.",
+            "detail": "Construct the repeated floor, skirting and cabinet junctions in one room. Agree acceptance criteria, inspect the mock-up and issue its reference photos and product codes to each trade.",
+            "difference": "A first-room benchmark helps repeated rooms match at visible junctions."
+          },
+          "premium": {
+            "specification": "A controlled finish library with full-size mock-ups, batch references and recorded alternative products for recurring unit types.",
+            "detail": "Approve representative junctions under installed lighting. Log sample and batch references, review substitutions against the same criteria and retain a handover set for replacements.",
+            "difference": "Batch control and retained reference samples support consistency across larger phases and future repairs."
+          }
+        }
+      },
+      "uk": {
+        "category": "Повторюване оздоблення",
+        "title": "Відомість оздоблення за приміщеннями",
+        "budgets": {
+          "economy": {
+            "specification": "Один погоджений набір зразків фарби, підлоги та фасадів із кодами виробів для кожного типу кімнати.",
+            "detail": "Складіть стенд зразків, огляньте при об’єктному світлі та внесіть коди у відомість. До замовлення зафіксуйте підготовку основ і порядок погодження замін.",
+            "difference": "Невелика палітра спрощує закупівлю та зберігає простежуваність специфікації."
+          },
+          "standard": {
+            "specification": "Узгоджена відомість із фізичними зразками, кресленнями стиків і прийнятим макетом першої кімнати.",
+            "detail": "Виконайте повторювані стики підлоги, плінтуса й меблів в одній кімнаті. Погодьте критерії приймання та передайте фото й коди виробів кожній бригаді.",
+            "difference": "Еталон першої кімнати допомагає повторити видимі стики в інших приміщеннях."
+          },
+          "premium": {
+            "specification": "Контрольована бібліотека оздоблення з повнорозмірними макетами, номерами партій і погодженими альтернативами для типових квартир.",
+            "detail": "Прийміть характерні стики при встановленому світлі. Запишіть зразки й партії, перевіряйте заміни за тими самими критеріями та збережіть комплект для обслуговування.",
+            "difference": "Облік партій і збережені еталони підтримують узгодженість черг будівництва й майбутніх ремонтів."
+          }
+        }
+      }
+    },
+    "guest-storage": {
+      "kind": "joinery",
+      "en": {
+        "category": "Guest use",
+        "title": "Open luggage space and owner storage",
+        "budgets": {
+          "economy": {
+            "specification": "A freestanding luggage rack, open hanging rail and a separate lockable owner cabinet, secured as required.",
+            "detail": "Test the open suitcase position against the bed and exit route. Follow the furniture’s anchoring instructions and keep locks, sockets and cleaning access clear.",
+            "difference": "Simple separate pieces give guests obvious storage with little fitted work."
+          },
+          "standard": {
+            "specification": "A modular wardrobe with open luggage shelf, replaceable hooks and a lockable owner compartment.",
+            "detail": "Measure suitcase depth and hanging space, then check doors and drawers at full opening. Fix the unit to suitable structure and specify wipeable shelf surfaces and replaceable handles.",
+            "difference": "A coordinated unit separates guest and owner use and is easier to clean between stays."
+          },
+          "premium": {
+            "specification": "Fitted plywood or durable laminate joinery with protected luggage edges, removable shelves and a separately keyed owner section.",
+            "detail": "Coordinate wall fixings and socket access in shop drawings. Test luggage clearance with a mock-up, provide removable service panels and record spare hardware for maintenance.",
+            "difference": "Fitted dimensions use awkward space better and add repairable details at high-wear edges."
+          }
+        }
+      },
+      "uk": {
+        "category": "Користування гостями",
+        "title": "Місце для валіз і речей власника",
+        "budgets": {
+          "economy": {
+            "specification": "Окрема підставка для валізи, відкрита штанга й замкнена шафа власника з необхідним кріпленням.",
+            "detail": "Перевірте відкриту валізу біля ліжка й виходу. Виконайте вимоги кріплення меблів і збережіть доступ до замків, розеток та прибирання.",
+            "difference": "Окремі прості предмети дають зрозуміле зберігання без значних вбудованих робіт."
+          },
+          "standard": {
+            "specification": "Модульна шафа з відкритою полицею для валізи, змінними гачками й замкненим відділенням власника.",
+            "detail": "Виміряйте глибину валізи та місце для одягу, перевірте повне відкривання. Закріпіть шафу до придатної конструкції й доберіть мийні полиці та змінні ручки.",
+            "difference": "Узгоджена шафа розділяє гостьові й приватні речі та полегшує прибирання між заїздами."
+          },
+          "premium": {
+            "specification": "Вбудовані меблі з фанери або стійкого ламінату із захищеними краями, знімними полицями й окремим замком власника.",
+            "detail": "У кресленнях узгодьте кріплення та розетки. Перевірте валізу на макеті, передбачте знімні ревізії й запишіть запасну фурнітуру для ремонту.",
+            "difference": "Індивідуальні габарити краще використовують ніші та додають ремонтопридатні деталі в місцях зношування."
+          }
+        }
+      }
+    },
+    "pendant": {
+      "kind": "lighting",
+      "en": {
+        "category": "Lighting",
+        "title": "Pendant height and glare control",
+        "budgets": {
+          "economy": {
+            "specification": "A diffused pendant shade on the retained ceiling point, with a compatible warm LED lamp.",
+            "detail": "Check the ceiling fixing and fitting weight. Mock up the shade height with paper, sit at the table to check the bulb is screened, and have electrical work completed by a qualified installer.",
+            "difference": "Changing the shade improves the existing light point without relocating its supply."
+          },
+          "standard": {
+            "specification": "A dimmable pendant with a recessed light source, compatible driver and separately controlled task lighting.",
+            "detail": "Plot the pendant against the furniture rather than the room centre. Verify structural fixing, dimmer compatibility and sightlines before the installer sets the final cable length.",
+            "difference": "Separate task and pendant circuits give more control and need coordinated switching."
+          },
+          "premium": {
+            "specification": "A serviceable pendant with controlled optics, adjustable suspension and a tested scene-control system.",
+            "detail": "Review the beam and glare from seated positions using a sample fitting. Coordinate the ceiling support and control wiring, commission scenes and keep driver access available.",
+            "difference": "Better optics and commissioned scenes add control over where the light falls."
+          }
+        }
+      },
+      "uk": {
+        "category": "Освітлення",
+        "title": "Висота підвісу та контроль засліплення",
+        "budgets": {
+          "economy": {
+            "specification": "Розсіяний плафон на збереженій стельовій точці із сумісною теплою LED-лампою.",
+            "detail": "Перевірте кріплення й масу світильника. Приміряйте висоту паперовим макетом, оцініть видимість лампи сидячи та доручіть електромонтаж кваліфікованому фахівцю.",
+            "difference": "Новий плафон поліпшує наявну точку світла без перенесення живлення."
+          },
+          "standard": {
+            "specification": "Димований підвіс із заглибленим джерелом, сумісним драйвером та окремо керованим робочим світлом.",
+            "detail": "Прив’яжіть підвіс до меблів, а не геометричного центру кімнати. До остаточної довжини кабелю перевірте опору, димер і лінії погляду.",
+            "difference": "Окремі робоче й підвісне кола додають керування та потребують узгодження вимикачів."
+          },
+          "premium": {
+            "specification": "Ремонтопридатний підвіс із керованою оптикою, регульованим підвісом і перевіреним сценарним керуванням.",
+            "detail": "На зразку перевірте промінь і засліплення сидячи. Узгодьте опору та керувальні кабелі, налаштуйте сценарії й залиште доступ до драйвера.",
+            "difference": "Краща оптика й налаштовані сценарії дають точніший контроль напрямку світла."
+          }
+        }
+      }
+    },
+    "fireplace-surround": {
+      "kind": "materials",
+      "en": {
+        "category": "Fireplace finishes",
+        "title": "A surround matched to the appliance",
+        "budgets": {
+          "economy": {
+            "specification": "A compatible decorative paint or tile refresh on a sound existing non-combustible surround outside the appliance’s required clearances.",
+            "detail": "Identify the appliance model and its installation manual. Have its condition and clearances checked, prepare the retained surface and use only a finish suitable for the measured location.",
+            "difference": "A surface refresh retains the existing build-up and still follows the appliance’s heat limits."
+          },
+          "standard": {
+            "specification": "Porcelain cladding on a suitable non-combustible backing with joints and adhesive approved for the fireplace location.",
+            "detail": "Agree the backing, edge support and ventilation with the fireplace installer. Set out tile joints and maintain every required service opening and combustible clearance.",
+            "difference": "Porcelain changes the surround texture with new backing and coordinated heat-resistant detailing."
+          },
+          "premium": {
+            "specification": "Fabricated stone or sintered panels on an installer-approved support system with removable access details.",
+            "detail": "Template after the backing is complete. Check panel weight, movement joints, appliance ventilation and access with the fabricator and fireplace installer before fabrication.",
+            "difference": "Large fabricated faces reduce visible joints and require weight, heat and access coordination."
+          }
+        }
+      },
+      "uk": {
+        "category": "Оздоблення каміна",
+        "title": "Портал під конкретну топку",
+        "budgets": {
+          "economy": {
+            "specification": "Сумісне декоративне фарбування або оновлення плитки на справному негорючому порталі поза потрібними відступами топки.",
+            "detail": "Визначте модель топки та її інструкцію. Перевірте стан і відступи з фахівцем, підготуйте поверхню та застосуйте оздоблення, придатне для конкретного місця.",
+            "difference": "Оновлення поверхні зберігає наявну основу й вимоги температурних обмежень топки."
+          },
+          "standard": {
+            "specification": "Керамограніт на придатній негорючій основі зі швами та клеєм, дозволеними для цієї камінної зони.",
+            "detail": "Узгодьте основу, опирання країв і вентиляцію з монтажником каміна. Розкладіть шви, зберігши всі ревізії та відступи до горючих матеріалів.",
+            "difference": "Керамограніт змінює фактуру порталу з новою основою й узгодженими термостійкими вузлами."
+          },
+          "premium": {
+            "specification": "Виготовлені кам’яні або спечені панелі на погодженій опорній системі зі знімними ревізійними деталями.",
+            "detail": "Шаблонуйте після готовності основи. До виготовлення перевірте масу, деформаційні шви, вентиляцію топки та доступ разом із виробником і камінним майстром.",
+            "difference": "Великі площини зменшують видимі шви та потребують узгодження маси, нагріву й ревізій."
+          }
+        }
+      }
+    },
+    "mantel": {
+      "kind": "joinery",
+      "en": {
+        "category": "Fireplace detail",
+        "title": "Mantel depth and heat clearance",
+        "budgets": {
+          "economy": {
+            "specification": "A refinished existing mantel, retained only where its material and position meet the appliance instructions.",
+            "detail": "Measure projection and distance to the fire opening. Ask the fireplace installer to verify the current mantel before refinishing; keep vents and the hearth unobstructed.",
+            "difference": "Refinishing preserves the existing shelf when its position is suitable."
+          },
+          "standard": {
+            "specification": "A new non-combustible shelf or a timber mantel positioned to the appliance’s verified combustible-clearance requirements.",
+            "detail": "Mark the proposed shelf with a full-size template. Confirm heat clearances, wall support and fixing locations before fabrication; inspect sightlines and service access.",
+            "difference": "A new shelf changes proportion and depth but must be coordinated with the actual appliance."
+          },
+          "premium": {
+            "specification": "A custom fabricated mantel with concealed load-rated supports and coordinated removable service interfaces.",
+            "detail": "Have the installer and fabricator agree material, projection and support. Trial the profile, retain ventilation openings and document the approved clearances for handover.",
+            "difference": "Bespoke profiles conceal supports and add fabrication work within the same heat-safety requirements."
+          }
+        }
+      },
+      "uk": {
+        "category": "Деталь каміна",
+        "title": "Глибина камінної полиці та відступи",
+        "budgets": {
+          "economy": {
+            "specification": "Оновлення наявної полиці лише за відповідності її матеріалу й положення інструкції топки.",
+            "detail": "Виміряйте виступ і відстань до отвору. До оздоблення нехай майстер перевірить придатність полиці; не перекривайте вентиляцію й передтопкову ділянку.",
+            "difference": "Оновлення зберігає наявну полицю, якщо її положення допустиме."
+          },
+          "standard": {
+            "specification": "Нова негорюча полиця або дерев’яна полиця на перевіреній для топки відстані до горючих матеріалів.",
+            "detail": "Приміряйте повнорозмірний шаблон. До виготовлення підтвердьте відступи, опорну стіну й кріплення; перевірте види та доступ для обслуговування.",
+            "difference": "Нова полиця змінює пропорції та глибину, але залежить від конкретної топки."
+          },
+          "premium": {
+            "specification": "Індивідуальна полиця з прихованими розрахованими опорами й узгодженими знімними сервісними деталями.",
+            "detail": "Погодьте матеріал, виступ та опору між монтажником і виробником. Приміряйте профіль, збережіть вентиляцію та зафіксуйте погоджені відступи при передачі.",
+            "difference": "Індивідуальний профіль приховує опори й додає виготовлення за тих самих вимог теплової безпеки."
+          }
+        }
+      }
+    },
+    "closet-layout": {
+      "kind": "joinery",
+      "en": {
+        "category": "Storage",
+        "title": "Hanging space and adjustable shelves",
+        "budgets": {
+          "economy": {
+            "specification": "Ready-made adjustable rails and melamine shelves sized to the existing closet opening.",
+            "detail": "Measure actual garments and shelf contents before setting heights. Locate suitable support, check the door swing and use the manufacturer’s bracket spacing and load limits.",
+            "difference": "Standard components improve the internal layout with minimal custom fabrication."
+          },
+          "standard": {
+            "specification": "A modular carcass with adjustable shelves, full-extension drawers and split long/short hanging sections.",
+            "detail": "Draw the usable internal widths, allowing for hinges and drawer runners. Confirm wall fixings, floor level and skirting before assembly, then test every drawer with the doors open.",
+            "difference": "A planned carcass adds drawers and separate hanging zones with more fitting coordination."
+          },
+          "premium": {
+            "specification": "Made-to-measure veneer or laminate joinery with fitted fillers, replaceable hardware and removable service panels.",
+            "detail": "Approve shop drawings against measured walls and stored items. Template irregular edges, coordinate lighting and services, and retain adjustment and maintenance access.",
+            "difference": "Custom fillers and internal dimensions use irregular space more closely while adding fabrication and fitting."
+          }
+        }
+      },
+      "uk": {
+        "category": "Зберігання",
+        "title": "Штанги та регульовані полиці",
+        "budgets": {
+          "economy": {
+            "specification": "Готові регульовані штанги й меламінові полиці під наявний отвір шафи.",
+            "detail": "Виміряйте реальний одяг і речі до вибору висот. Знайдіть придатну опору, перевірте двері та дотримайтесь кроку кронштейнів і навантажень виробника.",
+            "difference": "Стандартні елементи поліпшують наповнення з мінімумом індивідуального виготовлення."
+          },
+          "standard": {
+            "specification": "Модульний корпус із регульованими полицями, висувними шухлядами й окремими секціями довгого та короткого одягу.",
+            "detail": "Накресліть корисні ширини з урахуванням завіс і напрямних. Перед складанням перевірте кріплення, рівень підлоги й плінтус; випробуйте кожну шухляду при відкритих дверях.",
+            "difference": "Продуманий корпус додає шухляди й окремі зони одягу та потребує точнішого припасування."
+          },
+          "premium": {
+            "specification": "Індивідуальні меблі зі шпону або ламінату з добірними планками, змінною фурнітурою й знімними ревізіями.",
+            "detail": "Звірте креслення з обмірами та речами. Шаблонуйте нерівні краї, узгодьте світло й комунікації та збережіть доступ до регулювань і обслуговування.",
+            "difference": "Індивідуальні розміри точніше використовують нерівні ніші, додаючи виготовлення й монтаж."
+          }
+        }
+      }
+    },
+    "anti-tip": {
+      "kind": "joinery",
+      "en": {
+        "category": "Furniture fixing",
+        "title": "Anchoring tall storage",
+        "budgets": {
+          "economy": {
+            "specification": "The furniture manufacturer’s anti-tip kit, fixed to verified suitable wall structure with compatible anchors.",
+            "detail": "Identify the wall construction and check for concealed services. Follow the furniture instructions for bracket position and fixings; test stability before filling drawers or shelves.",
+            "difference": "A visible standard restraint provides the required stability without decorative concealment."
+          },
+          "standard": {
+            "specification": "Manufacturer-approved restraints with coordinated wall backing and tidy removable access to each fixing.",
+            "detail": "Plan bracket locations before closing the wall or fitting the wardrobe. Add appropriate backing where needed, install the specified fixings and leave each restraint inspectable.",
+            "difference": "Coordinated backing and access make the same anchoring requirement easier to fit and inspect."
+          },
+          "premium": {
+            "specification": "A furniture-specific anchoring design integrated into fitted joinery, with documented fixings and removable inspection panels.",
+            "detail": "Have the joiner verify structure and the fixing arrangement for the actual unit. Record hidden anchors during installation and retain access without dismantling the whole cabinet.",
+            "difference": "Integrated detailing hides the restraints while preserving inspection; the stability requirement remains unchanged."
+          }
+        }
+      },
+      "uk": {
+        "category": "Кріплення меблів",
+        "title": "Фіксація високих шаф від перекидання",
+        "budgets": {
+          "economy": {
+            "specification": "Комплект захисту від перекидання виробника, закріплений сумісними анкерами до перевіреної придатної конструкції.",
+            "detail": "Визначте будову стіни й приховані комунікації. Дотримайтесь інструкції щодо кронштейнів і кріплень; перевірте стійкість до заповнення шухляд і полиць.",
+            "difference": "Стандартна видима фіксація забезпечує потрібну стійкість без декоративного приховування."
+          },
+          "standard": {
+            "specification": "Погоджені виробником фіксатори з узгодженими закладними та акуратним знімним доступом до кріплень.",
+            "detail": "Сплануйте кронштейни до закриття стін або монтажу шафи. За потреби додайте придатні закладні, встановіть потрібні кріплення та збережіть можливість огляду.",
+            "difference": "Узгоджені закладні й доступ спрощують монтаж і перевірку тієї самої обов’язкової фіксації."
+          },
+          "premium": {
+            "specification": "Індивідуальна схема фіксації вбудованих меблів із задокументованими кріпленнями та знімними ревізійними панелями.",
+            "detail": "Нехай мебляр перевірить конструкцію й схему для конкретної шафи. Зафіксуйте приховані анкери при монтажі та залиште доступ без повного розбирання корпусу.",
+            "difference": "Інтегровані вузли приховують фіксатори зі збереженням огляду; вимога стійкості не змінюється."
+          }
+        }
+      }
+    },
+    "wall-bed": {
+      "kind": "layout",
+      "en": {
+        "category": "Flexible layout",
+        "title": "A bed that leaves usable daytime space",
+        "budgets": {
+          "economy": {
+            "specification": "A freestanding daybed with under-bed boxes and a clear measured route from the entrance to the window.",
+            "detail": "Mark the full sleeping footprint and drawer opening on the floor. Check bedding storage and everyday access before ordering; follow the bed manufacturer’s assembly requirements.",
+            "difference": "A conventional daybed avoids a folding mechanism and structural wall fixing."
+          },
+          "standard": {
+            "specification": "A proprietary wall-bed system with its specified mattress, verified structural anchoring and a clear opening envelope.",
+            "detail": "Have an approved installer check the wall and floor. Plot the full lowering arc, anchor exactly as instructed and test the mechanism and locks before use.",
+            "difference": "A folding bed frees floor space but introduces essential anchoring and moving-part clearances."
+          },
+          "premium": {
+            "specification": "An installer-supplied wall-bed system integrated into custom cabinetry with accessible fixings and replaceable mechanism parts.",
+            "detail": "Agree cabinetry tolerances with the bed supplier. Keep the full opening envelope free, preserve inspection access and commission the mechanism with the specified mattress fitted.",
+            "difference": "Integrated cabinetry conceals the bed and adds coordinated storage without relaxing the mechanism’s installation requirements."
+          }
+        }
+      },
+      "uk": {
+        "category": "Гнучке планування",
+        "title": "Ліжко зі збереженням денного простору",
+        "budgets": {
+          "economy": {
+            "specification": "Окрема кушетка з підліжковими коробами та виміряним вільним проходом від входу до вікна.",
+            "detail": "Позначте повний спальний габарит і висування коробів на підлозі. Перевірте зберігання постелі й щоденний доступ; дотримайтесь інструкції складання виробника.",
+            "difference": "Звичайна кушетка обходиться без складаного механізму й конструктивного кріплення до стіни."
+          },
+          "standard": {
+            "specification": "Заводська система відкидного ліжка з визначеним матрацом, перевіреним анкеруванням і вільною зоною відкривання.",
+            "detail": "Нехай погоджений монтажник перевірить стіну й підлогу. Позначте повну траєкторію, закріпіть за інструкцією та випробуйте механізм і замки до користування.",
+            "difference": "Відкидне ліжко звільняє підлогу, але потребує обов’язкового анкерування та зазорів рухомих частин."
+          },
+          "premium": {
+            "specification": "Система відкидного ліжка від спеціалізованого постачальника в індивідуальних меблях із доступними кріпленнями та змінним механізмом.",
+            "detail": "Погодьте допуски корпусу з постачальником ліжка. Збережіть зону відкривання й ревізії та налаштуйте механізм зі встановленим визначеним матрацом.",
+            "difference": "Вбудовані меблі приховують ліжко й додають зберігання без послаблення вимог монтажу механізму."
+          }
+        }
+      }
+    },
+    "cot": {
+      "kind": "layout",
+      "en": {
+        "category": "Nursery layout",
+        "title": "A clear cot zone",
+        "budgets": {
+          "economy": {
+            "specification": "A simple cot compliant with current local requirements, with its specified firm, flat mattress and fitted sheet.",
+            "detail": "Follow the cot instructions and mattress-size limits. Place it away from window cords, heaters and reachable shelves; keep the sleep space bare, with no pillows, bumpers or loose bedding.",
+            "difference": "A simple cot prioritises a clear sleep zone rather than decorative bedding."
+          },
+          "standard": {
+            "specification": "A compliant cot with manufacturer-approved adjustable mattress-base positions and a matching firm, flat mattress.",
+            "detail": "Check the required base position for the child’s development. Keep the same bare sleep surface and separation from cords and heaters, and leave room for a carer to approach.",
+            "difference": "Base adjustment can improve access for the carer; the sleep-safety requirements stay the same."
+          },
+          "premium": {
+            "specification": "A compliant, repairable cot system with documented conversion parts and its specified firm, flat infant mattress.",
+            "detail": "Assemble only in an approved configuration and retain the instructions and spare parts. Keep the infant sleep space bare and review later conversions against the manufacturer’s age and use limits.",
+            "difference": "Repairable parts and approved later configurations extend use without adding soft items to the infant sleep space."
+          }
+        }
+      },
+      "uk": {
+        "category": "Планування дитячої",
+        "title": "Вільна зона дитячого ліжечка",
+        "budgets": {
+          "economy": {
+            "specification": "Просте ліжечко за чинними місцевими вимогами з визначеним для нього твердим рівним матрацом і натяжним простирадлом.",
+            "detail": "Дотримайтесь інструкції та допустимих розмірів матраца. Відсуньте ліжечко від шнурів, обігрівачів і досяжних полиць; не додавайте подушок, бортиків чи вільної постелі.",
+            "difference": "Просте ліжечко ставить на перше місце вільну зону сну, а не декоративну постіль."
+          },
+          "standard": {
+            "specification": "Відповідне вимогам ліжечко з дозволеними виробником положеннями основи та сумісним твердим рівним матрацом.",
+            "detail": "Перевірте потрібну висоту основи відповідно до розвитку дитини. Збережіть порожню поверхню сну, відстані від шнурів і нагрівачів та підхід для дорослого.",
+            "difference": "Регулювання основи може полегшити доступ дорослому; вимоги безпечного сну залишаються тими самими."
+          },
+          "premium": {
+            "specification": "Відповідна вимогам ремонтопридатна система ліжечка з визначеними комплектами трансформації та твердим рівним матрацом для немовляти.",
+            "detail": "Складайте лише дозволену конфігурацію, збережіть інструкцію й деталі. Залишайте дитяче спальне місце порожнім, а подальші трансформації звіряйте з віковими обмеженнями виробника.",
+            "difference": "Змінні деталі й дозволені конфігурації подовжують використання без м’яких предметів у зоні сну немовляти."
+          }
+        }
+      }
+    },
+    "nightlight": {
+      "kind": "lighting",
+      "en": {
+        "category": "Nursery lighting",
+        "title": "Low-level light for night-time care",
+        "budgets": {
+          "economy": {
+            "specification": "A shaded warm LED lamp on a stable surface outside the child’s reach, with cords secured out of reach.",
+            "detail": "Check that the light is suitable for its position and does not face directly into the cot. Route the cable away from the sleep area and test the lowest useful light level.",
+            "difference": "A retained plug-in point provides simple low light without new wiring."
+          },
+          "standard": {
+            "specification": "A dimmable 2200–2700 K lamp with a shielded source and a separate brighter care light.",
+            "detail": "Trial the night setting from the cot and changing area. Secure cables and fittings out of reach, confirm dimmer compatibility and keep the care task adequately lit when needed.",
+            "difference": "Separate night and care settings give useful control without illuminating the whole room."
+          },
+          "premium": {
+            "specification": "A wired low-level lighting circuit with accessible driver and simple manual scene control, installed outside children’s reach.",
+            "detail": "Have an electrician coordinate cable routes and switching before decoration. Test each scene from the cot, secure all components and retain ordinary manual operation.",
+            "difference": "A dedicated circuit conceals cables and repeats the chosen scenes with more installation work."
+          }
+        }
+      },
+      "uk": {
+        "category": "Світло дитячої",
+        "title": "Нижнє світло для нічного догляду",
+        "budgets": {
+          "economy": {
+            "specification": "Тепла LED-лампа з екранованим джерелом на стійкій поверхні поза досяжністю дитини; шнури закріплені недосяжно.",
+            "detail": "Перевірте придатність світильника для місця й відсутність прямого світла в ліжечко. Прокладіть кабель подалі від зони сну та випробуйте мінімальну корисну яскравість.",
+            "difference": "Наявна розетка дає просте нічне світло без нової проводки."
+          },
+          "standard": {
+            "specification": "Димована лампа 2200–2700 K із закритим джерелом і окреме яскравіше світло для догляду.",
+            "detail": "Перевірте нічний режим із боку ліжечка й місця сповивання. Закріпіть кабелі та світильники недосяжно, перевірте димер і достатність робочого світла за потреби.",
+            "difference": "Окремі нічний і робочий режими дають керування без освітлення всієї кімнати."
+          },
+          "premium": {
+            "specification": "Окреме коло нижнього світла з доступним драйвером і простим ручним керуванням поза досяжністю дітей.",
+            "detail": "До оздоблення узгодьте траси й вимикачі з електриком. Перевірте кожен сценарій від ліжечка, закріпіть компоненти та збережіть звичайне ручне керування.",
+            "difference": "Окреме коло приховує кабелі й відтворює сценарії з більшим обсягом монтажу."
+          }
+        }
+      }
+    },
+    "gym-floor": {
+      "kind": "materials",
+      "en": {
+        "category": "Gym surfaces",
+        "title": "Rubber flooring matched to the equipment",
+        "budgets": {
+          "economy": {
+            "specification": "Loose-laid interlocking rubber tiles approved for the existing floor and the intended light exercise equipment.",
+            "detail": "Check the floor is dry and level. Trial the rubber against the existing finish for staining, follow edge-gap instructions and use an appropriate separate mat beneath equipment.",
+            "difference": "Removable tiles limit permanent work; they do not establish the floor’s capacity for heavy weights."
+          },
+          "standard": {
+            "specification": "Dense rubber gym tiles with restrained edges and equipment pads selected for the proposed use.",
+            "detail": "Verify structural floor capacity for the actual equipment with an appropriate professional. Check product indentation, moisture and underfloor-heating limits; stagger joints and prevent edges becoming trip points.",
+            "difference": "Denser tiles and coordinated pads improve wear performance while load and impact limits still need checking."
+          },
+          "premium": {
+            "specification": "A specified rubber floor assembly with impact-isolation details designed for the equipment and the building below.",
+            "detail": "Have structural and acoustic specialists assess heavy equipment and impact transfer. Install the approved assembly, isolate perimeter bridges and document restrictions on dropping weights.",
+            "difference": "An engineered assembly addresses impact transfer beyond the surface finish; it is not an unrestricted lifting platform."
+          }
+        }
+      },
+      "uk": {
+        "category": "Покриття спортзалу",
+        "title": "Гумова підлога під конкретне обладнання",
+        "budgets": {
+          "economy": {
+            "specification": "Знімні замкові гумові плити, дозволені для наявної підлоги та запланованих легких вправ.",
+            "detail": "Перевірте сухість і рівність. Випробуйте гуму щодо плям на оздобленні, дотримайтесь крайових зазорів і використайте відповідний окремий килимок під тренажером.",
+            "difference": "Знімні плити зменшують постійні роботи, але не підтверджують несучу здатність під важкі ваги."
+          },
+          "standard": {
+            "specification": "Щільні гумові спортивні плити із закріпленими краями та підібраними під обладнання підкладками.",
+            "detail": "Перевірте несучу здатність під конкретне обладнання з відповідним фахівцем. Врахуйте вм’ятини, вологість і теплу підлогу; змістіть шви й усуньте небезпечні краї.",
+            "difference": "Щільніші плити й підкладки підвищують зносостійкість, зберігаючи потребу перевірки навантажень та ударів."
+          },
+          "premium": {
+            "specification": "Визначена система гумової підлоги з ударною розв’язкою під обладнання та приміщення нижче.",
+            "detail": "Нехай конструктор і акустик оцінять важкі тренажери й передачу ударів. Установіть погоджену систему, розв’яжіть периметр і зафіксуйте обмеження скидання ваг.",
+            "difference": "Інженерна система працює з передачею ударів за межами покриття, але не дозволяє необмежене скидання ваг."
+          }
+        }
+      }
+    },
+    "gym-layout": {
+      "kind": "layout",
+      "en": {
+        "category": "Equipment layout",
+        "title": "Working clearances around each station",
+        "budgets": {
+          "economy": {
+            "specification": "A measured mat zone with portable equipment and the manufacturer’s clear space around every item.",
+            "detail": "Mark exercise reach and equipment movement on the floor. Check overhead clearance, doors and the exit route; keep stored weights out of walkways and use their proper rack.",
+            "difference": "A compact portable set leaves more usable floor space and avoids fixed equipment."
+          },
+          "standard": {
+            "specification": "A planned cardio and strength layout with manufacturer-defined working zones and a load-appropriate storage rack.",
+            "detail": "Overlay the equipment footprints and full moving envelopes on a measured plan. Check floor capacity where concentrated loads occur and locate fixings only in suitable structure.",
+            "difference": "Dedicated stations reduce daily rearranging but require coordinated loads and clearances."
+          },
+          "premium": {
+            "specification": "A coordinated equipment plan with a fitted storage wall and verified floor and wall fixing positions.",
+            "detail": "Obtain the supplier’s installation drawings and confirm servicing space. Have the support structure checked, mark each station on site and test the movement paths before fitting the cabinetry.",
+            "difference": "Integrated storage tidies the room while requiring more detailed support and servicing coordination."
+          }
+        }
+      },
+      "uk": {
+        "category": "Розстановка обладнання",
+        "title": "Робочі зони навколо тренажерів",
+        "budgets": {
+          "economy": {
+            "specification": "Обміряна зона килимка з переносним обладнанням і визначеними виробником вільними відстанями.",
+            "detail": "Позначте рухи вправ та обладнання на підлозі. Перевірте висоту, двері й вихід; зберігайте ваги на належній стійці поза проходами.",
+            "difference": "Компактний переносний набір зберігає більше вільної підлоги без стаціонарних тренажерів."
+          },
+          "standard": {
+            "specification": "Сплановані кардіо- й силова зони з робочими габаритами виробника та відповідною навантаженню стійкою.",
+            "detail": "Нанесіть опорні габарити й повні зони руху на обмірний план. Перевірте підлогу в місцях зосереджених навантажень і кріпіть лише до придатної конструкції.",
+            "difference": "Окремі станції зменшують щоденні перестановки, потребуючи узгодження навантажень і зазорів."
+          },
+          "premium": {
+            "specification": "Узгоджений план обладнання зі вбудованим зберіганням і перевіреними точками кріплення до підлоги та стін.",
+            "detail": "Отримайте монтажні креслення й перевірте сервісні зони. Перевірте опорні конструкції, розмітьте станції та випробуйте рухи до монтажу меблів.",
+            "difference": "Вбудоване зберігання впорядковує кімнату, додаючи координацію опор і обслуговування."
+          }
+        }
+      }
+    },
+    "gym-light": {
+      "kind": "lighting",
+      "en": {
+        "category": "Exercise lighting",
+        "title": "Even light without mirror glare",
+        "budgets": {
+          "economy": {
+            "specification": "Diffused LED lamps around 3000–4000 K in suitable retained fittings, positioned clear of moving equipment.",
+            "detail": "Test the light lying on the mat as well as standing. Check reflections in mirrors and keep lamp cages, cables and fixtures outside the equipment’s full moving envelope.",
+            "difference": "Lamp changes improve consistency using existing points, with limited control over beam placement."
+          },
+          "standard": {
+            "specification": "Wide-diffusion ceiling LED fittings with CRI 90+ and a layout coordinated around the mat and mirrors.",
+            "detail": "Plot fittings against exercise positions and reflections before wiring. Have the installer verify ceiling fixing and circuit suitability; test glare before final positioning.",
+            "difference": "A planned fitting layout spreads light more evenly and reduces direct reflection into the user’s eyes."
+          },
+          "premium": {
+            "specification": "Separately dimmable diffuse exercise and low-intensity recovery lighting with accessible drivers.",
+            "detail": "Commission exercise and recovery scenes at the actual equipment positions. Keep emergency and exit provisions intact, verify dimmer compatibility and retain service access to controls.",
+            "difference": "Separate circuits support different activities with more wiring and commissioning."
+          }
+        }
+      },
+      "uk": {
+        "category": "Світло для вправ",
+        "title": "Рівномірність без відблисків у дзеркалі",
+        "budgets": {
+          "economy": {
+            "specification": "Розсіяні LED-лампи близько 3000–4000 K у придатних збережених світильниках поза рухом тренажерів.",
+            "detail": "Перевірте світло лежачи на килимку й стоячи. Оцініть відбиття в дзеркалі та винесіть плафони, кабелі й світильники за повну зону руху обладнання.",
+            "difference": "Заміна ламп узгоджує наявні точки, залишаючи обмежене керування напрямком променя."
+          },
+          "standard": {
+            "specification": "Стельові LED-світильники широкого розсіювання CRI 90+ із розстановкою щодо килимка й дзеркал.",
+            "detail": "До проводки нанесіть точки світла з урахуванням вправ і відбиттів. Нехай монтажник перевірить кріплення та коло; випробуйте засліплення до остаточної фіксації.",
+            "difference": "Продумана схема рівномірніше розподіляє світло й зменшує прямі відбиття в очі."
+          },
+          "premium": {
+            "specification": "Окремо димоване розсіяне світло для вправ і приглушене світло відновлення з доступними драйверами.",
+            "detail": "Налаштуйте сценарії в реальних позиціях обладнання. Збережіть аварійне світло й виходи, перевірте сумісність димерів та доступ до керування.",
+            "difference": "Окремі кола підтримують різні заняття з більшим обсягом проводки й налаштування."
+          }
+        }
+      }
+    },
+    "opening-study": {
+      "kind": "planning",
+      "en": {
+        "category": "Structural planning",
+        "title": "An opening defined by a structural survey",
+        "budgets": {
+          "economy": {
+            "specification": "A measured concept retaining wall returns and testing the smallest useful opening, subject to structural assessment.",
+            "detail": "Have a structural professional identify load paths, services and any fire or building-control requirements. Compare the proposed sightline on a measured plan before any opening-up or demolition.",
+            "difference": "A smaller studied opening can limit scope; it still requires an approved structural solution."
+          },
+          "standard": {
+            "specification": "An engineer-designed opening with coordinated support, temporary works and service-diversion information.",
+            "detail": "Commission the survey and calculations, obtain required approvals and have the contractor price the actual support and temporary works. Agree inspection stages before work begins.",
+            "difference": "A developed design supports reliable pricing and coordination rather than relying on the concept image."
+          },
+          "premium": {
+            "specification": "A coordinated wide-opening design package with structural, services and finish interfaces resolved before tender.",
+            "detail": "Review load paths, temporary support, fire strategy and installation access with the design team. Issue coordinated drawings, required approvals and inspection requirements to the contractor.",
+            "difference": "More design coordination can support a wider opening; feasibility and member sizes remain project-specific."
+          }
+        }
+      },
+      "uk": {
+        "category": "Конструктивне планування",
+        "title": "Проріз за результатами обстеження",
+        "budgets": {
+          "economy": {
+            "specification": "Обмірна концепція зі збереженими простінками й найменшим корисним прорізом за умови конструктивної оцінки.",
+            "detail": "Нехай конструктор визначить передачу навантажень, комунікації та дозвільні й пожежні вимоги. До розкриття чи демонтажу перевірте бажаний вид на обмірному плані.",
+            "difference": "Менший досліджений проріз може скоротити роботи, але все одно потребує погодженого конструктивного рішення."
+          },
+          "standard": {
+            "specification": "Розроблений конструктором проріз із погодженими опорами, тимчасовими кріпленнями й перенесенням комунікацій.",
+            "detail": "Замовте обстеження та розрахунки, отримайте потрібні погодження й кошторис фактичних опор та тимчасових робіт. До початку погодьте етапи огляду.",
+            "difference": "Розроблений проєкт дає основу для кошторису й координації замість опори на зображення концепції."
+          },
+          "premium": {
+            "specification": "Узгоджений комплект широкого прорізу з конструкціями, інженерією та вузлами оздоблення до тендеру.",
+            "detail": "Перевірте навантаження, тимчасове підпирання, пожежну схему й доступ монтажу з проєктантами. Передайте підряднику узгоджені креслення, дозволи й вимоги огляду.",
+            "difference": "Детальніша координація може підтримати ширший проріз; можливість і перерізи залежать від конкретного об’єкта."
+          }
+        }
+      }
+    },
+    "beam-finish": {
+      "kind": "joinery",
+      "en": {
+        "category": "Opening finishes",
+        "title": "Beam enclosure and ceiling junctions",
+        "budgets": {
+          "economy": {
+            "specification": "A simple visible downstand with the engineer’s specified fire protection and a painted finish.",
+            "detail": "Confirm the actual support dimensions and required enclosure before setting the ceiling line. Keep protection continuous at ends and penetrations; do not drill the structural member without approval.",
+            "difference": "An expressed downstand avoids additional ceiling concealment while retaining required protection."
+          },
+          "standard": {
+            "specification": "A coordinated plasterboard bulkhead around the approved support, with continuous fire-rated lining where required.",
+            "detail": "Detail board layers, fixings and junctions to the approved fire-protection system. Align nearby ceiling edges and lighting without compromising structural or inspection requirements.",
+            "difference": "A planned bulkhead makes the support read as part of the ceiling design."
+          },
+          "premium": {
+            "specification": "A detailed ceiling transition integrating the approved beam enclosure, decorative reveals and independent lighting support.",
+            "detail": "Coordinate structural, fire-protection and services drawings. Build a sample junction, retain access where needed and fix decorative components only to approved independent supports.",
+            "difference": "Integrated reveals and lighting refine the junction with extra coordination and fabrication."
+          }
+        }
+      },
+      "uk": {
+        "category": "Оздоблення прорізу",
+        "title": "Обшивка балки та стики зі стелею",
+        "budgets": {
+          "economy": {
+            "specification": "Простий видимий виступ із визначеним конструктором вогнезахистом і фарбуванням.",
+            "detail": "До вибору рівня стелі підтвердьте реальні габарити опори й потрібну оболонку. Збережіть безперервність захисту на торцях і проходах; не свердліть конструкцію без погодження.",
+            "difference": "Видимий виступ обходиться без додаткового приховування стелею зі збереженням потрібного захисту."
+          },
+          "standard": {
+            "specification": "Узгоджений гіпсокартонний короб навколо погодженої опори з безперервною вогнестійкою обшивкою за потреби.",
+            "detail": "Визначте шари, кріплення й стики за погодженою вогнезахисною системою. Узгодьте прилеглі краї стелі та світло без порушення конструкцій і вимог огляду.",
+            "difference": "Спланований короб робить опору частиною стельового рішення."
+          },
+          "premium": {
+            "specification": "Детальний перехід стелі з погодженою оболонкою балки, декоративними швами й незалежною опорою освітлення.",
+            "detail": "Зведіть конструктивні, пожежні й інженерні креслення. Виконайте зразок стику, залиште потрібні ревізії та кріпіть декор лише до погоджених незалежних опор.",
+            "difference": "Інтегровані шви й світло уточнюють стик із додатковою координацією та виготовленням."
+          }
+        }
+      }
+    },
+    "basement-envelope": {
+      "kind": "materials",
+      "en": {
+        "category": "Conversion fabric",
+        "title": "A dry, insulated wall build-up",
+        "budgets": {
+          "economy": {
+            "specification": "A survey-led repair and compatible finish to an existing dry wall, leaving suspect damp areas exposed for investigation.",
+            "detail": "Check water entry, condensation and ventilation before decoration. Resolve the diagnosed moisture source, allow the wall to dry and verify the finish is compatible with the substrate.",
+            "difference": "A repair-first scope avoids concealing unresolved moisture behind a new lining."
+          },
+          "standard": {
+            "specification": "An insulated wall lining with a vapour-control strategy specified for the actual below-ground or garage construction.",
+            "detail": "Have the designer assess moisture, thermal bridges and fire requirements. Coordinate the full build-up, junctions and services; inspect concealed layers before closing the wall.",
+            "difference": "A coordinated lining adds insulation and reduces room area; moisture control must be designed with it."
+          },
+          "premium": {
+            "specification": "A conversion envelope designed with integrated insulation, thermal-bridge details and any required specialist drainage system.",
+            "detail": "Coordinate envelope, drainage maintenance, radon measures where applicable and required approvals with specialists. Record concealed junctions and commission ventilation before occupancy.",
+            "difference": "An integrated envelope tackles junctions and maintenance across the room with more design and specialist work."
+          }
+        }
+      },
+      "uk": {
+        "category": "Оболонка переобладнання",
+        "title": "Суха утеплена конструкція стіни",
+        "budgets": {
+          "economy": {
+            "specification": "Ремонт за результатами обстеження та сумісне оздоблення сухої стіни без закриття підозрілих вологих зон.",
+            "detail": "До оздоблення перевірте проникнення води, конденсат і вентиляцію. Усуньте встановлену причину, дайте основі висохнути та перевірте сумісність покриття.",
+            "difference": "Пріоритет ремонту не дозволяє приховати невирішену вологу новою обшивкою."
+          },
+          "standard": {
+            "specification": "Утеплена обшивка зі схемою парорегулювання під реальну конструкцію підвалу або гаража.",
+            "detail": "Нехай проєктант оцінить вологу, теплові мости й пожежні вимоги. Узгодьте повний склад, стики й комунікації; огляньте приховані шари до закриття.",
+            "difference": "Узгоджена обшивка додає утеплення та зменшує площу; вологозахист проєктують разом із нею."
+          },
+          "premium": {
+            "specification": "Оболонка переобладнання з інтегрованим утепленням, вузлами теплових мостів і необхідною спеціалізованою дренажною системою.",
+            "detail": "Узгодьте оболонку, обслуговування дренажу, захист від радону за потреби й дозволи з фахівцями. Зафіксуйте приховані стики та налаштуйте вентиляцію до заселення.",
+            "difference": "Комплексна оболонка враховує стики й обслуговування всього приміщення з більшим обсягом спеціальних робіт."
+          }
+        }
+      }
+    },
+    "service-access": {
+      "kind": "planning",
+      "en": {
+        "category": "Service coordination",
+        "title": "Access panels that remain usable",
+        "budgets": {
+          "economy": {
+            "specification": "Standard removable access panels at existing valves, cleanouts and electrical service points.",
+            "detail": "Mark every service point before arranging furniture. Confirm the required opening and working space with the relevant installer; keep the panel visible and reachable after fit-out.",
+            "difference": "Standard panels preserve access without custom concealment."
+          },
+          "standard": {
+            "specification": "Coordinated flush panels sized to actual service clearances and matched to the surrounding finish.",
+            "detail": "Agree panel size and opening direction before framing. Use a fire-rated or moisture-suitable assembly where required, and test removal with shelves and furniture in place.",
+            "difference": "Flush panels tidy the surface while keeping maintenance space part of the layout."
+          },
+          "premium": {
+            "specification": "A coordinated service wall with removable labelled modules and documented isolation and maintenance points.",
+            "detail": "Review service routes and required fire separations with the installers. Build removable modules, demonstrate access at handover and retain a drawing locating each valve and junction.",
+            "difference": "Modular access simplifies repeated maintenance with more joinery and documentation."
+          }
+        }
+      },
+      "uk": {
+        "category": "Узгодження інженерії",
+        "title": "Ревізії зі збереженим доступом",
+        "budgets": {
+          "economy": {
+            "specification": "Стандартні знімні люки біля наявних вентилів, прочисток і електричних сервісних точок.",
+            "detail": "Позначте всі точки до розстановки меблів. Узгодьте отвір і робочий простір із монтажником; залиште люк видимим і досяжним після облаштування.",
+            "difference": "Стандартні люки зберігають доступ без індивідуального приховування."
+          },
+          "standard": {
+            "specification": "Узгоджені люки врівень під фактичні сервісні зазори й навколишнє оздоблення.",
+            "detail": "До каркаса погодьте розміри й напрям відкривання. За потреби використайте вогнестійкий або вологостійкий виріб і перевірте знімання зі встановленими меблями.",
+            "difference": "Люки врівень впорядковують площину, зберігаючи місце обслуговування частиною плану."
+          },
+          "premium": {
+            "specification": "Узгоджена інженерна стіна зі знімними підписаними модулями та схемою відключення й обслуговування.",
+            "detail": "Перевірте траси й пожежні розділення з монтажниками. Виконайте знімні модулі, продемонструйте доступ при передачі та збережіть схему вентилів і з’єднань.",
+            "difference": "Модульні ревізії спрощують повторне обслуговування, додаючи меблеві роботи й документацію."
+          }
+        }
+      }
+    },
+    "exterior-paint": {
+      "kind": "materials",
+      "en": {
+        "category": "Exterior finishes",
+        "title": "Masonry and trim paint systems",
+        "budgets": {
+          "economy": {
+            "specification": "A compatible exterior repaint to sound existing masonry and trim, using the coating manufacturer’s primer and preparation.",
+            "detail": "Identify the substrate and existing coating, repair the cause of cracks or damp and make a sample patch. Apply within the specified weather and drying conditions.",
+            "difference": "Repainting refreshes the retained surfaces without adding a cladding layer."
+          },
+          "standard": {
+            "specification": "A substrate-specific exterior coating system with separately specified masonry, timber and metal primers and finishes.",
+            "detail": "Survey each material, prepare a full sample at the corner and check sealant compatibility. Sequence repairs, primers and topcoats so joints and water-shedding details remain effective.",
+            "difference": "Separate systems improve material compatibility and add preparation and sequencing work."
+          },
+          "premium": {
+            "specification": "A coordinated exterior finish package with specialist mineral or high-performance coatings where the substrate supports them.",
+            "detail": "Have the supplier inspect the substrate, approve the complete system and review vapour and moisture compatibility. Agree samples and inspection stages, including difficult junctions and exposed edges.",
+            "difference": "Specialist systems add finish control and supplier input; they do not replace repairs to the building fabric."
+          }
+        }
+      },
+      "uk": {
+        "category": "Фасадне оздоблення",
+        "title": "Фарбування мінеральних поверхонь і деталей",
+        "budgets": {
+          "economy": {
+            "specification": "Сумісне зовнішнє фарбування справної мінеральної основи й деталей із ґрунтом та підготовкою виробника.",
+            "detail": "Визначте основу й наявне покриття, усуньте причини тріщин або вологи та зробіть пробну ділянку. Наносьте за дозволеної погоди й часу висихання.",
+            "difference": "Фарбування оновлює збережені поверхні без додавання облицювання."
+          },
+          "standard": {
+            "specification": "Окремо визначені фасадні системи ґрунтів і покриттів для мінеральної основи, дерева та металу.",
+            "detail": "Обстежте кожен матеріал, зробіть зразок на куті й перевірте герметики. Узгодьте черговість ремонту та фарбування зі збереженням водовідведення й стиків.",
+            "difference": "Окремі системи підвищують сумісність матеріалів і додають підготовку та планування робіт."
+          },
+          "premium": {
+            "specification": "Узгоджений фасадний пакет зі спеціалізованими мінеральними або високоефективними покриттями для придатної основи.",
+            "detail": "Запросіть огляд постачальника, погодьте повну систему та волого- й паросумісність. Визначте зразки й етапи огляду складних стиків і відкритих країв.",
+            "difference": "Спеціальні системи додають контроль оздоблення й участь постачальника, але не замінюють ремонт конструкцій."
+          }
+        }
+      }
+    },
+    "siding": {
+      "kind": "materials",
+      "en": {
+        "category": "Cladding",
+        "title": "An accent wall with drainage behind it",
+        "budgets": {
+          "economy": {
+            "specification": "A repaired and repainted existing cladding area, retaining sound boards and replacing damaged matching pieces.",
+            "detail": "Inspect behind damaged boards and repair the water-entry cause. Preserve flashings, ventilation and manufacturer-required clearances before preparing and refinishing the surface.",
+            "difference": "Local repairs keep the existing assembly when its drainage and condition are suitable."
+          },
+          "standard": {
+            "specification": "Factory-finished fibre-cement or treated timber accent cladding on a designed ventilated rainscreen build-up.",
+            "detail": "Have the designer specify the weather barrier, battens, flashings and required cavity barriers. Set out joints and maintain ventilation, ground clearances and window drainage paths.",
+            "difference": "A new rainscreen changes material and depth, requiring coordinated drainage and fire detailing."
+          },
+          "premium": {
+            "specification": "A detailed cladding system with concealed approved fixings, fabricated corners and replaceable boards or panels.",
+            "detail": "Approve shop drawings for corners, reveals and cavity barriers. Build a sample junction, verify the support and drainage assembly, and retain access to replace individual pieces.",
+            "difference": "Concealed fixings and fabricated junctions refine the appearance with more fabrication and maintenance planning."
+          }
+        }
+      },
+      "uk": {
+        "category": "Облицювання",
+        "title": "Акцентна стіна з відведенням води",
+        "budgets": {
+          "economy": {
+            "specification": "Ремонт і фарбування наявного облицювання зі збереженням справних дощок і заміною пошкоджених відповідниками.",
+            "detail": "Огляньте основу за пошкодженнями й усуньте причину водопроникнення. До оздоблення збережіть відливи, вентиляцію та визначені виробником відстані.",
+            "difference": "Локальний ремонт зберігає наявну систему за придатного стану й водовідведення."
+          },
+          "standard": {
+            "specification": "Фіброцементне або оброблене дерев’яне облицювання на спроєктованій вентильованій підконструкції.",
+            "detail": "Нехай проєктант визначить мембрану, рейки, відливи та потрібні порожнинні протипожежні бар’єри. Розкладіть стики, зберігши вентиляцію, відступ від ґрунту й дренаж вікон.",
+            "difference": "Новий вентильований фасад змінює матеріал і товщину та потребує водовідвідних і пожежних вузлів."
+          },
+          "premium": {
+            "specification": "Детальна фасадна система з дозволеними прихованими кріпленнями, виготовленими кутами й змінними дошками або панелями.",
+            "detail": "Погодьте креслення кутів, укосів і бар’єрів. Виконайте зразок стику, перевірте опору й дренаж та збережіть можливість заміни окремих елементів.",
+            "difference": "Приховані кріплення й виготовлені стики уточнюють вигляд, додаючи виготовлення та планування ремонту."
+          }
+        }
+      }
+    },
+    "outdoor-light": {
+      "kind": "lighting",
+      "en": {
+        "category": "Outdoor lighting",
+        "title": "Shielded entrance and path light",
+        "budgets": {
+          "economy": {
+            "specification": "A shielded warm LED fitting on a suitable retained exterior supply, with an ingress rating chosen for its exposure.",
+            "detail": "Have an electrician check the circuit, protection and existing cable. Aim the light down onto the step or path, test it after dark and keep glare out of neighbours’ windows.",
+            "difference": "Reusing a verified supply limits trenching and leaves the fitting location largely unchanged."
+          },
+          "standard": {
+            "specification": "Coordinated shielded 2700 K entrance and path fittings on weather-appropriate wiring with timer or presence control.",
+            "detail": "Plan cable routes, drainage exposure and mounting before paving. Have the installer specify outdoor connections and protection, then adjust aiming and sensor reach at night.",
+            "difference": "Several coordinated points light the route with more cabling and control setup."
+          },
+          "premium": {
+            "specification": "Separately controlled low-glare entry, path and planting circuits with accessible outdoor-rated drivers and junctions.",
+            "detail": "Coordinate the lighting plan with roots, drainage and paving. Use a qualified installer for power and protection, commission night-time scenes and document buried routes and access points.",
+            "difference": "Separate circuits add scene control and maintenance planning while preserving dark areas where light is unnecessary."
+          }
+        }
+      },
+      "uk": {
+        "category": "Зовнішнє освітлення",
+        "title": "Екрановане світло входу та доріжки",
+        "budgets": {
+          "economy": {
+            "specification": "Екранований теплий LED-світильник на придатному збереженому живленні зі ступенем захисту під реальну експозицію.",
+            "detail": "Нехай електрик перевірить коло, захист і кабель. Спрямуйте світло вниз на сходинку або доріжку, випробуйте в темряві та уникайте світла у вікна сусідів.",
+            "difference": "Використання перевіреного живлення зменшує земляні роботи й переважно зберігає точку світла."
+          },
+          "standard": {
+            "specification": "Узгоджені екрановані світильники 2700 K входу й доріжки з придатною зовнішньою проводкою та таймером або датчиком.",
+            "detail": "До мощення сплануйте кабелі, вплив води й кріплення. Нехай монтажник визначить зовнішні з’єднання та захист; уночі налаштуйте напрям і датчик.",
+            "difference": "Кілька узгоджених точок освітлюють маршрут із більшим обсягом кабелів і налаштування."
+          },
+          "premium": {
+            "specification": "Окремо керовані малозасліплювальні кола входу, доріжки й рослин із доступними зовнішніми драйверами та з’єднаннями.",
+            "detail": "Узгодьте світло з корінням, дренажем і мощенням. Доручіть живлення фахівцю, налаштуйте нічні сценарії та зафіксуйте приховані траси й доступи.",
+            "difference": "Окремі кола додають сценарії й план обслуговування зі збереженням темних зон, де світло не потрібне."
+          }
+        }
+      }
+    },
+    "patio": {
+      "kind": "materials",
+      "en": {
+        "category": "Outdoor surfaces",
+        "title": "Patio levels and drainage",
+        "budgets": {
+          "economy": {
+            "specification": "A cleaned and locally repaired existing patio with sound slabs relaid where needed and drainage kept open.",
+            "detail": "Survey rocking slabs, falls and the threshold. Repair the underlying cause rather than coating over it; keep drainage outlets and damp-proof details clear.",
+            "difference": "Repairing the retained paving limits excavation when its levels and drainage are suitable."
+          },
+          "standard": {
+            "specification": "Exterior porcelain or concrete paving on a specified sub-base and bedding assembly with planned falls and edge restraint.",
+            "detail": "Confirm finished levels against doors and damp-proofing. Excavate and compact the designed sub-base, provide drainage and movement joints, and use the paving supplier’s complete bedding method.",
+            "difference": "A new paved surface adds ground preparation and coordinated water management."
+          },
+          "premium": {
+            "specification": "A designed stone or porcelain terrace with fabricated steps, coordinated drainage channels and detailed threshold transitions.",
+            "detail": "Have the designer resolve accessibility, waterproofing interfaces and discharge routes. Approve samples and step geometry, inspect the substructure and record accessible drainage maintenance points.",
+            "difference": "Detailed thresholds and steps create a more integrated terrace with additional design and fabrication."
+          }
+        }
+      },
+      "uk": {
+        "category": "Зовнішні поверхні",
+        "title": "Рівні тераси та водовідведення",
+        "budgets": {
+          "economy": {
+            "specification": "Очищення й локальний ремонт наявного мощення з перекладанням несправних плит і відкритим дренажем.",
+            "detail": "Перевірте хиткі плити, ухили й поріг. Усуньте першопричину замість маскування покриттям; збережіть водовідводи та вологозахисні вузли.",
+            "difference": "Ремонт збереженого мощення зменшує земляні роботи за придатних рівнів і дренажу."
+          },
+          "standard": {
+            "specification": "Зовнішній керамограніт або бетонні плити на визначеній основі й монтажних шарах із потрібними ухилами та фіксацією країв.",
+            "detail": "Звірте рівні з дверима й гідроізоляцією. Підготуйте та ущільніть проєктну основу, виконайте дренаж і деформаційні шви за повною системою постачальника.",
+            "difference": "Нове мощення додає підготовку ґрунту й узгоджене керування водою."
+          },
+          "premium": {
+            "specification": "Спроєктована кам’яна або керамогранітна тераса з виготовленими сходинками, лотками й деталями переходу порога.",
+            "detail": "Нехай проєктант узгодить доступність, гідроізоляційні стики й відведення води. Погодьте зразки та сходинки, огляньте основу й зафіксуйте доступи очищення дренажу.",
+            "difference": "Детальні пороги й сходи поєднують терасу з будинком із додатковим проєктуванням і виготовленням."
+          }
+        }
+      }
+    },
+    "shade": {
+      "kind": "layout",
+      "en": {
+        "category": "Outdoor comfort",
+        "title": "Shade placed for the actual sun path",
+        "budgets": {
+          "economy": {
+            "specification": "A movable parasol with its manufacturer-specified weighted base and a clear opening envelope.",
+            "detail": "Observe midday and evening sun at the seating area. Check the base and parasol limits for wind, keep exit routes clear and close or store it as the manufacturer instructs.",
+            "difference": "A movable parasol adds flexible shade without permanent posts."
+          },
+          "standard": {
+            "specification": "A proprietary pergola or retractable canopy with supplier-designed anchors for the site conditions.",
+            "detail": "Plot sun and seating positions, check local permissions and have the supplier verify wind exposure and foundations. Coordinate post locations, drainage and installation access before ordering.",
+            "difference": "A permanent frame covers a defined area but adds foundations, permissions and weather coordination."
+          },
+          "premium": {
+            "specification": "A site-designed shade structure with engineered supports, integrated rainwater details and replaceable shading components.",
+            "detail": "Coordinate structural design, permissions, underground services and drainage. Review shop drawings and wind limits, inspect foundations and demonstrate controls and maintenance at handover.",
+            "difference": "Custom geometry and weather management give closer integration with more structural and service work."
+          }
+        }
+      },
+      "uk": {
+        "category": "Комфорт надворі",
+        "title": "Тінь за реальним рухом сонця",
+        "budgets": {
+          "economy": {
+            "specification": "Переносна парасоля з визначеною виробником обважненою основою та вільною зоною відкривання.",
+            "detail": "Простежте полуденне й вечірнє сонце біля сидінь. Перевірте обмеження основи та вітру, збережіть виходи й закривайте або прибирайте парасолю за інструкцією.",
+            "difference": "Переносна парасоля дає гнучку тінь без постійних стійок."
+          },
+          "standard": {
+            "specification": "Заводська пергола або висувний навіс з анкерами, визначеними постачальником для ділянки.",
+            "detail": "Нанесіть сонце й місця сидіння, перевірте дозволи та погодьте вітер і фундаменти з постачальником. До замовлення узгодьте стійки, дренаж і доступ монтажу.",
+            "difference": "Постійний каркас затіняє визначену зону, додаючи фундаменти, дозволи й погодні обмеження."
+          },
+          "premium": {
+            "specification": "Індивідуальний навіс із розрахованими опорами, інтегрованим водовідведенням і змінними елементами затінення.",
+            "detail": "Узгодьте конструктивний проєкт, дозволи, підземні мережі й дренаж. Перевірте креслення та вітер, огляньте фундаменти й продемонструйте керування та обслуговування.",
+            "difference": "Індивідуальна геометрія й захист від опадів краще інтегруються з більшим обсягом конструктивних та інженерних робіт."
+          }
+        }
+      }
+    },
+    "accent-textiles": {
+      "kind": "materials",
+      "en": {
+        "category": "Turnover styling",
+        "title": "Replaceable cushions and a washable throw",
+        "budgets": {
+          "economy": {
+            "specification": "Ready-made removable cushion covers and a machine-washable throw in sizes matched to the retained sofa.",
+            "detail": "Measure the existing inserts, check wash labels and test one cover through the cleaning routine. Keep a duplicate set ready so the sofa can be reset between stays.",
+            "difference": "Off-the-shelf covers change colour and texture while keeping the furniture and cushion inserts."
+          },
+          "standard": {
+            "specification": "Coordinated removable covers in a documented durable fabric, with spare covers and a washable throw.",
+            "detail": "Approve samples under the room’s lighting, confirm shrinkage and laundering instructions and label spare sets by room. Photograph the final arrangement for the cleaning checklist.",
+            "difference": "A repeatable fabric palette and spare sets improve reset consistency without replacing furniture."
+          },
+          "premium": {
+            "specification": "Made-to-size removable covers in a supplier-tested performance fabric with documented cleaning and replacement availability.",
+            "detail": "Trial cleaning and fit before ordering the full set. Specify replaceable zips, store matching spare fabric or covers and retain the product code for future orders.",
+            "difference": "Custom fit and serviceable details refine the finish while preserving the existing furniture."
+          }
+        }
+      },
+      "uk": {
+        "category": "Оновлення між заїздами",
+        "title": "Змінні чохли подушок і мийний плед",
+        "budgets": {
+          "economy": {
+            "specification": "Готові знімні чохли подушок і плед машинного прання під розміри збереженого дивана.",
+            "detail": "Виміряйте наявні наповнювачі, перевірте ярлики й випробуйте один чохол у робочому пранні. Підготуйте запасний комплект для швидкого облаштування між заїздами.",
+            "difference": "Готові чохли змінюють колір і фактуру зі збереженням меблів та наповнювачів."
+          },
+          "standard": {
+            "specification": "Узгоджені знімні чохли зі стійкої тканини з документацією, запасний комплект і мийний плед.",
+            "detail": "Погодьте зразки при кімнатному світлі, перевірте усадку й прання та підпишіть комплекти за кімнатами. Сфотографуйте розкладку для переліку прибирання.",
+            "difference": "Повторювана палітра й запасні комплекти поліпшують однаковість підготовки без заміни меблів."
+          },
+          "premium": {
+            "specification": "Чохли за розміром із перевіреної постачальником експлуатаційної тканини з визначеним очищенням і доступністю замін.",
+            "detail": "До всього замовлення перевірте прання й посадку. Передбачте змінні блискавки, запас тканини або чохлів та збережіть код для повторної закупівлі.",
+            "difference": "Точна посадка й ремонтопридатні деталі уточнюють оздоблення зі збереженням наявних меблів."
+          }
+        }
+      }
+    },
+    "wall-art": {
+      "kind": "materials",
+      "en": {
+        "category": "Decor",
+        "title": "Artwork on the existing hanging points",
+        "budgets": {
+          "economy": {
+            "specification": "Standard-size prints in lightweight frames sized for the existing suitable picture fixings.",
+            "detail": "Check the fixing and frame weight rating, keep glass away from vulnerable positions and trial the layout with paper templates before rehanging.",
+            "difference": "Ready-made prints refresh the wall using the current hanging positions."
+          },
+          "standard": {
+            "specification": "Coordinated prints with protective acrylic glazing in replaceable standard frames, using verified existing supports.",
+            "detail": "Match the frame sizes to the current fixing layout. Verify the support capacity, use secure suitable hangers and record a photo and replacement codes for turnover checks.",
+            "difference": "Acrylic glazing and recorded replacements make the display easier to reset and maintain."
+          },
+          "premium": {
+            "specification": "A curated print set in serviceable frames with anti-glare acrylic and reusable secure hanging hardware on suitable existing points.",
+            "detail": "Approve samples in daylight and evening light. Verify weight and hanger compatibility, record each frame position and retain digital print files and spare hardware for replacement.",
+            "difference": "Improved glazing and a documented display refine presentation while keeping the existing wall arrangement."
+          }
+        }
+      },
+      "uk": {
+        "category": "Декор",
+        "title": "Картини на наявних точках підвісу",
+        "budgets": {
+          "economy": {
+            "specification": "Друки стандартного формату в легких рамах під наявні придатні кріплення картин.",
+            "detail": "Перевірте допустиму масу кріплення й рами, уникайте скла у вразливих місцях і приміряйте паперові шаблони до навішування.",
+            "difference": "Готові друки оновлюють стіну зі збереженням точок підвісу."
+          },
+          "standard": {
+            "specification": "Узгоджені друки із захисним акрилом у змінних стандартних рамах на перевірених наявних опорах.",
+            "detail": "Підберіть рами під поточну схему кріплення. Перевірте несучу здатність, використайте надійні підвіси й запишіть фото та коди замін для перевірок між заїздами.",
+            "difference": "Акрил і перелік замін спрощують відновлення розкладки та обслуговування."
+          },
+          "premium": {
+            "specification": "Добірка друків у ремонтопридатних рамах з антивідблисковим акрилом і багаторазовими надійними підвісами на придатних наявних точках.",
+            "detail": "Погодьте зразки вдень і ввечері. Перевірте масу та сумісність підвісів, зафіксуйте позиції й збережіть файли друків та запасну фурнітуру для замін.",
+            "difference": "Краще скління й задокументована розкладка уточнюють презентацію зі збереженням наявної схеми стіни."
+          }
+        }
+      }
+    }
+  }
+}

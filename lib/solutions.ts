@@ -4,7 +4,8 @@ import navigation from '@/content/solutions/navigation.json';
 import examples from '@/content/solutions/examples.json';
 import media from '@/content/solutions/media.json';
 import budgets from '@/content/solutions/budgets.json';
-import { href, Locale, site } from './content';
+import advice from '@/content/solutions/advice.json';
+import { copy, href, Locale, site } from './content';
 
 export type Solution = typeof en.pages[number];
 export type SolutionsLabels = typeof en.hub;
@@ -19,6 +20,26 @@ export function solutionExample(locale: Locale, slug: string) {
 export function solutionBudgets(locale: Locale, slug: string) {
   if (!Object.hasOwn(budgets, slug)) throw new Error(`Missing solution budgets: ${slug}`);
   return budgets[slug as keyof typeof budgets][locale];
+}
+export type SolutionAdvice = {
+  id: string;
+  kind: string;
+  category: string;
+  title: string;
+  budgets: Record<'economy' | 'standard' | 'premium', { specification: string; detail: string; difference: string }>;
+};
+export function solutionAdvice(locale: Locale, slug: string): SolutionAdvice[] {
+  if (!Object.hasOwn(advice.pages, slug)) throw new Error(`Missing solution advice: ${slug}`);
+  return advice.pages[slug as keyof typeof advice.pages].map(id => {
+    if (Object.hasOwn(advice.sharedHomeTips, id)) {
+      const { index, kind } = advice.sharedHomeTips[id as keyof typeof advice.sharedHomeTips];
+      const tip = copy(locale).home.brillDemo.tips[index];
+      return { id, kind, category: tip.category, title: tip.title, budgets: tip.budgets };
+    }
+    if (!Object.hasOwn(advice.topics, id)) throw new Error(`Missing solution advice topic: ${id}`);
+    const topic = advice.topics[id as keyof typeof advice.topics];
+    return { id, kind: topic.kind, ...topic[locale] };
+  });
 }
 export const solutionHref = (locale: Locale, slug = '') => href(locale, 'solutions' + (slug ? '/' + slug : ''));
 export const findSolution = (locale: Locale, slug: string) => solutionCopy(locale).pages.find(page => page.slug === slug);
