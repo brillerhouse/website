@@ -240,7 +240,6 @@
 .solution-project-take>h3{font-size:clamp(25px,2.5vw,35px);line-height:1.25;letter-spacing:-.025em;margin:0 0 18px}
 .solution-project-summary{font-size:var(--text-lead);line-height:1.8;margin:0;max-width:560px}
 .solution-project-visual{min-width:0}
-.solution-smart-sparks{display:flex;align-items:center;gap:8px;font-size:var(--text-caption);font-weight:650;line-height:1.6;color:var(--accent);margin:0 0 14px}
 .solution-project-step{border-left:2px solid var(--accent);padding-left:16px;max-width:560px}
 .solution-project-step h4{font-size:var(--text-title-small);line-height:1.5;margin:0 0 7px}
 .solution-project-step p{font-size:var(--text-body);line-height:1.8;color:var(--muted);margin:0}
@@ -254,7 +253,8 @@
 .solution-comparison .hero-room-range{pointer-events:none}
 .solution-comparison-photo{position:absolute;display:block;max-width:none;height:auto;pointer-events:none;user-select:none}
 .solution-comparison-after{position:absolute;inset:0;overflow:hidden}
-.solution-comparison .solution-spark-hotspot{z-index:4;cursor:pointer}
+.solution-comparison-sparks{position:absolute;inset:0;z-index:4;pointer-events:none}
+.solution-comparison .solution-spark-hotspot{pointer-events:auto;cursor:pointer}
 .solution-comparison .hero-room-divider{z-index:5}
 .solution-comparison .hero-room-divider>span{pointer-events:auto;cursor:ew-resize}
 .solution-comparison-labels{display:none}

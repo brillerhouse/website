@@ -51,7 +51,8 @@ export function SolutionComparison({ image, width, height, focusY, alt, before, 
       <input ref={slider} className="hero-room-range" type="range" min={0} max={100} value={position} aria-label={label} aria-describedby={descriptionId}
         aria-valuetext={`${before}: ${position}%. ${after}: ${100 - position}%.`}
         onChange={event => setPosition(Number(event.target.value))}/>
-      {sparks.map(spark => <button key={spark.id} type="button"
+      <div className="solution-comparison-sparks" style={{ clipPath: `inset(0 0 0 ${position}%)` }}>
+      {sparks.filter(spark => spark.position.x > position).map(spark => <button key={spark.id} type="button"
         className={'spark-hotspot solution-spark-hotspot' + (selectedSpark === spark.id ? ' selected' : '')}
         style={{ left: `clamp(22px, ${spark.position.x}%, calc(100% - 22px))`, top: `clamp(22px, ${spark.position.y}%, calc(100% - 22px))` }}
         aria-label={`${sparkLabel} ${spark.title}`} aria-pressed={selectedSpark === spark.id}
@@ -59,6 +60,7 @@ export function SolutionComparison({ image, width, height, focusY, alt, before, 
         onClick={() => onSelectSpark(spark.id)}>
         <span><Sparkles size={17} strokeWidth={1.7} aria-hidden="true"/></span>
       </button>)}
+      </div>
     </div>
   </div>;
 }

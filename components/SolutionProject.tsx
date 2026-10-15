@@ -46,7 +46,6 @@ export function SolutionProject({ slug, example, budgets, tips, labels: l }: {
         </fieldset>
       </div>
       <div className="solution-project-visual">
-        <p className="solution-smart-sparks"><Sparkles size={18} aria-hidden="true"/>Smart Sparks</p>
         <SolutionComparison image={image} width={example.image.width} height={example.image.height} focusY={example.image.focusY}
           alt={`${l.before}: ${example.before} ${l.after}: ${example.after}`} before={l.before} after={l.after}
           label={l.compare} descriptionId="solution-example-disclosure"

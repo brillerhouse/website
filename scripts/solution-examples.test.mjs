@@ -97,9 +97,11 @@ test('all localized exports render feature cards instead of old rows and preserv
       assert.ok(html.includes('type="range"'), `${locale}/${page.slug}: missing comparison control`);
       assert.ok(html.includes(`aria-label="${locale === 'uk' ? 'Порівняти до та після' : 'Compare before and after'}"`), `${locale}/${page.slug}: missing accessible slider name`);
       assert.ok(html.includes('aria-describedby="solution-example-disclosure"'));
-      assert.ok(html.includes('class="solution-smart-sparks"'), `${locale}/${page.slug}: missing Smart Sparks heading`);
-      assert.equal((html.match(/class="spark-hotspot solution-spark-hotspot/g) || []).length, Object.keys(sparks[page.slug]).length, `${locale}/${page.slug}: missing image hotspots`);
-      for (const id of Object.keys(sparks[page.slug])) {
+      assert.ok(!html.includes('class="solution-smart-sparks"'), `${locale}/${page.slug}: obsolete heading above photo`);
+      assert.ok(html.includes('class="solution-comparison-sparks"'), `${locale}/${page.slug}: missing after-image spark layer`);
+      const initiallyRevealed = Object.entries(sparks[page.slug]).filter(([, [x]]) => x > 50).map(([id]) => id);
+      assert.equal((html.match(/class="spark-hotspot solution-spark-hotspot/g) || []).length, initiallyRevealed.length, `${locale}/${page.slug}: show only revealed after-image hotspots`);
+      for (const id of initiallyRevealed) {
         assert.ok(html.includes(`aria-controls="solution-advice-${id}"`), `${locale}/${page.slug}: hotspot is not linked to ${id}`);
         assert.ok(html.includes(`id="solution-advice-${id}"`), `${locale}/${page.slug}: missing hotspot destination ${id}`);
       }
