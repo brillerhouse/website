@@ -1,0 +1,720 @@
+{
+  "en": {
+    "title": "Terms of Service",
+    "subtitle": "Briller.House and the Briller app",
+    "effectiveLabel": "Effective date",
+    "contents": "On this page",
+    "description": "Terms for using Briller.House and the Briller app: accounts, AI concepts, subscriptions, credits, content rights, commercial use and liability.",
+    "sections": [
+      {
+        "id": "agreement",
+        "title": "1. Operator and Agreement",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "These Terms of Service (\"Terms\") govern your access to and use of Briller.House (the \"Website\") and the Briller application located at build.briller.house (the \"App\"), operated by ACTIVECHAT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ (ACTIVECHAT sp. z o.o.), pl. Solny 15, 50-062 Wrocław, Poland; KRS: 0000927136, NIP: 8971897072, REGON: 520201322. Contact email: hello@briller.house."
+          },
+          {
+            "type": "paragraph",
+            "text": "By creating an account, accessing, or using the Website or App, you enter into a binding contractual agreement with ACTIVECHAT sp. z o.o.. These Terms take effect on [EFFECTIVE DATE]."
+          },
+          {
+            "type": "heading",
+            "text": "Applicable Law"
+          },
+          {
+            "type": "paragraph",
+            "text": "These Terms shall be governed by and construed in accordance with the laws of Poland, without regard to its conflict-of-law principles."
+          },
+          {
+            "type": "heading",
+            "text": "Dispute Resolution"
+          },
+          {
+            "type": "paragraph",
+            "text": "Any dispute, controversy, or claim arising out of or relating to these Terms or the breach, termination, or invalidity thereof shall be submitted to the exclusive jurisdiction of the competent courts of Wrocław, Poland, subject to mandatory statutory protections available to consumers under applicable European Union law."
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "title": "2. Scope of the Service",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Briller provides AI-assisted interior-design and architectural-visualization concepts."
+          },
+          {
+            "type": "heading",
+            "text": "Marketing Website (briller.house)"
+          },
+          {
+            "type": "paragraph",
+            "text": "Serves general product information, inspiration, feature updates, and subscription/pricing information. It does not offer user accounts or direct image generation capabilities."
+          },
+          {
+            "type": "heading",
+            "text": "Briller App (build.briller.house)"
+          },
+          {
+            "type": "paragraph",
+            "text": "The operational web-based application where user authentication, room photo uploads, moodboard selections, design brief entries, AI rendering generation, refinement loops, billing, and project management take place."
+          }
+        ]
+      },
+      {
+        "id": "accounts",
+        "title": "3. Accounts and Acceptable Use",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "Minimum Age"
+          },
+          {
+            "type": "paragraph",
+            "text": "You must be at least 18 years of age to create an account or use the Briller App. Briller does not knowingly collect data from or offer services to minors."
+          },
+          {
+            "type": "heading",
+            "text": "Account Security"
+          },
+          {
+            "type": "paragraph",
+            "text": "Authentication is handled via Firebase Authentication. You are solely responsible for maintaining the confidentiality of your account login credentials and for all activities occurring under your account."
+          },
+          {
+            "type": "heading",
+            "text": "Intellectual Property Rights over Uploads"
+          },
+          {
+            "type": "paragraph",
+            "text": "You must own or hold all necessary licenses, permissions, and rights to any room photos, references, moodboards, drawings, or blueprints uploaded to the App."
+          },
+          {
+            "type": "heading",
+            "text": "Prohibited Conduct"
+          },
+          {
+            "type": "paragraph",
+            "text": "You agree not to upload content that is unlawful, defamatory, obscene, infringing on third-party intellectual property or privacy rights, or containing malicious software. Misuse of the service, automated scraping, or attempts to circumvent system security, rate limits, or paywalls is strictly prohibited."
+          },
+          {
+            "type": "heading",
+            "text": "Suspension & Termination"
+          },
+          {
+            "type": "paragraph",
+            "text": "We reserve the right to suspend or terminate user accounts that violate these Terms, engage in unlawful activity, or misuse system resources. Users may submit an appeal or request account deletion by emailing hello@briller.house."
+          }
+        ]
+      },
+      {
+        "id": "ai-outputs",
+        "title": "4. Generated Concepts, AI Safety, and Disclaimer",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "Nature of AI Outputs"
+          },
+          {
+            "type": "paragraph",
+            "text": "Visualizations, concepts, renders, and text recommendations (including Briller's Architectural Insights covering Materials & Composition, Lighting & Ambiance, and Installation & Engineering Notes) are automatically generated by AI models."
+          },
+          {
+            "type": "heading",
+            "text": "Non-Professional Advice Disclaimer"
+          },
+          {
+            "type": "paragraph",
+            "text": "AI outputs may contain inaccurate spatial dimensions, altered geometry, unsuitable products, or non-viable structural suggestions. They do not constitute approved construction documents, blueprinted structural calculations, or professional architectural, engineering, electrical, or legal advice."
+          },
+          {
+            "type": "heading",
+            "text": "Verification Obligation"
+          },
+          {
+            "type": "paragraph",
+            "text": "You must verify all room dimensions, structural features, material specifications, safety considerations, and municipal building codes with qualified professional architects, structural engineers, or licensed contractors before purchasing products, issuing documentation, or executing physical construction or renovation work."
+          }
+        ]
+      },
+      {
+        "id": "billing",
+        "title": "5. Plans, Pricing, and Billing",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Briller offers various subscription plans and credit structures within the App."
+          },
+          {
+            "type": "heading",
+            "text": "Pricing Reference"
+          },
+          {
+            "type": "paragraph",
+            "text": "Detailed parameters regarding current subscription tiers (including Free, Explorer, Pro Design, and Studio / Architect), monthly/annual prices, included iteration quotas, active project limits, and features are published on our Pricing page (briller.house/pricing) and match the checkout experience inside the App."
+          },
+          {
+            "type": "heading",
+            "text": "Payment Processing"
+          },
+          {
+            "type": "paragraph",
+            "text": "Billing and subscription management are conducted securely in-app via Stripe (utilizing Stripe Payment Element / Embedded Checkout)."
+          },
+          {
+            "type": "heading",
+            "text": "Recurring Billing & Renewal Notice"
+          },
+          {
+            "type": "paragraph",
+            "text": "Paid plans automatically renew at the end of each billing cycle (monthly or annually) unless canceled prior to the renewal date. Stripe notifies users of upcoming charges as required by applicable payment regulations."
+          },
+          {
+            "type": "heading",
+            "text": "Taxes"
+          },
+          {
+            "type": "paragraph",
+            "text": "Stated prices may be exclusive of applicable VAT or sales taxes, which will be calculated and displayed at Stripe checkout based on your geographic location."
+          },
+          {
+            "type": "heading",
+            "text": "Plan & Price Modifications"
+          },
+          {
+            "type": "paragraph",
+            "text": "Briller reserves the right to adjust subscription prices, credit quotas, or feature sets upon advance notice sent via email or displayed within the App."
+          },
+          {
+            "type": "heading",
+            "text": "Cancellation"
+          },
+          {
+            "type": "paragraph",
+            "text": "You may cancel your subscription at any time via the billing dashboard or Stripe Customer Portal. Cancellation takes effect at the end of the current paid billing period; you retain access to paid plan limits until that date."
+          }
+        ]
+      },
+      {
+        "id": "credits",
+        "title": "6. Credits and Usage Metering",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "Iteration Metering"
+          },
+          {
+            "type": "paragraph",
+            "text": "Generating an initial AI concept or executing a refinement step consumes credits according to the rules specified in your plan."
+          },
+          {
+            "type": "heading",
+            "text": "Subscription Credits"
+          },
+          {
+            "type": "paragraph",
+            "text": "Monthly plan credits replenish at the start of each billing period and expire at the end of the billing cycle (no rollover)."
+          },
+          {
+            "type": "heading",
+            "text": "Top-Up Credits"
+          },
+          {
+            "type": "paragraph",
+            "text": "Users may purchase additional non-expiring credit packs as detailed on the Pricing page (briller.house/pricing)."
+          },
+          {
+            "type": "heading",
+            "text": "Order of Deduction"
+          },
+          {
+            "type": "paragraph",
+            "text": "Credits are consumed according to system priority: (1) Free Monthly Allowance → (2) Subscription Credits → (3) Top-Up Credits."
+          },
+          {
+            "type": "heading",
+            "text": "Operation Costs & Failed Deductions"
+          },
+          {
+            "type": "paragraph",
+            "text": "Credits are deducted upon initiating a generation request. If a system failure or network fault causes a generation error, the credit is either not deducted or automatically restored."
+          },
+          {
+            "type": "heading",
+            "text": "UI Deletions & Unused Credits on Cancellation"
+          },
+          {
+            "type": "paragraph",
+            "text": "Deleting an iteration card or project from your workspace does not restore consumed credits, as computing resources were already expended. Unused non-expiring Top-Up credits remain saved on your account balance for future use, even if a recurring subscription is canceled."
+          }
+        ]
+      },
+      {
+        "id": "intellectual-property",
+        "title": "7. Intellectual Property, Content, and Commercial Rights",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "User Content Ownership & License"
+          },
+          {
+            "type": "paragraph",
+            "text": "You retain ownership of all original room photos, drawings, references, and text/voice brief inputs uploaded to Briller. You grant ACTIVECHAT sp. z o.o. a non-exclusive, worldwide, royalty-free license to host, process, and transmit your uploaded content solely for providing the App's rendering and AI analysis services."
+          },
+          {
+            "type": "heading",
+            "text": "No AI Model Training"
+          },
+          {
+            "type": "paragraph",
+            "text": "Briller does not use your uploaded photos, voice recordings, text briefs, project files, or generated renders to train AI models that we develop or control."
+          },
+          {
+            "type": "heading",
+            "text": "Commercial License Scope"
+          },
+          {
+            "type": "paragraph",
+            "text": "Commercial usage rights and watermark policies depend on your active plan tier as specified on our Pricing page (briller.house/pricing). Plans incorporating a commercial license enable professional studios, construction firms, and architects to use output renders and generated PDF material specifications for client presentations, pitches, marketing, and commercial build projects."
+          },
+          {
+            "type": "heading",
+            "text": "Community Gallery & Public Display"
+          },
+          {
+            "type": "paragraph",
+            "text": "Uploading project renders, moodboards, or original photos to the Community Gallery is completely optional. Anything you explicitly publish to the Community Gallery becomes publicly visible to other Briller users."
+          },
+          {
+            "type": "heading",
+            "text": "Product Suggestions (\"Shop the Look\")"
+          },
+          {
+            "type": "paragraph",
+            "text": "Product recommendations, material links, and pricing estimates surfaced in the App do not guarantee item stock, availability, or architectural suitability."
+          }
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "8. Liability, Service Changes, Data Retention, and Termination",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "Service Availability & Changes"
+          },
+          {
+            "type": "paragraph",
+            "text": "The App and Website are provided on an \"AS IS\" and \"AS AVAILABLE\" basis. We reserve the right to modify, suspend, or discontinue any feature, API endpoint, or tool within the App to reflect technical updates or operational changes."
+          },
+          {
+            "type": "heading",
+            "text": "Limitation of Liability"
+          },
+          {
+            "type": "paragraph",
+            "text": "To the maximum extent permitted by applicable Polish and European law, ACTIVECHAT sp. z o.o. shall not be liable for any indirect, incidental, special, or consequential damages (including loss of profits, construction delays, or costs of material procurement) arising out of your use of or inability to use the service or rely on generated AI concepts."
+          },
+          {
+            "type": "heading",
+            "text": "Data Retention & Export"
+          },
+          {
+            "type": "paragraph",
+            "text": "General app data and project history are retained for 1 year, unless deleted earlier by the user."
+          },
+          {
+            "type": "paragraph",
+            "text": "Users may export final project assets, PDF reports (on supported plans), or delete content and accounts directly within account/project settings."
+          },
+          {
+            "type": "paragraph",
+            "text": "Financial transaction records and invoices are retained permanently as required by law."
+          },
+          {
+            "type": "heading",
+            "text": "Termination"
+          },
+          {
+            "type": "paragraph",
+            "text": "You may terminate this agreement at any time by deleting your account. We reserve the right to terminate accounts that breach these Terms or engage in illegal activities."
+          },
+          {
+            "type": "heading",
+            "text": "Contact & Support"
+          },
+          {
+            "type": "paragraph",
+            "text": "For legal inquiries, support, or privacy requests, contact:"
+          },
+          {
+            "type": "paragraph",
+            "text": "ACTIVECHAT sp. z o.o."
+          },
+          {
+            "type": "paragraph",
+            "text": "Address: pl. Solny 15, 50-062 Wrocław, Poland"
+          },
+          {
+            "type": "paragraph",
+            "text": "Email: hello@briller.house"
+          }
+        ]
+      }
+    ]
+  },
+  "uk": {
+    "title": "Умови користування",
+    "subtitle": "Briller.House та застосунок Briller",
+    "effectiveLabel": "Дата набрання чинності",
+    "contents": "На цій сторінці",
+    "description": "Умови використання Briller.House і застосунку Briller: облікові записи, AI-концепції, підписки, кредити, права на контент, комерційне використання та відповідальність.",
+    "sections": [
+      {
+        "id": "agreement",
+        "title": "1. Оператор і договір",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Ці Умови користування («Умови») регулюють ваш доступ до Briller.House («Сайт») та застосунку Briller на build.briller.house («Застосунок») і їх використання. Оператором є ACTIVECHAT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ (ACTIVECHAT sp. z o.o.), pl. Solny 15, 50-062 Wrocław, Польща; KRS: 0000927136, NIP: 8971897072, REGON: 520201322. Контактний email: hello@briller.house."
+          },
+          {
+            "type": "paragraph",
+            "text": "Створюючи обліковий запис, отримуючи доступ до Сайту чи Застосунку або користуючись ними, ви укладаєте юридично обов’язковий договір з ACTIVECHAT sp. z o.o. Ці Умови набирають чинності [EFFECTIVE DATE]."
+          },
+          {
+            "type": "heading",
+            "text": "Застосовне право"
+          },
+          {
+            "type": "paragraph",
+            "text": "Ці Умови регулюються та тлумачаться відповідно до законодавства Польщі без урахування його колізійних норм."
+          },
+          {
+            "type": "heading",
+            "text": "Вирішення спорів"
+          },
+          {
+            "type": "paragraph",
+            "text": "Будь-який спір, розбіжність або вимога, що виникають із цих Умов або у зв’язку з ними, зокрема щодо їх порушення, припинення чи недійсності, підлягають виключній юрисдикції компетентних судів міста Вроцлав, Польща, з урахуванням обов’язкових законодавчих гарантій захисту споживачів за застосовним правом Європейського Союзу."
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "title": "2. Обсяг послуги",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Briller надає концепції дизайну інтер’єрів та архітектурної візуалізації за допомогою AI."
+          },
+          {
+            "type": "heading",
+            "text": "Маркетинговий сайт (briller.house)"
+          },
+          {
+            "type": "paragraph",
+            "text": "Містить загальну інформацію про продукт, натхнення, оновлення функцій та інформацію про підписки й ціни. Він не пропонує облікових записів або безпосереднього створення зображень."
+          },
+          {
+            "type": "heading",
+            "text": "Застосунок Briller (build.briller.house)"
+          },
+          {
+            "type": "paragraph",
+            "text": "Робочий вебзастосунок, у якому відбуваються автентифікація користувачів, завантаження фото кімнат, вибір мудбордів, введення описів дизайну, створення AI-рендерів, цикли уточнення, оплата та керування проєктами."
+          }
+        ]
+      },
+      {
+        "id": "accounts",
+        "title": "3. Облікові записи та допустиме використання",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "Мінімальний вік"
+          },
+          {
+            "type": "paragraph",
+            "text": "Щоб створити обліковий запис або користуватися застосунком Briller, вам має бути щонайменше 18 років. Briller свідомо не збирає дані неповнолітніх і не надає їм послуг."
+          },
+          {
+            "type": "heading",
+            "text": "Безпека облікового запису"
+          },
+          {
+            "type": "paragraph",
+            "text": "Автентифікація здійснюється через Firebase Authentication. Ви самостійно відповідаєте за конфіденційність даних входу та всі дії у вашому обліковому записі."
+          },
+          {
+            "type": "heading",
+            "text": "Права інтелектуальної власності на завантаження"
+          },
+          {
+            "type": "paragraph",
+            "text": "Ви повинні володіти всіма необхідними правами, ліцензіями та дозволами на фото кімнат, референси, мудборди, малюнки або креслення, які завантажуєте в Застосунок."
+          },
+          {
+            "type": "heading",
+            "text": "Заборонені дії"
+          },
+          {
+            "type": "paragraph",
+            "text": "Ви погоджуєтеся не завантажувати незаконний, наклепницький, непристойний контент, матеріали, що порушують права інтелектуальної власності або приватність третіх осіб, чи матеріали зі шкідливим програмним забезпеченням. Зловживання сервісом, автоматизований збір даних або спроби обійти засоби безпеки, обмеження частоти запитів чи платний доступ суворо заборонені."
+          },
+          {
+            "type": "heading",
+            "text": "Призупинення та припинення доступу"
+          },
+          {
+            "type": "paragraph",
+            "text": "Ми залишаємо за собою право призупиняти або припиняти облікові записи, які порушують ці Умови, використовуються для незаконної діяльності чи зловживання системними ресурсами. Користувачі можуть оскаржити рішення або попросити видалити обліковий запис, написавши на hello@briller.house."
+          }
+        ]
+      },
+      {
+        "id": "ai-outputs",
+        "title": "4. Створені концепції, безпека AI та застереження",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "Природа AI-результатів"
+          },
+          {
+            "type": "paragraph",
+            "text": "Візуалізації, концепції, рендери й текстові рекомендації, зокрема архітектурні поради Briller щодо матеріалів і композиції, освітлення й атмосфери, монтажу та інженерних рішень, автоматично створюються AI-моделями."
+          },
+          {
+            "type": "heading",
+            "text": "Результати не є професійною консультацією"
+          },
+          {
+            "type": "paragraph",
+            "text": "AI-результати можуть містити неточні розміри, змінену геометрію, непридатні товари або нездійсненні конструктивні пропозиції. Вони не є затвердженою будівельною документацією, оформленими конструктивними розрахунками чи професійною архітектурною, інженерною, електротехнічною або юридичною консультацією."
+          },
+          {
+            "type": "heading",
+            "text": "Обов’язок перевірки"
+          },
+          {
+            "type": "paragraph",
+            "text": "Перед придбанням товарів, видачею документації або виконанням будівельних чи ремонтних робіт ви повинні перевірити всі розміри приміщення, конструктивні особливості, специфікації матеріалів, вимоги безпеки та місцеві будівельні норми з кваліфікованими архітекторами, інженерами-конструкторами або ліцензованими підрядниками."
+          }
+        ]
+      },
+      {
+        "id": "billing",
+        "title": "5. Плани, ціни та оплата",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Briller пропонує різні плани підписки та кредитні моделі в Застосунку."
+          },
+          {
+            "type": "heading",
+            "text": "Інформація про ціни"
+          },
+          {
+            "type": "paragraph",
+            "text": "Докладні параметри поточних планів, зокрема Free, Explorer, Pro Design і Studio / Architect, місячні та річні ціни, включені ліміти ітерацій, кількість активних проєктів і функції опубліковані на сторінці цін (briller.house/pricing) та відповідають оформленню покупки в Застосунку."
+          },
+          {
+            "type": "heading",
+            "text": "Обробка платежів"
+          },
+          {
+            "type": "paragraph",
+            "text": "Оплата та керування підпискою безпечно здійснюються в Застосунку через Stripe з використанням Stripe Payment Element / Embedded Checkout."
+          },
+          {
+            "type": "heading",
+            "text": "Регулярні платежі та повідомлення про продовження"
+          },
+          {
+            "type": "paragraph",
+            "text": "Платні плани автоматично продовжуються наприкінці кожного місячного або річного платіжного циклу, якщо їх не скасовано до дати продовження. Stripe повідомляє користувачів про майбутні списання відповідно до застосовних платіжних вимог."
+          },
+          {
+            "type": "heading",
+            "text": "Податки"
+          },
+          {
+            "type": "paragraph",
+            "text": "Зазначені ціни можуть не включати застосовний ПДВ або податки з продажу. Вони розраховуються та відображаються під час оплати в Stripe залежно від вашого географічного розташування."
+          },
+          {
+            "type": "heading",
+            "text": "Зміни планів і цін"
+          },
+          {
+            "type": "paragraph",
+            "text": "Briller залишає за собою право змінювати ціни підписок, кількість кредитів або набір функцій із попереднім повідомленням електронною поштою або в Застосунку."
+          },
+          {
+            "type": "heading",
+            "text": "Скасування"
+          },
+          {
+            "type": "paragraph",
+            "text": "Ви можете будь-коли скасувати підписку через панель оплати або Stripe Customer Portal. Скасування набирає чинності наприкінці поточного оплаченого періоду; до цієї дати ви зберігаєте доступ до лімітів платного плану."
+          }
+        ]
+      },
+      {
+        "id": "credits",
+        "title": "6. Кредити та облік використання",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "Облік ітерацій"
+          },
+          {
+            "type": "paragraph",
+            "text": "Створення початкової AI-концепції або виконання кроку уточнення споживає кредити за правилами вашого плану."
+          },
+          {
+            "type": "heading",
+            "text": "Кредити підписки"
+          },
+          {
+            "type": "paragraph",
+            "text": "Місячні кредити плану поповнюються на початку кожного платіжного періоду та згорають наприкінці циклу без перенесення залишку."
+          },
+          {
+            "type": "heading",
+            "text": "Додаткові кредити"
+          },
+          {
+            "type": "paragraph",
+            "text": "Користувачі можуть купувати додаткові пакети кредитів без строку дії, описані на сторінці цін (briller.house/pricing)."
+          },
+          {
+            "type": "heading",
+            "text": "Порядок списання"
+          },
+          {
+            "type": "paragraph",
+            "text": "Кредити витрачаються за системним пріоритетом: (1) безкоштовний місячний ліміт → (2) кредити підписки → (3) додаткові кредити."
+          },
+          {
+            "type": "heading",
+            "text": "Вартість операцій та невдалі списання"
+          },
+          {
+            "type": "paragraph",
+            "text": "Кредити списуються під час ініціювання запиту на генерацію. Якщо системний або мережевий збій спричиняє помилку генерації, кредит не списується або автоматично повертається."
+          },
+          {
+            "type": "heading",
+            "text": "Видалення в інтерфейсі та невикористані кредити після скасування"
+          },
+          {
+            "type": "paragraph",
+            "text": "Видалення картки ітерації або проєкту з робочого простору не повертає витрачені кредити, оскільки обчислювальні ресурси вже використані. Невикористані додаткові кредити без строку дії залишаються на балансі облікового запису для майбутнього використання навіть після скасування регулярної підписки."
+          }
+        ]
+      },
+      {
+        "id": "intellectual-property",
+        "title": "7. Інтелектуальна власність, контент і комерційні права",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "Власність на контент користувача та ліцензія"
+          },
+          {
+            "type": "paragraph",
+            "text": "Ви зберігаєте право власності на всі оригінальні фото кімнат, креслення, референси та текстові чи голосові описи, завантажені до Briller. Ви надаєте ACTIVECHAT sp. z o.o. невиключну, всесвітню, безоплатну ліцензію на розміщення, обробку та передачу вашого контенту виключно для надання послуг рендерингу й AI-аналізу в Застосунку."
+          },
+          {
+            "type": "heading",
+            "text": "Відсутність навчання AI-моделей"
+          },
+          {
+            "type": "paragraph",
+            "text": "Briller не використовує завантажені вами фото, голосові записи, текстові описи, файли проєктів або створені рендери для навчання AI-моделей, які ми розробляємо або контролюємо."
+          },
+          {
+            "type": "heading",
+            "text": "Обсяг комерційної ліцензії"
+          },
+          {
+            "type": "paragraph",
+            "text": "Права комерційного використання та правила водяних знаків залежать від вашого активного плану, як зазначено на сторінці цін (briller.house/pricing). Плани з комерційною ліцензією дозволяють професійним студіям, будівельним компаніям та архітекторам використовувати рендери й створені PDF-специфікації матеріалів для презентацій клієнтам, пропозицій, маркетингу та комерційних будівельних проєктів."
+          },
+          {
+            "type": "heading",
+            "text": "Community Gallery та публічний показ"
+          },
+          {
+            "type": "paragraph",
+            "text": "Завантаження рендерів проєктів, мудбордів або оригінальних фото до Community Gallery є цілком добровільним. Усе, що ви явно публікуєте в Community Gallery, стає публічно видимим іншим користувачам Briller."
+          },
+          {
+            "type": "heading",
+            "text": "Рекомендації товарів («Shop the Look»)"
+          },
+          {
+            "type": "paragraph",
+            "text": "Рекомендації товарів, посилання на матеріали та орієнтовні ціни в Застосунку не гарантують наявності товару, доступності або придатності для архітектурного рішення."
+          }
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "8. Відповідальність, зміни сервісу, зберігання даних і припинення",
+        "blocks": [
+          {
+            "type": "heading",
+            "text": "Доступність і зміни сервісу"
+          },
+          {
+            "type": "paragraph",
+            "text": "Застосунок і Сайт надаються «ЯК Є» та «ЗА НАЯВНОСТІ». Ми залишаємо за собою право змінювати, призупиняти або припиняти будь-яку функцію, API або інструмент у Застосунку у зв’язку з технічними чи операційними змінами."
+          },
+          {
+            "type": "heading",
+            "text": "Обмеження відповідальності"
+          },
+          {
+            "type": "paragraph",
+            "text": "У максимально дозволеному законодавством Польщі та Європи обсязі ACTIVECHAT sp. z o.o. не несе відповідальності за непрямі, випадкові, спеціальні або наслідкові збитки, зокрема втрату прибутку, затримки будівництва чи витрати на закупівлю матеріалів, що виникають через використання чи неможливість використання сервісу або покладання на створені AI-концепції."
+          },
+          {
+            "type": "heading",
+            "text": "Зберігання та експорт даних"
+          },
+          {
+            "type": "paragraph",
+            "text": "Загальні дані застосунку та історія проєктів зберігаються 1 рік, якщо користувач не видалить їх раніше."
+          },
+          {
+            "type": "paragraph",
+            "text": "Користувачі можуть експортувати остаточні матеріали проєкту, PDF-звіти на підтримуваних планах або видаляти контент і облікові записи безпосередньо в налаштуваннях облікового запису чи проєкту."
+          },
+          {
+            "type": "paragraph",
+            "text": "Записи фінансових операцій і рахунки зберігаються безстроково відповідно до вимог законодавства."
+          },
+          {
+            "type": "heading",
+            "text": "Припинення"
+          },
+          {
+            "type": "paragraph",
+            "text": "Ви можете будь-коли припинити цей договір, видаливши обліковий запис. Ми залишаємо за собою право припиняти облікові записи, які порушують ці Умови або використовуються для незаконної діяльності."
+          },
+          {
+            "type": "heading",
+            "text": "Контакти та підтримка"
+          },
+          {
+            "type": "paragraph",
+            "text": "З юридичних питань, для підтримки або запитів щодо конфіденційності звертайтеся до ACTIVECHAT sp. z o.o. Адреса: pl. Solny 15, 50-062 Wrocław, Польща. Email: hello@briller.house"
+          }
+        ]
+      }
+    ]
+  }
+}

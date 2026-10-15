@@ -1,39 +1,5 @@
 {
   "en": {
-    "terms": [
-      [
-        "1. Operator and agreement",
-        "These draft terms concern Briller.House, operated by {{operatorDetails}}. Contact: hello@briller.house. Insert [EFFECTIVE DATE], applicable law and appropriate dispute resolution after legal review."
-      ],
-      [
-        "2. Scope of the service",
-        "Briller provides AI-assisted interior-design and architectural-visualisation concepts. The marketing website explains the product; accounts, project work and billing take place in the app at build.briller.house."
-      ],
-      [
-        "3. Accounts and acceptable use",
-        "Users must have rights to uploaded photos, references, drawings and other content. Do not upload unlawful content, infringe third-party rights or misuse the service. Confirm minimum age, account-security responsibilities, suspension criteria and appeal procedures."
-      ],
-      [
-        "4. Generated concepts and safety",
-        "AI outputs may contain inaccurate dimensions, altered geometry, unsuitable products or technical suggestions. They are not approved construction documents or professional architectural, engineering or electrical advice. Verify plans with qualified professionals before purchasing or implementing anything."
-      ],
-      [
-        "5. Plans and billing",
-        "The supplied plans are Free, Explorer, Pro Design and Studio / Architect. Prices, quotas and features shown on the pricing page must match checkout. Billing and subscription management use Stripe in the app. Confirm renewal notice, payment timing, taxes, changes to prices and plan limits, and cancellation effective dates."
-      ],
-      [
-        "6. Credits",
-        "Free includes 20 iterations per month. Paid plans include a monthly credit allowance. Top-up credit packs do not expire according to the supplied product specification. Confirm operation costs, monthly-credit rollover, failed-generation deductions and treatment of unused credits on cancellation."
-      ],
-      [
-        "7. Content and commercial rights",
-        "Confirm ownership of uploads and outputs, the licence needed to process uploaded content, and any rights to display public projects. Studio / Architect includes a commercial licence in the supplied specification; define its scope and any restrictions in final terms. Product suggestions do not guarantee availability or suitability."
-      ],
-      [
-        "8. Liability, service changes and termination",
-        "Insert legally reviewed provisions addressing service availability, liability within mandatory legal limits, changes to service, termination, data export and deletion. These placeholders must not be presented as final contractual rules. Support: hello@briller.house."
-      ]
-    ],
     "refunds": [
       [
         "1. Draft status",
@@ -92,40 +58,6 @@
     ]
   },
   "uk": {
-    "terms": [
-      [
-        "1. Оператор та угода",
-        "Ці чернеткові умови стосуються Briller.House, оператор — {{operatorDetails}}. Контакти: hello@briller.house. Після юридичної перевірки додайте [ДАТА ЧИННОСТІ], застосовне право й порядок вирішення спорів."
-      ],
-      [
-        "2. Послуга",
-        "Briller надає AI-концепції дизайну інтер’єрів та архітектурної візуалізації. Маркетинговий сайт пояснює продукт; облікові записи, проєкти й оплата — у застосунку build.briller.house."
-      ],
-      [
-        "3. Облікові записи й використання",
-        "Користувач повинен мати права на завантажені фото, референси, креслення та інший контент. Забороніть незаконний контент, порушення прав і зловживання сервісом. Уточніть мінімальний вік, безпеку облікового запису, умови блокування та оскарження."
-      ],
-      [
-        "4. AI-концепції та безпека",
-        "Результати AI можуть містити неточні розміри, змінену геометрію, непридатні товари чи технічні поради. Це не затверджені будівельні документи й не професійні архітектурні, інженерні чи електротехнічні рекомендації. Перевіряйте рішення з фахівцями до купівлі чи реалізації."
-      ],
-      [
-        "5. Плани й оплата",
-        "Надані плани: Free, Explorer, Pro Design та Studio / Architect. Ціни, ліміти й можливості сайту мають відповідати checkout. Оплата й керування підпискою — через Stripe в застосунку. Підтвердьте повідомлення про поновлення, строки, податки, зміну цін і лімітів та дату скасування."
-      ],
-      [
-        "6. Кредити",
-        "Free включає 20 ітерацій на місяць. Платні плани мають місячні кредити. За специфікацією додаткові пакети не згорають. Уточніть вартість операцій, перенесення місячних кредитів, списання за невдалі генерації та долю залишку після скасування."
-      ],
-      [
-        "7. Контент і комерційні права",
-        "Підтвердьте права на завантаження й результати, ліцензію для обробки та дозвіл на показ публічних проєктів. Studio / Architect включає комерційну ліцензію за специфікацією; визначте її обсяг і обмеження. Пропозиції товарів не гарантують доступності чи придатності."
-      ],
-      [
-        "8. Відповідальність і завершення послуги",
-        "Додайте перевірені умови доступності сервісу, відповідальності в межах обов’язкового закону, змін, припинення, експорту й видалення даних. Ці заповнювачі не є остаточними договірними правилами. Підтримка: hello@briller.house."
-      ]
-    ],
     "refunds": [
       [
         "1. Статус чернетки",

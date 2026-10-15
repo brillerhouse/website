@@ -2,10 +2,14 @@ import privacy from '@/content/privacy.json';
 import { copy, href, type Locale } from '@/lib/content';
 import { privacyDateLabel, privacyEffectiveDate } from '@/lib/privacy';
 
+import { CurrentEffectiveDate } from './CurrentEffectiveDate';
+
 type PolicyBlock = { type: string; text?: string; items?: string[]; columns?: string[]; rows?: string[][] };
 
 function PolicyText({ text, locale }: { text: string; locale: Locale }) {
-  return <>{text.split(/(https?:\/\/[^\s]+|hello@briller\.house|Terms of Service|Умовах користування|build\.briller\.house|briller\.house)/g).map((part, i) => {
+  return <>{text.split(/(\[EFFECTIVE DATE\]|briller\.house\/pricing|https?:\/\/[^\s]+|hello@briller\.house|Terms of Service|Умовах користування|build\.briller\.house|briller\.house)/g).map((part, i) => {
+    if (part === '[EFFECTIVE DATE]') return <CurrentEffectiveDate key={i} locale={locale} initialDate={privacyEffectiveDate}/>;
+    if (part === 'briller.house/pricing') return <a key={i} href={href(locale, 'pricing')}>{part}</a>;
     if (part === 'hello@briller.house') return <a key={i} href={`mailto:${part}`}>{part}</a>;
     if (part === 'Terms of Service' || part === 'Умовах користування') return <a key={i} href={href(locale, 'terms')}>{part}</a>;
     if (part === 'build.briller.house' || part === 'briller.house') return <a key={i} href={`https://${part}`}>{part}</a>;
@@ -17,7 +21,7 @@ function PolicyText({ text, locale }: { text: string; locale: Locale }) {
   })}</>;
 }
 
-function Block({ block, locale }: { block: PolicyBlock; locale: Locale }) {
+export function Block({ block, locale }: { block: PolicyBlock; locale: Locale }) {
   if (block.type === 'heading') return <h3>{block.text}</h3>;
   if (block.type === 'list' && block.items) return <ul>{block.items.map((item, i) => <li key={i}><PolicyText text={item} locale={locale}/></li>)}</ul>;
   if (block.type === 'table' && block.columns && block.rows) return <div className="privacy-table-wrap" role="region" tabIndex={0} aria-label={block.columns.join(' / ')}>
