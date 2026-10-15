@@ -9,12 +9,15 @@ const details = [
   { icon: Sun, x: 26, y: 44 },
   { icon: Wrench, x: 47, y: 47 },
 ];
+const budgetLevels = ['economy', 'standard', 'premium'] as const;
+type Budget = typeof budgetLevels[number];
 
 export function BrillDemo({ locale }: { locale: Locale }) {
   const h = copy(locale).home;
   const c = h.brillDemo;
   const [active, setActive] = useState(0);
   const [expanded, setExpanded] = useState<number | null>(0);
+  const [budget, setBudget] = useState<Budget>('standard');
 
   function selectTip(index: number) {
     setActive(index);
@@ -48,9 +51,20 @@ export function BrillDemo({ locale }: { locale: Locale }) {
       <p className="eyebrow">{c.eyebrow}</p>
       <h2 id="brill-demo-heading">{c.title}</h2>
       <p className="brill-demo-intro">{c.intro}</p>
+      <fieldset className="brill-budget-selector" aria-describedby="brill-budget-description">
+        <legend>{c.budgetLabel}</legend>
+        <div className="brill-budget-choices">
+          {budgetLevels.map(level => <label key={level} className={budget === level ? 'selected' : ''}>
+            <input type="radio" name="briller-demo-budget" value={level} checked={budget === level} onChange={() => setBudget(level)}/>
+            <span>{c.budgets[level].label}</span>
+          </label>)}
+        </div>
+        <p id="brill-budget-description" aria-live="polite" aria-atomic="true"><strong>{c.budgets[budget].label}:</strong> {c.budgets[budget].description}</p>
+      </fieldset>
       <ul className="brill-advice-list">
         {c.tips.map((tip, i) => {
           const Icon = details[i].icon;
+          const recommendation = tip.budgets[budget];
           return <li key={tip.title} className={'brill-advice-card' + (active === i ? ' selected' : '')} id={`brill-advice-${i}`}>
             <h3><button className="brill-advice-select" aria-expanded={expanded === i} aria-controls={`brill-specification-${i}`} onClick={() => {
               setActive(i);
@@ -60,15 +74,11 @@ export function BrillDemo({ locale }: { locale: Locale }) {
               <span><span className="brill-advice-category">{h.strip[i]}</span><span className="brill-advice-title">{tip.title}</span></span>
               <ChevronDown className="brill-advice-chevron" size={18} aria-hidden="true"/>
             </button></h3>
-            <p>{tip.advice}</p>
+            <p className="brill-budget-recommendation"><span>{c.budgets[budget].label} · {c.specificationLabel}</span>{recommendation.specification}</p>
             <div className="brill-specification" id={`brill-specification-${i}`} hidden={expanded !== i}>
               <p className="brill-specification-label">{c.detailLabel}</p>
-              <p>{tip.detail}</p>
-              <dl className="brill-budget-options">
-                <div><dt>{c.standardLabel}</dt><dd>{tip.standard}</dd></div>
-                <div><dt>{c.saveLabel}</dt><dd>{tip.save}</dd></div>
-                <div><dt>{c.upgradeLabel}</dt><dd>{tip.upgrade}</dd></div>
-              </dl>
+              <p>{recommendation.detail}</p>
+              <p className="brill-budget-difference"><strong>{c.differenceLabel}</strong> {recommendation.difference}</p>
             </div>
           </li>;
         })}
