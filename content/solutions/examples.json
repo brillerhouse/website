@@ -1,0 +1,704 @@
+{
+  "first-room-refresh": {
+    "en": {
+      "title": "A kitchen refresh that keeps the working layout",
+      "before": "Dated cabinet fronts, a busy worktop and little light where food is prepared.",
+      "after": "Oak-tone fronts, a quieter counter and warm task lighting, with the sink and appliances in place.",
+      "keep": "Cabinet positions, window, sink and appliance locations.",
+      "advice": [
+        ["Spend on the part you use daily", "For a first project, choose one problem: a dark counter, worn fronts or clutter. Keeping sound cabinet boxes may leave more budget for that improvement than replacing the whole kitchen."],
+        ["Check what a new surface touches", "A thicker counter can affect the sink, tap and appliance clearances. Ask the fitter to check these junctions before ordering; a cosmetic brief can still create extra work."],
+        ["Try the finish beside what stays", "Put a real door and counter sample beside the existing floor in daylight and evening light. A render helps narrow the palette; the samples settle the purchase."]
+      ],
+      "check": "Ask for a quote that separates fronts, counter, lighting and fitting so you can reduce scope without losing the main improvement."
+    },
+    "uk": {
+      "title": "Оновлення кухні зі збереженням робочого планування",
+      "before": "Застарілі фасади, строката стільниця й мало світла в зоні приготування.",
+      "after": "Фасади під дуб, спокійніша стільниця й тепле робоче світло без перенесення мийки та техніки.",
+      "keep": "Розташування шаф, вікна, мийки й техніки.",
+      "advice": [
+        ["Вкладіть кошти в щоденну зручність", "Для першого проєкту оберіть одну проблему: темну стільницю, зношені фасади чи безлад. Збереження справних корпусів може залишити більше бюджету на цю зміну, ніж заміна всієї кухні."],
+        ["Перевірте суміжні деталі", "Інша товщина стільниці впливає на мийку, змішувач і зазори для техніки. Нехай монтажник перевірить стики до замовлення: навіть косметичне оновлення може додати робіт."],
+        ["Прикладіть зразки до того, що залишається", "Порівняйте справжні зразки фасаду та стільниці з наявною підлогою вдень і ввечері. Візуалізація звужує вибір, а зразки допомагають ухвалити рішення про купівлю."]
+      ],
+      "check": "Попросіть окремі суми за фасади, стільницю, світло й монтаж, щоб скоротити обсяг без втрати головного покращення."
+    }
+  },
+  "whole-home-renovation-planning": {
+    "en": {
+      "title": "One finish language across connected rooms",
+      "before": "A living room and adjoining dining area with mismatched floors and unrelated finishes.",
+      "after": "A coordinated oak-tone floor and restrained palette carried through the existing opening.",
+      "keep": "Room boundaries, connecting opening and window positions.",
+      "advice": [
+        ["Agree the shared decisions first", "Homeowners should settle flooring direction, trim and a small finish palette before buying room by room. Investors should also record which specifications can be repeated across the property."],
+        ["Sequence the hidden work", "Resolve heating, wiring and floor preparation before finishes. Ask each trade what must be complete before they arrive, especially at doorways where finished floor heights meet."],
+        ["Keep a decision register", "Record the chosen finish, supplier reference, approval and unresolved question for each room. A similar-looking render is not a shared specification or a confirmed order."]
+      ],
+      "check": "Price the whole scope with a separate allowance for unknown conditions and a practical plan for living through the work."
+    },
+    "uk": {
+      "title": "Єдина мова оздоблення для суміжних кімнат",
+      "before": "Вітальня та суміжна їдальня з різною підлогою й неузгодженими матеріалами.",
+      "after": "Узгоджена підлога під дуб і стримана палітра, що продовжується через наявний проріз.",
+      "keep": "Межі кімнат, сполучний проріз і розташування вікон.",
+      "advice": [
+        ["Спочатку узгодьте спільні рішення", "Власникам варто визначити напрям підлоги, плінтуси й невелику палітру до закупівель для окремих кімнат. Інвесторам — також зафіксувати специфікації, які повторюються в усьому об’єкті."],
+        ["Сплануйте приховані роботи", "Опалення, проводку й підготовку основи узгодьте до оздоблення. Запитайте кожного майстра про необхідні попередні роботи, особливо біля дверей, де сходяться рівні чистової підлоги."],
+        ["Ведіть перелік рішень", "Для кожної кімнати запишіть матеріал, артикул постачальника, погодження й відкриті питання. Схожі візуалізації ще не є спільною специфікацією чи підтвердженим замовленням."]
+      ],
+      "check": "Оцініть увесь обсяг, окремий резерв на невідомий стан конструкцій і реальний план проживання під час ремонту."
+    }
+  },
+  "renter-friendly-makeover": {
+    "en": {
+      "title": "A rental living room you can take with you",
+      "before": "A plain rental lounge with bare walls, harsh ceiling light and little storage.",
+      "after": "A loose rug, freestanding shelving, framed art resting on furniture and a plug-in lamp.",
+      "keep": "Paint, floor, fixed lighting, doors and all permanent fittings.",
+      "advice": [
+        ["Make portability the first filter", "Choose pieces that fit your next home too: a small shelf, washable rug and compact lamp. Measure the exit route as well as the room before buying bulky furniture."],
+        ["Read the lease before the product label", "Removable wallpaper and adhesive hooks can lift paint or leave marks. Get permission where required and follow the product's surface and removal instructions; 'removable' does not promise deposit protection."],
+        ["Plan power without permanent work", "Keep plug-in lighting near existing sockets and cords away from walking routes. Tall storage still needs its manufacturer's anti-tip measures; discuss suitable fixing with the landlord."]
+      ],
+      "check": "Photograph the room's original condition and keep any fittings you replace so the agreed move-out condition is clear."
+    },
+    "uk": {
+      "title": "Орендована вітальня, яку можна забрати із собою",
+      "before": "Порожні стіни, різке стельове світло й брак місця для речей.",
+      "after": "Килим без приклеювання, окремий стелаж, картини на меблях і лампа від розетки.",
+      "keep": "Фарба, підлога, стаціонарне світло, двері й усі постійні елементи.",
+      "advice": [
+        ["Спершу подумайте про переїзд", "Обирайте речі, що знадобляться й у наступному житлі: невеликий стелаж, килим, який можна прати, компактну лампу. Перед купівлею великих меблів виміряйте також шлях винесення."],
+        ["Договір важливіший за слово на упаковці", "Знімні шпалери й клейкі гачки можуть пошкодити фарбу або залишити слід. Отримайте потрібний дозвіл і дотримуйтеся інструкцій для поверхні та зняття: «знімний» не гарантує повернення застави."],
+        ["Продумайте живлення без переробок", "Ставте лампи біля наявних розеток і не ведіть шнури через проходи. Високим меблям усе одно потрібен захист від перекидання за інструкцією виробника; спосіб кріплення узгодьте з власником."]
+      ],
+      "check": "Сфотографуйте початковий стан і збережіть замінені деталі, щоб умови повернення житла були зрозумілими."
+    }
+  },
+  "home-office-workspace": {
+    "en": {
+      "title": "A working corner without losing the living room",
+      "before": "A laptop on a cramped side table with window glare and cables across the floor.",
+      "after": "A freestanding desk beside the window, an adjustable chair, task lamp and contained cables.",
+      "keep": "Window, living-room seating and the shared use of the room.",
+      "advice": [
+        ["Fit the person before the desk", "Remote workers need usable leg space, a chair that adjusts and a screen position that suits them. Mark the desk and chair footprint on the floor, including room to pull the chair out."],
+        ["Control glare at the working hour", "Try the screen roughly side-on to the window and check it during actual calls. A blind and a movable task lamp may help more than a brighter overhead fixture."],
+        ["Make shared space easy to reset", "Give chargers, paperwork and headphones a home. Renters can start with a freestanding desk and cable tray instead of assuming a floating desk can be fixed to the wall."]
+      ],
+      "check": "Check sockets, video-call background and the route past the occupied chair before ordering."
+    },
+    "uk": {
+      "title": "Робочий куточок зі збереженням вітальні",
+      "before": "Ноутбук на тісному столику, відблиски від вікна й дроти на підлозі.",
+      "after": "Окремий стіл біля вікна, регульоване крісло, робоча лампа й зібрані кабелі.",
+      "keep": "Вікно, місця для відпочинку та спільне призначення кімнати.",
+      "advice": [
+        ["Спершу зручність людини", "Для роботи вдома потрібні місце для ніг, регульоване крісло й відповідне положення екрана. Позначте на підлозі габарити столу та крісла, включно з місцем для його відсування."],
+        ["Перевірте відблиски в робочий час", "Спробуйте поставити екран боком до вікна й перевірте картинку під час реальних дзвінків. Штора та рухома лампа можуть допомогти більше, ніж яскравіше стельове світло."],
+        ["Залиште можливість швидко прибрати", "Визначте місця для зарядок, документів і навушників. В оренді почніть з окремого столу та лотка для кабелів, а не з припущення, що підвісний стіл можна закріпити на стіні."]
+      ],
+      "check": "До замовлення перевірте розетки, фон для відеодзвінків і прохід повз зайняте крісло."
+    }
+  },
+  "interior-designers-freelance-decorators": {
+    "en": {
+      "title": "A client concept built around the sofa they are keeping",
+      "before": "A serviceable sofa in a living room with disconnected accessories and an undecided palette.",
+      "after": "The same sofa framed by an oak accent, coordinated textiles and layered lamps.",
+      "keep": "Client's sofa, room envelope and window positions.",
+      "advice": [
+        ["Name the non-negotiables", "Designers should list retained pieces, disliked finishes and the client's spending limit before exploring. Otherwise an attractive concept can win approval by replacing the very things the client wanted to keep."],
+        ["Separate visual approval from specification", "Use the image to agree direction, then sample upholstery and finishes and check dimensions. A depicted chair is not an approved SKU, delivery date or upholstery performance rating."],
+        ["Keep feedback actionable", "Ask which change the client prefers and why: texture, contrast or lighting. Record the chosen version and unresolved substitutions so the next iteration does not reopen every decision."]
+      ],
+      "check": "Label client presentations as concepts and distinguish included design work from procurement and installation services."
+    },
+    "uk": {
+      "title": "Клієнтська концепція навколо дивана, який залишається",
+      "before": "Справний диван у вітальні з розрізненими аксесуарами й невизначеною палітрою.",
+      "after": "Той самий диван, дубовий акцент, узгоджений текстиль і кілька рівнів світла.",
+      "keep": "Диван клієнта, геометрія кімнати й розташування вікон.",
+      "advice": [
+        ["Зафіксуйте обов’язкові умови", "Дизайнеру варто записати збережені речі, неприйнятні матеріали й бюджет до пошуку ідей. Інакше приваблива концепція може сподобатися саме завдяки заміні того, що клієнт хотів залишити."],
+        ["Відокремте схвалення образу від специфікації", "Узгодьте напрям за зображенням, потім перевірте зразки тканин, матеріалів і розміри. Намальоване крісло ще не є затвердженим артикулом, строком доставки чи класом зносостійкості."],
+        ["Збирайте конкретні зауваження", "Запитайте, яка зміна подобається й чому: фактура, контраст чи світло. Збережіть обрану версію та невирішені заміни, щоб наступна ітерація не повертала обговорення до початку."]
+      ],
+      "check": "Позначайте презентації як концепції та розрізняйте дизайн, закупівлю й монтаж у складі послуги."
+    }
+  },
+  "architects-architecture-studios": {
+    "en": {
+      "title": "Make a retained column part of the concept",
+      "before": "An unfinished open room with an exposed column and visible ceiling services.",
+      "after": "A furnished concept with decorative column cladding and coordinated ceiling lighting.",
+      "keep": "Column position, structural grid, openings and visible room proportions.",
+      "advice": [
+        ["Record what the image must respect", "Architects should mark structural elements, levels, openings and required access on the measured drawing. A photograph or generated image cannot verify dimensions, even when a plan is supplied."],
+        ["Coordinate the ceiling zone", "Check service routes, access panels and the build-up needed for the proposed lighting. An elegant ceiling line should not depend on hiding equipment that still needs maintenance."],
+        ["Use the concept to resolve one decision", "Compare cladding and finish treatment while holding the structural arrangement fixed. Transfer the agreed intent back into the coordinated drawings before technical approval."]
+      ],
+      "check": "Treat cladding, fire performance and structural design as separate specifications; the image provides no engineering sign-off."
+    },
+    "uk": {
+      "title": "Збережена колона як частина концепції",
+      "before": "Незавершений відкритий простір із колоною та видимими стельовими комунікаціями.",
+      "after": "Мебльована концепція з декоративним облицюванням колони й узгодженим світлом.",
+      "keep": "Положення колони, конструктивна сітка, прорізи та видимі пропорції.",
+      "advice": [
+        ["Позначте незмінні обмеження", "Архітектору варто вказати конструкції, рівні, прорізи й доступи на обмірному кресленні. Фото та згенероване зображення не перевіряють розміри, навіть коли додано план."],
+        ["Узгодьте стельову зону", "Перевірте траси комунікацій, ревізійні люки й товщину конструкції для світла. Лаконічна стеля не має приховувати обладнання, яке потребує обслуговування."],
+        ["Використайте концепцію для одного рішення", "Порівнюйте облицювання й оздоблення без зміни конструктивної схеми. Перенесіть погоджений задум у скоординовані креслення до технічного затвердження."]
+      ],
+      "check": "Облицювання, пожежні характеристики й конструкції потребують окремих специфікацій; зображення не є інженерним погодженням."
+    }
+  },
+  "general-contractors-remodeling-companies": {
+    "en": {
+      "title": "Show the finish change before pricing the kitchen",
+      "before": "An existing kitchen with a short tile backsplash and worn work surfaces.",
+      "after": "A full-height pale slab backsplash and refreshed counter in the same cabinet layout.",
+      "keep": "Cabinet arrangement, plumbing locations and window opening.",
+      "advice": [
+        ["Turn the picture into separate scope lines", "Contractors should price demolition, substrate preparation, templating, material, transport and fitting separately. A single 'backsplash' allowance hides the items most likely to change."],
+        ["Check access before committing to slab", "Confirm delivery route, slab handling, sockets and seam positions with the fabricator. Labour and breakage risk depend on the actual piece and site, not how seamless the render looks."],
+        ["Offer a comparable lower-scope option", "Show tile or a shorter splashback with the same cabinet layout. State what each quote includes and excludes so the client compares scope rather than two unexplained totals."]
+      ],
+      "check": "Attach the chosen concept to a written scope and variation process; do not use it as a substitute for the site survey."
+    },
+    "uk": {
+      "title": "Покажіть зміну оздоблення до розрахунку кухні",
+      "before": "Наявна кухня з невисоким плитковим фартухом і зношеною стільницею.",
+      "after": "Світлий великоформатний фартух на всю висоту й нова стільниця в тому самому плануванні.",
+      "keep": "Схема шаф, місця сантехніки й віконний проріз.",
+      "advice": [
+        ["Розкладіть картинку на рядки кошторису", "Підряднику варто окремо оцінити демонтаж, основу, шаблони, матеріал, доставку й монтаж. Єдина сума за «фартух» приховує роботи, які найчастіше змінюються."],
+        ["Перевірте доступ для великого формату", "Узгодьте з виробником маршрут занесення, переміщення плити, розетки й шви. Праця та ризик пошкодження залежать від виробу й об’єкта, а не від безшовного вигляду візуалізації."],
+        ["Дайте порівнюваний простіший варіант", "Покажіть плитку або нижчий фартух з тією самою схемою шаф. Зазначте включені й виключені роботи, щоб клієнт порівнював обсяг, а не дві незрозумілі суми."]
+      ],
+      "check": "Додайте обрану концепцію до письмового обсягу та порядку погодження змін; вона не замінює огляд об’єкта."
+    }
+  },
+  "kitchen-bath-remodelers": {
+    "en": {
+      "title": "A shower finish concept with the services kept in place",
+      "before": "A dated shower with small beige tiles, tired fittings and flat lighting.",
+      "after": "Pale handmade-look tile, a coordinated shower fitting and a brighter, restrained finish palette.",
+      "keep": "Shower footprint, drain position, window and fixture wall.",
+      "advice": [
+        ["Specify the wet-area system first", "Remodelers should agree substrate, waterproofing, penetrations and drain details before selecting a decorative tile. Tile and grout alone do not create a waterproof assembly."],
+        ["Check the actual product", "Confirm that the selected handmade or handmade-look tile is suitable for its location and cleaning routine. Irregular edges affect setting time and joints; obtain the installer's waste allowance for the actual layout."],
+        ["Coordinate ventilation and lighting", "Have the appropriate trades confirm extraction, electrical zones and fixture ratings. IC rating concerns insulation contact; it does not by itself make a light suitable for a wet location."]
+      ],
+      "check": "Separate cosmetic choices from plumbing, waterproofing and ventilation work in the client proposal."
+    },
+    "uk": {
+      "title": "Концепція душової без перенесення комунікацій",
+      "before": "Застаріла душова з дрібною бежевою плиткою, зношеною арматурою й пласким світлом.",
+      "after": "Світла плитка з ремісничою фактурою, узгоджена арматура й стримана палітра.",
+      "keep": "Габарити душової, місце зливу, вікно та стіна підключень.",
+      "advice": [
+        ["Спочатку система для мокрої зони", "Фахівцю варто узгодити основу, гідроізоляцію, проходи труб і злив до вибору декоративної плитки. Плитка та затирка самі по собі не утворюють водонепроникної системи."],
+        ["Перевірте конкретний виріб", "Уточніть придатність ручної плитки або її імітації для обраного місця й догляду. Нерівні краї впливають на час укладання та шви; запас нехай розрахує майстер за реальною розкладкою."],
+        ["Узгодьте вентиляцію й світло", "Відповідні майстри мають перевірити витяжку, електричні зони й класи світильників. Маркування IC стосується контакту з утеплювачем і саме по собі не означає придатності для мокрої зони."]
+      ],
+      "check": "У пропозиції клієнту відокремте косметичні рішення від сантехніки, гідроізоляції та вентиляції."
+    }
+  },
+  "real-estate-agents-listing-prep": {
+    "en": {
+      "title": "Show how an empty room could be furnished",
+      "before": "An empty, intact living room with its original floor, windows and wall finish.",
+      "after": "The same room virtually staged with a sofa, rug, console and a modest dining setting.",
+      "keep": "All permanent features and the visible condition of the room.",
+      "advice": [
+        ["Keep the original available", "Agents should retain the unaltered photograph alongside the staged version and disclose virtual staging under the applicable listing rules. Furniture is an illustration of use, not an included item."],
+        ["Do not renovate through staging", "Keep windows, room proportions and visible defects faithful to the source. Removing a radiator or hiding damage would change what a buyer understands about the property."],
+        ["Stage for believable circulation", "Choose furniture that leaves a plausible route through the room. Check actual dimensions before using a layout to answer a buyer's question about fit."]
+      ],
+      "check": "Verify brokerage, portal and local disclosure requirements before using an edited image in a listing."
+    },
+    "uk": {
+      "title": "Покажіть можливе меблювання порожньої кімнати",
+      "before": "Порожня ціла вітальня з наявною підлогою, вікнами й оздобленням стін.",
+      "after": "Та сама кімната з віртуальними диваном, килимом, консоллю й невеликою обідньою зоною.",
+      "keep": "Усі постійні елементи й видимий стан кімнати.",
+      "advice": [
+        ["Збережіть доступ до оригіналу", "Рієлтору варто мати незмінене фото поруч із постановочним і позначати віртуальне меблювання за правилами майданчика. Меблі ілюструють використання простору, а не входять до продажу."],
+        ["Не ремонтуйте об’єкт через зображення", "Збережіть вікна, пропорції й видимі дефекти відповідно до джерела. Зникнення радіатора чи маскування пошкоджень змінює уявлення покупця про нерухомість."],
+        ["Залиште правдоподібні проходи", "Обирайте меблі, що не перекривають рух кімнатою. Перш ніж відповідати покупцю щодо розміщення, перевірте реальні габарити."]
+      ],
+      "check": "До публікації зміненого фото перевірте вимоги агентства, майданчика й місцеві правила розкриття інформації."
+    }
+  },
+  "real-estate-investors-house-flippers": {
+    "en": {
+      "title": "A cosmetic baseline for the investment decision",
+      "before": "An empty dated room with worn carpet and scuffed paint, without fabricated structural damage.",
+      "after": "A restrained repaint, oak-look LVP and a simple replacement light in the same footprint.",
+      "keep": "Room layout, doors, windows and fixture locations.",
+      "advice": [
+        ["Price repair before presentation", "Investors should inspect moisture, services and the subfloor before treating this as a cosmetic project. An image cannot establish the condition that makes the low-scope budget possible."],
+        ["Match the local market", "Compare the finish allowance with relevant local sales and rental evidence. A more premium image does not establish a higher resale value, occupancy or return."],
+        ["Cost the whole holding period", "Include disposal, preparation, trade availability and downtime alongside materials. Keep a separate scenario for findings that move the job beyond a repaint and floor replacement."]
+      ],
+      "check": "Build the acquisition or renovation decision from inspection, quotes and market evidence, with the image as a scope discussion aid."
+    },
+    "uk": {
+      "title": "Косметичний базовий варіант для інвестиційного рішення",
+      "before": "Порожня застаріла кімната зі зношеним килимовим покриттям і потертою фарбою.",
+      "after": "Стримане перефарбування, вініл під дуб і простий новий світильник у тих самих межах.",
+      "keep": "Планування, двері, вікна й місця світильників.",
+      "advice": [
+        ["Оцініть ремонт до оформлення", "Інвестору варто перевірити вологість, комунікації та основу підлоги до визначення косметичного обсягу. Зображення не підтверджує стан, за якого можливий малий бюджет."],
+        ["Зіставте рішення з місцевим ринком", "Порівняйте витрати на оздоблення з релевантними продажами й орендою поруч. Дорожчий вигляд не доводить вищої ціни продажу, завантаження чи дохідності."],
+        ["Порахуйте весь період володіння", "Додайте вивезення, підготовку, доступність майстрів і простій, а не лише матеріали. Окремо розгляньте стан, за якого фарби й заміни покриття вже недостатньо."]
+      ],
+      "check": "Спирайте інвестиційне рішення на огляд, кошториси й ринкові дані; зображення використовуйте для обговорення обсягу."
+    }
+  },
+  "property-developers": {
+    "en": {
+      "title": "Explain a proposed apartment finish package",
+      "before": "A clean unfinished apartment shell with fixed windows and an open kitchen zone.",
+      "after": "An illustrative fit-out with simple cabinetry, quartz-look worktop and a coherent living area.",
+      "keep": "Shell proportions, window positions and the kitchen service zone.",
+      "advice": [
+        ["Tie the image to a package", "Developers should identify the unit type, finish schedule and version. State which items are standard, optional upgrades or loose furniture excluded from the sale."],
+        ["Check repeatability before sales use", "Confirm supplier capacity, substitutions, installation details and service access across the unit types. A one-off visual detail may be expensive to reproduce consistently."],
+        ["Keep sales and technical documents aligned", "When a finish changes, update the schedule and the presentation together. Buyers should not have to guess whether the image or specification describes the offer."]
+      ],
+      "check": "Use an illustrative-render disclosure and have the responsible team confirm the sales specification before publication."
+    },
+    "uk": {
+      "title": "Поясніть запропонований пакет оздоблення квартири",
+      "before": "Чиста незавершена квартира з визначеними вікнами й відкритою кухонною зоною.",
+      "after": "Ілюстративне оздоблення з простими шафами, стільницею під кварц і цілісною вітальнею.",
+      "keep": "Пропорції квартири, вікна й зона кухонних підключень.",
+      "advice": [
+        ["Прив’яжіть зображення до пакета", "Девелоперу варто вказати тип квартири, відомість оздоблення й версію. Позначте стандартні позиції, платні покращення та окремі меблі, що не входять у продаж."],
+        ["Перевірте повторюваність до продажів", "Уточніть можливості постачальників, заміни, монтаж і сервісні доступи для всіх типів квартир. Окрему красиву деталь може бути дорого повторювати серійно."],
+        ["Узгоджуйте продажі з технічною документацією", "Змінюючи матеріал, одночасно оновлюйте специфікацію й презентацію. Покупець не має вгадувати, що саме описує пропозицію: картинка чи відомість."]
+      ],
+      "check": "Позначте ілюстративність візуалізації та погодьте специфікацію продажу з відповідальною командою до публікації."
+    }
+  },
+  "short-term-rental-airbnb-hosts": {
+    "en": {
+      "title": "Furnish a guest room for stays and cleaning days",
+      "before": "A sparse rental lounge with little guest storage and mismatched occasional furniture.",
+      "after": "A welcoming seating arrangement with a wipeable table, washable textiles and a luggage spot.",
+      "keep": "Room footprint, windows, doors and permanent finishes.",
+      "advice": [
+        ["Design for the turnover routine", "Hosts should check how cushions, rugs and surfaces will be cleaned or replaced. A washable cover or accessible floor under a table can matter more than a delicate statement fabric."],
+        ["Give luggage and charging a place", "Include a bag landing spot, reachable sockets and a clear route after dark. Test the room with the number of guests you actually advertise, not just the furniture shown in the image."],
+        ["Photograph what guests will receive", "Use the concept to plan purchases, then photograph the furnished room. Do not let an unbuilt design or substituted furniture create expectations the stay cannot meet."]
+      ],
+      "check": "Check replacement availability, assembly time and local rental requirements before committing the furnishing budget."
+    },
+    "uk": {
+      "title": "Облаштуйте кімнату і для гостей, і для прибирання",
+      "before": "Майже порожня орендна вітальня з розрізненими меблями й браком місця для речей гостей.",
+      "after": "Затишна зона з простим у догляді столом, текстилем для прання й місцем для валізи.",
+      "keep": "Габарити, вікна, двері й постійне оздоблення.",
+      "advice": [
+        ["Продумайте підготовку до наступного заїзду", "Власнику варто перевірити очищення й заміну подушок, килимів та поверхонь. Знімний чохол або доступ до підлоги під столом може бути кориснішим за делікатну ефектну тканину."],
+        ["Залиште місце для валіз і зарядок", "Передбачте місце для сумки, доступні розетки й вільний прохід у темряві. Перевірте кімнату для заявленої кількості гостей, а не лише для меблів на зображенні."],
+        ["Фотографуйте те, що отримає гість", "Плануйте закупівлі за концепцією, а потім сфотографуйте облаштовану кімнату. Нереалізований дизайн чи інші меблі не мають створювати хибних очікувань."]
+      ],
+      "check": "До витрат перевірте наявність запасних елементів, час складання й місцеві вимоги до оренди."
+    }
+  },
+  "try-a-design-style": {
+    "en": {
+      "title": "Try a calmer Japandi direction around your existing sofa",
+      "before": "A living room with mixed decorative pieces and a visually busy palette.",
+      "after": "The same sofa and layout with light wood, linen textures and fewer competing accents.",
+      "keep": "Sofa position, room geometry, window and flooring.",
+      "advice": [
+        ["Keep one anchor while comparing", "Homeowners and designers can hold the sofa or floor fixed across styles. That reveals which direction works with the things you own rather than with a completely replaced room."],
+        ["Translate the style into purchases", "Choose a few changes that carry the look: wood tone, textile texture and lamp shape. You do not need every object in an inspiration image to achieve a coherent direction."],
+        ["Test the daily routine", "Minimal styling still needs places for books, toys and chargers. Renters should compare portable pieces first and treat wall finishes as a separate permission decision."]
+      ],
+      "check": "This pair shows one style direction; compare further styles with the same retained items before deciding."
+    },
+    "uk": {
+      "title": "Спробуйте спокійніший Japandi навколо свого дивана",
+      "before": "Вітальня зі змішаним декором і візуально перевантаженою палітрою.",
+      "after": "Той самий диван і планування зі світлим деревом, лляними фактурами й меншою кількістю акцентів.",
+      "keep": "Положення дивана, геометрія, вікно й підлога.",
+      "advice": [
+        ["Залиште опорний елемент", "Власник або дизайнер може зберегти диван чи підлогу в усіх варіантах. Так видно, який стиль працює з наявними речами, а не з повністю заміненою кімнатою."],
+        ["Перекладіть стиль у конкретні покупки", "Оберіть кілька змін, що формують образ: тон дерева, фактуру текстилю й форму лампи. Для цілісного напряму не потрібен кожен предмет із референсу."],
+        ["Перевірте щоденний побут", "Навіть мінімалістичному інтер’єру потрібні місця для книжок, іграшок і зарядок. В оренді спочатку порівнюйте переносні речі, а стіни розглядайте як окреме питання дозволу."]
+      ],
+      "check": "Пара показує один напрям; до рішення порівняйте інші стилі зі збереженням тих самих речей."
+    }
+  },
+  "paint-wall-color-testing": {
+    "en": {
+      "title": "Change the wall colour, keep the room as the reference",
+      "before": "A living room with a cool blue wall behind a neutral sofa.",
+      "after": "The same wall in warm greige, with furniture, floor and daylight held visually consistent.",
+      "keep": "Furniture, wall boundaries, floor and lighting direction.",
+      "advice": [
+        ["Compare undertones against fixed finishes", "A greige that suits the sofa may fight the floor or trim. Compare a small shortlist against those fixed surfaces rather than choosing from an isolated colour chip."],
+        ["Use a real sample to decide", "Screens, cameras and generated images do not reproduce an exact paint colour. Test the actual product on a suitable sample area or board and inspect it in daylight and under your evening lamps."],
+        ["Budget preparation and finish", "Check cleaning, repairs, primer requirements and the sheen suitable for the room. Renters should confirm permission and any required restoration colour before painting."]
+      ],
+      "check": "Record the selected brand, colour code and sheen after the sample test; a rendered colour is not that specification."
+    },
+    "uk": {
+      "title": "Змініть колір стіни, збережіть кімнату для порівняння",
+      "before": "Вітальня з холодною блакитною стіною за нейтральним диваном.",
+      "after": "Та сама стіна в теплому сіро-бежевому тоні зі збереженням меблів, підлоги й напряму денного світла.",
+      "keep": "Меблі, межі стін, підлога й напрям освітлення.",
+      "advice": [
+        ["Зіставте підтони з постійними матеріалами", "Сіро-бежевий тон може пасувати дивану, але конфліктувати з підлогою чи лиштвами. Порівнюйте короткий список з наявними поверхнями, а не з окремою карткою кольору."],
+        ["Вирішуйте за справжнім зразком", "Екран, камера й генерація не відтворюють точний колір фарби. Перевірте реальний продукт на відповідній ділянці або щиті вдень і під вечірніми лампами."],
+        ["Врахуйте підготовку й фініш", "Перевірте очищення, ремонт, потребу в ґрунті та придатний блиск. Орендарям варто погодити дозвіл і колір відновлення до фарбування."]
+      ],
+      "check": "Після перевірки зразка запишіть бренд, код і ступінь блиску; колір на візуалізації не є такою специфікацією."
+    }
+  },
+  "lighting-design-fixture-selection": {
+    "en": {
+      "title": "Light the dining table instead of the whole ceiling",
+      "before": "An evening dining nook lit by one harsh flush-mount ceiling fixture.",
+      "after": "A warm shaded pendant over the same table, with a small background lamp for depth.",
+      "keep": "Table position, room finishes and the ceiling connection location.",
+      "advice": [
+        ["Start with the task and sightline", "Check whether diners can see one another comfortably and whether the table is evenly lit. Fixture diameter and suspension height need testing against the real table and people using it."],
+        ["Specify more than Kelvin", "A warm colour temperature does not establish brightness, glare or colour rendering. Check lamp output, shielding, colour quality and dimmer compatibility with the supplier."],
+        ["Confirm the connection", "An electrician should check box support, wiring and controls for a replacement pendant. A render can suggest placement but cannot confirm that the existing installation supports it."]
+      ],
+      "check": "Treat the pair as a mood and placement example, not a measured lighting design or a prediction of light levels."
+    },
+    "uk": {
+      "title": "Освітіть обідній стіл, а не всю стелю",
+      "before": "Вечірня обідня зона з одним різким накладним стельовим світильником.",
+      "after": "Теплий підвіс над тим самим столом і невелика фонова лампа для глибини.",
+      "keep": "Положення столу, оздоблення й місце стельового підключення.",
+      "advice": [
+        ["Почніть із задачі й погляду", "Перевірте, чи людям комфортно бачити одне одного та чи рівномірно освітлено стіл. Діаметр і висоту підвісу треба зіставити з реальним столом та його користувачами."],
+        ["Зазначте більше, ніж кельвіни", "Тепла температура не визначає яскравість, засліплення чи передачу кольору. Перевірте світловий потік, екранування, якість кольору й сумісність димера з постачальником."],
+        ["Перевірте підключення", "Електрик має оцінити опору, проводку й керування для нового підвісу. Візуалізація пропонує місце, але не підтверджує придатність наявного монтажу."]
+      ],
+      "check": "Сприймайте пару як приклад настрою й розміщення, а не розрахунок освітленості."
+    }
+  },
+  "flooring-finish-comparison": {
+    "en": {
+      "title": "See a warmer floor beneath the furniture you own",
+      "before": "A furnished living room with dark, glossy flooring.",
+      "after": "The same room with pale oak-tone planks, keeping furniture and wall colours consistent.",
+      "keep": "Furniture, walls, openings and daylight direction.",
+      "advice": [
+        ["Compare the same scope", "Use the pair to judge colour and plank direction. Then compare engineered wood, tile and LVP using actual samples; a wood-like visual does not identify a material's performance."],
+        ["Look below and at the edges", "Check subfloor flatness, moisture, finished height, doors and transitions. Ask the installer about the chosen product's expansion and underfloor-heating requirements."],
+        ["Include the household and the building", "Pets, cleaning, wet shoes and apartment sound rules can change the choice. Designers should confirm the complete floor and underlay assembly, not infer acoustic performance from a finish."]
+      ],
+      "check": "Get an installed quote including preparation, trims, waste and disposal before comparing material prices."
+    },
+    "uk": {
+      "title": "Побачте теплішу підлогу під своїми меблями",
+      "before": "Мебльована вітальня з темною глянцевою підлогою.",
+      "after": "Та сама кімната зі світлими планками під дуб без зміни меблів і кольору стін.",
+      "keep": "Меблі, стіни, прорізи й напрям денного світла.",
+      "advice": [
+        ["Порівнюйте однаковий обсяг", "За парою оцініть колір і напрям планок. Далі порівняйте інженерну дошку, плитку й вініл за реальними зразками: вигляд дерева не визначає властивостей матеріалу."],
+        ["Подивіться під покриття й на стики", "Перевірте рівність, вологість, чистову висоту, двері й переходи. Уточніть у монтажника вимоги конкретного виробу до зазорів і теплої підлоги."],
+        ["Врахуйте побут і будинок", "Тварини, прибирання, мокре взуття та вимоги до шуму можуть змінити вибір. Дизайнеру слід перевірити всю конструкцію з підкладкою, а не виводити акустику з вигляду."]
+      ],
+      "check": "До порівняння цін матеріалу отримайте суму з підготовкою, профілями, запасом і вивезенням."
+    }
+  },
+  "kitchen-surfaces": {
+    "en": {
+      "title": "Choose cabinet, counter and backsplash as one palette",
+      "before": "A kitchen where dark fronts, a busy counter and patterned tile compete.",
+      "after": "Oak-tone fronts, a pale counter and a quieter tile backsplash in the same layout.",
+      "keep": "Cabinet footprint, appliances, sink and window.",
+      "advice": [
+        ["Choose the visual lead", "Let one surface carry the strongest pattern and keep the others quieter. Compare all three physical samples together with the floor, not as separate showroom decisions."],
+        ["Coordinate joints before orders", "Remodelers should check counter thickness, backsplash build-up, socket depth and exposed edges. Confirm templating and fitting sequence with the cabinet and counter teams."],
+        ["Test the maintenance routine", "A textured tile or honed surface may need a different cleaning routine. Check heat, stain and sealing instructions for the exact product before matching it to a busy household."]
+      ],
+      "check": "Approve samples and edge details together; the image cannot establish an exact stone pattern or tile batch."
+    },
+    "uk": {
+      "title": "Оберіть фасади, стільницю й фартух як єдину палітру",
+      "before": "Кухня, де темні фасади, строката стільниця й візерункова плитка конкурують.",
+      "after": "Фасади під дуб, світла стільниця й спокійніший фартух у тому самому плануванні.",
+      "keep": "Межі шаф, техніка, мийка й вікно.",
+      "advice": [
+        ["Визначте головний акцент", "Нехай найвиразніший візерунок буде на одній поверхні, а інші — спокійніші. Порівняйте три справжні зразки разом із підлогою, а не окремо в салонах."],
+        ["Узгодьте стики до замовлень", "Майстрам варто перевірити товщину стільниці, шар фартуха, глибину розеток і відкриті торці. Погодьте шаблони та черговість із виробниками шаф і стільниці."],
+        ["Перевірте щоденний догляд", "Фактурна плитка чи матова поверхня можуть вимагати іншого очищення. Перевірте стійкість до тепла, плям і потребу в захисті саме обраного виробу."]
+      ],
+      "check": "Погодьте зразки й торці разом; зображення не гарантує точного рисунка каменю чи партії плитки."
+    }
+  },
+  "fireplace-mantel-redesign": {
+    "en": {
+      "title": "Refresh the surround without changing the firebox",
+      "before": "A red-brick fireplace surround with a heavy dated mantel.",
+      "after": "A lighter surround finish and simpler timber mantel, with the firebox and hearth retained.",
+      "keep": "Firebox opening, hearth footprint and adjoining room.",
+      "advice": [
+        ["Identify the appliance first", "Clearances and suitable materials depend on the actual fireplace and its instructions. Homeowners should identify the model before choosing a timber shelf or decorative coating."],
+        ["Keep finishes out of the wrong zone", "A painted outer surround is different from coating a firebox. Have a qualified installer confirm heat suitability, combustible clearances and that vents remain unobstructed."],
+        ["Check support before adding weight", "A heavy new cladding or mantel needs an assessed fixing and support detail. Compare a lighter cosmetic treatment before assuming a stone re-clad is a simple finish swap."]
+      ],
+      "check": "Confirm the proposed finish and mantel against the appliance instructions before purchasing or fitting."
+    },
+    "uk": {
+      "title": "Оновіть обрамлення без зміни топки",
+      "before": "Червоноцегляне обрамлення каміна з масивною застарілою полицею.",
+      "after": "Світліше обрамлення й простіша дерев’яна полиця зі збереженням топки та поду.",
+      "keep": "Проріз топки, межі поду й суміжна кімната.",
+      "advice": [
+        ["Спершу визначте тип каміна", "Відступи й матеріали залежать від конкретного приладу та його інструкції. Перед дерев’яною полицею чи декоративним покриттям власнику варто встановити модель."],
+        ["Не застосовуйте оздоблення не за призначенням", "Фарбування зовнішнього обрамлення відрізняється від покриття топки. Кваліфікований монтажник має перевірити термостійкість, відстані до горючих матеріалів і відкритість вентиляції."],
+        ["Перевірте опору до додавання ваги", "Важкому облицюванню або полиці потрібне перевірене кріплення. Порівняйте легший косметичний варіант, перш ніж вважати камінь простою заміною покриття."]
+      ],
+      "check": "Перед купівлею й монтажем звірте оздоблення та полицю з інструкцією каміна."
+    }
+  },
+  "closet-built-in-storage-redesign": {
+    "en": {
+      "title": "Give each kind of clothing its own usable space",
+      "before": "A reach-in closet with one high rail, a crowded shelf and shoes on the floor.",
+      "after": "A fitted arrangement of hanging sections, drawers and adjustable shelves in the same opening.",
+      "keep": "Closet opening, walls and door arrangement.",
+      "advice": [
+        ["Inventory before drawing shelves", "Count long coats, folded items, shoes and bulky bags. Design storage around their measured sizes and how often they are used rather than filling the image with identical decorative boxes."],
+        ["Check doors and reach", "Measure the usable opening with doors in place. Drawers must open without hitting tracks or adjacent doors, and everyday shelves should be reachable by the person using them."],
+        ["Specify fixings and service access", "Designers should check wall construction, product load limits and access to sockets or panels. Do not treat an illustrated shelf span as a load rating."]
+      ],
+      "check": "Ask for a dimensioned layout and the selected system's fixing instructions before placing a custom order."
+    },
+    "uk": {
+      "title": "Виділіть зручне місце для кожного типу одягу",
+      "before": "Шафа-ніша з однією високою штангою, переповненою полицею й взуттям на підлозі.",
+      "after": "Секції для вішання, шухляди й регульовані полиці в тому самому прорізі.",
+      "keep": "Проріз шафи, стіни й схема дверей.",
+      "advice": [
+        ["Перерахуйте речі до креслення", "Порахуйте довгі пальта, складений одяг, взуття й великі сумки. Плануйте за їхніми розмірами та частотою використання, а не за однаковими декоративними коробками."],
+        ["Перевірте двері й досяжність", "Виміряйте корисний проріз із установленими дверима. Шухляди не мають упиратися в напрямні чи сусідні двері, а щоденні полиці — бути зависоко для користувача."],
+        ["Уточніть кріплення й доступи", "Дизайнеру варто перевірити стіни, допустимі навантаження й доступ до розеток або щитків. Проліт полиці на картинці не є її несучою характеристикою."]
+      ],
+      "check": "До індивідуального замовлення отримайте розмірну схему й інструкцію кріплення обраної системи."
+    }
+  },
+  "small-space-studio-apartment-layout": {
+    "en": {
+      "title": "Separate sleeping and working without adding a wall",
+      "before": "A studio with a bed, desk and table competing in the centre of one room.",
+      "after": "A daybed along one wall, a slim dining table and an open shelf defining a work corner.",
+      "keep": "Room envelope, entry, kitchenette and window.",
+      "advice": [
+        ["Test every daily position", "Measure the layout with chairs pulled out and the bed in use. A route that works only when everything is folded away is not an everyday circulation plan."],
+        ["Zone without stealing daylight", "Use furniture height, rugs and light to separate activities. Keep the window and exit accessible; an open divider may preserve more light than a full-height solid partition."],
+        ["Choose the right level of installation", "Renters can start with freestanding pieces. A wall bed or tall divider requires the manufacturer's mounting and anti-tip measures, with permission and a suitable wall where necessary."]
+      ],
+      "check": "Measure the delivery route and check the full operating footprint of each moving or folding item."
+    },
+    "uk": {
+      "title": "Відокремте сон і роботу без нової стіни",
+      "before": "У студії ліжко, робочий і обідній столи конкурують у центрі кімнати.",
+      "after": "Диван-ліжко біля стіни, вузький обідній стіл і відкритий стелаж біля робочого куточка.",
+      "keep": "Межі кімнати, вхід, кухонна зона й вікно.",
+      "advice": [
+        ["Перевірте всі щоденні положення", "Виміряйте план із відсунутими стільцями та розкладеним ліжком. Прохід, що працює лише зі складеними меблями, не є повсякденним рішенням."],
+        ["Зонуйте без втрати світла", "Розділяйте функції висотою меблів, килимами й світлом. Залишайте доступ до вікна та виходу; відкритий стелаж може пропускати більше світла, ніж суцільна перегородка."],
+        ["Оберіть потрібний рівень монтажу", "Орендарі можуть почати з окремих меблів. Ліжко-трансформер або високий розділювач потребують кріплення й захисту від перекидання за інструкцією, дозволу та придатної стіни, де це потрібно."]
+      ],
+      "check": "Виміряйте шлях доставки й повні робочі габарити кожного рухомого або складаного предмета."
+    }
+  },
+  "nursery-kids-room-design": {
+    "en": {
+      "title": "A nursery organised around care, sleep and clear access",
+      "before": "A spare room with storage boxes, a desk and no clear night-time route.",
+      "after": "A nursery with a bare cot away from the window, a glider, low storage and gentle lighting.",
+      "keep": "Room shape, door and window positions.",
+      "advice": [
+        ["Plan the night-time routine", "Parents should test the route between the door, cot and changing area with one hand occupied. Keep supplies reachable by the adult without placing them where a child can pull them down."],
+        ["Keep the sleep space simple", "Follow current local safe-sleep guidance and the cot manufacturer's instructions. Decorative bedding, toys and accessories in a concept are not instructions for an occupied sleep space; this example uses a bare cot."],
+        ["Check the room as the child grows", "Anchor furniture as instructed, manage cords and keep the cot away from window coverings. Check actual product recalls and suitability; an image cannot certify child safety."]
+      ],
+      "check": "Verify clearances, product guidance and a reachable low-level light before ordering furniture."
+    },
+    "uk": {
+      "title": "Дитяча з продуманим доглядом, сном і вільним доступом",
+      "before": "Запасна кімната з коробками, столом і незручним нічним проходом.",
+      "after": "Дитяча з порожнім ліжечком подалі від вікна, кріслом, низьким зберіганням і м’яким світлом.",
+      "keep": "Форма кімнати, положення дверей і вікна.",
+      "advice": [
+        ["Продумайте нічний догляд", "Батькам варто перевірити шлях між дверима, ліжечком і місцем сповивання з однією зайнятою рукою. Речі мають бути доступні дорослому, але не розміщені так, щоб дитина могла їх стягнути."],
+        ["Залиште місце сну простим", "Дотримуйтеся актуальних місцевих рекомендацій безпечного сну й інструкції ліжечка. Декоративна постіль та іграшки в концепціях не є настановою для сну; у цьому прикладі ліжечко порожнє."],
+        ["Перевірте кімнату на виріст", "Закріпіть меблі за інструкцією, впорядкуйте шнури й відсуньте ліжечко від віконних завіс. Перевірте відкликання й придатність виробів: зображення не сертифікує безпеку дитини."]
+      ],
+      "check": "Перед замовленням перевірте відступи, інструкції виробів і доступне слабке нічне світло."
+    }
+  },
+  "home-gym-conversion": {
+    "en": {
+      "title": "A modest training room with space to move",
+      "before": "A spare room used for boxes with little clear floor area.",
+      "after": "A bench, compact dumbbell rack and mat area on rubber flooring, with open circulation.",
+      "keep": "Door, windows, ceiling and the room footprint.",
+      "advice": [
+        ["Draw the movement envelope", "Homeowners should allow for arms, bench adjustment and getting on and off equipment. Use the exact manufacturer's operating clearances, not just the machine's parked dimensions."],
+        ["Check loading and noise separately", "Rubber flooring does not verify the floor structure or eliminate vibration below. Heavy equipment, dropped weights and upper-floor use need assessment appropriate to the building."],
+        ["Keep air and access usable", "Leave ventilation, sockets and the exit clear. Check mirror fixing and equipment assembly routes before ordering large pieces; a realistic-looking fit is not a measurement."]
+      ],
+      "check": "Confirm floor suitability and actual clearances for the selected equipment before buying."
+    },
+    "uk": {
+      "title": "Невелика тренувальна кімната з місцем для руху",
+      "before": "Запасна кімната з коробками й майже без вільної підлоги.",
+      "after": "Лава, компактна стійка гантелей і зона килимка на гумовому покритті з вільним проходом.",
+      "keep": "Двері, вікна, стеля й габарити кімнати.",
+      "advice": [
+        ["Накресліть простір руху", "Власнику варто врахувати руки, регулювання лави й посадку на тренажер. Використовуйте робочі відступи виробника, а не лише габарити обладнання в нерухомому стані."],
+        ["Окремо перевірте навантаження й шум", "Гумове покриття не підтверджує міцність перекриття й не усуває вібрацію знизу. Важке обладнання, падіння ваги й верхні поверхи потребують оцінки відповідно до будинку."],
+        ["Збережіть повітря й доступ", "Не перекривайте вентиляцію, розетки та вихід. До купівлі перевірте кріплення дзеркал і маршрут складання великих речей: правдоподібний вигляд не є обміром."]
+      ],
+      "check": "До купівлі підтвердьте придатність підлоги й реальні відступи для обраного обладнання."
+    }
+  },
+  "open-concept-wall-removal": {
+    "en": {
+      "title": "Explore the sightline through a proposed wider opening",
+      "before": "A kitchen and dining room separated by a wall with a narrow doorway.",
+      "after": "A concept of a wider opening with a visible overhead beam, connecting the same rooms.",
+      "keep": "Outer walls, windows and the rooms on either side of the proposed opening.",
+      "advice": [
+        ["Separate appeal from feasibility", "Homeowners can use the view to decide whether to investigate. It does not establish load-bearing status, beam size or whether the opening is permitted."],
+        ["Survey what the wall contains", "Architects and contractors should check services, supports above and below, and effects on fire separation. A convincing open view can omit the work that drives the scope."],
+        ["Budget the junctions too", "Include floor infill, ceiling repairs, lighting changes and the finish around any retained post or beam. Compare a smaller opening if it delivers the sightline with a different assessed scope."]
+      ],
+      "check": "Obtain the required structural assessment, coordinated details and local approvals before any demolition."
+    },
+    "uk": {
+      "title": "Дослідіть вид через запропонований ширший проріз",
+      "before": "Кухня та їдальня розділені стіною з вузькими дверима.",
+      "after": "Концепція ширшого прорізу з видимою верхньою балкою між тими самими кімнатами.",
+      "keep": "Зовнішні стіни, вікна й кімнати по обидва боки запропонованого прорізу.",
+      "advice": [
+        ["Відокремте привабливість від здійсненності", "Власник може вирішити, чи варто досліджувати ідею. Вид не визначає несучу функцію стіни, розмір балки чи допустимість прорізу."],
+        ["Обстежте вміст стіни", "Архітектору й підряднику слід перевірити комунікації, опори вище та нижче й вплив на протипожежне розділення. Переконливий відкритий вид може приховувати головні витрати."],
+        ["Врахуйте суміжне оздоблення", "Додайте вставку підлоги, ремонт стелі, світло й оздоблення збереженої стійки чи балки. Порівняйте менший проріз, якщо він дає потрібний вид за іншого перевіреного обсягу."]
+      ],
+      "check": "До демонтажу отримайте потрібну оцінку конструкцій, узгоджені вузли й місцеві погодження."
+    }
+  },
+  "basement-garage-conversion": {
+    "en": {
+      "title": "Turn a dry unfinished basement into a working room concept",
+      "before": "An unfinished basement with exposed joists, a small high window and stored boxes.",
+      "after": "An office concept with finished walls, modest flooring and accessible boxed services.",
+      "keep": "Ceiling height, window position, stair access and service locations.",
+      "advice": [
+        ["Resolve suitability before finishes", "Homeowners and investors should establish moisture condition, ventilation and intended-use requirements first. The example assumes a dry space; it does not demonstrate habitability or sleeping-room compliance."],
+        ["Keep maintenance access", "Contractors should locate valves, electrical equipment and cleanouts before designing enclosures. Finished walls and ceilings must not make routine servicing impractical."],
+        ["Price the actual conversion type", "A basement office and a garage conversion have different envelope, fire, access and service questions. For a garage, also investigate the slab and any vehicle-related contamination before selecting finishes."]
+      ],
+      "check": "Confirm local use, height, insulation and access requirements with the responsible professionals before the fit-out."
+    },
+    "uk": {
+      "title": "Концепція робочої кімнати в сухому незавершеному підвалі",
+      "before": "Неоздоблений підвал із відкритими балками, малим високим вікном і коробками.",
+      "after": "Кабінет з оздобленими стінами, простою підлогою й доступними коробами комунікацій.",
+      "keep": "Висота стелі, вікно, доступ зі сходів і розміщення комунікацій.",
+      "advice": [
+        ["Перевірте придатність до оздоблення", "Власнику й інвестору спершу варто встановити стан вологості, вентиляції та вимоги до призначення. Приклад припускає сухе приміщення й не підтверджує придатність для проживання чи спальні."],
+        ["Збережіть сервісний доступ", "До коробів і обшивки підряднику слід знайти вентилі, електрообладнання й ревізії. Оздоблені стіни та стеля не мають ускладнювати обслуговування."],
+        ["Оцінюйте конкретний тип переобладнання", "Кабінет у підвалі й гараж мають різні питання огороджень, пожежної безпеки, доступу та мереж. Для гаража також перевірте плиту й можливі забруднення від автомобіля."]
+      ],
+      "check": "До облаштування узгодьте місцеві вимоги до використання, висоти, утеплення й доступу з відповідальними фахівцями."
+    }
+  },
+  "exterior-curb-appeal": {
+    "en": {
+      "title": "Refresh the facade without disguising a different building",
+      "before": "A modest house with faded siding colour, tired entry lighting and sparse planting.",
+      "after": "A muted green repaint, a contrasting entry door and restrained planting on the same facade.",
+      "keep": "Roof shape, siding profile, doors, windows and path.",
+      "advice": [
+        ["Test colour against the roof", "Homeowners should sample the actual coating beside the roof, stone and neighbouring finishes. View it in sun and shade; the image does not establish an exact outdoor colour."],
+        ["Inspect before calling it a repaint", "Check the substrate and coating compatibility. Agents and investors should keep a cosmetic repaint separate from repairing failed siding, flashing or moisture damage."],
+        ["Check approvals and maintenance", "Review local or association restrictions and the preparation cycle for the chosen system. Outdoor lights also need suitable ratings and an installation check."]
+      ],
+      "check": "Use a repair survey and a preparation-inclusive quote to distinguish repainting from replacement siding."
+    },
+    "uk": {
+      "title": "Оновіть фасад, не підміняючи сам будинок",
+      "before": "Невеликий будинок із вицвілим сайдингом, старим світлом біля входу й малою кількістю рослин.",
+      "after": "Приглушене зелене фарбування, контрастні двері й стримані насадження на тому самому фасаді.",
+      "keep": "Форма даху, профіль сайдингу, двері, вікна й доріжка.",
+      "advice": [
+        ["Перевірте колір поруч із дахом", "Власнику варто випробувати справжнє покриття біля даху, каменю й сусідніх матеріалів. Подивіться на сонці та в тіні: картинка не встановлює точного зовнішнього кольору."],
+        ["Огляньте стан до перефарбування", "Перевірте основу й сумісність покриття. Рієлторам та інвесторам варто відділяти косметичну фарбу від ремонту пошкодженого сайдингу, примикань чи вологи."],
+        ["Врахуйте дозволи й догляд", "Перегляньте місцеві обмеження та вимоги до підготовки обраної системи. Зовнішнім світильникам потрібні відповідні класи й перевірка монтажу."]
+      ],
+      "check": "За оглядом і кошторисом із підготовкою розрізніть перефарбування та заміну облицювання."
+    }
+  },
+  "backyard-outdoor-living-redesign": {
+    "en": {
+      "title": "Define a seating area before adding a bigger structure",
+      "before": "A plain backyard with lawn, a small worn paved area and no clear place to gather.",
+      "after": "A defined paved seating area with outdoor furniture, planters and a freestanding shade umbrella.",
+      "keep": "House wall, boundary fence, doorway and yard footprint.",
+      "advice": [
+        ["Start with sun and use", "Homeowners and designers should check where shade falls at the hours the space will be used. Mark furniture on the ground and leave room to pull chairs out and reach the door."],
+        ["Plan drainage before the surface", "Have the patio levels, falls and drainage checked against the house and boundaries. Attractive paving cannot correct an unsuitable base or water directed toward the building."],
+        ["Choose for the local climate", "Confirm outdoor suitability, storage needs and wind limits for furniture and shade products. If the concept grows into a deck or pergola, investigate structure and permits as a separate scope."]
+      ],
+      "check": "Compare the installed patio scope with a deck proposal, including base work, drainage and maintenance."
+    },
+    "uk": {
+      "title": "Визначте зону відпочинку до великої споруди",
+      "before": "Простий двір із газоном, малою зношеною мощеною ділянкою й без місця для компанії.",
+      "after": "Мощена зона з вуличними меблями, кашпо й окремою сонцезахисною парасолею.",
+      "keep": "Стіна будинку, огорожа, двері й межі двору.",
+      "advice": [
+        ["Почніть із сонця й сценарію", "Власнику й дизайнеру варто перевірити тінь у години використання. Позначте меблі на землі й залиште місце для відсування стільців та проходу до дверей."],
+        ["Спочатку водовідведення", "Перевірте рівні, ухили й дренаж патіо відносно будинку та меж. Гарне мощення не виправляє непридатної основи чи води, спрямованої до будівлі."],
+        ["Обирайте для місцевого клімату", "Уточніть придатність меблів до вулиці, зберігання й обмеження за вітром для затінення. Тераса чи пергола додають окремі питання конструкцій і дозволів."]
+      ],
+      "check": "Порівняйте повну вартість патіо з терасою, включно з основою, водовідведенням і доглядом."
+    }
+  },
+  "airbnb-turnover-refresh": {
+    "en": {
+      "title": "A between-bookings refresh that keeps the furniture",
+      "before": "A furnished guest lounge with tired cushions, dated wall art and cool light.",
+      "after": "The same sofa, tables and layout with fresh washable covers, new art and warmer lamps.",
+      "keep": "All major furniture, its placement and the permanent finishes.",
+      "advice": [
+        ["Set a turnaround-sized scope", "Hosts should choose work that can be completed, cleaned and checked before check-in. Keep paint, deliveries and assembly out of a short turnover unless there is real time for them."],
+        ["Buy replacements, not one-off props", "Use washable covers, robust frames and readily available bulbs. Keep a small stock of matching consumables so the look survives the first stain or breakage."],
+        ["Update the actual listing photo", "Photograph the finished refresh after it is installed. Keep room size, sleeping capacity and amenities accurate; an accent change does not justify promising a different stay."]
+      ],
+      "check": "Make a room reset checklist and confirm every new item is installed before the next guest arrives."
+    },
+    "uk": {
+      "title": "Оновлення між заїздами зі збереженням меблів",
+      "before": "Мебльована гостьова вітальня зі зношеними подушками, старим декором і холодним світлом.",
+      "after": "Ті самі диван, столи й планування зі свіжими чохлами для прання, новими картинами й теплішими лампами.",
+      "keep": "Усі основні меблі, їхнє положення й постійне оздоблення.",
+      "advice": [
+        ["Оберіть обсяг під час між заїздами", "Власнику варто брати лише те, що можна завершити, прибрати й перевірити до заселення. Не включайте фарбу, доставку й складання в короткий проміжок без реального запасу часу."],
+        ["Купуйте замінні речі, а не реквізит", "Використовуйте чохли для прання, міцні рами й доступні лампи. Невеликий запас однакових витратних речей збереже образ після першої плями чи поломки."],
+        ["Оновіть справжнє фото оголошення", "Сфотографуйте кімнату після завершення. Точно вказуйте розмір, спальні місця й зручності: нові акценти не дають підстав обіцяти інший рівень проживання."]
+      ],
+      "check": "Складіть перелік перевірки кімнати й переконайтеся, що все встановлено до приїзду наступного гостя."
+    }
+  }
+}

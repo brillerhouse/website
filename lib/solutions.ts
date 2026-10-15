@@ -1,6 +1,8 @@
 import en from '@/content/solutions/en.json';
 import uk from '@/content/solutions/uk.json';
 import navigation from '@/content/solutions/navigation.json';
+import examples from '@/content/solutions/examples.json';
+import media from '@/content/solutions/media.json';
 import { href, Locale, site } from './content';
 
 export type Solution = typeof en.pages[number];
@@ -8,6 +10,11 @@ export type SolutionsLabels = typeof en.hub;
 export const solutionCopy = (locale: Locale): typeof en => locale === 'uk' ? uk : en;
 export const solutionNavigation = navigation;
 export const solutionSlugs = en.pages.map(page => page.slug);
+export function solutionExample(locale: Locale, slug: string) {
+  if (!Object.hasOwn(examples, slug)) throw new Error(`Missing solution example: ${slug}`);
+  const key = slug as keyof typeof examples;
+  return { ...examples[key][locale], image: media[key] };
+}
 export const solutionHref = (locale: Locale, slug = '') => href(locale, 'solutions' + (slug ? '/' + slug : ''));
 export const findSolution = (locale: Locale, slug: string) => solutionCopy(locale).pages.find(page => page.slug === slug);
 export const solutionPaths = ['solutions', ...solutionSlugs.map(slug => 'solutions/' + slug)];

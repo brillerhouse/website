@@ -47,10 +47,10 @@
   "pages": [
     {
       "slug": "first-room-refresh",
-      "title": "See Your Kitchen Three Ways Before You Touch a Wall",
-      "intro": "Upload one room, describe the direction, and see it before you spend a dollar on it.",
+      "title": "See Your First Room Refresh Before You Commit",
+      "intro": "Upload one room, describe the direction, and explore a focused refresh before buying materials. The kitchen below is one example.",
       "problemTitle": "Not Sure a New Look Is Worth the Cost of Finding Out?",
-      "problem": "Committing to a full redo on a hunch is how \"small refresh\" turns into \"took out a loan.\" Most of that risk disappears once you can actually see the direction first.",
+      "problem": "A small refresh can grow when finishes and scope are undecided. Explore what paint, hardware or a surface change could do, then check the actual work and cost before committing.",
       "pains": [
         "A color or material you loved in a showroom that looked completely different at home",
         "A contractor quote that assumes a finish you never actually confirmed you wanted",
@@ -61,7 +61,7 @@
       "benefits": [
         [
           "One Room, Real Constraints",
-          "Briller works from your actual kitchen, not a generic layout"
+          "Start from your actual room; the kitchen is an example, not the only room you can refresh."
         ],
         [
           "Plain-Language Brief",
@@ -75,7 +75,7 @@
       "steps": [
         [
           "Upload Your Room",
-          "one photo of the kitchen as it is today"
+          "one photo of the room as it is today"
         ],
         [
           "Describe the Direction",
@@ -133,11 +133,11 @@
         "try-a-design-style",
         "whole-home-renovation-planning"
       ],
-      "note": "This level of detail is part of Pro Design — Explorer gives you Smart Sparks, Briller's faster, plainer-language pointers, not a full materials breakdown. Renders assume your existing cabinet boxes and layout stay put; anything involving moving plumbing or walls needs Pro Design's fuller notes at minimum, plus a contractor.",
+      "note": "The kitchen example keeps existing cabinet boxes and layout. Explorer includes basic Smart Sparks; Pro Design and Studio / Architect include full Briller Insights. Moving plumbing or walls changes the scope and needs the appropriate professional assessment, regardless of your plan.",
       "faqs": [
         [
-          "Does this work if my kitchen is already fully furnished?",
-          "Yes — Briller works from the room as it is, furniture and all."
+          "Does this work if my room is already fully furnished?",
+          "Yes — start from the room as it is, furniture and all. Name the pieces you want to keep."
         ],
         [
           "How many directions can I try?",
@@ -182,7 +182,7 @@
         ],
         [
           "Unlimited Projects",
-          "nothing capped while you're mid-renovation"
+          "unlimited projects on Pro Design and Studio / Architect; generation remains subject to your available credits"
         ],
         [
           "HD, Contractor-Ready Downloads",
@@ -222,7 +222,7 @@
         ],
         [
           "Installation & Engineering Notes",
-          "Wide-plank engineered flooring floats over most subfloors — but if underfloor heating is part of the plan, get that spec'd before you buy the flooring, not after."
+          "The floor product and subfloor determine whether floating or glue-down installation is suitable. Confirm underfloor-heating compatibility, moisture and preparation before ordering."
         ]
       ],
       "directions": [
@@ -278,7 +278,7 @@
     },
     {
       "slug": "renter-friendly-makeover",
-      "title": "Make It Feel Like Yours Without Losing the Deposit",
+      "title": "Make Your Rental Feel Like Yours With Reversible Changes",
       "intro": "Upload the room, describe the direction, explore reversible changes to discuss with your landlord.",
       "problemTitle": "Want the Place to Feel Like Yours Without Losing the Deposit?",
       "problem": "Most design inspiration assumes you can paint, drill, and renovate freely — a renter's actual constraint is usually the opposite, and most tools don't design around that at all.",
@@ -292,11 +292,11 @@
       "benefits": [
         [
           "Reversible-Only Direction",
-          "every suggestion is designed to come down cleanly"
+          "explore portable or removable options, subject to the product instructions and your lease"
         ],
         [
-          "Landlord-Safe Materials Named",
-          "command hooks, removable wallpaper, no drilling, stated explicitly"
+          "Permission and Surface Checks",
+          "check adhesive products, wall finishes and any required landlord permission before installing"
         ],
         [
           "Real Room, Real Constraints",
@@ -340,7 +340,7 @@
         ],
         [
           "Installation & Engineering Notes",
-          "Every item here is reversible or landlord-safe — no drilling, no permanent alteration, and no assumption that hardwired lighting can be changed."
+          "Start with freestanding pieces and plug-in lighting. Adhesive hooks and removable wallpaper can still mark a surface; check the lease, product instructions and wall condition. Tall furniture may require approved anti-tip fixing."
         ]
       ],
       "directions": [
@@ -444,7 +444,7 @@
       "advice": [
         [
           "Materials & Composition",
-          "Wall-mounted floating desk, white oak, 120cm"
+          "A freestanding desk is the starting option; a 120cm white-oak floating desk is an alternative only where the wall and permitted fixing are suitable."
         ],
         [
           "Lighting & Ambiance",
@@ -589,11 +589,11 @@
         "closet-built-in-storage-redesign",
         "architects-architecture-studios"
       ],
-      "note": "If a render is going in front of a paying client or into work you're commercially licensing, confirm your plan actually covers that use before you deliver it — don't assume it from the subscription tier alone.",
+      "note": "All paid plans include commercial licensing. Check the current licence terms for client delivery, and keep concept approval separate from product selection, procurement and construction documentation.",
       "faqs": [
         [
-          "Can I use the Community Gallery as a moodboard source?",
-          "Yes — save references as an image, then add it to your project manually."
+          "Can I use the Inspiration gallery as a moodboard source?",
+          "Yes — download a curated reference and add it to your project manually. These are references, not verified customer renders."
         ],
         [
           "How many iterations can one client project have?",
@@ -621,7 +621,7 @@
     {
       "slug": "architects-architecture-studios",
       "title": "Start From the Actual Floor Plan, Not a Guess at One",
-      "intro": "Upload blueprints alongside the room photo — dimensions and constraints inform the render, not just the finish.",
+      "intro": "Upload the room photo and available plans to explain the footprint and constraints. Use the concept for discussion, then verify it against measured drawings.",
       "problemTitle": "Tired of Renders That Ignore Your Actual Floor Plan?",
       "problem": "Most AI visualization tools generate a plausible-looking room with no relationship to your actual dimensions — fine for inspiration, useless for a client conversation about a real project.",
       "pains": [
@@ -634,7 +634,7 @@
       "benefits": [
         [
           "Blueprint-Aware Generation",
-          "dimensions and constraints shape the render"
+          "supplied plans add context; verify all generated proportions against the measured design"
         ],
         [
           "Briller Insights",
@@ -674,7 +674,7 @@
       "advice": [
         [
           "Materials & Composition",
-          "4\" structural steel column, clad in blackened steel panel"
+          "Existing structural column with decorative blackened-steel cladding; confirm its actual size and the cladding build-up on site."
         ],
         [
           "Lighting & Ambiance",
@@ -706,7 +706,7 @@
         "general-contractors-remodeling-companies",
         "property-developers"
       ],
-      "note": "A render that ignores your blueprint's dimensions can look great and still be unbuildable in the actual footprint — that gap is the reason this page exists, not the finish. A blueprint can add dimensional context to a concept; it's a concept aid for client conversations, not a stamped structural determination.",
+      "note": "A blueprint can add dimensional context to a concept, but a generated image does not verify dimensions, coordination or buildability. Use it for client conversations and carry the agreed intent into the measured CAD or BIM design.",
       "faqs": [
         [
           "What blueprint formats work?",
@@ -795,7 +795,7 @@
         ],
         [
           "Installation & Engineering Notes",
-          "Full-height slab needs a flat substrate and typically two installers — budget for that labor line, it's often left off a first estimate."
+          "Full-height slab needs a suitable substrate and a handling and fitting plan. Confirm access, piece size and installer requirements with the fabricator, and price that labour separately."
         ]
       ],
       "directions": [
@@ -904,11 +904,11 @@
         ],
         [
           "Lighting & Ambiance",
-          "3000K waterproof recessed fixture, IC-rated"
+          "Example: 3000K recessed light. Have an electrician confirm the required wet-location and local-zone rating; insulation-contact (IC) rating alone is not enough."
         ],
         [
           "Installation & Engineering Notes",
-          "Zellige is hand-formed and irregular — budget 15–20% more tile than a standard rectified job to account for cutting waste, and a setter experienced with it."
+          "Hand-formed tile can increase setting time and cutting waste. Ask an experienced setter to confirm suitability, joint layout and waste allowance for the actual product and waterproofing system."
         ]
       ],
       "directions": [
@@ -931,7 +931,7 @@
         "flooring-finish-comparison",
         "architects-architecture-studios"
       ],
-      "note": "Handmade tile looks better in every render. It also costs more in labor than the tile itself — the render should say so, not just show it. A render this specific can make a labor-intensive material look like a simple swap; price the install, not just the material, before it goes in a client-facing quote.",
+      "note": "Handmade tile may cost more to install than a regular rectified tile. Price substrate preparation, waterproofing, cutting and setting for the actual product before putting it in a client-facing quote.",
       "faqs": [
         [
           "Does this account for plumbing relocation cost?",
@@ -980,8 +980,8 @@
       ],
       "benefits": [
         [
-          "Before/After Slider",
-          "the room as it is, and staged, one image"
+          "Before/After Comparison",
+          "keep the original room and the staged concept available for a clear comparison"
         ],
         [
           "Minutes Per Room",
@@ -1080,7 +1080,7 @@
     },
     {
       "slug": "real-estate-investors-house-flippers",
-      "title": "Know What a Renovation Actually Takes Before You Make an Offer",
+      "title": "Explore Renovation Scope Before You Make an Offer",
       "intro": "Photograph the rooms that need work, get a direction with real cost logic attached, before you're locked into a purchase.",
       "problemTitle": "Not Sure This Flip Actually Pencils Out?",
       "problem": "The math on a flip lives or dies on renovation cost, and most of that number gets guessed at during a walkthrough, before anyone's actually priced the work.",
@@ -1254,7 +1254,7 @@
         ],
         [
           "Installation & Engineering Notes",
-          "The waterfall edge is a finish spec, not a structural one — flag it in buyer materials as a standard finish package, not a guaranteed as-built, if buyers can select alternates."
+          "Identify the waterfall edge in the actual sales specification as standard, an optional upgrade or an illustrative item. Do not label a finish standard unless it is included in that unit package."
         ]
       ],
       "directions": [
@@ -1304,7 +1304,7 @@
     },
     {
       "slug": "short-term-rental-airbnb-hosts",
-      "title": "Furnish the Listing Photos Before You Furnish the Room",
+      "title": "Plan the Guest Room Before You Buy the Furniture",
       "intro": "Describe your furnishing budget, see a few directions, then shop the pieces that got you there.",
       "problemTitle": "Listing Photos Not Landing the Bookings You Want?",
       "problem": "A host's furnishing budget is real and usually tight, and guessing at furniture before seeing it in the actual room is how that budget gets spent twice.",
@@ -1358,11 +1358,11 @@
       "advice": [
         [
           "Materials & Composition",
-          "Bouclé accent chair, rattan pendant, white oak console"
+          "An easy-care accent chair, freestanding floor lamp and oak-tone console; verify cleaning and durability for the actual products."
         ],
         [
           "Lighting & Ambiance",
-          "2700K warm ambient, one statement pendant"
+          "2700K warm ambient light with a freestanding reading lamp; a new hardwired pendant would be a separate electrical scope."
         ],
         [
           "Installation & Engineering Notes",
@@ -1389,7 +1389,7 @@
         "lighting-design-fixture-selection",
         "paint-wall-color-testing"
       ],
-      "note": "A styled render sets guest expectations. If the real room won't have that exact rug or that exact art, don't publish the exact render as the listing photo — furnish close to it.",
+      "note": "Use the concept to plan the room, then publish actual photographs after furnishing. Guests should see the furniture, layout and amenities they will receive.",
       "faqs": [
         [
           "Can I set a specific furnishing budget in the brief?",
@@ -1533,7 +1533,7 @@
       "title": "Try the Color Before You Buy the Can",
       "intro": "Upload the room, describe the color direction, see it on your actual walls before buying a sample.",
       "problemTitle": "Fifteen Paint Chips Taped to the Wall and Still Not Sure?",
-      "problem": "Paint chips lie — under store lighting, at swatch size, next to nothing. The only honest test is the color on your actual wall, in your actual light, and that used to mean buying sample cans and waiting for them to dry.",
+      "problem": "Small paint chips and showroom lighting make it hard to judge a whole wall beside your furniture. A concept helps narrow the direction, but the actual paint sample in your room remains the final colour check.",
       "pains": [
         "A color that reads completely different under your room's actual light",
         "Swatch-sized samples that give no sense of a full wall",
@@ -1543,8 +1543,8 @@
       ],
       "benefits": [
         [
-          "Real Wall, Real Light",
-          "your actual room, not a swatch"
+          "Your Wall, Your Room",
+          "explore colour in the context of your furniture; verify the actual colour with a physical sample"
         ],
         [
           "Full-Wall Preview",
@@ -1588,7 +1588,7 @@
         ],
         [
           "Lighting & Ambiance",
-          "Existing room lighting held constant for an accurate color read"
+          "Keep the source image and lighting direction consistent to compare concepts. A render does not reproduce an exact paint colour or its real response to light."
         ],
         [
           "Installation & Engineering Notes",
@@ -1644,7 +1644,7 @@
     },
     {
       "slug": "lighting-design-fixture-selection",
-      "title": "See the Room Under the Light It'll Actually Have",
+      "title": "Explore the Lighting Your Room Is Missing",
       "intro": "Upload the room as it is, tell Briller what's wrong with the light, and see fixture and placement changes before you buy anything.",
       "problemTitle": "Room Feels Off and You Suspect It's the Lighting?",
       "problem": "Bad lighting is the most common reason a finished room still feels wrong — and the easiest thing to get wrong twice, because a fixture that looks right in a store photo can land completely differently once it's actually in your ceiling.",
@@ -1658,7 +1658,7 @@
       "benefits": [
         [
           "Room-Real Lighting Logic",
-          "Briller reads your room's actual window placement and ceiling height before suggesting a fixture, not just a style"
+          "use visible windows and supplied room details to explore placement; measure actual ceiling height separately"
         ],
         [
           "Kelvin & Placement, Not Just a Look",
@@ -1702,7 +1702,7 @@
         ],
         [
           "Lighting & Ambiance",
-          "2700K, dimmable, hung 30\" above the table surface"
+          "Example direction: 2700K dimmable light, with the pendant around 30 inches above this table. Confirm the actual suspension height against fixture guidance, sightlines and local requirements."
         ],
         [
           "Installation & Engineering Notes",
@@ -1942,7 +1942,7 @@
         ],
         [
           "Installation & Engineering Notes",
-          "Zellige costs more in labor than material — budget the setter's time, not just the tile price."
+          "Handmade zellige can add setting time, preparation and cutting work. Compare the installed quote, including joints and edges, rather than the tile price alone."
         ]
       ],
       "directions": [
@@ -2056,7 +2056,7 @@
         ],
         [
           "Installation & Engineering Notes",
-          "Painting existing brick is a surface-only change; a full stone veneer re-clad is a heavier install and may require confirming the hearth can support the added weight."
+          "Even a surface-only treatment needs compatibility with the fireplace and its heat exposure. A heavier re-clad also needs a suitable support and fixing detail."
         ]
       ],
       "directions": [
@@ -2079,7 +2079,7 @@
         "backyard-outdoor-living-redesign",
         "first-room-refresh"
       ],
-      "note": "Painting or refacing a surround is a surface-level change; a full re-clad in heavier material can add real weight to the hearth. Confirm the hearth can support it before committing to a heavier material.",
+      "note": "Surface finish, mantel and heavier cladding each need checking against the actual fireplace. Confirm heat suitability, combustible clearances, ventilation and support with a qualified installer before committing.",
       "faqs": [
         [
           "Can I update just the fireplace without redesigning the room?",
@@ -2234,7 +2234,7 @@
       "benefits": [
         [
           "Real Dimensions, When Available",
-          "works from a blueprint if you have one, your room's actual proportions either way"
+          "a supplied plan adds dimensional context; verify the layout with measurements and actual furniture sizes"
         ],
         [
           "Function-First Framing",
@@ -2309,7 +2309,7 @@
       "faqs": [
         [
           "Does this work without a blueprint?",
-          "Yes — a room photo alone works; a blueprint adds more dimensional precision if you have one."
+          "Yes — a room photo can start the concept. A plan adds context, but neither makes a generated image a verified fit or measured layout."
         ],
         [
           "Can I define specific zones within one room?",
@@ -2422,8 +2422,8 @@
       "note": "Safety-relevant details — anchoring furniture, outlet covers, crib clearance — are noted plainly wherever they apply. Treat those as non-negotiable, not optional styling choices.",
       "faqs": [
         [
-          "Are safety notes included automatically?",
-          "Yes, wherever relevant — anchoring and clearance notes are stated plainly, not left out for the sake of a cleaner render."
+          "How should I use safety notes?",
+          "Use them to identify questions for your actual room. Follow current safe-sleep guidance, check recalls and apply each product manufacturer’s instructions; do not assume a generated image identifies every risk."
         ],
         [
           "Can I set a specific nursery budget?",
@@ -2460,7 +2460,7 @@
       "benefits": [
         [
           "Real Room, Real Clearance",
-          "works from your actual room dimensions"
+          "explore an arrangement from the room photo, then check actual equipment and operating clearances"
         ],
         [
           "Equipment-Specific Layout",
@@ -2468,7 +2468,7 @@
         ],
         [
           "Flooring Called Out By Name",
-          "rated for the actual use, not just a look"
+          "explore suitable flooring categories, then confirm the selected product for the actual use"
         ],
         [
           "Budget-Tier Options",
@@ -2508,7 +2508,7 @@
         ],
         [
           "Installation & Engineering Notes",
-          "Rubber flooring this thick needs a flat subfloor and typically doesn't require adhesive — but confirm ceiling height clears any overhead equipment before committing to a layout."
+          "Confirm substrate preparation and installation with the selected flooring manufacturer. Check ceiling and operating clearances for the equipment; flooring does not verify the structure’s load capacity."
         ]
       ],
       "directions": [
@@ -2535,7 +2535,7 @@
       "faqs": [
         [
           "Does this confirm my equipment will actually fit?",
-          "It shows a realistic layout based on your room's dimensions — always double check clearance and ceiling height for specific equipment before buying."
+          "No — it is a concept. Measure the room, ceiling and operating clearances for the exact equipment, and check floor capacity before buying."
         ],
         [
           "Can I try different equipment combinations?",
@@ -2558,7 +2558,7 @@
     },
     {
       "slug": "open-concept-wall-removal",
-      "title": "See the Open Layout Before You Call an Engineer",
+      "title": "Explore an Open Layout as a Concept",
       "intro": "Visualize an opened-up sightline as a concept, before anyone determines whether the wall can actually come down.",
       "problemTitle": "Wondering What Your Place Would Feel Like Without That Wall?",
       "problem": "Everyone considers opening up a layout at some point, and almost nobody can picture it accurately without seeing it — which means the idea either gets abandoned too early or pursued too far before anyone confirms it's feasible.",
@@ -2659,7 +2659,7 @@
         ],
         [
           "Is blueprint upload available for this use case?",
-          "Yes, on Studio, for dimension-aware accuracy."
+          "On Studio, a plan can add dimensional context. It does not verify structural feasibility, measurements or code compliance."
         ]
       ],
       "label": "Open-plan layout concepts",
@@ -2769,7 +2769,7 @@
         ],
         [
           "Does ceiling height affect what's possible?",
-          "Yes, and the render works from your actual room's proportions to reflect that."
+          "Yes. Measure actual headroom, including services and the proposed floor and ceiling build-up. A render cannot establish clearance or whether the intended use is permitted."
         ],
         [
           "Is this available on Explorer?",
@@ -2915,7 +2915,7 @@
       "benefits": [
         [
           "Outdoor-Rated Materials Named",
-          "what actually holds up outside, called out by name"
+          "explore materials intended for outdoor use, then verify the exact product for your climate and installation"
         ],
         [
           "Structure & Landscaping Together",
@@ -2998,7 +2998,7 @@
         ],
         [
           "Are the materials shown actually outdoor-rated?",
-          "Yes — Materials notes specifically call out outdoor-suitable options."
+          "The notes suggest outdoor-suitable categories. Verify the actual product rating, climate suitability, fixing and maintenance with the supplier before buying."
         ],
         [
           "Is this available on Explorer?",

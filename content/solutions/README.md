@@ -2,14 +2,20 @@
 
 - `en.json` and `uk.json`: hub UI text and 27 audience/use-case pages. Match each page by its stable `slug`.
 - `navigation.json`: five project categories, audience labels and three homepage/hub entry groups.
+- `examples.json`: a distinct bilingual before/after scenario and three audience-specific Briller advice points for every solution. Each key matches a page slug. Captions explain what changes, what stays and the next practical step.
+- `public/images/solutions/<slug>.webp`: one original AI-generated diptych per solution, before on the left and the after concept on the right. Both panels are illustrative concepts, not customer photographs. Do not reuse an unrelated pair or imply measured accuracy.
+- `media.json`: the actual intrinsic dimensions of each image, used to reserve space during loading.
+- `components/SolutionExample.tsx`: shared before/after section, visible concept disclosure and additional advice. The original page sections remain in `Solutions.tsx`.
 - `components/Solutions.tsx`: shared page layout; `SolutionControls.tsx`: search, filters and copyable briefs.
 - `lib/solutions.ts`: routes, metadata, localized lookups and the header menu tree.
 - `components/SolutionsMenu.tsx`: desktop category/page dropdown and mobile category accordion. Header menu labels are in `content/en.json` and `content/uk.json`. The menu uses the same categories and page labels as the hub.
 
-Edit text in JSON. The templates, static routes, sitemap and tests pick up the page list automatically. Keep slugs, category IDs, audience IDs and related-page references synchronized between languages. Current pages adapt the supplied `solutions.zip`; its image paths were placeholders with no image files, so the pages use designed brief and advice blocks instead.
+Edit text in JSON. The templates, static routes, sitemap and tests pick up the page list automatically. Keep slugs, category IDs, audience IDs and related-page references synchronized between languages. Current pages adapt the supplied `solutions.zip`; its original image paths were placeholders with no image files. The added examples now use separately generated concept pairs and preserve the supplied brief and advice sections. Existing material specifications are examples for their described scenarios, not universal installation instructions or exact product recommendations.
 
 Routes: `/en/solutions/`, `/uk/solutions/` and `/[locale]/solutions/[slug]/`.
 
 SEO: page-specific metadata, canonical/hreflang, breadcrumbs, visible FAQ structured data, linked directory and sitemap. Preview builds stay noindex.
+
+Validation: `BRILLER_PREVIEW=1 npm run build`, `npm run check`, then `BRILLER_PREVIEW=1 npm test`. The example tests check all 27 bilingual entries, image assets, rendered advice and the preservation of existing page sections across all 54 solution routes.
 
 Plan entitlements come from `content/plans.json`; do not duplicate prices in solution copy. Commercial use: every paid plan. PDF export and faster queue: Pro Design and Studio / Architect. Shared projects: Studio / Architect.

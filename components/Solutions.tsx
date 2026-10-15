@@ -2,6 +2,7 @@ import { ArrowUpRight, Building2, House, Layers, Palette, Ruler, Sparkles, Sun, 
 import { Locale, href, site } from '@/lib/content';
 import { Solution, solutionCopy, solutionHref, solutionNavigation } from '@/lib/solutions';
 import { SolutionBriefs, SolutionDirectory } from './SolutionControls';
+import { SolutionExample } from './SolutionExample';
 
 const groupIcons = { house: House, ruler: Ruler, building: Building2 };
 const adviceIcons = [Layers, Sun, Wrench];
@@ -40,7 +41,7 @@ export function SolutionPage({ locale, page }: { locale: Locale; page: Solution 
   const c = solutionCopy(locale);
   const h = c.hub;
   const category = solutionNavigation.categories.find(item => item.id === page.category)!;
-  const sections = [['overview',h.overview],['workflow',h.workflow],['insights',h.advice],['briefs',h.briefs],['questions',h.faq]];
+  const sections = [['overview',h.overview],['before-after',locale === 'uk' ? 'До та після' : 'Before & after'],['workflow',h.workflow],['insights',h.advice],['briefs',h.briefs],['questions',h.faq]];
   const related = page.related.map(slug => c.pages.find(item => item.slug === slug)).filter((item): item is Solution => Boolean(item));
   const json = { '@context': 'https://schema.org', '@graph': [
     { '@type': 'WebPage', name: page.title, description: page.intro, url: site.origin + solutionHref(locale, page.slug), inLanguage: locale, isPartOf: { '@id': site.origin + '/#website' } },
@@ -51,6 +52,7 @@ export function SolutionPage({ locale, page }: { locale: Locale; page: Solution 
     </section>
     <nav className="solution-section-nav" aria-label={h.sectionNav}>{sections.map(([id,label]) => <a key={id} href={'#'+id}>{label}</a>)}</nav>
     <section className="section solution-overview" id="overview"><div><p className="eyebrow">{h.overview}</p><h2>{page.problemTitle}</h2><p className="body-copy">{page.problem}</p></div><ul className="solution-pains">{page.pains.map((pain,i) => <li key={pain}><span>0{i+1}</span><p>{pain}</p></li>)}</ul></section>
+    <SolutionExample locale={locale} slug={page.slug}/>
     <section className="section solution-benefits"><p className="eyebrow">BRILLER</p><h2>{h.benefits}</h2><div className="solution-benefit-grid">{page.benefits.map(([title,text],i) => <article key={title}><span className="step-number">0{i+1}<Palette size={22} strokeWidth={1.4} aria-hidden="true"/></span><h3>{title}</h3><p>{text}</p></article>)}</div></section>
     <section className="section solution-workflow" id="workflow"><p className="eyebrow">{h.workflow}</p><h2>{locale === 'uk' ? 'Від фото до наступного кроку.' : 'From your photo to your next step.'}</h2><ol>{page.steps.map(([title,text],i) => <li key={title}><span>{String(i+1).padStart(2,'0')}</span><div><h3>{title}</h3><p>{text}</p></div></li>)}</ol></section>
     <section className="section solution-insights" id="insights"><div className="section-heading"><div><p className="eyebrow">{h.sampleLabel}</p><h2>{h.advice}</h2></div><p>{h.sampleNote}</p></div><div className="solution-advice-grid">{page.advice.map(([title,text],i) => { const Icon = adviceIcons[i]; return <article key={title}><Icon size={25} strokeWidth={1.4} aria-hidden="true"/><h3>{title}</h3><p>{text}</p></article>; })}</div><div className="solution-practical-note"><Wrench size={22} aria-hidden="true"/><div><h3>{h.notes}</h3><p>{page.note}</p></div></div></section>

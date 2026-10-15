@@ -1,0 +1,110 @@
+{
+  "first-room-refresh": {
+    "width": 1536,
+    "height": 1024
+  },
+  "whole-home-renovation-planning": {
+    "width": 2172,
+    "height": 724
+  },
+  "renter-friendly-makeover": {
+    "width": 1876,
+    "height": 838
+  },
+  "home-office-workspace": {
+    "width": 1942,
+    "height": 809
+  },
+  "interior-designers-freelance-decorators": {
+    "width": 1536,
+    "height": 1024
+  },
+  "architects-architecture-studios": {
+    "width": 1774,
+    "height": 887
+  },
+  "general-contractors-remodeling-companies": {
+    "width": 1983,
+    "height": 793
+  },
+  "kitchen-bath-remodelers": {
+    "width": 1536,
+    "height": 1024
+  },
+  "real-estate-agents-listing-prep": {
+    "width": 1942,
+    "height": 809
+  },
+  "real-estate-investors-house-flippers": {
+    "width": 1536,
+    "height": 1024
+  },
+  "property-developers": {
+    "width": 1983,
+    "height": 793
+  },
+  "short-term-rental-airbnb-hosts": {
+    "width": 2056,
+    "height": 765
+  },
+  "try-a-design-style": {
+    "width": 1981,
+    "height": 793
+  },
+  "paint-wall-color-testing": {
+    "width": 1536,
+    "height": 1024
+  },
+  "lighting-design-fixture-selection": {
+    "width": 1774,
+    "height": 887
+  },
+  "flooring-finish-comparison": {
+    "width": 1774,
+    "height": 887
+  },
+  "kitchen-surfaces": {
+    "width": 1942,
+    "height": 809
+  },
+  "fireplace-mantel-redesign": {
+    "width": 2056,
+    "height": 765
+  },
+  "closet-built-in-storage-redesign": {
+    "width": 1536,
+    "height": 1024
+  },
+  "small-space-studio-apartment-layout": {
+    "width": 1983,
+    "height": 793
+  },
+  "nursery-kids-room-design": {
+    "width": 2172,
+    "height": 724
+  },
+  "home-gym-conversion": {
+    "width": 1536,
+    "height": 1024
+  },
+  "open-concept-wall-removal": {
+    "width": 1942,
+    "height": 809
+  },
+  "basement-garage-conversion": {
+    "width": 1536,
+    "height": 1024
+  },
+  "exterior-curb-appeal": {
+    "width": 1774,
+    "height": 887
+  },
+  "backyard-outdoor-living-redesign": {
+    "width": 1536,
+    "height": 1024
+  },
+  "airbnb-turnover-refresh": {
+    "width": 1942,
+    "height": 809
+  }
+}
