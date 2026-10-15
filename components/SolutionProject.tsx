@@ -35,14 +35,6 @@ export function SolutionProject({ slug, example, budgets, tips, labels: l }: {
         <h3>{l.take}</h3>
         <p className="solution-project-summary" aria-live="polite" aria-atomic="true">{budgets[budget].summary}</p>
         <div className="solution-project-step"><h4>{l.next}</h4><p>{example.check}</p></div>
-        <fieldset className="brill-budget-selector solution-project-budget" aria-describedby="solution-budget-note">
-          <legend>{l.budget}</legend>
-          <div className="brill-budget-choices">{budgetLevels.map(level => <label key={level} className={budget === level ? 'selected' : ''}>
-            <input type="radio" name="solution-project-budget" value={level} checked={budget === level} onChange={() => setBudget(level)} aria-controls="solution-advice-options"/>
-            <span>{l.budgets[level]}</span>
-          </label>)}</div>
-          <p id="solution-budget-note">{l.budgetNote}</p>
-        </fieldset>
       </div>
       <div className="solution-project-visual">
         <SolutionComparison image={image} width={example.image.width} height={example.image.height} focusY={example.image.focusY}
@@ -55,30 +47,44 @@ export function SolutionProject({ slug, example, budgets, tips, labels: l }: {
     </div>
     <figcaption>
       <section className="solution-project-advice" id="solution-technical-advice" aria-labelledby="solution-advice-heading">
-        <div className="solution-advice-header">
-          <h3 id="solution-advice-heading"><Sparkles size={23} aria-hidden="true"/>{l.advice}</h3>
+        <div className="solution-advice-layout">
+          <div className="solution-advice-budget">
+            <fieldset className="brill-budget-selector solution-project-budget" aria-describedby="solution-budget-note">
+              <legend>{l.budget}</legend>
+              <div className="brill-budget-choices">{budgetLevels.map(level => <label key={level} className={budget === level ? 'selected' : ''}>
+                <input type="radio" name="solution-project-budget" value={level} checked={budget === level} onChange={() => setBudget(level)} aria-controls="solution-advice-options"/>
+                <span>{l.budgets[level]}</span>
+              </label>)}</div>
+              <p id="solution-budget-note">{l.budgetNote}</p>
+            </fieldset>
+          </div>
+          <div className="solution-advice-content">
+            <div className="solution-advice-header">
+              <h3 id="solution-advice-heading"><Sparkles size={23} aria-hidden="true"/>{l.advice}</h3>
+            </div>
+            <ul className="brill-advice-list" id="solution-advice-options">
+              {tips.map(tip => {
+                const Icon = icons[tip.kind as keyof typeof icons] ?? ClipboardList;
+                const recommendation = tip.budgets[budget];
+                const open = expanded === tip.id;
+                return <li key={tip.id} className={'brill-advice-card' + (active === tip.id ? ' selected' : '')} id={`solution-advice-${tip.id}`} data-advice={tip.id}>
+                  <h4><button className="brill-advice-select" aria-expanded={open} aria-controls={`solution-specification-${tip.id}`} onClick={() => { setActive(tip.id); setExpanded(open ? null : tip.id); }}>
+                    <Icon size={19} strokeWidth={1.6} aria-hidden="true"/>
+                    <span><span className="brill-advice-category">{tip.category}</span><span className="brill-advice-title">{tip.title}</span></span>
+                    <ChevronDown className="brill-advice-chevron" size={18} aria-hidden="true"/>
+                  </button></h4>
+                  <p className="brill-budget-recommendation"><span>{l.budgets[budget]} · {l.specification}</span>{recommendation.specification}</p>
+                  <div className="brill-specification" id={`solution-specification-${tip.id}`} hidden={!open}>
+                    <p className="brill-specification-label">{l.detail}</p>
+                    <p>{recommendation.detail}</p>
+                    <p className="brill-budget-difference"><strong>{l.difference}</strong> {recommendation.difference}</p>
+                  </div>
+                </li>;
+              })}
+            </ul>
+            <p className="solution-advice-note">{l.adviceNote}</p>
+          </div>
         </div>
-        <ul className="brill-advice-list" id="solution-advice-options">
-          {tips.map(tip => {
-            const Icon = icons[tip.kind as keyof typeof icons] ?? ClipboardList;
-            const recommendation = tip.budgets[budget];
-            const open = expanded === tip.id;
-            return <li key={tip.id} className={'brill-advice-card' + (active === tip.id ? ' selected' : '')} id={`solution-advice-${tip.id}`} data-advice={tip.id}>
-              <h4><button className="brill-advice-select" aria-expanded={open} aria-controls={`solution-specification-${tip.id}`} onClick={() => { setActive(tip.id); setExpanded(open ? null : tip.id); }}>
-                <Icon size={19} strokeWidth={1.6} aria-hidden="true"/>
-                <span><span className="brill-advice-category">{tip.category}</span><span className="brill-advice-title">{tip.title}</span></span>
-                <ChevronDown className="brill-advice-chevron" size={18} aria-hidden="true"/>
-              </button></h4>
-              <p className="brill-budget-recommendation"><span>{l.budgets[budget]} · {l.specification}</span>{recommendation.specification}</p>
-              <div className="brill-specification" id={`solution-specification-${tip.id}`} hidden={!open}>
-                <p className="brill-specification-label">{l.detail}</p>
-                <p>{recommendation.detail}</p>
-                <p className="brill-budget-difference"><strong>{l.difference}</strong> {recommendation.difference}</p>
-              </div>
-            </li>;
-          })}
-        </ul>
-        <p className="solution-advice-note">{l.adviceNote}</p>
       </section>
       <div className="solution-example-disclosure"><p id="solution-example-disclosure">{l.note}</p><a href={image} className="text-link">{l.full}<ArrowUpRight size={17} aria-hidden="true"/></a></div>
     </figcaption>
