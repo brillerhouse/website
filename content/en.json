@@ -430,10 +430,14 @@
   "comparison": {
     "label": "EXPLORE THE ATMOSPHERE",
     "title": "Same space.\nA different mood.",
-    "text": "Move the slider to explore a lighting treatment on the same reference photo. This is a website demonstration, not a Briller render comparison.",
-    "before": "Original reference",
-    "after": "Warm lighting study",
-    "control": "Compare original and warm lighting study"
+    "text": "See how the same room feels after dark. Move the slider between soft ceiling light and a layered mix of pendant, artwork and stair lighting.",
+    "before": "Soft ambient",
+    "after": "Layered evening",
+    "control": "Compare soft ambient and layered evening lighting",
+    "imageAlt": "Evening living room with pale sofas, timber stairs, dark-framed windows and soft indirect ceiling light",
+    "ambientDetail": "Warm indirect ceiling light creates a quiet glow. Pendant and accent lights are off.",
+    "layeredDetail": "Pendant, artwork and stair lights create brighter focal points. Perimeter lighting is off.",
+    "note": "Illustrative AI-generated evening lighting studies of the same reference room."
   },
   "legalNames": {
     "privacy": "Privacy Policy",
