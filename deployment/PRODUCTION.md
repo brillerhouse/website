@@ -20,3 +20,9 @@ If Google reports that the caller is not a verified domain owner, verify `brille
 Copy the returned `status.resourceRecords` into Cloudflare for `@` and `www` only. Use **DNS only** (grey cloud) initially so Google can provision its managed HTTPS certificate. Preserve all `build`, MX, SPF, DKIM, DMARC and other existing records. Do not guess Google IP addresses or point the apex directly at the run.app hostname. Certificate issuance can take time after DNS propagation.
 
 Check HTTPS on `https://briller.house/en/` and `/uk/`, the `www` redirect, localized Solutions/pricing, the consent controls, the corrected CSP and `robots.txt` Allow: /. Confirm the app hostname still has its original DNS records. Before finalizing legal drafts, confirm remaining retention, provider and subscription terms; company identity and the unchanged address were supplied by the user.
+
+## HTTPS proxy redirects
+
+Cloud Run terminates TLS and forwards to nginx over HTTP on port 8080. Keep `absolute_redirect off` in the server block so root, locale and automatic directory redirects remain relative; the browser then retains the public HTTPS origin. The explicit www-to-apex redirect stays HTTPS. Do not fix this with `port_in_redirect off` alone, which can still expose the backend HTTP scheme.
+
+Both publishing workflows run `node scripts/check-redirects.mjs http://127.0.0.1:18080` against the built container before pushing its image. After deployment they follow the service root with HTTPS-only redirects. Check the bare custom domain and `/en` and `/uk` as well as `/en/` and `/uk/`; testing only the final slash URLs misses this failure.

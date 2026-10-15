@@ -63,6 +63,12 @@ jobs:
           cp deployment/Dockerfile.runtime "$RUNNER_TEMP/briller-container/Dockerfile"
           IMAGE="$REGION-docker.pkg.dev/$PROJECT_ID/$REGISTRY/$SERVICE:$GITHUB_SHA"
           docker build -t "$IMAGE" "$RUNNER_TEMP/briller-container"
+          CHECK_CONTAINER="briller-redirect-check-$GITHUB_RUN_ID"
+          docker run --rm -d --name "$CHECK_CONTAINER" -p 127.0.0.1:18080:8080 "$IMAGE"
+          trap 'docker rm -f "$CHECK_CONTAINER" >/dev/null 2>&1 || true' EXIT
+          node scripts/check-redirects.mjs http://127.0.0.1:18080
+          docker rm -f "$CHECK_CONTAINER"
+          trap - EXIT
           docker push "$IMAGE"
           echo "BRILLER_IMAGE=$IMAGE" >> "$GITHUB_ENV"
       - name: Update Dev only
@@ -77,6 +83,7 @@ jobs:
             --allow-unauthenticated --quiet
           URL="$(gcloud run services describe "$SERVICE" --project="$PROJECT_ID" --region="$REGION" --format='value(status.url)')"
           curl --fail --retry 5 --retry-delay 2 --silent --show-error "$URL/uk/" -o /dev/null
+          curl --fail --location --proto-redir =https --max-redirs 5 --silent --show-error "$URL/" -o /dev/null
           curl --fail --silent --show-error "$URL/robots.txt" | grep -F 'Disallow: /'
           printf '### Briller Dev\n\n[Переглянути сайт](%s/uk/)\n\nCommit: `%s`\n' "$URL" "$GITHUB_SHA" >> "$GITHUB_STEP_SUMMARY"
       - name: Report pending Google Cloud setup
