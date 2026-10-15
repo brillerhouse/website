@@ -254,6 +254,13 @@
 .solution-comparison .hero-room-range{pointer-events:none}
 .solution-comparison-photo{position:absolute;display:block;max-width:none;height:auto;pointer-events:none;user-select:none}
 .solution-comparison-after{position:absolute;inset:0;overflow:hidden}
+.solution-comparison .solution-spark-hotspot{z-index:4;cursor:pointer}
+.solution-comparison .hero-room-divider{z-index:5}
+.solution-comparison .hero-room-divider>span{pointer-events:auto;cursor:ew-resize}
+.solution-comparison-labels{display:none}
+.solution-spark-detail .text-link{font-size:var(--text-caption);padding:5px 0 0}
+.solution-project-advice .brill-advice-card{scroll-margin-top:90px}
+@media(max-width:500px){.solution-comparison-labels{display:flex;justify-content:space-between;gap:12px;margin-bottom:8px;font-size:var(--text-caption);line-height:1.5;font-weight:650}.solution-comparison .hero-room-label{display:none}}
 .solution-example-disclosure{display:flex;align-items:center;justify-content:space-between;gap:25px;padding:20px 28px;border-top:1px solid var(--line)}
 .solution-example-disclosure p{font-size:var(--text-caption);line-height:1.7;color:var(--muted);margin:0;max-width:680px}
 .solution-example-disclosure a{font-size:var(--text-caption);flex-shrink:0}

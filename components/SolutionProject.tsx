@@ -10,6 +10,7 @@ type Budget = typeof budgetLevels[number];
 const icons = { lighting: Sun, materials: Layers, joinery: Wrench, layout: Ruler, planning: ClipboardList };
 type Labels = {
   before: string; after: string; advice: string; next: string; note: string; full: string; compare: string;
+  tipLabel: string; readAdvice: string;
   take: string; budget: string; budgetNote: string; specification: string; detail: string; difference: string; adviceNote: string;
   budgets: Record<Budget, string>;
 };
@@ -22,7 +23,10 @@ export function SolutionProject({ slug, example, budgets, tips, labels: l }: {
   labels: Labels;
 }) {
   const [budget, setBudget] = useState<Budget>('standard');
-  const [expanded, setExpanded] = useState<string | null>(tips[0].id);
+  const initialTip = tips.find(tip => tip.position) ?? tips[0];
+  const [expanded, setExpanded] = useState<string | null>(initialTip.id);
+  const [active, setActive] = useState(initialTip.id);
+  const activeTip = tips.find(tip => tip.id === active) ?? tips[0];
   const image = `/images/solutions/${slug}.webp`;
 
   return <figure className="solution-example-figure">
@@ -45,7 +49,14 @@ export function SolutionProject({ slug, example, budgets, tips, labels: l }: {
         <p className="solution-smart-sparks"><Sparkles size={18} aria-hidden="true"/>Smart Sparks</p>
         <SolutionComparison image={image} width={example.image.width} height={example.image.height} focusY={example.image.focusY}
           alt={`${l.before}: ${example.before} ${l.after}: ${example.after}`} before={l.before} after={l.after}
-          label={l.compare} descriptionId="solution-example-disclosure"/>
+          label={l.compare} descriptionId="solution-example-disclosure"
+          sparks={tips.flatMap(tip => tip.position ? [{ id: tip.id, title: tip.title, position: tip.position }] : [])} selectedSpark={active} sparkLabel={l.tipLabel}
+          onSelectSpark={id => { setActive(id); setExpanded(id); }}/>
+        <div className="spark-question solution-spark-detail" aria-live="polite" aria-atomic="true">
+          <span className="spark-question-label"><Sparkles size={12} aria-hidden="true"/>Smart Spark / {activeTip.category}</span>
+          <p>{activeTip.title}</p>
+          <a className="text-link" href={`#solution-advice-${activeTip.id}`} onClick={() => setExpanded(activeTip.id)}>{l.readAdvice}<ArrowUpRight size={16} aria-hidden="true"/></a>
+        </div>
       </div>
     </div>
     <figcaption>
@@ -58,8 +69,8 @@ export function SolutionProject({ slug, example, budgets, tips, labels: l }: {
             const Icon = icons[tip.kind as keyof typeof icons] ?? ClipboardList;
             const recommendation = tip.budgets[budget];
             const open = expanded === tip.id;
-            return <li key={tip.id} className={'brill-advice-card' + (open ? ' selected' : '')} data-advice={tip.id}>
-              <h4><button className="brill-advice-select" aria-expanded={open} aria-controls={`solution-specification-${tip.id}`} onClick={() => setExpanded(open ? null : tip.id)}>
+            return <li key={tip.id} className={'brill-advice-card' + (active === tip.id ? ' selected' : '')} id={`solution-advice-${tip.id}`} data-advice={tip.id}>
+              <h4><button className="brill-advice-select" aria-expanded={open} aria-controls={`solution-specification-${tip.id}`} onClick={() => { setActive(tip.id); setExpanded(open ? null : tip.id); }}>
                 <Icon size={19} strokeWidth={1.6} aria-hidden="true"/>
                 <span><span className="brill-advice-category">{tip.category}</span><span className="brill-advice-title">{tip.title}</span></span>
                 <ChevronDown className="brill-advice-chevron" size={18} aria-hidden="true"/>

@@ -7,6 +7,7 @@ const examples = read('content/solutions/examples.json');
 const media = read('content/solutions/media.json');
 const budgets = read('content/solutions/budgets.json');
 const advice = read('content/solutions/advice.json');
+const sparks = read('content/solutions/sparks.json');
 const pages = read('content/solutions/en.json').pages;
 const tipsFor = (locale, slug) => advice.pages[slug].map(id => {
   const shared = advice.sharedHomeTips[id];
@@ -73,6 +74,18 @@ test('every Solution has localized feature advice with three fully distinct budg
   }
 });
 
+test('each Solution has image hotspots linked to its own advice features', () => {
+  assert.deepEqual(Object.keys(sparks).sort(), pages.map(page => page.slug).sort());
+  for (const { slug } of pages) {
+    assert.ok(Object.keys(sparks[slug]).length >= 2, `${slug}: provide several image hotspots`);
+    for (const [id, coordinates] of Object.entries(sparks[slug])) {
+      assert.ok(advice.pages[slug].includes(id), `${slug}: image hotspot has no matching advice`);
+      assert.equal(coordinates.length, 2);
+      assert.ok(coordinates.every(value => Number.isFinite(value) && value >= 5 && value <= 95), `${slug}/${id}: hotspot outside image`);
+    }
+  }
+});
+
 test('all localized exports render feature cards instead of old rows and preserve the slider and original sections', () => {
   for (const locale of ['en', 'uk']) {
     for (const page of read(`content/solutions/${locale}.json`).pages) {
@@ -85,6 +98,11 @@ test('all localized exports render feature cards instead of old rows and preserv
       assert.ok(html.includes(`aria-label="${locale === 'uk' ? 'Порівняти до та після' : 'Compare before and after'}"`), `${locale}/${page.slug}: missing accessible slider name`);
       assert.ok(html.includes('aria-describedby="solution-example-disclosure"'));
       assert.ok(html.includes('class="solution-smart-sparks"'), `${locale}/${page.slug}: missing Smart Sparks heading`);
+      assert.equal((html.match(/class="spark-hotspot solution-spark-hotspot/g) || []).length, Object.keys(sparks[page.slug]).length, `${locale}/${page.slug}: missing image hotspots`);
+      for (const id of Object.keys(sparks[page.slug])) {
+        assert.ok(html.includes(`aria-controls="solution-advice-${id}"`), `${locale}/${page.slug}: hotspot is not linked to ${id}`);
+        assert.ok(html.includes(`id="solution-advice-${id}"`), `${locale}/${page.slug}: missing hotspot destination ${id}`);
+      }
       assert.equal((html.match(/<input[^>]*name="solution-project-budget"[^>]*>/g) || []).length, 3, `${locale}/${page.slug}: missing budget choices`);
       assert.ok(html.includes('id="solution-technical-advice"'));
       assert.ok(html.includes(escape(budgets[page.slug][locale].standard.summary)), `${locale}/${page.slug}: missing initial Briller summary`);
