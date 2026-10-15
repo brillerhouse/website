@@ -5,9 +5,10 @@ import { ArrowUpRight, ChevronDown, Layers, Sparkles, Sun, Wrench } from 'lucide
 import { copy, Locale, site } from '@/lib/content';
 
 const details = [
-  { icon: Layers, x: 78, y: 22 },
-  { icon: Sun, x: 26, y: 44 },
-  { icon: Wrench, x: 47, y: 47 },
+  { icon: Sun, x: 58, y: 17 },
+  { icon: Layers, x: 79, y: 38 },
+  { icon: Wrench, x: 24, y: 12 },
+  { icon: Layers, x: 53, y: 68 },
 ];
 const budgetLevels = ['economy', 'standard', 'premium'] as const;
 type Budget = typeof budgetLevels[number];
@@ -26,24 +27,24 @@ export function BrillDemo({ locale }: { locale: Locale }) {
 
   return <section className="brill-demo" aria-labelledby="brill-demo-heading">
     <figure className="sparks-illustration">
-      <div className="sparks-room sparks-room-kitchen">
-        <img src="/images/kitchen-comparison.webp" alt={c.imageAlt} loading="lazy" width={1774} height={887}/>
+      <div className="sparks-room sparks-room-living">
+        <img src="/images/hero-room-after.webp" alt={c.imageAlt} loading="lazy" width={1376} height={768}/>
         <span className="sparks-badge"><Sparkles size={13} aria-hidden="true"/>Smart Sparks</span>
         {details.map((detail, i) => <button
-          key={h.strip[i]}
+          key={c.tips[i].title}
           className={'spark-hotspot' + (active === i ? ' selected' : '')}
           style={{ left: `${detail.x}%`, top: `${detail.y}%` }}
-          aria-label={`${c.tipLabel} ${h.strip[i]}`}
+          aria-label={`${c.tipLabel} ${c.tips[i].title}`}
           aria-pressed={active === i}
           aria-controls={`brill-advice-${i}`}
           title={c.tips[i].spark}
           onClick={() => selectTip(i)}>
           <span><Sparkles size={17} strokeWidth={1.7} aria-hidden="true"/></span>
         </button>)}
-        <div className="spark-question" aria-live="polite" aria-atomic="true">
-          <span className="spark-question-label"><Sparkles size={12} aria-hidden="true"/>{c.sparkLabel} / {h.strip[active]}</span>
+      </div>
+      <div className="spark-question" aria-live="polite" aria-atomic="true">
+          <span className="spark-question-label"><Sparkles size={12} aria-hidden="true"/>{c.sparkLabel} / {c.tips[active].category}</span>
           <p>{c.tips[active].spark}</p>
-        </div>
       </div>
       <figcaption>{c.imageNote}</figcaption>
     </figure>
@@ -71,7 +72,7 @@ export function BrillDemo({ locale }: { locale: Locale }) {
               setExpanded(expanded === i ? null : i);
             }}>
               <Icon size={19} strokeWidth={1.6} aria-hidden="true"/>
-              <span><span className="brill-advice-category">{h.strip[i]}</span><span className="brill-advice-title">{tip.title}</span></span>
+              <span><span className="brill-advice-category">{tip.category}</span><span className="brill-advice-title">{tip.title}</span></span>
               <ChevronDown className="brill-advice-chevron" size={18} aria-hidden="true"/>
             </button></h3>
             <p className="brill-budget-recommendation"><span>{c.budgets[budget].label} · {c.specificationLabel}</span>{recommendation.specification}</p>

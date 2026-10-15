@@ -74,75 +74,100 @@
     "brillDemo": {
       "eyebrow": "BRILLER INSIGHTS",
       "title": "Briller’s take on this room.",
-      "intro": "Choose a budget to see how Briller adapts the materials, installation and finishing details for the same kitchen.",
-      "imageAlt": "Illustrative oak kitchen with Smart Sparks on the cabinet fronts, under-cabinet lighting and mixer tap by the window",
-      "imageNote": "Illustrative kitchen render · Advice adapted from real Briller examples.",
+      "intro": "Explore Briller’s actual advice for this living-room redesign. Change the budget to compare how the lighting, wall finishes and fitted details could be built.",
+      "imageAlt": "Living-room redesign with Smart Sparks marking the perimeter lighting, oak slat wall, concealed curtain track and floating shelves",
+      "imageNote": "Illustrative living-room render · Technical advice adapted from Briller’s analysis of this image.",
       "sparkLabel": "Smart Spark",
       "tipLabel": "Explore Briller’s advice about",
       "detailLabel": "How to implement it",
-      "projectNote": "Use these examples to brief your cabinetmaker or installer. Confirm dimensions, product suitability and local costs for your own project.",
+      "projectNote": "Condensed from Briller’s technical notes for this room. Confirm dimensions, electrical compatibility, wall fixings and local costs with your project team.",
       "cta": "Get advice for your space",
       "tips": [
         {
-          "title": "The oak look, with the details worked out.",
-          "spark": "What goes into these oak cabinets — and where could I save?",
+          "category": "Lighting",
+          "title": "Perimeter shadow-line LED cove",
+          "spark": "How do you build the soft glow around this ceiling?",
           "budgets": {
             "economy": {
-              "specification": "A 16 mm laminated carcass with oak-effect film on milled MDF fronts keeps the warm timber appearance at a lower specification.",
-              "detail": "Use the simpler carcass and film-wrapped fronts with standard hinges. Plan the hood duct and wiring before assembly; choose anchors and a hanging rail to suit the wall.",
-              "difference": "You keep the oak appearance while reducing the spend on front materials and hardware."
+              "specification": "Surface-mounted 45° aluminium LED channel with an opal diffuser, a 24 V / 2700 K strip (10 W/m) and a plug-in driver.",
+              "detail": "Fix the slim channel directly at the ceiling–wall junction. Route the low-voltage supply to an accessible plug-in driver.",
+              "difference": "A visible surface profile replaces the recessed cove, reducing ceiling construction work."
             },
             "standard": {
-              "specification": "18 mm moisture-resistant laminated chipboard carcass; oak-veneered MDF fronts with a matt polyurethane finish; adjustable cabinet hangers.",
-              "detail": "Allow space inside the cabinetry for the hood duct and lighting cables. Mount the hanging rail with anchors suited to the wall and use adjustable hangers to align the cabinets.",
-              "difference": "Oak veneer and a protected finish add material depth; adjustable hardware makes alignment easier."
+              "specification": "A 50 mm dropped plasterboard ceiling with an aluminium shadow-gap cove profile, 24 V / 2700 K COB LED strip (14.4 W/m) and a remote driver.",
+              "detail": "Prepare a flat ceiling, then frame a perimeter pocket set back 50–80 mm from the walls. Fit the LED extrusion and diffuser into the trough, run 24 V wiring to an accessible driver, and finish the plasterboard edge to the trim bead.",
+              "difference": "A recessed profile conceals the light source and creates the continuous ceiling glow."
             },
             "premium": {
-              "specification": "An anodised aluminium frame with solid oak slats, a natural-oil finish and higher-spec lift hardware.",
-              "detail": "Have the cabinetmaker detail the metal frame, oak slat spacing and lift mechanism together. Confirm opening clearances and the maintenance needs of the natural-oil finish.",
-              "difference": "Solid timber and a more detailed frame replace the simpler fronts, with upgraded opening hardware."
+              "specification": "Trimless plaster-in cove with an indirect-light baffle, dual-circuit 2200–3000 K tunable-white ribbon (CRI 95+) and DALI-2 or Casambi drivers.",
+              "detail": "Integrate the architectural profile into the ceiling finish. Coordinate the baffle, two lighting circuits and compatible dimming controls before closing the ceiling; retain driver access.",
+              "difference": "The profile disappears into the finish, with adjustable white tone and more lighting control."
             }
           }
         },
         {
-          "title": "Task lighting you can actually maintain.",
-          "spark": "How is this worktop lit — and where does the power supply go?",
+          "category": "Materials",
+          "title": "Timber slat feature wall",
+          "spark": "What is behind the oak slats — and how are they fixed?",
           "budgets": {
             "economy": {
-              "specification": "Surface-mounted fittings instead of recessed spots can reduce the joinery work needed.",
-              "detail": "Surface-mount the fittings below the cabinet instead of machining recesses. Have the installer confirm the supply, cable route and suitability of each fitting near the sink.",
-              "difference": "Fewer cut-outs and simpler fittings reduce joinery and installation work."
+              "specification": "Ready-made foil-wrapped MDF acoustic slat panels, 2400 × 600 mm, fixed to a prepared flat wall.",
+              "detail": "Prepare and flatten the wall, then install the panels with the specified high-grab polyurethane adhesive and finishing pins. Plan cable openings before fixing the panels.",
+              "difference": "Oak-effect foil and direct fixing replace natural veneer and the battened substructure."
             },
             "standard": {
-              "specification": "Warm 3000 K task lighting, IP44 recessed fittings in the example sink area, and a separate, accessible 24 V driver.",
-              "detail": "Route cables before closing the cabinetry. Keep the 24 V driver accessible in a ventilated cabinet, and confirm that the IP44 fittings suit the sink location.",
-              "difference": "Recessed task lighting gives a cleaner finish while keeping the power supply serviceable."
+              "specification": "White-oak-veneered MDF slats on a 9 mm recycled PET acoustic felt backer, fixed to timber counter-battens with black fasteners.",
+              "detail": "Remove the wallpaper and prepare the substrate. Fix 20 × 45 mm counter-battens at 400 mm centres to suitable wall structure; fasten through the felt gaps. Form electrical and AV openings behind the TV before completing the cladding.",
+              "difference": "Natural oak veneer adds real timber texture; the battened build-up provides space to coordinate fixings and cabling."
             },
             "premium": {
-              "specification": "High-colour-rendering mini-spots (CRI >95), with dimming and DALI or Zigbee control.",
-              "detail": "Choose compatible dimmable fittings, drivers and DALI or Zigbee controls as one system. Plan the control wiring or gateway and leave access for setup and maintenance.",
-              "difference": "Higher colour rendering helps finishes read accurately; dimming and controls add lighting flexibility."
+              "specification": "Custom solid white oak battens, 25 × 35 mm, on hidden rear clips over acoustic fabric, with clear UV-matt polyurethane lacquer and integrated cable chases.",
+              "detail": "Detail the batten spacing and hidden clips as a custom assembly. Coordinate the acoustic backing, concealed cabling and finish before installation.",
+              "difference": "Solid oak and concealed fixings replace the prefabricated veneer panels."
             }
           }
         },
         {
-          "title": "A tap that works with the window.",
-          "spark": "Will the window still open with this tap in place?",
+          "category": "Curtain detail",
+          "title": "Recessed curtain pocket and track",
+          "spark": "How do the curtains meet the ceiling without a visible rail?",
           "budgets": {
             "economy": {
-              "specification": "A conventional low-profile tap, only if measurements confirm the window can still open fully.",
-              "detail": "Measure the window’s full opening path before choosing a low-profile tap or drilling the worktop. If the tap still obstructs an inward-opening sash, use a folding or removable model instead.",
-              "difference": "A simpler tap saves money only where the window clearance allows it."
+              "specification": "A slim surface-mounted ceiling track screened by a 100 mm lightweight, primed MDF pelmet fascia.",
+              "detail": "Fix the track securely to suitable ceiling support, then fit and finish the pelmet to screen the mechanism from normal viewing height.",
+              "difference": "A surface pelmet hides the rail without forming a recess in the ceiling."
             },
             "standard": {
-              "specification": "A folding or bayonet-removable mixer tap selected for the actual sink and window clearances.",
-              "detail": "Check the tap’s folded or removed height against the sill and sash travel. Confirm access to the fittings below the sink before drilling the worktop.",
-              "difference": "A folding or removable fitting resolves the opening conflict instead of limiting how you use the window."
+              "specification": "A plasterboard ceiling pocket, 150 mm wide × 100 mm deep, with a dual-channel aluminium curtain track fixed into structural framing.",
+              "detail": "Frame the pocket with UW/CW 50 steel profiles and 12.5 mm plasterboard. Finish the lower edge with a stop bead or aluminium trim; fix the continuous track into joists or timber noggings inside the recess.",
+              "difference": "The ceiling itself conceals the track, giving the full-height curtains a cleaner junction."
             },
             "premium": {
-              "specification": "A higher-spec folding or removable model with the finish and fittings matched to the rest of the kitchen.",
-              "detail": "Check the selected model’s full dimensions, removal mechanism and maintenance access. Match the finish with the other fittings and confirm local replacement-part availability.",
-              "difference": "The clearance requirement stays the same; the extra spend goes into finish, fittings and ease of use."
+              "specification": "A flush plaster-in architectural curtain profile with a low-voltage motorised rail and an integrated indirect LED wash channel.",
+              "detail": "Coordinate the motor, low-voltage supply, lighting channel and ceiling profile before the ceiling is finished. Keep the rail and motor accessible for servicing.",
+              "difference": "Motorised operation and integrated lighting become part of a seamless ceiling detail."
+            }
+          }
+        },
+        {
+          "category": "Storage & joinery",
+          "title": "Floating shelves and low credenza",
+          "spark": "How are the floating shelves supported — and where do the TV cables go?",
+          "budgets": {
+            "economy": {
+              "specification": "A modular laminate lowboard on a minimal plinth, paired with ready-made hollow-core floating shelves and standard concealed brackets.",
+              "detail": "Select shelf brackets and fixings for the wall and intended loads. Assemble the modular cabinet and plan simple cable routes before placing the TV equipment.",
+              "difference": "Stock modules and hollow-core shelves replace custom joinery and steel supports."
+            },
+            "standard": {
+              "specification": "Custom oak-veneered plywood shelves with concealed steel support rods, plus a low credenza with Blum soft-close hardware on a recessed plinth.",
+              "detail": "Locate studs or sound masonry and add 45 × 95 mm timber noggings where required. Fix load-rated concealed brackets into structural support, slide on the shelves and secure from below. Route AV cables through grommets to the TV chase.",
+              "difference": "Fitted veneer joinery hides the supports and cabling while the recessed plinth lightens the cabinet’s appearance."
+            },
+            "premium": {
+              "specification": "Bespoke rift-cut white oak millwork with an internal welded steel armature, warm-dim micro-LED shelf lighting and brush cable grommets.",
+              "detail": "Coordinate the structural armature, wall anchors and custom joinery as one assembly. Form the lighting routes and cable penetrations before the millwork is closed.",
+              "difference": "Solid timber, engineered hidden support and integrated lighting turn the storage into a complete fitted feature."
             }
           }
         }
@@ -153,15 +178,15 @@
       "budgets": {
         "economy": {
           "label": "Economy",
-          "description": "Keep the look with simpler materials, fittings and installation."
+          "description": "Surface-mounted details, ready-made panels and modular furniture simplify the build."
         },
         "standard": {
           "label": "Standard",
-          "description": "Balance durable materials, practical details and everyday comfort."
+          "description": "Recessed lighting, oak veneer and fitted joinery balance finish and complexity."
         },
         "premium": {
           "label": "Premium",
-          "description": "Invest in finer finishes, better hardware and more lighting control."
+          "description": "Trimless profiles, solid oak, motorised curtains and bespoke joinery refine the details."
         }
       }
     },
