@@ -17,6 +17,7 @@ test('every Solution has its own complete bilingual example and a real WebP asse
     assert.equal(asset.toString('ascii', 0, 4), 'RIFF', `${slug}: invalid image`);
     assert.equal(asset.toString('ascii', 8, 12), 'WEBP', `${slug}: invalid image`);
     assert.ok(media[slug].width > 0 && media[slug].height > 0, `${slug}: missing intrinsic dimensions`);
+    assert.ok(Number.isFinite(media[slug].focusY) && media[slug].focusY >= 0 && media[slug].focusY <= 100, `${slug}: missing or invalid comparison framing`);
     for (const locale of ['en', 'uk']) {
       const example = examples[slug][locale];
       for (const key of ['title', 'before', 'after', 'keep', 'check']) assert.ok(example[key]?.trim(), `${locale}/${slug}: missing ${key}`);
@@ -57,6 +58,7 @@ test('all localized exports render the matching pair, advice, disclosure and exi
       assert.ok(html.includes('type="range"'), `${locale}/${page.slug}: missing comparison control`);
       assert.ok(html.includes(`aria-label="${locale === 'uk' ? 'Порівняти до та після' : 'Compare before and after'}"`), `${locale}/${page.slug}: missing accessible slider name`);
       assert.ok(html.includes('aria-describedby="solution-example-disclosure"'));
+      assert.ok(html.includes('class="solution-smart-sparks"'), `${locale}/${page.slug}: missing Smart Sparks heading`);
       assert.equal((html.match(/<input[^>]*name="solution-project-budget"[^>]*>/g) || []).length, 3, `${locale}/${page.slug}: missing budget choices`);
       assert.ok(html.includes('id="solution-technical-advice"'));
       for (const text of Object.values(budgets[page.slug][locale].standard)) assert.ok(html.includes(escape(text)), `${locale}/${page.slug}: missing initial budget advice`);

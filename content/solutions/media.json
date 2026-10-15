@@ -1,110 +1,137 @@
 {
   "first-room-refresh": {
     "width": 1536,
-    "height": 1024
+    "height": 1024,
+    "focusY": 52
   },
   "whole-home-renovation-planning": {
     "width": 2172,
-    "height": 724
+    "height": 724,
+    "focusY": 50
   },
   "renter-friendly-makeover": {
     "width": 1876,
-    "height": 838
+    "height": 838,
+    "focusY": 55
   },
   "home-office-workspace": {
     "width": 1942,
-    "height": 809
+    "height": 809,
+    "focusY": 58
   },
   "interior-designers-freelance-decorators": {
     "width": 1536,
-    "height": 1024
+    "height": 1024,
+    "focusY": 60
   },
   "architects-architecture-studios": {
     "width": 1774,
-    "height": 887
+    "height": 887,
+    "focusY": 38
   },
   "general-contractors-remodeling-companies": {
     "width": 1983,
-    "height": 793
+    "height": 793,
+    "focusY": 52
   },
   "kitchen-bath-remodelers": {
     "width": 1536,
-    "height": 1024
+    "height": 1024,
+    "focusY": 25
   },
   "real-estate-agents-listing-prep": {
     "width": 1942,
-    "height": 809
+    "height": 809,
+    "focusY": 55
   },
   "real-estate-investors-house-flippers": {
     "width": 1536,
-    "height": 1024
+    "height": 1024,
+    "focusY": 48
   },
   "property-developers": {
     "width": 1983,
-    "height": 793
+    "height": 793,
+    "focusY": 55
   },
   "short-term-rental-airbnb-hosts": {
     "width": 2056,
-    "height": 765
+    "height": 765,
+    "focusY": 58
   },
   "try-a-design-style": {
     "width": 1981,
-    "height": 793
+    "height": 793,
+    "focusY": 58
   },
   "paint-wall-color-testing": {
     "width": 1536,
-    "height": 1024
+    "height": 1024,
+    "focusY": 35
   },
   "lighting-design-fixture-selection": {
     "width": 1774,
-    "height": 887
+    "height": 887,
+    "focusY": 25
   },
   "flooring-finish-comparison": {
     "width": 1774,
-    "height": 887
+    "height": 887,
+    "focusY": 82
   },
   "kitchen-surfaces": {
     "width": 1942,
-    "height": 809
+    "height": 809,
+    "focusY": 55
   },
   "fireplace-mantel-redesign": {
     "width": 2056,
-    "height": 765
+    "height": 765,
+    "focusY": 48
   },
   "closet-built-in-storage-redesign": {
     "width": 1536,
-    "height": 1024
+    "height": 1024,
+    "focusY": 50
   },
   "small-space-studio-apartment-layout": {
     "width": 1983,
-    "height": 793
+    "height": 793,
+    "focusY": 58
   },
   "nursery-kids-room-design": {
     "width": 2172,
-    "height": 724
+    "height": 724,
+    "focusY": 50
   },
   "home-gym-conversion": {
     "width": 1536,
-    "height": 1024
+    "height": 1024,
+    "focusY": 60
   },
   "open-concept-wall-removal": {
     "width": 1942,
-    "height": 809
+    "height": 809,
+    "focusY": 30
   },
   "basement-garage-conversion": {
     "width": 1536,
-    "height": 1024
+    "height": 1024,
+    "focusY": 48
   },
   "exterior-curb-appeal": {
     "width": 1774,
-    "height": 887
+    "height": 887,
+    "focusY": 30
   },
   "backyard-outdoor-living-redesign": {
     "width": 1536,
-    "height": 1024
+    "height": 1024,
+    "focusY": 38
   },
   "airbnb-turnover-refresh": {
     "width": 1942,
-    "height": 809
+    "height": 809,
+    "focusY": 58
   }
 }

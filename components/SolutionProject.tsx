@@ -36,7 +36,6 @@ export function SolutionProject({ slug, example, budgets, labels: l }: {
           <p className="eyebrow"><Sparkles size={18} aria-hidden="true"/>BRILLER</p>
           <h3>{l.take}</h3>
           <p className="solution-project-summary" aria-live="polite" aria-atomic="true">{recommendation.summary}</p>
-          <div className="solution-project-step"><h4>{l.next}</h4><p>{example.check}</p></div>
           <fieldset className="brill-budget-selector solution-project-budget" aria-describedby="solution-budget-note">
             <legend>{l.budget}</legend>
             <div className="brill-budget-choices">{budgetLevels.map(level => <label key={level} className={budget === level ? 'selected' : ''}>
@@ -46,9 +45,13 @@ export function SolutionProject({ slug, example, budgets, labels: l }: {
             <p id="solution-budget-note">{l.budgetNote}</p>
           </fieldset>
         </div>
-        <SolutionComparison image={image} width={example.image.width} height={example.image.height}
-          alt={`${l.before}: ${example.before} ${l.after}: ${example.after}`} before={l.before} after={l.after}
-          label={l.compare} descriptionId="solution-example-disclosure"/>
+        <div className="solution-project-visual">
+          <p className="solution-smart-sparks"><Sparkles size={18} aria-hidden="true"/>Smart Sparks</p>
+          <SolutionComparison image={image} width={example.image.width} height={example.image.height} focusY={example.image.focusY}
+            alt={`${l.before}: ${example.before} ${l.after}: ${example.after}`} before={l.before} after={l.after}
+            label={l.compare} descriptionId="solution-example-disclosure"/>
+          <div className="solution-project-step"><h4>{l.next}</h4><p>{example.check}</p></div>
+        </div>
       </div>
       <figcaption>
         <div className="solution-example-captions">
