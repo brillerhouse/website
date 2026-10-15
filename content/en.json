@@ -25,7 +25,7 @@
     "intro": "Explore what your space could become, with the materials, lighting, and practical details behind the picture.",
     "secondary": "See how it works",
     "freeNote": "Your room. Your ideas. A clearer direction.",
-    "imageLabel": "A kitchen before and after an illustrative AI redesign",
+    "imageLabel": "A living room before and after an illustrative redesign",
     "imageNote": "Drag to explore. AI-generated design illustration.",
     "strip": [
       "Materials",
@@ -69,7 +69,7 @@
     "primary": "Design your space",
     "beforeLabel": "Before",
     "afterLabel": "The possibility",
-    "compareLabel": "Compare the original kitchen and an illustrative redesign",
+    "compareLabel": "Compare the living room before and after the redesign",
     "stripTitle": "More than a beautiful image",
     "brillDemo": {
       "eyebrow": "BRILLER INSIGHTS",
