@@ -258,7 +258,11 @@
 .solution-comparison .hero-room-divider{z-index:5}
 .solution-comparison .hero-room-divider>span{pointer-events:auto;cursor:ew-resize}
 .solution-comparison-labels{display:none}
-.solution-spark-detail .text-link{font-size:var(--text-caption);padding:5px 0 0}
+.solution-spark-popover{position:absolute;z-index:6;width:min(230px,calc(100% - 16px));max-height:calc(100% - 16px);overflow:auto;padding:12px 14px;background:var(--paper);border:1px solid #d9b983;border-radius:12px;box-shadow:0 5px 22px #292c2630;cursor:auto;overscroll-behavior:contain}
+.solution-spark-popover>p{font-size:var(--text-body);font-weight:600;line-height:1.45;margin:0;padding-right:20px}
+.solution-spark-popover .text-link{font-size:var(--text-caption);min-height:32px;padding:6px 0 0;gap:7px}
+.solution-spark-close{position:absolute;top:2px;right:2px;width:32px;height:32px;border:0;border-radius:50%;display:grid;place-items:center;background:transparent;color:var(--muted)}
+.solution-spark-close:hover{color:var(--ink);background:var(--sage)}
 .solution-project-advice .brill-advice-card{scroll-margin-top:90px}
 @media(max-width:500px){.solution-comparison-labels{display:flex;justify-content:space-between;gap:12px;margin-bottom:8px;font-size:var(--text-caption);line-height:1.5;font-weight:650}.solution-comparison .hero-room-label{display:none}}
 .solution-example-disclosure{display:flex;align-items:center;justify-content:space-between;gap:25px;padding:20px 28px;border-top:1px solid var(--line)}

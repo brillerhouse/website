@@ -98,6 +98,7 @@ test('all localized exports render feature cards instead of old rows and preserv
       assert.ok(html.includes(`aria-label="${locale === 'uk' ? 'Порівняти до та після' : 'Compare before and after'}"`), `${locale}/${page.slug}: missing accessible slider name`);
       assert.ok(html.includes('aria-describedby="solution-example-disclosure"'));
       assert.ok(!html.includes('class="solution-smart-sparks"'), `${locale}/${page.slug}: obsolete heading above photo`);
+      assert.ok(!html.includes('solution-spark-detail'), `${locale}/${page.slug}: obsolete advice panel below photo`);
       assert.ok(html.includes('class="solution-comparison-sparks"'), `${locale}/${page.slug}: missing after-image spark layer`);
       const initiallyRevealed = Object.entries(sparks[page.slug]).filter(([, [x]]) => x > 50).map(([id]) => id);
       assert.equal((html.match(/class="spark-hotspot solution-spark-hotspot/g) || []).length, initiallyRevealed.length, `${locale}/${page.slug}: show only revealed after-image hotspots`);

@@ -10,7 +10,7 @@ type Budget = typeof budgetLevels[number];
 const icons = { lighting: Sun, materials: Layers, joinery: Wrench, layout: Ruler, planning: ClipboardList };
 type Labels = {
   before: string; after: string; advice: string; next: string; note: string; full: string; compare: string;
-  tipLabel: string; readAdvice: string;
+  tipLabel: string; readAdvice: string; closeSpark: string;
   take: string; budget: string; budgetNote: string; specification: string; detail: string; difference: string; adviceNote: string;
   budgets: Record<Budget, string>;
 };
@@ -26,7 +26,6 @@ export function SolutionProject({ slug, example, budgets, tips, labels: l }: {
   const initialTip = tips.find(tip => tip.position) ?? tips[0];
   const [expanded, setExpanded] = useState<string | null>(initialTip.id);
   const [active, setActive] = useState(initialTip.id);
-  const activeTip = tips.find(tip => tip.id === active) ?? tips[0];
   const image = `/images/solutions/${slug}.webp`;
 
   return <figure className="solution-example-figure">
@@ -50,12 +49,8 @@ export function SolutionProject({ slug, example, budgets, tips, labels: l }: {
           alt={`${l.before}: ${example.before} ${l.after}: ${example.after}`} before={l.before} after={l.after}
           label={l.compare} descriptionId="solution-example-disclosure"
           sparks={tips.flatMap(tip => tip.position ? [{ id: tip.id, title: tip.title, position: tip.position }] : [])} selectedSpark={active} sparkLabel={l.tipLabel}
-          onSelectSpark={id => { setActive(id); setExpanded(id); }}/>
-        <div className="spark-question solution-spark-detail" aria-live="polite" aria-atomic="true">
-          <span className="spark-question-label"><Sparkles size={12} aria-hidden="true"/>Smart Spark / {activeTip.category}</span>
-          <p>{activeTip.title}</p>
-          <a className="text-link" href={`#solution-advice-${activeTip.id}`} onClick={() => setExpanded(activeTip.id)}>{l.readAdvice}<ArrowUpRight size={16} aria-hidden="true"/></a>
-        </div>
+          readAdvice={l.readAdvice} closeSpark={l.closeSpark}
+          onReadAdvice={id => setExpanded(id)} onSelectSpark={id => { setActive(id); setExpanded(id); }}/>
       </div>
     </div>
     <figcaption>
