@@ -245,7 +245,7 @@
 .solution-project-step h4{font-size:var(--text-title-small);line-height:1.5;margin:0 0 7px}
 .solution-project-step p{font-size:var(--text-body);line-height:1.8;color:var(--muted);margin:0}
 .solution-project-take .solution-project-step{margin-top:28px}
-.solution-project-budget{margin:0}
+.solution-project-budget{margin:28px 0 0}
 .solution-project-budget .brill-budget-choices label{padding:10px 12px}
 .solution-project-budget>p{font-size:var(--text-caption);min-height:0;max-width:540px}
 .solution-example-image{min-width:0}
@@ -258,17 +258,16 @@
 .solution-example-disclosure p{font-size:var(--text-caption);line-height:1.7;color:var(--muted);margin:0;max-width:680px}
 .solution-example-disclosure a{font-size:var(--text-caption);flex-shrink:0}
 .solution-project-advice{padding:32px;border-top:1px solid var(--line)}
-.solution-advice-header{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;max-width:960px;margin:0 auto}
+.solution-advice-header{max-width:960px;margin:0 auto 24px}
 .solution-advice-header h3{display:flex;align-items:center;gap:12px;font-size:var(--text-lead);line-height:1.5;margin:0}
 .solution-advice-header h3 svg{color:var(--accent);flex-shrink:0}
-.solution-budget-note,.solution-advice-note{font-size:var(--text-caption);line-height:1.75;color:var(--muted);max-width:960px}
-.solution-budget-note{margin:20px auto 24px}
+.solution-advice-note{font-size:var(--text-caption);line-height:1.75;color:var(--muted);max-width:960px}
 .solution-advice-note{margin:22px auto 0}
 .solution-project-advice .brill-advice-card h4{margin:0}
 .solution-project-advice .brill-advice-list{max-width:960px;margin:0 auto}
 @media(max-width:1000px){.solution-example-layout{gap:24px;padding:26px}.solution-project-budget .brill-budget-choices label{padding:10px 9px;gap:6px}}
 @media(max-width:800px){.solution-example-layout{grid-template-columns:1fr;gap:28px;padding:24px}.solution-project-advice{padding:24px}.solution-example-disclosure{align-items:flex-start;flex-direction:column;gap:12px;padding:18px 20px}}
-@media(max-width:500px){.solution-project-advice{padding:20px}.solution-advice-header{gap:20px}.solution-project-advice .brill-specification{margin-left:0}.solution-project-budget .brill-budget-choices{gap:6px}.solution-project-budget .brill-budget-choices label{padding:10px 8px;gap:6px}}
+@media(max-width:500px){.solution-project-advice{padding:20px}.solution-project-advice .brill-specification{margin-left:0}.solution-project-budget .brill-budget-choices{gap:6px}.solution-project-budget .brill-budget-choices label{padding:10px 8px;gap:6px}}
 .solution-benefits{background:var(--sage)}
 .solution-benefit-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:35px;margin-top:40px}
 .solution-benefit-grid article{border-top:1px solid #cfd4c4;padding-top:20px}

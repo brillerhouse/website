@@ -32,6 +32,14 @@ export function SolutionProject({ slug, example, budgets, tips, labels: l }: {
         <h3>{l.take}</h3>
         <p className="solution-project-summary" aria-live="polite" aria-atomic="true">{budgets[budget].summary}</p>
         <div className="solution-project-step"><h4>{l.next}</h4><p>{example.check}</p></div>
+        <fieldset className="brill-budget-selector solution-project-budget" aria-describedby="solution-budget-note">
+          <legend>{l.budget}</legend>
+          <div className="brill-budget-choices">{budgetLevels.map(level => <label key={level} className={budget === level ? 'selected' : ''}>
+            <input type="radio" name="solution-project-budget" value={level} checked={budget === level} onChange={() => setBudget(level)} aria-controls="solution-advice-options"/>
+            <span>{l.budgets[level]}</span>
+          </label>)}</div>
+          <p id="solution-budget-note">{l.budgetNote}</p>
+        </fieldset>
       </div>
       <div className="solution-project-visual">
         <p className="solution-smart-sparks"><Sparkles size={18} aria-hidden="true"/>Smart Sparks</p>
@@ -44,15 +52,7 @@ export function SolutionProject({ slug, example, budgets, tips, labels: l }: {
       <section className="solution-project-advice" id="solution-technical-advice" aria-labelledby="solution-advice-heading">
         <div className="solution-advice-header">
           <h3 id="solution-advice-heading"><Sparkles size={23} aria-hidden="true"/>{l.advice}</h3>
-          <fieldset className="brill-budget-selector solution-project-budget" aria-describedby="solution-budget-note">
-            <legend>{l.budget}</legend>
-            <div className="brill-budget-choices">{budgetLevels.map(level => <label key={level} className={budget === level ? 'selected' : ''}>
-              <input type="radio" name="solution-project-budget" value={level} checked={budget === level} onChange={() => setBudget(level)} aria-controls="solution-advice-options"/>
-              <span>{l.budgets[level]}</span>
-            </label>)}</div>
-          </fieldset>
         </div>
-        <p className="solution-budget-note" id="solution-budget-note">{l.budgetNote}</p>
         <ul className="brill-advice-list" id="solution-advice-options">
           {tips.map(tip => {
             const Icon = icons[tip.kind as keyof typeof icons] ?? ClipboardList;
