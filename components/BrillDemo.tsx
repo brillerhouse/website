@@ -26,6 +26,7 @@ export function BrillDemo({ locale }: { locale: Locale }) {
   }
 
   return <section className="brill-demo" aria-labelledby="brill-demo-heading">
+    <div className="brill-demo-visual">
     <figure className="sparks-illustration">
       <div className="sparks-room sparks-room-living">
         <img src="/images/hero-room-after.webp" alt={c.imageAlt} loading="lazy" width={1376} height={768}/>
@@ -48,10 +49,6 @@ export function BrillDemo({ locale }: { locale: Locale }) {
       </div>
       <figcaption>{c.imageNote}</figcaption>
     </figure>
-    <div className="brill-demo-advice">
-      <p className="eyebrow">{c.eyebrow}</p>
-      <h2 id="brill-demo-heading">{c.title}</h2>
-      <p className="brill-demo-intro">{c.intro}</p>
       <fieldset className="brill-budget-selector" aria-describedby="brill-budget-description">
         <legend>{c.budgetLabel}</legend>
         <div className="brill-budget-choices">
@@ -62,6 +59,15 @@ export function BrillDemo({ locale }: { locale: Locale }) {
         </div>
         <p id="brill-budget-description" aria-live="polite" aria-atomic="true"><strong>{c.budgets[budget].label}:</strong> {c.budgets[budget].description}</p>
       </fieldset>
+    </div>
+    <div className="brill-demo-advice">
+      <div className="brill-demo-heading">
+      <p className="eyebrow">{c.eyebrow}</p>
+      <h2 id="brill-demo-heading">{c.title}</h2>
+      <p className="brill-demo-intro">{c.intro}</p>
+      </div>
+      <div className="brill-demo-details">
+
       <ul className="brill-advice-list">
         {c.tips.map((tip, i) => {
           const Icon = details[i].icon;
@@ -86,6 +92,7 @@ export function BrillDemo({ locale }: { locale: Locale }) {
       </ul>
       <p className="brill-demo-note">{c.projectNote}</p>
       <a className="text-link" href={site.app}>{c.cta}<ArrowUpRight size={17} aria-hidden="true"/></a>
+      </div>
     </div>
   </section>;
 }
