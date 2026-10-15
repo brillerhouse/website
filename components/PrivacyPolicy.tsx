@@ -23,6 +23,7 @@ function PolicyText({ text, locale }: { text: string; locale: Locale }) {
 
 export function Block({ block, locale }: { block: PolicyBlock; locale: Locale }) {
   if (block.type === 'heading') return <h3>{block.text}</h3>;
+  if (block.type === 'ordered-list' && block.items) return <ol>{block.items.map((item, i) => <li key={i}><PolicyText text={item} locale={locale}/></li>)}</ol>;
   if (block.type === 'list' && block.items) return <ul>{block.items.map((item, i) => <li key={i}><PolicyText text={item} locale={locale}/></li>)}</ul>;
   if (block.type === 'table' && block.columns && block.rows) return <div className="privacy-table-wrap" role="region" tabIndex={0} aria-label={block.columns.join(' / ')}>
     <table><thead><tr>{block.columns.map(column => <th key={column} scope="col">{column}</th>)}</tr></thead>

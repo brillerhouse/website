@@ -1,0 +1,308 @@
+{
+  "en": {
+    "title": "Refund Policy",
+    "contents": "On this page",
+    "description": "Refund and withdrawal rules for Briller subscriptions and top-up credits, cancellations, failed generations and billing disputes.",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "1. Overview and Operator Info",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "This Refund Policy applies to all purchases, subscription plans, and top-up credit packs made through Briller.House (the \"Website\") and the Briller App at build.briller.house (the \"App\"), operated by ACTIVECHAT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ (ACTIVECHAT sp. z o.o.), pl. Solny 15, 50-062 Wrocław, Poland; KRS: 0000927136, NIP: 8971897072, REGON: 520201322."
+          },
+          {
+            "type": "paragraph",
+            "text": "For any billing, subscription, or refund inquiries, contact our dedicated support team at hello@briller.house."
+          }
+        ]
+      },
+      {
+        "id": "digital-content",
+        "title": "2. Nature of Digital Content & Compute Resources",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Briller provides AI-assisted interior design visualization services. Generating AI renders, executing refinement loops, and compiling technical architectural insights consume immediate cloud computing power, AI GPU infrastructure, and third-party API processing tokens."
+          },
+          {
+            "type": "paragraph",
+            "text": "Because computation costs are incurred instantly upon initiating a generation request (\"✨ Create Magic\" or \"Iterate\"), credits that have already been consumed to generate AI outputs are non-refundable."
+          }
+        ]
+      },
+      {
+        "id": "withdrawal",
+        "title": "3. Statutory Right of Withdrawal (EU / EEA / UK Consumers)",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "If you are a consumer residing in the European Union, European Economic Area, or the United Kingdom, you generally have a statutory right to withdraw from an online contract within 14 calendar days of purchase without providing a reason."
+          },
+          {
+            "type": "heading",
+            "text": "A. Immediate Digital Performance Waiver"
+          },
+          {
+            "type": "paragraph",
+            "text": "When you purchase a Subscription Plan or Top-Up Credit Pack on Briller:"
+          },
+          {
+            "type": "ordered-list",
+            "items": [
+              "You explicitly request and consent to immediate access to the digital service and credit balance.",
+              "You acknowledge that once you consume AI credits to generate renders or insights, you waive your right of withdrawal with respect to the portion of credits used."
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "B. Pro-Rata Refunds for Unused Subscriptions (Within 14 Days)"
+          },
+          {
+            "type": "paragraph",
+            "text": "If you request a withdrawal within 14 calendar days of subscribing to a paid plan:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "If zero credits have been used, you will receive a full 100% refund.",
+              "If a portion of your monthly credit allowance has been used, you are entitled to a pro-rata refund corresponding to the remaining unused credits of that billing cycle."
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "C. Standard Top-Up Credit Pack Refunds (Within 14 Days)"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Top-Up Credit Packs are eligible for a full refund within 14 calendar days of purchase, provided that zero credits from that specific pack have been consumed.",
+              "If any credit from a Top-Up pack has been used, the remaining balance of that pack becomes non-refundable."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "subscriptions",
+        "title": "4. Subscriptions, Cancellations, and Renewals",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Subscription Cancellations: You may cancel your recurring subscription (Explorer, Pro Design, or Studio / Architect) at any time via your in-app Billing Dashboard or Stripe Customer Portal.",
+              "Effect of Cancellation: Cancellation prevents all future recurring charges. You retain access to your plan’s features and remaining monthly plan credits until the end of your current billing period.",
+              "Outside the 14-Day Window: Cancellations made after the initial 14-day statutory withdrawal period do not qualify for mid-cycle pro-rata monetary refunds.",
+              "Unused Top-Up Credits: Non-expiring Top-Up credits remain saved on your account balance for future use even if a recurring subscription is canceled."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "system-errors",
+        "title": "5. System Errors, Faulty Generations, and Credit Restoration",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "In line with our credit integrity architecture:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "System Failures & Timeouts: If a technical error, server timeout, or platform glitch occurs during generation without delivering a render result, the consumed credit is automatically restored to your balance or not deducted.",
+              "Credit Restoration Policy: If a system error fails to restore a credit automatically, contact hello@briller.house within 7 days. Upon verification of the system logs, we will perform a manual credit restoration to your account balance. Cash/monetary refunds are not issued for individual failed render attempts that are remedied via credit restoration."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "disputes",
+        "title": "6. Payment Disputes and Chargebacks",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Automatic Suspension: If a payment chargeback or payment dispute is initiated with your bank or credit card provider via Stripe, account access and credit balances will be automatically suspended pending administrative review.",
+              "Dispute Resolution: To prevent account disruption, please contact hello@briller.house directly to resolve any billing discrepancies before opening a formal chargeback with your financial institution."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "requests",
+        "title": "7. How to Request a Refund",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "To request an eligible refund or credit restoration:"
+          },
+          {
+            "type": "ordered-list",
+            "items": [
+              "Email hello@briller.house from the email address registered to your Briller account.",
+              "Use the subject line: Refund Request - [Your Account Email].",
+              "Include your Stripe invoice/receipt ID and details of the transaction."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Approved refunds will be processed back to the original payment method via Stripe within 5 to 10 business days."
+          }
+        ]
+      }
+    ]
+  },
+  "uk": {
+    "title": "Політика повернення коштів",
+    "contents": "На цій сторінці",
+    "description": "Правила повернення коштів і відмови від підписок та додаткових кредитів Briller, скасування, невдалі генерації та платіжні спори.",
+    "sections": [
+      {
+        "id": "overview",
+        "title": "1. Загальна інформація та оператор",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Ця Політика повернення коштів поширюється на всі покупки, плани підписки та пакети додаткових кредитів, придбані через Briller.House («Сайт») і застосунок Briller на build.briller.house («Застосунок»), оператором яких є ACTIVECHAT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ (ACTIVECHAT sp. z o.o.), pl. Solny 15, 50-062 Wrocław, Польща; KRS: 0000927136, NIP: 8971897072, REGON: 520201322."
+          },
+          {
+            "type": "paragraph",
+            "text": "З усіх питань щодо оплати, підписки або повернення коштів звертайтеся до нашої служби підтримки: hello@briller.house."
+          }
+        ]
+      },
+      {
+        "id": "digital-content",
+        "title": "2. Цифровий контент та обчислювальні ресурси",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Briller надає послуги візуалізації дизайну інтер’єрів за допомогою AI. Створення AI-рендерів, цикли уточнення та підготовка технічних архітектурних рекомендацій одразу використовують хмарні обчислювальні потужності, GPU-інфраструктуру AI та токени обробки сторонніх API."
+          },
+          {
+            "type": "paragraph",
+            "text": "Оскільки витрати на обчислення виникають одразу після ініціювання запиту на генерацію («✨ Create Magic» або «Iterate»), кредити, уже використані для створення AI-результатів, не підлягають поверненню."
+          }
+        ]
+      },
+      {
+        "id": "withdrawal",
+        "title": "3. Законне право на відмову (споживачі ЄС / ЄЕЗ / Великої Британії)",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Якщо ви є споживачем, який проживає в Європейському Союзі, Європейській економічній зоні або Великій Британії, ви зазвичай маєте законне право відмовитися від онлайн-договору протягом 14 календарних днів після покупки без пояснення причин."
+          },
+          {
+            "type": "heading",
+            "text": "A. Відмова від права у зв’язку з негайним наданням цифрової послуги"
+          },
+          {
+            "type": "paragraph",
+            "text": "Купуючи план підписки або пакет додаткових кредитів у Briller:"
+          },
+          {
+            "type": "ordered-list",
+            "items": [
+              "Ви прямо просите надати негайний доступ до цифрової послуги та кредитного балансу й погоджуєтеся на це.",
+              "Ви визнаєте, що після використання AI-кредитів для створення рендерів або рекомендацій відмовляєтеся від права на відмову стосовно використаної частини кредитів."
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "B. Пропорційне повернення за невикористану підписку (протягом 14 днів)"
+          },
+          {
+            "type": "paragraph",
+            "text": "Якщо ви просите відмовитися від платної підписки протягом 14 календарних днів після її оформлення:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Якщо не використано жодного кредиту, ви отримаєте повне повернення 100% коштів.",
+              "Якщо використано частину місячного ліміту кредитів, ви маєте право на пропорційне повернення коштів відповідно до кредитів, що залишилися невикористаними в цьому розрахунковому циклі."
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "C. Стандартне повернення за пакети додаткових кредитів (протягом 14 днів)"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Пакети додаткових кредитів підлягають повному поверненню протягом 14 календарних днів після покупки за умови, що з конкретного пакета не використано жодного кредиту.",
+              "Якщо використано хоча б один кредит із додаткового пакета, решта балансу цього пакета не підлягає поверненню."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "subscriptions",
+        "title": "4. Підписки, скасування та поновлення",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Скасування підписки: Ви можете будь-коли скасувати регулярну підписку (Explorer, Pro Design або Studio / Architect) через розділ оплати в застосунку або Stripe Customer Portal.",
+              "Наслідки скасування: Скасування припиняє всі майбутні регулярні списання. Ви зберігаєте доступ до функцій плану та залишку місячних кредитів до кінця поточного розрахункового періоду.",
+              "Після завершення 14-денного строку: Скасування після початкового 14-денного законного строку відмови не дає права на пропорційне грошове повернення посеред розрахункового циклу.",
+              "Невикористані додаткові кредити: Додаткові кредити без строку дії залишаються на балансі вашого облікового запису для майбутнього використання навіть після скасування регулярної підписки."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "system-errors",
+        "title": "5. Системні помилки, невдалі генерації та відновлення кредитів",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Відповідно до нашої системи забезпечення цілісності кредитного балансу:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Системні збої та перевищення часу очікування: Якщо під час генерації виникає технічна помилка, перевищення часу очікування сервера або збій платформи й результат рендерингу не надано, використаний кредит автоматично повертається на баланс або не списується.",
+              "Політика відновлення кредитів: Якщо через системну помилку кредит не відновлено автоматично, зверніться на hello@briller.house протягом 7 днів. Після перевірки системних журналів ми вручну відновимо кредит на балансі вашого облікового запису. Грошові повернення за окремі невдалі спроби рендерингу, врегульовані відновленням кредитів, не здійснюються."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "disputes",
+        "title": "6. Платіжні спори та чарджбеки",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Автоматичне призупинення: Якщо через Stripe ініційовано чарджбек або платіжний спір із вашим банком чи емітентом кредитної картки, доступ до облікового запису та кредитного балансу автоматично призупиняється до адміністративного розгляду.",
+              "Врегулювання спорів: Щоб уникнути переривання доступу, зверніться безпосередньо на hello@briller.house для врегулювання розбіжностей в оплаті, перш ніж ініціювати офіційний чарджбек у своїй фінансовій установі."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "requests",
+        "title": "7. Як подати запит на повернення",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Щоб подати запит на повернення коштів за наявності відповідного права або на відновлення кредитів:"
+          },
+          {
+            "type": "ordered-list",
+            "items": [
+              "Напишіть на hello@briller.house з email-адреси, зареєстрованої у вашому обліковому записі Briller.",
+              "Укажіть тему листа: Refund Request - [Your Account Email].",
+              "Додайте ідентифікатор рахунку/квитанції Stripe та подробиці операції."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Схвалені повернення здійснюються через Stripe на початковий спосіб оплати протягом 5–10 робочих днів."
+          }
+        ]
+      }
+    ]
+  }
+}

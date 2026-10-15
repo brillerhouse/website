@@ -1,31 +1,5 @@
 {
   "en": {
-    "refunds": [
-      [
-        "1. Draft status",
-        "Briller.House is operated by {{operatorDetails}}. A final refund and withdrawal policy has not yet been supplied. This draft does not promise or deny a refund. Insert the effective date and reviewed conditions before selling subscriptions."
-      ],
-      [
-        "2. Requesting assistance",
-        "For a billing or refund enquiry, email hello@briller.house with the account email and a transaction reference. Never send full payment-card information. Confirm which support channel receives Stripe transaction references securely."
-      ],
-      [
-        "3. Subscription cancellation",
-        "Subscription management is available through the Stripe Customer Portal in the app. Cancellation and refund eligibility are separate issues. Confirm the cancellation effective date, access after cancellation and whether any prorated refunds are offered."
-      ],
-      [
-        "4. Credits and failed generations",
-        "Confirm the treatment of unused monthly credits, unused non-expiring top-up credits, duplicate charges and failed generations. Specify eligibility, evidence required, review process and any applicable exclusions."
-      ],
-      [
-        "5. Consumer rights",
-        "Mandatory consumer rights, including any applicable withdrawal rights in the EU and other markets, must be assessed for the actual product and checkout flow. Any consent to immediate digital-service performance or loss of withdrawal rights must be legally valid and collected in the appropriate flow."
-      ],
-      [
-        "6. Timing and payment method",
-        "Insert [REQUEST WINDOW], [REVIEW TIME] and [REFUND PROCESSING TIME] only after confirmation. Explain the original-payment-method process and potential payment-provider delays in the final policy."
-      ]
-    ],
     "cookies": [
       [
         "1. Your choices",
@@ -58,32 +32,6 @@
     ]
   },
   "uk": {
-    "refunds": [
-      [
-        "1. Статус чернетки",
-        "Оператор Briller.House — {{operatorDetails}}. Остаточні правила повернення та відмови від покупки ще не надані. Ця чернетка не обіцяє й не відмовляє в поверненні. До продажу підписок додайте дату чинності та перевірені умови."
-      ],
-      [
-        "2. Запит допомоги",
-        "Для запитань щодо оплати чи повернення напишіть на hello@briller.house, вказавши email облікового запису й ідентифікатор операції. Не надсилайте повні реквізити картки. Підтвердьте безпечний канал отримання ідентифікаторів Stripe."
-      ],
-      [
-        "3. Скасування підписки",
-        "Керування підпискою доступне через Stripe Customer Portal у застосунку. Скасування й право на повернення — окремі питання. Підтвердьте дату припинення, доступ після скасування та можливість пропорційного повернення."
-      ],
-      [
-        "4. Кредити й невдалі генерації",
-        "Підтвердьте правила для невикористаних місячних кредитів, додаткових кредитів без строку дії, подвійних списань і невдалих генерацій. Визначте підстави, потрібні докази, процес розгляду й винятки."
-      ],
-      [
-        "5. Права споживачів",
-        "Оцініть обов’язкові права споживачів, зокрема право на відмову в ЄС та інших ринках, для фактичного продукту й checkout. Згода на негайне надання цифрової послуги чи втрату права на відмову має бути юридично чинною й отриманою в належному процесі."
-      ],
-      [
-        "6. Строки та спосіб повернення",
-        "Додайте [СТРОК ПОДАННЯ], [СТРОК РОЗГЛЯДУ] та [СТРОК ПОВЕРНЕННЯ] після підтвердження. В остаточній політиці поясніть повернення на початковий спосіб оплати й можливі затримки провайдера."
-      ]
-    ],
     "cookies": [
       [
         "1. Ваш вибір",
