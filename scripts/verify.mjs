@@ -20,7 +20,7 @@ for(const locale of ['en','uk'])for(const page of pages){
  check(!/<header[\s\S]*?class="locale"[\s\S]*?<\/header>/.test(html),`Language control still in header: ${file}`);
  const footerLanguage=html.match(/<nav class="footer-languages"[^>]*>([\s\S]*?)<\/nav>/)?.[1]||'';
  for(const language of ['en','uk'])check(footerLanguage.includes(`href="/${language}/${page?page+'/':''}"`),`Footer language loses page: ${file}/${language}`);
- if(process.env.BRILLER_PREVIEW==='1'||['cookies'].includes(page))check(html.includes('noindex'),`Non-public page indexed: ${file}`);
+ if(process.env.BRILLER_PREVIEW==='1')check(html.includes('noindex'),`Non-public page indexed: ${file}`);
  else check(!html.includes('content="noindex'),`Production marketing page has noindex: ${file}`);
  for(const m of html.matchAll(/(?:href|src)="(\/[^"?#]*)/g)){
   const url=m[1];if(url.startsWith('//'))continue;
@@ -62,3 +62,5 @@ console.log(`PASS: ${checked} localized pages, local links/assets, H1, metadata,
 check(['/en/terms/','/uk/terms/'].every(url=>fs.readFileSync('out/sitemap.xml','utf8').includes(url)),'Missing supplied Terms of Service in sitemap');
 
 check(['/en/refunds/','/uk/refunds/'].every(url=>fs.readFileSync('out/sitemap.xml','utf8').includes(url)),'Missing finalized Refund Policy in sitemap');
+
+check(['/en/cookies/','/uk/cookies/'].every(url=>fs.readFileSync('out/sitemap.xml','utf8').includes(url)),'Missing finalized Cookies Policy in sitemap');

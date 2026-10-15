@@ -7,10 +7,11 @@ import { CurrentEffectiveDate } from './CurrentEffectiveDate';
 type PolicyBlock = { type: string; text?: string; items?: string[]; columns?: string[]; rows?: string[][] };
 
 function PolicyText({ text, locale }: { text: string; locale: Locale }) {
-  return <>{text.split(/(\[EFFECTIVE DATE\]|briller\.house\/pricing|https?:\/\/[^\s]+|hello@briller\.house|Terms of Service|Умовах користування|build\.briller\.house|briller\.house)/g).map((part, i) => {
+  return <>{text.split(/(\[EFFECTIVE DATE\]|briller\.house\/pricing|https?:\/\/[^\s]+|hello@briller\.house|Privacy Policy|Політиці конфіденційності|Terms of Service|Умовах користування|build\.briller\.house|briller\.house)/g).map((part, i) => {
     if (part === '[EFFECTIVE DATE]') return <CurrentEffectiveDate key={i} locale={locale} initialDate={privacyEffectiveDate}/>;
     if (part === 'briller.house/pricing') return <a key={i} href={href(locale, 'pricing')}>{part}</a>;
     if (part === 'hello@briller.house') return <a key={i} href={`mailto:${part}`}>{part}</a>;
+    if (part === 'Privacy Policy' || part === 'Політиці конфіденційності') return <a key={i} href={href(locale, 'privacy')}>{part}</a>;
     if (part === 'Terms of Service' || part === 'Умовах користування') return <a key={i} href={href(locale, 'terms')}>{part}</a>;
     if (part === 'build.briller.house' || part === 'briller.house') return <a key={i} href={`https://${part}`}>{part}</a>;
     if (/^https?:\/\//.test(part)) {

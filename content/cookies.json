@@ -1,0 +1,344 @@
+{
+  "en": {
+    "title": "Cookies Policy",
+    "contents": "On this page",
+    "description": "How Briller.House uses necessary storage, optional Google Analytics and Meta tools, and how to manage or withdraw cookie consent.",
+    "sections": [
+      {
+        "id": "choices",
+        "title": "1. Your Choices",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Essential preference storage keeps the site usable. Optional analytics and advertising tools are turned off by default."
+          },
+          {
+            "type": "paragraph",
+            "text": "When you first visit our website (briller.house), our cookie consent banner presents you with clear options:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Accept All: Enables necessary preferences, optional analytics, and advertising cookies.",
+              "Reject Optional: Keeps essential preferences enabled while blocking all non-essential analytics and marketing tracking.",
+              "Choose Preferences: Allows you to granularly toggle analytics and advertising categories independently."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "You can reopen and change your Cookie Settings at any time by clicking the link in the footer of any page."
+          }
+        ]
+      },
+      {
+        "id": "storage",
+        "title": "2. Necessary Preferences & Storage",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "We use functional local storage and essential cookies to ensure basic website operations, remember your language selection, and store your cookie consent preferences. These cannot be disabled as the website cannot function properly without them."
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Storage Name",
+              "Type",
+              "Purpose",
+              "Duration / Expiration"
+            ],
+            "rows": [
+              [
+                "briller_language",
+                "First-party Cookie",
+                "Remembers a manual language selection (e.g., English / Ukrainian)",
+                "Up to 1 year"
+              ],
+              [
+                "briller:language",
+                "Local Storage",
+                "Maintains persistent language preferences until cleared",
+                "Until cleared by user"
+              ],
+              [
+                "briller:country",
+                "Local Storage",
+                "Caches country code and lookup timestamp for functional IP-country detection; does not store user IP address",
+                "24 hours (or 10 minutes on failed lookup)"
+              ],
+              [
+                "briller_cookie_consent",
+                "First-party Cookie",
+                "Stores cookie preferences, consent policy version, and timestamp",
+                "Up to 180 days"
+              ],
+              [
+                "briller:consent",
+                "Local Storage",
+                "Mirrors consent state and category preferences",
+                "Up to 180 days"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "analytics",
+        "title": "3. Google Analytics (Optional)",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "When configured and explicitly accepted by you via the consent banner, Google Analytics (GA4) uses first-party cookies and identifiers to distinguish visits and measure site usage."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Cookies Used: _ga, _ga_*, and related measurement identifiers.",
+              "Implementation Limits: Our implementation sets a 180-day cookie duration and does not enable Google Signals or advertising-personalization signals. Query parameters and fragments are stripped from URLs to minimize data collection.",
+              "Script Loading: The Google script is never requested or loaded before you provide explicit consent for analytics.",
+              "Account Retention: Event-data retention within the Google account is managed under separate property configurations and documented in our Privacy Policy."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "advertising",
+        "title": "4. Meta Advertising Tools (Optional)",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "When configured and explicitly accepted by you via the consent banner, Meta Pixel may process browser identifiers and cookies to measure advertising campaigns and support custom audiences."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Cookies Used: _fbp, _fbc, and Meta browser identifiers.",
+              "Implementation Limits: The Meta script and PageView events are never loaded prior to receiving your explicit consent for advertising tracking. Automatic advanced matching is disabled.",
+              "Cookie Lifetimes: Cookie lifetimes and provider-side retention depend on Meta’s current platform implementations and account settings, which must be confirmed before production launch."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "withdrawal",
+        "title": "5. Withdrawal and Browser Controls",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "You can change or withdraw your consent at any time via Cookie Settings in the website footer."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Effect of Withdrawal: Withdrawing consent switches off the relevant integration, attempts to delete accessible optional first-party cookies, and reloads the page so vendor code stops running.",
+              "Necessary Preferences: Rejection or withdrawal of consent does not remove necessary language or consent preferences required to run the site.",
+              "Third-Party Domain Records: Third-party cookies or records held directly on a provider’s domain (e.g., Google or Meta) cannot be directly erased by this website; please use your browser settings or provider-specific privacy tools."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hosting",
+        "title": "6. Hosting, the App, and Future Changes",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Hosting & Network Logs: Infrastructure hosting providers (e.g., Google Cloud Platform) may process network access logs, including IP addresses, for security and troubleshooting without relying on cookies. Functional IP-country lookups use country.is as described in our Privacy Policy.",
+              "Briller App Separation: The web application located at build.briller.house operates with separate user accounts, Firebase authentication, Stripe billing, and data processing rules. Consent given on this marketing website does not constitute consent for tracking inside the App.",
+              "Future Tools: Any future provider or newly added purpose will be added to this policy, and appropriate consent will be requested before loading those external scripts."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operator",
+        "title": "7. Operator and Effective Date",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Data Controller: ACTIVECHAT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ (ACTIVECHAT sp. z o.o.), pl. Solny 15, 50-062 Wrocław, Poland; KRS: 0000927136, NIP: 8971897072, REGON: 520201322."
+          },
+          {
+            "type": "paragraph",
+            "text": "Effective Date: [EFFECTIVE DATE]."
+          },
+          {
+            "type": "paragraph",
+            "text": "Contact & Inquiries: For questions regarding this policy or privacy requests, contact hello@briller.house."
+          }
+        ]
+      }
+    ]
+  },
+  "uk": {
+    "title": "Політика використання cookies",
+    "contents": "На цій сторінці",
+    "description": "Як Briller.House використовує необхідне сховище, необов’язкові інструменти Google Analytics і Meta та як керувати згодою на cookies або відкликати її.",
+    "sections": [
+      {
+        "id": "choices",
+        "title": "1. Ваш вибір",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Необхідне сховище налаштувань забезпечує роботу сайту. Необов’язкові інструменти аналітики й реклами початково вимкнені."
+          },
+          {
+            "type": "paragraph",
+            "text": "Під час першого відвідування нашого сайту (briller.house) банер згоди на cookies пропонує зрозумілі варіанти:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Прийняти всі: Вмикає необхідні налаштування, необов’язкову аналітику та рекламні cookies.",
+              "Відхилити необов’язкові: Залишає необхідні налаштування ввімкненими, блокуючи всю необов’язкову аналітику та маркетингове відстеження.",
+              "Обрати налаштування: Дозволяє окремо вмикати й вимикати категорії аналітики та реклами."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Ви можете будь-коли знову відкрити та змінити Налаштування cookies за посиланням у нижній частині будь-якої сторінки."
+          }
+        ]
+      },
+      {
+        "id": "storage",
+        "title": "2. Необхідні налаштування та сховище",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Ми використовуємо функціональне локальне сховище та необхідні cookies для базової роботи сайту, запам’ятовування мови й збереження вашого вибору щодо cookies. Їх не можна вимкнути, оскільки без них сайт не може працювати належним чином."
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Назва сховища",
+              "Тип",
+              "Призначення",
+              "Строк / завершення дії"
+            ],
+            "rows": [
+              [
+                "briller_language",
+                "Власний cookie",
+                "Запам’ятовує ручний вибір мови (наприклад, англійської / української)",
+                "До 1 року"
+              ],
+              [
+                "briller:language",
+                "Локальне сховище",
+                "Зберігає постійні мовні налаштування до очищення",
+                "До очищення користувачем"
+              ],
+              [
+                "briller:country",
+                "Локальне сховище",
+                "Кешує код країни й час перевірки для функціонального визначення країни за IP; не зберігає IP-адресу користувача",
+                "24 години (або 10 хвилин після невдалої перевірки)"
+              ],
+              [
+                "briller_cookie_consent",
+                "Власний cookie",
+                "Зберігає налаштування cookies, версію політики згоди та час вибору",
+                "До 180 днів"
+              ],
+              [
+                "briller:consent",
+                "Локальне сховище",
+                "Дублює стан згоди та налаштування категорій",
+                "До 180 днів"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "analytics",
+        "title": "3. Google Analytics (необов’язково)",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Після налаштування та вашої явної згоди через банер Google Analytics (GA4) використовує власні cookies й ідентифікатори, щоб розрізняти відвідування та вимірювати користування сайтом."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Використовувані cookies: _ga, _ga_* та пов’язані ідентифікатори вимірювання.",
+              "Обмеження реалізації: Ми встановлюємо строк дії cookies 180 днів і не вмикаємо Google Signals або сигнали персоналізації реклами. Параметри запиту та фрагменти вилучаються з URL-адрес для мінімізації збору даних.",
+              "Завантаження скрипту: Скрипт Google ніколи не запитується й не завантажується до вашої явної згоди на аналітику.",
+              "Зберігання в обліковому записі: Строк зберігання даних подій в обліковому записі Google визначається окремими налаштуваннями ресурсу та описується в нашій Політиці конфіденційності."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "advertising",
+        "title": "4. Рекламні інструменти Meta (необов’язково)",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Після налаштування та вашої явної згоди через банер Meta Pixel може обробляти браузерні ідентифікатори й cookies для вимірювання рекламних кампаній і підтримки спеціальних аудиторій."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Використовувані cookies: _fbp, _fbc та браузерні ідентифікатори Meta.",
+              "Обмеження реалізації: Скрипт Meta й події PageView ніколи не завантажуються до отримання вашої явної згоди на рекламне відстеження. Автоматичне розширене зіставлення вимкнене.",
+              "Строки дії cookies: Строки cookies та зберігання даних у провайдера залежать від поточної реалізації платформи Meta й налаштувань облікового запису, які необхідно підтвердити перед публічним запуском."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "withdrawal",
+        "title": "5. Відкликання згоди та налаштування браузера",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Ви можете будь-коли змінити або відкликати згоду через Налаштування cookies в нижній частині сайту."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Наслідки відкликання: Відкликання згоди вимикає відповідну інтеграцію, намагається видалити доступні необов’язкові власні cookies та перезавантажує сторінку, щоб зупинити виконання коду провайдера.",
+              "Необхідні налаштування: Відмова або відкликання згоди не видаляє необхідні мовні налаштування чи налаштування згоди, потрібні для роботи сайту.",
+              "Записи в сторонніх доменах: Цей сайт не може безпосередньо видалити сторонні cookies або записи, що зберігаються в домені провайдера (наприклад, Google чи Meta); використовуйте налаштування браузера або інструменти приватності відповідного провайдера."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hosting",
+        "title": "6. Хостинг, застосунок і майбутні зміни",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Хостинг і мережеві журнали: Провайдери інфраструктури хостингу (наприклад, Google Cloud Platform) можуть обробляти журнали мережевого доступу, зокрема IP-адреси, для безпеки й усунення несправностей без використання cookies. Функціональне визначення країни за IP використовує country.is, як описано в нашій Політиці конфіденційності.",
+              "Окремий застосунок Briller: Вебзастосунок на build.briller.house має окремі облікові записи користувачів, автентифікацію Firebase, оплату Stripe та правила обробки даних. Згода на цьому маркетинговому сайті не є згодою на відстеження всередині Застосунку.",
+              "Майбутні інструменти: Будь-який майбутній провайдер або нова мета будуть додані до цієї політики, а належна згода запитуватиметься до завантаження відповідних зовнішніх скриптів."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operator",
+        "title": "7. Оператор і дата набрання чинності",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Контролер даних: ACTIVECHAT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ (ACTIVECHAT sp. z o.o.), pl. Solny 15, 50-062 Wrocław, Польща; KRS: 0000927136, NIP: 8971897072, REGON: 520201322."
+          },
+          {
+            "type": "paragraph",
+            "text": "Дата набрання чинності: [EFFECTIVE DATE]."
+          },
+          {
+            "type": "paragraph",
+            "text": "Контакти та запитання: З питань щодо цієї політики або запитів стосовно конфіденційності звертайтеся на hello@briller.house."
+          }
+        ]
+      }
+    ]
+  }
+}
