@@ -34,8 +34,8 @@ export function galleryPrompt(item: GalleryItem, locale: Locale) {
   const room = galleryRooms.find(room => room.id === item.room)!;
   const style = galleryStyles.find(style => style.id === item.style)!;
   return locale === 'uk'
-    ? `Перетворіть кімнату на завантаженому фото: ${room.label.uk.toLowerCase()}, стиль «${style.label.uk}». Збережіть точку зйомки, масштаб кімнати, вікна, двері й наявні конструктивні елементи. ${style.brief.uk} ${room.brief.uk} Покажіть реалістичний цілісний редизайн із правдоподібним денним і штучним освітленням. Не додавайте людей, текст чи водяні знаки.`
-    : `Redesign the ${room.label.en.toLowerCase()} in my uploaded photo in ${style.label.en} style. Preserve the camera viewpoint, room proportions, windows, doors and existing structural elements. ${style.brief.en} ${room.brief.en} Show a realistic, cohesive redesign with believable daylight and artificial lighting. Do not add people, text or watermarks.`;
+    ? `Перетворіть кімнату на завантаженому фото: ${room.label.uk.toLowerCase()}, стиль «${style.label.uk}». Збережіть точку зйомки, масштаб кімнати, вікна, двері й наявні конструктивні елементи. ${style.brief.uk} ${room.brief.uk} ${catalogue.photography.uk} Не додавайте людей, текст чи водяні знаки.`
+    : `Redesign the ${room.label.en.toLowerCase()} in my uploaded photo in ${style.label.en} style. Preserve the camera viewpoint, room proportions, windows, doors and existing structural elements. ${style.brief.en} ${room.brief.en} ${catalogue.photography.en} Do not add people, text or watermarks.`;
 }
 export function galleryTileStyle(crop: NonNullable<GalleryItem['crop']>) {
   return {
