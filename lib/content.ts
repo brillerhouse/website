@@ -9,6 +9,12 @@ export const copy = (locale: Locale): Copy => locale === 'uk' ? uk : en;
 export const pageKeys = ['features','use-cases','gallery','pricing','faq','contact','privacy','terms','refunds','cookies'] as const;
 export type PageKey = typeof pageKeys[number];
 export const site = {origin: 'https://briller.house', app: 'https://build.briller.house', email: 'hello@briller.house'};
+export const socialPreview = {
+  url: site.origin + '/images/briller-social-preview.png',
+  width: 1024,
+  height: 572,
+  alt: 'Briller.House — Your space. A new perspective.'
+};
 export const href = (locale: Locale, page = '') => `/${locale}/${page ? page + '/' : ''}`;
 export function legalText(text: string, locale: Locale) {
   const a = company.address;

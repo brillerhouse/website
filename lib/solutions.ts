@@ -6,7 +6,7 @@ import media from '@/content/solutions/media.json';
 import budgets from '@/content/solutions/budgets.json';
 import advice from '@/content/solutions/advice.json';
 import sparks from '@/content/solutions/sparks.json';
-import { copy, href, Locale, site } from './content';
+import { copy, href, Locale, site, socialPreview } from './content';
 
 export type Solution = typeof en.pages[number];
 export type SolutionsLabels = typeof en.hub;
@@ -58,8 +58,8 @@ export function solutionMetadata(locale: Locale, slug = '') {
   return {
     title, description,
     alternates: { canonical: url, languages: { en: site.origin + solutionHref('en', slug), uk: site.origin + solutionHref('uk', slug), 'x-default': site.origin + solutionHref('en', slug) } },
-    openGraph: { title, description, url, type: 'website' as const, locale: locale === 'uk' ? 'uk_UA' : 'en_US', images: [site.origin + '/images/hero.jpg'] },
-    twitter: { card: 'summary_large_image' as const, title, description, images: [site.origin + '/images/hero.jpg'] }
+    openGraph: { title, description, url, type: 'website' as const, locale: locale === 'uk' ? 'uk_UA' : 'en_US', images: [socialPreview] },
+    twitter: { card: 'summary_large_image' as const, title, description, images: [socialPreview] }
   };
 }
 
