@@ -911,6 +911,7 @@
         "Порівняй плитку на всю висоту з нижчим фартухом."
       ],
       "related": [
+        "kitchen-surfaces",
         "general-contractors-remodeling-companies",
         "flooring-finish-comparison",
         "architects-architecture-studios"
@@ -2007,7 +2008,7 @@
       ],
       "related": [
         "whole-home-renovation-planning",
-        "backyard-outdoor-living-redesign",
+        "try-a-design-style",
         "first-room-refresh"
       ],
       "note": "Покриття, полицю й важче облицювання перевіряють для конкретного каміна. До рішення кваліфікований монтажник має підтвердити термостійкість, відступи, вентиляцію й опори.",
@@ -2757,8 +2758,6 @@
       ],
       "related": [
         "backyard-outdoor-living-redesign",
-        "home-office-workspace",
-        "first-room-refresh",
         "whole-home-renovation-planning"
       ],
       "note": "Перевірте місцеві обмеження, стан фасаду й фізичні зразки. Повна заміна облицювання може потребувати додаткових робіт під ним.",
@@ -2866,8 +2865,7 @@
       ],
       "related": [
         "exterior-curb-appeal",
-        "first-room-refresh",
-        "fireplace-mantel-redesign"
+        "whole-home-renovation-planning"
       ],
       "note": "Ґрунт, дренаж, конструкції та дозволи перевіряють окремо. Рендер не визначає технічну придатність ділянки.",
       "faqs": [

@@ -301,21 +301,17 @@
 .solution-practical-note>svg{flex-shrink:0;color:var(--accent);margin-top:3px}
 .solution-practical-note h3{font-size:var(--text-title-small);margin-bottom:10px}
 .solution-practical-note p{font-size:var(--text-body);color:var(--muted);margin:0;max-width:950px}
-.solution-direction-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:35px}
-.solution-direction-grid article{border-top:1px solid var(--line);padding-top:25px}
-.solution-direction-grid svg{color:var(--accent);margin-bottom:20px}
-.solution-direction-grid h2{font-size:24px;line-height:1.4;letter-spacing:-.035em;white-space:normal;margin-bottom:12px}
-.solution-direction-grid p{font-size:var(--text-body);color:var(--muted);margin:0}
+.solution-directions .solution-card-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+@media(max-width:800px){.solution-directions .solution-card-grid{grid-template-columns:1fr}}
 .solution-brief-section{padding-top:0}
 .solution-briefs{list-style:none;padding:0;margin:0;display:grid;gap:16px}
 .solution-briefs li{display:flex;align-items:center;justify-content:space-between;gap:30px;border:1px solid var(--line);border-radius:6px;padding:23px 27px;background:var(--sage)}
 .solution-briefs p{font-size:var(--text-body);margin:0;white-space:pre-wrap;user-select:text}
 .solution-briefs button{background:none;border:0;flex-shrink:0;color:var(--accent)}
 .solution-brief-section>p[role=status]{min-height:22px;margin:12px 0 0}
-.solution-related{padding-top:0}
 @media(min-width:1600px){.solution-breadcrumbs,.solution-section-nav{padding-left:max(5%,calc((100vw - 1450px)/2));padding-right:max(5%,calc((100vw - 1450px)/2))}}
 @media(max-width:1100px){.solution-audience-grid{gap:25px}.solution-audience-grid h3{font-size:23px}.solution-hero{gap:5%;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr)}.solution-starter{padding:25px}.solution-starter blockquote{font-size:20px}.solution-card{padding:22px}.solution-card-grid{gap:20px}.solution-workflow ol{grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}.solution-benefit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.solution-advice-grid{gap:18px}.solution-advice-grid article{padding:22px}}
-@media(max-width:800px){.solutions-heading{padding-top:40px;padding-bottom:50px}.solution-audience-grid{grid-template-columns:1fr;gap:38px}.solution-audience-grid article>p{max-width:550px}.solution-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.solution-controls{grid-template-columns:1fr;gap:20px}.solution-role{max-width:100%}.solution-hero{grid-template-columns:1fr;gap:32px;padding-top:40px;padding-bottom:45px}.solution-starter{max-width:650px}.solution-overview{grid-template-columns:1fr;gap:30px}.solution-section-nav{gap:25px}.solution-insights .section-heading{flex-direction:column;gap:20px}.solution-insights .section-heading>p{max-width:100%}.solution-advice-grid{grid-template-columns:1fr}.solution-advice-grid article{padding:25px}.solution-direction-grid{grid-template-columns:1fr}.solution-workflow ol{grid-template-columns:repeat(2,minmax(0,1fr))}.solution-brief-section,.solution-related{padding-top:0}.solution-briefs li{align-items:flex-start;gap:16px}.solution-breadcrumbs{padding-top:20px}}
+@media(max-width:800px){.solutions-heading{padding-top:40px;padding-bottom:50px}.solution-audience-grid{grid-template-columns:1fr;gap:38px}.solution-audience-grid article>p{max-width:550px}.solution-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.solution-controls{grid-template-columns:1fr;gap:20px}.solution-role{max-width:100%}.solution-hero{grid-template-columns:1fr;gap:32px;padding-top:40px;padding-bottom:45px}.solution-starter{max-width:650px}.solution-overview{grid-template-columns:1fr;gap:30px}.solution-section-nav{gap:25px}.solution-insights .section-heading{flex-direction:column;gap:20px}.solution-insights .section-heading>p{max-width:100%}.solution-advice-grid{grid-template-columns:1fr}.solution-advice-grid article{padding:25px}.solution-workflow ol{grid-template-columns:repeat(2,minmax(0,1fr))}.solution-brief-section{padding-top:0}.solution-briefs li{align-items:flex-start;gap:16px}.solution-breadcrumbs{padding-top:20px}}
 @media(max-width:500px){.solution-card-grid,.solution-benefit-grid,.solution-workflow ol{grid-template-columns:1fr}.solution-hero h1{font-size:38px}.solution-starter blockquote{font-size:19px}.solution-directory-group>h3{font-size:22px}.solution-audience-grid h3{font-size:25px}.solution-briefs li{flex-direction:column;padding:21px}.solution-card{padding:24px}.solution-breadcrumbs li:last-child{flex-basis:100%}.solution-breadcrumbs li:last-child:before{display:none}.solution-result-status{gap:10px}.solution-filters button{padding:9px 13px}.solution-practical-note{gap:14px}}
 
 /* Three-level Solutions disclosure: section, audience/project category, individual page. */

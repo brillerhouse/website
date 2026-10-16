@@ -121,8 +121,34 @@ test('all localized exports render feature cards instead of old rows and preserv
         assert.ok(html.includes(escape(text)), `${locale}/${page.slug}: missing example text ${text}`);
       }
       for (const id of ['overview', 'workflow', 'insights', 'briefs', 'questions']) assert.ok(html.includes(`id="${id}"`), `${locale}/${page.slug}: lost ${id}`);
-      for (const text of [page.title, page.problem, ...page.pains, ...page.benefits.flat(), ...page.steps.flat(), ...page.advice.flat(), ...page.directions.flat(), ...page.briefs, ...page.faqs.flat(), page.note]) {
+      for (const text of [page.title, page.problem, ...page.pains, ...page.benefits.flat(), ...page.steps.flat(), ...page.advice.flat(), ...page.briefs, ...page.faqs.flat(), page.note]) {
         assert.ok(html.includes(escape(text)), `${locale}/${page.slug}: missing existing content ${text}`);
+      }
+    }
+  }
+});
+
+test('every Solution cross-links to other localized Solutions in one related section', () => {
+  const enPages = read('content/solutions/en.json').pages;
+  for (const locale of ['en', 'uk']) {
+    const localized = read(`content/solutions/${locale}.json`).pages;
+    for (const page of localized) {
+      assert.deepEqual(page.related, enPages.find(item => item.slug === page.slug).related, `${page.slug}: localized relationships differ`);
+      assert.ok(page.related.length >= 2, `${locale}/${page.slug}: provide related Solutions`);
+      assert.equal(new Set(page.related).size, page.related.length, `${locale}/${page.slug}: repeated destination`);
+      const html = fs.readFileSync(`out/${locale}/solutions/${page.slug}/index.html`, 'utf8');
+      assert.equal((html.match(/id="related-solutions"/g) || []).length, 1);
+      const section = html.match(/<section[^>]*id="related-solutions"[^>]*>([\s\S]*?)<\/section>/)?.[1];
+      assert.ok(section, `${locale}/${page.slug}: missing cross-link section`);
+      assert.ok(!html.includes('class="solution-direction-grid"') && !html.includes('class="section solution-related"'), `${locale}/${page.slug}: obsolete examples or duplicate related section`);
+      assert.equal((section.match(/class="solution-card"/g) || []).length, page.related.length);
+      for (const slug of page.related) {
+        assert.notEqual(slug, page.slug, 'Related links must lead to another Solution');
+        const destination = localized.find(item => item.slug === slug);
+        assert.ok(destination, `${locale}/${page.slug}: unknown destination ${slug}`);
+        assert.ok(section.includes(`href="/${locale}/solutions/${slug}/"`), `${locale}/${page.slug}: missing localized link`);
+        assert.ok(section.includes(escape(destination.label)) && section.includes(escape(destination.intro)), `${locale}/${page.slug}: card should describe its destination`);
+        assert.ok(fs.existsSync(`out/${locale}/solutions/${slug}/index.html`));
       }
     }
   }
