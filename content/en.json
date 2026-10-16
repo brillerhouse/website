@@ -284,7 +284,7 @@
     ],
     "gallery": [
       "A little inspiration.\nA new direction.",
-      "Explore a curated collection of interiors. Save a reference and add it to a moodboard in the Briller studio."
+      "Explore seven room types in twelve styles. Find a direction you love, copy the suggested prompt and make it your own in Briller."
     ],
     "pricing": [
       "Make room for\nyour next idea.",
@@ -395,7 +395,7 @@
     "allStyles": "All styles",
     "minimalism": "Minimalism",
     "japandi": "Japandi",
-    "natural": "Natural modern",
+    "natural": "Natural Modern",
     "open": "View reference",
     "save": "Download moodboard reference",
     "studio": "Open Briller studio",
@@ -403,7 +403,34 @@
     "empty": "No references match these filters.",
     "reset": "Reset filters",
     "roomFilter": "Filter by room",
-    "styleFilter": "Filter by style"
+    "styleFilter": "Filter by style",
+    "copyPrompt": "Copy redesign prompt",
+    "copied": "Prompt copied",
+    "copyFailed": "Select and copy the prompt below.",
+    "promptLabel": "Suggested redesign prompt",
+    "promptHelp": "Copy this prompt, upload a photo of your room in Briller, and paste it into your redesign brief.",
+    "count": "ideas to explore",
+    "more": "Show more inspiration",
+    "references": "Original references",
+    "referenceIntro": "The original collection, kept for your moodboard.",
+    "generatedNote": "AI-generated inspiration concepts and curated reference photography. Images illustrate a direction, not a completed customer project.",
+    "allRooms": "All rooms",
+    "close": "Close inspiration",
+    "resultLabel": "Inspiration results",
+    "downloadSheet": "Download style moodboard",
+    "bathroom": "Bathroom",
+    "office": "Office",
+    "dining": "Dining room",
+    "workspace": "Workspace",
+    "scandinavian": "Scandinavian",
+    "mid-century": "Mid-century Modern",
+    "industrial": "Industrial",
+    "contemporary": "Contemporary",
+    "mediterranean": "Mediterranean",
+    "bohemian": "Bohemian",
+    "art-deco": "Art Deco",
+    "modern-classic": "Modern Classic",
+    "wabi-sabi": "Wabi-sabi"
   },
   "contact": {
     "name": "Your name",
