@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import { createHash } from 'node:crypto';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
 import test from 'node:test';
@@ -7,6 +8,7 @@ const read = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 const catalogue = read('content/gallery-catalogue.json');
 const edition = read('content/gallery-variants.json');
 const originals = read('content/gallery.json');
+const review = read('content/gallery-geometry-review.json');
 const { outputText } = ts.transpileModule(fs.readFileSync('lib/gallery.ts', 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020 } });
 const scope = { exports: {}, require: id => {
   if (id === '@/content/gallery-catalogue.json') return { default: catalogue };
@@ -30,7 +32,7 @@ test('all 84 room/style combinations have three distinct specifications, sizes a
     assert.deepEqual(Array.from(items.map(item => item.size)).sort(), ['large','medium','small']);
     assert.equal(new Set(items.map(item => item.architecture.en)).size, 3);
     assert.equal(galleryVersions(items[0]).length, 3);
-    assert.equal(new Set(items.map(item => item.image)).size, 3);
+    assert.equal(new Set(items.map(item => item.detailImage || item.image + JSON.stringify(item.crop))).size, 3);
   }
   for (const tier of edition.tiers) assert.equal(new Set(galleryConcepts.filter(item => item.tier === tier.id).map(item => item.size)).size, 3, 'Budget must not dictate size');
 });
@@ -55,23 +57,49 @@ test('every variant has a unique bilingual prompt matching its specification and
     }
   }
 });
-test('36 complete image sets provide 252 valid, individually framed scenes', () => {
+test('original and selectively corrected image sets provide 252 valid, individually framed scenes', () => {
   const assets = new Set(galleryConcepts.map(item => item.image));
-  assert.equal(assets.size, 36);
+  assert.equal(assets.size, 36 + review.batches.length);
   for (const image of assets) {
     const data = fs.readFileSync('public' + image);
     assert.equal(data.toString('ascii', 0, 4), 'RIFF', image);
     assert.equal(data.toString('ascii', 8, 12), 'WEBP', image);
     assert.ok(data.length > 10000, image);
     const items = galleryConcepts.filter(item => item.image === image);
-    assert.equal(items.length, 7, image);
-    assert.equal(new Set(items.map(item => JSON.stringify(item.crop))).size, 7, image);
+    assert.ok(items.length >= 1 && items.length <= 8, image);
+    assert.equal(new Set(items.map(item => JSON.stringify(item.crop))).size, items.length, image);
     for (const item of items) {
       const crop = item.crop;assert.ok(crop, item.id);
       assert.ok(crop.x >= 0 && crop.y >= 0 && crop.width > 0 && crop.height > 0, item.id);
       assert.ok(crop.x + crop.width <= 1 && crop.y + crop.height <= 1, item.id);
       assert.ok(Math.abs(crop.width * 1024 / (crop.height * 1536) - 4/3) < 0.0001, item.id);
     }
+  }
+});
+test('geometry review replaces only the 43 flagged scenes and preserves the remaining 209 renders', () => {
+  const sha = data => createHash('sha256').update(data).digest('hex');
+  const renderedHash = item => {
+    const image = item.detailImage || item.image;
+    const crop = item.detailImage ? null : item.crop;
+    return sha(Buffer.concat([fs.readFileSync('public' + image), Buffer.from('\n' + JSON.stringify(crop))]));
+  };
+  assert.equal(review.reviewedCount, 252);
+  assert.equal(review.replacements.length, 43);
+  assert.equal(review.preserved.length, 209);
+  assert.equal(new Set([...review.replacements, ...review.preserved].map(item => item.id)).size, 252);
+  for (const item of review.preserved) {
+    const current = galleryConcepts.find(candidate => candidate.id === item.id);
+    assert.ok(current, item.id);
+    assert.equal(renderedHash(current), item.renderSha256, `Unreviewed change: ${item.id}`);
+  }
+  for (const item of review.replacements) {
+    assert.ok(item.reason && item.fix, item.id);
+    assert.notEqual(renderedHash(galleryConcepts.find(candidate => candidate.id === item.id)), item.previousRenderSha256, item.id);
+  }
+  for (const [file, digest] of Object.entries(review.sourceAssets)) assert.equal(sha(fs.readFileSync(file)), digest, file);
+  for (const batch of review.batches) {
+    const items = galleryConcepts.filter(item => item.image === `/images/gallery/${batch.id}.webp`);
+    assert.deepEqual(Array.from(items.map(item => item.id)).sort(), [...batch.items].sort());
   }
 });
 test('curated opening uses real variants and original references remain available with prompts', () => {

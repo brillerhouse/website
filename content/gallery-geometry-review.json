@@ -1,0 +1,1215 @@
+{
+  "baselineCommit": "947611812a90b8be4f404de36a188ac316648b44",
+  "reviewedCount": 252,
+  "criteria": [
+    "Straight window and door openings; no bowed panoramic glass.",
+    "Correct forced diagonal rooflight/ceiling junctions; retain coherent existing rectangular rooms and a few believable timber roofs.",
+    "Plausible structural supports, weatherproof enclosure, furniture and material junctions."
+  ],
+  "replacements": [
+    {
+      "id": "bedroom-minimalism-budget",
+      "reason": "Sloping ceiling and oversized rooflight well meet in a forced triangular junction above the bed.",
+      "fix": "Use a level ceiling, square wall junctions and a normal rectangular side window; retain restrained warm minimalist finishes.",
+      "previousRenderSha256": "db330f37803354fe8f5d8c5505d08a9591a068b687cb6822c36ecf5f06765c2c"
+    },
+    {
+      "id": "office-minimalism-budget",
+      "reason": "Large angled skylight hood and projecting ceiling wedge produce the same forced roof geometry as the marked example.",
+      "fix": "Use a level ceiling and rectangular side glazing in a conventional large office.",
+      "previousRenderSha256": "69bab1945367a95dcaaaff95b250a93e18eba486a183de17b4da3982f8706489"
+    },
+    {
+      "id": "bedroom-japandi-budget",
+      "reason": "The marked bedroom has an oversized rooflight well and diagonal wedge that cuts into the window head.",
+      "fix": "A flat ceiling with one straight rectangular wall window; no rooflight, diagonal bulkhead or sloping wall. Preserve the oak joinery, linen and blue throw.",
+      "previousRenderSha256": "db6b31aa6d08996c9a27f3b2c8af0f29a94b1dc96e699fdd76e32a54fdd0146d"
+    },
+    {
+      "id": "office-japandi-budget",
+      "reason": "Deep oblique skylight well intersects the sloping ceiling and rear window in an awkward compressed junction.",
+      "fix": "A small rectangular office with a flat ceiling, normal wall window and the same pale-oak desk and storage.",
+      "previousRenderSha256": "5d83d8f662fa6b5b13226baa6a6efbcda061a8d85107771f73ebe22c6c7ec94f"
+    },
+    {
+      "id": "workspace-japandi-premium",
+      "reason": "Sloped rooflight return and diagonal window-head junction repeat the forced attic geometry.",
+      "fix": "Use a simple level ceiling over a compact maker studio with rectangular side glazing.",
+      "previousRenderSha256": "e802ceb280971298f0bdf2e3692d74cda9dad6af7db09a6b9cf44322681c4794"
+    },
+    {
+      "id": "bathroom-natural-economy",
+      "reason": "The broad window has an exaggerated rounded lower corner and curved plaster/glass junction.",
+      "fix": "Use a conventional rectangular privacy window with a straight sill and simple waterproof tiled reveals.",
+      "previousRenderSha256": "775e5804a87380b583337dfbea086ee9e1073f99ac3d4bd6cb095ea8e3165403"
+    },
+    {
+      "id": "dining-natural-economy",
+      "reason": "Continuous curved panoramic glazing and curved ceiling return dominate an otherwise ordinary dining room.",
+      "fix": "Use a straight exterior wall with rectangular glazing and a level ceiling; preserve warm timber, round table and rust pendant.",
+      "previousRenderSha256": "389c9acd702f599a27b3006d1344a90cf0d828fa790f2cbdcc93b69b8994c6c3"
+    },
+    {
+      "id": "bedroom-natural-budget",
+      "reason": "Curving panoramic window/ceiling meets an abrupt diagonal plaster wedge beside the bed.",
+      "fix": "Use a straight wall, flat ceiling and a large rectangular window with clear square reveals.",
+      "previousRenderSha256": "bdd6d44a7b0c103e331c739fd6d732873f89a6348e438a8af1f002c97486012a"
+    },
+    {
+      "id": "living-natural-premium",
+      "reason": "Curved panoramic glazing and a matching bowed ceiling edge create the artificial curved shell the user asked to avoid.",
+      "fix": "Straight rectangular garden glazing, a level ceiling, and the same warm natural seating palette.",
+      "previousRenderSha256": "905dfcc3fa03ebd9b5683b6e5eb11c94071ccbe3c9b60797a073bce807b17caf"
+    },
+    {
+      "id": "kitchen-natural-premium",
+      "reason": "A bent panoramic window and curved soffit are forced around a straight kitchen layout.",
+      "fix": "Use a straight window wall and ordinary flat ceiling; retain olive cabinetry and a practical stone island.",
+      "previousRenderSha256": "8f799925ede11cff03d64e1f403b88e02070576e96cf14c4d27ab41171bd10d1"
+    },
+    {
+      "id": "kitchen-scandinavian-budget",
+      "reason": "Multiple diagonal rooflights and crossing ceiling beams create an overcomplicated roof/window junction.",
+      "fix": "Use a level pale-timber ceiling with rectangular wall windows; keep blue-grey cabinets, pale timber and an ordinary island.",
+      "previousRenderSha256": "ce716b65051678a100f9d27aedd6c46891fa7212c401e2a636578eef79aa6f1e"
+    },
+    {
+      "id": "bathroom-scandinavian-premium",
+      "reason": "Oversized tilted roof window compresses the WC wall into a low diagonal mansard junction.",
+      "fix": "A flat ceiling and a straight rectangular privacy window with convincing shower and WC clearances.",
+      "previousRenderSha256": "b1abce1491d617330f28908809db41bd94abeb4dc07c9c88ac10e75c113c7be9"
+    },
+    {
+      "id": "dining-scandinavian-premium",
+      "reason": "Steep roof glazing and a triangular wall wedge collide with the adjacent full-height glazing.",
+      "fix": "Replace the mansard roof with a level ceiling and simple rectangular garden windows; retain the oak dining furniture.",
+      "previousRenderSha256": "d7890f115b67f09b6754d159135c4573a2eb59332a51839ec8e685cef7629185"
+    },
+    {
+      "id": "living-industrial-economy",
+      "reason": "The living-room window heads are arched; the requested correction calls for straight window openings.",
+      "fix": "Retain the exposed brick, steel structure, cognac sofa and green chair, but use rectangular factory windows with straight steel lintels.",
+      "previousRenderSha256": "694c30d760aabe4337be9a54b2cd324c1b9d3db39cffac91bc5eaf337fbf93be"
+    },
+    {
+      "id": "dining-industrial-budget",
+      "reason": "Several factory window heads are rounded rather than rectangular.",
+      "fix": "Use straight steel lintels above rectangular factory glazing; retain brickwork, timber table and dark metal chairs.",
+      "previousRenderSha256": "94455d53ab344d267d3e4aedea65150b6ff3171b436839069551bacd1273d426"
+    },
+    {
+      "id": "bathroom-contemporary-economy",
+      "reason": "Large bowed panoramic glazing curves around the bathtub, with an artificial ceiling return.",
+      "fix": "Use rectangular wall glazing and simple level ceiling planes; preserve practical tiled wet zones.",
+      "previousRenderSha256": "77f5bafe236e79dfc28056d9a0ed4784bae21f054c1edd7274d637de2ffc777e"
+    },
+    {
+      "id": "dining-contemporary-economy",
+      "reason": "Curved panoramic glass and a matching curved soffit create a forced room shell.",
+      "fix": "Use straight corner glazing with a normal square structural corner and flat ceiling.",
+      "previousRenderSha256": "30023000a76d47d5b359c5d19cd151af75d9bf5bde2eaf86493cdbaf11776b68"
+    },
+    {
+      "id": "bedroom-contemporary-budget",
+      "reason": "Curved panoramic glass and bowed ceiling edge dominate the bedroom shell.",
+      "fix": "A conventional rectangular bedroom with straight window frames, square reveals and a flat ceiling.",
+      "previousRenderSha256": "8a058fbeb97c0bdea5f0c8b4bc1f421bc5d8bf85afba4813a882b1fe2353a18b"
+    },
+    {
+      "id": "office-contemporary-budget",
+      "reason": "A strongly curved full-height window wall and ceiling edge make the office look synthetic.",
+      "fix": "Use large rectangular corner windows separated by a clear structural post; keep the desk and storage practical.",
+      "previousRenderSha256": "b0d5f13d3452642576536b43ef1e098b4548bc82f1d2fda52e760e23e1556546"
+    },
+    {
+      "id": "living-contemporary-premium",
+      "reason": "The room uses curved panoramic glazing with a bowed ceiling line.",
+      "fix": "Keep the living style, materials and scale, but use straight rectangular glazing in a conventional rectilinear room.",
+      "previousRenderSha256": "9699f43baa66d9f5487a2da856d74a2b4da833b1039b0de38e409cb67ff83dbf"
+    },
+    {
+      "id": "kitchen-contemporary-premium",
+      "reason": "The room uses curved panoramic glazing with a bowed ceiling line.",
+      "fix": "Keep the kitchen style, materials and scale, but use straight rectangular glazing in a conventional rectilinear room.",
+      "previousRenderSha256": "3b87bca2a358e4cda57d6a6909b375647ceb5a905d8a477bf08751d050dd6837"
+    },
+    {
+      "id": "workspace-contemporary-premium",
+      "reason": "The room uses curved panoramic glazing with a bowed ceiling line.",
+      "fix": "Keep the workspace style, materials and scale, but use straight rectangular glazing in a conventional rectilinear room.",
+      "previousRenderSha256": "ce25a7f70a58a381c77e239bdae965c8ee833053e9213bd98f00145462bea98a"
+    },
+    {
+      "id": "bedroom-mediterranean-economy",
+      "reason": "A large curved masonry opening spans the bedroom and conflicts with the requested straight openings.",
+      "fix": "Use a rectangular lintelled opening, white plaster, exposed level timber beams, blue shutters and natural linen.",
+      "previousRenderSha256": "27e1c377f15fb46947fbaad7e8096bffeb4b12c630c53cbe7ab62fee46cae9ed"
+    },
+    {
+      "id": "office-mediterranean-economy",
+      "reason": "An arched rear window and barrel-vaulted wall/ceiling junction dominate the office.",
+      "fix": "Use a rectangular window, a flat ceiling with simple level timber beams, plaster walls and warm practical storage.",
+      "previousRenderSha256": "5a0a32d01b335e926159cb53447028e48bd22a80796f2c26aa55fe4ccf4ffeb4"
+    },
+    {
+      "id": "living-mediterranean-budget",
+      "reason": "The room contains an arched opening or rounded window head, contrary to the requested straight openings.",
+      "fix": "Use only rectangular doors and windows with visible straight lintels and a level ceiling; retain the living's Mediterranean plaster, timber, blue and terracotta palette.",
+      "previousRenderSha256": "c9cd7b2f8e553bed3177211c2f508562065bb05db3efa4c461776f96200036a5"
+    },
+    {
+      "id": "kitchen-mediterranean-budget",
+      "reason": "The room contains an arched opening or rounded window head, contrary to the requested straight openings.",
+      "fix": "Use only rectangular doors and windows with visible straight lintels and a level ceiling; retain the kitchen's Mediterranean plaster, timber, blue and terracotta palette.",
+      "previousRenderSha256": "9d1c3a6ecff20fcaa19831e40a29028e04c085cb1fa6da3b38b7c71033890d38"
+    },
+    {
+      "id": "dining-mediterranean-budget",
+      "reason": "The room contains an arched opening or rounded window head, contrary to the requested straight openings.",
+      "fix": "Use only rectangular doors and windows with visible straight lintels and a level ceiling; retain the dining's Mediterranean plaster, timber, blue and terracotta palette.",
+      "previousRenderSha256": "3b5bde69f4428e9b8a6292252deba7e03196d4607887b5249c70d81a83de349b"
+    },
+    {
+      "id": "workspace-mediterranean-budget",
+      "reason": "The room contains an arched opening or rounded window head, contrary to the requested straight openings.",
+      "fix": "Use only rectangular doors and windows with visible straight lintels and a level ceiling; retain the workspace's Mediterranean plaster, timber, blue and terracotta palette.",
+      "previousRenderSha256": "a74711292367efcef650cca4de94ecc5f75202dd3aa188bb626e6fc6652a5df1"
+    },
+    {
+      "id": "bathroom-mediterranean-premium",
+      "reason": "Large arched glazed doors and curved reveals introduce the curved openings the user asked to avoid.",
+      "fix": "Use straight rectangular courtyard doors and flat ceilings; retain the bathroom's Mediterranean materials, color and practical furniture layout.",
+      "previousRenderSha256": "156371a66663cfc9f9f1ee47e7176ae8a7067ed96694002e94009622d1d7db6d"
+    },
+    {
+      "id": "dining-mediterranean-premium",
+      "reason": "Large arched glazed doors and curved reveals introduce the curved openings the user asked to avoid.",
+      "fix": "Use straight rectangular courtyard doors and flat ceilings; retain the dining's Mediterranean materials, color and practical furniture layout.",
+      "previousRenderSha256": "796a942b5a53f3194a28b2bc8284016f6d46c5d8f76b140239ecc266720332d4"
+    },
+    {
+      "id": "bathroom-bohemian-economy",
+      "reason": "The room has a conspicuous arched opening or arched glazing, which conflicts with the requested straight window/door geometry.",
+      "fix": "Replace the arch with a well-proportioned rectangular opening and a straight structural lintel. Keep the existing room style, furnishings, color and natural material character.",
+      "previousRenderSha256": "1c5ce97627864f1467593eaa3173693a92f16082479f0540b4044b610fee9ef1"
+    },
+    {
+      "id": "dining-bohemian-economy",
+      "reason": "The room has a conspicuous arched opening or arched glazing, which conflicts with the requested straight window/door geometry.",
+      "fix": "Replace the arch with a well-proportioned rectangular opening and a straight structural lintel. Keep the existing room style, furnishings, color and natural material character.",
+      "previousRenderSha256": "b75133861b37a3e79a4a629714072b9fe0f0051d4f3554ae0bcda268dfd9dbca"
+    },
+    {
+      "id": "office-bohemian-budget",
+      "reason": "The room has a conspicuous arched opening or arched glazing, which conflicts with the requested straight window/door geometry.",
+      "fix": "Replace the arch with a well-proportioned rectangular opening and a straight structural lintel. Keep the existing room style, furnishings, color and natural material character.",
+      "previousRenderSha256": "a61b2569c39370d9a379c6ad8e09e9f280f6b5b1ea5b028e4c93912a84346d4e"
+    },
+    {
+      "id": "living-bohemian-premium",
+      "reason": "The room has a conspicuous arched opening or arched glazing, which conflicts with the requested straight window/door geometry.",
+      "fix": "Replace the arch with a well-proportioned rectangular opening and a straight structural lintel. Keep the existing room style, furnishings, color and natural material character.",
+      "previousRenderSha256": "87d86482f6083b89367f1532c277698ae6110502d7c6ed2dbcba95e69344ae1c"
+    },
+    {
+      "id": "kitchen-bohemian-premium",
+      "reason": "The room has a conspicuous arched opening or arched glazing, which conflicts with the requested straight window/door geometry.",
+      "fix": "Replace the arch with a well-proportioned rectangular opening and a straight structural lintel. Keep the existing room style, furnishings, color and natural material character.",
+      "previousRenderSha256": "499e529c93c91d3e2114a49f470cd0fe52d512c13db735ee5ac4b1f8ca784411"
+    },
+    {
+      "id": "dining-art-deco-economy",
+      "reason": "The room has a conspicuous arched opening or arched glazing, which conflicts with the requested straight window/door geometry.",
+      "fix": "Replace the arch with a well-proportioned rectangular opening and a straight structural lintel. Keep the existing room style, furnishings, color and natural material character.",
+      "previousRenderSha256": "2c0946d27ab56e6925675c629ad4b5d5ae2500b1ba6b73ef03c98d370efef2d7"
+    },
+    {
+      "id": "living-art-deco-budget",
+      "reason": "Arched window, door or room-divider glazing remains conspicuous in this scene.",
+      "fix": "Use rectangular window/door frames and straight lintels. Preserve the Art Deco living's walnut, velvet, green or burgundy accents, brass and geometric decoration.",
+      "previousRenderSha256": "ce4c23f437e2640cf43c1ec4ad17ab6f0dfa8c1b68bfd5d3ba932a46a4b584b8"
+    },
+    {
+      "id": "bedroom-art-deco-budget",
+      "reason": "Arched window, door or room-divider glazing remains conspicuous in this scene.",
+      "fix": "Use rectangular window/door frames and straight lintels. Preserve the Art Deco bedroom's walnut, velvet, green or burgundy accents, brass and geometric decoration.",
+      "previousRenderSha256": "f35ba6c9201b06b7bd49dd70c7be173b7daf4ebf5423e2a13815ae7b819da2a7"
+    },
+    {
+      "id": "kitchen-art-deco-budget",
+      "reason": "Arched window, door or room-divider glazing remains conspicuous in this scene.",
+      "fix": "Use rectangular window/door frames and straight lintels. Preserve the Art Deco kitchen's walnut, velvet, green or burgundy accents, brass and geometric decoration.",
+      "previousRenderSha256": "7e045d5e7f5b09dd7ee60010672435f8da0ba0ed728dfa02af0acf0119aad2ff"
+    },
+    {
+      "id": "dining-art-deco-budget",
+      "reason": "Arched window, door or room-divider glazing remains conspicuous in this scene.",
+      "fix": "Use rectangular window/door frames and straight lintels. Preserve the Art Deco dining's walnut, velvet, green or burgundy accents, brass and geometric decoration.",
+      "previousRenderSha256": "27cd3aa8be845ab2978233c9f0d259aa54b7608bfbd27325c86547777190773e"
+    },
+    {
+      "id": "office-wabi-sabi-economy",
+      "reason": "An oversized slanted rooflight recess dominates the small office and replaces ordinary wall daylight with another forced attic shape.",
+      "fix": "Use a flat plaster ceiling and a rectangular side window above a practical desk.",
+      "previousRenderSha256": "0d2006b672a2a023c6335890c0e88c021e67718cf5b0555305d9b0ad4b789ff6"
+    },
+    {
+      "id": "bathroom-wabi-sabi-premium",
+      "reason": "Tree branches appear to enter through an unframed roof opening above the wet room; glazing and weatherproof construction are unclear.",
+      "fix": "Use a closed level ceiling, rectangular privacy window and dry, convincing tiled shower details; keep plants outside the glazing.",
+      "previousRenderSha256": "8693ac133c4855d578cdb70988a64453f74c55a76984c05ca79e7baccc856ceb"
+    },
+    {
+      "id": "dining-wabi-sabi-premium",
+      "reason": "A leafy tree intrudes through an apparently unglazed ceiling opening above the table.",
+      "fix": "Use a level ceiling and a rectangular side window framing an outdoor tree, with no foliage crossing the building envelope.",
+      "previousRenderSha256": "9371fe3a83b34fbfa209d03aace2f72a3ae4a09241fa2ab12b4535d6b3a67a3b"
+    }
+  ],
+  "preserved": [
+    {
+      "id": "living-minimalism-economy",
+      "renderSha256": "b3b339e587f5381bb4f2e47ad30a6249b0af07a8069b96ff3533992cb9753ea9"
+    },
+    {
+      "id": "bedroom-minimalism-economy",
+      "renderSha256": "a1298ede2bf7671c643f8a9ee4c9f0396e290b439716dd8551f956caa6ba0883"
+    },
+    {
+      "id": "bathroom-minimalism-economy",
+      "renderSha256": "665c30eb922a189711127fb15028df03afda721437cb24726fa68d036f583059"
+    },
+    {
+      "id": "kitchen-minimalism-economy",
+      "renderSha256": "f815e8e44c10a8674fe6afc00a3bcafc53c04763da40ba2263d6169f914c8a58"
+    },
+    {
+      "id": "office-minimalism-economy",
+      "renderSha256": "2f92197e58b5ccb724fe5091443df557c4f0db360157c34585c626d3f14ed954"
+    },
+    {
+      "id": "dining-minimalism-economy",
+      "renderSha256": "5f14133d69a93b49ad16dc736edb647f689859be63a8e07e449c35acaf49f1ee"
+    },
+    {
+      "id": "workspace-minimalism-economy",
+      "renderSha256": "8d09210bf36b475a1c901e113e764a58f80567caa9e0510fa84500fc6bedf5a1"
+    },
+    {
+      "id": "living-minimalism-budget",
+      "renderSha256": "70460138e2436a71532ec21c842c4d2a6caf980e0361a77fe4bc3edf7d9ebc40"
+    },
+    {
+      "id": "bathroom-minimalism-budget",
+      "renderSha256": "4d5cf49723d243254db535442801623b277faa81e660833a5b5d87d39af4f0d1"
+    },
+    {
+      "id": "kitchen-minimalism-budget",
+      "renderSha256": "7a6fd12d53fd6471529edf3a28999e05a852a57fc0de642b4d472660ea6eda08"
+    },
+    {
+      "id": "dining-minimalism-budget",
+      "renderSha256": "a2317fc7ed9402bcd2c41f1381110ca206d0f8d572b921fb01a92bc5ec3014a8"
+    },
+    {
+      "id": "workspace-minimalism-budget",
+      "renderSha256": "cbe3910afc4618837ba07c4c7f2a2a8e41a9e3dba3241546eb656cda452b3a88"
+    },
+    {
+      "id": "living-minimalism-premium",
+      "renderSha256": "e98d97885a436902d54b73e4ab1e791edebc447811b36ce3d66f0aa227fc64ff"
+    },
+    {
+      "id": "bedroom-minimalism-premium",
+      "renderSha256": "393615451a87beba968c6af1a7b3e2227db0e6d10291aa191f12b667d57cfd4f"
+    },
+    {
+      "id": "bathroom-minimalism-premium",
+      "renderSha256": "97bcad114168b37d2c9ba9b95017b8e1a5f034a772c3bc62d79586ba67067286"
+    },
+    {
+      "id": "kitchen-minimalism-premium",
+      "renderSha256": "d79ed107b45a98c99728a7de7e3877577ebb9d65d76c32985ec9228b4ec85f9e"
+    },
+    {
+      "id": "office-minimalism-premium",
+      "renderSha256": "930539bb810d669aa2ebcd835015233bedf0a09fd9e46a9f7fb7a5db8b871d8a"
+    },
+    {
+      "id": "dining-minimalism-premium",
+      "renderSha256": "de2cabf733f4013294c0bd57e1e96b0ff4b9259162cfdd6805f274e6ac3733e2"
+    },
+    {
+      "id": "workspace-minimalism-premium",
+      "renderSha256": "2929d055b149675ac1e88153ecede1921772dafd9cc3f1cdbcc329c9cba1c3ca"
+    },
+    {
+      "id": "living-japandi-economy",
+      "renderSha256": "b72d5eac7416d9c41d1e5b03fcf3ddd0aa7839c86d69dfd836d1c0349e6d0439"
+    },
+    {
+      "id": "bedroom-japandi-economy",
+      "renderSha256": "54caf67c9f3b9d6b7a56c85e8c2fb30d364ef0b3b34c6fdb5ed6caae3e16f122"
+    },
+    {
+      "id": "bathroom-japandi-economy",
+      "renderSha256": "db716abf73f6811c82e31af0e99ea27d7f845212038b4b4bd0b008a7d762ac9b"
+    },
+    {
+      "id": "kitchen-japandi-economy",
+      "renderSha256": "81563389b1f3c17f9fdcd2b52286062889f9c95a88f95d52c43341195c983268"
+    },
+    {
+      "id": "office-japandi-economy",
+      "renderSha256": "cf57b491659f4ae93ac41bc41c1efeaa4c6e8d39f81c5785e6513ea034e2ed73"
+    },
+    {
+      "id": "dining-japandi-economy",
+      "renderSha256": "8c45185ce0f476a2ea5ee438efa4bafff5be6b12cb1cbbc81694c9f70d2e1956"
+    },
+    {
+      "id": "workspace-japandi-economy",
+      "renderSha256": "25363ff12804eefbf4e4b8b61c11da42ff38611a258ab69b74f013877e68c554"
+    },
+    {
+      "id": "living-japandi-budget",
+      "renderSha256": "43f0016b94895581ebbb7d2e833c723f452c7ff738fc7a5c15d47d2c66d8fbb3"
+    },
+    {
+      "id": "bathroom-japandi-budget",
+      "renderSha256": "bf37683744c9de486702347f9aa255465d126c9f501d0f5cd9925a8232d0bd97"
+    },
+    {
+      "id": "kitchen-japandi-budget",
+      "renderSha256": "c486bd34d7dc2a8d9f251a7b98e61f820d6235c07ee757935eaad41393af90fe"
+    },
+    {
+      "id": "dining-japandi-budget",
+      "renderSha256": "f0e46afac9c53a913b3775328e2884176718d0c3dd436cde8d7d7d7acf618cc2"
+    },
+    {
+      "id": "workspace-japandi-budget",
+      "renderSha256": "82076df7512fba32241dd0b9b1001ef31642817188e1230ef183ea24191c252a"
+    },
+    {
+      "id": "living-japandi-premium",
+      "renderSha256": "e01bb87f6425009ef0d8c592d16e206ec98ea8603361d9062c61914acd4b393e"
+    },
+    {
+      "id": "bedroom-japandi-premium",
+      "renderSha256": "5b150b1a0dbce671aa251b4343fa9a23bda4f4261c512b9553037c9d98ba6e4e"
+    },
+    {
+      "id": "bathroom-japandi-premium",
+      "renderSha256": "e970403ac1c8c2355ceb30e39d1ea3f56d97b1b8979f296fbb482a7f90d8c98d"
+    },
+    {
+      "id": "kitchen-japandi-premium",
+      "renderSha256": "be158a818f26c2844dd4a53cd4b0a2e2e6680428ac2e08319afd1fcfed0b87bc"
+    },
+    {
+      "id": "office-japandi-premium",
+      "renderSha256": "f1c8328d67e7635577ba04d9041a59d0cd1c3f47e879d075048f23303c94aace"
+    },
+    {
+      "id": "dining-japandi-premium",
+      "renderSha256": "6847515d8b513f9e16695e99bd214542d5783fd0977269dbb24bac1341a14051"
+    },
+    {
+      "id": "living-natural-economy",
+      "renderSha256": "26b801d922d16654348abbec55fc3ff6518bb8ff87483aede0772c20d0684f98"
+    },
+    {
+      "id": "bedroom-natural-economy",
+      "renderSha256": "a7fb94adb4a5912f2bc1c8fa15e4d0b3d464ad7a9d23319b5f5ada21e44e5470"
+    },
+    {
+      "id": "kitchen-natural-economy",
+      "renderSha256": "615ceb2c7549c61913a687a01e5519ec68a7eda7b19760bc6c32a14bf7b91b1a"
+    },
+    {
+      "id": "office-natural-economy",
+      "renderSha256": "5843b5c590e4974e6524bdefd76817ef4153f984fcce09b793b76272edccdb62"
+    },
+    {
+      "id": "workspace-natural-economy",
+      "renderSha256": "18501d4d37098ed81857350df6a4abf3fa6a905b8ae33d9ad165f5c3895791d3"
+    },
+    {
+      "id": "living-natural-budget",
+      "renderSha256": "f068732dc9d5bd59d2939eebc64114c60b5b6d1697b3c40a76ccf174ed1e5478"
+    },
+    {
+      "id": "bathroom-natural-budget",
+      "renderSha256": "e7e314dc91d60b1f01daff6e34f175a2e0529602b03054b2f8f27cf3097461f5"
+    },
+    {
+      "id": "kitchen-natural-budget",
+      "renderSha256": "712ebe740ab66cbe5a19d7918c82f6a66ef8b7b30cee884c63da1946125b0799"
+    },
+    {
+      "id": "office-natural-budget",
+      "renderSha256": "0040ebb16552f156d2e32e7db0fbf07e67e9661be28b2515d40ef5d60d37d40b"
+    },
+    {
+      "id": "dining-natural-budget",
+      "renderSha256": "7996e7fd854a894706291827e2e301177068480f214dc156b6a447f7b0c06223"
+    },
+    {
+      "id": "workspace-natural-budget",
+      "renderSha256": "733eb9dff5dccc54e71e260576366c0006fe6411ece37345340c66b254062cca"
+    },
+    {
+      "id": "bedroom-natural-premium",
+      "renderSha256": "0fa60781b219efdb53053869764db8b12aa25ef97bace227ffd59fdbc11c12ca"
+    },
+    {
+      "id": "bathroom-natural-premium",
+      "renderSha256": "eae2beafc306136ff9d39698fc87e64ea7f9ea92f8282efb47841a0cb98f9ce6"
+    },
+    {
+      "id": "office-natural-premium",
+      "renderSha256": "c0e008c9a8a37d92dba540f9f32a8633ae7a52e5244aaf9f417d7e81a2300dd4"
+    },
+    {
+      "id": "dining-natural-premium",
+      "renderSha256": "9bbfa11029a71c03cdf8e5e8ea47883f3311f378ef6eb8030610b1176238f0b5"
+    },
+    {
+      "id": "workspace-natural-premium",
+      "renderSha256": "bc736ee9f030551e380fda283736ba4c3bcfa56e5548e929a617daa918b3da61"
+    },
+    {
+      "id": "living-scandinavian-economy",
+      "renderSha256": "c39002e9ccd75393b979723a3d8fc5e9485961d5312fa21fb68ea1471848aaf8"
+    },
+    {
+      "id": "bedroom-scandinavian-economy",
+      "renderSha256": "2976514c13b1b9c4ad4af860f16e77c9786c2933a3e0da73bd1d96be606d2288"
+    },
+    {
+      "id": "bathroom-scandinavian-economy",
+      "renderSha256": "4e4dcd46b8ca13023952619a30c4b9b3118db22ffdbbea6a5d09183647367dda"
+    },
+    {
+      "id": "kitchen-scandinavian-economy",
+      "renderSha256": "ec953bfa167b5ca4921743f58b0172cba5f930b91a1f7bc26752c8037e6e0b4a"
+    },
+    {
+      "id": "office-scandinavian-economy",
+      "renderSha256": "8247e2be9bbbe1d0afcfd587086189db304f83d81e5ef1e9968f2267539dd3ee"
+    },
+    {
+      "id": "dining-scandinavian-economy",
+      "renderSha256": "726e5773ac4d871c4fe597c2c697307ad9c53557a4485a04d501593083b8dc83"
+    },
+    {
+      "id": "workspace-scandinavian-economy",
+      "renderSha256": "b3e53138fbba85634f51d06b9690f83943ebd15a6f7f15ac32f535203e8ff341"
+    },
+    {
+      "id": "living-scandinavian-budget",
+      "renderSha256": "b8c13bd86aea53ac821a31ac349f87161a1ffadb131dd76f812032f7dece72a3"
+    },
+    {
+      "id": "bedroom-scandinavian-budget",
+      "renderSha256": "76bcd043f310b60b54a0d95c2e3b1f5efe5591289807315782e1885390f00450"
+    },
+    {
+      "id": "bathroom-scandinavian-budget",
+      "renderSha256": "7b10d5986930c8aa94ae1186542de7c1766d88ac5240dc056374eb7559d5f6ec"
+    },
+    {
+      "id": "office-scandinavian-budget",
+      "renderSha256": "0ff9778ff7a65e69c8fb625c6609db7c4cb68c04c0cae921423689564ff4867b"
+    },
+    {
+      "id": "dining-scandinavian-budget",
+      "renderSha256": "1ecf5d94826aaa4bb600620ea681f98b219b232c79be4fe88dac4a44cff7a244"
+    },
+    {
+      "id": "workspace-scandinavian-budget",
+      "renderSha256": "c4b307693bdef771f8c94d2c63c42943d6c6e806578efebdfaf715b59ad145fe"
+    },
+    {
+      "id": "living-scandinavian-premium",
+      "renderSha256": "37ee4f0b6e5356308aaaf9e3da76f1660ae317cc25dcec28da228a69d1cd05c2"
+    },
+    {
+      "id": "bedroom-scandinavian-premium",
+      "renderSha256": "22a4605f66ed33e93eb771194d163ea79609c3254637f00acaa9b38b27d60bb6"
+    },
+    {
+      "id": "kitchen-scandinavian-premium",
+      "renderSha256": "59d842157e79949b471c0e48fb47fa6fc7c30287d5be6b3c91b4be87b889dcad"
+    },
+    {
+      "id": "office-scandinavian-premium",
+      "renderSha256": "06c9f211217ebe30987f77aff8707c44556b8526445e19e388d6245b62d30ec3"
+    },
+    {
+      "id": "workspace-scandinavian-premium",
+      "renderSha256": "fdbff8ec7e6e8ba79c3e1cf664cade9e76fdf92aaee75fdd204ebe7049f621a0"
+    },
+    {
+      "id": "living-mid-century-economy",
+      "renderSha256": "c0cb77876932b57c2d774d00c94c100ca3844965a3af2947a6c0bf5ce64ab14b"
+    },
+    {
+      "id": "bedroom-mid-century-economy",
+      "renderSha256": "d9b0a45afae971deba4a018d4d8d9927fd998310e61bdf5c5ed0ffc10e519203"
+    },
+    {
+      "id": "bathroom-mid-century-economy",
+      "renderSha256": "f156986d38fb5e1ec8658a194d4b58a8cdc35989b0bf390d34d0240ebec96b3c"
+    },
+    {
+      "id": "kitchen-mid-century-economy",
+      "renderSha256": "da20817b1841c9f6242e89cf0712ae5c936cbb4208e3ee61e63909837aa9b573"
+    },
+    {
+      "id": "office-mid-century-economy",
+      "renderSha256": "b7e0581e31dba85c177b0dd8932c8fd842cc9ae69225a3c025ef481e40a10184"
+    },
+    {
+      "id": "dining-mid-century-economy",
+      "renderSha256": "02fd6ce244d47e6ed8863ac0ccd64ef6e5953d22391a67535352cdbd304c7cf9"
+    },
+    {
+      "id": "workspace-mid-century-economy",
+      "renderSha256": "863a8b3c8b381fb9ae3eda4d31cd981d5c3fbe6218ce44d1c6b6f54fd5edeba5"
+    },
+    {
+      "id": "living-mid-century-budget",
+      "renderSha256": "24b05e5de7dca4b00c113e2ab0afaf1eaf3a80d219031b3d6ff7f401dbae6f03"
+    },
+    {
+      "id": "bedroom-mid-century-budget",
+      "renderSha256": "b97ac73703790db2e29f16b7c16d48c658f0aae75d055dc408cc1e83ecbf164b"
+    },
+    {
+      "id": "bathroom-mid-century-budget",
+      "renderSha256": "32921ead5122736e4513d43ab27cb365ea69f43468270917ffdb24ecf1238fb4"
+    },
+    {
+      "id": "kitchen-mid-century-budget",
+      "renderSha256": "d836988aebb13f09ac49b3419ac1a79d40337a9653c4002bf4ac91c0bbfe0f82"
+    },
+    {
+      "id": "office-mid-century-budget",
+      "renderSha256": "683351babf0876a32ae8a244afe64f2e47d35237efe765627a00eae132a57079"
+    },
+    {
+      "id": "dining-mid-century-budget",
+      "renderSha256": "85b91bef106cbd859e96f2228c29eedd5cd3bb63d15ed0f3a2944489321d8a9c"
+    },
+    {
+      "id": "workspace-mid-century-budget",
+      "renderSha256": "d9bbfbb297e68ad2bab3f61910fcbbc681abb24b34b25a6b957c41042d72f312"
+    },
+    {
+      "id": "living-mid-century-premium",
+      "renderSha256": "aa1941e48a1f1f8489f36074eb62f3d42906af392f8e69f4349bdb95965cffe0"
+    },
+    {
+      "id": "bedroom-mid-century-premium",
+      "renderSha256": "a190eb7fff2e71f19d94fec0cd29402a4b8557a2fb0d23acff320fdb2b9b65c5"
+    },
+    {
+      "id": "bathroom-mid-century-premium",
+      "renderSha256": "90418f7e3ad36699cc4e101599d2f29b65b92d8f7eb38c3da0970844b662172b"
+    },
+    {
+      "id": "kitchen-mid-century-premium",
+      "renderSha256": "97621418cfd8bed157e26f1ab8b56362330163dd3523fd1ca9022cfd02eddf5b"
+    },
+    {
+      "id": "office-mid-century-premium",
+      "renderSha256": "11a99e2ebd23c00111b48356b0f2011e98a08b74dc5a2655d609d7bc3172cbe2"
+    },
+    {
+      "id": "dining-mid-century-premium",
+      "renderSha256": "0520b0e65bcf57e18cbc7c0a8f993863c3f8c805b7d7912d7219d93ac23dd60e"
+    },
+    {
+      "id": "workspace-mid-century-premium",
+      "renderSha256": "4da08d00c9636522ee64a050ee041322f45f7cd54129c75efa32bd47565b9650"
+    },
+    {
+      "id": "bedroom-industrial-economy",
+      "renderSha256": "25af948bb01c27701531b4bd304f3c1881078eb038c9a5e6be507fb448f00471"
+    },
+    {
+      "id": "bathroom-industrial-economy",
+      "renderSha256": "e41af7f0957ecf776080011e38a8696fb28451bebad7601e3eec36d4e9815bd9"
+    },
+    {
+      "id": "kitchen-industrial-economy",
+      "renderSha256": "a88f6ac621906de1bf33badab12c27c1781c2841a256f5f11d4e2d07b269612e"
+    },
+    {
+      "id": "office-industrial-economy",
+      "renderSha256": "fbd4e8d4e365826546e478dccbda85d9378f5661f4481f1da86789f99ba1b6ce"
+    },
+    {
+      "id": "dining-industrial-economy",
+      "renderSha256": "7986c37152a1e96498c78404f302f499d96a2da7c281022257826e9cc8255b05"
+    },
+    {
+      "id": "workspace-industrial-economy",
+      "renderSha256": "e12bd0532708f21016abacf8cbab5aef9c1d4455bc05ed2b77cefbfabc8badfa"
+    },
+    {
+      "id": "living-industrial-budget",
+      "renderSha256": "11e9a9ef655e8f81f41077c502f786ed9d32ee30030eb809944a5cad1706ab7b"
+    },
+    {
+      "id": "bedroom-industrial-budget",
+      "renderSha256": "ece9e15c7a9f7e5fc55e1061527696ebe30257804dba5390b639967bfcd6db61"
+    },
+    {
+      "id": "bathroom-industrial-budget",
+      "renderSha256": "126025460edfb6a7d5981c7c1cdf01b8dc00d67a2738677fe31a01ec8ff048f1"
+    },
+    {
+      "id": "kitchen-industrial-budget",
+      "renderSha256": "18650c39786b74b2423b6f71a8398242cf926c3d15e955ab4830da03bfabba91"
+    },
+    {
+      "id": "office-industrial-budget",
+      "renderSha256": "a7a2a43ad6e3ad5ddb9d7be50b83aa87047d2f3d3c8e3874213638730d4537a6"
+    },
+    {
+      "id": "workspace-industrial-budget",
+      "renderSha256": "eedc5e1a8a3ad0079434f7dd88ab274022f6afec24abb4033ec4d4b85de2a789"
+    },
+    {
+      "id": "living-industrial-premium",
+      "renderSha256": "c892e12812ef924ba671d3acd29b829517d882e596f706bd131f9bd9d38495aa"
+    },
+    {
+      "id": "bedroom-industrial-premium",
+      "renderSha256": "0394110627dc8dc8ea2db9928cc08abb9bb4aedc1b98259bc58caf6fe4141401"
+    },
+    {
+      "id": "bathroom-industrial-premium",
+      "renderSha256": "69a034b25c53a6e99ec13338bb89fe2496265042eca172b92f29fdc83759e959"
+    },
+    {
+      "id": "kitchen-industrial-premium",
+      "renderSha256": "347a402ca0fc8a51a36d09bb7fa640df96ae116a6413bf82f2fa9c22305e33c0"
+    },
+    {
+      "id": "office-industrial-premium",
+      "renderSha256": "f33fbad0d6b04efa049bc5fc834f4e08fa6c0909d7ffb9d33c77e3a2ce681a4b"
+    },
+    {
+      "id": "dining-industrial-premium",
+      "renderSha256": "69c949a030c1c3ac1495fc9bfa422be8d37e9f51727b9f753a21ac2f156cf532"
+    },
+    {
+      "id": "workspace-industrial-premium",
+      "renderSha256": "993e03299904fb04f73e6ffb2809b271d0544d121f841950efafcbc4daeadea1"
+    },
+    {
+      "id": "living-contemporary-economy",
+      "renderSha256": "a5d1efcd9ded762514d5d8332408d1278333b3a40a19955da63674ec4e4b08c3"
+    },
+    {
+      "id": "bedroom-contemporary-economy",
+      "renderSha256": "d1ccf367e3e2b18ccc9d4748d0cdb891c004778b500f972c019588b09188fbe6"
+    },
+    {
+      "id": "kitchen-contemporary-economy",
+      "renderSha256": "df14dfe87424116b59f0b4fdb0f8ba65e9eeda56643973b265a586cd5e9a469e"
+    },
+    {
+      "id": "office-contemporary-economy",
+      "renderSha256": "11f9df7659df7d9fb6f8855a5cb5d1704c10f01219d3e0e278e0ad398a08a3d5"
+    },
+    {
+      "id": "workspace-contemporary-economy",
+      "renderSha256": "df2ed7d5f8d8c44c6099c48b651cef59babb9a171bf3c543f3681bdf6077b579"
+    },
+    {
+      "id": "living-contemporary-budget",
+      "renderSha256": "e95cfa3d398d00546504ff0db50ea7e66706494ffee11931d372ae7d6feb3db8"
+    },
+    {
+      "id": "bathroom-contemporary-budget",
+      "renderSha256": "d88475d40c7fee49ffed38e37eeceb9b20e52008586b945171bdb01927448cbd"
+    },
+    {
+      "id": "kitchen-contemporary-budget",
+      "renderSha256": "d4d10d3e94268996c49587a91a67840cfa596fd4b580f6996a9365ab41e1ca5e"
+    },
+    {
+      "id": "dining-contemporary-budget",
+      "renderSha256": "4a9a2a6f7e126771630af81313cdb85dd7d1be6a69f9dbc7b6730ed31fa46b8b"
+    },
+    {
+      "id": "workspace-contemporary-budget",
+      "renderSha256": "9c049c01bfa074424f2d18c6287b8e25aa7822d73112c26ca8c321e475c717c4"
+    },
+    {
+      "id": "bedroom-contemporary-premium",
+      "renderSha256": "aa9b921cad607ecfbdd384b38af69a2f7ac88635572c8c7b2adc8fd8dc4051be"
+    },
+    {
+      "id": "bathroom-contemporary-premium",
+      "renderSha256": "a72a71b4bf15cd8df3c2cb293b02d217e58b5780d6863ef23a0e1dc70e9f05f6"
+    },
+    {
+      "id": "office-contemporary-premium",
+      "renderSha256": "3a4ea3d149faf0138f88ee90f90f6ee57dc58444aedc3da972d802d0c86f6797"
+    },
+    {
+      "id": "dining-contemporary-premium",
+      "renderSha256": "3d59acaebfa4f3a87867cb67bf3da5d73b5b293095c0330c64112884322f5803"
+    },
+    {
+      "id": "living-mediterranean-economy",
+      "renderSha256": "76d557fa57710d7f5e91617bbf3e6101350b396cf92c120421ee78604d77598f"
+    },
+    {
+      "id": "bathroom-mediterranean-economy",
+      "renderSha256": "dcd68675d3290cf2951eb20d15fb18b86e2e08e75d23821a7d0bb245de4d60ea"
+    },
+    {
+      "id": "kitchen-mediterranean-economy",
+      "renderSha256": "3c4cb28aafe555f1a1819831654c6331050f2b44a02691e1b9e5eea2d0a9c274"
+    },
+    {
+      "id": "dining-mediterranean-economy",
+      "renderSha256": "9b0c2bfb699e0483648ef09b6f7966c4803217f222bad7a30e1dfac1b12b7d34"
+    },
+    {
+      "id": "workspace-mediterranean-economy",
+      "renderSha256": "99a8c15c7e0bb9466a5ec5d1751fd9cde12b0d6f20a10127f4e106023dd38389"
+    },
+    {
+      "id": "bedroom-mediterranean-budget",
+      "renderSha256": "1a38000909c37fa507a2697159c6421d3686d2aba02a700942b5d827fbe43679"
+    },
+    {
+      "id": "bathroom-mediterranean-budget",
+      "renderSha256": "8148a6161af8c15989a0dc1d1146e57c67cc359287b0ba3fd918c72ff84f3a87"
+    },
+    {
+      "id": "office-mediterranean-budget",
+      "renderSha256": "acbdb12cf4177772424fd6bcf956e3e379c18f1c463ee41b568bbfe7f8bb554c"
+    },
+    {
+      "id": "living-mediterranean-premium",
+      "renderSha256": "46121517402317ed59b568fdc3206241b0d16dbfca05459d7e185063b9f69e4f"
+    },
+    {
+      "id": "bedroom-mediterranean-premium",
+      "renderSha256": "2e42097dd23d9fc5680c6fdb2209921f1ffa4c82111f614b987cab69e91ef08a"
+    },
+    {
+      "id": "kitchen-mediterranean-premium",
+      "renderSha256": "67eb31cd3d4257e9d75e023a9e770b42c72e2502bf56e3ac8858ac521e73d5a4"
+    },
+    {
+      "id": "office-mediterranean-premium",
+      "renderSha256": "9d1f8eb3d8e11bd719f8cde5ce50c7b3487a1aebefbf7524afa9d06c92460880"
+    },
+    {
+      "id": "workspace-mediterranean-premium",
+      "renderSha256": "df8a3078417a9d2be58e6f163df773c43133b61a8a305630692dc2bd05ae5b2d"
+    },
+    {
+      "id": "living-bohemian-economy",
+      "renderSha256": "0106f8d1b29e4d166789b1e17d05d8247c44c9b3a8df88ed55c54eacf3b6c63d"
+    },
+    {
+      "id": "bedroom-bohemian-economy",
+      "renderSha256": "74078588f0d7cbf6567aa2b45e4d93819dd03dc87a8e141fd55b07647d6ddc6d"
+    },
+    {
+      "id": "kitchen-bohemian-economy",
+      "renderSha256": "0ec052b5a760418445f4c8fa1d48853a76efba5ad53013bbda2fa409002031ae"
+    },
+    {
+      "id": "office-bohemian-economy",
+      "renderSha256": "ea3ed6de54da8dd90a867cf235a0b1e110f625f3aeb9fd160aeb942e835568e7"
+    },
+    {
+      "id": "workspace-bohemian-economy",
+      "renderSha256": "d81ccf74007f12642bd3698ff84aa1b0b040a19f1aade51753468ae1eb053993"
+    },
+    {
+      "id": "living-bohemian-budget",
+      "renderSha256": "217d07cbd5c32924c1d3738991f726299619701f480c02e540e20d2beeca3e5f"
+    },
+    {
+      "id": "bedroom-bohemian-budget",
+      "renderSha256": "4911504b4565f8921d5cb105242a10459e3f2a26f2a090b97b8890f13cfef9e3"
+    },
+    {
+      "id": "bathroom-bohemian-budget",
+      "renderSha256": "c2678716630a4be37ba9362c28641882437ef4336356bf89c093ec15d92fd22d"
+    },
+    {
+      "id": "kitchen-bohemian-budget",
+      "renderSha256": "1a6b1e14307d1840386f8d5fc3a0f42a6d0eb20e68826b316f1a9b576614601f"
+    },
+    {
+      "id": "dining-bohemian-budget",
+      "renderSha256": "8816055b8d44466276ba3f22434ffbd6cba31493e19001e8312d9dcfe96de277"
+    },
+    {
+      "id": "workspace-bohemian-budget",
+      "renderSha256": "c7e21232c4b80e2662f150e58f029adc702c9a62f6ca53782f22ebf9b1691a5f"
+    },
+    {
+      "id": "bedroom-bohemian-premium",
+      "renderSha256": "ce6b4e835b4272ed95b13fc5a94fa3941c47dbbfdbe8c9aa163fead6b6d61876"
+    },
+    {
+      "id": "bathroom-bohemian-premium",
+      "renderSha256": "31893dc9d498d821339734fa7d266af8038a70d043d18a33b72887cd1dc8810c"
+    },
+    {
+      "id": "office-bohemian-premium",
+      "renderSha256": "b31510e67f43e7b1ecd1819718f50c46eed2989ab2fbd022a103407a2f60cd0d"
+    },
+    {
+      "id": "dining-bohemian-premium",
+      "renderSha256": "92c02f84bcf83874f808a1d110f6125fe18b30a8701a7ff5c305b1dddb7939fd"
+    },
+    {
+      "id": "workspace-bohemian-premium",
+      "renderSha256": "6ef0d84993fecdf1777f754f17a36b7beae2c505ae98576ba18224187958476a"
+    },
+    {
+      "id": "living-art-deco-economy",
+      "renderSha256": "fbbd3af408179173e3092664d400fca321a233e3156feea4903ab45339489842"
+    },
+    {
+      "id": "bedroom-art-deco-economy",
+      "renderSha256": "9ca5cc3cd0bcd81cbc9e6b4cdea1db8b5218ce2a5c674246d95d68727f6fe31f"
+    },
+    {
+      "id": "bathroom-art-deco-economy",
+      "renderSha256": "0aa478d56681a9cffbac1683be58748d6c695bd98091ceec50e7ec3b16302b51"
+    },
+    {
+      "id": "kitchen-art-deco-economy",
+      "renderSha256": "fe708a1bd06f2dfcecbcdd1d5c5cb828bf2dadc154cf2c27c7c482739cabcf3e"
+    },
+    {
+      "id": "office-art-deco-economy",
+      "renderSha256": "7bc3f21605bd9d67e78df20ec147d61a187dd1f1c1da42b8f5a29ad26d8226b1"
+    },
+    {
+      "id": "workspace-art-deco-economy",
+      "renderSha256": "8a65625f0cf2f3fdb9b63d16ee58763b236714770b82710f81cad492428fd059"
+    },
+    {
+      "id": "bathroom-art-deco-budget",
+      "renderSha256": "e1bb825055636ca355d81f1b71d169e174fc842cceb2d30bca9209e3d5255cff"
+    },
+    {
+      "id": "office-art-deco-budget",
+      "renderSha256": "4be4784ef1ef161723e063ecd831e78d284089d75a28e40c94e556b10cd361ae"
+    },
+    {
+      "id": "workspace-art-deco-budget",
+      "renderSha256": "aa3d477e3ae566da04ed55a2091c4e68ade338cc6b673f0a9b00140fd9fad0bd"
+    },
+    {
+      "id": "living-art-deco-premium",
+      "renderSha256": "efe3f55be5d9e4326b3f9323e92018a4e18544db42b0a53762e0a3b1653ff889"
+    },
+    {
+      "id": "bedroom-art-deco-premium",
+      "renderSha256": "d9a5d4e358017245037fc50dde11413aee81731829fd1193daf5dae89af9d3b2"
+    },
+    {
+      "id": "bathroom-art-deco-premium",
+      "renderSha256": "17613c7c226fcb0c9b1fd16752d7a8b8d4dfea1d9558928911c4a5da59641c5e"
+    },
+    {
+      "id": "kitchen-art-deco-premium",
+      "renderSha256": "3571aab470c901f78e249c9b5d5a07bdbf06b9fd458e7d7ef00a9f35c510e793"
+    },
+    {
+      "id": "office-art-deco-premium",
+      "renderSha256": "3a3017af45daafac2a6588a4dfc11858b528fe6e145cd71c9b2034250c4484d0"
+    },
+    {
+      "id": "dining-art-deco-premium",
+      "renderSha256": "a479c9bb425322986094922564358779f68b724198831567c7a28704ddb06abb"
+    },
+    {
+      "id": "workspace-art-deco-premium",
+      "renderSha256": "44fb8836cd96256d118825eb0063506e4935a1b9408b74743c55321485f1c986"
+    },
+    {
+      "id": "living-modern-classic-economy",
+      "renderSha256": "a99edb2eb1dd654452b58b218e4d9d3e6f6a3488193996541494187cee48ae6a"
+    },
+    {
+      "id": "bedroom-modern-classic-economy",
+      "renderSha256": "b8cfee967bc0df209cc3e2ef08e4f4b5304f5b0d7e005934ad6ee84c973b38ad"
+    },
+    {
+      "id": "bathroom-modern-classic-economy",
+      "renderSha256": "d020c1f5c36c14723698861563e617573ff4e2e3cc21ef0237a3f2c212c9a73e"
+    },
+    {
+      "id": "kitchen-modern-classic-economy",
+      "renderSha256": "697aa31f502a6e187ce62d2ae034bccfc762b818ed5a282df75db1f81657d996"
+    },
+    {
+      "id": "office-modern-classic-economy",
+      "renderSha256": "2c6ae3a4319a8e0e4430e9cb934bdc64cca2d82d6243dd407fc0810b658f2e9a"
+    },
+    {
+      "id": "dining-modern-classic-economy",
+      "renderSha256": "fe31aa73f52d42a31c6dc0a2440fa07ad3f2ddf0f168f117d4d7b17683bfb9b4"
+    },
+    {
+      "id": "workspace-modern-classic-economy",
+      "renderSha256": "66cf11c00113ea6c93a03fe92e110cbca8ca77c4b3d3e68c3259a9bc7f5b5e00"
+    },
+    {
+      "id": "living-modern-classic-budget",
+      "renderSha256": "14d1ab08c93e699d7432c81cfeabd25b3cf7dc764b56ada378c87bc9f86670c1"
+    },
+    {
+      "id": "bedroom-modern-classic-budget",
+      "renderSha256": "16650af110b40b38495596e8840f5ed320e33292d769265a879c98a1400a759d"
+    },
+    {
+      "id": "bathroom-modern-classic-budget",
+      "renderSha256": "b325269d35549764bcb88ff38fc8e87017c2cde1b756a62ec53ef70941868a30"
+    },
+    {
+      "id": "kitchen-modern-classic-budget",
+      "renderSha256": "9c4c1e87ca71c114c7868347520f24fe06e766599b409638b8d5b512a1d39adb"
+    },
+    {
+      "id": "office-modern-classic-budget",
+      "renderSha256": "f6f06a3ecc823fbf2682f7bb8dcec2bda62cfcb9a65409854bb74edbbfe37d5c"
+    },
+    {
+      "id": "dining-modern-classic-budget",
+      "renderSha256": "b4203abc5a1f59ce5cba8ba68b7a04478644a331c208cd2b8a67a9ecfa31f36b"
+    },
+    {
+      "id": "workspace-modern-classic-budget",
+      "renderSha256": "99581838d1eb9c44e59d287457df6b02e4ed167221e16187a9138f980ba60986"
+    },
+    {
+      "id": "living-modern-classic-premium",
+      "renderSha256": "a7a50c661d6fd951d0d7858f8d1e187a5e67823e420112b254a35990e71a199a"
+    },
+    {
+      "id": "bedroom-modern-classic-premium",
+      "renderSha256": "3981e6173b210bc074d91356cf0a1a4e6a213cbcbcedfa7c67644d76dcfee46d"
+    },
+    {
+      "id": "bathroom-modern-classic-premium",
+      "renderSha256": "6f532ef8c383a4e783f18e6fe66a04cce4665de47e5eb04dd395feac4b1e87b2"
+    },
+    {
+      "id": "kitchen-modern-classic-premium",
+      "renderSha256": "d83ec1383b2acd4f77b59fdabb2f460a75304d777a29beef66e365fa7a1d1fb0"
+    },
+    {
+      "id": "office-modern-classic-premium",
+      "renderSha256": "d7b7100d69be84826c28dddc79b41d76866c4f7644a505b8ded1b31f34c2a844"
+    },
+    {
+      "id": "dining-modern-classic-premium",
+      "renderSha256": "c69d855ab0b0249dc06f6011301c014245568d6ad54b25cff4de154b842b2f18"
+    },
+    {
+      "id": "workspace-modern-classic-premium",
+      "renderSha256": "4de8fd9bc6e4f607127d50809f9a4bc1c48a271c2911d501dea2da28015aa248"
+    },
+    {
+      "id": "living-wabi-sabi-economy",
+      "renderSha256": "21be2bdafbafb2c433469eeb252b70d1c9556f97b5a235ab09c00183f1caf5ca"
+    },
+    {
+      "id": "bedroom-wabi-sabi-economy",
+      "renderSha256": "e755e5e74441a252313bd90b56a411420477c299fd3dc25f6bdf59d9806f8dd1"
+    },
+    {
+      "id": "bathroom-wabi-sabi-economy",
+      "renderSha256": "162bc24c7c9edd26219b5b9efa242d1716fba0a04a0cf2aaf2ada6a229f85cb4"
+    },
+    {
+      "id": "kitchen-wabi-sabi-economy",
+      "renderSha256": "aa7be8bbf3ec9832fb3c89f19cbeb120b84cb6970221dccf1c9384cf4f7e9320"
+    },
+    {
+      "id": "dining-wabi-sabi-economy",
+      "renderSha256": "ea7cfb2da10b55973942c2c9be63c4a1c065e4993dbae897a5829443eb045936"
+    },
+    {
+      "id": "workspace-wabi-sabi-economy",
+      "renderSha256": "a9ace76ed0390c0837ee405d4754c9c71c7c61532402e7a7bef339e53854568e"
+    },
+    {
+      "id": "living-wabi-sabi-budget",
+      "renderSha256": "53355e135ad0a303f839ea32ef694a2a10857c6fb4833ca61501e4964e1433b2"
+    },
+    {
+      "id": "bedroom-wabi-sabi-budget",
+      "renderSha256": "ba3fec301fa4e94b431c111b6b566e0bbe9bf6a4e1fcb6b237073d53859fe47a"
+    },
+    {
+      "id": "bathroom-wabi-sabi-budget",
+      "renderSha256": "5d8c4a79882d8f36abb57eb1dfd18b79305cbe4495cbfc270fe1e66c12cf2f79"
+    },
+    {
+      "id": "kitchen-wabi-sabi-budget",
+      "renderSha256": "88b1aeddf383d78cc0aa13bf446d5f02bb664d7edaeb06a912df852b8e1725dd"
+    },
+    {
+      "id": "office-wabi-sabi-budget",
+      "renderSha256": "21884353178ce79da1e11a0756692756d497e3da5617ce19ab1eca069cf40bbe"
+    },
+    {
+      "id": "dining-wabi-sabi-budget",
+      "renderSha256": "6634a4d28fcf9fdb227aad83b63356366aea4989fe2c62336b0da007876849d2"
+    },
+    {
+      "id": "workspace-wabi-sabi-budget",
+      "renderSha256": "f450b6ff187a11010b0c039d8cfbde6b3fcd124227b932b0d290ad444a4bc0dd"
+    },
+    {
+      "id": "living-wabi-sabi-premium",
+      "renderSha256": "6df8a62e524521660bfa20f0981e573562fed4dc3f7fabad72bf6959baf5c17a"
+    },
+    {
+      "id": "bedroom-wabi-sabi-premium",
+      "renderSha256": "ff6a61841defb05f565cb3070599ee9cc815599ab390e02ccfd2d9ef793292bd"
+    },
+    {
+      "id": "kitchen-wabi-sabi-premium",
+      "renderSha256": "cfd5d524fc6621de64632d433737441b3b9dd5bd63541d1593865be42162097e"
+    },
+    {
+      "id": "office-wabi-sabi-premium",
+      "renderSha256": "a8483998cee5a7a276e9528677c116a008c169da9bedf84d0958b0d11d7db9eb"
+    },
+    {
+      "id": "workspace-wabi-sabi-premium",
+      "renderSha256": "85c660a35461c2c939a5495dfa5d773249c9c2a8571a2821e9aa49e46a063857"
+    }
+  ],
+  "sourceAssets": {
+    "public/images/gallery/scandinavian-premium.webp": "c0f32df566ad163b9c5be8fa6e411e2882d7d8f454161e7604be72a0111f41d3",
+    "public/images/gallery/minimalism-economy.webp": "a47d9728761fb6b28d837cfb2317339c3ee3fdaeefbedd82dffa60c18ab641c0",
+    "public/images/gallery/industrial-premium.webp": "2bcb3179ece4249c4b69058e1d5774f7f91330ce08179c62fe9c923a00b360a2",
+    "public/images/gallery/contemporary-budget.webp": "c7452e6df6724af956b6602389ee7993a2a71e6ba376127e39a2c8cef616c7a8",
+    "public/images/gallery/minimalism-budget.webp": "4a20ff5d878faa562ff969f38f7acff29ff4c634fa8f2efee76bc1cc7805edae",
+    "public/images/gallery/featured-living-contemporary-premium.webp": "cc02686b7034e76e5552101f1eed18284eb1c307b22820dd930de12aec793fa2",
+    "public/images/gallery/wabi-sabi-budget.webp": "ff5b2eac6380ac7b19f0c27c3675c5147b2d871dc80ece21e59eee83f903e182",
+    "public/images/gallery/wabi-sabi-economy.webp": "96b64a943992b15eb6ba31c199448a90391975e2f7133cf1d1e734535a70afa1",
+    "public/images/gallery/bohemian-economy.webp": "a12dd81e1a9cd7ef2229cd83d80766bead2304c2e2dd90ec38713ddc72327ba6",
+    "public/images/gallery/art-deco-premium.webp": "56f10ab7ba31fd83165c089bb3dd287ba821eae401cb53333c4637e590602de7",
+    "public/images/gallery/contemporary-economy.webp": "6bd8cfa8aa337199cb5de6e8959c47caa0eb9ee3c0732f20d12421b70e071d02",
+    "public/images/gallery/mediterranean-premium.webp": "ac26e3bd03b4b7bedbdcf348cc52dce78bb61037ae9539ea6c82da602b5e7b6e",
+    "public/images/gallery/natural-economy.webp": "3711d6a0039727a23fa3185769b39b6e14d484017bfd01f44ef827023fb306f5",
+    "public/images/gallery/scandinavian-economy.webp": "c7c1e0310ca0365ff94d4f809fc6db0015dcbd26d99c5bb6f2d7c9c2b94cf000",
+    "public/images/gallery/mediterranean-budget.webp": "9875b21a7b80e6cd7d8b68331c76813168eeffad127e71755e2f46c320f89c79",
+    "public/images/gallery/japandi-economy.webp": "fa54d083708748b21d0e8c481b19fa983238abb606f2bf4263709e03b299379c",
+    "public/images/gallery/contemporary-premium.webp": "d14a28cef613abf1d915540e58f84e11ede6a82103681dc13b57612e1038db9c",
+    "public/images/gallery/japandi-budget.webp": "0c78003a7f7628feb2dc5bc78e8b388e968a223eec81459e4eb3de9572edd6d8",
+    "public/images/gallery/featured-living-industrial-economy.webp": "1abe3cf36a98d75935c3b25504a650dcfdf56bc6289929e41e9ecff9f173a7bf",
+    "public/images/gallery/natural-budget.webp": "c1977663b05227a645b3fc28dc40ac79f90970bca402ce1ae0a63e13f1535b36",
+    "public/images/gallery/mid-century-premium.webp": "d80d0f059b3c7645a8d625613c6883f51b1adea8b4702f5e827048abe6c65147",
+    "public/images/gallery/japandi-premium.webp": "cd3f1c2b6e0a328b8945a17381b7b38f2d88ab3ea3ecc416a5d342cb2dce1e7a",
+    "public/images/gallery/mid-century-budget.webp": "6eaa015a7a61be28c1ea0902e984c0f2d4cf34a5e89179ea26b5a4828360def7",
+    "public/images/gallery/mediterranean-economy.webp": "14a02e3f8ce1fb40e04bfef79e29177d597ba7b33843dfa335eb1e62d558d824",
+    "public/images/gallery/industrial-budget.webp": "4feada2223de80219fad922bae44e2619fd02ba605fd04c3fa1b34779f079a2b",
+    "public/images/gallery/featured-bedroom-japandi-budget.webp": "ee07a15ebb96a70b59385db749b664ae87c38e3af53509ed8416c7d651cdddc0",
+    "public/images/gallery/bohemian-premium.webp": "df99b5f33c0bfcfd30e87501b8b718525f2251d8346b1e7ee1dde6624fe6582a",
+    "public/images/gallery/modern-classic-economy.webp": "e4d5a8fe0fe157b621db37e1a2f71c4c3594431581a9acedb9884e33cb0dcbc3",
+    "public/images/gallery/bohemian-budget.webp": "8dc4c64322e3887986b95142822d48bb0f072dd47143d35e04ab239bdb81891e",
+    "public/images/gallery/minimalism-premium.webp": "2197a1347be0d31c5fdb91fd9ddd3fbd38d4034ded91b916fda8a47cc72fd4b4",
+    "public/images/gallery/modern-classic-premium.webp": "62a2880237b5f828f8d8037c115743df19c90a780c9dbb49777526e6ce182593",
+    "public/images/gallery/wabi-sabi-premium.webp": "458e81f74f217ee641f0d83318ec9a967be055e001979c879c3d42c52b5a774d",
+    "public/images/gallery/art-deco-economy.webp": "4b558f4e33245c47bf38137cfe1bb1be21766b65eb576ea54064855c5d74a44a",
+    "public/images/gallery/natural-premium.webp": "3257b56458249c2778510821164b0ea00258a4b2aed61fe39c77b016c7a897fa",
+    "public/images/gallery/modern-classic-budget.webp": "e39bda78622fd7f4246162870910466818725b505cd84d4d31d8a09338b63fc9",
+    "public/images/gallery/art-deco-budget.webp": "d3f90dbcc57dbe9d0cf3c6b57fe3cd4060424078e826873796bfbacc696e7902",
+    "public/images/gallery/mid-century-economy.webp": "4cde172bc05eb2b8c51e4c6ddc45ee632ed324ce2dc50726a6c7570f545e831c",
+    "public/images/gallery/industrial-economy.webp": "a6cfc65f86b9f851fb21053527a5d9f16a69ab4be616868b8817d0453ffb2965",
+    "public/images/gallery/scandinavian-budget.webp": "58c38f3daad78e64ec0a0089561d3b1e08114195cb9f82785782ed37ff72cd7d"
+  },
+  "batches": [
+    {
+      "id": "geometry-review-01",
+      "items": [
+        "bedroom-minimalism-budget",
+        "office-minimalism-budget",
+        "office-japandi-budget",
+        "workspace-japandi-premium",
+        "bathroom-natural-economy",
+        "dining-natural-economy",
+        "bedroom-natural-budget",
+        "living-natural-premium"
+      ]
+    },
+    {
+      "id": "geometry-review-02",
+      "items": [
+        "kitchen-natural-premium",
+        "kitchen-scandinavian-budget",
+        "bathroom-scandinavian-premium",
+        "dining-scandinavian-premium",
+        "dining-industrial-budget",
+        "bathroom-contemporary-economy",
+        "dining-contemporary-economy",
+        "bedroom-contemporary-budget"
+      ]
+    },
+    {
+      "id": "geometry-review-03",
+      "items": [
+        "office-contemporary-budget",
+        "kitchen-contemporary-premium",
+        "workspace-contemporary-premium",
+        "bedroom-mediterranean-economy",
+        "office-mediterranean-economy",
+        "living-mediterranean-budget",
+        "kitchen-mediterranean-budget",
+        "dining-mediterranean-budget"
+      ]
+    },
+    {
+      "id": "geometry-review-04",
+      "items": [
+        "workspace-mediterranean-budget",
+        "bathroom-mediterranean-premium",
+        "dining-mediterranean-premium",
+        "bathroom-bohemian-economy",
+        "dining-bohemian-economy",
+        "office-bohemian-budget",
+        "living-bohemian-premium",
+        "kitchen-bohemian-premium"
+      ]
+    },
+    {
+      "id": "geometry-review-05",
+      "items": [
+        "dining-art-deco-economy",
+        "living-art-deco-budget",
+        "bedroom-art-deco-budget",
+        "kitchen-art-deco-budget",
+        "dining-art-deco-budget",
+        "office-wabi-sabi-economy",
+        "bathroom-wabi-sabi-premium",
+        "dining-wabi-sabi-premium"
+      ]
+    }
+  ]
+}
