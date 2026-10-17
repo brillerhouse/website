@@ -284,7 +284,7 @@
     ],
     "gallery": [
       "A little inspiration.\nA new direction.",
-      "Explore seven room types in twelve styles. Find a direction you love, copy the suggested prompt and make it your own in Briller."
+      "252 ideas for rooms worth living in. Explore expressive architecture, find your style and bring a direction into your own space."
     ],
     "pricing": [
       "Make room for\nyour next idea.",
@@ -430,7 +430,18 @@
     "bohemian": "Bohemian",
     "art-deco": "Art Deco",
     "modern-classic": "Modern Classic",
-    "wabi-sabi": "Wabi-sabi"
+    "wabi-sabi": "Wabi-sabi",
+    "featured": "A few directions to start with",
+    "featuredIntro": "Different spaces. Different ways to make them yours.",
+    "collectionLabel": "Find your direction",
+    "collectionTitle": "Good design, in every kind of space.",
+    "variantIntro": "Seven room types. Twelve styles. Three versions of each, mixing budgets and room sizes.",
+    "budgetFilter": "Design budget",
+    "sizeFilter": "Room size",
+    "allBudgets": "All budgets",
+    "allSizes": "All sizes",
+    "compareVersions": "Explore three versions",
+    "variantEmpty": "No version matches this exact combination. Try another size or clear the filters."
   },
   "contact": {
     "name": "Your name",

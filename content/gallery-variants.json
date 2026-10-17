@@ -1,0 +1,5119 @@
+{
+  "tiers": [
+    {
+      "id": "economy",
+      "label": {
+        "en": "Economy",
+        "uk": "Економ"
+      },
+      "brief": {
+        "en": "A resourceful affordable redesign: retained sound surfaces, paint, ready-made furniture and modular storage, durable laminate or ceramic finishes, well-chosen accessible lighting. Make the result attractive through layout, color and proportion rather than costly construction.",
+        "uk": "Доступний продуманий редизайн: збережіть справні поверхні, використайте фарбування, готові меблі й модульне зберігання, міцний ламінат або кераміку та вдало підібране доступне освітлення. Виразність створюють планування, колір і пропорції, а не дорога перебудова."
+      }
+    },
+    {
+      "id": "budget",
+      "label": {
+        "en": "Budget",
+        "uk": "Бюджетний"
+      },
+      "brief": {
+        "en": "A balanced mid-range redesign: coordinated quality ready-made furniture, some fitted or veneered cabinetry, durable composite or porcelain surfaces, layered lighting and carefully chosen textiles. Prioritize visible design quality and daily function.",
+        "uk": "Збалансований редизайн середнього бюджету: узгоджені якісні готові меблі, окремі вбудовані або шпоновані елементи, міцні композитні чи керамогранітні поверхні, багаторівневе освітлення та продуманий текстиль. Пріоритет — виразний дизайн і щоденна зручність."
+      }
+    },
+    {
+      "id": "premium",
+      "label": {
+        "en": "Premium",
+        "uk": "Преміум"
+      },
+      "brief": {
+        "en": "A premium specification with bespoke joinery, beautiful natural timber or stone where suitable, refined metal and glass details, high-quality upholstery and integrated architectural lighting. Express quality through craftsmanship, proportion and precise junctions, not excessive decoration.",
+        "uk": "Преміальна комплектація: індивідуальні меблі, природне дерево чи камінь там, де це доречно, вишукані металеві та скляні деталі, якісна оббивка й інтегроване архітектурне світло. Якість мають передавати майстерність, пропорції та точні стики, а не надмірний декор."
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "id": "small",
+      "label": {
+        "en": "Small",
+        "uk": "Мала площа"
+      }
+    },
+    {
+      "id": "medium",
+      "label": {
+        "en": "Medium",
+        "uk": "Середня площа"
+      }
+    },
+    {
+      "id": "large",
+      "label": {
+        "en": "Large",
+        "uk": "Велика площа"
+      }
+    }
+  ],
+  "sizeBriefs": {
+    "small": {
+      "en": "Use the limited area intelligently: compact furniture, integrated storage, clear circulation and a strong focal point. Keep the space convincingly compact without cramping or stretching it.",
+      "uk": "Розумно використайте обмежену площу: компактні меблі, інтегроване зберігання, вільний прохід і виразний акцент. Простір має залишатися переконливо компактним, без тісноти чи штучного розтягування."
+    },
+    "medium": {
+      "en": "Use balanced furniture dimensions, a clear principal zone and useful secondary storage, with comfortable everyday circulation.",
+      "uk": "Оберіть збалансовані розміри меблів, чітку основну зону й корисне додаткове зберігання зі зручними щоденними проходами."
+    },
+    "large": {
+      "en": "Give the generous area purpose through distinct functional zones, larger but proportionate furniture and a strong architectural composition. Avoid dead space and arbitrarily oversized objects.",
+      "uk": "Надайте просторій площі змісту: окремі функціональні зони, більші, але пропорційні меблі й виразна архітектурна композиція. Уникайте порожніх невикористаних ділянок і випадково завеликих предметів."
+    }
+  },
+  "variants": [
+    {
+      "id": "living-minimalism-economy",
+      "room": "living",
+      "style": "minimalism",
+      "tier": "economy",
+      "size": "small",
+      "area": 13,
+      "image": "/images/gallery/minimalism-economy.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a crisp modern city apartment with a corner window, white planes and a recessed storage wall",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00602214,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bedroom-minimalism-economy",
+      "room": "bedroom",
+      "style": "minimalism",
+      "tier": "economy",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/minimalism-economy.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a refined flat with black-framed full-height glazing and a deep linear ceiling reveal",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50748698,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bathroom-minimalism-economy",
+      "room": "bathroom",
+      "style": "minimalism",
+      "tier": "economy",
+      "size": "large",
+      "area": 13,
+      "image": "/images/gallery/minimalism-economy.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a fresh split-level apartment with a broad rooflight, pale floor and a simple sculptural wall",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00602214,
+        "y": 0.25325521,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "kitchen-minimalism-economy",
+      "room": "kitchen",
+      "style": "minimalism",
+      "tier": "economy",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/minimalism-economy.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a crisp modern city apartment with a corner window, white planes and a recessed storage wall",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50748698,
+        "y": 0.25325521,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "office-minimalism-economy",
+      "room": "office",
+      "style": "minimalism",
+      "tier": "economy",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/minimalism-economy.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a refined flat with black-framed full-height glazing and a deep linear ceiling reveal",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00602214,
+        "y": 0.50390625,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "dining-minimalism-economy",
+      "room": "dining",
+      "style": "minimalism",
+      "tier": "economy",
+      "size": "large",
+      "area": 31,
+      "image": "/images/gallery/minimalism-economy.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a fresh split-level apartment with a broad rooflight, pale floor and a simple sculptural wall",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50748698,
+        "y": 0.50390625,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "workspace-minimalism-economy",
+      "room": "workspace",
+      "style": "minimalism",
+      "tier": "economy",
+      "size": "small",
+      "area": 8,
+      "image": "/images/gallery/minimalism-economy.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a crisp modern city apartment with a corner window, white planes and a recessed storage wall",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00602214,
+        "y": 0.75390625,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "living-minimalism-budget",
+      "room": "living",
+      "style": "minimalism",
+      "tier": "budget",
+      "size": "medium",
+      "area": 25,
+      "image": "/images/gallery/minimalism-budget.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a refined flat with black-framed full-height glazing and a deep linear ceiling reveal",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00537109,
+        "y": 0.00260417,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "bedroom-minimalism-budget",
+      "room": "bedroom",
+      "style": "minimalism",
+      "tier": "budget",
+      "size": "large",
+      "area": 29,
+      "image": "/images/gallery/minimalism-budget.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a fresh split-level apartment with a broad rooflight, pale floor and a simple sculptural wall",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50634766,
+        "y": 0.00260417,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "bathroom-minimalism-budget",
+      "room": "bathroom",
+      "style": "minimalism",
+      "tier": "budget",
+      "size": "small",
+      "area": 4,
+      "image": "/images/gallery/minimalism-budget.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a crisp modern city apartment with a corner window, white planes and a recessed storage wall",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00537109,
+        "y": 0.25260417,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "kitchen-minimalism-budget",
+      "room": "kitchen",
+      "style": "minimalism",
+      "tier": "budget",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/minimalism-budget.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a refined flat with black-framed full-height glazing and a deep linear ceiling reveal",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50634766,
+        "y": 0.25260417,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "office-minimalism-budget",
+      "room": "office",
+      "style": "minimalism",
+      "tier": "budget",
+      "size": "large",
+      "area": 23,
+      "image": "/images/gallery/minimalism-budget.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a fresh split-level apartment with a broad rooflight, pale floor and a simple sculptural wall",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00602214,
+        "y": 0.50325521,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "dining-minimalism-budget",
+      "room": "dining",
+      "style": "minimalism",
+      "tier": "budget",
+      "size": "small",
+      "area": 9,
+      "image": "/images/gallery/minimalism-budget.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a crisp modern city apartment with a corner window, white planes and a recessed storage wall",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.5069987,
+        "y": 0.50325521,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "workspace-minimalism-budget",
+      "room": "workspace",
+      "style": "minimalism",
+      "tier": "budget",
+      "size": "medium",
+      "area": 16,
+      "image": "/images/gallery/minimalism-budget.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a refined flat with black-framed full-height glazing and a deep linear ceiling reveal",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00537109,
+        "y": 0.75325521,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "living-minimalism-premium",
+      "room": "living",
+      "style": "minimalism",
+      "tier": "premium",
+      "size": "large",
+      "area": 44,
+      "image": "/images/gallery/minimalism-premium.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a fresh split-level apartment with a broad rooflight, pale floor and a simple sculptural wall",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00846354,
+        "y": 0.00260417,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "bedroom-minimalism-premium",
+      "room": "bedroom",
+      "style": "minimalism",
+      "tier": "premium",
+      "size": "small",
+      "area": 10,
+      "image": "/images/gallery/minimalism-premium.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a crisp modern city apartment with a corner window, white planes and a recessed storage wall",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50895182,
+        "y": 0.00260417,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "bathroom-minimalism-premium",
+      "room": "bathroom",
+      "style": "minimalism",
+      "tier": "premium",
+      "size": "medium",
+      "area": 7,
+      "image": "/images/gallery/minimalism-premium.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a refined flat with black-framed full-height glazing and a deep linear ceiling reveal",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00651042,
+        "y": 0.25195312,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "kitchen-minimalism-premium",
+      "room": "kitchen",
+      "style": "minimalism",
+      "tier": "premium",
+      "size": "large",
+      "area": 25,
+      "image": "/images/gallery/minimalism-premium.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a fresh split-level apartment with a broad rooflight, pale floor and a simple sculptural wall",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.5069987,
+        "y": 0.25195312,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "office-minimalism-premium",
+      "room": "office",
+      "style": "minimalism",
+      "tier": "premium",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/minimalism-premium.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a crisp modern city apartment with a corner window, white planes and a recessed storage wall",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00716146,
+        "y": 0.50130208,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "dining-minimalism-premium",
+      "room": "dining",
+      "style": "minimalism",
+      "tier": "premium",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/minimalism-premium.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a refined flat with black-framed full-height glazing and a deep linear ceiling reveal",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50764974,
+        "y": 0.50130208,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "workspace-minimalism-premium",
+      "room": "workspace",
+      "style": "minimalism",
+      "tier": "premium",
+      "size": "large",
+      "area": 33,
+      "image": "/images/gallery/minimalism-premium.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a fresh split-level apartment with a broad rooflight, pale floor and a simple sculptural wall",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.75065104,
+        "width": 0.4921875,
+        "height": 0.24609375
+      }
+    },
+    {
+      "id": "living-japandi-economy",
+      "room": "living",
+      "style": "japandi",
+      "tier": "economy",
+      "size": "medium",
+      "area": 25,
+      "image": "/images/gallery/japandi-economy.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a modern timber-accented apartment with a deep-set window and a light-filtering oak screen",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.03255208,
+        "y": 0.00260417,
+        "width": 0.43489583,
+        "height": 0.21744792
+      }
+    },
+    {
+      "id": "bedroom-japandi-economy",
+      "room": "bedroom",
+      "style": "japandi",
+      "tier": "economy",
+      "size": "large",
+      "area": 29,
+      "image": "/images/gallery/japandi-economy.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "an airy courtyard-facing apartment with floor-to-ceiling timber-framed glazing and clean ceiling geometry",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.53352865,
+        "y": 0.00260417,
+        "width": 0.43489583,
+        "height": 0.21744792
+      }
+    },
+    {
+      "id": "bathroom-japandi-economy",
+      "room": "bathroom",
+      "style": "japandi",
+      "tier": "economy",
+      "size": "small",
+      "area": 4,
+      "image": "/images/gallery/japandi-economy.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a contemporary apartment with a stepped ceiling, a small rooflight and a framed leafy city view",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.23111979,
+        "width": 0.4921875,
+        "height": 0.24609375
+      }
+    },
+    {
+      "id": "kitchen-japandi-economy",
+      "room": "kitchen",
+      "style": "japandi",
+      "tier": "economy",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/japandi-economy.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a modern timber-accented apartment with a deep-set window and a light-filtering oak screen",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50585938,
+        "y": 0.23160807,
+        "width": 0.49023438,
+        "height": 0.24511719
+      }
+    },
+    {
+      "id": "office-japandi-economy",
+      "room": "office",
+      "style": "japandi",
+      "tier": "economy",
+      "size": "large",
+      "area": 23,
+      "image": "/images/gallery/japandi-economy.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "an airy courtyard-facing apartment with floor-to-ceiling timber-framed glazing and clean ceiling geometry",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.01171875,
+        "y": 0.48828125,
+        "width": 0.4765625,
+        "height": 0.23828125
+      }
+    },
+    {
+      "id": "dining-japandi-economy",
+      "room": "dining",
+      "style": "japandi",
+      "tier": "economy",
+      "size": "small",
+      "area": 9,
+      "image": "/images/gallery/japandi-economy.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a contemporary apartment with a stepped ceiling, a small rooflight and a framed leafy city view",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.51269531,
+        "y": 0.48828125,
+        "width": 0.4765625,
+        "height": 0.23828125
+      }
+    },
+    {
+      "id": "workspace-japandi-economy",
+      "room": "workspace",
+      "style": "japandi",
+      "tier": "economy",
+      "size": "medium",
+      "area": 16,
+      "image": "/images/gallery/japandi-economy.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a modern timber-accented apartment with a deep-set window and a light-filtering oak screen",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.74186198,
+        "width": 0.4921875,
+        "height": 0.24609375
+      }
+    },
+    {
+      "id": "living-japandi-budget",
+      "room": "living",
+      "style": "japandi",
+      "tier": "budget",
+      "size": "large",
+      "area": 44,
+      "image": "/images/gallery/japandi-budget.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "an airy courtyard-facing apartment with floor-to-ceiling timber-framed glazing and clean ceiling geometry",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bedroom-japandi-budget",
+      "room": "bedroom",
+      "style": "japandi",
+      "tier": "budget",
+      "size": "small",
+      "area": 10,
+      "image": "/images/gallery/japandi-budget.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a contemporary apartment with a stepped ceiling, a small rooflight and a framed leafy city view",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50813802,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      },
+      "detailImage": "/images/gallery/featured-bedroom-japandi-budget.webp"
+    },
+    {
+      "id": "bathroom-japandi-budget",
+      "room": "bathroom",
+      "style": "japandi",
+      "tier": "budget",
+      "size": "medium",
+      "area": 7,
+      "image": "/images/gallery/japandi-budget.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a modern timber-accented apartment with a deep-set window and a light-filtering oak screen",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00683594,
+        "y": 0.25325521,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "kitchen-japandi-budget",
+      "room": "kitchen",
+      "style": "japandi",
+      "tier": "budget",
+      "size": "large",
+      "area": 25,
+      "image": "/images/gallery/japandi-budget.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "an airy courtyard-facing apartment with floor-to-ceiling timber-framed glazing and clean ceiling geometry",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50878906,
+        "y": 0.25325521,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "office-japandi-budget",
+      "room": "office",
+      "style": "japandi",
+      "tier": "budget",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/japandi-budget.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a contemporary apartment with a stepped ceiling, a small rooflight and a framed leafy city view",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00553385,
+        "y": 0.50325521,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "dining-japandi-budget",
+      "room": "dining",
+      "style": "japandi",
+      "tier": "budget",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/japandi-budget.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a modern timber-accented apartment with a deep-set window and a light-filtering oak screen",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50748698,
+        "y": 0.50325521,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "workspace-japandi-budget",
+      "room": "workspace",
+      "style": "japandi",
+      "tier": "budget",
+      "size": "large",
+      "area": 33,
+      "image": "/images/gallery/japandi-budget.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "an airy courtyard-facing apartment with floor-to-ceiling timber-framed glazing and clean ceiling geometry",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.75455729,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "living-japandi-premium",
+      "room": "living",
+      "style": "japandi",
+      "tier": "premium",
+      "size": "small",
+      "area": 13,
+      "image": "/images/gallery/japandi-premium.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a contemporary apartment with a stepped ceiling, a small rooflight and a framed leafy city view",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.01513672,
+        "y": 0.00260417,
+        "width": 0.46875,
+        "height": 0.234375
+      }
+    },
+    {
+      "id": "bedroom-japandi-premium",
+      "room": "bedroom",
+      "style": "japandi",
+      "tier": "premium",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/japandi-premium.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a modern timber-accented apartment with a deep-set window and a light-filtering oak screen",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.51611328,
+        "y": 0.00260417,
+        "width": 0.46875,
+        "height": 0.234375
+      }
+    },
+    {
+      "id": "bathroom-japandi-premium",
+      "room": "bathroom",
+      "style": "japandi",
+      "tier": "premium",
+      "size": "large",
+      "area": 13,
+      "image": "/images/gallery/japandi-premium.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "an airy courtyard-facing apartment with floor-to-ceiling timber-framed glazing and clean ceiling geometry",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00667318,
+        "y": 0.24348958,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "kitchen-japandi-premium",
+      "room": "kitchen",
+      "style": "japandi",
+      "tier": "premium",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/japandi-premium.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a contemporary apartment with a stepped ceiling, a small rooflight and a framed leafy city view",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50764974,
+        "y": 0.24348958,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "office-japandi-premium",
+      "room": "office",
+      "style": "japandi",
+      "tier": "premium",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/japandi-premium.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a modern timber-accented apartment with a deep-set window and a light-filtering oak screen",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00602214,
+        "y": 0.49283854,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "dining-japandi-premium",
+      "room": "dining",
+      "style": "japandi",
+      "tier": "premium",
+      "size": "large",
+      "area": 31,
+      "image": "/images/gallery/japandi-premium.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "an airy courtyard-facing apartment with floor-to-ceiling timber-framed glazing and clean ceiling geometry",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.5069987,
+        "y": 0.49283854,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "workspace-japandi-premium",
+      "room": "workspace",
+      "style": "japandi",
+      "tier": "premium",
+      "size": "small",
+      "area": 8,
+      "image": "/images/gallery/japandi-premium.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a contemporary apartment with a stepped ceiling, a small rooflight and a framed leafy city view",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.74731445,
+        "width": 0.49121094,
+        "height": 0.24560547
+      }
+    },
+    {
+      "id": "living-natural-economy",
+      "room": "living",
+      "style": "natural",
+      "tier": "economy",
+      "size": "large",
+      "area": 44,
+      "image": "/images/gallery/natural-economy.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a light-filled modern apartment with warm timber feature wall and a garden-facing glass opening",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00585938,
+        "y": 0.00260417,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "bedroom-natural-economy",
+      "room": "bedroom",
+      "style": "natural",
+      "tier": "economy",
+      "size": "small",
+      "area": 10,
+      "image": "/images/gallery/natural-economy.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a contemporary loft with broad glazing, exposed timber structure and indoor-outdoor flow",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50634766,
+        "y": 0.00260417,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "bathroom-natural-economy",
+      "room": "bathroom",
+      "style": "natural",
+      "tier": "economy",
+      "size": "medium",
+      "area": 7,
+      "image": "/images/gallery/natural-economy.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a fresh modern corner apartment with curved plaster reveal and generous daylight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00585938,
+        "y": 0.25260417,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "kitchen-natural-economy",
+      "room": "kitchen",
+      "style": "natural",
+      "tier": "economy",
+      "size": "large",
+      "area": 25,
+      "image": "/images/gallery/natural-economy.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a light-filled modern apartment with warm timber feature wall and a garden-facing glass opening",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50634766,
+        "y": 0.25260417,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "office-natural-economy",
+      "room": "office",
+      "style": "natural",
+      "tier": "economy",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/natural-economy.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a contemporary loft with broad glazing, exposed timber structure and indoor-outdoor flow",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00846354,
+        "y": 0.50260417,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "dining-natural-economy",
+      "room": "dining",
+      "style": "natural",
+      "tier": "economy",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/natural-economy.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a fresh modern corner apartment with curved plaster reveal and generous daylight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50895182,
+        "y": 0.50260417,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "workspace-natural-economy",
+      "room": "workspace",
+      "style": "natural",
+      "tier": "economy",
+      "size": "large",
+      "area": 33,
+      "image": "/images/gallery/natural-economy.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a light-filled modern apartment with warm timber feature wall and a garden-facing glass opening",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.75065104,
+        "width": 0.4921875,
+        "height": 0.24609375
+      }
+    },
+    {
+      "id": "living-natural-budget",
+      "room": "living",
+      "style": "natural",
+      "tier": "budget",
+      "size": "small",
+      "area": 13,
+      "image": "/images/gallery/natural-budget.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a contemporary loft with broad glazing, exposed timber structure and indoor-outdoor flow",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bedroom-natural-budget",
+      "room": "bedroom",
+      "style": "natural",
+      "tier": "budget",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/natural-budget.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a fresh modern corner apartment with curved plaster reveal and generous daylight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50813802,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bathroom-natural-budget",
+      "room": "bathroom",
+      "style": "natural",
+      "tier": "budget",
+      "size": "large",
+      "area": 13,
+      "image": "/images/gallery/natural-budget.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a light-filled modern apartment with warm timber feature wall and a garden-facing glass opening",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.25325521,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "kitchen-natural-budget",
+      "room": "kitchen",
+      "style": "natural",
+      "tier": "budget",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/natural-budget.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a contemporary loft with broad glazing, exposed timber structure and indoor-outdoor flow",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50813802,
+        "y": 0.25325521,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "office-natural-budget",
+      "room": "office",
+      "style": "natural",
+      "tier": "budget",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/natural-budget.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a fresh modern corner apartment with curved plaster reveal and generous daylight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.0094401,
+        "y": 0.50390625,
+        "width": 0.47916667,
+        "height": 0.23958333
+      }
+    },
+    {
+      "id": "dining-natural-budget",
+      "room": "dining",
+      "style": "natural",
+      "tier": "budget",
+      "size": "large",
+      "area": 31,
+      "image": "/images/gallery/natural-budget.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a light-filled modern apartment with warm timber feature wall and a garden-facing glass opening",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.51139323,
+        "y": 0.50390625,
+        "width": 0.47916667,
+        "height": 0.23958333
+      }
+    },
+    {
+      "id": "workspace-natural-budget",
+      "room": "workspace",
+      "style": "natural",
+      "tier": "budget",
+      "size": "small",
+      "area": 8,
+      "image": "/images/gallery/natural-budget.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a contemporary loft with broad glazing, exposed timber structure and indoor-outdoor flow",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.75179036,
+        "width": 0.49023438,
+        "height": 0.24511719
+      }
+    },
+    {
+      "id": "living-natural-premium",
+      "room": "living",
+      "style": "natural",
+      "tier": "premium",
+      "size": "medium",
+      "area": 25,
+      "image": "/images/gallery/natural-premium.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a fresh modern corner apartment with curved plaster reveal and generous daylight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00553385,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bedroom-natural-premium",
+      "room": "bedroom",
+      "style": "natural",
+      "tier": "premium",
+      "size": "large",
+      "area": 29,
+      "image": "/images/gallery/natural-premium.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a light-filled modern apartment with warm timber feature wall and a garden-facing glass opening",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50748698,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bathroom-natural-premium",
+      "room": "bathroom",
+      "style": "natural",
+      "tier": "premium",
+      "size": "small",
+      "area": 4,
+      "image": "/images/gallery/natural-premium.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a contemporary loft with broad glazing, exposed timber structure and indoor-outdoor flow",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00683594,
+        "y": 0.25390625,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "kitchen-natural-premium",
+      "room": "kitchen",
+      "style": "natural",
+      "tier": "premium",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/natural-premium.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a fresh modern corner apartment with curved plaster reveal and generous daylight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50878906,
+        "y": 0.25390625,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "office-natural-premium",
+      "room": "office",
+      "style": "natural",
+      "tier": "premium",
+      "size": "large",
+      "area": 23,
+      "image": "/images/gallery/natural-premium.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a light-filled modern apartment with warm timber feature wall and a garden-facing glass opening",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00748698,
+        "y": 0.50390625,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "dining-natural-premium",
+      "room": "dining",
+      "style": "natural",
+      "tier": "premium",
+      "size": "small",
+      "area": 9,
+      "image": "/images/gallery/natural-premium.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a contemporary loft with broad glazing, exposed timber structure and indoor-outdoor flow",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.5094401,
+        "y": 0.50390625,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "workspace-natural-premium",
+      "room": "workspace",
+      "style": "natural",
+      "tier": "premium",
+      "size": "medium",
+      "area": 16,
+      "image": "/images/gallery/natural-premium.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a fresh modern corner apartment with curved plaster reveal and generous daylight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00488281,
+        "y": 0.75325521,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "living-scandinavian-economy",
+      "room": "living",
+      "style": "scandinavian",
+      "tier": "economy",
+      "size": "small",
+      "area": 13,
+      "image": "/images/gallery/scandinavian-economy.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a bright urban Nordic apartment with tall white-framed windows and pale timber flooring",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00602214,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bedroom-scandinavian-economy",
+      "room": "bedroom",
+      "style": "scandinavian",
+      "tier": "economy",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/scandinavian-economy.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a contemporary timber-structure apartment with a pitched upper ceiling and a broad rooflight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50748698,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bathroom-scandinavian-economy",
+      "room": "bathroom",
+      "style": "scandinavian",
+      "tier": "economy",
+      "size": "large",
+      "area": 13,
+      "image": "/images/gallery/scandinavian-economy.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a sunny waterfront apartment with balcony glazing, simple pale joinery and graphic color",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00602214,
+        "y": 0.25325521,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "kitchen-scandinavian-economy",
+      "room": "kitchen",
+      "style": "scandinavian",
+      "tier": "economy",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/scandinavian-economy.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a bright urban Nordic apartment with tall white-framed windows and pale timber flooring",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50748698,
+        "y": 0.25325521,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "office-scandinavian-economy",
+      "room": "office",
+      "style": "scandinavian",
+      "tier": "economy",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/scandinavian-economy.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a contemporary timber-structure apartment with a pitched upper ceiling and a broad rooflight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00602214,
+        "y": 0.50325521,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "dining-scandinavian-economy",
+      "room": "dining",
+      "style": "scandinavian",
+      "tier": "economy",
+      "size": "large",
+      "area": 31,
+      "image": "/images/gallery/scandinavian-economy.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a sunny waterfront apartment with balcony glazing, simple pale joinery and graphic color",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50748698,
+        "y": 0.50325521,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "workspace-scandinavian-economy",
+      "room": "workspace",
+      "style": "scandinavian",
+      "tier": "economy",
+      "size": "small",
+      "area": 8,
+      "image": "/images/gallery/scandinavian-economy.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a bright urban Nordic apartment with tall white-framed windows and pale timber flooring",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00537109,
+        "y": 0.75325521,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "living-scandinavian-budget",
+      "room": "living",
+      "style": "scandinavian",
+      "tier": "budget",
+      "size": "medium",
+      "area": 25,
+      "image": "/images/gallery/scandinavian-budget.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a contemporary timber-structure apartment with a pitched upper ceiling and a broad rooflight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bedroom-scandinavian-budget",
+      "room": "bedroom",
+      "style": "scandinavian",
+      "tier": "budget",
+      "size": "large",
+      "area": 29,
+      "image": "/images/gallery/scandinavian-budget.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a sunny waterfront apartment with balcony glazing, simple pale joinery and graphic color",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50813802,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bathroom-scandinavian-budget",
+      "room": "bathroom",
+      "style": "scandinavian",
+      "tier": "budget",
+      "size": "small",
+      "area": 4,
+      "image": "/images/gallery/scandinavian-budget.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a bright urban Nordic apartment with tall white-framed windows and pale timber flooring",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.25325521,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "kitchen-scandinavian-budget",
+      "room": "kitchen",
+      "style": "scandinavian",
+      "tier": "budget",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/scandinavian-budget.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a contemporary timber-structure apartment with a pitched upper ceiling and a broad rooflight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50813802,
+        "y": 0.25325521,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "office-scandinavian-budget",
+      "room": "office",
+      "style": "scandinavian",
+      "tier": "budget",
+      "size": "large",
+      "area": 23,
+      "image": "/images/gallery/scandinavian-budget.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a sunny waterfront apartment with balcony glazing, simple pale joinery and graphic color",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00748698,
+        "y": 0.50390625,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "dining-scandinavian-budget",
+      "room": "dining",
+      "style": "scandinavian",
+      "tier": "budget",
+      "size": "small",
+      "area": 9,
+      "image": "/images/gallery/scandinavian-budget.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a bright urban Nordic apartment with tall white-framed windows and pale timber flooring",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.5094401,
+        "y": 0.50390625,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "workspace-scandinavian-budget",
+      "room": "workspace",
+      "style": "scandinavian",
+      "tier": "budget",
+      "size": "medium",
+      "area": 16,
+      "image": "/images/gallery/scandinavian-budget.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a contemporary timber-structure apartment with a pitched upper ceiling and a broad rooflight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00488281,
+        "y": 0.75325521,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "living-scandinavian-premium",
+      "room": "living",
+      "style": "scandinavian",
+      "tier": "premium",
+      "size": "large",
+      "area": 44,
+      "image": "/images/gallery/scandinavian-premium.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a sunny waterfront apartment with balcony glazing, simple pale joinery and graphic color",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00553385,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bedroom-scandinavian-premium",
+      "room": "bedroom",
+      "style": "scandinavian",
+      "tier": "premium",
+      "size": "small",
+      "area": 10,
+      "image": "/images/gallery/scandinavian-premium.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a bright urban Nordic apartment with tall white-framed windows and pale timber flooring",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50748698,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bathroom-scandinavian-premium",
+      "room": "bathroom",
+      "style": "scandinavian",
+      "tier": "premium",
+      "size": "medium",
+      "area": 7,
+      "image": "/images/gallery/scandinavian-premium.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a contemporary timber-structure apartment with a pitched upper ceiling and a broad rooflight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00683594,
+        "y": 0.25390625,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "kitchen-scandinavian-premium",
+      "room": "kitchen",
+      "style": "scandinavian",
+      "tier": "premium",
+      "size": "large",
+      "area": 25,
+      "image": "/images/gallery/scandinavian-premium.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a sunny waterfront apartment with balcony glazing, simple pale joinery and graphic color",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50878906,
+        "y": 0.25390625,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "office-scandinavian-premium",
+      "room": "office",
+      "style": "scandinavian",
+      "tier": "premium",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/scandinavian-premium.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a bright urban Nordic apartment with tall white-framed windows and pale timber flooring",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00683594,
+        "y": 0.50390625,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "dining-scandinavian-premium",
+      "room": "dining",
+      "style": "scandinavian",
+      "tier": "premium",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/scandinavian-premium.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a contemporary timber-structure apartment with a pitched upper ceiling and a broad rooflight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50878906,
+        "y": 0.50390625,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "workspace-scandinavian-premium",
+      "room": "workspace",
+      "style": "scandinavian",
+      "tier": "premium",
+      "size": "large",
+      "area": 33,
+      "image": "/images/gallery/scandinavian-premium.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a sunny waterfront apartment with balcony glazing, simple pale joinery and graphic color",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00553385,
+        "y": 0.75390625,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "living-mid-century-economy",
+      "room": "living",
+      "style": "mid-century",
+      "tier": "economy",
+      "size": "medium",
+      "area": 25,
+      "image": "/images/gallery/mid-century-economy.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a restored modernist apartment with ribbon windows and a purposeful timber feature wall",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bedroom-mid-century-economy",
+      "room": "bedroom",
+      "style": "mid-century",
+      "tier": "economy",
+      "size": "large",
+      "area": 29,
+      "image": "/images/gallery/mid-century-economy.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a split-level mid-century apartment with a low built-in ledge, terrazzo detail and sliding glass",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50813802,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bathroom-mid-century-economy",
+      "room": "bathroom",
+      "style": "mid-century",
+      "tier": "economy",
+      "size": "small",
+      "area": 4,
+      "image": "/images/gallery/mid-century-economy.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a light-filled city flat with broad horizontal glazing, clean timber frames and elegant 1960s proportions",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00683594,
+        "y": 0.25325521,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "kitchen-mid-century-economy",
+      "room": "kitchen",
+      "style": "mid-century",
+      "tier": "economy",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/mid-century-economy.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a restored modernist apartment with ribbon windows and a purposeful timber feature wall",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50878906,
+        "y": 0.25325521,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "office-mid-century-economy",
+      "room": "office",
+      "style": "mid-century",
+      "tier": "economy",
+      "size": "large",
+      "area": 23,
+      "image": "/images/gallery/mid-century-economy.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a split-level mid-century apartment with a low built-in ledge, terrazzo detail and sliding glass",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00553385,
+        "y": 0.50325521,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "dining-mid-century-economy",
+      "room": "dining",
+      "style": "mid-century",
+      "tier": "economy",
+      "size": "small",
+      "area": 9,
+      "image": "/images/gallery/mid-century-economy.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a light-filled city flat with broad horizontal glazing, clean timber frames and elegant 1960s proportions",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50748698,
+        "y": 0.50325521,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "workspace-mid-century-economy",
+      "room": "workspace",
+      "style": "mid-century",
+      "tier": "economy",
+      "size": "medium",
+      "area": 16,
+      "image": "/images/gallery/mid-century-economy.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a restored modernist apartment with ribbon windows and a purposeful timber feature wall",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.75455729,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "living-mid-century-budget",
+      "room": "living",
+      "style": "mid-century",
+      "tier": "budget",
+      "size": "large",
+      "area": 44,
+      "image": "/images/gallery/mid-century-budget.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a split-level mid-century apartment with a low built-in ledge, terrazzo detail and sliding glass",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00553385,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bedroom-mid-century-budget",
+      "room": "bedroom",
+      "style": "mid-century",
+      "tier": "budget",
+      "size": "small",
+      "area": 10,
+      "image": "/images/gallery/mid-century-budget.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a light-filled city flat with broad horizontal glazing, clean timber frames and elegant 1960s proportions",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50797526,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bathroom-mid-century-budget",
+      "room": "bathroom",
+      "style": "mid-century",
+      "tier": "budget",
+      "size": "medium",
+      "area": 7,
+      "image": "/images/gallery/mid-century-budget.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a restored modernist apartment with ribbon windows and a purposeful timber feature wall",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.25325521,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "kitchen-mid-century-budget",
+      "room": "kitchen",
+      "style": "mid-century",
+      "tier": "budget",
+      "size": "large",
+      "area": 25,
+      "image": "/images/gallery/mid-century-budget.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a split-level mid-century apartment with a low built-in ledge, terrazzo detail and sliding glass",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.5086263,
+        "y": 0.25325521,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "office-mid-century-budget",
+      "room": "office",
+      "style": "mid-century",
+      "tier": "budget",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/mid-century-budget.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a light-filled city flat with broad horizontal glazing, clean timber frames and elegant 1960s proportions",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00813802,
+        "y": 0.50390625,
+        "width": 0.48177083,
+        "height": 0.24088542
+      }
+    },
+    {
+      "id": "dining-mid-century-budget",
+      "room": "dining",
+      "style": "mid-century",
+      "tier": "budget",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/mid-century-budget.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a restored modernist apartment with ribbon windows and a purposeful timber feature wall",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.51057943,
+        "y": 0.50390625,
+        "width": 0.48177083,
+        "height": 0.24088542
+      }
+    },
+    {
+      "id": "workspace-mid-century-budget",
+      "room": "workspace",
+      "style": "mid-century",
+      "tier": "budget",
+      "size": "large",
+      "area": 33,
+      "image": "/images/gallery/mid-century-budget.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a split-level mid-century apartment with a low built-in ledge, terrazzo detail and sliding glass",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00423177,
+        "y": 0.75260417,
+        "width": 0.48958333,
+        "height": 0.24479167
+      }
+    },
+    {
+      "id": "living-mid-century-premium",
+      "room": "living",
+      "style": "mid-century",
+      "tier": "premium",
+      "size": "small",
+      "area": 13,
+      "image": "/images/gallery/mid-century-premium.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a light-filled city flat with broad horizontal glazing, clean timber frames and elegant 1960s proportions",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00667318,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bedroom-mid-century-premium",
+      "room": "bedroom",
+      "style": "mid-century",
+      "tier": "premium",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/mid-century-premium.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a restored modernist apartment with ribbon windows and a purposeful timber feature wall",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50813802,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bathroom-mid-century-premium",
+      "room": "bathroom",
+      "style": "mid-century",
+      "tier": "premium",
+      "size": "large",
+      "area": 13,
+      "image": "/images/gallery/mid-century-premium.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a split-level mid-century apartment with a low built-in ledge, terrazzo detail and sliding glass",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00797526,
+        "y": 0.25260417,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "kitchen-mid-century-premium",
+      "room": "kitchen",
+      "style": "mid-century",
+      "tier": "premium",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/mid-century-premium.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a light-filled city flat with broad horizontal glazing, clean timber frames and elegant 1960s proportions",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.5094401,
+        "y": 0.25260417,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "office-mid-century-premium",
+      "room": "office",
+      "style": "mid-century",
+      "tier": "premium",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/mid-century-premium.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a restored modernist apartment with ribbon windows and a purposeful timber feature wall",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00667318,
+        "y": 0.50130208,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "dining-mid-century-premium",
+      "room": "dining",
+      "style": "mid-century",
+      "tier": "premium",
+      "size": "large",
+      "area": 31,
+      "image": "/images/gallery/mid-century-premium.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a split-level mid-century apartment with a low built-in ledge, terrazzo detail and sliding glass",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50813802,
+        "y": 0.50130208,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "workspace-mid-century-premium",
+      "room": "workspace",
+      "style": "mid-century",
+      "tier": "premium",
+      "size": "small",
+      "area": 8,
+      "image": "/images/gallery/mid-century-premium.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a light-filled city flat with broad horizontal glazing, clean timber frames and elegant 1960s proportions",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00406901,
+        "y": 0.75195312,
+        "width": 0.49088542,
+        "height": 0.24544271
+      }
+    },
+    {
+      "id": "living-industrial-economy",
+      "room": "living",
+      "style": "industrial",
+      "tier": "economy",
+      "size": "large",
+      "area": 44,
+      "image": "/images/gallery/industrial-economy.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "an adaptive-reuse factory apartment with black steel windows, selective exposed brick and real structural rhythm",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00667318,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      },
+      "detailImage": "/images/gallery/featured-living-industrial-economy.webp"
+    },
+    {
+      "id": "bedroom-industrial-economy",
+      "room": "bedroom",
+      "style": "industrial",
+      "tier": "economy",
+      "size": "small",
+      "area": 10,
+      "image": "/images/gallery/industrial-economy.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a modern concrete loft with tall corner glazing, a retained steel beam and a bright generous volume",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50764974,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bathroom-industrial-economy",
+      "room": "bathroom",
+      "style": "industrial",
+      "tier": "economy",
+      "size": "medium",
+      "area": 7,
+      "image": "/images/gallery/industrial-economy.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a converted workshop apartment with a sawtooth rooflight, useful brick piers and a clean modern insert",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00472005,
+        "y": 0.25195312,
+        "width": 0.48958333,
+        "height": 0.24479167
+      }
+    },
+    {
+      "id": "kitchen-industrial-economy",
+      "room": "kitchen",
+      "style": "industrial",
+      "tier": "economy",
+      "size": "large",
+      "area": 25,
+      "image": "/images/gallery/industrial-economy.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "an adaptive-reuse factory apartment with black steel windows, selective exposed brick and real structural rhythm",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50569661,
+        "y": 0.25195312,
+        "width": 0.48958333,
+        "height": 0.24479167
+      }
+    },
+    {
+      "id": "office-industrial-economy",
+      "room": "office",
+      "style": "industrial",
+      "tier": "economy",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/industrial-economy.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a modern concrete loft with tall corner glazing, a retained steel beam and a bright generous volume",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00472005,
+        "y": 0.50325521,
+        "width": 0.48958333,
+        "height": 0.24479167
+      }
+    },
+    {
+      "id": "dining-industrial-economy",
+      "room": "dining",
+      "style": "industrial",
+      "tier": "economy",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/industrial-economy.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a converted workshop apartment with a sawtooth rooflight, useful brick piers and a clean modern insert",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50569661,
+        "y": 0.50325521,
+        "width": 0.48958333,
+        "height": 0.24479167
+      }
+    },
+    {
+      "id": "workspace-industrial-economy",
+      "room": "workspace",
+      "style": "industrial",
+      "tier": "economy",
+      "size": "large",
+      "area": 33,
+      "image": "/images/gallery/industrial-economy.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "an adaptive-reuse factory apartment with black steel windows, selective exposed brick and real structural rhythm",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00667318,
+        "y": 0.75455729,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "living-industrial-budget",
+      "room": "living",
+      "style": "industrial",
+      "tier": "budget",
+      "size": "small",
+      "area": 13,
+      "image": "/images/gallery/industrial-budget.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a modern concrete loft with tall corner glazing, a retained steel beam and a bright generous volume",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.0086263,
+        "y": 0.00260417,
+        "width": 0.48177083,
+        "height": 0.24088542
+      }
+    },
+    {
+      "id": "bedroom-industrial-budget",
+      "room": "bedroom",
+      "style": "industrial",
+      "tier": "budget",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/industrial-budget.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a converted workshop apartment with a sawtooth rooflight, useful brick piers and a clean modern insert",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50960286,
+        "y": 0.00260417,
+        "width": 0.48177083,
+        "height": 0.24088542
+      }
+    },
+    {
+      "id": "bathroom-industrial-budget",
+      "room": "bathroom",
+      "style": "industrial",
+      "tier": "budget",
+      "size": "large",
+      "area": 13,
+      "image": "/images/gallery/industrial-budget.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "an adaptive-reuse factory apartment with black steel windows, selective exposed brick and real structural rhythm",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.25056966,
+        "width": 0.49121094,
+        "height": 0.24560547
+      }
+    },
+    {
+      "id": "kitchen-industrial-budget",
+      "room": "kitchen",
+      "style": "industrial",
+      "tier": "budget",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/industrial-budget.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a modern concrete loft with tall corner glazing, a retained steel beam and a bright generous volume",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50488281,
+        "y": 0.25056966,
+        "width": 0.49121094,
+        "height": 0.24560547
+      }
+    },
+    {
+      "id": "office-industrial-budget",
+      "room": "office",
+      "style": "industrial",
+      "tier": "budget",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/industrial-budget.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a converted workshop apartment with a sawtooth rooflight, useful brick piers and a clean modern insert",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00927734,
+        "y": 0.50325521,
+        "width": 0.48046875,
+        "height": 0.24023438
+      }
+    },
+    {
+      "id": "dining-industrial-budget",
+      "room": "dining",
+      "style": "industrial",
+      "tier": "budget",
+      "size": "large",
+      "area": 31,
+      "image": "/images/gallery/industrial-budget.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "an adaptive-reuse factory apartment with black steel windows, selective exposed brick and real structural rhythm",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.51025391,
+        "y": 0.50325521,
+        "width": 0.48046875,
+        "height": 0.24023438
+      }
+    },
+    {
+      "id": "workspace-industrial-budget",
+      "room": "workspace",
+      "style": "industrial",
+      "tier": "budget",
+      "size": "small",
+      "area": 8,
+      "image": "/images/gallery/industrial-budget.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a modern concrete loft with tall corner glazing, a retained steel beam and a bright generous volume",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.75089518,
+        "width": 0.49121094,
+        "height": 0.24560547
+      }
+    },
+    {
+      "id": "living-industrial-premium",
+      "room": "living",
+      "style": "industrial",
+      "tier": "premium",
+      "size": "medium",
+      "area": 25,
+      "image": "/images/gallery/industrial-premium.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a converted workshop apartment with a sawtooth rooflight, useful brick piers and a clean modern insert",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bedroom-industrial-premium",
+      "room": "bedroom",
+      "style": "industrial",
+      "tier": "premium",
+      "size": "large",
+      "area": 29,
+      "image": "/images/gallery/industrial-premium.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "an adaptive-reuse factory apartment with black steel windows, selective exposed brick and real structural rhythm",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50813802,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bathroom-industrial-premium",
+      "room": "bathroom",
+      "style": "industrial",
+      "tier": "premium",
+      "size": "small",
+      "area": 4,
+      "image": "/images/gallery/industrial-premium.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a modern concrete loft with tall corner glazing, a retained steel beam and a bright generous volume",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00553385,
+        "y": 0.25325521,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "kitchen-industrial-premium",
+      "room": "kitchen",
+      "style": "industrial",
+      "tier": "premium",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/industrial-premium.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a converted workshop apartment with a sawtooth rooflight, useful brick piers and a clean modern insert",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50748698,
+        "y": 0.25325521,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "office-industrial-premium",
+      "room": "office",
+      "style": "industrial",
+      "tier": "premium",
+      "size": "large",
+      "area": 23,
+      "image": "/images/gallery/industrial-premium.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "an adaptive-reuse factory apartment with black steel windows, selective exposed brick and real structural rhythm",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00683594,
+        "y": 0.50455729,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "dining-industrial-premium",
+      "room": "dining",
+      "style": "industrial",
+      "tier": "premium",
+      "size": "small",
+      "area": 9,
+      "image": "/images/gallery/industrial-premium.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a modern concrete loft with tall corner glazing, a retained steel beam and a bright generous volume",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50878906,
+        "y": 0.50455729,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "workspace-industrial-premium",
+      "room": "workspace",
+      "style": "industrial",
+      "tier": "premium",
+      "size": "medium",
+      "area": 16,
+      "image": "/images/gallery/industrial-premium.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a converted workshop apartment with a sawtooth rooflight, useful brick piers and a clean modern insert",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.75455729,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "living-contemporary-economy",
+      "room": "living",
+      "style": "contemporary",
+      "tier": "economy",
+      "size": "small",
+      "area": 13,
+      "image": "/images/gallery/contemporary-economy.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a striking modern apartment with broad black-framed sliding glass, a sculptural wall and a vivid art focal point",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.01497396,
+        "y": 0.00260417,
+        "width": 0.47005208,
+        "height": 0.23502604
+      }
+    },
+    {
+      "id": "bedroom-contemporary-economy",
+      "room": "bedroom",
+      "style": "contemporary",
+      "tier": "economy",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/contemporary-economy.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a contemporary courtyard apartment with a rooflight, a stepped ceiling and beautifully composed built-in joinery",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.51546224,
+        "y": 0.00260417,
+        "width": 0.47005208,
+        "height": 0.23502604
+      }
+    },
+    {
+      "id": "bathroom-contemporary-economy",
+      "room": "bathroom",
+      "style": "contemporary",
+      "tier": "economy",
+      "size": "large",
+      "area": 13,
+      "image": "/images/gallery/contemporary-economy.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a bright modern tower apartment with a curved reveal, a deep window seat and an expansive city view",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.24414062,
+        "width": 0.4921875,
+        "height": 0.24609375
+      }
+    },
+    {
+      "id": "kitchen-contemporary-economy",
+      "room": "kitchen",
+      "style": "contemporary",
+      "tier": "economy",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/contemporary-economy.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a striking modern apartment with broad black-framed sliding glass, a sculptural wall and a vivid art focal point",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50488281,
+        "y": 0.24438477,
+        "width": 0.49121094,
+        "height": 0.24560547
+      }
+    },
+    {
+      "id": "office-contemporary-economy",
+      "room": "office",
+      "style": "contemporary",
+      "tier": "economy",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/contemporary-economy.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a contemporary courtyard apartment with a rooflight, a stepped ceiling and beautifully composed built-in joinery",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.01627604,
+        "y": 0.49674479,
+        "width": 0.46744792,
+        "height": 0.23372396
+      }
+    },
+    {
+      "id": "dining-contemporary-economy",
+      "room": "dining",
+      "style": "contemporary",
+      "tier": "economy",
+      "size": "large",
+      "area": 31,
+      "image": "/images/gallery/contemporary-economy.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a bright modern tower apartment with a curved reveal, a deep window seat and an expansive city view",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.51676432,
+        "y": 0.49674479,
+        "width": 0.46744792,
+        "height": 0.23372396
+      }
+    },
+    {
+      "id": "workspace-contemporary-economy",
+      "room": "workspace",
+      "style": "contemporary",
+      "tier": "economy",
+      "size": "small",
+      "area": 8,
+      "image": "/images/gallery/contemporary-economy.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a striking modern apartment with broad black-framed sliding glass, a sculptural wall and a vivid art focal point",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.7438151,
+        "width": 0.4921875,
+        "height": 0.24609375
+      }
+    },
+    {
+      "id": "living-contemporary-budget",
+      "room": "living",
+      "style": "contemporary",
+      "tier": "budget",
+      "size": "medium",
+      "area": 25,
+      "image": "/images/gallery/contemporary-budget.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a contemporary courtyard apartment with a rooflight, a stepped ceiling and beautifully composed built-in joinery",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.0094401,
+        "y": 0.00260417,
+        "width": 0.47916667,
+        "height": 0.23958333
+      }
+    },
+    {
+      "id": "bedroom-contemporary-budget",
+      "room": "bedroom",
+      "style": "contemporary",
+      "tier": "budget",
+      "size": "large",
+      "area": 29,
+      "image": "/images/gallery/contemporary-budget.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a bright modern tower apartment with a curved reveal, a deep window seat and an expansive city view",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.51139323,
+        "y": 0.00260417,
+        "width": 0.47916667,
+        "height": 0.23958333
+      }
+    },
+    {
+      "id": "bathroom-contemporary-budget",
+      "room": "bathroom",
+      "style": "contemporary",
+      "tier": "budget",
+      "size": "small",
+      "area": 4,
+      "image": "/images/gallery/contemporary-budget.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a striking modern apartment with broad black-framed sliding glass, a sculptural wall and a vivid art focal point",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.01139323,
+        "y": 0.25,
+        "width": 0.47526042,
+        "height": 0.23763021
+      }
+    },
+    {
+      "id": "kitchen-contemporary-budget",
+      "room": "kitchen",
+      "style": "contemporary",
+      "tier": "budget",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/contemporary-budget.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a contemporary courtyard apartment with a rooflight, a stepped ceiling and beautifully composed built-in joinery",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.51334635,
+        "y": 0.25,
+        "width": 0.47526042,
+        "height": 0.23763021
+      }
+    },
+    {
+      "id": "office-contemporary-budget",
+      "room": "office",
+      "style": "contemporary",
+      "tier": "budget",
+      "size": "large",
+      "area": 23,
+      "image": "/images/gallery/contemporary-budget.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a bright modern tower apartment with a curved reveal, a deep window seat and an expansive city view",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.01464844,
+        "y": 0.49544271,
+        "width": 0.46875,
+        "height": 0.234375
+      }
+    },
+    {
+      "id": "dining-contemporary-budget",
+      "room": "dining",
+      "style": "contemporary",
+      "tier": "budget",
+      "size": "small",
+      "area": 9,
+      "image": "/images/gallery/contemporary-budget.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a striking modern apartment with broad black-framed sliding glass, a sculptural wall and a vivid art focal point",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.51660156,
+        "y": 0.49544271,
+        "width": 0.46875,
+        "height": 0.234375
+      }
+    },
+    {
+      "id": "workspace-contemporary-budget",
+      "room": "workspace",
+      "style": "contemporary",
+      "tier": "budget",
+      "size": "medium",
+      "area": 16,
+      "image": "/images/gallery/contemporary-budget.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a contemporary courtyard apartment with a rooflight, a stepped ceiling and beautifully composed built-in joinery",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.74495443,
+        "width": 0.49023438,
+        "height": 0.24511719
+      }
+    },
+    {
+      "id": "living-contemporary-premium",
+      "room": "living",
+      "style": "contemporary",
+      "tier": "premium",
+      "size": "large",
+      "area": 44,
+      "image": "/images/gallery/contemporary-premium.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a bright modern tower apartment with a curved reveal, a deep window seat and an expansive city view",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.0094401,
+        "y": 0.00260417,
+        "width": 0.47916667,
+        "height": 0.23958333
+      },
+      "detailImage": "/images/gallery/featured-living-contemporary-premium.webp"
+    },
+    {
+      "id": "bedroom-contemporary-premium",
+      "room": "bedroom",
+      "style": "contemporary",
+      "tier": "premium",
+      "size": "small",
+      "area": 10,
+      "image": "/images/gallery/contemporary-premium.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a striking modern apartment with broad black-framed sliding glass, a sculptural wall and a vivid art focal point",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.51139323,
+        "y": 0.00260417,
+        "width": 0.47916667,
+        "height": 0.23958333
+      }
+    },
+    {
+      "id": "bathroom-contemporary-premium",
+      "room": "bathroom",
+      "style": "contemporary",
+      "tier": "premium",
+      "size": "medium",
+      "area": 7,
+      "image": "/images/gallery/contemporary-premium.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a contemporary courtyard apartment with a rooflight, a stepped ceiling and beautifully composed built-in joinery",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00878906,
+        "y": 0.25,
+        "width": 0.48046875,
+        "height": 0.24023438
+      }
+    },
+    {
+      "id": "kitchen-contemporary-premium",
+      "room": "kitchen",
+      "style": "contemporary",
+      "tier": "premium",
+      "size": "large",
+      "area": 25,
+      "image": "/images/gallery/contemporary-premium.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a bright modern tower apartment with a curved reveal, a deep window seat and an expansive city view",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.51074219,
+        "y": 0.25,
+        "width": 0.48046875,
+        "height": 0.24023438
+      }
+    },
+    {
+      "id": "office-contemporary-premium",
+      "room": "office",
+      "style": "contemporary",
+      "tier": "premium",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/contemporary-premium.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a striking modern apartment with broad black-framed sliding glass, a sculptural wall and a vivid art focal point",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.01009115,
+        "y": 0.49804688,
+        "width": 0.47786458,
+        "height": 0.23893229
+      }
+    },
+    {
+      "id": "dining-contemporary-premium",
+      "room": "dining",
+      "style": "contemporary",
+      "tier": "premium",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/contemporary-premium.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a contemporary courtyard apartment with a rooflight, a stepped ceiling and beautifully composed built-in joinery",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.51204427,
+        "y": 0.49804688,
+        "width": 0.47786458,
+        "height": 0.23893229
+      }
+    },
+    {
+      "id": "workspace-contemporary-premium",
+      "room": "workspace",
+      "style": "contemporary",
+      "tier": "premium",
+      "size": "large",
+      "area": 33,
+      "image": "/images/gallery/contemporary-premium.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a bright modern tower apartment with a curved reveal, a deep window seat and an expansive city view",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.74820964,
+        "width": 0.49023438,
+        "height": 0.24511719
+      }
+    },
+    {
+      "id": "living-mediterranean-economy",
+      "room": "living",
+      "style": "mediterranean",
+      "tier": "economy",
+      "size": "medium",
+      "area": 25,
+      "image": "/images/gallery/mediterranean-economy.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a modern southern-European apartment with deep plaster window reveals, blue shutters and warm terracotta",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00553385,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bedroom-mediterranean-economy",
+      "room": "bedroom",
+      "style": "mediterranean",
+      "tier": "economy",
+      "size": "large",
+      "area": 29,
+      "image": "/images/gallery/mediterranean-economy.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a sunny courtyard apartment with a restrained real arch, pale limestone floor and tall timber-framed doors",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50748698,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bathroom-mediterranean-economy",
+      "room": "bathroom",
+      "style": "mediterranean",
+      "tier": "economy",
+      "size": "small",
+      "area": 4,
+      "image": "/images/gallery/mediterranean-economy.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a contemporary coastal apartment with broad terrace glazing, chalky plaster and a warm timber ceiling detail",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00683594,
+        "y": 0.25390625,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "kitchen-mediterranean-economy",
+      "room": "kitchen",
+      "style": "mediterranean",
+      "tier": "economy",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/mediterranean-economy.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a modern southern-European apartment with deep plaster window reveals, blue shutters and warm terracotta",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50878906,
+        "y": 0.25390625,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "office-mediterranean-economy",
+      "room": "office",
+      "style": "mediterranean",
+      "tier": "economy",
+      "size": "large",
+      "area": 23,
+      "image": "/images/gallery/mediterranean-economy.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a sunny courtyard apartment with a restrained real arch, pale limestone floor and tall timber-framed doors",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00683594,
+        "y": 0.50390625,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "dining-mediterranean-economy",
+      "room": "dining",
+      "style": "mediterranean",
+      "tier": "economy",
+      "size": "small",
+      "area": 9,
+      "image": "/images/gallery/mediterranean-economy.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a contemporary coastal apartment with broad terrace glazing, chalky plaster and a warm timber ceiling detail",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50878906,
+        "y": 0.50390625,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "workspace-mediterranean-economy",
+      "room": "workspace",
+      "style": "mediterranean",
+      "tier": "economy",
+      "size": "medium",
+      "area": 16,
+      "image": "/images/gallery/mediterranean-economy.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a modern southern-European apartment with deep plaster window reveals, blue shutters and warm terracotta",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00553385,
+        "y": 0.75390625,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "living-mediterranean-budget",
+      "room": "living",
+      "style": "mediterranean",
+      "tier": "budget",
+      "size": "large",
+      "area": 44,
+      "image": "/images/gallery/mediterranean-budget.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a sunny courtyard apartment with a restrained real arch, pale limestone floor and tall timber-framed doors",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00651042,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bedroom-mediterranean-budget",
+      "room": "bedroom",
+      "style": "mediterranean",
+      "tier": "budget",
+      "size": "small",
+      "area": 10,
+      "image": "/images/gallery/mediterranean-budget.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a contemporary coastal apartment with broad terrace glazing, chalky plaster and a warm timber ceiling detail",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50797526,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bathroom-mediterranean-budget",
+      "room": "bathroom",
+      "style": "mediterranean",
+      "tier": "budget",
+      "size": "medium",
+      "area": 7,
+      "image": "/images/gallery/mediterranean-budget.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a modern southern-European apartment with deep plaster window reveals, blue shutters and warm terracotta",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00651042,
+        "y": 0.25260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "kitchen-mediterranean-budget",
+      "room": "kitchen",
+      "style": "mediterranean",
+      "tier": "budget",
+      "size": "large",
+      "area": 25,
+      "image": "/images/gallery/mediterranean-budget.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a sunny courtyard apartment with a restrained real arch, pale limestone floor and tall timber-framed doors",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50797526,
+        "y": 0.25260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "office-mediterranean-budget",
+      "room": "office",
+      "style": "mediterranean",
+      "tier": "budget",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/mediterranean-budget.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a contemporary coastal apartment with broad terrace glazing, chalky plaster and a warm timber ceiling detail",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00585938,
+        "y": 0.50260417,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "dining-mediterranean-budget",
+      "room": "dining",
+      "style": "mediterranean",
+      "tier": "budget",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/mediterranean-budget.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a modern southern-European apartment with deep plaster window reveals, blue shutters and warm terracotta",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50732422,
+        "y": 0.50260417,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "workspace-mediterranean-budget",
+      "room": "workspace",
+      "style": "mediterranean",
+      "tier": "budget",
+      "size": "large",
+      "area": 33,
+      "image": "/images/gallery/mediterranean-budget.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a sunny courtyard apartment with a restrained real arch, pale limestone floor and tall timber-framed doors",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00585938,
+        "y": 0.75325521,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "living-mediterranean-premium",
+      "room": "living",
+      "style": "mediterranean",
+      "tier": "premium",
+      "size": "small",
+      "area": 13,
+      "image": "/images/gallery/mediterranean-premium.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a contemporary coastal apartment with broad terrace glazing, chalky plaster and a warm timber ceiling detail",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.01660156,
+        "y": 0.00260417,
+        "width": 0.46484375,
+        "height": 0.23242188
+      }
+    },
+    {
+      "id": "bedroom-mediterranean-premium",
+      "room": "bedroom",
+      "style": "mediterranean",
+      "tier": "premium",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/mediterranean-premium.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a modern southern-European apartment with deep plaster window reveals, blue shutters and warm terracotta",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.51855469,
+        "y": 0.00260417,
+        "width": 0.46484375,
+        "height": 0.23242188
+      }
+    },
+    {
+      "id": "bathroom-mediterranean-premium",
+      "room": "bathroom",
+      "style": "mediterranean",
+      "tier": "premium",
+      "size": "large",
+      "area": 13,
+      "image": "/images/gallery/mediterranean-premium.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a sunny courtyard apartment with a restrained real arch, pale limestone floor and tall timber-framed doors",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00488281,
+        "y": 0.2421875,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "kitchen-mediterranean-premium",
+      "room": "kitchen",
+      "style": "mediterranean",
+      "tier": "premium",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/mediterranean-premium.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a contemporary coastal apartment with broad terrace glazing, chalky plaster and a warm timber ceiling detail",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50683594,
+        "y": 0.2421875,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "office-mediterranean-premium",
+      "room": "office",
+      "style": "mediterranean",
+      "tier": "premium",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/mediterranean-premium.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a modern southern-European apartment with deep plaster window reveals, blue shutters and warm terracotta",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00748698,
+        "y": 0.49414062,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "dining-mediterranean-premium",
+      "room": "dining",
+      "style": "mediterranean",
+      "tier": "premium",
+      "size": "large",
+      "area": 31,
+      "image": "/images/gallery/mediterranean-premium.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a sunny courtyard apartment with a restrained real arch, pale limestone floor and tall timber-framed doors",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.5094401,
+        "y": 0.49414062,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "workspace-mediterranean-premium",
+      "room": "workspace",
+      "style": "mediterranean",
+      "tier": "premium",
+      "size": "small",
+      "area": 8,
+      "image": "/images/gallery/mediterranean-premium.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a contemporary coastal apartment with broad terrace glazing, chalky plaster and a warm timber ceiling detail",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.74755859,
+        "width": 0.49023438,
+        "height": 0.24511719
+      }
+    },
+    {
+      "id": "living-bohemian-economy",
+      "room": "living",
+      "style": "bohemian",
+      "tier": "economy",
+      "size": "large",
+      "area": 44,
+      "image": "/images/gallery/bohemian-economy.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a bright urban loft with tall windows, a colorful architectural wall and layered personal art",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.0164388,
+        "y": 0.00260417,
+        "width": 0.46614583,
+        "height": 0.23307292
+      }
+    },
+    {
+      "id": "bedroom-bohemian-economy",
+      "room": "bedroom",
+      "style": "bohemian",
+      "tier": "economy",
+      "size": "small",
+      "area": 10,
+      "image": "/images/gallery/bohemian-economy.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a modern courtyard apartment with an interesting offset window and textured plaster",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.51839193,
+        "y": 0.00260417,
+        "width": 0.46614583,
+        "height": 0.23307292
+      }
+    },
+    {
+      "id": "bathroom-bohemian-economy",
+      "room": "bathroom",
+      "style": "bohemian",
+      "tier": "economy",
+      "size": "medium",
+      "area": 7,
+      "image": "/images/gallery/bohemian-economy.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "an airy converted apartment with a retained arch, clean contemporary storage and vivid textiles",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.02360026,
+        "y": 0.24348958,
+        "width": 0.45182292,
+        "height": 0.22591146
+      }
+    },
+    {
+      "id": "kitchen-bohemian-economy",
+      "room": "kitchen",
+      "style": "bohemian",
+      "tier": "economy",
+      "size": "large",
+      "area": 25,
+      "image": "/images/gallery/bohemian-economy.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a bright urban loft with tall windows, a colorful architectural wall and layered personal art",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.52555339,
+        "y": 0.24348958,
+        "width": 0.45182292,
+        "height": 0.22591146
+      }
+    },
+    {
+      "id": "office-bohemian-economy",
+      "room": "office",
+      "style": "bohemian",
+      "tier": "economy",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/bohemian-economy.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a modern courtyard apartment with an interesting offset window and textured plaster",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00667318,
+        "y": 0.47721354,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "dining-bohemian-economy",
+      "room": "dining",
+      "style": "bohemian",
+      "tier": "economy",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/bohemian-economy.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "an airy converted apartment with a retained arch, clean contemporary storage and vivid textiles",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.5086263,
+        "y": 0.47721354,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "workspace-bohemian-economy",
+      "room": "workspace",
+      "style": "bohemian",
+      "tier": "economy",
+      "size": "large",
+      "area": 33,
+      "image": "/images/gallery/bohemian-economy.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a bright urban loft with tall windows, a colorful architectural wall and layered personal art",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.74015299,
+        "width": 0.49121094,
+        "height": 0.24560547
+      }
+    },
+    {
+      "id": "living-bohemian-budget",
+      "room": "living",
+      "style": "bohemian",
+      "tier": "budget",
+      "size": "small",
+      "area": 13,
+      "image": "/images/gallery/bohemian-budget.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a modern courtyard apartment with an interesting offset window and textured plaster",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bedroom-bohemian-budget",
+      "room": "bedroom",
+      "style": "bohemian",
+      "tier": "budget",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/bohemian-budget.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "an airy converted apartment with a retained arch, clean contemporary storage and vivid textiles",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50813802,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bathroom-bohemian-budget",
+      "room": "bathroom",
+      "style": "bohemian",
+      "tier": "budget",
+      "size": "large",
+      "area": 13,
+      "image": "/images/gallery/bohemian-budget.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a bright urban loft with tall windows, a colorful architectural wall and layered personal art",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00683594,
+        "y": 0.25325521,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "kitchen-bohemian-budget",
+      "room": "kitchen",
+      "style": "bohemian",
+      "tier": "budget",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/bohemian-budget.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a modern courtyard apartment with an interesting offset window and textured plaster",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50878906,
+        "y": 0.25325521,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "office-bohemian-budget",
+      "room": "office",
+      "style": "bohemian",
+      "tier": "budget",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/bohemian-budget.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "an airy converted apartment with a retained arch, clean contemporary storage and vivid textiles",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00683594,
+        "y": 0.50325521,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "dining-bohemian-budget",
+      "room": "dining",
+      "style": "bohemian",
+      "tier": "budget",
+      "size": "large",
+      "area": 31,
+      "image": "/images/gallery/bohemian-budget.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a bright urban loft with tall windows, a colorful architectural wall and layered personal art",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50878906,
+        "y": 0.50325521,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "workspace-bohemian-budget",
+      "room": "workspace",
+      "style": "bohemian",
+      "tier": "budget",
+      "size": "small",
+      "area": 8,
+      "image": "/images/gallery/bohemian-budget.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a modern courtyard apartment with an interesting offset window and textured plaster",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00488281,
+        "y": 0.75325521,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "living-bohemian-premium",
+      "room": "living",
+      "style": "bohemian",
+      "tier": "premium",
+      "size": "medium",
+      "area": 25,
+      "image": "/images/gallery/bohemian-premium.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "an airy converted apartment with a retained arch, clean contemporary storage and vivid textiles",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.02018229,
+        "y": 0.00260417,
+        "width": 0.45963542,
+        "height": 0.22981771
+      }
+    },
+    {
+      "id": "bedroom-bohemian-premium",
+      "room": "bedroom",
+      "style": "bohemian",
+      "tier": "premium",
+      "size": "large",
+      "area": 29,
+      "image": "/images/gallery/bohemian-premium.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a bright urban loft with tall windows, a colorful architectural wall and layered personal art",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.52067057,
+        "y": 0.00260417,
+        "width": 0.45963542,
+        "height": 0.22981771
+      }
+    },
+    {
+      "id": "bathroom-bohemian-premium",
+      "room": "bathroom",
+      "style": "bohemian",
+      "tier": "premium",
+      "size": "small",
+      "area": 4,
+      "image": "/images/gallery/bohemian-premium.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a modern courtyard apartment with an interesting offset window and textured plaster",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.2405599,
+        "width": 0.4921875,
+        "height": 0.24609375
+      }
+    },
+    {
+      "id": "kitchen-bohemian-premium",
+      "room": "kitchen",
+      "style": "bohemian",
+      "tier": "premium",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/bohemian-premium.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "an airy converted apartment with a retained arch, clean contemporary storage and vivid textiles",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50488281,
+        "y": 0.24080404,
+        "width": 0.49121094,
+        "height": 0.24560547
+      }
+    },
+    {
+      "id": "office-bohemian-premium",
+      "room": "office",
+      "style": "bohemian",
+      "tier": "premium",
+      "size": "large",
+      "area": 23,
+      "image": "/images/gallery/bohemian-premium.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a bright urban loft with tall windows, a colorful architectural wall and layered personal art",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.015625,
+        "y": 0.49479167,
+        "width": 0.46875,
+        "height": 0.234375
+      }
+    },
+    {
+      "id": "dining-bohemian-premium",
+      "room": "dining",
+      "style": "bohemian",
+      "tier": "premium",
+      "size": "small",
+      "area": 9,
+      "image": "/images/gallery/bohemian-premium.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a modern courtyard apartment with an interesting offset window and textured plaster",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.51611328,
+        "y": 0.49479167,
+        "width": 0.46875,
+        "height": 0.234375
+      }
+    },
+    {
+      "id": "workspace-bohemian-premium",
+      "room": "workspace",
+      "style": "bohemian",
+      "tier": "premium",
+      "size": "medium",
+      "area": 16,
+      "image": "/images/gallery/bohemian-premium.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "an airy converted apartment with a retained arch, clean contemporary storage and vivid textiles",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.74316406,
+        "width": 0.4921875,
+        "height": 0.24609375
+      }
+    },
+    {
+      "id": "living-art-deco-economy",
+      "room": "living",
+      "style": "art-deco",
+      "tier": "economy",
+      "size": "small",
+      "area": 13,
+      "image": "/images/gallery/art-deco-economy.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a well-proportioned 1930s apartment with a geometric bay window and a clean curved door opening",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.01464844,
+        "y": 0.00260417,
+        "width": 0.46875,
+        "height": 0.234375
+      }
+    },
+    {
+      "id": "bedroom-art-deco-economy",
+      "room": "bedroom",
+      "style": "art-deco",
+      "tier": "economy",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/art-deco-economy.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a contemporary apartment with ribbed-glass partition detail, stepped ceiling geometry and broad daylight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.51660156,
+        "y": 0.00260417,
+        "width": 0.46875,
+        "height": 0.234375
+      }
+    },
+    {
+      "id": "bathroom-art-deco-economy",
+      "room": "bathroom",
+      "style": "art-deco",
+      "tier": "economy",
+      "size": "large",
+      "area": 13,
+      "image": "/images/gallery/art-deco-economy.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a renovated period apartment with a tall slim window, a subtle curved wall and modern integrated joinery",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.01334635,
+        "y": 0.24283854,
+        "width": 0.47135417,
+        "height": 0.23567708
+      }
+    },
+    {
+      "id": "kitchen-art-deco-economy",
+      "room": "kitchen",
+      "style": "art-deco",
+      "tier": "economy",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/art-deco-economy.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a well-proportioned 1930s apartment with a geometric bay window and a clean curved door opening",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.51529948,
+        "y": 0.24283854,
+        "width": 0.47135417,
+        "height": 0.23567708
+      }
+    },
+    {
+      "id": "office-art-deco-economy",
+      "room": "office",
+      "style": "art-deco",
+      "tier": "economy",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/art-deco-economy.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a contemporary apartment with ribbed-glass partition detail, stepped ceiling geometry and broad daylight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.4991862,
+        "width": 0.49023438,
+        "height": 0.24511719
+      }
+    },
+    {
+      "id": "dining-art-deco-economy",
+      "room": "dining",
+      "style": "art-deco",
+      "tier": "economy",
+      "size": "large",
+      "area": 31,
+      "image": "/images/gallery/art-deco-economy.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a renovated period apartment with a tall slim window, a subtle curved wall and modern integrated joinery",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50585938,
+        "y": 0.4991862,
+        "width": 0.49023438,
+        "height": 0.24511719
+      }
+    },
+    {
+      "id": "workspace-art-deco-economy",
+      "room": "workspace",
+      "style": "art-deco",
+      "tier": "economy",
+      "size": "small",
+      "area": 8,
+      "image": "/images/gallery/art-deco-economy.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a well-proportioned 1930s apartment with a geometric bay window and a clean curved door opening",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.01660156,
+        "y": 0.76497396,
+        "width": 0.46484375,
+        "height": 0.23242188
+      }
+    },
+    {
+      "id": "living-art-deco-budget",
+      "room": "living",
+      "style": "art-deco",
+      "tier": "budget",
+      "size": "medium",
+      "area": 25,
+      "image": "/images/gallery/art-deco-budget.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a contemporary apartment with ribbed-glass partition detail, stepped ceiling geometry and broad daylight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.0139974,
+        "y": 0.00260417,
+        "width": 0.47005208,
+        "height": 0.23502604
+      }
+    },
+    {
+      "id": "bedroom-art-deco-budget",
+      "room": "bedroom",
+      "style": "art-deco",
+      "tier": "budget",
+      "size": "large",
+      "area": 29,
+      "image": "/images/gallery/art-deco-budget.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a renovated period apartment with a tall slim window, a subtle curved wall and modern integrated joinery",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.51595052,
+        "y": 0.00260417,
+        "width": 0.47005208,
+        "height": 0.23502604
+      }
+    },
+    {
+      "id": "bathroom-art-deco-budget",
+      "room": "bathroom",
+      "style": "art-deco",
+      "tier": "budget",
+      "size": "small",
+      "area": 4,
+      "image": "/images/gallery/art-deco-budget.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a well-proportioned 1930s apartment with a geometric bay window and a clean curved door opening",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00423177,
+        "y": 0.24348958,
+        "width": 0.48958333,
+        "height": 0.24479167
+      }
+    },
+    {
+      "id": "kitchen-art-deco-budget",
+      "room": "kitchen",
+      "style": "art-deco",
+      "tier": "budget",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/art-deco-budget.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a contemporary apartment with ribbed-glass partition detail, stepped ceiling geometry and broad daylight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.5061849,
+        "y": 0.24348958,
+        "width": 0.48958333,
+        "height": 0.24479167
+      }
+    },
+    {
+      "id": "office-art-deco-budget",
+      "room": "office",
+      "style": "art-deco",
+      "tier": "budget",
+      "size": "large",
+      "area": 23,
+      "image": "/images/gallery/art-deco-budget.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a renovated period apartment with a tall slim window, a subtle curved wall and modern integrated joinery",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.01074219,
+        "y": 0.49414062,
+        "width": 0.4765625,
+        "height": 0.23828125
+      }
+    },
+    {
+      "id": "dining-art-deco-budget",
+      "room": "dining",
+      "style": "art-deco",
+      "tier": "budget",
+      "size": "small",
+      "area": 9,
+      "image": "/images/gallery/art-deco-budget.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a well-proportioned 1930s apartment with a geometric bay window and a clean curved door opening",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.51269531,
+        "y": 0.49414062,
+        "width": 0.4765625,
+        "height": 0.23828125
+      }
+    },
+    {
+      "id": "workspace-art-deco-budget",
+      "room": "workspace",
+      "style": "art-deco",
+      "tier": "budget",
+      "size": "medium",
+      "area": 16,
+      "image": "/images/gallery/art-deco-budget.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a contemporary apartment with ribbed-glass partition detail, stepped ceiling geometry and broad daylight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.74527995,
+        "width": 0.49023438,
+        "height": 0.24511719
+      }
+    },
+    {
+      "id": "living-art-deco-premium",
+      "room": "living",
+      "style": "art-deco",
+      "tier": "premium",
+      "size": "large",
+      "area": 44,
+      "image": "/images/gallery/art-deco-premium.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a renovated period apartment with a tall slim window, a subtle curved wall and modern integrated joinery",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00488281,
+        "y": 0.00260417,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "bedroom-art-deco-premium",
+      "room": "bedroom",
+      "style": "art-deco",
+      "tier": "premium",
+      "size": "small",
+      "area": 10,
+      "image": "/images/gallery/art-deco-premium.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a well-proportioned 1930s apartment with a geometric bay window and a clean curved door opening",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50683594,
+        "y": 0.00260417,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "bathroom-art-deco-premium",
+      "room": "bathroom",
+      "style": "art-deco",
+      "tier": "premium",
+      "size": "medium",
+      "area": 7,
+      "image": "/images/gallery/art-deco-premium.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a contemporary apartment with ribbed-glass partition detail, stepped ceiling geometry and broad daylight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00748698,
+        "y": 0.25455729,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "kitchen-art-deco-premium",
+      "room": "kitchen",
+      "style": "art-deco",
+      "tier": "premium",
+      "size": "large",
+      "area": 25,
+      "image": "/images/gallery/art-deco-premium.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a renovated period apartment with a tall slim window, a subtle curved wall and modern integrated joinery",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.5094401,
+        "y": 0.25455729,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "office-art-deco-premium",
+      "room": "office",
+      "style": "art-deco",
+      "tier": "premium",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/art-deco-premium.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a well-proportioned 1930s apartment with a geometric bay window and a clean curved door opening",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00683594,
+        "y": 0.50390625,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "dining-art-deco-premium",
+      "room": "dining",
+      "style": "art-deco",
+      "tier": "premium",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/art-deco-premium.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a contemporary apartment with ribbed-glass partition detail, stepped ceiling geometry and broad daylight",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50878906,
+        "y": 0.50390625,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "workspace-art-deco-premium",
+      "room": "workspace",
+      "style": "art-deco",
+      "tier": "premium",
+      "size": "large",
+      "area": 33,
+      "image": "/images/gallery/art-deco-premium.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a renovated period apartment with a tall slim window, a subtle curved wall and modern integrated joinery",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00553385,
+        "y": 0.75390625,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "living-modern-classic-economy",
+      "room": "living",
+      "style": "modern-classic",
+      "tier": "economy",
+      "size": "medium",
+      "area": 25,
+      "image": "/images/gallery/modern-classic-economy.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "an airy period apartment with excellent window proportions, restrained cornice and a contemporary glass opening",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.01057943,
+        "y": 0.00260417,
+        "width": 0.47786458,
+        "height": 0.23893229
+      }
+    },
+    {
+      "id": "bedroom-modern-classic-economy",
+      "room": "bedroom",
+      "style": "modern-classic",
+      "tier": "economy",
+      "size": "large",
+      "area": 29,
+      "image": "/images/gallery/modern-classic-economy.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a modern apartment with subtle wall panels, a tall corner window and a clean elegant ceiling",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.51204427,
+        "y": 0.00260417,
+        "width": 0.47786458,
+        "height": 0.23893229
+      }
+    },
+    {
+      "id": "bathroom-modern-classic-economy",
+      "room": "bathroom",
+      "style": "modern-classic",
+      "tier": "economy",
+      "size": "small",
+      "area": 4,
+      "image": "/images/gallery/modern-classic-economy.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a renovated classic apartment with refined door casing, a broad bay window and a modern built-in storage wall",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00537109,
+        "y": 0.24869792,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "kitchen-modern-classic-economy",
+      "room": "kitchen",
+      "style": "modern-classic",
+      "tier": "economy",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/modern-classic-economy.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "an airy period apartment with excellent window proportions, restrained cornice and a contemporary glass opening",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50683594,
+        "y": 0.24869792,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "office-modern-classic-economy",
+      "room": "office",
+      "style": "modern-classic",
+      "tier": "economy",
+      "size": "large",
+      "area": 23,
+      "image": "/images/gallery/modern-classic-economy.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a modern apartment with subtle wall panels, a tall corner window and a clean elegant ceiling",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.01578776,
+        "y": 0.5,
+        "width": 0.46744792,
+        "height": 0.23372396
+      }
+    },
+    {
+      "id": "dining-modern-classic-economy",
+      "room": "dining",
+      "style": "modern-classic",
+      "tier": "economy",
+      "size": "small",
+      "area": 9,
+      "image": "/images/gallery/modern-classic-economy.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a renovated classic apartment with refined door casing, a broad bay window and a modern built-in storage wall",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.5172526,
+        "y": 0.5,
+        "width": 0.46744792,
+        "height": 0.23372396
+      }
+    },
+    {
+      "id": "workspace-modern-classic-economy",
+      "room": "workspace",
+      "style": "modern-classic",
+      "tier": "economy",
+      "size": "medium",
+      "area": 16,
+      "image": "/images/gallery/modern-classic-economy.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "an airy period apartment with excellent window proportions, restrained cornice and a contemporary glass opening",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.74633789,
+        "width": 0.49121094,
+        "height": 0.24560547
+      }
+    },
+    {
+      "id": "living-modern-classic-budget",
+      "room": "living",
+      "style": "modern-classic",
+      "tier": "budget",
+      "size": "large",
+      "area": 44,
+      "image": "/images/gallery/modern-classic-budget.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a modern apartment with subtle wall panels, a tall corner window and a clean elegant ceiling",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bedroom-modern-classic-budget",
+      "room": "bedroom",
+      "style": "modern-classic",
+      "tier": "budget",
+      "size": "small",
+      "area": 10,
+      "image": "/images/gallery/modern-classic-budget.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a renovated classic apartment with refined door casing, a broad bay window and a modern built-in storage wall",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50813802,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bathroom-modern-classic-budget",
+      "room": "bathroom",
+      "style": "modern-classic",
+      "tier": "budget",
+      "size": "medium",
+      "area": 7,
+      "image": "/images/gallery/modern-classic-budget.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "an airy period apartment with excellent window proportions, restrained cornice and a contemporary glass opening",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.25260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "kitchen-modern-classic-budget",
+      "room": "kitchen",
+      "style": "modern-classic",
+      "tier": "budget",
+      "size": "large",
+      "area": 25,
+      "image": "/images/gallery/modern-classic-budget.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a modern apartment with subtle wall panels, a tall corner window and a clean elegant ceiling",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50813802,
+        "y": 0.25260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "office-modern-classic-budget",
+      "room": "office",
+      "style": "modern-classic",
+      "tier": "budget",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/modern-classic-budget.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a renovated classic apartment with refined door casing, a broad bay window and a modern built-in storage wall",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.50260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "dining-modern-classic-budget",
+      "room": "dining",
+      "style": "modern-classic",
+      "tier": "budget",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/modern-classic-budget.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "an airy period apartment with excellent window proportions, restrained cornice and a contemporary glass opening",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50813802,
+        "y": 0.50260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "workspace-modern-classic-budget",
+      "room": "workspace",
+      "style": "modern-classic",
+      "tier": "budget",
+      "size": "large",
+      "area": 33,
+      "image": "/images/gallery/modern-classic-budget.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a modern apartment with subtle wall panels, a tall corner window and a clean elegant ceiling",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00488281,
+        "y": 0.75325521,
+        "width": 0.48828125,
+        "height": 0.24414062
+      }
+    },
+    {
+      "id": "living-modern-classic-premium",
+      "room": "living",
+      "style": "modern-classic",
+      "tier": "premium",
+      "size": "small",
+      "area": 13,
+      "image": "/images/gallery/modern-classic-premium.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a renovated classic apartment with refined door casing, a broad bay window and a modern built-in storage wall",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00553385,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bedroom-modern-classic-premium",
+      "room": "bedroom",
+      "style": "modern-classic",
+      "tier": "premium",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/modern-classic-premium.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "an airy period apartment with excellent window proportions, restrained cornice and a contemporary glass opening",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50748698,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bathroom-modern-classic-premium",
+      "room": "bathroom",
+      "style": "modern-classic",
+      "tier": "premium",
+      "size": "large",
+      "area": 13,
+      "image": "/images/gallery/modern-classic-premium.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a modern apartment with subtle wall panels, a tall corner window and a clean elegant ceiling",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00683594,
+        "y": 0.25390625,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "kitchen-modern-classic-premium",
+      "room": "kitchen",
+      "style": "modern-classic",
+      "tier": "premium",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/modern-classic-premium.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a renovated classic apartment with refined door casing, a broad bay window and a modern built-in storage wall",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50878906,
+        "y": 0.25390625,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "office-modern-classic-premium",
+      "room": "office",
+      "style": "modern-classic",
+      "tier": "premium",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/modern-classic-premium.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "an airy period apartment with excellent window proportions, restrained cornice and a contemporary glass opening",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00683594,
+        "y": 0.50390625,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "dining-modern-classic-premium",
+      "room": "dining",
+      "style": "modern-classic",
+      "tier": "premium",
+      "size": "large",
+      "area": 31,
+      "image": "/images/gallery/modern-classic-premium.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a modern apartment with subtle wall panels, a tall corner window and a clean elegant ceiling",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50878906,
+        "y": 0.50390625,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "workspace-modern-classic-premium",
+      "room": "workspace",
+      "style": "modern-classic",
+      "tier": "premium",
+      "size": "small",
+      "area": 8,
+      "image": "/images/gallery/modern-classic-premium.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a renovated classic apartment with refined door casing, a broad bay window and a modern built-in storage wall",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00553385,
+        "y": 0.75390625,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "living-wabi-sabi-economy",
+      "room": "living",
+      "style": "wabi-sabi",
+      "tier": "economy",
+      "size": "large",
+      "area": 44,
+      "image": "/images/gallery/wabi-sabi-economy.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a contemporary apartment with deep plaster window reveals, tactile walls and a simple timber opening",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.01432292,
+        "y": 0.00260417,
+        "width": 0.47135417,
+        "height": 0.23567708
+      }
+    },
+    {
+      "id": "bedroom-wabi-sabi-economy",
+      "room": "bedroom",
+      "style": "wabi-sabi",
+      "tier": "economy",
+      "size": "small",
+      "area": 10,
+      "image": "/images/gallery/wabi-sabi-economy.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a quiet courtyard apartment with a broad rooflight, sculptural plaster volumes and genuine directional light",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.5148112,
+        "y": 0.00260417,
+        "width": 0.47135417,
+        "height": 0.23567708
+      }
+    },
+    {
+      "id": "bathroom-wabi-sabi-economy",
+      "room": "bathroom",
+      "style": "wabi-sabi",
+      "tier": "economy",
+      "size": "medium",
+      "area": 7,
+      "image": "/images/gallery/wabi-sabi-economy.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a modern apartment with an offset picture window, pale stone floor and a powerful simple timber wall",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.24576823,
+        "width": 0.4921875,
+        "height": 0.24609375
+      }
+    },
+    {
+      "id": "kitchen-wabi-sabi-economy",
+      "room": "kitchen",
+      "style": "wabi-sabi",
+      "tier": "economy",
+      "size": "large",
+      "area": 25,
+      "image": "/images/gallery/wabi-sabi-economy.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a contemporary apartment with deep plaster window reveals, tactile walls and a simple timber opening",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50488281,
+        "y": 0.24601237,
+        "width": 0.49121094,
+        "height": 0.24560547
+      }
+    },
+    {
+      "id": "office-wabi-sabi-economy",
+      "room": "office",
+      "style": "wabi-sabi",
+      "tier": "economy",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/wabi-sabi-economy.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a quiet courtyard apartment with a broad rooflight, sculptural plaster volumes and genuine directional light",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00651042,
+        "y": 0.49869792,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "dining-wabi-sabi-economy",
+      "room": "dining",
+      "style": "wabi-sabi",
+      "tier": "economy",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/wabi-sabi-economy.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a modern apartment with an offset picture window, pale stone floor and a powerful simple timber wall",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.5069987,
+        "y": 0.49869792,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "workspace-wabi-sabi-economy",
+      "room": "workspace",
+      "style": "wabi-sabi",
+      "tier": "economy",
+      "size": "large",
+      "area": 33,
+      "image": "/images/gallery/wabi-sabi-economy.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a contemporary apartment with deep plaster window reveals, tactile walls and a simple timber opening",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00390625,
+        "y": 0.74967448,
+        "width": 0.4921875,
+        "height": 0.24609375
+      }
+    },
+    {
+      "id": "living-wabi-sabi-budget",
+      "room": "living",
+      "style": "wabi-sabi",
+      "tier": "budget",
+      "size": "small",
+      "area": 13,
+      "image": "/images/gallery/wabi-sabi-budget.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a quiet courtyard apartment with a broad rooflight, sculptural plaster volumes and genuine directional light",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00553385,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bedroom-wabi-sabi-budget",
+      "room": "bedroom",
+      "style": "wabi-sabi",
+      "tier": "budget",
+      "size": "medium",
+      "area": 17,
+      "image": "/images/gallery/wabi-sabi-budget.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a modern apartment with an offset picture window, pale stone floor and a powerful simple timber wall",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50748698,
+        "y": 0.00260417,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "bathroom-wabi-sabi-budget",
+      "room": "bathroom",
+      "style": "wabi-sabi",
+      "tier": "budget",
+      "size": "large",
+      "area": 13,
+      "image": "/images/gallery/wabi-sabi-budget.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a contemporary apartment with deep plaster window reveals, tactile walls and a simple timber opening",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00748698,
+        "y": 0.25390625,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "kitchen-wabi-sabi-budget",
+      "room": "kitchen",
+      "style": "wabi-sabi",
+      "tier": "budget",
+      "size": "small",
+      "area": 7,
+      "image": "/images/gallery/wabi-sabi-budget.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a quiet courtyard apartment with a broad rooflight, sculptural plaster volumes and genuine directional light",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.5094401,
+        "y": 0.25390625,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "office-wabi-sabi-budget",
+      "room": "office",
+      "style": "wabi-sabi",
+      "tier": "budget",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/wabi-sabi-budget.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a modern apartment with an offset picture window, pale stone floor and a powerful simple timber wall",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.00748698,
+        "y": 0.50325521,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "dining-wabi-sabi-budget",
+      "room": "dining",
+      "style": "wabi-sabi",
+      "tier": "budget",
+      "size": "large",
+      "area": 31,
+      "image": "/images/gallery/wabi-sabi-budget.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a contemporary apartment with deep plaster window reveals, tactile walls and a simple timber opening",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.5094401,
+        "y": 0.50325521,
+        "width": 0.48307292,
+        "height": 0.24153646
+      }
+    },
+    {
+      "id": "workspace-wabi-sabi-budget",
+      "room": "workspace",
+      "style": "wabi-sabi",
+      "tier": "budget",
+      "size": "small",
+      "area": 8,
+      "image": "/images/gallery/wabi-sabi-budget.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a quiet courtyard apartment with a broad rooflight, sculptural plaster volumes and genuine directional light",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00423177,
+        "y": 0.75260417,
+        "width": 0.48958333,
+        "height": 0.24479167
+      }
+    },
+    {
+      "id": "living-wabi-sabi-premium",
+      "room": "living",
+      "style": "wabi-sabi",
+      "tier": "premium",
+      "size": "medium",
+      "area": 25,
+      "image": "/images/gallery/wabi-sabi-premium.webp",
+      "tile": 0,
+      "architecture": {
+        "en": "a modern apartment with an offset picture window, pale stone floor and a powerful simple timber wall",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bedroom-wabi-sabi-premium",
+      "room": "bedroom",
+      "style": "wabi-sabi",
+      "tier": "premium",
+      "size": "large",
+      "area": 29,
+      "image": "/images/gallery/wabi-sabi-premium.webp",
+      "tile": 1,
+      "architecture": {
+        "en": "a contemporary apartment with deep plaster window reveals, tactile walls and a simple timber opening",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.50813802,
+        "y": 0.00260417,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    },
+    {
+      "id": "bathroom-wabi-sabi-premium",
+      "room": "bathroom",
+      "style": "wabi-sabi",
+      "tier": "premium",
+      "size": "small",
+      "area": 4,
+      "image": "/images/gallery/wabi-sabi-premium.webp",
+      "tile": 2,
+      "architecture": {
+        "en": "a quiet courtyard apartment with a broad rooflight, sculptural plaster volumes and genuine directional light",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.00683594,
+        "y": 0.25325521,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "kitchen-wabi-sabi-premium",
+      "room": "kitchen",
+      "style": "wabi-sabi",
+      "tier": "premium",
+      "size": "medium",
+      "area": 13,
+      "image": "/images/gallery/wabi-sabi-premium.webp",
+      "tile": 3,
+      "architecture": {
+        "en": "a modern apartment with an offset picture window, pale stone floor and a powerful simple timber wall",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.50878906,
+        "y": 0.25325521,
+        "width": 0.484375,
+        "height": 0.2421875
+      }
+    },
+    {
+      "id": "office-wabi-sabi-premium",
+      "room": "office",
+      "style": "wabi-sabi",
+      "tier": "premium",
+      "size": "large",
+      "area": 23,
+      "image": "/images/gallery/wabi-sabi-premium.webp",
+      "tile": 4,
+      "architecture": {
+        "en": "a contemporary apartment with deep plaster window reveals, tactile walls and a simple timber opening",
+        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+      },
+      "crop": {
+        "x": 0.00553385,
+        "y": 0.50325521,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "dining-wabi-sabi-premium",
+      "room": "dining",
+      "style": "wabi-sabi",
+      "tier": "premium",
+      "size": "small",
+      "area": 9,
+      "image": "/images/gallery/wabi-sabi-premium.webp",
+      "tile": 5,
+      "architecture": {
+        "en": "a quiet courtyard apartment with a broad rooflight, sculptural plaster volumes and genuine directional light",
+        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+      },
+      "crop": {
+        "x": 0.50748698,
+        "y": 0.50325521,
+        "width": 0.48697917,
+        "height": 0.24348958
+      }
+    },
+    {
+      "id": "workspace-wabi-sabi-premium",
+      "room": "workspace",
+      "style": "wabi-sabi",
+      "tier": "premium",
+      "size": "medium",
+      "area": 16,
+      "image": "/images/gallery/wabi-sabi-premium.webp",
+      "tile": 6,
+      "architecture": {
+        "en": "a modern apartment with an offset picture window, pale stone floor and a powerful simple timber wall",
+        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+      },
+      "crop": {
+        "x": 0.0061849,
+        "y": 0.75455729,
+        "width": 0.48567708,
+        "height": 0.24283854
+      }
+    }
+  ]
+}
