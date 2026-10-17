@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "maxSlopedScenes": 3,
+  "minSceneWidth": 400,
+  "minSceneHeight": 300,
+  "highEdgeDensity": 0.24,
+  "lowQuietFraction": 0.18,
+  "similarityDistance": 10,
+  "requiredChecks": [
+    "credibleGeometry",
+    "restrainedStyling",
+    "usableLayout",
+    "naturalLightAndMaterials",
+    "styleIdentity"
+  ],
+  "reviewCriteria": [
+    "One clear focal point and a substantial quiet wall, floor or usable surface.",
+    "No competing decorative clusters, prop-filled shelves, layered rugs or repeated miniature objects. Keep functional tools organized.",
+    "Level ceilings, vertical walls and straight rectangular openings by default. Record every sloped ceiling, rooflight well or angled wall as a sloped exception; at most three across concepts AND original references.",
+    "Plausible supports, glazing, reflections, material junctions, furniture scale and circulation.",
+    "Natural exposure, believable fabric and material texture, no plastic sheen or artificial HDR glow.",
+    "Retain style identity through material, color and furniture rather than accumulating decoration.",
+    "Compare similar-image flags side by side. Reject repeated compositions with merely substituted colors or props."
+  ]
+}

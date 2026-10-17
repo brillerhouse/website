@@ -8,7 +8,9 @@ const read = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 const catalogue = read('content/gallery-catalogue.json');
 const edition = read('content/gallery-variants.json');
 const originals = read('content/gallery.json');
-const review = read('content/gallery-geometry-review.json');
+const review = read('content/gallery-quality-changes.json');
+const historicalReview = read('content/gallery-geometry-review.json');
+const approvals = read('content/gallery-quality-review.json');
 const { outputText } = ts.transpileModule(fs.readFileSync('lib/gallery.ts', 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020 } });
 const scope = { exports: {}, require: id => {
   if (id === '@/content/gallery-catalogue.json') return { default: catalogue };
@@ -59,7 +61,8 @@ test('every variant has a unique bilingual prompt matching its specification and
 });
 test('original and selectively corrected image sets provide 252 valid, individually framed scenes', () => {
   const assets = new Set(galleryConcepts.map(item => item.image));
-  assert.equal(assets.size, 36 + review.batches.length);
+  const declared = new Set([...Object.keys(review.sourceAssets).map(file => file.slice('public'.length)), ...review.batches.map(batch => `/images/gallery/${batch.id}.webp`)]);
+  for (const asset of assets) assert.ok(declared.has(asset), `Undocumented image set: ${asset}`);
   for (const image of assets) {
     const data = fs.readFileSync('public' + image);
     assert.equal(data.toString('ascii', 0, 4), 'RIFF', image);
@@ -76,16 +79,23 @@ test('original and selectively corrected image sets provide 252 valid, individua
     }
   }
 });
-test('geometry review replaces only the 43 flagged scenes and preserves the remaining 209 renders', () => {
+test('current quality review records changed images, preserves selected renders and binds every approval to current pixels', () => {
   const sha = data => createHash('sha256').update(data).digest('hex');
   const renderedHash = item => {
     const image = item.detailImage || item.image;
-    const crop = item.detailImage ? null : item.crop;
+    const crop = item.detailImage || !item.crop ? null : item.crop;
     return sha(Buffer.concat([fs.readFileSync('public' + image), Buffer.from('\n' + JSON.stringify(crop))]));
   };
-  assert.equal(review.reviewedCount, 252);
-  assert.equal(review.replacements.length, 43);
-  assert.equal(review.preserved.length, 209);
+  assert.equal(review.reviewedCount, 258);
+  assert.equal(review.replacements.length, 162);
+  assert.equal(review.preserved.length, 90);
+  assert.equal(approvals.reviews.length, 258);
+  for (const item of [...galleryConcepts, ...galleryReferences.map(item => ({ ...item, id: `reference:${item.id}` }))]) {
+    const approval = approvals.reviews.find(review => review.id === item.id);
+    assert.ok(approval, `Missing visual review: ${item.id}`);
+    assert.equal(approval.renderSha256, renderedHash(item), `Stale visual review: ${item.id}`);
+    assert.equal(approval.decision, 'approved', item.id);
+  }
   assert.equal(new Set([...review.replacements, ...review.preserved].map(item => item.id)).size, 252);
   for (const item of review.preserved) {
     const current = galleryConcepts.find(candidate => candidate.id === item.id);
@@ -94,9 +104,11 @@ test('geometry review replaces only the 43 flagged scenes and preserves the rema
   }
   for (const item of review.replacements) {
     assert.ok(item.reason && item.fix, item.id);
-    assert.notEqual(renderedHash(galleryConcepts.find(candidate => candidate.id === item.id)), item.previousRenderSha256, item.id);
+    const digest = renderedHash(galleryConcepts.find(candidate => candidate.id === item.id));
+    assert.notEqual(digest, item.previousRenderSha256, item.id);
+    assert.equal(digest, item.renderSha256, item.id);
   }
-  for (const [file, digest] of Object.entries(review.sourceAssets)) assert.equal(sha(fs.readFileSync(file)), digest, file);
+  for (const [file, digest] of Object.entries({ ...historicalReview.sourceAssets, ...review.sourceAssets, ...review.referenceAssets })) assert.equal(sha(fs.readFileSync(file)), digest, file);
   for (const batch of review.batches) {
     const items = galleryConcepts.filter(item => item.image === `/images/gallery/${batch.id}.webp`);
     assert.deepEqual(Array.from(items.map(item => item.id)).sort(), [...batch.items].sort());

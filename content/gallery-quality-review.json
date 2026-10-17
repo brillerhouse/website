@@ -1,0 +1,4208 @@
+{
+  "version": 1,
+  "policySha256": "33a4991563101d18f5ca98fe078c0b4be155e984369d79d5fb8f07f6c220ae7e",
+  "reviewedAt": "2026-10-17",
+  "reviewMethod": "Codex visual inspection of all 252 current rendered scenes and all six original references, with per-image activity and similarity triage. No automatic aesthetic approval.",
+  "reviews": [
+    {
+      "id": "living-minimalism-economy",
+      "renderSha256": "b3b339e587f5381bb4f2e47ad30a6249b0af07a8069b96ff3533992cb9753ea9",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The principal seating group is readable against the window and material planes; furniture, art and the view provide the interest. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-minimalism-economy",
+      "renderSha256": "a1298ede2bf7671c643f8a9ee4c9f0396e290b439716dd8551f956caa6ba0883",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-minimalism-economy",
+      "renderSha256": "4326211458ec9d631f3b9aa742c8e5bf78dc3b4e18be74fc2977fd0cbe5c7f86",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "kitchen-minimalism-economy",
+      "renderSha256": "f815e8e44c10a8674fe6afc00a3bcafc53c04763da40ba2263d6169f914c8a58",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The cabinetry and worktop remain the main composition; sink, hob and normal wall windows read as a practical kitchen. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-minimalism-economy",
+      "renderSha256": "084d2e9a062bfd5cd38bc75408a985009e37248afbb2ecf58cb9fce104ffdc85",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-minimalism-economy",
+      "renderSha256": "c1efce9153a54a9a88c8a87ab3843ac8b7f43a9f7c2909e45e16c483aecdbf99",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "workspace-minimalism-economy",
+      "renderSha256": "f7a521e456cdb2ec9b9a1d81dc3721fdaa712d9dfd0b528fb4842d38554dcdbc",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-minimalism-budget",
+      "renderSha256": "70460138e2436a71532ec21c842c4d2a6caf980e0361a77fe4bc3edf7d9ebc40",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The principal seating group is readable against the window and material planes; furniture, art and the view provide the interest. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The measured activity comes mainly from the exterior view, rug and upholstery texture. The sofa remains a broad quiet area, and the seating/circulation are readable without a competing prop display."
+    },
+    {
+      "id": "bedroom-minimalism-budget",
+      "renderSha256": "3fbcb7cc749bdd1d6892aade4c976d67472bea8caf7d41071c2e0821b44515fb",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-minimalism-budget",
+      "renderSha256": "4d5cf49723d243254db535442801623b277faa81e660833a5b5d87d39af4f0d1",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "kitchen-minimalism-budget",
+      "renderSha256": "7a6fd12d53fd6471529edf3a28999e05a852a57fc0de642b4d472660ea6eda08",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The cabinetry and worktop remain the main composition; sink, hob and normal wall windows read as a practical kitchen. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-minimalism-budget",
+      "renderSha256": "08a2f00f0e240420bd2d7f2791b2c0da02aac652ed42e67fcbf75dcfceef92e6",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-minimalism-budget",
+      "renderSha256": "a2317fc7ed9402bcd2c41f1381110ca206d0f8d572b921fb01a92bc5ec3014a8",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "workspace-minimalism-budget",
+      "renderSha256": "74e67ffeba133b4d330f74f6682648551481d5b9b8f7838b429fb257ec43e4cf",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-minimalism-premium",
+      "renderSha256": "283108cb0e8548de6ca9da42b0afdc8e5beb1c7a9beadf99961e4dd0a46bd17a",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-minimalism-premium",
+      "renderSha256": "393615451a87beba968c6af1a7b3e2227db0e6d10291aa191f12b667d57cfd4f",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-minimalism-premium",
+      "renderSha256": "97bcad114168b37d2c9ba9b95017b8e1a5f034a772c3bc62d79586ba67067286",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-minimalism-premium",
+      "renderSha256": "3de223ee4e779aafb95bb9a61866470d47875e2e225d7f977dbf13c305459ab6",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-minimalism-premium",
+      "renderSha256": "4283f5884c05dd01c70886df57b4e460b2d2ebe75d6f4f81e042c0380845bca8",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-minimalism-premium",
+      "renderSha256": "de2cabf733f4013294c0bd57e1e96b0ff4b9259162cfdd6805f274e6ac3733e2",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-minimalism-premium",
+      "renderSha256": "9253ff507edfefafa99d03390b317932b7b8e4951aa05109c5da8543597ff8b9",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Simple planes and restrained deep-color accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-japandi-economy",
+      "renderSha256": "b72d5eac7416d9c41d1e5b03fcf3ddd0aa7839c86d69dfd836d1c0349e6d0439",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The principal seating group is readable against the window and material planes; furniture, art and the view provide the interest. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": [
+        "high-detail-density",
+        "little-quiet-space"
+      ],
+      "triageNote": "The measured activity comes mainly from the exterior view, rug and upholstery texture. The sofa remains a broad quiet area, and the seating/circulation are readable without a competing prop display."
+    },
+    {
+      "id": "bedroom-japandi-economy",
+      "renderSha256": "54caf67c9f3b9d6b7a56c85e8c2fb30d364ef0b3b34c6fdb5ed6caae3e16f122",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-japandi-economy",
+      "renderSha256": "6696585b549a830e0929899702c74e1fd6f287b053c8578bdc0a33ce6b9155df",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "kitchen-japandi-economy",
+      "renderSha256": "81563389b1f3c17f9fdcd2b52286062889f9c95a88f95d52c43341195c983268",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The cabinetry and worktop remain the main composition; sink, hob and normal wall windows read as a practical kitchen. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Cabinet joints, floor texture, glazing and everyday kitchen equipment drive the activity measurement. The cabinetry remains coherent and the preparation zone stays usable."
+    },
+    {
+      "id": "office-japandi-economy",
+      "renderSha256": "ba4794f42406d1c6b102fc1465c2eb7329a086e6e4ce9552c4835a21d9c3bd06",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-japandi-economy",
+      "renderSha256": "2ce21fb6a4bc32532437fbebf28d0a0dc4c2589ef51bdf9030abe4497a1f6877",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "workspace-japandi-economy",
+      "renderSha256": "bf15305a65c0aa7f3403ed1438b6d3d749cca1a0c465feddbb57483c76b3300c",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-japandi-budget",
+      "renderSha256": "767c9a53dfd4db53ad6bb7993a925017aa554199c897a64109ed92da296ba7b7",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-japandi-budget",
+      "renderSha256": "f876313c5751129cb160a74aac2e42a5b8ae0568fe4baa90ebaf2523c1653128",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-japandi-budget",
+      "renderSha256": "bf37683744c9de486702347f9aa255465d126c9f501d0f5cd9925a8232d0bd97",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-japandi-budget",
+      "renderSha256": "09d5a6488305b14a86ac10899fd268db82b940e3ab62511f043e0a205b6c1f7a",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-japandi-budget",
+      "renderSha256": "d02a411299035d9a234a578cf6bb654cce261c94443e5c111c3ee542d7727d53",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag is localized to window detail, floor texture and storage joints. The desk has usable clear working space and a single practical task setup."
+    },
+    {
+      "id": "dining-japandi-budget",
+      "renderSha256": "f0e46afac9c53a913b3775328e2884176718d0c3dd436cde8d7d7d7acf618cc2",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-japandi-budget",
+      "renderSha256": "33fa243dbfe475a84aa045b64b1ff5eb0a0bc6364c531d9b49168367e28050f8",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-japandi-premium",
+      "renderSha256": "73b6ea1473b532381848c054c2735434f1effb48399714e9aee325a60db985f0",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-japandi-premium",
+      "renderSha256": "5b150b1a0dbce671aa251b4343fa9a23bda4f4261c512b9553037c9d98ba6e4e",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-japandi-premium",
+      "renderSha256": "e970403ac1c8c2355ceb30e39d1ea3f56d97b1b8979f296fbb482a7f90d8c98d",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-japandi-premium",
+      "renderSha256": "6966b7ffdabc5133935bcb473ad8c873a5583d8638997711afb9f9371dc7d5e1",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Cabinet joints, floor texture, glazing and everyday kitchen equipment drive the activity measurement. The cabinetry remains coherent and the preparation zone stays usable."
+    },
+    {
+      "id": "office-japandi-premium",
+      "renderSha256": "17447820e424c88498f791224dd5ec91a81b1684e97e5f25e902b17015f9a995",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-japandi-premium",
+      "renderSha256": "6847515d8b513f9e16695e99bd214542d5783fd0977269dbb24bac1341a14051",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-japandi-premium",
+      "renderSha256": "14bea17a079c9cc456e80d722c8893aa1f3e5820bcc38704b850558a2fb2d2cd",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Light timber, quiet natural textiles and ink-toned accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-natural-economy",
+      "renderSha256": "fff3d0bdd52ee5ecacabc60b0daa234663a010cef28c6b743b6021ba4817865e",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The measured activity comes mainly from the exterior view, rug and upholstery texture. The sofa remains a broad quiet area, and the seating/circulation are readable without a competing prop display."
+    },
+    {
+      "id": "bedroom-natural-economy",
+      "renderSha256": "b439ed26088b7c54ad35c6ccea974bb5918da3460db80cb8caf4b5c4e869c68d",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-natural-economy",
+      "renderSha256": "fb1b823d08ab108965ddc73c38e0f3d1d5afb7ef9b03f29b5eba9e585f66ad35",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-natural-economy",
+      "renderSha256": "feaedd65f0ab12a928e9cf5989aee2955261e1dcd918204e2c4360cd038bd65b",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-natural-economy",
+      "renderSha256": "e46341d09eb35dbfc17834dc46d5d716eeebc2c643ff96474bd692240ad226d1",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-natural-economy",
+      "renderSha256": "adf074732ba3037c1d7f9694dd66723c12b08b4e43e7b3635542c500c13c473d",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-natural-economy",
+      "renderSha256": "14cb8dc7cf10a0fab4f1bff1b0415b71b3eac3f80d60335746a82eaf9348ab5c",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-natural-budget",
+      "renderSha256": "040b57f5813b11869db58d6f7fe9bebfaca30bfcf8b81fe29107c51a6f225566",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-natural-budget",
+      "renderSha256": "ced9f8194d7e8586bcebf238ffe701b3a7608e1253af557e6e1c95bcc5a19af7",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-natural-budget",
+      "renderSha256": "e7e314dc91d60b1f01daff6e34f175a2e0529602b03054b2f8f27cf3097461f5",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-natural-budget",
+      "renderSha256": "d77bee362fbe65cc33d7ff0dbe602f6b5495b94fd5f840652fab30eaec4a935e",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-natural-budget",
+      "renderSha256": "cf731db34d1143a6b066d8660eb60aab5daa02fbde81c0733379ad934eaa5026",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-natural-budget",
+      "renderSha256": "7996e7fd854a894706291827e2e301177068480f214dc156b6a447f7b0c06223",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-natural-budget",
+      "renderSha256": "3dc12047925235d9b09e7bd054c94144542624357bc8cda8879a7ee33538fe92",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-natural-premium",
+      "renderSha256": "d7ad24c4cc31f1b9682d4078145340b8ce71d338c3e07250589280a3c02efe79",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The principal seating group is readable against the window and material planes; furniture, art and the view provide the interest. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The measured activity comes mainly from the exterior view, rug and upholstery texture. The sofa remains a broad quiet area, and the seating/circulation are readable without a competing prop display."
+    },
+    {
+      "id": "bedroom-natural-premium",
+      "renderSha256": "0fa60781b219efdb53053869764db8b12aa25ef97bace227ffd59fdbc11c12ca",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-natural-premium",
+      "renderSha256": "035ccfa7529a6a2575e88bd72fc043e463ee7e095a2a6749ba85957ea011741a",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "kitchen-natural-premium",
+      "renderSha256": "8ea165de103149da3f63235d5dc4fa8a7bac15644c9604e1114b58515c6419a5",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The cabinetry and worktop remain the main composition; sink, hob and normal wall windows read as a practical kitchen. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Cabinet joints, floor texture, glazing and everyday kitchen equipment drive the activity measurement. The cabinetry remains coherent and the preparation zone stays usable."
+    },
+    {
+      "id": "office-natural-premium",
+      "renderSha256": "348533c45a02bb4c971d71db3039b8be425278714ebf2c79d6ed779c57bd899d",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag is localized to window detail, floor texture and storage joints. The desk has usable clear working space and a single practical task setup."
+    },
+    {
+      "id": "dining-natural-premium",
+      "renderSha256": "b57073ca27a388f8b5853460430dd14b0a564d9864237074b7b504ef7c82d38a",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "workspace-natural-premium",
+      "renderSha256": "13ab1a3a4b5f3ddaa32e429ca4861356396451696b776bf2e916295eb7575abc",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Warm timber and tactile muted natural finishes.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-scandinavian-economy",
+      "renderSha256": "1d48b0315793fd3bfa5f5fc019bb27bd9de9a4ae28d8598fd3db1231b2dc99ee",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-scandinavian-economy",
+      "renderSha256": "2976514c13b1b9c4ad4af860f16e77c9786c2933a3e0da73bd1d96be606d2288",
+      "decision": "approved",
+      "geometry": "sloped",
+      "exceptionReason": "Retained coherent pitched timber bedroom roof, with a properly framed rooflight and supported construction; one of two intentional roof examples.",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Light timber and clear daylight with blue or yellow accents. Retained coherent pitched timber bedroom roof, with a properly framed rooflight and supported construction; one of two intentional roof examples.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-scandinavian-economy",
+      "renderSha256": "4e4dcd46b8ca13023952619a30c4b9b3118db22ffdbbea6a5d09183647367dda",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-scandinavian-economy",
+      "renderSha256": "ec953bfa167b5ca4921743f58b0172cba5f930b91a1f7bc26752c8037e6e0b4a",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The cabinetry and worktop remain the main composition; sink, hob and normal wall windows read as a practical kitchen. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-scandinavian-economy",
+      "renderSha256": "381820e5adc20b843830ba4c9a82219c666d427ecf70217b25a09b36d0311a15",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-scandinavian-economy",
+      "renderSha256": "cac8038eee3693c3443d98f3a1662c49f327df17c240399c6ec3e2b499dd86fd",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "workspace-scandinavian-economy",
+      "renderSha256": "581e613f20725d510acaad58bcb7c01fbb0fde52a6aaa7d53345921622cb2c05",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-scandinavian-budget",
+      "renderSha256": "9982475ef6ce43617ceee826dd002510d47d9f9540581468e18ee44d0536f6f2",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-scandinavian-budget",
+      "renderSha256": "76bcd043f310b60b54a0d95c2e3b1f5efe5591289807315782e1885390f00450",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-scandinavian-budget",
+      "renderSha256": "7b10d5986930c8aa94ae1186542de7c1766d88ac5240dc056374eb7559d5f6ec",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "kitchen-scandinavian-budget",
+      "renderSha256": "b2bc2c893ba6f54aae73cc7526d09551f42764946d3d8bca988551c61482015f",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-scandinavian-budget",
+      "renderSha256": "aa90a365bc509c2a4b901adce3a6ff7baefccfe2c7c046fa51de216fed6315eb",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-scandinavian-budget",
+      "renderSha256": "1ecf5d94826aaa4bb600620ea681f98b219b232c79be4fe88dac4a44cff7a244",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-scandinavian-budget",
+      "renderSha256": "9cadbff0ab50705fa3c9542507c9dbcc9eea8dd967f93d927d9f4283db5ea033",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-scandinavian-premium",
+      "renderSha256": "37ee4f0b6e5356308aaaf9e3da76f1660ae317cc25dcec28da228a69d1cd05c2",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The principal seating group is readable against the window and material planes; furniture, art and the view provide the interest. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-scandinavian-premium",
+      "renderSha256": "22a4605f66ed33e93eb771194d163ea79609c3254637f00acaa9b38b27d60bb6",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-scandinavian-premium",
+      "renderSha256": "575d5311ad3fbe8d649aaf8a0b6bb492c53cde9f8b877d886ed8adade5adc07a",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-scandinavian-premium",
+      "renderSha256": "54288eec8e1f17e85465071bf24cdfef749516953ff64e02d49ff36923a59f48",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-scandinavian-premium",
+      "renderSha256": "373736d18bac31d961f60300bb7998e92e177ce3687e23f36009262ed83428c7",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-scandinavian-premium",
+      "renderSha256": "ca754716c31113e17e752a81f1d066e34778954d1487091db10d2590b8b5d65c",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-scandinavian-premium",
+      "renderSha256": "1407db6db1744108d34db4daf68c8932ddc131983da11468745a862e64af6f64",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Light timber and clear daylight with blue or yellow accents.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-mid-century-economy",
+      "renderSha256": "400ffc1b2c01b57a91c0e6b62d7ea2acfece9e46514091b03374996106eaadd1",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The measured activity comes mainly from the exterior view, rug and upholstery texture. The sofa remains a broad quiet area, and the seating/circulation are readable without a competing prop display."
+    },
+    {
+      "id": "bedroom-mid-century-economy",
+      "renderSha256": "290d74f2a888fceb4c47de6bbfe82be86c6d83bda0fe6241c09a435608a7a0ee",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-mid-century-economy",
+      "renderSha256": "f156986d38fb5e1ec8658a194d4b58a8cdc35989b0bf390d34d0240ebec96b3c",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-mid-century-economy",
+      "renderSha256": "c569cf9aab153ef3e7f3a9186fbc63ab20eef6b5a049a2ec8f34c75b7a21b5b4",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-mid-century-economy",
+      "renderSha256": "d0e3026db6e23c21117bc9f91e0fc33b40712f2f983100397e91414590a61a48",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-mid-century-economy",
+      "renderSha256": "02fd6ce244d47e6ed8863ac0ccd64ef6e5953d22391a67535352cdbd304c7cf9",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-mid-century-economy",
+      "renderSha256": "673f834ba6bfe2c5f2d3bc6fb336a69df9dc9264e9ed457025b9ffa039dd5335",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-mid-century-budget",
+      "renderSha256": "24b05e5de7dca4b00c113e2ab0afaf1eaf3a80d219031b3d6ff7f401dbae6f03",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The principal seating group is readable against the window and material planes; furniture, art and the view provide the interest. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": [
+        "high-detail-density",
+        "little-quiet-space"
+      ],
+      "triageNote": "The measured activity comes mainly from the exterior view, rug and upholstery texture. The sofa remains a broad quiet area, and the seating/circulation are readable without a competing prop display."
+    },
+    {
+      "id": "bedroom-mid-century-budget",
+      "renderSha256": "b97ac73703790db2e29f16b7c16d48c658f0aae75d055dc408cc1e83ecbf164b",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-mid-century-budget",
+      "renderSha256": "32921ead5122736e4513d43ab27cb365ea69f43468270917ffdb24ecf1238fb4",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-mid-century-budget",
+      "renderSha256": "f28edf01141b37f433e25bd32581b183c83fd5e58a0a859e6b4c355eb9d802a9",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-mid-century-budget",
+      "renderSha256": "b6f54632bcf901596454c5fdb170458c95b70626a0ed8747b3243dd60a2a09b2",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-mid-century-budget",
+      "renderSha256": "85b91bef106cbd859e96f2228c29eedd5cd3bb63d15ed0f3a2944489321d8a9c",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-mid-century-budget",
+      "renderSha256": "052fc7dc2ce0cf2a02da5139cd3e81b29ea0570d9382dc34c2649edd235b61d1",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-mid-century-premium",
+      "renderSha256": "aa1941e48a1f1f8489f36074eb62f3d42906af392f8e69f4349bdb95965cffe0",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The principal seating group is readable against the window and material planes; furniture, art and the view provide the interest. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The measured activity comes mainly from the exterior view, rug and upholstery texture. The sofa remains a broad quiet area, and the seating/circulation are readable without a competing prop display."
+    },
+    {
+      "id": "bedroom-mid-century-premium",
+      "renderSha256": "a190eb7fff2e71f19d94fec0cd29402a4b8557a2fb0d23acff320fdb2b9b65c5",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-mid-century-premium",
+      "renderSha256": "90418f7e3ad36699cc4e101599d2f29b65b92d8f7eb38c3da0970844b662172b",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-mid-century-premium",
+      "renderSha256": "3d61acd235ae7c7c2f8a8ae8cb80c1f42fcade63e0954735cf45b3dce7f59903",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-mid-century-premium",
+      "renderSha256": "a69cda8dbbf67cb04bc86f9960572aa20255d48e516edae74a54c537392c7961",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag is localized to window detail, floor texture and storage joints. The desk has usable clear working space and a single practical task setup."
+    },
+    {
+      "id": "dining-mid-century-premium",
+      "renderSha256": "0520b0e65bcf57e18cbc7c0a8f993863c3f8c805b7d7912d7219d93ac23dd60e",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-mid-century-premium",
+      "renderSha256": "0922659d7cb596922a1ccf478110d66a8161ac8b1d5cd5c201e144e6cbe5f6aa",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Timber furniture and olive/ochre tones retain the period influence.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-industrial-economy",
+      "renderSha256": "6ffdc82045e900f732ff64f8d6d79c16695c2fe27527c731ccb20d56bbae203a",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The measured activity comes mainly from the exterior view, rug and upholstery texture. The sofa remains a broad quiet area, and the seating/circulation are readable without a competing prop display."
+    },
+    {
+      "id": "bedroom-industrial-economy",
+      "renderSha256": "25af948bb01c27701531b4bd304f3c1881078eb038c9a5e6be507fb448f00471",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-industrial-economy",
+      "renderSha256": "e99b6b34616b76874cb2d31cdb5269969ee6531118c3f2cb386da95bbcb06ddb",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-industrial-economy",
+      "renderSha256": "b9412bb416ec73f1754f22cb4eff02d636ca2e7a184f7849ec898e43ef8bd1c2",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-industrial-economy",
+      "renderSha256": "a0640329c430de452a7d486011cbcc379c41b642a5dc9bacf45f74846c1b491b",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag is localized to window detail, floor texture and storage joints. The desk has usable clear working space and a single practical task setup."
+    },
+    {
+      "id": "dining-industrial-economy",
+      "renderSha256": "a710c1add7f84240e3a9400e8eea466ab4f18b129e4ff3ae998b5ceecdf082b1",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-industrial-economy",
+      "renderSha256": "3be8b7c71f1c554bf9c7223c66e0d7e6671817ab69a5e77adf25364b24dea074",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The visible small objects belong to one making activity and grouped functional storage. The main work surface and walking route remain clear; this is not a decorative shelf display."
+    },
+    {
+      "id": "living-industrial-budget",
+      "renderSha256": "11e9a9ef655e8f81f41077c502f786ed9d32ee30030eb809944a5cad1706ab7b",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The principal seating group is readable against the window and material planes; furniture, art and the view provide the interest. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The measured activity comes mainly from the exterior view, rug and upholstery texture. The sofa remains a broad quiet area, and the seating/circulation are readable without a competing prop display."
+    },
+    {
+      "id": "bedroom-industrial-budget",
+      "renderSha256": "e16b627bc2e4a785d4036df33962dfc3129f9326617989f6f53cb1a8745a651e",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-industrial-budget",
+      "renderSha256": "126025460edfb6a7d5981c7c1cdf01b8dc00d67a2738677fe31a01ec8ff048f1",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-industrial-budget",
+      "renderSha256": "629e51fd475183d55fa8b4c1d29b6f69f9c2aa8ba27228a97d22a511ef536cf4",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Cabinet joints, floor texture, glazing and everyday kitchen equipment drive the activity measurement. The cabinetry remains coherent and the preparation zone stays usable."
+    },
+    {
+      "id": "office-industrial-budget",
+      "renderSha256": "ac7ea2af8052fcb1a0035a85cb1f1f1cd2a17b397caa8f1ec8381d2b7d2bda57",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag is localized to window detail, floor texture and storage joints. The desk has usable clear working space and a single practical task setup."
+    },
+    {
+      "id": "dining-industrial-budget",
+      "renderSha256": "dac42f7b563eb0b4c96478de275028ff04597c1131424054fa44204b3acb97ff",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-industrial-budget",
+      "renderSha256": "9a917bade639a75a21a7b1166c0f200d7d0c103d5c1af99bfd8b40b7d9ad7e38",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The visible small objects belong to one making activity and grouped functional storage. The main work surface and walking route remain clear; this is not a decorative shelf display."
+    },
+    {
+      "id": "living-industrial-premium",
+      "renderSha256": "c892e12812ef924ba671d3acd29b829517d882e596f706bd131f9bd9d38495aa",
+      "decision": "approved",
+      "geometry": "sloped",
+      "exceptionReason": "Retained supported steel-and-glass industrial roof as the second intentional roof example; no invented diagonal ceiling junctions.",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The principal seating group is readable against the window and material planes; furniture, art and the view provide the interest. Supported steel, honest brick/concrete and practical furniture retain the loft character. Retained supported steel-and-glass industrial roof as the second intentional roof example; no invented diagonal ceiling junctions.",
+      "acknowledgedFlags": [
+        "high-detail-density",
+        "little-quiet-space"
+      ],
+      "triageNote": "The measured activity comes mainly from the exterior view, rug and upholstery texture. The sofa remains a broad quiet area, and the seating/circulation are readable without a competing prop display."
+    },
+    {
+      "id": "bedroom-industrial-premium",
+      "renderSha256": "0394110627dc8dc8ea2db9928cc08abb9bb4aedc1b98259bc58caf6fe4141401",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "high-detail-density",
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-industrial-premium",
+      "renderSha256": "69a034b25c53a6e99ec13338bb89fe2496265042eca172b92f29fdc83759e959",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-industrial-premium",
+      "renderSha256": "2cd437ff4e23e3ef85f6e85761620adb5e587a61b8770f755d84c10ec4ef173b",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Cabinet joints, floor texture, glazing and everyday kitchen equipment drive the activity measurement. The cabinetry remains coherent and the preparation zone stays usable."
+    },
+    {
+      "id": "office-industrial-premium",
+      "renderSha256": "106b28958b017a46b031d43fe246d3ee61fe64ae9bb1870f76d1271da1e8c175",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag is localized to window detail, floor texture and storage joints. The desk has usable clear working space and a single practical task setup."
+    },
+    {
+      "id": "dining-industrial-premium",
+      "renderSha256": "69c949a030c1c3ac1495fc9bfa422be8d37e9f51727b9f753a21ac2f156cf532",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-industrial-premium",
+      "renderSha256": "5b2d8709cf5a37f5dea4400c1a1b5a288f84274face6e76d2caddf3ecf29cf20",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The visible small objects belong to one making activity and grouped functional storage. The main work surface and walking route remain clear; this is not a decorative shelf display."
+    },
+    {
+      "id": "living-contemporary-economy",
+      "renderSha256": "bb2c35ace4adc18ad7b7253d73fe248f20b5aaecc28af0eb9583d2e5c3f1caf5",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-contemporary-economy",
+      "renderSha256": "9af61eed0ec322985c9373fe24f96ba72e8bed305a358b834a288684683610a0",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-contemporary-economy",
+      "renderSha256": "533c0fab7007c71474c380b4d0b6077f46db5bcca0d3eaad9ef2202eb073f56f",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-contemporary-economy",
+      "renderSha256": "df14dfe87424116b59f0b4fdb0f8ba65e9eeda56643973b265a586cd5e9a469e",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The cabinetry and worktop remain the main composition; sink, hob and normal wall windows read as a practical kitchen. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Cabinet joints, floor texture, glazing and everyday kitchen equipment drive the activity measurement. The cabinetry remains coherent and the preparation zone stays usable."
+    },
+    {
+      "id": "office-contemporary-economy",
+      "renderSha256": "ff069d2cfd7723137b3ae8237ba401e5961206816c4174bd64d1761542119c8e",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-contemporary-economy",
+      "renderSha256": "622e07f9787e85bd9a8bbfa9e56d23e97afb394ab5dc6c0ad3ca36d763e4d2f2",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-contemporary-economy",
+      "renderSha256": "039a29c912bc15afb18e5c64c4695bf38c4723232eb7e521129891bd966d0d79",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-contemporary-budget",
+      "renderSha256": "79f5bb8994b7a5c183650d1001aa13c98db5a2aa01e3a94d7013e8c518eb29fc",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-contemporary-budget",
+      "renderSha256": "056b582d614f98b51ab86cb81c196b26e5767df8a3661935496dbd6f05c11e35",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-contemporary-budget",
+      "renderSha256": "d88475d40c7fee49ffed38e37eeceb9b20e52008586b945171bdb01927448cbd",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-contemporary-budget",
+      "renderSha256": "4651a64426ab95c2f7fc7286db973a48ed99593a445cd3927d6cc22fac7fa6a1",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-contemporary-budget",
+      "renderSha256": "f5aab9cfdbc629f2684aa29fdb78c9fc0c3f22a8b646792506b10d2ee1bb7830",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-contemporary-budget",
+      "renderSha256": "4a9a2a6f7e126771630af81313cdb85dd7d1be6a69f9dbc7b6730ed31fa46b8b",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-contemporary-budget",
+      "renderSha256": "7c8ac199ec0187cbb9b82260cd205c33165e92b3558eca276b395a14549a3bd8",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-contemporary-premium",
+      "renderSha256": "60c6e8e06356a13a2436920423e73cff648c71497208a3703490acbd5009ccbb",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The measured activity comes mainly from the exterior view, rug and upholstery texture. The sofa remains a broad quiet area, and the seating/circulation are readable without a competing prop display."
+    },
+    {
+      "id": "bedroom-contemporary-premium",
+      "renderSha256": "aa9b921cad607ecfbdd384b38af69a2f7ac88635572c8c7b2adc8fd8dc4051be",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-contemporary-premium",
+      "renderSha256": "3bc3d4bea25bb4939b365acbf7026c574b4e026cf997e3c21137c3588244bebe",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "kitchen-contemporary-premium",
+      "renderSha256": "8d2196f30ed6ae72c8af5ca38cd583c8ed9e97c69b169e2328c2a6f78d93b8bc",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The cabinetry and worktop remain the main composition; sink, hob and normal wall windows read as a practical kitchen. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-contemporary-premium",
+      "renderSha256": "b3a9374039957c6c8270e5e741181f6dfd488e3c97b3b60e45ea8d80a4da9023",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-contemporary-premium",
+      "renderSha256": "3d59acaebfa4f3a87867cb67bf3da5d73b5b293095c0330c64112884322f5803",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-contemporary-premium",
+      "renderSha256": "cac8d39e6eeb5d94550dfe52b113ee1c89e3885d1593a2f794b1f4581020ecbb",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Clean lines and confident but limited color contrasts.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-mediterranean-economy",
+      "renderSha256": "0458ca005a91179b9f93750f3dceba3ad5cb08ea66047550d6f3e5d5049ac0c8",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-mediterranean-economy",
+      "renderSha256": "874c48a1ac286238a7fe238979fcd42ccb49bbefd2e32d1fa233fe372bfbc5db",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-mediterranean-economy",
+      "renderSha256": "dcd68675d3290cf2951eb20d15fb18b86e2e08e75d23821a7d0bb245de4d60ea",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-mediterranean-economy",
+      "renderSha256": "5761a5131c9e95c6449d884f6c1c997619f810e15f81ec77586017f34ad74726",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-mediterranean-economy",
+      "renderSha256": "b2845c18cefdfe823eabde1392dad2047b5e98eff6d6740a8c6d8410355c6fc6",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-mediterranean-economy",
+      "renderSha256": "9b0c2bfb699e0483648ef09b6f7966c4803217f222bad7a30e1dfac1b12b7d34",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-mediterranean-economy",
+      "renderSha256": "ecafb57b26c17bad978f91027d0b70330577de88555074857d95b2cd85e9a6ee",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-mediterranean-budget",
+      "renderSha256": "044d4474ffa551a6d001e9d3e9e43262d3bd91a013600b5bdf24583412b72f25",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-mediterranean-budget",
+      "renderSha256": "8521583e8d45d44300f057745b80672bf8d1a678bcdee5b7125b885f05067e26",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-mediterranean-budget",
+      "renderSha256": "8148a6161af8c15989a0dc1d1146e57c67cc359287b0ba3fd918c72ff84f3a87",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-mediterranean-budget",
+      "renderSha256": "30f0db4d7ba76bed773b6cb8da5509a95196fb9a10247f9004ec0df06b49ceb0",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-mediterranean-budget",
+      "renderSha256": "a6702b87f66d9f203b6221c45b0166bbb0ec8ac20d35b038e27f7383c3111baf",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-mediterranean-budget",
+      "renderSha256": "043d020f16b3bf7d0fee7b03907d3e87e395089f96ebd766b35cc41d3a8f6c44",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-mediterranean-budget",
+      "renderSha256": "ecb09e4d4464007cf8284ce21e70b6b283acb3106d5eb3de2576c9830e653a95",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The visible small objects belong to one making activity and grouped functional storage. The main work surface and walking route remain clear; this is not a decorative shelf display."
+    },
+    {
+      "id": "living-mediterranean-premium",
+      "renderSha256": "46121517402317ed59b568fdc3206241b0d16dbfca05459d7e185063b9f69e4f",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The principal seating group is readable against the window and material planes; furniture, art and the view provide the interest. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The measured activity comes mainly from the exterior view, rug and upholstery texture. The sofa remains a broad quiet area, and the seating/circulation are readable without a competing prop display."
+    },
+    {
+      "id": "bedroom-mediterranean-premium",
+      "renderSha256": "2e42097dd23d9fc5680c6fdb2209921f1ffa4c82111f614b987cab69e91ef08a",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-mediterranean-premium",
+      "renderSha256": "3b300085dab051db7d8ce9b2e2b7d4c292bf21b213bf8bedef5286f4d93954de",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-mediterranean-premium",
+      "renderSha256": "ec730f0d132093632eea23bbf294fc5612d12da5905599c106e2c332515b4796",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-mediterranean-premium",
+      "renderSha256": "777a88b95b3838fad666fdfd25880a94f8e375cf3464eab39069f653b28aa1c1",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-mediterranean-premium",
+      "renderSha256": "9c371f318520b569754c5bc77b2427be7086e4fc086d63b1928d3543dd3523a6",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-mediterranean-premium",
+      "renderSha256": "f88000ef1dcdd2fb0646a576de48b3d896a51170debb1a9ad26212f9b4021b73",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-bohemian-economy",
+      "renderSha256": "a475897e5a3896494e5de2b779585454e6087581de59b5f20708994b96914373",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The measured activity comes mainly from the exterior view, rug and upholstery texture. The sofa remains a broad quiet area, and the seating/circulation are readable without a competing prop display."
+    },
+    {
+      "id": "bedroom-bohemian-economy",
+      "renderSha256": "74078588f0d7cbf6567aa2b45e4d93819dd03dc87a8e141fd55b07647d6ddc6d",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-bohemian-economy",
+      "renderSha256": "f02f6a02c8171e4a4f380e4f6fa482c16cde7597d20ed08959f11250891681b4",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "kitchen-bohemian-economy",
+      "renderSha256": "f1cb5b0626144b299e008b75f966d64ac2fc62a0e4eb64d459b95cde7fa2edc2",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-bohemian-economy",
+      "renderSha256": "bae44994ade837ad212e44901097dbf49a429b4f51a1a42205f340255dbb85cf",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The vintage writing desk faces an ochre wall beside a side window; a metal drawer cabinet and one small print replace the repeated centered-window office composition.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-bohemian-economy",
+      "renderSha256": "deecf1b085bb038c574ada67ea1fb060d18268808cfd977b48d686cc685c3b92",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "workspace-bohemian-economy",
+      "renderSha256": "d61cf09e3470b8de4d3000bdbfa09b3ef88e4865db415ced88f9a09873a27089",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The visible small objects belong to one making activity and grouped functional storage. The main work surface and walking route remain clear; this is not a decorative shelf display."
+    },
+    {
+      "id": "living-bohemian-budget",
+      "renderSha256": "89ff783d8a7a7c0eb905aff7ddfac829d64bf33368baf05a9412c0a901ea1f0d",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-bohemian-budget",
+      "renderSha256": "08008c6cca86a13e41466fa8d757488b42c16b0a058840a5ee3ef77671d282b8",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-bohemian-budget",
+      "renderSha256": "898a65e4bd3f6334e70b7c42d24cc7a5b513348f84e4a5185384401f77c5f4df",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The wide high frosted window, plum wall and terracotta floor create a distinct side-view bathroom; one towel and soap provide everyday detail without a prop display.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "kitchen-bohemian-budget",
+      "renderSha256": "1d7dbf176280f08f23773c70d9e24d132fe7911460cad85930265bb30870f636",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-bohemian-budget",
+      "renderSha256": "e51ec4d25b7696b5ed0c33d6a7b9af5159710cfd95779e72a6bb0784f04ef13b",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-bohemian-budget",
+      "renderSha256": "333a756aade22cfb6ab75f06beaae47d8667ee636e1f7363bd928d31c7de73c1",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "workspace-bohemian-budget",
+      "renderSha256": "7861b26893da7fa7e78d2cc7be6e731e234b3cf9eac898203ab3c9b8f2c35060",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-bohemian-premium",
+      "renderSha256": "ac1f5faac7930e8a2b4320d56f50eb0998ee6f80d5f825733ca93c19a9b0c15c",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-bohemian-premium",
+      "renderSha256": "f957223e31805f15162f5152c4ceaed6de3d55ca233607cd8135ee9e2da65fc5",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-bohemian-premium",
+      "renderSha256": "41fcf2cc19197903b49cf68e2db4510706612aa7285e9e022a986a6428e3187d",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-bohemian-premium",
+      "renderSha256": "8181752889721c988592fc979eece56d8807e76d58d1bc17fbadb9f0391b3335",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-bohemian-premium",
+      "renderSha256": "b04426dfae5969991b511ec75dad2ae67fc01ccf79f016caef59ee40dd975dce",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag is localized to window detail, floor texture and storage joints. The desk has usable clear working space and a single practical task setup."
+    },
+    {
+      "id": "dining-bohemian-premium",
+      "renderSha256": "225f3f400815e4cc7b3b076b96d3eca1f98c77b9df200a6843270715fca5f552",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "workspace-bohemian-premium",
+      "renderSha256": "a0dff44fcda65608147833bf76599a2900a054bc8906c4e4b4b0d84e883a0b54",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The visible small objects belong to one making activity and grouped functional storage. The main work surface and walking route remain clear; this is not a decorative shelf display."
+    },
+    {
+      "id": "living-art-deco-economy",
+      "renderSha256": "d39317b5ea5699de64e06a8b5bd8f78677389b84f829c7934ce7bee20a9eb77b",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-art-deco-economy",
+      "renderSha256": "5384aad56df50d45e5a4c9a03feb0bb99e5c2506b321ad7cd8763c3795d37bd6",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-art-deco-economy",
+      "renderSha256": "0aa478d56681a9cffbac1683be58748d6c695bd98091ceec50e7ec3b16302b51",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-art-deco-economy",
+      "renderSha256": "5d134c730c2e1c9d7d277e3a7d952e980130b4a9a8dc3d75a662ae4749f91d19",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-art-deco-economy",
+      "renderSha256": "8c12827f05ec09dad42d27f3a1607f4966491cc7c2dd73455831a1a4f9f0d99c",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-art-deco-economy",
+      "renderSha256": "3d688e5135a1cf9cf675363158199b060442a11f08443b3d9a6c9b96e6863b26",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-art-deco-economy",
+      "renderSha256": "b74b8209b693b7dddefb0801e039138dac701cb8ac82d140514403cf1fe25754",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-art-deco-budget",
+      "renderSha256": "d4ffead631db62fd896ad794e6ed066dfb8ae0791525a6c575e8789031686004",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-art-deco-budget",
+      "renderSha256": "c1958e2cf52655615cc1e35a4b8136b565b8164129450fcdfdeb999c3c9635c2",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-art-deco-budget",
+      "renderSha256": "8695a11f6d064ddc8e5b478962568ad6b5556f4b4eadbd2a98c5d36decf6e27b",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "kitchen-art-deco-budget",
+      "renderSha256": "60a78e2439f40158b8d908070b8cd4ae561d3f9b75acf598748a82579c2658ee",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The cabinetry and worktop remain the main composition; sink, hob and normal wall windows read as a practical kitchen. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-art-deco-budget",
+      "renderSha256": "92c3ce5e6ff02583b6031f50fd449354ee5bf8f79635567224187800185ef6c7",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-art-deco-budget",
+      "renderSha256": "35888b50b1fe680954b0601c70f0af9ee8d1c83cef3c83dc609da74e28fc6e8b",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-art-deco-budget",
+      "renderSha256": "43903c05950c6fcbc340a2f46f85b00b1b5d7268571d55a62d286c7c3a0fa3ab",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-art-deco-premium",
+      "renderSha256": "3793acad8f207ff829f3ff100db3ef3a54f267b4678937cbbeefdc9846acb22b",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-art-deco-premium",
+      "renderSha256": "9e161fc8c85317e6a5744faa7f95be016dfe5ed1505d82d572a38638b527bdb7",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-art-deco-premium",
+      "renderSha256": "17613c7c226fcb0c9b1fd16752d7a8b8d4dfea1d9558928911c4a5da59641c5e",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-art-deco-premium",
+      "renderSha256": "1fb42f8ef3d5bc537b9c3f4211966dd4577281a57f74dcf972b236243981c28d",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-art-deco-premium",
+      "renderSha256": "fe5ff9455acb62810ed9a232d89920572a8ddb97253b01f182a0c0fcbad5a6a6",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-art-deco-premium",
+      "renderSha256": "8ce63bd18bdab7d7b81fa452558c1beb26b4c4eff95f3caa9aec393810168748",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "workspace-art-deco-premium",
+      "renderSha256": "2a67e98b62fc8395895cdab8149f8dceca99607f46b473048e9a90b14b6bd717",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-modern-classic-economy",
+      "renderSha256": "30615ce1907d5cdd5dc45ad1b74c2fa543a778b55acb4e72a56dd99d4edb7215",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The measured activity comes mainly from the exterior view, rug and upholstery texture. The sofa remains a broad quiet area, and the seating/circulation are readable without a competing prop display."
+    },
+    {
+      "id": "bedroom-modern-classic-economy",
+      "renderSha256": "b8cfee967bc0df209cc3e2ef08e4f4b5304f5b0d7e005934ad6ee84c973b38ad",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-modern-classic-economy",
+      "renderSha256": "f5b5253ebc9901189d06296209f722bc40a42b40deb00d3c8bed7896d3d359a6",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "kitchen-modern-classic-economy",
+      "renderSha256": "c750dca64a81467bc94a6f0b5e462e920ef6fb21ac9511938191debd2362e5a4",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-modern-classic-economy",
+      "renderSha256": "0d60998f4fb5b46a30dd4f0a47aaa77ef65a62bf860b2ec79a5e34afa40128fa",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag is localized to window detail, floor texture and storage joints. The desk has usable clear working space and a single practical task setup."
+    },
+    {
+      "id": "dining-modern-classic-economy",
+      "renderSha256": "fd1cac1e6061f99abcaba26f28e01266d03513daf4135c7f7aa1f212c58d2918",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "workspace-modern-classic-economy",
+      "renderSha256": "574312d0b74699ac21659da451449d623bb115f9798865f3772a16daf92ef98c",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The visible small objects belong to one making activity and grouped functional storage. The main work surface and walking route remain clear; this is not a decorative shelf display."
+    },
+    {
+      "id": "living-modern-classic-budget",
+      "renderSha256": "5cac8c82d7e0202604bddb81e490f5c3521ed89ac63a736a019b1846de1079f5",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The measured activity comes mainly from the exterior view, rug and upholstery texture. The sofa remains a broad quiet area, and the seating/circulation are readable without a competing prop display."
+    },
+    {
+      "id": "bedroom-modern-classic-budget",
+      "renderSha256": "348245aa64c440841d758076de3668b90baea4844c11b5f47355058d81f541ef",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-modern-classic-budget",
+      "renderSha256": "b325269d35549764bcb88ff38fc8e87017c2cde1b756a62ec53ef70941868a30",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-modern-classic-budget",
+      "renderSha256": "9d69fef6c16f5f0774c651ca16f50952978ed37df82ac7701f8efd949e4c6cdd",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Cabinet joints, floor texture, glazing and everyday kitchen equipment drive the activity measurement. The cabinetry remains coherent and the preparation zone stays usable."
+    },
+    {
+      "id": "office-modern-classic-budget",
+      "renderSha256": "e1846af9055fc1783799db0e219378b1f33244948f27445bf8c0c5e1ca45563e",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-modern-classic-budget",
+      "renderSha256": "b4203abc5a1f59ce5cba8ba68b7a04478644a331c208cd2b8a67a9ecfa31f36b",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-modern-classic-budget",
+      "renderSha256": "8cd62b0dd3195acddc953e5914405c4639c20b41ec12477219d67956152bb4cc",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-modern-classic-premium",
+      "renderSha256": "3bfea746490896d9806f6e2242dee914687bbcc9c8694897f55c045ca7e55140",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-modern-classic-premium",
+      "renderSha256": "3981e6173b210bc074d91356cf0a1a4e6a213cbcbcedfa7c67644d76dcfee46d",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-modern-classic-premium",
+      "renderSha256": "6f532ef8c383a4e783f18e6fe66a04cce4665de47e5eb04dd395feac4b1e87b2",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-modern-classic-premium",
+      "renderSha256": "670cce6cffc3becf031c822ae496460878b029ad6abb3c72624dcc6763602d4c",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-modern-classic-premium",
+      "renderSha256": "f80780550fedcef6cbff3a08e1d94def90e9025007dbc5e2719849f780842cb2",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-modern-classic-premium",
+      "renderSha256": "c69d855ab0b0249dc06f6011301c014245568d6ad54b25cff4de154b842b2f18",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-modern-classic-premium",
+      "renderSha256": "130ae3548ea7af999ec410be94b5810b35c4a2866db86fd3c338b3d6848656e0",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The visible small objects belong to one making activity and grouped functional storage. The main work surface and walking route remain clear; this is not a decorative shelf display."
+    },
+    {
+      "id": "living-wabi-sabi-economy",
+      "renderSha256": "e75b069b1db03127a5dba2ffaf6c9e7dbd63a8af5ae72369b0792fa696d9d5a3",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-wabi-sabi-economy",
+      "renderSha256": "b90b5df62273a9067b85f27cd17796d03be8e66683784e5f839ed4c5dbf73fae",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-wabi-sabi-economy",
+      "renderSha256": "162bc24c7c9edd26219b5b9efa242d1716fba0a04a0cf2aaf2ada6a229f85cb4",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-wabi-sabi-economy",
+      "renderSha256": "eb0b9414c409f5cb1910430165bfa070d6a278b7878ccefcc3ffee3bf2099cf8",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-wabi-sabi-economy",
+      "renderSha256": "f96d7eec156b6feacc07b62ef3baa42a89774c8e44035a1ebb40a8f127a9bc33",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-wabi-sabi-economy",
+      "renderSha256": "ea7cfb2da10b55973942c2c9be63c4a1c065e4993dbae897a5829443eb045936",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The table and its pendant remain the main group; chairs have readable supports, and material/color rather than ornamental architecture gives the room its identity. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, chair legs and material texture produce the activity flag. The table/pendant remain the only main group, with clear chair access and no competing decorative wall display."
+    },
+    {
+      "id": "workspace-wabi-sabi-economy",
+      "renderSha256": "7291b4744e1c06ccbe216e466844c04148aee80559a6cec37d76701ec27ebb40",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The visible small objects belong to one making activity and grouped functional storage. The main work surface and walking route remain clear; this is not a decorative shelf display."
+    },
+    {
+      "id": "living-wabi-sabi-budget",
+      "renderSha256": "2a211dcd9d1a3b9982a759bf94a5cbec0ff298ef216fe80bb9e70eab289c0be6",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-wabi-sabi-budget",
+      "renderSha256": "ba3fec301fa4e94b431c111b6b566e0bbe9bf6a4e1fcb6b237073d53859fe47a",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bathroom-wabi-sabi-budget",
+      "renderSha256": "5d8c4a79882d8f36abb57eb1dfd18b79305cbe4495cbfc270fe1e66c12cf2f79",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-wabi-sabi-budget",
+      "renderSha256": "80675a1067e90b17180bf27de3095fb6675478bc4d44e9518d5bffe2e6d9e970",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "office-wabi-sabi-budget",
+      "renderSha256": "fc28b4f657b9fc2140d3d8d98e8405eee18f5c11106f8c2444ddff9e7de21a2b",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "dining-wabi-sabi-budget",
+      "renderSha256": "210e6dbec26b31a8bef563177d96b204709c442e916e5067b8320cb17e912e18",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "workspace-wabi-sabi-budget",
+      "renderSha256": "a07522808e805104aeeaed19f928380da730adb11e6a7d8d236adbd3bf6effee",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "living-wabi-sabi-premium",
+      "renderSha256": "92400be1208f6f58ee8fb48a3890ed39e9b70623f64d35c8f673363372784a97",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "bedroom-wabi-sabi-premium",
+      "renderSha256": "ff6a61841defb05f565cb3070599ee9cc815599ab390e02ccfd2d9ef793292bd",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The bed and headboard are the focal point, with usable bedside access, conventional wall windows and coherent wardrobe/furniture junctions. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Window foliage, textile weave and wardrobe joins drive the activity flag. The bed remains the single main group, with unfilled wall or fabric areas and clear circulation."
+    },
+    {
+      "id": "bathroom-wabi-sabi-premium",
+      "renderSha256": "d5cbfa0f65fbafc11cfe6b246a1e4a38952dbad581c43766d428e172aade14cb",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "Tile, glass and sanitary fittings form a coherent wet-room layout with visible fixture connections and a usable dry circulation zone. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag comes from tile joints, reflections and window detail rather than a collection of decorative objects. Basin/shower connections and usable dry floor were checked visually."
+    },
+    {
+      "id": "kitchen-wabi-sabi-premium",
+      "renderSha256": "cfd5d524fc6621de64632d433737441b3b9dd5bd63541d1593865be42162097e",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The cabinetry and worktop remain the main composition; sink, hob and normal wall windows read as a practical kitchen. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "Cabinet joints, floor texture, glazing and everyday kitchen equipment drive the activity measurement. The cabinetry remains coherent and the preparation zone stays usable."
+    },
+    {
+      "id": "office-wabi-sabi-premium",
+      "renderSha256": "e5bc3e84028720319657e1e84a026109bed6580533404b12759670a9ee5214b6",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": [
+        "little-quiet-space"
+      ],
+      "triageNote": "The flag is localized to window detail, floor texture and storage joints. The desk has usable clear working space and a single practical task setup."
+    },
+    {
+      "id": "dining-wabi-sabi-premium",
+      "renderSha256": "583ec080c971d09bc6d5402c08d985ddf82019f7f1125fb9aa3cc244463670dd",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "workspace-wabi-sabi-premium",
+      "renderSha256": "42f5fde2bae19effb0e9b1899264b71cf37dba40365f6006d14cc58a7eabec67",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "reference:hero",
+      "renderSha256": "92e0dfde298eb098a80a4b5d890e247d379e16509c17e99b510a782e98fabd24",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The existing lounge uses the seating group and natural daylight as the main composition; room geometry is level and conventional.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "reference:living",
+      "renderSha256": "769d86c36f16d969f6fb994796478167fb9b373b997af418900be64079cc08bf",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The existing open-plan interior uses a straight supported stair and glazed wall for depth; furniture and structural connections remain readable.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "reference:kitchen",
+      "renderSha256": "fecf53f05d9cc9e371009387368ca82d595d4c780c8b26ba0cb3e5e222c44139",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The original kitchen has usable counter surfaces, normal cabinet/hood connections and a level ceiling; everyday cooking objects suit the room.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "reference:bedroom",
+      "renderSha256": "068b8167cb5401829f2866f52cb54da43b0a2efa6ce4c5ca9c2a0af62e2a0792",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "This original reference depicts a lounge corner with a console and chair, not a bedroom; its room filter has been corrected to living.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "reference:detail",
+      "renderSha256": "d7c112ceef843722f2b5c51d47b7c621510f9dae173f7573b9aff3f192279e1c",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The original living room has a clear sofa group, supported timber stair and ordinary rectangular glazing, with usable circulation.",
+      "acknowledgedFlags": []
+    },
+    {
+      "id": "reference:studio",
+      "renderSha256": "f098cf02033eef55c8d2fda63b0b51276ce7697cbc845c7d6b28a1a359678e4d",
+      "decision": "approved",
+      "geometry": "level",
+      "checks": {
+        "credibleGeometry": true,
+        "restrainedStyling": true,
+        "usableLayout": true,
+        "naturalLightAndMaterials": true,
+        "styleIdentity": true
+      },
+      "observation": "The original contemporary lounge uses a glazed wall and timber feature plane; its level ceiling and restrained seating group read clearly.",
+      "acknowledgedFlags": []
+    }
+  ]
+}

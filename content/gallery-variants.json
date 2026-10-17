@@ -119,17 +119,17 @@
       "tier": "economy",
       "size": "large",
       "area": 13,
-      "image": "/images/gallery/minimalism-economy.webp",
-      "tile": 2,
+      "image": "/images/gallery/quality-review-01.webp",
+      "tile": 0,
       "architecture": {
-        "en": "a fresh split-level apartment with a broad rooflight, pale floor and a simple sculptural wall",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.00602214,
-        "y": 0.25325521,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -159,17 +159,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/minimalism-economy.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-01.webp",
+      "tile": 1,
       "architecture": {
-        "en": "a refined flat with black-framed full-height glazing and a deep linear ceiling reveal",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.00602214,
-        "y": 0.50390625,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -179,17 +179,17 @@
       "tier": "economy",
       "size": "large",
       "area": 31,
-      "image": "/images/gallery/minimalism-economy.webp",
-      "tile": 5,
+      "image": "/images/gallery/quality-review-01.webp",
+      "tile": 2,
       "architecture": {
-        "en": "a fresh split-level apartment with a broad rooflight, pale floor and a simple sculptural wall",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.50748698,
-        "y": 0.50390625,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -199,17 +199,17 @@
       "tier": "economy",
       "size": "small",
       "area": 8,
-      "image": "/images/gallery/minimalism-economy.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-01.webp",
+      "tile": 3,
       "architecture": {
-        "en": "a crisp modern city apartment with a corner window, white planes and a recessed storage wall",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.00602214,
-        "y": 0.75390625,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -299,17 +299,17 @@
       "tier": "budget",
       "size": "large",
       "area": 23,
-      "image": "/images/gallery/geometry-review-01.webp",
-      "tile": 1,
+      "image": "/images/gallery/quality-review-01.webp",
+      "tile": 4,
       "architecture": {
-        "en": "A large minimalism office with conventional rectangular construction. Use a level ceiling and rectangular side glazing in a conventional large office.",
-        "uk": "Кабінет, стиль «Мінімалізм», категорія площі «Велика площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.53271484,
-        "y": 0.00260417,
-        "width": 0.4375,
-        "height": 0.21875
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -339,17 +339,17 @@
       "tier": "budget",
       "size": "medium",
       "area": 16,
-      "image": "/images/gallery/minimalism-budget.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-01.webp",
+      "tile": 5,
       "architecture": {
-        "en": "a refined flat with black-framed full-height glazing and a deep linear ceiling reveal",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.00537109,
-        "y": 0.75325521,
-        "width": 0.48828125,
-        "height": 0.24414062
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -359,17 +359,17 @@
       "tier": "premium",
       "size": "large",
       "area": 44,
-      "image": "/images/gallery/minimalism-premium.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-01.webp",
+      "tile": 6,
       "architecture": {
-        "en": "a fresh split-level apartment with a broad rooflight, pale floor and a simple sculptural wall",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.00846354,
-        "y": 0.00260417,
-        "width": 0.48307292,
-        "height": 0.24153646
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -419,17 +419,17 @@
       "tier": "premium",
       "size": "large",
       "area": 25,
-      "image": "/images/gallery/minimalism-premium.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-01.webp",
+      "tile": 7,
       "architecture": {
-        "en": "a fresh split-level apartment with a broad rooflight, pale floor and a simple sculptural wall",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.5069987,
-        "y": 0.25195312,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -439,17 +439,17 @@
       "tier": "premium",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/minimalism-premium.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-02.webp",
+      "tile": 0,
       "architecture": {
-        "en": "a crisp modern city apartment with a corner window, white planes and a recessed storage wall",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.00716146,
-        "y": 0.50130208,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -479,17 +479,17 @@
       "tier": "premium",
       "size": "large",
       "area": 33,
-      "image": "/images/gallery/minimalism-premium.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-02.webp",
+      "tile": 1,
       "architecture": {
-        "en": "a fresh split-level apartment with a broad rooflight, pale floor and a simple sculptural wall",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.75065104,
-        "width": 0.4921875,
-        "height": 0.24609375
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -539,17 +539,17 @@
       "tier": "economy",
       "size": "small",
       "area": 4,
-      "image": "/images/gallery/japandi-economy.webp",
+      "image": "/images/gallery/quality-review-02.webp",
       "tile": 2,
       "architecture": {
-        "en": "a contemporary apartment with a stepped ceiling, a small rooflight and a framed leafy city view",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.23111979,
-        "width": 0.4921875,
-        "height": 0.24609375
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -579,15 +579,15 @@
       "tier": "economy",
       "size": "large",
       "area": 23,
-      "image": "/images/gallery/japandi-economy.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-02.webp",
+      "tile": 3,
       "architecture": {
-        "en": "an airy courtyard-facing apartment with floor-to-ceiling timber-framed glazing and clean ceiling geometry",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.01171875,
-        "y": 0.48828125,
+        "x": 0.51171875,
+        "y": 0.255859375,
         "width": 0.4765625,
         "height": 0.23828125
       }
@@ -599,15 +599,15 @@
       "tier": "economy",
       "size": "small",
       "area": 9,
-      "image": "/images/gallery/japandi-economy.webp",
-      "tile": 5,
+      "image": "/images/gallery/quality-review-02.webp",
+      "tile": 4,
       "architecture": {
-        "en": "a contemporary apartment with a stepped ceiling, a small rooflight and a framed leafy city view",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.51269531,
-        "y": 0.48828125,
+        "x": 0.01171875,
+        "y": 0.505859375,
         "width": 0.4765625,
         "height": 0.23828125
       }
@@ -619,17 +619,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 16,
-      "image": "/images/gallery/japandi-economy.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-02.webp",
+      "tile": 5,
       "architecture": {
-        "en": "a modern timber-accented apartment with a deep-set window and a light-filtering oak screen",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.74186198,
-        "width": 0.4921875,
-        "height": 0.24609375
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -639,17 +639,17 @@
       "tier": "budget",
       "size": "large",
       "area": 44,
-      "image": "/images/gallery/japandi-budget.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-02.webp",
+      "tile": 6,
       "architecture": {
-        "en": "an airy courtyard-facing apartment with floor-to-ceiling timber-framed glazing and clean ceiling geometry",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.0061849,
-        "y": 0.00260417,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -671,7 +671,7 @@
         "width": 0.48567708,
         "height": 0.24283854
       },
-      "detailImage": "/images/gallery/reviewed-bedroom-japandi-budget.webp"
+      "detailImage": "/images/gallery/quality-featured-bedroom-japandi-budget.webp"
     },
     {
       "id": "bathroom-japandi-budget",
@@ -700,17 +700,17 @@
       "tier": "budget",
       "size": "large",
       "area": 25,
-      "image": "/images/gallery/japandi-budget.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-02.webp",
+      "tile": 7,
       "architecture": {
-        "en": "an airy courtyard-facing apartment with floor-to-ceiling timber-framed glazing and clean ceiling geometry",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.50878906,
-        "y": 0.25325521,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -720,17 +720,17 @@
       "tier": "budget",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/geometry-review-01.webp",
-      "tile": 2,
+      "image": "/images/gallery/quality-review-03.webp",
+      "tile": 0,
       "architecture": {
-        "en": "A small japandi office with conventional rectangular construction. A small rectangular office with a flat ceiling, normal wall window and the same pale-oak desk and storage.",
-        "uk": "Кабінет, стиль «Джапанді», категорія площі «Мала площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.00813802,
-        "y": 0.22916667,
-        "width": 0.48177083,
-        "height": 0.24088542
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -760,17 +760,17 @@
       "tier": "budget",
       "size": "large",
       "area": 33,
-      "image": "/images/gallery/japandi-budget.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-03.webp",
+      "tile": 1,
       "architecture": {
-        "en": "an airy courtyard-facing apartment with floor-to-ceiling timber-framed glazing and clean ceiling geometry",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.0061849,
-        "y": 0.75455729,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -780,17 +780,17 @@
       "tier": "premium",
       "size": "small",
       "area": 13,
-      "image": "/images/gallery/japandi-premium.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-03.webp",
+      "tile": 2,
       "architecture": {
-        "en": "a contemporary apartment with a stepped ceiling, a small rooflight and a framed leafy city view",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.01513672,
-        "y": 0.00260417,
-        "width": 0.46875,
-        "height": 0.234375
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -840,17 +840,17 @@
       "tier": "premium",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/japandi-premium.webp",
+      "image": "/images/gallery/quality-review-03.webp",
       "tile": 3,
       "architecture": {
-        "en": "a contemporary apartment with a stepped ceiling, a small rooflight and a framed leafy city view",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.50764974,
-        "y": 0.24348958,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -860,17 +860,17 @@
       "tier": "premium",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/japandi-premium.webp",
+      "image": "/images/gallery/quality-review-03.webp",
       "tile": 4,
       "architecture": {
-        "en": "a modern timber-accented apartment with a deep-set window and a light-filtering oak screen",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.00602214,
-        "y": 0.49283854,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -900,17 +900,17 @@
       "tier": "premium",
       "size": "small",
       "area": 8,
-      "image": "/images/gallery/geometry-review-01.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-03.webp",
+      "tile": 5,
       "architecture": {
-        "en": "A small japandi workspace with conventional rectangular construction. Use a simple level ceiling over a compact maker studio with rectangular side glazing.",
-        "uk": "Творча майстерня, стиль «Джапанді», категорія площі «Мала площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.51057943,
-        "y": 0.22916667,
-        "width": 0.48177083,
-        "height": 0.24088542
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -920,17 +920,17 @@
       "tier": "economy",
       "size": "large",
       "area": 44,
-      "image": "/images/gallery/natural-economy.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-03.webp",
+      "tile": 6,
       "architecture": {
-        "en": "a light-filled modern apartment with warm timber feature wall and a garden-facing glass opening",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.00585938,
-        "y": 0.00260417,
-        "width": 0.48828125,
-        "height": 0.24414062
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -940,17 +940,17 @@
       "tier": "economy",
       "size": "small",
       "area": 10,
-      "image": "/images/gallery/natural-economy.webp",
-      "tile": 1,
+      "image": "/images/gallery/quality-review-03.webp",
+      "tile": 7,
       "architecture": {
-        "en": "a contemporary loft with broad glazing, exposed timber structure and indoor-outdoor flow",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.50634766,
-        "y": 0.00260417,
-        "width": 0.48828125,
-        "height": 0.24414062
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -980,17 +980,17 @@
       "tier": "economy",
       "size": "large",
       "area": 25,
-      "image": "/images/gallery/natural-economy.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-04.webp",
+      "tile": 0,
       "architecture": {
-        "en": "a light-filled modern apartment with warm timber feature wall and a garden-facing glass opening",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.50634766,
-        "y": 0.25260417,
-        "width": 0.48828125,
-        "height": 0.24414062
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1000,17 +1000,17 @@
       "tier": "economy",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/natural-economy.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-04.webp",
+      "tile": 1,
       "architecture": {
-        "en": "a contemporary loft with broad glazing, exposed timber structure and indoor-outdoor flow",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.00846354,
-        "y": 0.50260417,
-        "width": 0.48307292,
-        "height": 0.24153646
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1040,17 +1040,17 @@
       "tier": "economy",
       "size": "large",
       "area": 33,
-      "image": "/images/gallery/natural-economy.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-04.webp",
+      "tile": 2,
       "architecture": {
-        "en": "a light-filled modern apartment with warm timber feature wall and a garden-facing glass opening",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.75065104,
-        "width": 0.4921875,
-        "height": 0.24609375
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1060,17 +1060,17 @@
       "tier": "budget",
       "size": "small",
       "area": 13,
-      "image": "/images/gallery/natural-budget.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-04.webp",
+      "tile": 3,
       "architecture": {
-        "en": "a contemporary loft with broad glazing, exposed timber structure and indoor-outdoor flow",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.0061849,
-        "y": 0.00260417,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1120,17 +1120,17 @@
       "tier": "budget",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/natural-budget.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-04.webp",
+      "tile": 4,
       "architecture": {
-        "en": "a contemporary loft with broad glazing, exposed timber structure and indoor-outdoor flow",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.50813802,
-        "y": 0.25325521,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1140,17 +1140,17 @@
       "tier": "budget",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/natural-budget.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-04.webp",
+      "tile": 5,
       "architecture": {
-        "en": "a fresh modern corner apartment with curved plaster reveal and generous daylight",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.0094401,
-        "y": 0.50390625,
-        "width": 0.47916667,
-        "height": 0.23958333
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1180,17 +1180,17 @@
       "tier": "budget",
       "size": "small",
       "area": 8,
-      "image": "/images/gallery/natural-budget.webp",
+      "image": "/images/gallery/quality-review-04.webp",
       "tile": 6,
       "architecture": {
-        "en": "a contemporary loft with broad glazing, exposed timber structure and indoor-outdoor flow",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.75179036,
-        "width": 0.49023438,
-        "height": 0.24511719
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1240,17 +1240,17 @@
       "tier": "premium",
       "size": "small",
       "area": 4,
-      "image": "/images/gallery/natural-premium.webp",
-      "tile": 2,
+      "image": "/images/gallery/quality-review-04.webp",
+      "tile": 7,
       "architecture": {
-        "en": "a contemporary loft with broad glazing, exposed timber structure and indoor-outdoor flow",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.00683594,
-        "y": 0.25390625,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1280,17 +1280,17 @@
       "tier": "premium",
       "size": "large",
       "area": 23,
-      "image": "/images/gallery/natural-premium.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-05.webp",
+      "tile": 0,
       "architecture": {
-        "en": "a light-filled modern apartment with warm timber feature wall and a garden-facing glass opening",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.00748698,
-        "y": 0.50390625,
-        "width": 0.48307292,
-        "height": 0.24153646
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1300,17 +1300,17 @@
       "tier": "premium",
       "size": "small",
       "area": 9,
-      "image": "/images/gallery/natural-premium.webp",
-      "tile": 5,
+      "image": "/images/gallery/quality-review-05.webp",
+      "tile": 1,
       "architecture": {
-        "en": "a contemporary loft with broad glazing, exposed timber structure and indoor-outdoor flow",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.5094401,
-        "y": 0.50390625,
-        "width": 0.48307292,
-        "height": 0.24153646
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1320,17 +1320,17 @@
       "tier": "premium",
       "size": "medium",
       "area": 16,
-      "image": "/images/gallery/natural-premium.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-05.webp",
+      "tile": 2,
       "architecture": {
-        "en": "a fresh modern corner apartment with curved plaster reveal and generous daylight",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.00488281,
-        "y": 0.75325521,
-        "width": 0.48828125,
-        "height": 0.24414062
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1340,17 +1340,17 @@
       "tier": "economy",
       "size": "small",
       "area": 13,
-      "image": "/images/gallery/scandinavian-economy.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-05.webp",
+      "tile": 3,
       "architecture": {
-        "en": "a bright urban Nordic apartment with tall white-framed windows and pale timber flooring",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.00602214,
-        "y": 0.00260417,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1420,17 +1420,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/scandinavian-economy.webp",
+      "image": "/images/gallery/quality-review-05.webp",
       "tile": 4,
       "architecture": {
-        "en": "a contemporary timber-structure apartment with a pitched upper ceiling and a broad rooflight",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.00602214,
-        "y": 0.50325521,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1440,17 +1440,17 @@
       "tier": "economy",
       "size": "large",
       "area": 31,
-      "image": "/images/gallery/scandinavian-economy.webp",
+      "image": "/images/gallery/quality-review-05.webp",
       "tile": 5,
       "architecture": {
-        "en": "a sunny waterfront apartment with balcony glazing, simple pale joinery and graphic color",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.50748698,
-        "y": 0.50325521,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1460,17 +1460,17 @@
       "tier": "economy",
       "size": "small",
       "area": 8,
-      "image": "/images/gallery/scandinavian-economy.webp",
+      "image": "/images/gallery/quality-review-05.webp",
       "tile": 6,
       "architecture": {
-        "en": "a bright urban Nordic apartment with tall white-framed windows and pale timber flooring",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.00537109,
-        "y": 0.75325521,
-        "width": 0.48828125,
-        "height": 0.24414062
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1480,17 +1480,17 @@
       "tier": "budget",
       "size": "medium",
       "area": 25,
-      "image": "/images/gallery/scandinavian-budget.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-05.webp",
+      "tile": 7,
       "architecture": {
-        "en": "a contemporary timber-structure apartment with a pitched upper ceiling and a broad rooflight",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.0061849,
-        "y": 0.00260417,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1540,17 +1540,17 @@
       "tier": "budget",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/geometry-review-02.webp",
-      "tile": 1,
+      "image": "/images/gallery/quality-review-06.webp",
+      "tile": 0,
       "architecture": {
-        "en": "A medium scandinavian kitchen with conventional rectangular construction. Use a level pale-timber ceiling with rectangular wall windows; keep blue-grey cabinets, pale timber and an ordinary island.",
-        "uk": "Кухня, стиль «Скандинавський», категорія площі «Середня площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.50813802,
-        "y": 0.00260417,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1560,17 +1560,17 @@
       "tier": "budget",
       "size": "large",
       "area": 23,
-      "image": "/images/gallery/scandinavian-budget.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-06.webp",
+      "tile": 1,
       "architecture": {
-        "en": "a sunny waterfront apartment with balcony glazing, simple pale joinery and graphic color",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.00748698,
-        "y": 0.50390625,
-        "width": 0.48307292,
-        "height": 0.24153646
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1600,17 +1600,17 @@
       "tier": "budget",
       "size": "medium",
       "area": 16,
-      "image": "/images/gallery/scandinavian-budget.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-06.webp",
+      "tile": 2,
       "architecture": {
-        "en": "a contemporary timber-structure apartment with a pitched upper ceiling and a broad rooflight",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.00488281,
-        "y": 0.75325521,
-        "width": 0.48828125,
-        "height": 0.24414062
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1680,17 +1680,17 @@
       "tier": "premium",
       "size": "large",
       "area": 25,
-      "image": "/images/gallery/scandinavian-premium.webp",
+      "image": "/images/gallery/quality-review-06.webp",
       "tile": 3,
       "architecture": {
-        "en": "a sunny waterfront apartment with balcony glazing, simple pale joinery and graphic color",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.50878906,
-        "y": 0.25390625,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1700,17 +1700,17 @@
       "tier": "premium",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/scandinavian-premium.webp",
+      "image": "/images/gallery/quality-review-06.webp",
       "tile": 4,
       "architecture": {
-        "en": "a bright urban Nordic apartment with tall white-framed windows and pale timber flooring",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.00683594,
-        "y": 0.50390625,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1720,17 +1720,17 @@
       "tier": "premium",
       "size": "medium",
       "area": 17,
-      "image": "/images/gallery/geometry-review-02.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-06.webp",
+      "tile": 5,
       "architecture": {
-        "en": "A medium scandinavian dining with conventional rectangular construction. Replace the mansard roof with a level ceiling and simple rectangular garden windows; retain the oak dining furniture.",
-        "uk": "Їдальня, стиль «Скандинавський», категорія площі «Середня площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.50878906,
-        "y": 0.25325521,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1740,17 +1740,17 @@
       "tier": "premium",
       "size": "large",
       "area": 33,
-      "image": "/images/gallery/scandinavian-premium.webp",
+      "image": "/images/gallery/quality-review-06.webp",
       "tile": 6,
       "architecture": {
-        "en": "a sunny waterfront apartment with balcony glazing, simple pale joinery and graphic color",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.00553385,
-        "y": 0.75390625,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1760,17 +1760,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 25,
-      "image": "/images/gallery/mid-century-economy.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-06.webp",
+      "tile": 7,
       "architecture": {
-        "en": "a restored modernist apartment with ribbon windows and a purposeful timber feature wall",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.0061849,
-        "y": 0.00260417,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1780,17 +1780,17 @@
       "tier": "economy",
       "size": "large",
       "area": 29,
-      "image": "/images/gallery/mid-century-economy.webp",
-      "tile": 1,
+      "image": "/images/gallery/quality-review-07.webp",
+      "tile": 0,
       "architecture": {
-        "en": "a split-level mid-century apartment with a low built-in ledge, terrazzo detail and sliding glass",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.50813802,
-        "y": 0.00260417,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1820,17 +1820,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/mid-century-economy.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-07.webp",
+      "tile": 1,
       "architecture": {
-        "en": "a restored modernist apartment with ribbon windows and a purposeful timber feature wall",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.50878906,
-        "y": 0.25325521,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1840,17 +1840,17 @@
       "tier": "economy",
       "size": "large",
       "area": 23,
-      "image": "/images/gallery/mid-century-economy.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-07.webp",
+      "tile": 2,
       "architecture": {
-        "en": "a split-level mid-century apartment with a low built-in ledge, terrazzo detail and sliding glass",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.00553385,
-        "y": 0.50325521,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1880,17 +1880,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 16,
-      "image": "/images/gallery/mid-century-economy.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-07.webp",
+      "tile": 3,
       "architecture": {
-        "en": "a restored modernist apartment with ribbon windows and a purposeful timber feature wall",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.0061849,
-        "y": 0.75455729,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1960,17 +1960,17 @@
       "tier": "budget",
       "size": "large",
       "area": 25,
-      "image": "/images/gallery/mid-century-budget.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-07.webp",
+      "tile": 4,
       "architecture": {
-        "en": "a split-level mid-century apartment with a low built-in ledge, terrazzo detail and sliding glass",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.5086263,
-        "y": 0.25325521,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -1980,17 +1980,17 @@
       "tier": "budget",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/mid-century-budget.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-07.webp",
+      "tile": 5,
       "architecture": {
-        "en": "a light-filled city flat with broad horizontal glazing, clean timber frames and elegant 1960s proportions",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.00813802,
-        "y": 0.50390625,
-        "width": 0.48177083,
-        "height": 0.24088542
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2020,17 +2020,17 @@
       "tier": "budget",
       "size": "large",
       "area": 33,
-      "image": "/images/gallery/mid-century-budget.webp",
+      "image": "/images/gallery/quality-review-07.webp",
       "tile": 6,
       "architecture": {
-        "en": "a split-level mid-century apartment with a low built-in ledge, terrazzo detail and sliding glass",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.00423177,
-        "y": 0.75260417,
-        "width": 0.48958333,
-        "height": 0.24479167
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2100,17 +2100,17 @@
       "tier": "premium",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/mid-century-premium.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-07.webp",
+      "tile": 7,
       "architecture": {
-        "en": "a light-filled city flat with broad horizontal glazing, clean timber frames and elegant 1960s proportions",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.5094401,
-        "y": 0.25260417,
-        "width": 0.48307292,
-        "height": 0.24153646
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2120,17 +2120,17 @@
       "tier": "premium",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/mid-century-premium.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-08.webp",
+      "tile": 0,
       "architecture": {
-        "en": "a restored modernist apartment with ribbon windows and a purposeful timber feature wall",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.00667318,
-        "y": 0.50130208,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2160,17 +2160,17 @@
       "tier": "premium",
       "size": "small",
       "area": 8,
-      "image": "/images/gallery/mid-century-premium.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-08.webp",
+      "tile": 1,
       "architecture": {
-        "en": "a light-filled city flat with broad horizontal glazing, clean timber frames and elegant 1960s proportions",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.00406901,
-        "y": 0.75195312,
-        "width": 0.49088542,
-        "height": 0.24544271
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2192,7 +2192,7 @@
         "width": 0.48567708,
         "height": 0.24283854
       },
-      "detailImage": "/images/gallery/reviewed-living-industrial-economy.webp"
+      "detailImage": "/images/gallery/quality-featured-living-industrial-economy.webp"
     },
     {
       "id": "bedroom-industrial-economy",
@@ -2221,17 +2221,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 7,
-      "image": "/images/gallery/industrial-economy.webp",
+      "image": "/images/gallery/quality-review-08.webp",
       "tile": 2,
       "architecture": {
-        "en": "a converted workshop apartment with a sawtooth rooflight, useful brick piers and a clean modern insert",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.00472005,
-        "y": 0.25195312,
-        "width": 0.48958333,
-        "height": 0.24479167
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2241,17 +2241,17 @@
       "tier": "economy",
       "size": "large",
       "area": 25,
-      "image": "/images/gallery/industrial-economy.webp",
+      "image": "/images/gallery/quality-review-08.webp",
       "tile": 3,
       "architecture": {
-        "en": "an adaptive-reuse factory apartment with black steel windows, selective exposed brick and real structural rhythm",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.50569661,
-        "y": 0.25195312,
-        "width": 0.48958333,
-        "height": 0.24479167
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2261,17 +2261,17 @@
       "tier": "economy",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/industrial-economy.webp",
+      "image": "/images/gallery/quality-review-08.webp",
       "tile": 4,
       "architecture": {
-        "en": "a modern concrete loft with tall corner glazing, a retained steel beam and a bright generous volume",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.00472005,
-        "y": 0.50325521,
-        "width": 0.48958333,
-        "height": 0.24479167
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2281,17 +2281,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 17,
-      "image": "/images/gallery/industrial-economy.webp",
+      "image": "/images/gallery/quality-review-08.webp",
       "tile": 5,
       "architecture": {
-        "en": "a converted workshop apartment with a sawtooth rooflight, useful brick piers and a clean modern insert",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.50569661,
-        "y": 0.50325521,
-        "width": 0.48958333,
-        "height": 0.24479167
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2301,17 +2301,17 @@
       "tier": "economy",
       "size": "large",
       "area": 33,
-      "image": "/images/gallery/industrial-economy.webp",
+      "image": "/images/gallery/quality-review-08.webp",
       "tile": 6,
       "architecture": {
-        "en": "an adaptive-reuse factory apartment with black steel windows, selective exposed brick and real structural rhythm",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.00667318,
-        "y": 0.75455729,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2341,17 +2341,17 @@
       "tier": "budget",
       "size": "medium",
       "area": 17,
-      "image": "/images/gallery/industrial-budget.webp",
-      "tile": 1,
+      "image": "/images/gallery/quality-review-08.webp",
+      "tile": 7,
       "architecture": {
-        "en": "a converted workshop apartment with a sawtooth rooflight, useful brick piers and a clean modern insert",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.50960286,
-        "y": 0.00260417,
-        "width": 0.48177083,
-        "height": 0.24088542
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2381,17 +2381,17 @@
       "tier": "budget",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/industrial-budget.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-09.webp",
+      "tile": 0,
       "architecture": {
-        "en": "a modern concrete loft with tall corner glazing, a retained steel beam and a bright generous volume",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.50488281,
-        "y": 0.25056966,
-        "width": 0.49121094,
-        "height": 0.24560547
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2401,17 +2401,17 @@
       "tier": "budget",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/industrial-budget.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-09.webp",
+      "tile": 1,
       "architecture": {
-        "en": "a converted workshop apartment with a sawtooth rooflight, useful brick piers and a clean modern insert",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.00927734,
-        "y": 0.50325521,
-        "width": 0.48046875,
-        "height": 0.24023438
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2421,17 +2421,17 @@
       "tier": "budget",
       "size": "large",
       "area": 31,
-      "image": "/images/gallery/geometry-review-02.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-09.webp",
+      "tile": 2,
       "architecture": {
-        "en": "A large industrial dining with conventional rectangular construction. Use straight steel lintels above rectangular factory glazing; retain brickwork, timber table and dark metal chairs.",
-        "uk": "Їдальня, стиль «Індустріальний», категорія площі «Велика площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.00569661,
-        "y": 0.50390625,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2441,17 +2441,17 @@
       "tier": "budget",
       "size": "small",
       "area": 8,
-      "image": "/images/gallery/industrial-budget.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-09.webp",
+      "tile": 3,
       "architecture": {
-        "en": "a modern concrete loft with tall corner glazing, a retained steel beam and a bright generous volume",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.75089518,
-        "width": 0.49121094,
-        "height": 0.24560547
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2521,17 +2521,17 @@
       "tier": "premium",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/industrial-premium.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-09.webp",
+      "tile": 4,
       "architecture": {
-        "en": "a converted workshop apartment with a sawtooth rooflight, useful brick piers and a clean modern insert",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.50748698,
-        "y": 0.25325521,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2541,17 +2541,17 @@
       "tier": "premium",
       "size": "large",
       "area": 23,
-      "image": "/images/gallery/industrial-premium.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-09.webp",
+      "tile": 5,
       "architecture": {
-        "en": "an adaptive-reuse factory apartment with black steel windows, selective exposed brick and real structural rhythm",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.00683594,
-        "y": 0.50455729,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2581,17 +2581,17 @@
       "tier": "premium",
       "size": "medium",
       "area": 16,
-      "image": "/images/gallery/industrial-premium.webp",
+      "image": "/images/gallery/quality-review-09.webp",
       "tile": 6,
       "architecture": {
-        "en": "a converted workshop apartment with a sawtooth rooflight, useful brick piers and a clean modern insert",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.0061849,
-        "y": 0.75455729,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2601,17 +2601,17 @@
       "tier": "economy",
       "size": "small",
       "area": 13,
-      "image": "/images/gallery/contemporary-economy.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-09.webp",
+      "tile": 7,
       "architecture": {
-        "en": "a striking modern apartment with broad black-framed sliding glass, a sculptural wall and a vivid art focal point",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.01497396,
-        "y": 0.00260417,
-        "width": 0.47005208,
-        "height": 0.23502604
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2621,17 +2621,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 17,
-      "image": "/images/gallery/contemporary-economy.webp",
-      "tile": 1,
+      "image": "/images/gallery/quality-review-10.webp",
+      "tile": 0,
       "architecture": {
-        "en": "a contemporary courtyard apartment with a rooflight, a stepped ceiling and beautifully composed built-in joinery",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.51546224,
-        "y": 0.00260417,
-        "width": 0.47005208,
-        "height": 0.23502604
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2681,17 +2681,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/contemporary-economy.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-10.webp",
+      "tile": 1,
       "architecture": {
-        "en": "a contemporary courtyard apartment with a rooflight, a stepped ceiling and beautifully composed built-in joinery",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.01627604,
-        "y": 0.49674479,
-        "width": 0.46744792,
-        "height": 0.23372396
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2721,17 +2721,17 @@
       "tier": "economy",
       "size": "small",
       "area": 8,
-      "image": "/images/gallery/contemporary-economy.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-10.webp",
+      "tile": 2,
       "architecture": {
-        "en": "a striking modern apartment with broad black-framed sliding glass, a sculptural wall and a vivid art focal point",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.7438151,
-        "width": 0.4921875,
-        "height": 0.24609375
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2741,17 +2741,17 @@
       "tier": "budget",
       "size": "medium",
       "area": 25,
-      "image": "/images/gallery/contemporary-budget.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-10.webp",
+      "tile": 3,
       "architecture": {
-        "en": "a contemporary courtyard apartment with a rooflight, a stepped ceiling and beautifully composed built-in joinery",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.0094401,
-        "y": 0.00260417,
-        "width": 0.47916667,
-        "height": 0.23958333
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2801,17 +2801,17 @@
       "tier": "budget",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/contemporary-budget.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-10.webp",
+      "tile": 4,
       "architecture": {
-        "en": "a contemporary courtyard apartment with a rooflight, a stepped ceiling and beautifully composed built-in joinery",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.51334635,
-        "y": 0.25,
-        "width": 0.47526042,
-        "height": 0.23763021
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2821,17 +2821,17 @@
       "tier": "budget",
       "size": "large",
       "area": 23,
-      "image": "/images/gallery/geometry-review-03.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-10.webp",
+      "tile": 5,
       "architecture": {
-        "en": "A large contemporary office with conventional rectangular construction. Use large rectangular corner windows separated by a clear structural post; keep the desk and storage practical.",
-        "uk": "Кабінет, стиль «Сучасний», категорія площі «Велика площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.01155599,
-        "y": 0.00260417,
-        "width": 0.47395833,
-        "height": 0.23697917
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2861,17 +2861,17 @@
       "tier": "budget",
       "size": "medium",
       "area": 16,
-      "image": "/images/gallery/contemporary-budget.webp",
+      "image": "/images/gallery/quality-review-10.webp",
       "tile": 6,
       "architecture": {
-        "en": "a contemporary courtyard apartment with a rooflight, a stepped ceiling and beautifully composed built-in joinery",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.74495443,
-        "width": 0.49023438,
-        "height": 0.24511719
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2893,7 +2893,7 @@
         "width": 0.47916667,
         "height": 0.23958333
       },
-      "detailImage": "/images/gallery/reviewed-living-contemporary-premium.webp"
+      "detailImage": "/images/gallery/quality-featured-living-contemporary-premium.webp"
     },
     {
       "id": "bedroom-contemporary-premium",
@@ -2922,17 +2922,17 @@
       "tier": "premium",
       "size": "medium",
       "area": 7,
-      "image": "/images/gallery/contemporary-premium.webp",
-      "tile": 2,
+      "image": "/images/gallery/quality-review-10.webp",
+      "tile": 7,
       "architecture": {
-        "en": "a contemporary courtyard apartment with a rooflight, a stepped ceiling and beautifully composed built-in joinery",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.00878906,
-        "y": 0.25,
-        "width": 0.48046875,
-        "height": 0.24023438
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -2962,17 +2962,17 @@
       "tier": "premium",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/contemporary-premium.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-11.webp",
+      "tile": 0,
       "architecture": {
-        "en": "a striking modern apartment with broad black-framed sliding glass, a sculptural wall and a vivid art focal point",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.01009115,
-        "y": 0.49804688,
-        "width": 0.47786458,
-        "height": 0.23893229
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3002,17 +3002,17 @@
       "tier": "premium",
       "size": "large",
       "area": 33,
-      "image": "/images/gallery/geometry-review-03.webp",
-      "tile": 2,
+      "image": "/images/gallery/quality-review-11.webp",
+      "tile": 1,
       "architecture": {
-        "en": "A large contemporary workspace with conventional rectangular construction. Keep the workspace style, materials and scale, but use straight rectangular glazing in a conventional rectilinear room.",
-        "uk": "Творча майстерня, стиль «Сучасний», категорія площі «Велика площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.0069987,
-        "y": 0.24934896,
-        "width": 0.48307292,
-        "height": 0.24153646
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3022,17 +3022,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 25,
-      "image": "/images/gallery/mediterranean-economy.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-11.webp",
+      "tile": 2,
       "architecture": {
-        "en": "a modern southern-European apartment with deep plaster window reveals, blue shutters and warm terracotta",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.00553385,
-        "y": 0.00260417,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3082,17 +3082,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/mediterranean-economy.webp",
+      "image": "/images/gallery/quality-review-11.webp",
       "tile": 3,
       "architecture": {
-        "en": "a modern southern-European apartment with deep plaster window reveals, blue shutters and warm terracotta",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.50878906,
-        "y": 0.25390625,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3102,17 +3102,17 @@
       "tier": "economy",
       "size": "large",
       "area": 23,
-      "image": "/images/gallery/geometry-review-03.webp",
+      "image": "/images/gallery/quality-review-11.webp",
       "tile": 4,
       "architecture": {
-        "en": "A large mediterranean office with conventional rectangular construction. Use a rectangular window, a flat ceiling with simple level timber beams, plaster walls and warm practical storage.",
-        "uk": "Кабінет, стиль «Середземноморський», категорія площі «Велика площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.01090495,
-        "y": 0.50065104,
-        "width": 0.47526042,
-        "height": 0.23763021
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3142,17 +3142,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 16,
-      "image": "/images/gallery/mediterranean-economy.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-11.webp",
+      "tile": 5,
       "architecture": {
-        "en": "a modern southern-European apartment with deep plaster window reveals, blue shutters and warm terracotta",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.00553385,
-        "y": 0.75390625,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3162,17 +3162,17 @@
       "tier": "budget",
       "size": "large",
       "area": 44,
-      "image": "/images/gallery/geometry-review-03.webp",
-      "tile": 5,
+      "image": "/images/gallery/quality-review-11.webp",
+      "tile": 6,
       "architecture": {
-        "en": "A large mediterranean living with conventional rectangular construction. Use only rectangular doors and windows with visible straight lintels and a level ceiling; retain the living's Mediterranean plaster, timber, blue and terracotta palette.",
-        "uk": "Вітальня, стиль «Середземноморський», категорія площі «Велика площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.51383464,
-        "y": 0.50065104,
-        "width": 0.47526042,
-        "height": 0.23763021
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3182,17 +3182,17 @@
       "tier": "budget",
       "size": "small",
       "area": 10,
-      "image": "/images/gallery/mediterranean-budget.webp",
-      "tile": 1,
+      "image": "/images/gallery/quality-review-11.webp",
+      "tile": 7,
       "architecture": {
-        "en": "a contemporary coastal apartment with broad terrace glazing, chalky plaster and a warm timber ceiling detail",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.50797526,
-        "y": 0.00260417,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3222,17 +3222,17 @@
       "tier": "budget",
       "size": "large",
       "area": 25,
-      "image": "/images/gallery/geometry-review-03.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-12.webp",
+      "tile": 0,
       "architecture": {
-        "en": "A large mediterranean kitchen with conventional rectangular construction. Use only rectangular doors and windows with visible straight lintels and a level ceiling; retain the kitchen's Mediterranean plaster, timber, blue and terracotta palette.",
-        "uk": "Кухня, стиль «Середземноморський», категорія площі «Велика площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.7504069,
-        "width": 0.48925781,
-        "height": 0.24462891
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3242,17 +3242,17 @@
       "tier": "budget",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/mediterranean-budget.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-12.webp",
+      "tile": 1,
       "architecture": {
-        "en": "a contemporary coastal apartment with broad terrace glazing, chalky plaster and a warm timber ceiling detail",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.00585938,
-        "y": 0.50260417,
-        "width": 0.48828125,
-        "height": 0.24414062
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3282,17 +3282,17 @@
       "tier": "budget",
       "size": "large",
       "area": 33,
-      "image": "/images/gallery/geometry-review-04.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-12.webp",
+      "tile": 2,
       "architecture": {
-        "en": "A large mediterranean workspace with conventional rectangular construction. Use only rectangular doors and windows with visible straight lintels and a level ceiling; retain the workspace's Mediterranean plaster, timber, blue and terracotta palette.",
-        "uk": "Творча майстерня, стиль «Середземноморський», категорія площі «Велика площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.00732422,
-        "y": 0.00260417,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3362,17 +3362,17 @@
       "tier": "premium",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/mediterranean-premium.webp",
+      "image": "/images/gallery/quality-review-12.webp",
       "tile": 3,
       "architecture": {
-        "en": "a contemporary coastal apartment with broad terrace glazing, chalky plaster and a warm timber ceiling detail",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.50683594,
-        "y": 0.2421875,
-        "width": 0.48828125,
-        "height": 0.24414062
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3382,17 +3382,17 @@
       "tier": "premium",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/mediterranean-premium.webp",
+      "image": "/images/gallery/quality-review-12.webp",
       "tile": 4,
       "architecture": {
-        "en": "a modern southern-European apartment with deep plaster window reveals, blue shutters and warm terracotta",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.00748698,
-        "y": 0.49414062,
-        "width": 0.48307292,
-        "height": 0.24153646
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3402,17 +3402,17 @@
       "tier": "premium",
       "size": "large",
       "area": 31,
-      "image": "/images/gallery/geometry-review-04.webp",
-      "tile": 2,
+      "image": "/images/gallery/quality-review-12.webp",
+      "tile": 5,
       "architecture": {
-        "en": "A large mediterranean dining with conventional rectangular construction. Use straight rectangular courtyard doors and flat ceilings; retain the dining's Mediterranean materials, color and practical furniture layout.",
-        "uk": "Їдальня, стиль «Середземноморський», категорія площі «Велика площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.00602214,
-        "y": 0.25260417,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3422,17 +3422,17 @@
       "tier": "premium",
       "size": "small",
       "area": 8,
-      "image": "/images/gallery/mediterranean-premium.webp",
+      "image": "/images/gallery/quality-review-12.webp",
       "tile": 6,
       "architecture": {
-        "en": "a contemporary coastal apartment with broad terrace glazing, chalky plaster and a warm timber ceiling detail",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.74755859,
-        "width": 0.49023438,
-        "height": 0.24511719
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3442,17 +3442,17 @@
       "tier": "economy",
       "size": "large",
       "area": 44,
-      "image": "/images/gallery/bohemian-economy.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-12.webp",
+      "tile": 7,
       "architecture": {
-        "en": "a bright urban loft with tall windows, a colorful architectural wall and layered personal art",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.0164388,
-        "y": 0.00260417,
-        "width": 0.46614583,
-        "height": 0.23307292
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3482,17 +3482,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 7,
-      "image": "/images/gallery/geometry-review-04.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-13.webp",
+      "tile": 0,
       "architecture": {
-        "en": "A medium bohemian bathroom with conventional rectangular construction. Replace the arch with a well-proportioned rectangular opening and a straight structural lintel. Keep the existing room style, furnishings, color and natural material character.",
-        "uk": "Ванна кімната, стиль «Богемний», категорія площі «Середня площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.50748698,
-        "y": 0.25260417,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3502,17 +3502,17 @@
       "tier": "economy",
       "size": "large",
       "area": 25,
-      "image": "/images/gallery/bohemian-economy.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-13.webp",
+      "tile": 1,
       "architecture": {
-        "en": "a bright urban loft with tall windows, a colorful architectural wall and layered personal art",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.52555339,
-        "y": 0.24348958,
-        "width": 0.45182292,
-        "height": 0.22591146
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3522,17 +3522,17 @@
       "tier": "economy",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/bohemian-economy.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-22.webp",
+      "tile": 0,
       "architecture": {
-        "en": "a modern courtyard apartment with an interesting offset window and textured plaster",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a compact ochre-painted study with a side window, vintage writing desk and plain level ceiling",
+        "uk": "Компактний кабінет вохристого кольору з боковим вікном, вінтажним письмовим столом і пласкою стелею"
       },
       "crop": {
-        "x": 0.00667318,
-        "y": 0.47721354,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3542,17 +3542,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 17,
-      "image": "/images/gallery/geometry-review-04.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-13.webp",
+      "tile": 3,
       "architecture": {
-        "en": "A medium bohemian dining with conventional rectangular construction. Replace the arch with a well-proportioned rectangular opening and a straight structural lintel. Keep the existing room style, furnishings, color and natural material character.",
-        "uk": "Їдальня, стиль «Богемний», категорія площі «Середня площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.00732422,
-        "y": 0.50390625,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3562,17 +3562,17 @@
       "tier": "economy",
       "size": "large",
       "area": 33,
-      "image": "/images/gallery/bohemian-economy.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-13.webp",
+      "tile": 4,
       "architecture": {
-        "en": "a bright urban loft with tall windows, a colorful architectural wall and layered personal art",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.74015299,
-        "width": 0.49121094,
-        "height": 0.24560547
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3582,17 +3582,17 @@
       "tier": "budget",
       "size": "small",
       "area": 13,
-      "image": "/images/gallery/bohemian-budget.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-13.webp",
+      "tile": 5,
       "architecture": {
-        "en": "a modern courtyard apartment with an interesting offset window and textured plaster",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.0061849,
-        "y": 0.00260417,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3602,17 +3602,17 @@
       "tier": "budget",
       "size": "medium",
       "area": 17,
-      "image": "/images/gallery/bohemian-budget.webp",
-      "tile": 1,
+      "image": "/images/gallery/quality-review-13.webp",
+      "tile": 6,
       "architecture": {
-        "en": "an airy converted apartment with a retained arch, clean contemporary storage and vivid textiles",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.50813802,
-        "y": 0.00260417,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3622,17 +3622,17 @@
       "tier": "budget",
       "size": "large",
       "area": 13,
-      "image": "/images/gallery/bohemian-budget.webp",
-      "tile": 2,
+      "image": "/images/gallery/quality-review-22.webp",
+      "tile": 1,
       "architecture": {
-        "en": "a bright urban loft with tall windows, a colorful architectural wall and layered personal art",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a large plum-and-terracotta bathroom with a high horizontal frosted window and a continuous level ceiling",
+        "uk": "Простора ванна у сливових і теракотових тонах із високим горизонтальним матовим вікном та рівною стелею"
       },
       "crop": {
-        "x": 0.00683594,
-        "y": 0.25325521,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3642,17 +3642,17 @@
       "tier": "budget",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/bohemian-budget.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-14.webp",
+      "tile": 0,
       "architecture": {
-        "en": "a modern courtyard apartment with an interesting offset window and textured plaster",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.50878906,
-        "y": 0.25325521,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3662,17 +3662,17 @@
       "tier": "budget",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/geometry-review-04.webp",
-      "tile": 5,
+      "image": "/images/gallery/quality-review-14.webp",
+      "tile": 1,
       "architecture": {
-        "en": "A medium bohemian office with conventional rectangular construction. Replace the arch with a well-proportioned rectangular opening and a straight structural lintel. Keep the existing room style, furnishings, color and natural material character.",
-        "uk": "Кабінет, стиль «Богемний», категорія площі «Середня площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.50878906,
-        "y": 0.50390625,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3682,17 +3682,17 @@
       "tier": "budget",
       "size": "large",
       "area": 31,
-      "image": "/images/gallery/bohemian-budget.webp",
-      "tile": 5,
+      "image": "/images/gallery/quality-review-14.webp",
+      "tile": 2,
       "architecture": {
-        "en": "a bright urban loft with tall windows, a colorful architectural wall and layered personal art",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.50878906,
-        "y": 0.50325521,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3702,17 +3702,17 @@
       "tier": "budget",
       "size": "small",
       "area": 8,
-      "image": "/images/gallery/bohemian-budget.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-14.webp",
+      "tile": 3,
       "architecture": {
-        "en": "a modern courtyard apartment with an interesting offset window and textured plaster",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.00488281,
-        "y": 0.75325521,
-        "width": 0.48828125,
-        "height": 0.24414062
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3722,17 +3722,17 @@
       "tier": "premium",
       "size": "medium",
       "area": 25,
-      "image": "/images/gallery/geometry-review-04.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-14.webp",
+      "tile": 4,
       "architecture": {
-        "en": "A medium bohemian living with conventional rectangular construction. Replace the arch with a well-proportioned rectangular opening and a straight structural lintel. Keep the existing room style, furnishings, color and natural material character.",
-        "uk": "Вітальня, стиль «Богемний», категорія площі «Середня площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.00602214,
-        "y": 0.75390625,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3742,17 +3742,17 @@
       "tier": "premium",
       "size": "large",
       "area": 29,
-      "image": "/images/gallery/bohemian-premium.webp",
-      "tile": 1,
+      "image": "/images/gallery/quality-review-14.webp",
+      "tile": 5,
       "architecture": {
-        "en": "a bright urban loft with tall windows, a colorful architectural wall and layered personal art",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.52067057,
-        "y": 0.00260417,
-        "width": 0.45963542,
-        "height": 0.22981771
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3762,17 +3762,17 @@
       "tier": "premium",
       "size": "small",
       "area": 4,
-      "image": "/images/gallery/bohemian-premium.webp",
-      "tile": 2,
+      "image": "/images/gallery/quality-review-14.webp",
+      "tile": 6,
       "architecture": {
-        "en": "a modern courtyard apartment with an interesting offset window and textured plaster",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.2405599,
-        "width": 0.4921875,
-        "height": 0.24609375
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3782,17 +3782,17 @@
       "tier": "premium",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/geometry-review-04.webp",
+      "image": "/images/gallery/quality-review-14.webp",
       "tile": 7,
       "architecture": {
-        "en": "A medium bohemian kitchen with conventional rectangular construction. Replace the arch with a well-proportioned rectangular opening and a straight structural lintel. Keep the existing room style, furnishings, color and natural material character.",
-        "uk": "Кухня, стиль «Богемний», категорія площі «Середня площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.50748698,
-        "y": 0.75390625,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3802,17 +3802,17 @@
       "tier": "premium",
       "size": "large",
       "area": 23,
-      "image": "/images/gallery/bohemian-premium.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-15.webp",
+      "tile": 0,
       "architecture": {
-        "en": "a bright urban loft with tall windows, a colorful architectural wall and layered personal art",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.015625,
-        "y": 0.49479167,
-        "width": 0.46875,
-        "height": 0.234375
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3822,17 +3822,17 @@
       "tier": "premium",
       "size": "small",
       "area": 9,
-      "image": "/images/gallery/bohemian-premium.webp",
-      "tile": 5,
+      "image": "/images/gallery/quality-review-15.webp",
+      "tile": 1,
       "architecture": {
-        "en": "a modern courtyard apartment with an interesting offset window and textured plaster",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.51611328,
-        "y": 0.49479167,
-        "width": 0.46875,
-        "height": 0.234375
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3842,17 +3842,17 @@
       "tier": "premium",
       "size": "medium",
       "area": 16,
-      "image": "/images/gallery/bohemian-premium.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-15.webp",
+      "tile": 2,
       "architecture": {
-        "en": "an airy converted apartment with a retained arch, clean contemporary storage and vivid textiles",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.74316406,
-        "width": 0.4921875,
-        "height": 0.24609375
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3862,17 +3862,17 @@
       "tier": "economy",
       "size": "small",
       "area": 13,
-      "image": "/images/gallery/art-deco-economy.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-15.webp",
+      "tile": 3,
       "architecture": {
-        "en": "a well-proportioned 1930s apartment with a geometric bay window and a clean curved door opening",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.01464844,
-        "y": 0.00260417,
-        "width": 0.46875,
-        "height": 0.234375
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3882,17 +3882,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 17,
-      "image": "/images/gallery/art-deco-economy.webp",
-      "tile": 1,
+      "image": "/images/gallery/quality-review-21.webp",
+      "tile": 0,
       "architecture": {
-        "en": "a contemporary apartment with ribbed-glass partition detail, stepped ceiling geometry and broad daylight",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a economy-specified renovated apartment room with a plain level ceiling, one straight rectangular wall window, perpendicular walls and simple straight cornice",
+        "uk": "Оновлена квартира з пласкою стелею, одним прямокутним вікном, прямими стінами та простим карнизом"
       },
       "crop": {
-        "x": 0.51660156,
-        "y": 0.00260417,
-        "width": 0.46875,
-        "height": 0.234375
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3922,17 +3922,17 @@
       "tier": "economy",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/art-deco-economy.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-15.webp",
+      "tile": 4,
       "architecture": {
-        "en": "a well-proportioned 1930s apartment with a geometric bay window and a clean curved door opening",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.51529948,
-        "y": 0.24283854,
-        "width": 0.47135417,
-        "height": 0.23567708
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3942,17 +3942,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/art-deco-economy.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-15.webp",
+      "tile": 5,
       "architecture": {
-        "en": "a contemporary apartment with ribbed-glass partition detail, stepped ceiling geometry and broad daylight",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.4991862,
-        "width": 0.49023438,
-        "height": 0.24511719
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -3982,17 +3982,17 @@
       "tier": "economy",
       "size": "small",
       "area": 8,
-      "image": "/images/gallery/art-deco-economy.webp",
+      "image": "/images/gallery/quality-review-15.webp",
       "tile": 6,
       "architecture": {
-        "en": "a well-proportioned 1930s apartment with a geometric bay window and a clean curved door opening",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.01660156,
-        "y": 0.76497396,
-        "width": 0.46484375,
-        "height": 0.23242188
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4002,17 +4002,17 @@
       "tier": "budget",
       "size": "medium",
       "area": 25,
-      "image": "/images/gallery/geometry-review-05.webp",
-      "tile": 1,
+      "image": "/images/gallery/quality-review-15.webp",
+      "tile": 7,
       "architecture": {
-        "en": "A medium art-deco living with conventional rectangular construction. Use rectangular window/door frames and straight lintels. Preserve the Art Deco living's walnut, velvet, green or burgundy accents, brass and geometric decoration.",
-        "uk": "Вітальня, стиль «Ар-деко», категорія площі «Середня площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.50846354,
-        "y": 0.00260417,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4042,17 +4042,17 @@
       "tier": "budget",
       "size": "small",
       "area": 4,
-      "image": "/images/gallery/art-deco-budget.webp",
-      "tile": 2,
+      "image": "/images/gallery/quality-review-16.webp",
+      "tile": 0,
       "architecture": {
-        "en": "a well-proportioned 1930s apartment with a geometric bay window and a clean curved door opening",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.00423177,
-        "y": 0.24348958,
-        "width": 0.48958333,
-        "height": 0.24479167
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4082,15 +4082,15 @@
       "tier": "budget",
       "size": "large",
       "area": 23,
-      "image": "/images/gallery/art-deco-budget.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-16.webp",
+      "tile": 1,
       "architecture": {
-        "en": "a renovated period apartment with a tall slim window, a subtle curved wall and modern integrated joinery",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.01074219,
-        "y": 0.49414062,
+        "x": 0.51171875,
+        "y": 0.005859375,
         "width": 0.4765625,
         "height": 0.23828125
       }
@@ -4122,17 +4122,17 @@
       "tier": "budget",
       "size": "medium",
       "area": 16,
-      "image": "/images/gallery/art-deco-budget.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-16.webp",
+      "tile": 2,
       "architecture": {
-        "en": "a contemporary apartment with ribbed-glass partition detail, stepped ceiling geometry and broad daylight",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.74527995,
-        "width": 0.49023438,
-        "height": 0.24511719
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4142,17 +4142,17 @@
       "tier": "premium",
       "size": "large",
       "area": 44,
-      "image": "/images/gallery/art-deco-premium.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-16.webp",
+      "tile": 3,
       "architecture": {
-        "en": "a renovated period apartment with a tall slim window, a subtle curved wall and modern integrated joinery",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.00488281,
-        "y": 0.00260417,
-        "width": 0.48828125,
-        "height": 0.24414062
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4162,17 +4162,17 @@
       "tier": "premium",
       "size": "small",
       "area": 10,
-      "image": "/images/gallery/art-deco-premium.webp",
+      "image": "/images/gallery/quality-review-21.webp",
       "tile": 1,
       "architecture": {
-        "en": "a well-proportioned 1930s apartment with a geometric bay window and a clean curved door opening",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a premium-specified renovated apartment room with a plain level ceiling, one straight rectangular wall window, perpendicular walls and simple straight cornice",
+        "uk": "Оновлена квартира з пласкою стелею, одним прямокутним вікном, прямими стінами та простим карнизом"
       },
       "crop": {
-        "x": 0.50683594,
-        "y": 0.00260417,
-        "width": 0.48828125,
-        "height": 0.24414062
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4202,17 +4202,17 @@
       "tier": "premium",
       "size": "large",
       "area": 25,
-      "image": "/images/gallery/art-deco-premium.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-16.webp",
+      "tile": 4,
       "architecture": {
-        "en": "a renovated period apartment with a tall slim window, a subtle curved wall and modern integrated joinery",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.5094401,
-        "y": 0.25455729,
-        "width": 0.48307292,
-        "height": 0.24153646
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4222,17 +4222,17 @@
       "tier": "premium",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/art-deco-premium.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-16.webp",
+      "tile": 5,
       "architecture": {
-        "en": "a well-proportioned 1930s apartment with a geometric bay window and a clean curved door opening",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.00683594,
-        "y": 0.50390625,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4242,17 +4242,17 @@
       "tier": "premium",
       "size": "medium",
       "area": 17,
-      "image": "/images/gallery/art-deco-premium.webp",
-      "tile": 5,
+      "image": "/images/gallery/quality-review-16.webp",
+      "tile": 6,
       "architecture": {
-        "en": "a contemporary apartment with ribbed-glass partition detail, stepped ceiling geometry and broad daylight",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.50878906,
-        "y": 0.50390625,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4262,17 +4262,17 @@
       "tier": "premium",
       "size": "large",
       "area": 33,
-      "image": "/images/gallery/art-deco-premium.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-16.webp",
+      "tile": 7,
       "architecture": {
-        "en": "a renovated period apartment with a tall slim window, a subtle curved wall and modern integrated joinery",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.00553385,
-        "y": 0.75390625,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4282,17 +4282,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 25,
-      "image": "/images/gallery/modern-classic-economy.webp",
+      "image": "/images/gallery/quality-review-17.webp",
       "tile": 0,
       "architecture": {
-        "en": "an airy period apartment with excellent window proportions, restrained cornice and a contemporary glass opening",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.01057943,
-        "y": 0.00260417,
-        "width": 0.47786458,
-        "height": 0.23893229
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4322,17 +4322,17 @@
       "tier": "economy",
       "size": "small",
       "area": 4,
-      "image": "/images/gallery/modern-classic-economy.webp",
-      "tile": 2,
+      "image": "/images/gallery/quality-review-21.webp",
+      "tile": 3,
       "architecture": {
-        "en": "a renovated classic apartment with refined door casing, a broad bay window and a modern built-in storage wall",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a economy-specified renovated apartment room with a plain level ceiling, one straight rectangular wall window, perpendicular walls and simple straight cornice",
+        "uk": "Оновлена квартира з пласкою стелею, одним прямокутним вікном, прямими стінами та простим карнизом"
       },
       "crop": {
-        "x": 0.00537109,
-        "y": 0.24869792,
-        "width": 0.48828125,
-        "height": 0.24414062
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4342,17 +4342,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/modern-classic-economy.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-17.webp",
+      "tile": 1,
       "architecture": {
-        "en": "an airy period apartment with excellent window proportions, restrained cornice and a contemporary glass opening",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.50683594,
-        "y": 0.24869792,
-        "width": 0.48828125,
-        "height": 0.24414062
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4362,17 +4362,17 @@
       "tier": "economy",
       "size": "large",
       "area": 23,
-      "image": "/images/gallery/modern-classic-economy.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-17.webp",
+      "tile": 2,
       "architecture": {
-        "en": "a modern apartment with subtle wall panels, a tall corner window and a clean elegant ceiling",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.01578776,
-        "y": 0.5,
-        "width": 0.46744792,
-        "height": 0.23372396
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4382,17 +4382,17 @@
       "tier": "economy",
       "size": "small",
       "area": 9,
-      "image": "/images/gallery/modern-classic-economy.webp",
-      "tile": 5,
+      "image": "/images/gallery/quality-review-17.webp",
+      "tile": 3,
       "architecture": {
-        "en": "a renovated classic apartment with refined door casing, a broad bay window and a modern built-in storage wall",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.5172526,
-        "y": 0.5,
-        "width": 0.46744792,
-        "height": 0.23372396
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4402,17 +4402,17 @@
       "tier": "economy",
       "size": "medium",
       "area": 16,
-      "image": "/images/gallery/modern-classic-economy.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-17.webp",
+      "tile": 4,
       "architecture": {
-        "en": "an airy period apartment with excellent window proportions, restrained cornice and a contemporary glass opening",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.74633789,
-        "width": 0.49121094,
-        "height": 0.24560547
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4422,17 +4422,17 @@
       "tier": "budget",
       "size": "large",
       "area": 44,
-      "image": "/images/gallery/modern-classic-budget.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-17.webp",
+      "tile": 5,
       "architecture": {
-        "en": "a modern apartment with subtle wall panels, a tall corner window and a clean elegant ceiling",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.0061849,
-        "y": 0.00260417,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4442,17 +4442,17 @@
       "tier": "budget",
       "size": "small",
       "area": 10,
-      "image": "/images/gallery/modern-classic-budget.webp",
-      "tile": 1,
+      "image": "/images/gallery/quality-review-21.webp",
+      "tile": 2,
       "architecture": {
-        "en": "a renovated classic apartment with refined door casing, a broad bay window and a modern built-in storage wall",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a budget-specified renovated apartment room with a plain level ceiling, one straight rectangular wall window, perpendicular walls and simple straight cornice",
+        "uk": "Оновлена квартира з пласкою стелею, одним прямокутним вікном, прямими стінами та простим карнизом"
       },
       "crop": {
-        "x": 0.50813802,
-        "y": 0.00260417,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4482,17 +4482,17 @@
       "tier": "budget",
       "size": "large",
       "area": 25,
-      "image": "/images/gallery/modern-classic-budget.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-17.webp",
+      "tile": 6,
       "architecture": {
-        "en": "a modern apartment with subtle wall panels, a tall corner window and a clean elegant ceiling",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.50813802,
-        "y": 0.25260417,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4502,17 +4502,17 @@
       "tier": "budget",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/modern-classic-budget.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-17.webp",
+      "tile": 7,
       "architecture": {
-        "en": "a renovated classic apartment with refined door casing, a broad bay window and a modern built-in storage wall",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.0061849,
-        "y": 0.50260417,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4542,17 +4542,17 @@
       "tier": "budget",
       "size": "large",
       "area": 33,
-      "image": "/images/gallery/modern-classic-budget.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-18.webp",
+      "tile": 0,
       "architecture": {
-        "en": "a modern apartment with subtle wall panels, a tall corner window and a clean elegant ceiling",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.00488281,
-        "y": 0.75325521,
-        "width": 0.48828125,
-        "height": 0.24414062
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4562,17 +4562,17 @@
       "tier": "premium",
       "size": "small",
       "area": 13,
-      "image": "/images/gallery/modern-classic-premium.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-18.webp",
+      "tile": 1,
       "architecture": {
-        "en": "a renovated classic apartment with refined door casing, a broad bay window and a modern built-in storage wall",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.00553385,
-        "y": 0.00260417,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4622,17 +4622,17 @@
       "tier": "premium",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/modern-classic-premium.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-18.webp",
+      "tile": 2,
       "architecture": {
-        "en": "a renovated classic apartment with refined door casing, a broad bay window and a modern built-in storage wall",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.50878906,
-        "y": 0.25390625,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4642,17 +4642,17 @@
       "tier": "premium",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/modern-classic-premium.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-18.webp",
+      "tile": 3,
       "architecture": {
-        "en": "an airy period apartment with excellent window proportions, restrained cornice and a contemporary glass opening",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.00683594,
-        "y": 0.50390625,
-        "width": 0.484375,
-        "height": 0.2421875
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4682,17 +4682,17 @@
       "tier": "premium",
       "size": "small",
       "area": 8,
-      "image": "/images/gallery/modern-classic-premium.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-18.webp",
+      "tile": 4,
       "architecture": {
-        "en": "a renovated classic apartment with refined door casing, a broad bay window and a modern built-in storage wall",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.00553385,
-        "y": 0.75390625,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4702,17 +4702,17 @@
       "tier": "economy",
       "size": "large",
       "area": 44,
-      "image": "/images/gallery/wabi-sabi-economy.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-18.webp",
+      "tile": 5,
       "architecture": {
-        "en": "a contemporary apartment with deep plaster window reveals, tactile walls and a simple timber opening",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.01432292,
-        "y": 0.00260417,
-        "width": 0.47135417,
-        "height": 0.23567708
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4722,17 +4722,17 @@
       "tier": "economy",
       "size": "small",
       "area": 10,
-      "image": "/images/gallery/wabi-sabi-economy.webp",
-      "tile": 1,
+      "image": "/images/gallery/quality-review-18.webp",
+      "tile": 6,
       "architecture": {
-        "en": "a quiet courtyard apartment with a broad rooflight, sculptural plaster volumes and genuine directional light",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.5148112,
-        "y": 0.00260417,
-        "width": 0.47135417,
-        "height": 0.23567708
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4762,17 +4762,17 @@
       "tier": "economy",
       "size": "large",
       "area": 25,
-      "image": "/images/gallery/wabi-sabi-economy.webp",
-      "tile": 3,
+      "image": "/images/gallery/quality-review-18.webp",
+      "tile": 7,
       "architecture": {
-        "en": "a contemporary apartment with deep plaster window reveals, tactile walls and a simple timber opening",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "an ordinary renovated city flat, with one broad rectangular sash window, straight plaster walls and a plain level ceiling",
+        "uk": "Оновлена міська квартира з прямокутним вікном, рівними стінами й пласкою стелею"
       },
       "crop": {
-        "x": 0.50488281,
-        "y": 0.24601237,
-        "width": 0.49121094,
-        "height": 0.24560547
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4782,17 +4782,17 @@
       "tier": "economy",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/geometry-review-05.webp",
-      "tile": 5,
+      "image": "/images/gallery/quality-review-19.webp",
+      "tile": 0,
       "architecture": {
-        "en": "A small wabi-sabi office with conventional rectangular construction. Use a flat plaster ceiling and a rectangular side window above a practical desk.",
-        "uk": "Кабінет, стиль «Вабі-сабі», категорія площі «Мала площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.51757812,
-        "y": 0.49739583,
-        "width": 0.46875,
-        "height": 0.234375
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4822,17 +4822,17 @@
       "tier": "economy",
       "size": "large",
       "area": 33,
-      "image": "/images/gallery/wabi-sabi-economy.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-19.webp",
+      "tile": 1,
       "architecture": {
-        "en": "a contemporary apartment with deep plaster window reveals, tactile walls and a simple timber opening",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.00390625,
-        "y": 0.74967448,
-        "width": 0.4921875,
-        "height": 0.24609375
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4842,17 +4842,17 @@
       "tier": "budget",
       "size": "small",
       "area": 13,
-      "image": "/images/gallery/wabi-sabi-budget.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-19.webp",
+      "tile": 2,
       "architecture": {
-        "en": "a quiet courtyard apartment with a broad rooflight, sculptural plaster volumes and genuine directional light",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.00553385,
-        "y": 0.00260417,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4902,17 +4902,17 @@
       "tier": "budget",
       "size": "small",
       "area": 7,
-      "image": "/images/gallery/wabi-sabi-budget.webp",
+      "image": "/images/gallery/quality-review-19.webp",
       "tile": 3,
       "architecture": {
-        "en": "a quiet courtyard apartment with a broad rooflight, sculptural plaster volumes and genuine directional light",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a modern apartment with a full-height rectangular sliding window on one side, an uninterrupted level ceiling and a clear solid wall opposite",
+        "uk": "Сучасна квартира з прямокутним панорамним вікном збоку, пласкою стелею та суцільною протилежною стіною"
       },
       "crop": {
-        "x": 0.5094401,
-        "y": 0.25390625,
-        "width": 0.48307292,
-        "height": 0.24153646
+        "x": 0.51171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4922,17 +4922,17 @@
       "tier": "budget",
       "size": "medium",
       "area": 13,
-      "image": "/images/gallery/wabi-sabi-budget.webp",
+      "image": "/images/gallery/quality-review-19.webp",
       "tile": 4,
       "architecture": {
-        "en": "a modern apartment with an offset picture window, pale stone floor and a powerful simple timber wall",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a modest post-war apartment with two separate rectangular windows, a visible radiator and a level plaster ceiling",
+        "uk": "Стримана квартира з двома прямокутними вікнами, радіатором та рівною оштукатуреною стелею"
       },
       "crop": {
-        "x": 0.00748698,
-        "y": 0.50325521,
-        "width": 0.48307292,
-        "height": 0.24153646
+        "x": 0.01171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4942,17 +4942,17 @@
       "tier": "budget",
       "size": "large",
       "area": 31,
-      "image": "/images/gallery/wabi-sabi-budget.webp",
+      "image": "/images/gallery/quality-review-19.webp",
       "tile": 5,
       "architecture": {
-        "en": "a contemporary apartment with deep plaster window reveals, tactile walls and a simple timber opening",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.5094401,
-        "y": 0.50325521,
-        "width": 0.48307292,
-        "height": 0.24153646
+        "x": 0.51171875,
+        "y": 0.505859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4962,17 +4962,17 @@
       "tier": "budget",
       "size": "small",
       "area": 8,
-      "image": "/images/gallery/wabi-sabi-budget.webp",
+      "image": "/images/gallery/quality-review-19.webp",
       "tile": 6,
       "architecture": {
-        "en": "a quiet courtyard apartment with a broad rooflight, sculptural plaster volumes and genuine directional light",
-        "uk": "компактна сучасна квартира з виразним віконним отвором і продуманим вбудованим зберіганням"
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.00423177,
-        "y": 0.75260417,
-        "width": 0.48958333,
-        "height": 0.24479167
+        "x": 0.01171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -4982,17 +4982,17 @@
       "tier": "premium",
       "size": "medium",
       "area": 25,
-      "image": "/images/gallery/wabi-sabi-premium.webp",
-      "tile": 0,
+      "image": "/images/gallery/quality-review-19.webp",
+      "tile": 7,
       "architecture": {
-        "en": "a modern apartment with an offset picture window, pale stone floor and a powerful simple timber wall",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.0061849,
-        "y": 0.00260417,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.51171875,
+        "y": 0.755859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -5062,17 +5062,17 @@
       "tier": "premium",
       "size": "large",
       "area": 23,
-      "image": "/images/gallery/wabi-sabi-premium.webp",
-      "tile": 4,
+      "image": "/images/gallery/quality-review-20.webp",
+      "tile": 0,
       "architecture": {
-        "en": "a contemporary apartment with deep plaster window reveals, tactile walls and a simple timber opening",
-        "uk": "простора квартира з переконливою архітектурою, виразним склінням і чіткими функціональними зонами"
+        "en": "a contemporary courtyard apartment, a rectangular picture window set in a straight wall, simple skirting and a continuous level ceiling",
+        "uk": "Сучасна квартира з прямокутним вікном у внутрішній двір, прямими стінами та рівною стелею"
       },
       "crop": {
-        "x": 0.00553385,
-        "y": 0.50325521,
-        "width": 0.48697917,
-        "height": 0.24348958
+        "x": 0.01171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -5082,17 +5082,17 @@
       "tier": "premium",
       "size": "small",
       "area": 9,
-      "image": "/images/gallery/geometry-review-05.webp",
-      "tile": 7,
+      "image": "/images/gallery/quality-review-20.webp",
+      "tile": 1,
       "architecture": {
-        "en": "A small wabi-sabi dining with conventional rectangular construction. Use a level ceiling and a rectangular side window framing an outdoor tree, with no foliage crossing the building envelope.",
-        "uk": "Їдальня, стиль «Вабі-сабі», категорія площі «Мала площа»: рівна стеля, вертикальні стіни, прямокутні вікна й двері з прямими перемичками; природні фактури та продуманий простір для щоденного користування."
+        "en": "a renovated older apartment with tall straight rectangular windows and simple painted cornice under a level ceiling",
+        "uk": "Оновлена квартира з високими прямокутними вікнами, простим карнизом і рівною стелею"
       },
       "crop": {
-        "x": 0.5078125,
-        "y": 0.74641927,
-        "width": 0.48828125,
-        "height": 0.24414062
+        "x": 0.51171875,
+        "y": 0.005859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     },
     {
@@ -5102,17 +5102,17 @@
       "tier": "premium",
       "size": "medium",
       "area": 16,
-      "image": "/images/gallery/wabi-sabi-premium.webp",
-      "tile": 6,
+      "image": "/images/gallery/quality-review-20.webp",
+      "tile": 2,
       "architecture": {
-        "en": "a modern apartment with an offset picture window, pale stone floor and a powerful simple timber wall",
-        "uk": "світла квартира з виразними архітектурними деталями, природним світлом і продуманими пропорціями"
+        "en": "a restrained modern flat, one normal rectangular window and a broad painted interior wall with a standard straight doorway, flat horizontal ceiling",
+        "uk": "Сучасна квартира зі звичайним прямокутним вікном, широкою фарбованою стіною та рівною стелею"
       },
       "crop": {
-        "x": 0.0061849,
-        "y": 0.75455729,
-        "width": 0.48567708,
-        "height": 0.24283854
+        "x": 0.01171875,
+        "y": 0.255859375,
+        "width": 0.4765625,
+        "height": 0.23828125
       }
     }
   ]

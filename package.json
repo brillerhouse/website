@@ -4,20 +4,24 @@
   "private": true,
   "scripts": {
     "dev": "next dev --hostname 0.0.0.0",
+    "prebuild": "node scripts/gallery-quality.mjs check",
     "build": "next build && node scripts/seo.mjs",
+    "gallery:quality": "node scripts/gallery-quality.mjs check",
+    "gallery:review": "node scripts/gallery-quality.mjs report",
     "check": "tsc --noEmit",
-    "test": "node scripts/locale-routing.test.mjs && node scripts/cookie-consent.test.mjs && node scripts/verify.mjs && node scripts/solution-examples.test.mjs && node scripts/gallery.test.mjs"
+    "test": "node scripts/locale-routing.test.mjs && node scripts/cookie-consent.test.mjs && node scripts/verify.mjs && node scripts/solution-examples.test.mjs && node scripts/gallery.test.mjs && node --test scripts/gallery-quality.test.mjs"
   },
   "dependencies": {
+    "lucide-react": "^0.468.0",
     "next": "^15.5.12",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "lucide-react": "^0.468.0"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "^5.7.0",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0"
+    "@types/react-dom": "^19.0.0",
+    "sharp": "0.35.5",
+    "typescript": "^5.7.0"
   }
 }

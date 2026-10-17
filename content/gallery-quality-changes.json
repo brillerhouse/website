@@ -1,0 +1,1839 @@
+{
+  "baselineCommit": "693349f565ed02bbc9901f904183be47232418e2",
+  "reviewedCount": 258,
+  "replacements": [
+    {
+      "id": "bathroom-minimalism-economy",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "665c30eb922a189711127fb15028df03afda721437cb24726fa68d036f583059",
+      "fix": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. Simple planes and restrained deep-color accents.",
+      "renderSha256": "4326211458ec9d631f3b9aa742c8e5bf78dc3b4e18be74fc2977fd0cbe5c7f86"
+    },
+    {
+      "id": "office-minimalism-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "2f92197e58b5ccb724fe5091443df557c4f0db360157c34585c626d3f14ed954",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Simple planes and restrained deep-color accents.",
+      "renderSha256": "084d2e9a062bfd5cd38bc75408a985009e37248afbb2ecf58cb9fce104ffdc85"
+    },
+    {
+      "id": "dining-minimalism-economy",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "5f14133d69a93b49ad16dc736edb647f689859be63a8e07e449c35acaf49f1ee",
+      "fix": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Simple planes and restrained deep-color accents.",
+      "renderSha256": "c1efce9153a54a9a88c8a87ab3843ac8b7f43a9f7c2909e45e16c483aecdbf99"
+    },
+    {
+      "id": "workspace-minimalism-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "8d09210bf36b475a1c901e113e764a58f80567caa9e0510fa84500fc6bedf5a1",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Simple planes and restrained deep-color accents.",
+      "renderSha256": "f7a521e456cdb2ec9b9a1d81dc3721fdaa712d9dfd0b528fb4842d38554dcdbc"
+    },
+    {
+      "id": "office-minimalism-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "58ccb09acaec2a93a271ab887263d3f1bab7485f93916f0b18f3bd117efa6d4a",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Simple planes and restrained deep-color accents.",
+      "renderSha256": "08a2f00f0e240420bd2d7f2791b2c0da02aac652ed42e67fcbf75dcfceef92e6"
+    },
+    {
+      "id": "workspace-minimalism-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "cbe3910afc4618837ba07c4c7f2a2a8e41a9e3dba3241546eb656cda452b3a88",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Simple planes and restrained deep-color accents.",
+      "renderSha256": "74e67ffeba133b4d330f74f6682648551481d5b9b8f7838b429fb257ec43e4cf"
+    },
+    {
+      "id": "living-minimalism-premium",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "e98d97885a436902d54b73e4ab1e791edebc447811b36ce3d66f0aa227fc64ff",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Simple planes and restrained deep-color accents.",
+      "renderSha256": "283108cb0e8548de6ca9da42b0afdc8e5beb1c7a9beadf99961e4dd0a46bd17a"
+    },
+    {
+      "id": "kitchen-minimalism-premium",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "d79ed107b45a98c99728a7de7e3877577ebb9d65d76c32985ec9228b4ec85f9e",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Simple planes and restrained deep-color accents.",
+      "renderSha256": "3de223ee4e779aafb95bb9a61866470d47875e2e225d7f977dbf13c305459ab6"
+    },
+    {
+      "id": "office-minimalism-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "930539bb810d669aa2ebcd835015233bedf0a09fd9e46a9f7fb7a5db8b871d8a",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Simple planes and restrained deep-color accents.",
+      "renderSha256": "4283f5884c05dd01c70886df57b4e460b2d2ebe75d6f4f81e042c0380845bca8"
+    },
+    {
+      "id": "workspace-minimalism-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "2929d055b149675ac1e88153ecede1921772dafd9cc3f1cdbcc329c9cba1c3ca",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Simple planes and restrained deep-color accents.",
+      "renderSha256": "9253ff507edfefafa99d03390b317932b7b8e4951aa05109c5da8543597ff8b9"
+    },
+    {
+      "id": "bathroom-japandi-economy",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "db716abf73f6811c82e31af0e99ea27d7f845212038b4b4bd0b008a7d762ac9b",
+      "fix": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. Light timber, quiet natural textiles and ink-toned accents.",
+      "renderSha256": "6696585b549a830e0929899702c74e1fd6f287b053c8578bdc0a33ce6b9155df"
+    },
+    {
+      "id": "office-japandi-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "cf57b491659f4ae93ac41bc41c1efeaa4c6e8d39f81c5785e6513ea034e2ed73",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Light timber, quiet natural textiles and ink-toned accents.",
+      "renderSha256": "ba4794f42406d1c6b102fc1465c2eb7329a086e6e4ce9552c4835a21d9c3bd06"
+    },
+    {
+      "id": "dining-japandi-economy",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "8c45185ce0f476a2ea5ee438efa4bafff5be6b12cb1cbbc81694c9f70d2e1956",
+      "fix": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Light timber, quiet natural textiles and ink-toned accents.",
+      "renderSha256": "2ce21fb6a4bc32532437fbebf28d0a0dc4c2589ef51bdf9030abe4497a1f6877"
+    },
+    {
+      "id": "workspace-japandi-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "25363ff12804eefbf4e4b8b61c11da42ff38611a258ab69b74f013877e68c554",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Light timber, quiet natural textiles and ink-toned accents.",
+      "renderSha256": "bf15305a65c0aa7f3403ed1438b6d3d749cca1a0c465feddbb57483c76b3300c"
+    },
+    {
+      "id": "living-japandi-budget",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "43f0016b94895581ebbb7d2e833c723f452c7ff738fc7a5c15d47d2c66d8fbb3",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Light timber, quiet natural textiles and ink-toned accents.",
+      "renderSha256": "767c9a53dfd4db53ad6bb7993a925017aa554199c897a64109ed92da296ba7b7"
+    },
+    {
+      "id": "bedroom-japandi-budget",
+      "reason": "Featured opening image remained over-styled, with branch/vase arrangements, extra props and repetitive textile detail; simplify styling while preserving its architecture and framing.",
+      "fix": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Light timber, quiet natural textiles and ink-toned accents.",
+      "previousRenderSha256": "c389b552b2ac3c9b4f7f5ccf6106ad0a9dbc5dcf7d98b8d694ef44a70cc8df01",
+      "renderSha256": "f876313c5751129cb160a74aac2e42a5b8ae0568fe4baa90ebaf2523c1653128"
+    },
+    {
+      "id": "kitchen-japandi-budget",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "c486bd34d7dc2a8d9f251a7b98e61f820d6235c07ee757935eaad41393af90fe",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Light timber, quiet natural textiles and ink-toned accents.",
+      "renderSha256": "09d5a6488305b14a86ac10899fd268db82b940e3ab62511f043e0a205b6c1f7a"
+    },
+    {
+      "id": "office-japandi-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "4051f69bc27563826e66184dca6eb98779d8076cf34ff30d754e2394224cc0ef",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Light timber, quiet natural textiles and ink-toned accents.",
+      "renderSha256": "d02a411299035d9a234a578cf6bb654cce261c94443e5c111c3ee542d7727d53"
+    },
+    {
+      "id": "workspace-japandi-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "82076df7512fba32241dd0b9b1001ef31642817188e1230ef183ea24191c252a",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Light timber, quiet natural textiles and ink-toned accents.",
+      "renderSha256": "33fa243dbfe475a84aa045b64b1ff5eb0a0bc6364c531d9b49168367e28050f8"
+    },
+    {
+      "id": "living-japandi-premium",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "e01bb87f6425009ef0d8c592d16e206ec98ea8603361d9062c61914acd4b393e",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Light timber, quiet natural textiles and ink-toned accents.",
+      "renderSha256": "73b6ea1473b532381848c054c2735434f1effb48399714e9aee325a60db985f0"
+    },
+    {
+      "id": "kitchen-japandi-premium",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "be158a818f26c2844dd4a53cd4b0a2e2e6680428ac2e08319afd1fcfed0b87bc",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Light timber, quiet natural textiles and ink-toned accents.",
+      "renderSha256": "6966b7ffdabc5133935bcb473ad8c873a5583d8638997711afb9f9371dc7d5e1"
+    },
+    {
+      "id": "office-japandi-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "f1c8328d67e7635577ba04d9041a59d0cd1c3f47e879d075048f23303c94aace",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Light timber, quiet natural textiles and ink-toned accents.",
+      "renderSha256": "17447820e424c88498f791224dd5ec91a81b1684e97e5f25e902b17015f9a995"
+    },
+    {
+      "id": "workspace-japandi-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "e74ed5f35fcfba3ed26ccfbe372e9e2433ee4f44a1bea4102d8cef55066af19e",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Light timber, quiet natural textiles and ink-toned accents.",
+      "renderSha256": "14bea17a079c9cc456e80d722c8893aa1f3e5820bcc38704b850558a2fb2d2cd"
+    },
+    {
+      "id": "living-natural-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "26b801d922d16654348abbec55fc3ff6518bb8ff87483aede0772c20d0684f98",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Warm timber and tactile muted natural finishes.",
+      "renderSha256": "fff3d0bdd52ee5ecacabc60b0daa234663a010cef28c6b743b6021ba4817865e"
+    },
+    {
+      "id": "bedroom-natural-economy",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "a7fb94adb4a5912f2bc1c8fa15e4d0b3d464ad7a9d23319b5f5ada21e44e5470",
+      "fix": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Warm timber and tactile muted natural finishes.",
+      "renderSha256": "b439ed26088b7c54ad35c6ccea974bb5918da3460db80cb8caf4b5c4e869c68d"
+    },
+    {
+      "id": "kitchen-natural-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "615ceb2c7549c61913a687a01e5519ec68a7eda7b19760bc6c32a14bf7b91b1a",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Warm timber and tactile muted natural finishes.",
+      "renderSha256": "feaedd65f0ab12a928e9cf5989aee2955261e1dcd918204e2c4360cd038bd65b"
+    },
+    {
+      "id": "office-natural-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "5843b5c590e4974e6524bdefd76817ef4153f984fcce09b793b76272edccdb62",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Warm timber and tactile muted natural finishes.",
+      "renderSha256": "e46341d09eb35dbfc17834dc46d5d716eeebc2c643ff96474bd692240ad226d1"
+    },
+    {
+      "id": "workspace-natural-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "18501d4d37098ed81857350df6a4abf3fa6a905b8ae33d9ad165f5c3895791d3",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Warm timber and tactile muted natural finishes.",
+      "renderSha256": "14cb8dc7cf10a0fab4f1bff1b0415b71b3eac3f80d60335746a82eaf9348ab5c"
+    },
+    {
+      "id": "living-natural-budget",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "f068732dc9d5bd59d2939eebc64114c60b5b6d1697b3c40a76ccf174ed1e5478",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Warm timber and tactile muted natural finishes.",
+      "renderSha256": "040b57f5813b11869db58d6f7fe9bebfaca30bfcf8b81fe29107c51a6f225566"
+    },
+    {
+      "id": "kitchen-natural-budget",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "712ebe740ab66cbe5a19d7918c82f6a66ef8b7b30cee884c63da1946125b0799",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Warm timber and tactile muted natural finishes.",
+      "renderSha256": "d77bee362fbe65cc33d7ff0dbe602f6b5495b94fd5f840652fab30eaec4a935e"
+    },
+    {
+      "id": "office-natural-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "0040ebb16552f156d2e32e7db0fbf07e67e9661be28b2515d40ef5d60d37d40b",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Warm timber and tactile muted natural finishes.",
+      "renderSha256": "cf731db34d1143a6b066d8660eb60aab5daa02fbde81c0733379ad934eaa5026"
+    },
+    {
+      "id": "workspace-natural-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "733eb9dff5dccc54e71e260576366c0006fe6411ece37345340c66b254062cca",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Warm timber and tactile muted natural finishes.",
+      "renderSha256": "3dc12047925235d9b09e7bd054c94144542624357bc8cda8879a7ee33538fe92"
+    },
+    {
+      "id": "bathroom-natural-premium",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "eae2beafc306136ff9d39698fc87e64ea7f9ea92f8282efb47841a0cb98f9ce6",
+      "fix": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. Warm timber and tactile muted natural finishes.",
+      "renderSha256": "035ccfa7529a6a2575e88bd72fc043e463ee7e095a2a6749ba85957ea011741a"
+    },
+    {
+      "id": "office-natural-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "c0e008c9a8a37d92dba540f9f32a8633ae7a52e5244aaf9f417d7e81a2300dd4",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Warm timber and tactile muted natural finishes.",
+      "renderSha256": "348533c45a02bb4c971d71db3039b8be425278714ebf2c79d6ed779c57bd899d"
+    },
+    {
+      "id": "dining-natural-premium",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "9bbfa11029a71c03cdf8e5e8ea47883f3311f378ef6eb8030610b1176238f0b5",
+      "fix": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Warm timber and tactile muted natural finishes.",
+      "renderSha256": "b57073ca27a388f8b5853460430dd14b0a564d9864237074b7b504ef7c82d38a"
+    },
+    {
+      "id": "workspace-natural-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "bc736ee9f030551e380fda283736ba4c3bcfa56e5548e929a617daa918b3da61",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Warm timber and tactile muted natural finishes.",
+      "renderSha256": "13ab1a3a4b5f3ddaa32e429ca4861356396451696b776bf2e916295eb7575abc"
+    },
+    {
+      "id": "living-scandinavian-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "c39002e9ccd75393b979723a3d8fc5e9485961d5312fa21fb68ea1471848aaf8",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Light timber and clear daylight with blue or yellow accents.",
+      "renderSha256": "1d48b0315793fd3bfa5f5fc019bb27bd9de9a4ae28d8598fd3db1231b2dc99ee"
+    },
+    {
+      "id": "office-scandinavian-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "8247e2be9bbbe1d0afcfd587086189db304f83d81e5ef1e9968f2267539dd3ee",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Light timber and clear daylight with blue or yellow accents.",
+      "renderSha256": "381820e5adc20b843830ba4c9a82219c666d427ecf70217b25a09b36d0311a15"
+    },
+    {
+      "id": "dining-scandinavian-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "726e5773ac4d871c4fe597c2c697307ad9c53557a4485a04d501593083b8dc83",
+      "fix": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Light timber and clear daylight with blue or yellow accents.",
+      "renderSha256": "cac8038eee3693c3443d98f3a1662c49f327df17c240399c6ec3e2b499dd86fd"
+    },
+    {
+      "id": "workspace-scandinavian-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "b3e53138fbba85634f51d06b9690f83943ebd15a6f7f15ac32f535203e8ff341",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Light timber and clear daylight with blue or yellow accents.",
+      "renderSha256": "581e613f20725d510acaad58bcb7c01fbb0fde52a6aaa7d53345921622cb2c05"
+    },
+    {
+      "id": "living-scandinavian-budget",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "b8c13bd86aea53ac821a31ac349f87161a1ffadb131dd76f812032f7dece72a3",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Light timber and clear daylight with blue or yellow accents.",
+      "renderSha256": "9982475ef6ce43617ceee826dd002510d47d9f9540581468e18ee44d0536f6f2"
+    },
+    {
+      "id": "kitchen-scandinavian-budget",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "460ef5b5b9ea4c2d95f9133a77c5f3f7ad907a2d7200ad92a7477f6b5d245849",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Light timber and clear daylight with blue or yellow accents.",
+      "renderSha256": "b2bc2c893ba6f54aae73cc7526d09551f42764946d3d8bca988551c61482015f"
+    },
+    {
+      "id": "office-scandinavian-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "0ff9778ff7a65e69c8fb625c6609db7c4cb68c04c0cae921423689564ff4867b",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Light timber and clear daylight with blue or yellow accents.",
+      "renderSha256": "aa90a365bc509c2a4b901adce3a6ff7baefccfe2c7c046fa51de216fed6315eb"
+    },
+    {
+      "id": "workspace-scandinavian-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "c4b307693bdef771f8c94d2c63c42943d6c6e806578efebdfaf715b59ad145fe",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Light timber and clear daylight with blue or yellow accents.",
+      "renderSha256": "9cadbff0ab50705fa3c9542507c9dbcc9eea8dd967f93d927d9f4283db5ea033"
+    },
+    {
+      "id": "kitchen-scandinavian-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "59d842157e79949b471c0e48fb47fa6fc7c30287d5be6b3c91b4be87b889dcad",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Light timber and clear daylight with blue or yellow accents.",
+      "renderSha256": "54288eec8e1f17e85465071bf24cdfef749516953ff64e02d49ff36923a59f48"
+    },
+    {
+      "id": "office-scandinavian-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "06c9f211217ebe30987f77aff8707c44556b8526445e19e388d6245b62d30ec3",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Light timber and clear daylight with blue or yellow accents.",
+      "renderSha256": "373736d18bac31d961f60300bb7998e92e177ce3687e23f36009262ed83428c7"
+    },
+    {
+      "id": "dining-scandinavian-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "67a4db11560670ab9a40a63aa6b77096234e87bea52ba06113fde964c4458ee4",
+      "fix": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Light timber and clear daylight with blue or yellow accents.",
+      "renderSha256": "ca754716c31113e17e752a81f1d066e34778954d1487091db10d2590b8b5d65c"
+    },
+    {
+      "id": "workspace-scandinavian-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "fdbff8ec7e6e8ba79c3e1cf664cade9e76fdf92aaee75fdd204ebe7049f621a0",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Light timber and clear daylight with blue or yellow accents.",
+      "renderSha256": "1407db6db1744108d34db4daf68c8932ddc131983da11468745a862e64af6f64"
+    },
+    {
+      "id": "living-mid-century-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "c0cb77876932b57c2d774d00c94c100ca3844965a3af2947a6c0bf5ce64ab14b",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Timber furniture and olive/ochre tones retain the period influence.",
+      "renderSha256": "400ffc1b2c01b57a91c0e6b62d7ea2acfece9e46514091b03374996106eaadd1"
+    },
+    {
+      "id": "bedroom-mid-century-economy",
+      "reason": "The bed sits on an unnecessary stepped terrazzo platform; remove the trip edge and reduce decorative plant clusters.",
+      "previousRenderSha256": "d9b0a45afae971deba4a018d4d8d9927fd998310e61bdf5c5ed0ffc10e519203",
+      "fix": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Timber furniture and olive/ochre tones retain the period influence.",
+      "renderSha256": "290d74f2a888fceb4c47de6bbfe82be86c6d83bda0fe6241c09a435608a7a0ee"
+    },
+    {
+      "id": "kitchen-mid-century-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "da20817b1841c9f6242e89cf0712ae5c936cbb4208e3ee61e63909837aa9b573",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Timber furniture and olive/ochre tones retain the period influence.",
+      "renderSha256": "c569cf9aab153ef3e7f3a9186fbc63ab20eef6b5a049a2ec8f34c75b7a21b5b4"
+    },
+    {
+      "id": "office-mid-century-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "b7e0581e31dba85c177b0dd8932c8fd842cc9ae69225a3c025ef481e40a10184",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Timber furniture and olive/ochre tones retain the period influence.",
+      "renderSha256": "d0e3026db6e23c21117bc9f91e0fc33b40712f2f983100397e91414590a61a48"
+    },
+    {
+      "id": "workspace-mid-century-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "863a8b3c8b381fb9ae3eda4d31cd981d5c3fbe6218ce44d1c6b6f54fd5edeba5",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Timber furniture and olive/ochre tones retain the period influence.",
+      "renderSha256": "673f834ba6bfe2c5f2d3bc6fb336a69df9dc9264e9ed457025b9ffa039dd5335"
+    },
+    {
+      "id": "kitchen-mid-century-budget",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "d836988aebb13f09ac49b3419ac1a79d40337a9653c4002bf4ac91c0bbfe0f82",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Timber furniture and olive/ochre tones retain the period influence.",
+      "renderSha256": "f28edf01141b37f433e25bd32581b183c83fd5e58a0a859e6b4c355eb9d802a9"
+    },
+    {
+      "id": "office-mid-century-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "683351babf0876a32ae8a244afe64f2e47d35237efe765627a00eae132a57079",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Timber furniture and olive/ochre tones retain the period influence.",
+      "renderSha256": "b6f54632bcf901596454c5fdb170458c95b70626a0ed8747b3243dd60a2a09b2"
+    },
+    {
+      "id": "workspace-mid-century-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "d9bbfbb297e68ad2bab3f61910fcbbc681abb24b34b25a6b957c41042d72f312",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Timber furniture and olive/ochre tones retain the period influence.",
+      "renderSha256": "052fc7dc2ce0cf2a02da5139cd3e81b29ea0570d9382dc34c2649edd235b61d1"
+    },
+    {
+      "id": "kitchen-mid-century-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "97621418cfd8bed157e26f1ab8b56362330163dd3523fd1ca9022cfd02eddf5b",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Timber furniture and olive/ochre tones retain the period influence.",
+      "renderSha256": "3d61acd235ae7c7c2f8a8ae8cb80c1f42fcade63e0954735cf45b3dce7f59903"
+    },
+    {
+      "id": "office-mid-century-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "11a99e2ebd23c00111b48356b0f2011e98a08b74dc5a2655d609d7bc3172cbe2",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Timber furniture and olive/ochre tones retain the period influence.",
+      "renderSha256": "a69cda8dbbf67cb04bc86f9960572aa20255d48e516edae74a54c537392c7961"
+    },
+    {
+      "id": "workspace-mid-century-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "4da08d00c9636522ee64a050ee041322f45f7cd54129c75efa32bd47565b9650",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Timber furniture and olive/ochre tones retain the period influence.",
+      "renderSha256": "0922659d7cb596922a1ccf478110d66a8161ac8b1d5cd5c201e144e6cbe5f6aa"
+    },
+    {
+      "id": "living-industrial-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "83ef8775d1d58f82e81bcc88f35be6be31a5973dfa636290178b1553e6372df3",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "renderSha256": "6ffdc82045e900f732ff64f8d6d79c16695c2fe27527c731ccb20d56bbae203a"
+    },
+    {
+      "id": "bathroom-industrial-economy",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "e41af7f0957ecf776080011e38a8696fb28451bebad7601e3eec36d4e9815bd9",
+      "fix": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "renderSha256": "e99b6b34616b76874cb2d31cdb5269969ee6531118c3f2cb386da95bbcb06ddb"
+    },
+    {
+      "id": "kitchen-industrial-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "a88f6ac621906de1bf33badab12c27c1781c2841a256f5f11d4e2d07b269612e",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "renderSha256": "b9412bb416ec73f1754f22cb4eff02d636ca2e7a184f7849ec898e43ef8bd1c2"
+    },
+    {
+      "id": "office-industrial-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "fbd4e8d4e365826546e478dccbda85d9378f5661f4481f1da86789f99ba1b6ce",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "renderSha256": "a0640329c430de452a7d486011cbcc379c41b642a5dc9bacf45f74846c1b491b"
+    },
+    {
+      "id": "dining-industrial-economy",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "7986c37152a1e96498c78404f302f499d96a2da7c281022257826e9cc8255b05",
+      "fix": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "renderSha256": "a710c1add7f84240e3a9400e8eea466ab4f18b129e4ff3ae998b5ceecdf082b1"
+    },
+    {
+      "id": "workspace-industrial-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "e12bd0532708f21016abacf8cbab5aef9c1d4455bc05ed2b77cefbfabc8badfa",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "renderSha256": "3be8b7c71f1c554bf9c7223c66e0d7e6671817ab69a5e77adf25364b24dea074"
+    },
+    {
+      "id": "bedroom-industrial-budget",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "ece9e15c7a9f7e5fc55e1061527696ebe30257804dba5390b639967bfcd6db61",
+      "fix": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "renderSha256": "e16b627bc2e4a785d4036df33962dfc3129f9326617989f6f53cb1a8745a651e"
+    },
+    {
+      "id": "kitchen-industrial-budget",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "18650c39786b74b2423b6f71a8398242cf926c3d15e955ab4830da03bfabba91",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "renderSha256": "629e51fd475183d55fa8b4c1d29b6f69f9c2aa8ba27228a97d22a511ef536cf4"
+    },
+    {
+      "id": "office-industrial-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "a7a2a43ad6e3ad5ddb9d7be50b83aa87047d2f3d3c8e3874213638730d4537a6",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "renderSha256": "ac7ea2af8052fcb1a0035a85cb1f1f1cd2a17b397caa8f1ec8381d2b7d2bda57"
+    },
+    {
+      "id": "dining-industrial-budget",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "41de5caabaa7ceda9c33c9698309ebf40e0807fe8e61358241e7f6a895762dd4",
+      "fix": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "renderSha256": "dac42f7b563eb0b4c96478de275028ff04597c1131424054fa44204b3acb97ff"
+    },
+    {
+      "id": "workspace-industrial-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "eedc5e1a8a3ad0079434f7dd88ab274022f6afec24abb4033ec4d4b85de2a789",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "renderSha256": "9a917bade639a75a21a7b1166c0f200d7d0c103d5c1af99bfd8b40b7d9ad7e38"
+    },
+    {
+      "id": "kitchen-industrial-premium",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "347a402ca0fc8a51a36d09bb7fa640df96ae116a6413bf82f2fa9c22305e33c0",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "renderSha256": "2cd437ff4e23e3ef85f6e85761620adb5e587a61b8770f755d84c10ec4ef173b"
+    },
+    {
+      "id": "office-industrial-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "f33fbad0d6b04efa049bc5fc834f4e08fa6c0909d7ffb9d33c77e3a2ce681a4b",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "renderSha256": "106b28958b017a46b031d43fe246d3ee61fe64ae9bb1870f76d1271da1e8c175"
+    },
+    {
+      "id": "workspace-industrial-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "993e03299904fb04f73e6ffb2809b271d0544d121f841950efafcbc4daeadea1",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Supported steel, honest brick/concrete and practical furniture retain the loft character.",
+      "renderSha256": "5b2d8709cf5a37f5dea4400c1a1b5a288f84274face6e76d2caddf3ecf29cf20"
+    },
+    {
+      "id": "living-contemporary-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "a5d1efcd9ded762514d5d8332408d1278333b3a40a19955da63674ec4e4b08c3",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Clean lines and confident but limited color contrasts.",
+      "renderSha256": "bb2c35ace4adc18ad7b7253d73fe248f20b5aaecc28af0eb9583d2e5c3f1caf5"
+    },
+    {
+      "id": "bedroom-contemporary-economy",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "d1ccf367e3e2b18ccc9d4748d0cdb891c004778b500f972c019588b09188fbe6",
+      "fix": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Clean lines and confident but limited color contrasts.",
+      "renderSha256": "9af61eed0ec322985c9373fe24f96ba72e8bed305a358b834a288684683610a0"
+    },
+    {
+      "id": "office-contemporary-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "11f9df7659df7d9fb6f8855a5cb5d1704c10f01219d3e0e278e0ad398a08a3d5",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Clean lines and confident but limited color contrasts.",
+      "renderSha256": "ff069d2cfd7723137b3ae8237ba401e5961206816c4174bd64d1761542119c8e"
+    },
+    {
+      "id": "workspace-contemporary-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "df2ed7d5f8d8c44c6099c48b651cef59babb9a171bf3c543f3681bdf6077b579",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Clean lines and confident but limited color contrasts.",
+      "renderSha256": "039a29c912bc15afb18e5c64c4695bf38c4723232eb7e521129891bd966d0d79"
+    },
+    {
+      "id": "living-contemporary-budget",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "e95cfa3d398d00546504ff0db50ea7e66706494ffee11931d372ae7d6feb3db8",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Clean lines and confident but limited color contrasts.",
+      "renderSha256": "79f5bb8994b7a5c183650d1001aa13c98db5a2aa01e3a94d7013e8c518eb29fc"
+    },
+    {
+      "id": "kitchen-contemporary-budget",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "d4d10d3e94268996c49587a91a67840cfa596fd4b580f6996a9365ab41e1ca5e",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Clean lines and confident but limited color contrasts.",
+      "renderSha256": "4651a64426ab95c2f7fc7286db973a48ed99593a445cd3927d6cc22fac7fa6a1"
+    },
+    {
+      "id": "office-contemporary-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "aecb6752ff6ae687a17eb99df18a074980823d01f5a6a6cea3f5fc34f0fef0ab",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Clean lines and confident but limited color contrasts.",
+      "renderSha256": "f5aab9cfdbc629f2684aa29fdb78c9fc0c3f22a8b646792506b10d2ee1bb7830"
+    },
+    {
+      "id": "workspace-contemporary-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "9c049c01bfa074424f2d18c6287b8e25aa7822d73112c26ca8c321e475c717c4",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Clean lines and confident but limited color contrasts.",
+      "renderSha256": "7c8ac199ec0187cbb9b82260cd205c33165e92b3558eca276b395a14549a3bd8"
+    },
+    {
+      "id": "living-contemporary-premium",
+      "reason": "Featured opening image remained over-styled, with branch/vase arrangements, extra props and repetitive textile detail; simplify styling while preserving its architecture and framing.",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Clean lines and confident but limited color contrasts.",
+      "previousRenderSha256": "bc77ecdcf0193379ada293cf32ecbf48ed5d18cb7bfe8ada956b078c3de63786",
+      "renderSha256": "60c6e8e06356a13a2436920423e73cff648c71497208a3703490acbd5009ccbb"
+    },
+    {
+      "id": "bathroom-contemporary-premium",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "a72a71b4bf15cd8df3c2cb293b02d217e58b5780d6863ef23a0e1dc70e9f05f6",
+      "fix": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. Clean lines and confident but limited color contrasts.",
+      "renderSha256": "3bc3d4bea25bb4939b365acbf7026c574b4e026cf997e3c21137c3588244bebe"
+    },
+    {
+      "id": "office-contemporary-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "3a4ea3d149faf0138f88ee90f90f6ee57dc58444aedc3da972d802d0c86f6797",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Clean lines and confident but limited color contrasts.",
+      "renderSha256": "b3a9374039957c6c8270e5e741181f6dfd488e3c97b3b60e45ea8d80a4da9023"
+    },
+    {
+      "id": "workspace-contemporary-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "d08aa832e71b0921a6b93cb7f29bc4bb79235a8f11ac02e6daf099118aaac0f9",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Clean lines and confident but limited color contrasts.",
+      "renderSha256": "cac8d39e6eeb5d94550dfe52b113ee1c89e3885d1593a2f794b1f4581020ecbb"
+    },
+    {
+      "id": "living-mediterranean-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "76d557fa57710d7f5e91617bbf3e6101350b396cf92c120421ee78604d77598f",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "renderSha256": "0458ca005a91179b9f93750f3dceba3ad5cb08ea66047550d6f3e5d5049ac0c8"
+    },
+    {
+      "id": "kitchen-mediterranean-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "3c4cb28aafe555f1a1819831654c6331050f2b44a02691e1b9e5eea2d0a9c274",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "renderSha256": "5761a5131c9e95c6449d884f6c1c997619f810e15f81ec77586017f34ad74726"
+    },
+    {
+      "id": "office-mediterranean-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "aa10a827341f0e908b20f81745b940a873d935f78743b7b7c955363583482c05",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "renderSha256": "b2845c18cefdfe823eabde1392dad2047b5e98eff6d6740a8c6d8410355c6fc6"
+    },
+    {
+      "id": "workspace-mediterranean-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "99a8c15c7e0bb9466a5ec5d1751fd9cde12b0d6f20a10127f4e106023dd38389",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "renderSha256": "ecafb57b26c17bad978f91027d0b70330577de88555074857d95b2cd85e9a6ee"
+    },
+    {
+      "id": "living-mediterranean-budget",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "13179581362f2bbe10bb90301dcf786ac1324414199b84e374bd34eb8330adfd",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "renderSha256": "044d4474ffa551a6d001e9d3e9e43262d3bd91a013600b5bdf24583412b72f25"
+    },
+    {
+      "id": "bedroom-mediterranean-budget",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "1a38000909c37fa507a2697159c6421d3686d2aba02a700942b5d827fbe43679",
+      "fix": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "renderSha256": "8521583e8d45d44300f057745b80672bf8d1a678bcdee5b7125b885f05067e26"
+    },
+    {
+      "id": "kitchen-mediterranean-budget",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "53c1bde4e58d0de0465d3dea0f6916c37c0402e990804f7fc18ac7680dcace6e",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "renderSha256": "30f0db4d7ba76bed773b6cb8da5509a95196fb9a10247f9004ec0df06b49ceb0"
+    },
+    {
+      "id": "office-mediterranean-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "acbdb12cf4177772424fd6bcf956e3e379c18f1c463ee41b568bbfe7f8bb554c",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "renderSha256": "a6702b87f66d9f203b6221c45b0166bbb0ec8ac20d35b038e27f7383c3111baf"
+    },
+    {
+      "id": "workspace-mediterranean-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "e0e5957cdb26d02bf9bd28abf2eeda79e439758c7759d7a237407db819caac32",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "renderSha256": "ecb09e4d4464007cf8284ce21e70b6b283acb3106d5eb3de2576c9830e653a95"
+    },
+    {
+      "id": "kitchen-mediterranean-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "67eb31cd3d4257e9d75e023a9e770b42c72e2502bf56e3ac8858ac521e73d5a4",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "renderSha256": "ec730f0d132093632eea23bbf294fc5612d12da5905599c106e2c332515b4796"
+    },
+    {
+      "id": "office-mediterranean-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "9d1f8eb3d8e11bd719f8cde5ce50c7b3487a1aebefbf7524afa9d06c92460880",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "renderSha256": "777a88b95b3838fad666fdfd25880a94f8e375cf3464eab39069f653b28aa1c1"
+    },
+    {
+      "id": "dining-mediterranean-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "fffeba3d2ee053f976c2a9a4fc301fcb5738b1b6fd55419520e97945b9c3e4e3",
+      "fix": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "renderSha256": "9c371f318520b569754c5bc77b2427be7086e4fc086d63b1928d3543dd3523a6"
+    },
+    {
+      "id": "workspace-mediterranean-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "df8a3078417a9d2be58e6f163df773c43133b61a8a305630692dc2bd05ae5b2d",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Warm plaster, muted blue and terracotta/stone give a coastal material palette.",
+      "renderSha256": "f88000ef1dcdd2fb0646a576de48b3d896a51170debb1a9ad26212f9b4021b73"
+    },
+    {
+      "id": "living-bohemian-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "0106f8d1b29e4d166789b1e17d05d8247c44c9b3a8df88ed55c54eacf3b6c63d",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "a475897e5a3896494e5de2b779585454e6087581de59b5f20708994b96914373"
+    },
+    {
+      "id": "bathroom-bohemian-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "b3361c10582f9e48edf8aa08f175e99f0c9342b842c433b2be2b8ac3e278a1fe",
+      "fix": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "f02f6a02c8171e4a4f380e4f6fa482c16cde7597d20ed08959f11250891681b4"
+    },
+    {
+      "id": "kitchen-bohemian-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "0ec052b5a760418445f4c8fa1d48853a76efba5ad53013bbda2fa409002031ae",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "f1cb5b0626144b299e008b75f966d64ac2fc62a0e4eb64d459b95cde7fa2edc2"
+    },
+    {
+      "id": "office-bohemian-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "ea3ed6de54da8dd90a867cf235a0b1e110f625f3aeb9fd160aeb942e835568e7",
+      "fix": "The vintage writing desk faces an ochre wall beside a side window; a metal drawer cabinet and one small print replace the repeated centered-window office composition.",
+      "renderSha256": "bae44994ade837ad212e44901097dbf49a429b4f51a1a42205f340255dbb85cf"
+    },
+    {
+      "id": "dining-bohemian-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "c8c207c7052f8014b6ef84002950c35c5ab12dd03d8d9e647e31cbc17410127c",
+      "fix": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "deecf1b085bb038c574ada67ea1fb060d18268808cfd977b48d686cc685c3b92"
+    },
+    {
+      "id": "workspace-bohemian-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "d81ccf74007f12642bd3698ff84aa1b0b040a19f1aade51753468ae1eb053993",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "d61cf09e3470b8de4d3000bdbfa09b3ef88e4865db415ced88f9a09873a27089"
+    },
+    {
+      "id": "living-bohemian-budget",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "217d07cbd5c32924c1d3738991f726299619701f480c02e540e20d2beeca3e5f",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "89ff783d8a7a7c0eb905aff7ddfac829d64bf33368baf05a9412c0a901ea1f0d"
+    },
+    {
+      "id": "bedroom-bohemian-budget",
+      "reason": "Arched headboard recess, layered patterned textiles and multiple plant arrangements; use a straight wall, one patterned textile and a simpler composition.",
+      "previousRenderSha256": "4911504b4565f8921d5cb105242a10459e3f2a26f2a090b97b8890f13cfef9e3",
+      "fix": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "08008c6cca86a13e41466fa8d757488b42c16b0a058840a5ee3ef77671d282b8"
+    },
+    {
+      "id": "bathroom-bohemian-budget",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "c2678716630a4be37ba9362c28641882437ef4336356bf89c093ec15d92fd22d",
+      "fix": "The wide high frosted window, plum wall and terracotta floor create a distinct side-view bathroom; one towel and soap provide everyday detail without a prop display.",
+      "renderSha256": "898a65e4bd3f6334e70b7c42d24cc7a5b513348f84e4a5185384401f77c5f4df"
+    },
+    {
+      "id": "kitchen-bohemian-budget",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "1a6b1e14307d1840386f8d5fc3a0f42a6d0eb20e68826b316f1a9b576614601f",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "1d7dbf176280f08f23773c70d9e24d132fe7911460cad85930265bb30870f636"
+    },
+    {
+      "id": "office-bohemian-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "64071833528d53b8e9f97f15201d683fc3940a3d1e467d70a149c04013d86de4",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "e51ec4d25b7696b5ed0c33d6a7b9af5159710cfd95779e72a6bb0784f04ef13b"
+    },
+    {
+      "id": "dining-bohemian-budget",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "8816055b8d44466276ba3f22434ffbd6cba31493e19001e8312d9dcfe96de277",
+      "fix": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "333a756aade22cfb6ab75f06beaae47d8667ee636e1f7363bd928d31c7de73c1"
+    },
+    {
+      "id": "workspace-bohemian-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "c7e21232c4b80e2662f150e58f029adc702c9a62f6ca53782f22ebf9b1691a5f",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "7861b26893da7fa7e78d2cc7be6e731e234b3cf9eac898203ab3c9b8f2c35060"
+    },
+    {
+      "id": "living-bohemian-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "ef23515a7385aa74636226858a3363541b0764345798055e394f3fb02f650b8a",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "ac1f5faac7930e8a2b4320d56f50eb0998ee6f80d5f825733ca93c19a9b0c15c"
+    },
+    {
+      "id": "bedroom-bohemian-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "ce6b4e835b4272ed95b13fc5a94fa3941c47dbbfdbe8c9aa163fead6b6d61876",
+      "fix": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "f957223e31805f15162f5152c4ceaed6de3d55ca233607cd8135ee9e2da65fc5"
+    },
+    {
+      "id": "bathroom-bohemian-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "31893dc9d498d821339734fa7d266af8038a70d043d18a33b72887cd1dc8810c",
+      "fix": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "41fcf2cc19197903b49cf68e2db4510706612aa7285e9e022a986a6428e3187d"
+    },
+    {
+      "id": "kitchen-bohemian-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "38dfa45c438f8efce3f6af440fdd824fc36bf19f2b0e04d5e1925d1dbc4bc0bd",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "8181752889721c988592fc979eece56d8807e76d58d1bc17fbadb9f0391b3335"
+    },
+    {
+      "id": "office-bohemian-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "b31510e67f43e7b1ecd1819718f50c46eed2989ab2fbd022a103407a2f60cd0d",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "b04426dfae5969991b511ec75dad2ae67fc01ccf79f016caef59ee40dd975dce"
+    },
+    {
+      "id": "dining-bohemian-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "92c02f84bcf83874f808a1d110f6125fe18b30a8701a7ff5c305b1dddb7939fd",
+      "fix": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "225f3f400815e4cc7b3b076b96d3eca1f98c77b9df200a6843270715fca5f552"
+    },
+    {
+      "id": "workspace-bohemian-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "6ef0d84993fecdf1777f754f17a36b7beae2c505ae98576ba18224187958476a",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. One collected textile or vintage-shaped furniture piece carries the relaxed color palette.",
+      "renderSha256": "a0dff44fcda65608147833bf76599a2900a054bc8906c4e4b4b0d84e883a0b54"
+    },
+    {
+      "id": "living-art-deco-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "fbbd3af408179173e3092664d400fca321a233e3156feea4903ab45339489842",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "renderSha256": "d39317b5ea5699de64e06a8b5bd8f78677389b84f829c7934ce7bee20a9eb77b"
+    },
+    {
+      "id": "bedroom-art-deco-economy",
+      "reason": "Curved or faceted window bay and surrounding ceiling junction; use a conventional rectangular wall window and a flat ceiling, with calmer styling.",
+      "fix": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "previousRenderSha256": "9ca5cc3cd0bcd81cbc9e6b4cdea1db8b5218ce2a5c674246d95d68727f6fe31f",
+      "renderSha256": "5384aad56df50d45e5a4c9a03feb0bb99e5c2506b321ad7cd8763c3795d37bd6"
+    },
+    {
+      "id": "kitchen-art-deco-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "fe708a1bd06f2dfcecbcdd1d5c5cb828bf2dadc154cf2c27c7c482739cabcf3e",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "renderSha256": "5d134c730c2e1c9d7d277e3a7d952e980130b4a9a8dc3d75a662ae4749f91d19"
+    },
+    {
+      "id": "office-art-deco-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "7bc3f21605bd9d67e78df20ec147d61a187dd1f1c1da42b8f5a29ad26d8226b1",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "renderSha256": "8c12827f05ec09dad42d27f3a1607f4966491cc7c2dd73455831a1a4f9f0d99c"
+    },
+    {
+      "id": "workspace-art-deco-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "8a65625f0cf2f3fdb9b63d16ee58763b236714770b82710f81cad492428fd059",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "renderSha256": "b74b8209b693b7dddefb0801e039138dac701cb8ac82d140514403cf1fe25754"
+    },
+    {
+      "id": "living-art-deco-budget",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "ce6a049c3150767395dc1f1f7ebf7dddedf09d9fa9ad09b2e11caf2395d2f9e7",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "renderSha256": "d4ffead631db62fd896ad794e6ed066dfb8ae0791525a6c575e8789031686004"
+    },
+    {
+      "id": "bathroom-art-deco-budget",
+      "reason": "Curved/faceted window bay and competing patterned floor, green tile, brass and plants; use a rectangular window and one dominant finish.",
+      "previousRenderSha256": "e1bb825055636ca355d81f1b71d169e174fc842cceb2d30bca9209e3d5255cff",
+      "fix": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "renderSha256": "8695a11f6d064ddc8e5b478962568ad6b5556f4b4eadbd2a98c5d36decf6e27b"
+    },
+    {
+      "id": "office-art-deco-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "4be4784ef1ef161723e063ecd831e78d284089d75a28e40c94e556b10cd361ae",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "renderSha256": "92c3ce5e6ff02583b6031f50fd449354ee5bf8f79635567224187800185ef6c7"
+    },
+    {
+      "id": "workspace-art-deco-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "aa3d477e3ae566da04ed55a2091c4e68ade338cc6b673f0a9b00140fd9fad0bd",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "renderSha256": "43903c05950c6fcbc340a2f46f85b00b1b5d7268571d55a62d286c7c3a0fa3ab"
+    },
+    {
+      "id": "living-art-deco-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "efe3f55be5d9e4326b3f9323e92018a4e18544db42b0a53762e0a3b1653ff889",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "renderSha256": "3793acad8f207ff829f3ff100db3ef3a54f267b4678937cbbeefdc9846acb22b"
+    },
+    {
+      "id": "bedroom-art-deco-premium",
+      "reason": "Curved or faceted window bay and surrounding ceiling junction; use a conventional rectangular wall window and a flat ceiling, with calmer styling.",
+      "fix": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "previousRenderSha256": "d9a5d4e358017245037fc50dde11413aee81731829fd1193daf5dae89af9d3b2",
+      "renderSha256": "9e161fc8c85317e6a5744faa7f95be016dfe5ed1505d82d572a38638b527bdb7"
+    },
+    {
+      "id": "kitchen-art-deco-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "3571aab470c901f78e249c9b5d5a07bdbf06b9fd458e7d7ef00a9f35c510e793",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "renderSha256": "1fb42f8ef3d5bc537b9c3f4211966dd4577281a57f74dcf972b236243981c28d"
+    },
+    {
+      "id": "office-art-deco-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "3a3017af45daafac2a6588a4dfc11858b528fe6e145cd71c9b2034250c4484d0",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "renderSha256": "fe5ff9455acb62810ed9a232d89920572a8ddb97253b01f182a0c0fcbad5a6a6"
+    },
+    {
+      "id": "dining-art-deco-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "a479c9bb425322986094922564358779f68b724198831567c7a28704ddb06abb",
+      "fix": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "renderSha256": "8ce63bd18bdab7d7b81fa452558c1beb26b4c4eff95f3caa9aec393810168748"
+    },
+    {
+      "id": "workspace-art-deco-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "44fb8836cd96256d118825eb0063506e4935a1b9408b74743c55321485f1c986",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Deep color, tailored furniture and restrained brass/geometric detail.",
+      "renderSha256": "2a67e98b62fc8395895cdab8149f8dceca99607f46b473048e9a90b14b6bd717"
+    },
+    {
+      "id": "living-modern-classic-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "a99edb2eb1dd654452b58b218e4d9d3e6f6a3488193996541494187cee48ae6a",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "renderSha256": "30615ce1907d5cdd5dc45ad1b74c2fa543a778b55acb4e72a56dd99d4edb7215"
+    },
+    {
+      "id": "bathroom-modern-classic-economy",
+      "reason": "Curved or faceted window bay and surrounding ceiling junction; use a conventional rectangular wall window and a flat ceiling, with calmer styling.",
+      "fix": "The shower, basin and WC have readable fittings and ordinary clear circulation; soap and a towel replace decorative displays. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "previousRenderSha256": "d020c1f5c36c14723698861563e617573ff4e2e3cc21ef0237a3f2c212c9a73e",
+      "renderSha256": "f5b5253ebc9901189d06296209f722bc40a42b40deb00d3c8bed7896d3d359a6"
+    },
+    {
+      "id": "kitchen-modern-classic-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "697aa31f502a6e187ce62d2ae034bccfc762b818ed5a282df75db1f81657d996",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "renderSha256": "c750dca64a81467bc94a6f0b5e462e920ef6fb21ac9511938191debd2362e5a4"
+    },
+    {
+      "id": "office-modern-classic-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "2c6ae3a4319a8e0e4430e9cb934bdc64cca2d82d6243dd407fc0810b658f2e9a",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "renderSha256": "0d60998f4fb5b46a30dd4f0a47aaa77ef65a62bf860b2ec79a5e34afa40128fa"
+    },
+    {
+      "id": "dining-modern-classic-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "fe31aa73f52d42a31c6dc0a2440fa07ad3f2ddf0f168f117d4d7b17683bfb9b4",
+      "fix": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "renderSha256": "fd1cac1e6061f99abcaba26f28e01266d03513daf4135c7f7aa1f212c58d2918"
+    },
+    {
+      "id": "workspace-modern-classic-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "66cf11c00113ea6c93a03fe92e110cbca8ca77c4b3d3e68c3259a9bc7f5b5e00",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "renderSha256": "574312d0b74699ac21659da451449d623bb115f9798865f3772a16daf92ef98c"
+    },
+    {
+      "id": "living-modern-classic-budget",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "14d1ab08c93e699d7432c81cfeabd25b3cf7dc764b56ada378c87bc9f86670c1",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "renderSha256": "5cac8c82d7e0202604bddb81e490f5c3521ed89ac63a736a019b1846de1079f5"
+    },
+    {
+      "id": "bedroom-modern-classic-budget",
+      "reason": "Curved or faceted window bay and surrounding ceiling junction; use a conventional rectangular wall window and a flat ceiling, with calmer styling.",
+      "fix": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "previousRenderSha256": "16650af110b40b38495596e8840f5ed320e33292d769265a879c98a1400a759d",
+      "renderSha256": "348245aa64c440841d758076de3668b90baea4844c11b5f47355058d81f541ef"
+    },
+    {
+      "id": "kitchen-modern-classic-budget",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "9c4c1e87ca71c114c7868347520f24fe06e766599b409638b8d5b512a1d39adb",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "renderSha256": "9d69fef6c16f5f0774c651ca16f50952978ed37df82ac7701f8efd949e4c6cdd"
+    },
+    {
+      "id": "office-modern-classic-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "f6f06a3ecc823fbf2682f7bb8dcec2bda62cfcb9a65409854bb74edbbfe37d5c",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "renderSha256": "e1846af9055fc1783799db0e219378b1f33244948f27445bf8c0c5e1ca45563e"
+    },
+    {
+      "id": "workspace-modern-classic-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "99581838d1eb9c44e59d287457df6b02e4ed167221e16187a9138f980ba60986",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "renderSha256": "8cd62b0dd3195acddc953e5914405c4639c20b41ec12477219d67956152bb4cc"
+    },
+    {
+      "id": "living-modern-classic-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "a7a50c661d6fd951d0d7858f8d1e187a5e67823e420112b254a35990e71a199a",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "renderSha256": "3bfea746490896d9806f6e2242dee914687bbcc9c8694897f55c045ca7e55140"
+    },
+    {
+      "id": "kitchen-modern-classic-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "d83ec1383b2acd4f77b59fdabb2f460a75304d777a29beef66e365fa7a1d1fb0",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "renderSha256": "670cce6cffc3becf031c822ae496460878b029ad6abb3c72624dcc6763602d4c"
+    },
+    {
+      "id": "office-modern-classic-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "d7b7100d69be84826c28dddc79b41d76866c4f7644a505b8ded1b31f34c2a844",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "renderSha256": "f80780550fedcef6cbff3a08e1d94def90e9025007dbc5e2719849f780842cb2"
+    },
+    {
+      "id": "workspace-modern-classic-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "4de8fd9bc6e4f607127d50809f9a4bc1c48a271c2911d501dea2da28015aa248",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Straight cornice/panel details sit with tailored contemporary furniture.",
+      "renderSha256": "130ae3548ea7af999ec410be94b5810b35c4a2866db86fd3c338b3d6848656e0"
+    },
+    {
+      "id": "living-wabi-sabi-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "21be2bdafbafb2c433469eeb252b70d1c9556f97b5a235ab09c00183f1caf5ca",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "renderSha256": "e75b069b1db03127a5dba2ffaf6c9e7dbd63a8af5ae72369b0792fa696d9d5a3"
+    },
+    {
+      "id": "bedroom-wabi-sabi-economy",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "e755e5e74441a252313bd90b56a411420477c299fd3dc25f6bdf59d9806f8dd1",
+      "fix": "The bed is on a continuous floor with clear bedside access; plain cabinetry and restrained bedding keep the composition readable. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "renderSha256": "b90b5df62273a9067b85f27cd17796d03be8e66683784e5f839ed4c5dbf73fae"
+    },
+    {
+      "id": "kitchen-wabi-sabi-economy",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "aa7be8bbf3ec9832fb3c89f19cbeb120b84cb6970221dccf1c9384cf4f7e9320",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "renderSha256": "eb0b9414c409f5cb1910430165bfa070d6a278b7878ccefcc3ffee3bf2099cf8"
+    },
+    {
+      "id": "office-wabi-sabi-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "0ab51c6cf8ab569b1edd730476d57069f4190598d51626ee2dec9c8d2b6f607b",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "renderSha256": "f96d7eec156b6feacc07b62ef3baa42a89774c8e44035a1ebb40a8f127a9bc33"
+    },
+    {
+      "id": "workspace-wabi-sabi-economy",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "a9ace76ed0390c0837ee405d4754c9c71c7c61532402e7a7bef339e53854568e",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "renderSha256": "7291b4744e1c06ccbe216e466844c04148aee80559a6cec37d76701ec27ebb40"
+    },
+    {
+      "id": "living-wabi-sabi-budget",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "53355e135ad0a303f839ea32ef694a2a10857c6fb4833ca61501e4964e1433b2",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "renderSha256": "2a211dcd9d1a3b9982a759bf94a5cbec0ff298ef216fe80bb9e70eab289c0be6"
+    },
+    {
+      "id": "kitchen-wabi-sabi-budget",
+      "reason": "Sloped roof, prominent rooflight well or elaborate overhead geometry; replace with a level ceiling and conventional rectangular wall windows, and simplify decorative styling.",
+      "previousRenderSha256": "88b1aeddf383d78cc0aa13bf446d5f02bb664d7edaeb06a912df852b8e1725dd",
+      "fix": "Closed cabinetry and a clear preparation surface carry the composition; the worktop has only a few useful objects. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "renderSha256": "80675a1067e90b17180bf27de3095fb6675478bc4d44e9518d5bffe2e6d9e970"
+    },
+    {
+      "id": "office-wabi-sabi-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "21884353178ce79da1e11a0756692756d497e3da5617ce19ab1eca069cf40bbe",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "renderSha256": "fc28b4f657b9fc2140d3d8d98e8405eee18f5c11106f8c2444ddff9e7de21a2b"
+    },
+    {
+      "id": "dining-wabi-sabi-budget",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "6634a4d28fcf9fdb227aad83b63356366aea4989fe2c62336b0da007876849d2",
+      "fix": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "renderSha256": "210e6dbec26b31a8bef563177d96b204709c442e916e5067b8320cb17e912e18"
+    },
+    {
+      "id": "workspace-wabi-sabi-budget",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "f450b6ff187a11010b0c039d8cfbde6b3fcd124227b932b0d290ad444a4bc0dd",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "renderSha256": "a07522808e805104aeeaed19f928380da730adb11e6a7d8d236adbd3bf6effee"
+    },
+    {
+      "id": "living-wabi-sabi-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "6df8a62e524521660bfa20f0981e573562fed4dc3f7fabad72bf6959baf5c17a",
+      "fix": "The sofa and one table provide the focal group; usable floor and an unfilled wall remain visible. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "renderSha256": "92400be1208f6f58ee8fb48a3890ed39e9b70623f64d35c8f673363372784a97"
+    },
+    {
+      "id": "office-wabi-sabi-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "a8483998cee5a7a276e9528677c116a008c169da9bedf84d0958b0d11d7db9eb",
+      "fix": "A clear working desk, task light and comfortable chair are supported by mostly closed storage; there is no prop-filled display wall. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "renderSha256": "e5bc3e84028720319657e1e84a026109bed6580533404b12759670a9ee5214b6"
+    },
+    {
+      "id": "dining-wabi-sabi-premium",
+      "reason": "Competing decorative clusters, repeated shelf styling or elaborate ceiling/window treatment weaken the focal point. Replace with a restrained, believable interior and a continuous level ceiling.",
+      "previousRenderSha256": "eff22a4c19a6651ef9aea0d62a6c4887ac2736961bf143b641e2b77337456d03",
+      "fix": "The dining table and pendant form one focal point, with clear chair access and a mostly empty tabletop. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "renderSha256": "583ec080c971d09bc6d5402c08d985ddf82019f7f1125fb9aa3cc244463670dd"
+    },
+    {
+      "id": "workspace-wabi-sabi-premium",
+      "reason": "Packed open storage, repeated plants and small props compete with the working surface; simplify functional storage and vary the room composition.",
+      "previousRenderSha256": "85c660a35461c2c939a5495dfa5d773249c9c2a8571a2821e9aa49e46a063857",
+      "fix": "One recognizable making activity occupies the workbench; supplies are grouped in storage and most of the working surface remains available. Matte earthy surfaces, tactile timber and restrained handmade character.",
+      "renderSha256": "42f5fde2bae19effb0e9b1899264b71cf37dba40365f6006d14cc58a7eabec67"
+    }
+  ],
+  "preserved": [
+    {
+      "id": "living-minimalism-economy",
+      "renderSha256": "b3b339e587f5381bb4f2e47ad30a6249b0af07a8069b96ff3533992cb9753ea9"
+    },
+    {
+      "id": "bedroom-minimalism-economy",
+      "renderSha256": "a1298ede2bf7671c643f8a9ee4c9f0396e290b439716dd8551f956caa6ba0883"
+    },
+    {
+      "id": "kitchen-minimalism-economy",
+      "renderSha256": "f815e8e44c10a8674fe6afc00a3bcafc53c04763da40ba2263d6169f914c8a58"
+    },
+    {
+      "id": "living-minimalism-budget",
+      "renderSha256": "70460138e2436a71532ec21c842c4d2a6caf980e0361a77fe4bc3edf7d9ebc40"
+    },
+    {
+      "id": "bedroom-minimalism-budget",
+      "renderSha256": "3fbcb7cc749bdd1d6892aade4c976d67472bea8caf7d41071c2e0821b44515fb"
+    },
+    {
+      "id": "bathroom-minimalism-budget",
+      "renderSha256": "4d5cf49723d243254db535442801623b277faa81e660833a5b5d87d39af4f0d1"
+    },
+    {
+      "id": "kitchen-minimalism-budget",
+      "renderSha256": "7a6fd12d53fd6471529edf3a28999e05a852a57fc0de642b4d472660ea6eda08"
+    },
+    {
+      "id": "dining-minimalism-budget",
+      "renderSha256": "a2317fc7ed9402bcd2c41f1381110ca206d0f8d572b921fb01a92bc5ec3014a8"
+    },
+    {
+      "id": "bedroom-minimalism-premium",
+      "renderSha256": "393615451a87beba968c6af1a7b3e2227db0e6d10291aa191f12b667d57cfd4f"
+    },
+    {
+      "id": "bathroom-minimalism-premium",
+      "renderSha256": "97bcad114168b37d2c9ba9b95017b8e1a5f034a772c3bc62d79586ba67067286"
+    },
+    {
+      "id": "dining-minimalism-premium",
+      "renderSha256": "de2cabf733f4013294c0bd57e1e96b0ff4b9259162cfdd6805f274e6ac3733e2"
+    },
+    {
+      "id": "living-japandi-economy",
+      "renderSha256": "b72d5eac7416d9c41d1e5b03fcf3ddd0aa7839c86d69dfd836d1c0349e6d0439"
+    },
+    {
+      "id": "bedroom-japandi-economy",
+      "renderSha256": "54caf67c9f3b9d6b7a56c85e8c2fb30d364ef0b3b34c6fdb5ed6caae3e16f122"
+    },
+    {
+      "id": "kitchen-japandi-economy",
+      "renderSha256": "81563389b1f3c17f9fdcd2b52286062889f9c95a88f95d52c43341195c983268"
+    },
+    {
+      "id": "bathroom-japandi-budget",
+      "renderSha256": "bf37683744c9de486702347f9aa255465d126c9f501d0f5cd9925a8232d0bd97"
+    },
+    {
+      "id": "dining-japandi-budget",
+      "renderSha256": "f0e46afac9c53a913b3775328e2884176718d0c3dd436cde8d7d7d7acf618cc2"
+    },
+    {
+      "id": "bedroom-japandi-premium",
+      "renderSha256": "5b150b1a0dbce671aa251b4343fa9a23bda4f4261c512b9553037c9d98ba6e4e"
+    },
+    {
+      "id": "bathroom-japandi-premium",
+      "renderSha256": "e970403ac1c8c2355ceb30e39d1ea3f56d97b1b8979f296fbb482a7f90d8c98d"
+    },
+    {
+      "id": "dining-japandi-premium",
+      "renderSha256": "6847515d8b513f9e16695e99bd214542d5783fd0977269dbb24bac1341a14051"
+    },
+    {
+      "id": "bathroom-natural-economy",
+      "renderSha256": "fb1b823d08ab108965ddc73c38e0f3d1d5afb7ef9b03f29b5eba9e585f66ad35"
+    },
+    {
+      "id": "dining-natural-economy",
+      "renderSha256": "adf074732ba3037c1d7f9694dd66723c12b08b4e43e7b3635542c500c13c473d"
+    },
+    {
+      "id": "bedroom-natural-budget",
+      "renderSha256": "ced9f8194d7e8586bcebf238ffe701b3a7608e1253af557e6e1c95bcc5a19af7"
+    },
+    {
+      "id": "bathroom-natural-budget",
+      "renderSha256": "e7e314dc91d60b1f01daff6e34f175a2e0529602b03054b2f8f27cf3097461f5"
+    },
+    {
+      "id": "dining-natural-budget",
+      "renderSha256": "7996e7fd854a894706291827e2e301177068480f214dc156b6a447f7b0c06223"
+    },
+    {
+      "id": "living-natural-premium",
+      "renderSha256": "d7ad24c4cc31f1b9682d4078145340b8ce71d338c3e07250589280a3c02efe79"
+    },
+    {
+      "id": "bedroom-natural-premium",
+      "renderSha256": "0fa60781b219efdb53053869764db8b12aa25ef97bace227ffd59fdbc11c12ca"
+    },
+    {
+      "id": "kitchen-natural-premium",
+      "renderSha256": "8ea165de103149da3f63235d5dc4fa8a7bac15644c9604e1114b58515c6419a5"
+    },
+    {
+      "id": "bedroom-scandinavian-economy",
+      "renderSha256": "2976514c13b1b9c4ad4af860f16e77c9786c2933a3e0da73bd1d96be606d2288"
+    },
+    {
+      "id": "bathroom-scandinavian-economy",
+      "renderSha256": "4e4dcd46b8ca13023952619a30c4b9b3118db22ffdbbea6a5d09183647367dda"
+    },
+    {
+      "id": "kitchen-scandinavian-economy",
+      "renderSha256": "ec953bfa167b5ca4921743f58b0172cba5f930b91a1f7bc26752c8037e6e0b4a"
+    },
+    {
+      "id": "bedroom-scandinavian-budget",
+      "renderSha256": "76bcd043f310b60b54a0d95c2e3b1f5efe5591289807315782e1885390f00450"
+    },
+    {
+      "id": "bathroom-scandinavian-budget",
+      "renderSha256": "7b10d5986930c8aa94ae1186542de7c1766d88ac5240dc056374eb7559d5f6ec"
+    },
+    {
+      "id": "dining-scandinavian-budget",
+      "renderSha256": "1ecf5d94826aaa4bb600620ea681f98b219b232c79be4fe88dac4a44cff7a244"
+    },
+    {
+      "id": "living-scandinavian-premium",
+      "renderSha256": "37ee4f0b6e5356308aaaf9e3da76f1660ae317cc25dcec28da228a69d1cd05c2"
+    },
+    {
+      "id": "bedroom-scandinavian-premium",
+      "renderSha256": "22a4605f66ed33e93eb771194d163ea79609c3254637f00acaa9b38b27d60bb6"
+    },
+    {
+      "id": "bathroom-scandinavian-premium",
+      "renderSha256": "575d5311ad3fbe8d649aaf8a0b6bb492c53cde9f8b877d886ed8adade5adc07a"
+    },
+    {
+      "id": "bathroom-mid-century-economy",
+      "renderSha256": "f156986d38fb5e1ec8658a194d4b58a8cdc35989b0bf390d34d0240ebec96b3c"
+    },
+    {
+      "id": "dining-mid-century-economy",
+      "renderSha256": "02fd6ce244d47e6ed8863ac0ccd64ef6e5953d22391a67535352cdbd304c7cf9"
+    },
+    {
+      "id": "living-mid-century-budget",
+      "renderSha256": "24b05e5de7dca4b00c113e2ab0afaf1eaf3a80d219031b3d6ff7f401dbae6f03"
+    },
+    {
+      "id": "bedroom-mid-century-budget",
+      "renderSha256": "b97ac73703790db2e29f16b7c16d48c658f0aae75d055dc408cc1e83ecbf164b"
+    },
+    {
+      "id": "bathroom-mid-century-budget",
+      "renderSha256": "32921ead5122736e4513d43ab27cb365ea69f43468270917ffdb24ecf1238fb4"
+    },
+    {
+      "id": "dining-mid-century-budget",
+      "renderSha256": "85b91bef106cbd859e96f2228c29eedd5cd3bb63d15ed0f3a2944489321d8a9c"
+    },
+    {
+      "id": "living-mid-century-premium",
+      "renderSha256": "aa1941e48a1f1f8489f36074eb62f3d42906af392f8e69f4349bdb95965cffe0"
+    },
+    {
+      "id": "bedroom-mid-century-premium",
+      "renderSha256": "a190eb7fff2e71f19d94fec0cd29402a4b8557a2fb0d23acff320fdb2b9b65c5"
+    },
+    {
+      "id": "bathroom-mid-century-premium",
+      "renderSha256": "90418f7e3ad36699cc4e101599d2f29b65b92d8f7eb38c3da0970844b662172b"
+    },
+    {
+      "id": "dining-mid-century-premium",
+      "renderSha256": "0520b0e65bcf57e18cbc7c0a8f993863c3f8c805b7d7912d7219d93ac23dd60e"
+    },
+    {
+      "id": "bedroom-industrial-economy",
+      "renderSha256": "25af948bb01c27701531b4bd304f3c1881078eb038c9a5e6be507fb448f00471"
+    },
+    {
+      "id": "living-industrial-budget",
+      "renderSha256": "11e9a9ef655e8f81f41077c502f786ed9d32ee30030eb809944a5cad1706ab7b"
+    },
+    {
+      "id": "bathroom-industrial-budget",
+      "renderSha256": "126025460edfb6a7d5981c7c1cdf01b8dc00d67a2738677fe31a01ec8ff048f1"
+    },
+    {
+      "id": "living-industrial-premium",
+      "renderSha256": "c892e12812ef924ba671d3acd29b829517d882e596f706bd131f9bd9d38495aa"
+    },
+    {
+      "id": "bedroom-industrial-premium",
+      "renderSha256": "0394110627dc8dc8ea2db9928cc08abb9bb4aedc1b98259bc58caf6fe4141401"
+    },
+    {
+      "id": "bathroom-industrial-premium",
+      "renderSha256": "69a034b25c53a6e99ec13338bb89fe2496265042eca172b92f29fdc83759e959"
+    },
+    {
+      "id": "dining-industrial-premium",
+      "renderSha256": "69c949a030c1c3ac1495fc9bfa422be8d37e9f51727b9f753a21ac2f156cf532"
+    },
+    {
+      "id": "bathroom-contemporary-economy",
+      "renderSha256": "533c0fab7007c71474c380b4d0b6077f46db5bcca0d3eaad9ef2202eb073f56f"
+    },
+    {
+      "id": "kitchen-contemporary-economy",
+      "renderSha256": "df14dfe87424116b59f0b4fdb0f8ba65e9eeda56643973b265a586cd5e9a469e"
+    },
+    {
+      "id": "dining-contemporary-economy",
+      "renderSha256": "622e07f9787e85bd9a8bbfa9e56d23e97afb394ab5dc6c0ad3ca36d763e4d2f2"
+    },
+    {
+      "id": "bedroom-contemporary-budget",
+      "renderSha256": "056b582d614f98b51ab86cb81c196b26e5767df8a3661935496dbd6f05c11e35"
+    },
+    {
+      "id": "bathroom-contemporary-budget",
+      "renderSha256": "d88475d40c7fee49ffed38e37eeceb9b20e52008586b945171bdb01927448cbd"
+    },
+    {
+      "id": "dining-contemporary-budget",
+      "renderSha256": "4a9a2a6f7e126771630af81313cdb85dd7d1be6a69f9dbc7b6730ed31fa46b8b"
+    },
+    {
+      "id": "bedroom-contemporary-premium",
+      "renderSha256": "aa9b921cad607ecfbdd384b38af69a2f7ac88635572c8c7b2adc8fd8dc4051be"
+    },
+    {
+      "id": "kitchen-contemporary-premium",
+      "renderSha256": "8d2196f30ed6ae72c8af5ca38cd583c8ed9e97c69b169e2328c2a6f78d93b8bc"
+    },
+    {
+      "id": "dining-contemporary-premium",
+      "renderSha256": "3d59acaebfa4f3a87867cb67bf3da5d73b5b293095c0330c64112884322f5803"
+    },
+    {
+      "id": "bedroom-mediterranean-economy",
+      "renderSha256": "874c48a1ac286238a7fe238979fcd42ccb49bbefd2e32d1fa233fe372bfbc5db"
+    },
+    {
+      "id": "bathroom-mediterranean-economy",
+      "renderSha256": "dcd68675d3290cf2951eb20d15fb18b86e2e08e75d23821a7d0bb245de4d60ea"
+    },
+    {
+      "id": "dining-mediterranean-economy",
+      "renderSha256": "9b0c2bfb699e0483648ef09b6f7966c4803217f222bad7a30e1dfac1b12b7d34"
+    },
+    {
+      "id": "bathroom-mediterranean-budget",
+      "renderSha256": "8148a6161af8c15989a0dc1d1146e57c67cc359287b0ba3fd918c72ff84f3a87"
+    },
+    {
+      "id": "dining-mediterranean-budget",
+      "renderSha256": "043d020f16b3bf7d0fee7b03907d3e87e395089f96ebd766b35cc41d3a8f6c44"
+    },
+    {
+      "id": "living-mediterranean-premium",
+      "renderSha256": "46121517402317ed59b568fdc3206241b0d16dbfca05459d7e185063b9f69e4f"
+    },
+    {
+      "id": "bedroom-mediterranean-premium",
+      "renderSha256": "2e42097dd23d9fc5680c6fdb2209921f1ffa4c82111f614b987cab69e91ef08a"
+    },
+    {
+      "id": "bathroom-mediterranean-premium",
+      "renderSha256": "3b300085dab051db7d8ce9b2e2b7d4c292bf21b213bf8bedef5286f4d93954de"
+    },
+    {
+      "id": "bedroom-bohemian-economy",
+      "renderSha256": "74078588f0d7cbf6567aa2b45e4d93819dd03dc87a8e141fd55b07647d6ddc6d"
+    },
+    {
+      "id": "bathroom-art-deco-economy",
+      "renderSha256": "0aa478d56681a9cffbac1683be58748d6c695bd98091ceec50e7ec3b16302b51"
+    },
+    {
+      "id": "dining-art-deco-economy",
+      "renderSha256": "3d688e5135a1cf9cf675363158199b060442a11f08443b3d9a6c9b96e6863b26"
+    },
+    {
+      "id": "bedroom-art-deco-budget",
+      "renderSha256": "c1958e2cf52655615cc1e35a4b8136b565b8164129450fcdfdeb999c3c9635c2"
+    },
+    {
+      "id": "kitchen-art-deco-budget",
+      "renderSha256": "60a78e2439f40158b8d908070b8cd4ae561d3f9b75acf598748a82579c2658ee"
+    },
+    {
+      "id": "dining-art-deco-budget",
+      "renderSha256": "35888b50b1fe680954b0601c70f0af9ee8d1c83cef3c83dc609da74e28fc6e8b"
+    },
+    {
+      "id": "bathroom-art-deco-premium",
+      "renderSha256": "17613c7c226fcb0c9b1fd16752d7a8b8d4dfea1d9558928911c4a5da59641c5e"
+    },
+    {
+      "id": "bedroom-modern-classic-economy",
+      "renderSha256": "b8cfee967bc0df209cc3e2ef08e4f4b5304f5b0d7e005934ad6ee84c973b38ad"
+    },
+    {
+      "id": "bathroom-modern-classic-budget",
+      "renderSha256": "b325269d35549764bcb88ff38fc8e87017c2cde1b756a62ec53ef70941868a30"
+    },
+    {
+      "id": "dining-modern-classic-budget",
+      "renderSha256": "b4203abc5a1f59ce5cba8ba68b7a04478644a331c208cd2b8a67a9ecfa31f36b"
+    },
+    {
+      "id": "bedroom-modern-classic-premium",
+      "renderSha256": "3981e6173b210bc074d91356cf0a1a4e6a213cbcbcedfa7c67644d76dcfee46d"
+    },
+    {
+      "id": "bathroom-modern-classic-premium",
+      "renderSha256": "6f532ef8c383a4e783f18e6fe66a04cce4665de47e5eb04dd395feac4b1e87b2"
+    },
+    {
+      "id": "dining-modern-classic-premium",
+      "renderSha256": "c69d855ab0b0249dc06f6011301c014245568d6ad54b25cff4de154b842b2f18"
+    },
+    {
+      "id": "bathroom-wabi-sabi-economy",
+      "renderSha256": "162bc24c7c9edd26219b5b9efa242d1716fba0a04a0cf2aaf2ada6a229f85cb4"
+    },
+    {
+      "id": "dining-wabi-sabi-economy",
+      "renderSha256": "ea7cfb2da10b55973942c2c9be63c4a1c065e4993dbae897a5829443eb045936"
+    },
+    {
+      "id": "bedroom-wabi-sabi-budget",
+      "renderSha256": "ba3fec301fa4e94b431c111b6b566e0bbe9bf6a4e1fcb6b237073d53859fe47a"
+    },
+    {
+      "id": "bathroom-wabi-sabi-budget",
+      "renderSha256": "5d8c4a79882d8f36abb57eb1dfd18b79305cbe4495cbfc270fe1e66c12cf2f79"
+    },
+    {
+      "id": "bedroom-wabi-sabi-premium",
+      "renderSha256": "ff6a61841defb05f565cb3070599ee9cc815599ab390e02ccfd2d9ef793292bd"
+    },
+    {
+      "id": "bathroom-wabi-sabi-premium",
+      "renderSha256": "d5cbfa0f65fbafc11cfe6b246a1e4a38952dbad581c43766d428e172aade14cb"
+    },
+    {
+      "id": "kitchen-wabi-sabi-premium",
+      "renderSha256": "cfd5d524fc6621de64632d433737441b3b9dd5bd63541d1593865be42162097e"
+    }
+  ],
+  "sourceAssets": {
+    "public/images/gallery/art-deco-budget.webp": "d3f90dbcc57dbe9d0cf3c6b57fe3cd4060424078e826873796bfbacc696e7902",
+    "public/images/gallery/art-deco-economy.webp": "4b558f4e33245c47bf38137cfe1bb1be21766b65eb576ea54064855c5d74a44a",
+    "public/images/gallery/art-deco-premium.webp": "56f10ab7ba31fd83165c089bb3dd287ba821eae401cb53333c4637e590602de7",
+    "public/images/gallery/bohemian-budget.webp": "8dc4c64322e3887986b95142822d48bb0f072dd47143d35e04ab239bdb81891e",
+    "public/images/gallery/bohemian-economy.webp": "a12dd81e1a9cd7ef2229cd83d80766bead2304c2e2dd90ec38713ddc72327ba6",
+    "public/images/gallery/bohemian-premium.webp": "df99b5f33c0bfcfd30e87501b8b718525f2251d8346b1e7ee1dde6624fe6582a",
+    "public/images/gallery/contemporary-budget.webp": "c7452e6df6724af956b6602389ee7993a2a71e6ba376127e39a2c8cef616c7a8",
+    "public/images/gallery/contemporary-economy.webp": "6bd8cfa8aa337199cb5de6e8959c47caa0eb9ee3c0732f20d12421b70e071d02",
+    "public/images/gallery/contemporary-premium.webp": "d14a28cef613abf1d915540e58f84e11ede6a82103681dc13b57612e1038db9c",
+    "public/images/gallery/featured-bedroom-japandi-budget.webp": "ee07a15ebb96a70b59385db749b664ae87c38e3af53509ed8416c7d651cdddc0",
+    "public/images/gallery/featured-living-contemporary-premium.webp": "cc02686b7034e76e5552101f1eed18284eb1c307b22820dd930de12aec793fa2",
+    "public/images/gallery/featured-living-industrial-economy.webp": "1abe3cf36a98d75935c3b25504a650dcfdf56bc6289929e41e9ecff9f173a7bf",
+    "public/images/gallery/geometry-review-01.webp": "45e85f77281a0e3de5bef41a73415ea94cc75b5b6ea8c536f0719e066ee3409e",
+    "public/images/gallery/geometry-review-02.webp": "ece9decd15a8c095b84059c30a3ea8425f98ead04e53592f1e4707f2ab60b69b",
+    "public/images/gallery/geometry-review-03.webp": "2820dbd19e117702972d7aadbe2fd4ce4daac8e89f972c9e9ed971b36983ddd3",
+    "public/images/gallery/geometry-review-04.webp": "5f4b6a1ba088221fc7bbea1e31cada311797f34eca78875dcd425945a65c4bd0",
+    "public/images/gallery/geometry-review-05.webp": "9ae1bbaaa95a2bb0162cc92a9dc72cf237fbc0fcf132362188b401067bed4e26",
+    "public/images/gallery/industrial-budget.webp": "4feada2223de80219fad922bae44e2619fd02ba605fd04c3fa1b34779f079a2b",
+    "public/images/gallery/industrial-economy.webp": "a6cfc65f86b9f851fb21053527a5d9f16a69ab4be616868b8817d0453ffb2965",
+    "public/images/gallery/industrial-premium.webp": "2bcb3179ece4249c4b69058e1d5774f7f91330ce08179c62fe9c923a00b360a2",
+    "public/images/gallery/japandi-budget.webp": "0c78003a7f7628feb2dc5bc78e8b388e968a223eec81459e4eb3de9572edd6d8",
+    "public/images/gallery/japandi-economy.webp": "fa54d083708748b21d0e8c481b19fa983238abb606f2bf4263709e03b299379c",
+    "public/images/gallery/japandi-premium.webp": "cd3f1c2b6e0a328b8945a17381b7b38f2d88ab3ea3ecc416a5d342cb2dce1e7a",
+    "public/images/gallery/mediterranean-budget.webp": "9875b21a7b80e6cd7d8b68331c76813168eeffad127e71755e2f46c320f89c79",
+    "public/images/gallery/mediterranean-economy.webp": "14a02e3f8ce1fb40e04bfef79e29177d597ba7b33843dfa335eb1e62d558d824",
+    "public/images/gallery/mediterranean-premium.webp": "ac26e3bd03b4b7bedbdcf348cc52dce78bb61037ae9539ea6c82da602b5e7b6e",
+    "public/images/gallery/mid-century-budget.webp": "6eaa015a7a61be28c1ea0902e984c0f2d4cf34a5e89179ea26b5a4828360def7",
+    "public/images/gallery/mid-century-economy.webp": "4cde172bc05eb2b8c51e4c6ddc45ee632ed324ce2dc50726a6c7570f545e831c",
+    "public/images/gallery/mid-century-premium.webp": "d80d0f059b3c7645a8d625613c6883f51b1adea8b4702f5e827048abe6c65147",
+    "public/images/gallery/minimalism-budget.webp": "4a20ff5d878faa562ff969f38f7acff29ff4c634fa8f2efee76bc1cc7805edae",
+    "public/images/gallery/minimalism-economy.webp": "a47d9728761fb6b28d837cfb2317339c3ee3fdaeefbedd82dffa60c18ab641c0",
+    "public/images/gallery/minimalism-premium.webp": "2197a1347be0d31c5fdb91fd9ddd3fbd38d4034ded91b916fda8a47cc72fd4b4",
+    "public/images/gallery/modern-classic-budget.webp": "e39bda78622fd7f4246162870910466818725b505cd84d4d31d8a09338b63fc9",
+    "public/images/gallery/modern-classic-economy.webp": "e4d5a8fe0fe157b621db37e1a2f71c4c3594431581a9acedb9884e33cb0dcbc3",
+    "public/images/gallery/modern-classic-premium.webp": "62a2880237b5f828f8d8037c115743df19c90a780c9dbb49777526e6ce182593",
+    "public/images/gallery/natural-budget.webp": "c1977663b05227a645b3fc28dc40ac79f90970bca402ce1ae0a63e13f1535b36",
+    "public/images/gallery/natural-economy.webp": "3711d6a0039727a23fa3185769b39b6e14d484017bfd01f44ef827023fb306f5",
+    "public/images/gallery/natural-premium.webp": "3257b56458249c2778510821164b0ea00258a4b2aed61fe39c77b016c7a897fa",
+    "public/images/gallery/reviewed-bedroom-japandi-budget.webp": "c03d99dc673e0ea5f93fefacfc59635445affee35b66844bdf9009decd7d684c",
+    "public/images/gallery/reviewed-living-contemporary-premium.webp": "29eb4861b6250a13dd0f92602e3ba756fd2235daf5972281e55328fbe514f08b",
+    "public/images/gallery/reviewed-living-industrial-economy.webp": "4a6a5815c5872d6e93732f90dd84ec7a95e4b70e512eff7207096701697d474c",
+    "public/images/gallery/scandinavian-budget.webp": "58c38f3daad78e64ec0a0089561d3b1e08114195cb9f82785782ed37ff72cd7d",
+    "public/images/gallery/scandinavian-economy.webp": "c7c1e0310ca0365ff94d4f809fc6db0015dcbd26d99c5bb6f2d7c9c2b94cf000",
+    "public/images/gallery/scandinavian-premium.webp": "c0f32df566ad163b9c5be8fa6e411e2882d7d8f454161e7604be72a0111f41d3",
+    "public/images/gallery/wabi-sabi-budget.webp": "ff5b2eac6380ac7b19f0c27c3675c5147b2d871dc80ece21e59eee83f903e182",
+    "public/images/gallery/wabi-sabi-economy.webp": "96b64a943992b15eb6ba31c199448a90391975e2f7133cf1d1e734535a70afa1",
+    "public/images/gallery/wabi-sabi-premium.webp": "458e81f74f217ee641f0d83318ec9a967be055e001979c879c3d42c52b5a774d"
+  },
+  "referenceAssets": {
+    "public/images/hero.jpg": "41146f5c1405f5eb5c6f4742da18835de41f2f76015c1582d55d6e67a87394ff",
+    "public/images/living.jpg": "f596d3fdc050eec451de363c8d90199ee0c275a43b8ccfd42ce04d645b3afc49",
+    "public/images/kitchen.jpg": "4bd1cdf7c3a40a5863efaae63651a1bc440d503a0abab7fa8d59e7ed3ecfc350",
+    "public/images/bedroom.jpg": "586f80db8788e5374a39670ff90acbdb3658a6fe6db229c38e5b1cea96c44fad",
+    "public/images/detail.jpg": "bfc8fed6f183afa481d5bd24b9fdac34f21d18b13f59ff82b8ebe03e1f0f4628",
+    "public/images/studio.jpg": "a621016a8bb3758b8f633a006d2475409c014d4ec1d72bf0d2765f80031f8f39"
+  },
+  "metadataCorrections": [
+    {
+      "id": "reference:bedroom",
+      "field": "room",
+      "from": "bedroom",
+      "to": "living",
+      "reason": "The original image is a lounge corner, not a bedroom."
+    }
+  ],
+  "batches": [
+    {
+      "id": "quality-review-01",
+      "items": [
+        "bathroom-minimalism-economy",
+        "office-minimalism-economy",
+        "dining-minimalism-economy",
+        "workspace-minimalism-economy",
+        "office-minimalism-budget",
+        "workspace-minimalism-budget",
+        "living-minimalism-premium",
+        "kitchen-minimalism-premium"
+      ]
+    },
+    {
+      "id": "quality-review-02",
+      "items": [
+        "office-minimalism-premium",
+        "workspace-minimalism-premium",
+        "bathroom-japandi-economy",
+        "office-japandi-economy",
+        "dining-japandi-economy",
+        "workspace-japandi-economy",
+        "living-japandi-budget",
+        "kitchen-japandi-budget"
+      ]
+    },
+    {
+      "id": "quality-review-03",
+      "items": [
+        "office-japandi-budget",
+        "workspace-japandi-budget",
+        "living-japandi-premium",
+        "kitchen-japandi-premium",
+        "office-japandi-premium",
+        "workspace-japandi-premium",
+        "living-natural-economy",
+        "bedroom-natural-economy"
+      ]
+    },
+    {
+      "id": "quality-review-04",
+      "items": [
+        "kitchen-natural-economy",
+        "office-natural-economy",
+        "workspace-natural-economy",
+        "living-natural-budget",
+        "kitchen-natural-budget",
+        "office-natural-budget",
+        "workspace-natural-budget",
+        "bathroom-natural-premium"
+      ]
+    },
+    {
+      "id": "quality-review-05",
+      "items": [
+        "office-natural-premium",
+        "dining-natural-premium",
+        "workspace-natural-premium",
+        "living-scandinavian-economy",
+        "office-scandinavian-economy",
+        "dining-scandinavian-economy",
+        "workspace-scandinavian-economy",
+        "living-scandinavian-budget"
+      ]
+    },
+    {
+      "id": "quality-review-06",
+      "items": [
+        "kitchen-scandinavian-budget",
+        "office-scandinavian-budget",
+        "workspace-scandinavian-budget",
+        "kitchen-scandinavian-premium",
+        "office-scandinavian-premium",
+        "dining-scandinavian-premium",
+        "workspace-scandinavian-premium",
+        "living-mid-century-economy"
+      ]
+    },
+    {
+      "id": "quality-review-07",
+      "items": [
+        "bedroom-mid-century-economy",
+        "kitchen-mid-century-economy",
+        "office-mid-century-economy",
+        "workspace-mid-century-economy",
+        "kitchen-mid-century-budget",
+        "office-mid-century-budget",
+        "workspace-mid-century-budget",
+        "kitchen-mid-century-premium"
+      ]
+    },
+    {
+      "id": "quality-review-08",
+      "items": [
+        "office-mid-century-premium",
+        "workspace-mid-century-premium",
+        "bathroom-industrial-economy",
+        "kitchen-industrial-economy",
+        "office-industrial-economy",
+        "dining-industrial-economy",
+        "workspace-industrial-economy",
+        "bedroom-industrial-budget"
+      ]
+    },
+    {
+      "id": "quality-review-09",
+      "items": [
+        "kitchen-industrial-budget",
+        "office-industrial-budget",
+        "dining-industrial-budget",
+        "workspace-industrial-budget",
+        "kitchen-industrial-premium",
+        "office-industrial-premium",
+        "workspace-industrial-premium",
+        "living-contemporary-economy"
+      ]
+    },
+    {
+      "id": "quality-review-10",
+      "items": [
+        "bedroom-contemporary-economy",
+        "office-contemporary-economy",
+        "workspace-contemporary-economy",
+        "living-contemporary-budget",
+        "kitchen-contemporary-budget",
+        "office-contemporary-budget",
+        "workspace-contemporary-budget",
+        "bathroom-contemporary-premium"
+      ]
+    },
+    {
+      "id": "quality-review-11",
+      "items": [
+        "office-contemporary-premium",
+        "workspace-contemporary-premium",
+        "living-mediterranean-economy",
+        "kitchen-mediterranean-economy",
+        "office-mediterranean-economy",
+        "workspace-mediterranean-economy",
+        "living-mediterranean-budget",
+        "bedroom-mediterranean-budget"
+      ]
+    },
+    {
+      "id": "quality-review-12",
+      "items": [
+        "kitchen-mediterranean-budget",
+        "office-mediterranean-budget",
+        "workspace-mediterranean-budget",
+        "kitchen-mediterranean-premium",
+        "office-mediterranean-premium",
+        "dining-mediterranean-premium",
+        "workspace-mediterranean-premium",
+        "living-bohemian-economy"
+      ]
+    },
+    {
+      "id": "quality-review-13",
+      "items": [
+        "bathroom-bohemian-economy",
+        "kitchen-bohemian-economy",
+        "dining-bohemian-economy",
+        "workspace-bohemian-economy",
+        "living-bohemian-budget",
+        "bedroom-bohemian-budget"
+      ]
+    },
+    {
+      "id": "quality-review-14",
+      "items": [
+        "kitchen-bohemian-budget",
+        "office-bohemian-budget",
+        "dining-bohemian-budget",
+        "workspace-bohemian-budget",
+        "living-bohemian-premium",
+        "bedroom-bohemian-premium",
+        "bathroom-bohemian-premium",
+        "kitchen-bohemian-premium"
+      ]
+    },
+    {
+      "id": "quality-review-15",
+      "items": [
+        "office-bohemian-premium",
+        "dining-bohemian-premium",
+        "workspace-bohemian-premium",
+        "living-art-deco-economy",
+        "kitchen-art-deco-economy",
+        "office-art-deco-economy",
+        "workspace-art-deco-economy",
+        "living-art-deco-budget"
+      ]
+    },
+    {
+      "id": "quality-review-16",
+      "items": [
+        "bathroom-art-deco-budget",
+        "office-art-deco-budget",
+        "workspace-art-deco-budget",
+        "living-art-deco-premium",
+        "kitchen-art-deco-premium",
+        "office-art-deco-premium",
+        "dining-art-deco-premium",
+        "workspace-art-deco-premium"
+      ]
+    },
+    {
+      "id": "quality-review-17",
+      "items": [
+        "living-modern-classic-economy",
+        "kitchen-modern-classic-economy",
+        "office-modern-classic-economy",
+        "dining-modern-classic-economy",
+        "workspace-modern-classic-economy",
+        "living-modern-classic-budget",
+        "kitchen-modern-classic-budget",
+        "office-modern-classic-budget"
+      ]
+    },
+    {
+      "id": "quality-review-18",
+      "items": [
+        "workspace-modern-classic-budget",
+        "living-modern-classic-premium",
+        "kitchen-modern-classic-premium",
+        "office-modern-classic-premium",
+        "workspace-modern-classic-premium",
+        "living-wabi-sabi-economy",
+        "bedroom-wabi-sabi-economy",
+        "kitchen-wabi-sabi-economy"
+      ]
+    },
+    {
+      "id": "quality-review-19",
+      "items": [
+        "office-wabi-sabi-economy",
+        "workspace-wabi-sabi-economy",
+        "living-wabi-sabi-budget",
+        "kitchen-wabi-sabi-budget",
+        "office-wabi-sabi-budget",
+        "dining-wabi-sabi-budget",
+        "workspace-wabi-sabi-budget",
+        "living-wabi-sabi-premium"
+      ]
+    },
+    {
+      "id": "quality-review-20",
+      "items": [
+        "office-wabi-sabi-premium",
+        "dining-wabi-sabi-premium",
+        "workspace-wabi-sabi-premium"
+      ]
+    },
+    {
+      "id": "quality-review-21",
+      "items": [
+        "bedroom-art-deco-economy",
+        "bedroom-art-deco-premium",
+        "bathroom-modern-classic-economy",
+        "bedroom-modern-classic-budget"
+      ]
+    },
+    {
+      "id": "quality-review-22",
+      "items": [
+        "office-bohemian-economy",
+        "bathroom-bohemian-budget"
+      ]
+    }
+  ]
+}
