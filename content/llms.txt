@@ -5,13 +5,14 @@
 ## Product
 - [Features](https://briller.house/en/features/): Photo and sketch-led concepts, moodboards, natural-language and voice interaction, Briller Insights, Shop the Look, optional drawings and Smart Sparks.
 - [Solutions](https://briller.house/en/solutions/): Browse 27 audience and use-case pages by role or project. Includes homeowners, renters, remote workers, designers, architects, contractors, kitchen/bath remodelers, real estate agents, investors, developers and rental hosts.
+- [Inspiration](https://briller.house/en/gallery/): Interior design ideas for living rooms, bedrooms, bathrooms, kitchens, dining rooms, offices and creative workspaces. Explore styles, materials, lighting and practical applications, with copyable redesign prompts for your own room.
 - [Pricing](https://briller.house/en/pricing/): Free includes 3 active projects and 20 watermarked iterations per month. Explorer: $9.99/month, or $7.99 monthly equivalent billed annually, 60 credits/month. Pro Design: $24.99/month, or $19.99 monthly equivalent billed annually, 200 credits/month. Studio / Architect: $69.99/month, or $59.99 monthly equivalent billed annually, 650 credits/month and 3 team seats. Confirm taxes and entitlements in app checkout.
 - [FAQ](https://briller.house/en/faq/): Workflow, credits, billing and limitations.
 - [Contact](https://briller.house/en/contact/): hello@briller.house.
 - [Українська версія](https://briller.house/uk/): Повна українська версія маркетингового сайту.
 
 ## Interpretation
-AI outputs are visual concepts and should be checked against the original room. They are not verified construction documents. The inspiration gallery is curated illustrative photography, not verified Briller output, public customer projects or proof of generation quality. Legal pages are drafts awaiting company information and legal-policy confirmation. Billing and accounts are handled by the app; this website does not authenticate users or process payments.
+AI outputs are visual concepts and should be checked against the original room. They are not verified construction documents. The inspiration gallery combines illustrative AI-generated design concepts with curated reference photography. It includes practical style, material and lighting guidance and prompts to adapt to a user’s own room. Its images are not public customer projects or verified construction outcomes. Legal pages are drafts awaiting company information and legal-policy confirmation. Billing and accounts are handled by the app; this website does not authenticate users or process payments.
 
 ## Knowledge behind Briller.House
 Briller.House's AI-assisted knowledge base brings together Mike Briller's hands-on experience and the practical know-how of his colleagues: architects, designers and construction workers. It covers modern design and construction solutions, budget options and implementation details. Mike Briller is a real person and the face of the project, representing this shared expertise. His YouTube channel is https://www.youtube.com/@BrillerBuilds.

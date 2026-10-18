@@ -144,3 +144,39 @@ test('standalone generation briefs cover every variant and preserve explicit siz
     assert.ok(!/CELL \d|contact sheet/.test(prompt), item.id);
   }
 });
+
+test('Inspiration is a crawlable localized landing page with focused metadata and unchanged featured images', () => {
+  const content = read('content/inspiration.json');
+  const escape = text => text.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#x27;' }[c]));
+  for (const locale of ['en', 'uk']) {
+    const c = content[locale], base = `https://briller.house/${locale}/gallery/`;
+    const html = fs.readFileSync(`out/${locale}/gallery/index.html`, 'utf8');
+    const visibleMarkup = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g, '').replace(/<style\b[^>]*>[\s\S]*?<\/style>/g, '');
+    const nav = html.match(/<nav id="primary-navigation"[^>]*>([\s\S]*?)<\/nav>/)?.[1];
+    const link = [...(nav || '').matchAll(/<a\b[^>]*>/g)].map(([tag]) => tag).find(tag => tag.includes(`href="/${locale}/gallery/"`));
+    assert.ok(link && link.includes('aria-current="page"'), `${locale}: missing active Inspiration menu entry`);
+    assert.ok(html.includes(`<title>${escape(c.seo.title)} | Briller</title>`));
+    assert.ok(html.includes(`name="description" content="${escape(c.seo.description)}"`));
+    assert.ok(html.includes(`rel="canonical" href="${base}"`));
+    assert.ok(!/\b252\b/.test(visibleMarkup.replace(/<[^>]*>/g, '')), `${locale}: remove the collection count from visible marketing text`);
+    for (const id of ['design-library', 'design-styles', 'design-details', 'gallery-style-filter']) assert.ok(visibleMarkup.includes(`id="${id}"`), `Missing discovery target: ${id}`);
+    const styleIds = c.styles.groups.flatMap(group => group.styles);
+    assert.deepEqual([...styleIds].sort(), catalogue.styles.map(style => style.id).sort(), 'Describe all available styles exactly once');
+    for (const group of c.styles.groups) assert.ok(visibleMarkup.includes(escape(group.text)), 'Style guidance must render in the initial HTML');
+    for (const item of [...c.technologies.items, ...c.applications.items]) {
+      assert.ok(visibleMarkup.includes(escape(item.text)));
+      assert.ok(visibleMarkup.includes(`href="/${locale}/${item.page}/"`));
+      assert.ok(fs.existsSync(`out/${locale}/${item.page}/index.html`), 'Application links must have real destinations');
+    }
+    for (const [question, answer] of c.faq.items) assert.ok(visibleMarkup.includes(escape(question)) && visibleMarkup.includes(escape(answer)));
+    const json = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(([, value]) => JSON.parse(value));
+    const collection = json.find(item => item['@type'] === 'CollectionPage');
+    assert.ok(collection, 'Missing collection structured data');
+    assert.equal(collection.url, base);
+    assert.equal(collection.inLanguage, locale);
+    assert.equal(collection.name, c.seo.title);
+    assert.deepEqual(collection.mainEntity.itemListElement.map(entry => entry.item.contentUrl), Array.from(galleryHighlights, image => 'https://briller.house' + (image.detailImage || image.image)));
+    assert.equal(collection.primaryImageOfPage.contentUrl, collection.mainEntity.itemListElement[0].item.contentUrl);
+    assert.ok(html.includes(`property="og:image" content="${collection.primaryImageOfPage.contentUrl}"`));
+  }
+});

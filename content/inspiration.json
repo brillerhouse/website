@@ -1,0 +1,242 @@
+{
+  "en": {
+    "seo": {
+      "title": "Interior Design Inspiration & Room Ideas",
+      "description": "Explore interior design ideas for living rooms, kitchens, bedrooms and workspaces. Compare styles, materials and lighting, then adapt a prompt to your room."
+    },
+    "eyebrow": "INSPIRATION / INTERIOR DESIGN IDEAS",
+    "title": "Interior design inspiration.\nMade for your space.",
+    "intro": "Discover how modern design can work in a compact apartment, a family home or a place to work. Explore living rooms, bedrooms, bathrooms, kitchens, dining rooms, offices and creative workspaces through different styles, materials and lighting ideas.",
+    "browse": "Browse room ideas",
+    "details": "Explore design & technology",
+    "styles": {
+      "eyebrow": "FIND YOUR DESIGN LANGUAGE",
+      "title": "Different styles. More ways to make a room work.",
+      "intro": "Look beyond a single trend. Compare the warmth, contrast and material choices that give each direction its character, then adapt them to the architecture you already have.",
+      "browse": "Filter the gallery by style",
+      "groups": [
+        {
+          "title": "Calm, light and tactile",
+          "text": "Explore restrained furniture, pale timber, linen and softly textured finishes. Minimalism emphasises clear space; Japandi and Scandinavian interiors bring warmth through useful objects and natural materials. Wabi-sabi and Natural Modern add depth through texture and an edited palette.",
+          "styles": ["minimalism", "japandi", "scandinavian", "wabi-sabi", "natural"]
+        },
+        {
+          "title": "Modern lines, distinct character",
+          "text": "Compare contemporary cabinetry and layered lighting with the steel, brick and robust finishes of industrial interiors. Mid-century furniture introduces warmer timber, tapered legs and considered colour. Each can suit a small room when the furniture and circulation are properly scaled.",
+          "styles": ["contemporary", "industrial", "mid-century"]
+        },
+        {
+          "title": "Colour, craft and expressive detail",
+          "text": "Use a painted panel, geometric lamp, woven textile or handmade tile to introduce character. Modern Classic, Art Deco, Mediterranean and Bohemian directions show different ways to combine decorative detail with comfortable furniture and practical everyday surfaces.",
+          "styles": ["modern-classic", "art-deco", "mediterranean", "bohemian"]
+        }
+      ]
+    },
+    "technologies": {
+      "eyebrow": "FROM THE LOOK TO THE DETAILS",
+      "title": "Materials and technology that shape the experience.",
+      "intro": "A useful reference can start a conversation about how a room is lit, built and used. Follow the practical guides to explore the details behind a visual idea.",
+      "items": [
+        {
+          "title": "Layered lighting and adaptable controls",
+          "text": "Explore warm LED coves, shielded task lighting, pendants and daylight control. Consider where light falls, how it renders colour and which scenes a room needs. The lighting solution explains example profiles, driver access and dimming compatibility.",
+          "page": "solutions/lighting-design-fixture-selection",
+          "link": "Explore lighting details"
+        },
+        {
+          "title": "Surface choices with a purpose",
+          "text": "Compare timber, veneer, laminate, stone-look finishes and paint as a coordinated palette. Texture and sheen change how a room feels; wear, moisture, cleaning and the existing substrate help decide which specification fits the application.",
+          "page": "solutions/flooring-finish-comparison",
+          "link": "Compare flooring and finishes"
+        },
+        {
+          "title": "Flexible layouts and useful joinery",
+          "text": "Look at storage depth, chair clearance, daybed layouts and the space around a dining table. Modular furniture and serviceable fitted details can support several activities while keeping daylight and everyday routes clear.",
+          "page": "solutions/small-space-studio-apartment-layout",
+          "link": "Plan a smaller space"
+        },
+        {
+          "title": "AI visualisation grounded in your room",
+          "text": "Use a reference to describe a direction, then upload your own room photo in Briller. A copied prompt gives you a starting brief for colour, lighting, materials and furniture. Add the dimensions, retained features and budget that make the idea relevant to your space.",
+          "page": "features",
+          "link": "See how Briller works"
+        }
+      ]
+    },
+    "applications": {
+      "eyebrow": "IDEAS FOR DIFFERENT APPLICATIONS",
+      "title": "One reference can lead to very different projects.",
+      "items": [
+        {
+          "title": "Home updates and renovations",
+          "text": "Bring together the rooms you use every day. Compare a light-touch refresh with a coordinated renovation, keeping the furniture, layout or finishes that already serve you well.",
+          "page": "solutions/whole-home-renovation-planning",
+          "link": "Plan a home renovation"
+        },
+        {
+          "title": "Design concepts for clients",
+          "text": "Build a shared visual language before selecting products. Use references to discuss palettes, room function and finish quality, then develop samples, specifications and a clear project scope.",
+          "page": "solutions/interior-designers-freelance-decorators",
+          "link": "Explore designer workflows"
+        },
+        {
+          "title": "Rental and guest accommodation",
+          "text": "Balance a welcoming room with washable textiles, luggage space and replaceable components. Explore a style that can hold its character through frequent use and cleaning.",
+          "page": "solutions/short-term-rental-airbnb-hosts",
+          "link": "Design for guest stays"
+        },
+        {
+          "title": "Property presentation and listing ideas",
+          "text": "Explore furniture scale and believable room uses while preserving the actual property. Keep original photographs available and clearly identify any virtually staged presentation.",
+          "page": "solutions/real-estate-agents-listing-prep",
+          "link": "Explore listing preparation"
+        }
+      ]
+    },
+    "howTo": {
+      "eyebrow": "MAKE THE IDEA YOURS",
+      "title": "From a reference to your next design brief.",
+      "steps": [
+        ["Start with the room", "Filter by room type, size and budget. Look for a layout and daily use that relate to your own space."],
+        ["Compare what matters", "Open an image and explore its versions. Pick the lighting, materials or furniture details you want to carry into your project."],
+        ["Copy and adapt the prompt", "Copy the suggested redesign prompt, open Briller and upload your room photo. Add your measurements, priorities and features to retain before generating a direction."]
+      ]
+    },
+    "faq": {
+      "eyebrow": "BEFORE YOU START",
+      "title": "Using the inspiration gallery.",
+      "items": [
+        ["Which rooms can I explore?", "Browse living rooms, bedrooms, bathrooms, kitchens, dining rooms, offices and creative workspaces. Office ideas focus on computer work, screen glare and ergonomics; workspace ideas also include hands-on tasks, workbenches and tool storage."],
+        ["Can one interior style work across different rooms?", "Yes. Carry a material palette, colour relationship or lighting approach between rooms, then adapt it to the function. A bathroom needs moisture-suitable finishes; a kitchen needs clear preparation space; a bedroom needs comfortable light and storage."],
+        ["How do I use a gallery prompt in Briller?", "Open a reference and select Copy redesign prompt. Upload your own room photo in Briller and paste the prompt into your brief. Edit it to describe your actual layout, budget and retained furniture. The gallery does not transfer an image directly into the app."],
+        ["Do the budget examples confirm a project price?", "The examples compare design directions and specification levels across different spaces. Actual costs depend on quantities, products, location and installation. Use physical samples, measured dimensions and project-specific advice before ordering or building."]
+      ]
+    },
+    "cta": {
+      "title": "See what the idea could become in your room.",
+      "text": "Bring your photo, your constraints and a direction you want to explore. Let Briller help you take the next step.",
+      "start": "Try an idea in Briller",
+      "solutions": "Explore all solutions"
+    }
+  },
+  "uk": {
+    "seo": {
+      "title": "Натхнення для дизайну інтер’єру та ідеї кімнат",
+      "description": "Ідеї дизайну вітальні, кухні, спальні та робочого простору. Порівнюйте стилі, матеріали й освітлення та адаптуйте запит для власної кімнати у Briller."
+    },
+    "eyebrow": "НАТХНЕННЯ / ІДЕЇ ДИЗАЙНУ ІНТЕР’ЄРУ",
+    "title": "Ідеї дизайну інтер’єру.\nДля вашого простору.",
+    "intro": "Досліджуйте можливості сучасного дизайну в компактній квартирі, сімейному домі чи робочому просторі. Знаходьте ідеї для вітальні, спальні, ванної, кухні, їдальні, кабінету й творчої майстерні через різні стилі, матеріали та освітлення.",
+    "browse": "Переглянути ідеї кімнат",
+    "details": "Дизайн і технології",
+    "styles": {
+      "eyebrow": "ЗНАЙДІТЬ СВОЮ МОВУ ДИЗАЙНУ",
+      "title": "Різні стилі. Більше можливостей для кімнати.",
+      "intro": "Дивіться ширше за один тренд. Порівнюйте тепло, контраст і матеріали, які надають кожному напряму характер, та пристосовуйте їх до наявної архітектури.",
+      "browse": "Вибрати стиль у галереї",
+      "groups": [
+        {
+          "title": "Спокій, світло й тактильність",
+          "text": "Досліджуйте стримані меблі, світле дерево, льон і м’які фактури. Мінімалізм підкреслює вільний простір; джапанді та скандинавські інтер’єри додають тепла корисними речами й природними матеріалами. Вабі-сабі та природний модерн створюють глибину фактурою й лаконічною палітрою.",
+          "styles": ["minimalism", "japandi", "scandinavian", "wabi-sabi", "natural"]
+        },
+        {
+          "title": "Сучасні лінії, виразний характер",
+          "text": "Порівнюйте сучасні меблі й багатошарове світло зі сталлю, цеглою та міцними поверхнями індустріальних просторів. Модернізм середини століття додає теплого дерева, тонких ніжок і продуманого кольору. Кожен напрям доречний і в малій кімнаті за правильного масштабу меблів та проходів.",
+          "styles": ["contemporary", "industrial", "mid-century"]
+        },
+        {
+          "title": "Колір, ремесло й виразні деталі",
+          "text": "Фарбована панель, геометричний світильник, тканий текстиль чи ручна плитка додають характеру. Сучасна класика, ар-деко, середземноморський і богемний напрями по-різному поєднують декоративні деталі зі зручними меблями та практичними повсякденними поверхнями.",
+          "styles": ["modern-classic", "art-deco", "mediterranean", "bohemian"]
+        }
+      ]
+    },
+    "technologies": {
+      "eyebrow": "ВІД ОБРАЗУ ДО ДЕТАЛЕЙ",
+      "title": "Матеріали й технології, які формують досвід.",
+      "intro": "Корисний референс допомагає обговорити світло, конструкції та користування кімнатою. Практичні сторінки пояснюють деталі, що стоять за візуальною ідеєю.",
+      "items": [
+        {
+          "title": "Багатошарове світло й гнучке керування",
+          "text": "Досліджуйте теплі LED-карнизи, екрановане робоче світло, підвіси й контроль денного світла. Враховуйте напрям променів, передачу кольору та потрібні сценарії. Сторінка освітлення пояснює приклади профілів, доступ до блоків і сумісність димування.",
+          "page": "solutions/lighting-design-fixture-selection",
+          "link": "Деталі освітлення"
+        },
+        {
+          "title": "Поверхні з практичним призначенням",
+          "text": "Порівнюйте дерево, шпон, ламінат, оздоблення під камінь і фарбу як узгоджену палітру. Фактура й блиск змінюють сприйняття кімнати; знос, волога, чищення та стан основи допомагають обрати придатну специфікацію.",
+          "page": "solutions/flooring-finish-comparison",
+          "link": "Порівняти підлоги й оздоблення"
+        },
+        {
+          "title": "Гнучкі плани й корисні меблі",
+          "text": "Звертайте увагу на глибину шаф, місце для крісла, розташування кушетки та простір навколо обіднього столу. Модульні меблі й доступні для обслуговування вбудовані деталі підтримують різні заняття та зберігають світло й проходи.",
+          "page": "solutions/small-space-studio-apartment-layout",
+          "link": "Спланувати малий простір"
+        },
+        {
+          "title": "ШІ-візуалізація на основі вашої кімнати",
+          "text": "Оберіть напрям за референсом і завантажте власне фото у Briller. Скопійований запит дає основу завдання щодо кольору, світла, матеріалів і меблів. Додайте розміри, бюджет і те, що потрібно зберегти, аби ідея відповідала вашому простору.",
+          "page": "features",
+          "link": "Як працює Briller"
+        }
+      ]
+    },
+    "applications": {
+      "eyebrow": "ІДЕЇ ДЛЯ РІЗНИХ ЗАВДАНЬ",
+      "title": "Один референс — різні можливі проєкти.",
+      "items": [
+        {
+          "title": "Оновлення й ремонт дому",
+          "text": "Об’єднайте кімнати, якими користуєтеся щодня. Порівнюйте легке оновлення з узгодженим ремонтом, зберігаючи меблі, планування чи покриття, які вже добре працюють.",
+          "page": "solutions/whole-home-renovation-planning",
+          "link": "Спланувати ремонт дому"
+        },
+        {
+          "title": "Дизайн-концепції для замовників",
+          "text": "Знайдіть спільну візуальну мову до добору виробів. Обговоріть за референсами палітри, функції та якість оздоблення, а потім розробіть зразки, специфікації й чіткий обсяг проєкту.",
+          "page": "solutions/interior-designers-freelance-decorators",
+          "link": "Робочі процеси дизайнера"
+        },
+        {
+          "title": "Оренда й гостьові простори",
+          "text": "Поєднайте гостинність із текстилем для прання, місцем для багажу та змінними компонентами. Знайдіть стиль, який зберігає характер за частого користування й прибирання.",
+          "page": "solutions/short-term-rental-airbnb-hosts",
+          "link": "Дизайн для гостьових проживань"
+        },
+        {
+          "title": "Презентація нерухомості й оголошення",
+          "text": "Досліджуйте масштаб меблів і правдоподібні функції кімнати, зберігаючи реальні риси об’єкта. Залишайте доступними оригінальні фото й чітко позначайте віртуальне облаштування.",
+          "page": "solutions/real-estate-agents-listing-prep",
+          "link": "Підготовка оголошення"
+        }
+      ]
+    },
+    "howTo": {
+      "eyebrow": "АДАПТУЙТЕ ІДЕЮ ДО СЕБЕ",
+      "title": "Від референса до вашого завдання на дизайн.",
+      "steps": [
+        ["Почніть із кімнати", "Виберіть тип кімнати, площу й бюджет. Шукайте планування та сценарій користування, схожі на ваші."],
+        ["Порівняйте важливе", "Відкрийте зображення й дослідіть його версії. Оберіть світло, матеріали чи меблеві деталі, які хочете перенести у свій проєкт."],
+        ["Скопіюйте й уточніть запит", "Скопіюйте рекомендований запит, відкрийте Briller і завантажте фото кімнати. Перед генерацією додайте розміри, пріоритети й елементи, які потрібно зберегти."]
+      ]
+    },
+    "faq": {
+      "eyebrow": "ПЕРЕД ПОЧАТКОМ",
+      "title": "Як користуватися галереєю натхнення.",
+      "items": [
+        ["Які кімнати є в галереї?", "Досліджуйте вітальні, спальні, ванні, кухні, їдальні, кабінети й творчі майстерні. Кабінети зосереджені на комп’ютерній роботі, відблисках і ергономіці; майстерні також охоплюють ручну роботу, робочі столи й зберігання інструментів."],
+        ["Чи можна поєднати різні кімнати одним стилем?", "Так. Перенесіть палітру матеріалів, співвідношення кольорів чи принцип освітлення між кімнатами й адаптуйте до функції. Ванній потрібне вологостійке оздоблення, кухні — вільна робоча поверхня, спальні — зручне світло й зберігання."],
+        ["Як використати запит із галереї у Briller?", "Відкрийте референс і виберіть «Скопіювати запит на редизайн». Завантажте власне фото у Briller та вставте текст у завдання. Уточніть наявне планування, бюджет і меблі, які залишаються. Галерея не передає зображення в застосунок автоматично."],
+        ["Чи підтверджують бюджетні приклади ціну ремонту?", "Приклади порівнюють напрями дизайну й рівні комплектації в різних просторах. Реальна ціна залежить від кількостей, виробів, місця й монтажу. До замовлення чи будівництва використовуйте фізичні зразки, обміри та поради під конкретний проєкт."]
+      ]
+    },
+    "cta": {
+      "title": "Подивіться, як ідея може працювати у вашій кімнаті.",
+      "text": "Додайте фото, обмеження й напрям, який хочете дослідити. Briller допоможе зробити наступний крок.",
+      "start": "Спробувати ідею у Briller",
+      "solutions": "Переглянути всі рішення"
+    }
+  }
+}

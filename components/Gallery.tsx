@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { ArrowUpRight, Check, Copy, Download, X } from 'lucide-react';
 import { copy, site, type Locale } from '@/lib/content';
 import { galleryConcepts, galleryReferences, galleryRooms, galleryStyles, galleryTiers, gallerySizes, galleryHighlights, galleryVersions, galleryPrompt, type GalleryItem } from '@/lib/gallery';
@@ -10,7 +10,7 @@ function GalleryImage({ item, locale }: { item: GalleryItem; locale: Locale }) {
   if (!crop) return null;
   return <svg className="gallery-image-tile" role="img" aria-label={item.title[locale]} viewBox={`${crop.x * 1024} ${crop.y * 1536} ${crop.width * 1024} ${crop.height * 1536}`} preserveAspectRatio="xMidYMid slice"><image href={item.image} width="1024" height="1536"/></svg>;
 }
-export function Gallery({ locale, preview = false }: { locale: Locale; preview?: boolean }) {
+export function Gallery({ locale, preview = false, children }: { locale: Locale; preview?: boolean; children?: ReactNode }) {
   const c = copy(locale), g = c.gallery;
   const [room, setRoom] = useState('all');
   const [style, setStyle] = useState('all');
@@ -56,15 +56,16 @@ export function Gallery({ locale, preview = false }: { locale: Locale; preview?:
   }
   return <div className={'inspiration-gallery' + (preview ? ' gallery-preview' : ' gallery-library')}>
     {highlights.length > 0 && <section className="gallery-curation" aria-label={g.featured}><div className="gallery-curation-heading"><p className="eyebrow">{g.featured}</p><p>{g.featuredIntro}</p></div>{cards(highlights, true)}</section>}
+    {!preview && children}
     {!preview && <>
-      <div className="gallery-library-heading"><div><p className="eyebrow">{g.collectionLabel}</p><h2>{g.collectionTitle}</h2></div><p>{g.variantIntro}</p></div>
+      <div className="gallery-library-heading" id="design-library"><div><p className="eyebrow">{g.collectionLabel}</p><h2>{g.collectionTitle}</h2></div><p>{g.variantIntro}</p></div>
       <div className="gallery-controls inspiration-controls gallery-library-controls">
         <div className="filter-chips" role="group" aria-label={g.roomFilter}>{[{ id: 'all', label: { en: g.allRooms, uk: g.allRooms } }, ...galleryRooms].map(option => <button type="button" key={option.id} aria-pressed={room === option.id} className={room === option.id ? 'active' : ''} onClick={() => { setRoom(option.id); setLimit(24); }}>{option.label[locale]}</button>)}</div>
-        <div className="gallery-selects"><label>{g.styleFilter}<select name="gallery-style" value={style} onChange={event => { setStyle(event.target.value); setLimit(24); }}><option value="all">{g.allStyles}</option>{galleryStyles.map(option => <option key={option.id} value={option.id}>{option.label[locale]}</option>)}</select></label>
+        <div className="gallery-selects"><label>{g.styleFilter}<select id="gallery-style-filter" name="gallery-style" value={style} onChange={event => { setStyle(event.target.value); setLimit(24); }}><option value="all">{g.allStyles}</option>{galleryStyles.map(option => <option key={option.id} value={option.id}>{option.label[locale]}</option>)}</select></label>
           <label>{g.budgetFilter}<select name="gallery-budget" value={tier} onChange={event => { setTier(event.target.value); setLimit(24); }}><option value="all">{g.allBudgets}</option>{galleryTiers.map(option => <option key={option.id} value={option.id}>{option.label[locale]}</option>)}</select></label>
           <label>{g.sizeFilter}<select name="gallery-size" value={size} onChange={event => { setSize(event.target.value); setLimit(24); }}><option value="all">{g.allSizes}</option>{gallerySizes.map(option => <option key={option.id} value={option.id}>{option.label[locale]}</option>)}</select></label></div>
       </div>
-      <div className="gallery-results-bar"><p role="status" aria-live="polite">{concepts.length} {g.count}</p>{!unfiltered && <button className="text-link" type="button" onClick={reset}>{g.reset}</button>}</div>
+      <div className="gallery-results-bar"><p role="status" aria-live="polite">{unfiltered ? g.browseAll : `${concepts.length} ${g.count}`}</p>{!unfiltered && <button className="text-link" type="button" onClick={reset}>{g.reset}</button>}</div>
       {cards(gridItems.slice(0, limit))}
       {concepts.length === 0 && <div className="empty"><p>{g.variantEmpty}</p><button className="button outline" type="button" onClick={reset}>{g.reset}</button></div>}
       {limit < gridItems.length && <div className="gallery-load-more"><button className="button outline" type="button" onClick={() => setLimit(limit + 24)}>{g.more} <span>({gridItems.length - limit})</span></button></div>}

@@ -311,8 +311,8 @@
       "Explore how Briller fits into your renovation, design or property workflow."
     ],
     "gallery": [
-      "A little inspiration.\nA new direction.",
-      "252 ideas for rooms worth living in. Explore expressive architecture, find your style and bring a direction into your own space."
+      "Interior design inspiration.\nMade for your space.",
+      "Discover how modern design can work in a compact apartment, a family home or a place to work. Explore living rooms, bedrooms, bathrooms, kitchens, dining rooms, offices and creative workspaces through different styles, materials and lighting ideas."
     ],
     "pricing": [
       "Make room for\nyour next idea.",
@@ -424,7 +424,7 @@
     "minimalism": "Minimalism",
     "japandi": "Japandi",
     "natural": "Natural Modern",
-    "open": "View reference",
+    "open": "Explore design idea",
     "save": "Download moodboard reference",
     "studio": "Open Briller studio",
     "manual": "Download the reference, then upload it to your moodboard in the studio. Direct transfer is not available yet.",
@@ -462,14 +462,15 @@
     "featured": "A few directions to start with",
     "featuredIntro": "Different spaces. Different ways to make them yours.",
     "collectionLabel": "Find your direction",
-    "collectionTitle": "Good design, in every kind of space.",
-    "variantIntro": "Seven room types. Twelve styles. Three versions of each, mixing budgets and room sizes.",
+    "collectionTitle": "Explore interior styles, room by room.",
+    "variantIntro": "Compare room types and design styles, then narrow the ideas by budget and room size.",
     "budgetFilter": "Design budget",
     "sizeFilter": "Room size",
     "allBudgets": "All budgets",
     "allSizes": "All sizes",
     "compareVersions": "Explore three versions",
-    "variantEmpty": "No version matches this exact combination. Try another size or clear the filters."
+    "variantEmpty": "No version matches this exact combination. Try another size or clear the filters.",
+    "browseAll": "Explore every room type and design style."
   },
   "contact": {
     "name": "Your name",

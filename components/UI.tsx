@@ -14,6 +14,7 @@ export function Header({locale,page,solutionMenu}:{locale:Locale,page:string,sol
   const links=[
     {label:c.header.howItWorks,url:href(locale)+'#how-it-works',active:false},
     {label:c.header.solutions,url:href(locale,'solutions'),active:page==='solutions'||page.startsWith('solutions/')},
+    {label:c.nav.gallery,url:href(locale,'gallery'),active:page==='gallery'},
     {label:c.header.resources,url:href(locale,'faq'),active:page==='faq'},
     {label:c.header.plans,url:href(locale,'pricing'),active:page==='pricing'},
   ];
