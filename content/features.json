@@ -75,35 +75,42 @@
     },
     "moodboard": {
       "eyebrow": "02 / MOODBOARDS & REFERENCES",
-      "title": "Give your references a job to do.",
-      "text": "Add a moodboard to guide colour, texture, furniture and atmosphere. Describe what you like in each reference: the timber tone, a quiet lighting scheme or the shape of a chair. Briller uses that direction alongside your room and brief.",
+      "title": "Bring a specific detail into your room.",
+      "text": "A moodboard can define an overall style or provide a specific technical solution, item or design element. Pick what you want from a reference photo — a recessed curtain track, a particular chair or a timber wall detail — and ask Briller to apply it to your original room alongside your brief.",
       "points": [
-        "Translate a style into a material palette.",
-        "Combine references around one clear direction.",
-        "Keep the room’s architecture and the pieces you already own in the brief."
+        "Choose an item, technical solution or design element from a reference photo.",
+        "Combine selected details with colour, texture and lighting preferences.",
+        "Apply those choices to your original room, specifying the layout and existing features to retain."
       ],
       "link": "Find references in Inspiration",
-      "boardLabel": "EXAMPLE MOODBOARD DIRECTION",
-      "boardTitle": "Warm timber. Soft colour. Focused light.",
-      "swatches": [
-        "Oak",
-        "Chalk",
-        "Linen",
-        "Clay",
-        "Graphite"
-      ],
+      "boardLabel": "EXAMPLE / FROM REFERENCE TO ROOM",
+      "boardTitle": "Select the detail. Apply it to your space.",
       "notes": [
         [
-          "Materials",
-          "Matt timber, woven fabric and a restrained wall finish."
+          "Pick from the photo",
+          "Use the concealed curtain-track solution from this reference."
         ],
         [
-          "Light",
-          "Soft ambient light with a separate lamp for reading."
+          "Apply to the original",
+          "Add it above my existing window, keeping the window size, ceiling height and current room layout."
         ],
         [
-          "Keep",
-          "The existing glazing, floor and useful storage."
+          "Refine the result",
+          "Keep my sofa and floor. Use the chair from the second reference and adapt the timber wall detail to the available wall."
+        ]
+      ],
+      "picks": [
+        [
+          "Technical solution",
+          "Recessed curtain track"
+        ],
+        [
+          "Specific item",
+          "A compact reading chair"
+        ],
+        [
+          "Design element",
+          "Timber wall panelling"
         ]
       ]
     },
@@ -285,35 +292,42 @@
     },
     "moodboard": {
       "eyebrow": "02 / МУДБОРДИ Й РЕФЕРЕНСИ",
-      "title": "Визначте роль кожного референса.",
-      "text": "Додайте мудборд як орієнтир для кольору, фактур, меблів і настрою. Поясніть, що подобається в кожному прикладі: тон дерева, спокійне світло чи форма крісла. Briller враховує цей напрям разом із вашою кімнатою та завданням.",
+      "title": "Перенесіть конкретну деталь у свою кімнату.",
+      "text": "Мудборд може задавати загальний стиль або містити конкретне технічне рішення, предмет чи елемент дизайну. Оберіть потрібне на фото-референсі — прихований карниз для штор, певне крісло чи дерев’яне оздоблення стіни — та попросіть Briller застосувати це до вашої початкової кімнати разом з іншими вимогами завдання.",
       "points": [
-        "Перекладіть стиль на палітру матеріалів.",
-        "Поєднайте референси навколо чіткого задуму.",
-        "Урахуйте архітектуру кімнати й меблі, які вже маєте."
+        "Оберіть предмет, технічне рішення чи елемент дизайну на фото-референсі.",
+        "Поєднайте вибрані деталі з побажаннями щодо кольору, фактур і світла.",
+        "Застосуйте ці рішення до початкової кімнати, указавши планування й наявні елементи, які потрібно зберегти."
       ],
       "link": "Знайти референси в Натхненні",
-      "boardLabel": "ПРИКЛАД НАПРЯМУ МУДБОРДА",
-      "boardTitle": "Тепле дерево. М’який колір. Спрямоване світло.",
-      "swatches": [
-        "Дуб",
-        "Крейда",
-        "Льон",
-        "Глина",
-        "Графіт"
-      ],
+      "boardLabel": "ПРИКЛАД / ВІД РЕФЕРЕНСА ДО КІМНАТИ",
+      "boardTitle": "Оберіть деталь. Застосуйте її до свого простору.",
       "notes": [
         [
-          "Матеріали",
-          "Матове дерево, тканий текстиль і стримане оздоблення стін."
+          "Оберіть на фото",
+          "Використай рішення прихованого карниза для штор із цього референса."
         ],
         [
-          "Світло",
-          "М’яке загальне світло й окрема лампа для читання."
+          "Застосуйте до початкової кімнати",
+          "Додай його над моїм наявним вікном, зберігши розмір вікна, висоту стелі й поточне планування кімнати."
         ],
         [
-          "Зберегти",
-          "Наявне скління, підлогу й корисні місця зберігання."
+          "Уточніть результат",
+          "Збережи мій диван і підлогу. Використай крісло з другого референса та адаптуй дерев’яне оздоблення до доступної стіни."
+        ]
+      ],
+      "picks": [
+        [
+          "Технічне рішення",
+          "Прихований карниз для штор"
+        ],
+        [
+          "Конкретний предмет",
+          "Компактне крісло для читання"
+        ],
+        [
+          "Елемент дизайну",
+          "Дерев’яні стінові панелі"
         ]
       ]
     },
