@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import { ArrowUpRight, ChevronDown, Layers, Sparkles, Sun, Wrench } from 'lucide-react';
 import { copy, Locale, site } from '@/lib/content';
+import { adviceReferences } from '@/lib/advice';
+import { AdviceReferences } from './AdviceReferences';
 
 const details = [
   { icon: Sun, x: 58, y: 17 },
@@ -46,6 +48,7 @@ export function BrillDemo({ locale }: { locale: Locale }) {
       <div className="spark-question" aria-live="polite" aria-atomic="true">
           <span className="spark-question-label"><Sparkles size={12} aria-hidden="true"/>{c.sparkLabel} / {c.tips[active].category}</span>
           <p>{c.tips[active].spark}</p>
+          <p className="spark-question-specification"><strong>{c.budgets[budget].label}:</strong> {c.tips[active].quick[budget]}</p>
       </div>
       <figcaption>{c.imageNote}</figcaption>
     </figure>
@@ -86,6 +89,7 @@ export function BrillDemo({ locale }: { locale: Locale }) {
               <p className="brill-specification-label">{c.detailLabel}</p>
               <p>{recommendation.detail}</p>
               <p className="brill-budget-difference"><strong>{c.differenceLabel}</strong> {recommendation.difference}</p>
+              <AdviceReferences locale={locale} check={tip.check} references={adviceReferences(locale, tip.references)}/>
             </div>
           </li>;
         })}

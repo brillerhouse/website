@@ -80,7 +80,7 @@
       "sparkLabel": "Smart Spark",
       "tipLabel": "Explore Briller’s advice about",
       "detailLabel": "How to implement it",
-      "projectNote": "Condensed from Briller’s technical notes for this room. Confirm dimensions, electrical compatibility, wall fixings and local costs with your project team.",
+      "projectNote": "Example specifications for this room. Confirm products, dimensions, loads and local installation requirements with your team. References open official guidance and product libraries for the selected system.",
       "cta": "Get advice for your space",
       "tips": [
         {
@@ -103,6 +103,17 @@
               "detail": "Integrate the architectural profile into the ceiling finish. Coordinate the baffle, two lighting circuits and compatible dimming controls before closing the ceiling; retain driver access.",
               "difference": "The profile disappears into the finish, with adjustable white tone and more lighting control."
             }
+          },
+          "check": "Calculate the measured run × W/m: for example, 4 m × 14.4 W/m = 57.6 W before the driver manufacturer’s reserve. Check cable voltage drop, dimmer compatibility and driver access.",
+          "references": [
+            "hafele",
+            "dali",
+            "casambi"
+          ],
+          "quick": {
+            "economy": "Surface 45° channel · 24 V · 2700 K · 10 W/m",
+            "standard": "Recessed cove · 24 V COB · 2700 K · 14.4 W/m",
+            "premium": "Trimless cove · CRI 95+ · 2200–3000 K · coordinated DALI-2 / Casambi control"
           }
         },
         {
@@ -125,6 +136,16 @@
               "detail": "Detail the batten spacing and hidden clips as a custom assembly. Coordinate the acoustic backing, concealed cabling and finish before installation.",
               "difference": "Solid oak and concealed fixings replace the prefabricated veneer panels."
             }
+          },
+          "check": "Acoustic performance belongs to a tested panel, cavity and backing assembly—not the slat appearance alone. Check reaction-to-fire requirements, wall fixing and ventilation around AV equipment.",
+          "references": [
+            "woodupp",
+            "egger"
+          ],
+          "quick": {
+            "economy": "2400 × 600 mm foil-faced panels · prepared flat wall",
+            "standard": "Oak veneer · 9 mm PET backer · 20 × 45 mm battens",
+            "premium": "25 × 35 mm solid-oak battens · hidden clips · coordinated cable chases"
           }
         },
         {
@@ -147,6 +168,16 @@
               "detail": "Coordinate the motor, low-voltage supply, lighting channel and ceiling profile before the ceiling is finished. Keep the rail and motor accessible for servicing.",
               "difference": "Motorised operation and integrated lighting become part of a seamless ceiling detail."
             }
+          },
+          "check": "Size the pocket for the selected track, fabric fullness and stack-back. The 150 × 100 mm example is not a universal recess; check the window handle, radiator projection, support and motor access.",
+          "references": [
+            "silentgliss",
+            "knauf"
+          ],
+          "quick": {
+            "economy": "Surface track · 100 mm painted MDF pelmet",
+            "standard": "150 × 100 mm example pocket · dual-channel track · structural fixing",
+            "premium": "Plaster-in profile · low-voltage motor · separate LED channel"
           }
         },
         {
@@ -169,6 +200,16 @@
               "detail": "Coordinate the structural armature, wall anchors and custom joinery as one assembly. Form the lighting routes and cable penetrations before the millwork is closed.",
               "difference": "Solid timber, engineered hidden support and integrated lighting turn the storage into a complete fitted feature."
             }
+          },
+          "check": "Specify shelf span, depth and intended load before selecting concealed rods. Verify wall backing and bracket capacity as a complete assembly; retain cable bend space, equipment ventilation and driver access.",
+          "references": [
+            "blum",
+            "hafele"
+          ],
+          "quick": {
+            "economy": "Stock lowboard · hollow-core shelves · verified concealed brackets",
+            "standard": "Oak-veneered plywood · concealed steel rods · soft-close hardware",
+            "premium": "Bespoke oak millwork · steel armature · replaceable shelf lighting"
           }
         }
       ],

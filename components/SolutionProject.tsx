@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import { ChevronDown, ClipboardList, Layers, Ruler, Sparkles, Sun, Wrench } from 'lucide-react';
 import type { SolutionAdvice, solutionExample } from '@/lib/solutions';
+import type { Locale } from '@/lib/content';
+import { AdviceReferences } from './AdviceReferences';
 import { SolutionComparison } from './SolutionComparison';
 
 const budgetLevels = ['economy', 'standard', 'premium'] as const;
@@ -15,7 +17,8 @@ type Labels = {
   budgets: Record<Budget, string>;
 };
 
-export function SolutionProject({ slug, example, budgets, tips, labels: l }: {
+export function SolutionProject({ locale, slug, example, budgets, tips, labels: l }: {
+  locale: Locale;
   slug: string;
   example: ReturnType<typeof solutionExample>;
   budgets: Record<Budget, { summary: string }>;
@@ -40,7 +43,8 @@ export function SolutionProject({ slug, example, budgets, tips, labels: l }: {
         <SolutionComparison image={image} width={example.image.width} height={example.image.height} focusY={example.image.focusY}
           alt={`${l.before}: ${example.before} ${l.after}: ${example.after}`} before={l.before} after={l.after}
           label={l.compare}
-          sparks={tips.flatMap(tip => tip.position ? [{ id: tip.id, title: tip.title, position: tip.position }] : [])} selectedSpark={active} sparkLabel={l.tipLabel}
+          sparks={tips.flatMap(tip => tip.position ? [{ id: tip.id, title: tip.title, specification: tip.budgets[budget].specification, position: tip.position }] : [])} selectedSpark={active} sparkLabel={l.tipLabel}
+          budgetLabel={l.budgets[budget]}
           readAdvice={l.readAdvice} closeSpark={l.closeSpark}
           onReadAdvice={id => setExpanded(id)} onSelectSpark={id => { setActive(id); setExpanded(id); }}/>
       </div>
@@ -78,6 +82,7 @@ export function SolutionProject({ slug, example, budgets, tips, labels: l }: {
                     <p className="brill-specification-label">{l.detail}</p>
                     <p>{recommendation.detail}</p>
                     <p className="brill-budget-difference"><strong>{l.difference}</strong> {recommendation.difference}</p>
+                    <AdviceReferences locale={locale} check={tip.check} references={tip.references}/>
                   </div>
                 </li>;
               })}

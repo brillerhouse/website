@@ -112,6 +112,11 @@
 .brill-advice-card>.brill-budget-recommendation{color:var(--ink)}
 .brill-budget-recommendation>span{display:block;color:var(--accent);font-size:var(--text-label);font-weight:650;letter-spacing:.5px;text-transform:uppercase;margin-bottom:6px}
 .brill-specification .brill-budget-difference{padding-left:12px;border-left:2px solid var(--accent);color:var(--muted);margin-bottom:0}
+.advice-evidence{margin-top:20px;padding-top:18px;border-top:1px solid var(--line)}
+.advice-references{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.advice-references a{display:inline-flex;align-items:baseline;gap:6px;color:var(--accent);font-size:var(--text-body);line-height:1.6;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.advice-references svg{flex-shrink:0;align-self:center}
+.spark-question .spark-question-specification{font-size:var(--text-body);line-height:1.7;margin-top:8px}
 .brill-budget-difference strong{color:var(--ink);font-weight:600}
 @media(max-width:500px){.brill-budget-choices{gap:6px}.brill-budget-choices label{padding:10px 11px;gap:6px;flex:1;justify-content:center}}
 .brill-demo-note{font-size:var(--text-caption);line-height:1.7;color:var(--muted);margin:18px 0 8px}
@@ -247,7 +252,7 @@
 .solution-project-budget{margin:0}
 .solution-project-budget .brill-budget-choices label{padding:10px 12px}
 .solution-project-budget>p{font-size:var(--text-caption);min-height:0;max-width:540px}
-.solution-example-image{min-width:0}
+.solution-example-image{min-width:0;container-type:inline-size}
 .solution-comparison{width:100%;max-width:none;aspect-ratio:16/9;margin:0;border-radius:10px;cursor:ew-resize;touch-action:pan-y}
 .solution-comparison:focus-within{outline-offset:-4px}
 .solution-comparison .hero-room-range{pointer-events:none}
@@ -260,9 +265,13 @@
 .solution-comparison-labels{display:none}
 .solution-spark-popover{position:absolute;z-index:6;width:min(230px,calc(100% - 16px));max-height:calc(100% - 16px);overflow:auto;padding:12px 14px;background:var(--paper);border:1px solid #d9b983;border-radius:12px;box-shadow:0 5px 22px #292c2630;cursor:auto;overscroll-behavior:contain}
 .solution-spark-popover>p{font-size:var(--text-body);font-weight:600;line-height:1.45;margin:0;padding-right:20px}
+.solution-spark-specification{margin-top:10px}
+.solution-spark-specification>span{display:block;font-size:var(--text-label);font-weight:650;letter-spacing:.7px;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
+.solution-spark-specification>p{font-size:var(--text-body);line-height:1.6;margin:0}
 .solution-spark-popover .text-link{font-size:var(--text-caption);min-height:32px;padding:6px 0 0;gap:7px}
 .solution-spark-close{position:absolute;top:2px;right:2px;width:32px;height:32px;border:0;border-radius:50%;display:grid;place-items:center;background:transparent;color:var(--muted)}
 .solution-spark-close:hover{color:var(--ink);background:var(--sage)}
+@container(max-width:500px){.solution-comparison-labels{display:flex;justify-content:space-between;gap:12px;margin-bottom:8px;font-size:var(--text-caption);line-height:1.5;font-weight:650}.solution-comparison .hero-room-label{display:none}.solution-spark-popover{padding:8px 10px}.solution-spark-popover>p{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}.solution-spark-specification{margin-top:0}.solution-spark-specification>span{padding-right:25px}.solution-spark-specification>p{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}.solution-spark-popover .text-link{padding-top:4px}}
 .solution-project-advice .brill-advice-card{scroll-margin-top:90px}
 @media(max-width:500px){.solution-comparison-labels{display:flex;justify-content:space-between;gap:12px;margin-bottom:8px;font-size:var(--text-caption);line-height:1.5;font-weight:650}.solution-comparison .hero-room-label{display:none}}
 .solution-project-advice{padding:32px;border-top:1px solid var(--line)}

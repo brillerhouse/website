@@ -12,7 +12,8 @@ type Props = {
   before: string;
   after: string;
   label: string;
-  sparks: { id: string; title: string; position: { x: number; y: number } }[];
+  sparks: { id: string; title: string; specification: string; position: { x: number; y: number } }[];
+  budgetLabel: string;
   selectedSpark: string;
   sparkLabel: string;
   onSelectSpark: (id: string) => void;
@@ -21,7 +22,7 @@ type Props = {
   onReadAdvice: (id: string) => void;
 };
 
-export function SolutionComparison({ image, width, height, focusY, alt, before, after, label, sparks, selectedSpark, sparkLabel, onSelectSpark, readAdvice, closeSpark, onReadAdvice }: Props) {
+export function SolutionComparison({ image, width, height, focusY, alt, before, after, label, sparks, budgetLabel, selectedSpark, sparkLabel, onSelectSpark, readAdvice, closeSpark, onReadAdvice }: Props) {
   const [position, setPosition] = useState(50);
   const [openSpark, setOpenSpark] = useState<string | null>(null);
   const [bubblePosition, setBubblePosition] = useState({ left: 8, top: 8 });
@@ -98,6 +99,7 @@ export function SolutionComparison({ image, width, height, focusY, alt, before, 
       {detail && <div ref={bubble} className="solution-spark-popover" style={bubblePosition} role="group" aria-labelledby="solution-spark-title">
         <button type="button" className="solution-spark-close" aria-label={closeSpark} onClick={closeBubble}><X size={16} aria-hidden="true"/></button>
         <p id="solution-spark-title">{detail.title}</p>
+        <div className="solution-spark-specification" aria-live="polite" aria-atomic="true"><span>{budgetLabel}</span><p>{detail.specification}</p></div>
         <a className="text-link" href={`#solution-advice-${detail.id}`} onClick={() => { onReadAdvice(detail.id); setOpenSpark(null); }}>{readAdvice}<ArrowUpRight size={15} aria-hidden="true"/></a>
       </div>}
     </div>

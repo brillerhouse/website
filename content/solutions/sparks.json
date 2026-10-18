@@ -1,360 +1,348 @@
 {
   "first-room-refresh": {
-    "cabinet-fronts": [
-      65,
-      76
+    "first-room-refresh--fronts": [
+      74,
+      72
     ],
-    "worktop": [
-      25,
+    "first-room-refresh--counter": [
+      53,
       49
     ],
-    "task-strip": [
-      84,
-      21
-    ],
-    "backsplash": [
-      68,
-      43
+    "first-room-refresh--prep-light": [
+      82,
+      22
     ]
   },
   "whole-home-renovation-planning": {
-    "flooring": [
-      69,
-      70
+    "whole-home-renovation-planning--floor-sequence": [
+      74,
+      72
     ],
-    "thresholds": [
-      56,
-      53
+    "whole-home-renovation-planning--door-junction": [
+      58,
+      54
     ],
-    "home-joinery": [
-      84,
-      43
+    "whole-home-renovation-planning--retained-shelves": [
+      81,
+      24
     ]
   },
   "renter-friendly-makeover": {
-    "portable-storage": [
-      17,
-      57
-    ],
-    "portable-light": [
-      76,
-      29
-    ],
-    "renter-walls": [
-      91,
+    "renter-friendly-makeover--modular-storage": [
+      8,
       45
+    ],
+    "renter-friendly-makeover--plug-in-lamp": [
+      76,
+      30
+    ],
+    "renter-friendly-makeover--loose-rug": [
+      52,
+      92
     ]
   },
   "home-office-workspace": {
-    "desk": [
-      63,
-      48
+    "home-office-workspace--desk-fit": [
+      62,
+      43
     ],
-    "window-glare": [
-      75,
-      25
+    "home-office-workspace--screen-daylight": [
+      57,
+      15
     ],
-    "portable-light": [
+    "home-office-workspace--desk-cables": [
       48,
       32
     ]
   },
   "interior-designers-freelance-decorators": {
-    "upholstery": [
-      43,
-      49
+    "interior-designers-freelance-decorators--retained-sofa": [
+      69,
+      45
     ],
-    "home-curtain": [
-      70,
-      26
+    "interior-designers-freelance-decorators--client-curtains": [
+      65,
+      12
     ],
-    "home-joinery": [
+    "interior-designers-freelance-decorators--client-joinery": [
       86,
-      57
+      40
     ]
   },
   "architects-architecture-studios": {
-    "column": [
-      36,
-      53
+    "architects-architecture-studios--column-screen": [
+      28,
+      49
     ],
-    "home-cove": [
-      73,
-      24
+    "architects-architecture-studios--ceiling-track": [
+      60,
+      19
     ],
-    "home-curtain": [
-      63,
-      61
-    ]
-  },
-  "general-contractors-remodeling-companies": {
-    "cabinet-fronts": [
-      64,
-      72
-    ],
-    "worktop": [
-      27,
-      53
-    ],
-    "backsplash": [
-      62,
+    "architects-architecture-studios--ceiling-joint": [
+      55,
       39
     ]
   },
+  "general-contractors-remodeling-companies": {
+    "general-contractors-remodeling-companies--slab-splash": [
+      69,
+      39
+    ],
+    "general-contractors-remodeling-companies--sink-template": [
+      52,
+      43
+    ]
+  },
   "kitchen-bath-remodelers": {
-    "wet-system": [
-      71,
-      81
+    "kitchen-bath-remodelers--shower-membrane": [
+      68,
+      72
     ],
-    "shower-tile": [
-      58,
-      38
-    ],
-    "bath-ventlight": [
-      24,
-      54
+    "kitchen-bath-remodelers--tile-edges": [
+      79,
+      32
     ]
   },
   "real-estate-agents-listing-prep": {
-    "virtual-staging": [
-      68,
-      66
+    "real-estate-agents-listing-prep--staging-scale": [
+      65,
+      56
     ],
-    "listing-disclosure": [
-      31,
-      75
-    ],
-    "light-bulbs": [
-      86,
-      45
-    ]
-  },
-  "real-estate-investors-house-flippers": {
-    "wall-prep": [
-      61,
-      31
-    ],
-    "flooring": [
-      74,
-      77
-    ]
-  },
-  "property-developers": {
-    "finish-schedule": [
-      45,
-      83
-    ],
-    "cabinet-fronts": [
-      87,
-      72
-    ]
-  },
-  "short-term-rental-airbnb-hosts": {
-    "upholstery": [
-      81,
-      68
-    ],
-    "guest-storage": [
-      36,
-      54
-    ],
-    "window-glare": [
-      54,
-      31
-    ]
-  },
-  "try-a-design-style": {
-    "upholstery": [
-      33,
-      65
-    ],
-    "portable-light": [
-      40,
+    "real-estate-agents-listing-prep--listing-light": [
+      57,
       27
     ]
   },
-  "paint-wall-color-testing": {
-    "wall-prep": [
-      66,
-      19
+  "real-estate-investors-house-flippers": {
+    "real-estate-investors-house-flippers--lvp-baseline": [
+      64,
+      82
     ],
-    "paint-samples": [
-      27,
-      52
-    ],
-    "light-bulbs": [
-      82,
-      44
-    ]
-  },
-  "lighting-design-fixture-selection": {
-    "pendant": [
-      48,
-      34
-    ],
-    "portable-light": [
-      81,
-      59
-    ],
-    "home-cove": [
-      33,
-      21
-    ]
-  },
-  "flooring-finish-comparison": {
-    "flooring": [
-      71,
-      83
-    ],
-    "floor-acoustics": [
-      32,
-      76
-    ]
-  },
-  "kitchen-surfaces": {
-    "cabinet-fronts": [
+    "real-estate-investors-house-flippers--paint-scope": [
       76,
-      77
-    ],
-    "worktop": [
-      36,
-      60
-    ],
-    "backsplash": [
-      68,
-      38
-    ],
-    "task-strip": [
-      89,
-      51
-    ]
-  },
-  "fireplace-mantel-redesign": {
-    "fireplace-surround": [
-      61,
-      65
-    ],
-    "mantel": [
-      55,
-      30
-    ]
-  },
-  "closet-built-in-storage-redesign": {
-    "closet-layout": [
-      65,
-      63
-    ],
-    "anti-tip": [
-      33,
-      32
-    ],
-    "task-strip": [
-      57,
-      30
-    ]
-  },
-  "small-space-studio-apartment-layout": {
-    "wall-bed": [
-      83,
-      65
-    ],
-    "portable-storage": [
-      63,
       36
-    ],
-    "desk": [
-      42,
-      55
     ]
   },
-  "nursery-kids-room-design": {
-    "cot": [
-      37,
-      66
-    ],
-    "anti-tip": [
+  "property-developers": {
+    "property-developers--repeat-kitchen": [
       83,
-      71
+      37
     ],
-    "nightlight": [
-      72,
+    "property-developers--island-interfaces": [
+      64,
+      58
+    ]
+  },
+  "short-term-rental-airbnb-hosts": {
+    "short-term-rental-airbnb-hosts--guest-sofa": [
+      76,
+      54
+    ],
+    "short-term-rental-airbnb-hosts--luggage-zone": [
+      39,
+      56
+    ],
+    "short-term-rental-airbnb-hosts--guest-window": [
+      62,
       26
     ]
   },
-  "home-gym-conversion": {
-    "gym-floor": [
-      39,
-      79
+  "try-a-design-style": {
+    "try-a-design-style--japandi-textiles": [
+      37,
+      56
     ],
-    "gym-layout": [
+    "try-a-design-style--timber-table": [
+      61,
+      72
+    ],
+    "try-a-design-style--style-lamp": [
+      32,
+      24
+    ]
+  },
+  "paint-wall-color-testing": {
+    "paint-wall-color-testing--paint-base": [
+      37,
+      14
+    ],
+    "paint-wall-color-testing--movable-samples": [
+      74,
+      50
+    ],
+    "paint-wall-color-testing--paint-colour-light": [
+      84,
+      45
+    ]
+  },
+  "lighting-design-fixture-selection": {
+    "lighting-design-fixture-selection--dining-pendant": [
+      53,
+      28
+    ],
+    "lighting-design-fixture-selection--dining-background": [
+      76,
+      63
+    ]
+  },
+  "flooring-finish-comparison": {
+    "flooring-finish-comparison--plank-spec": [
       68,
+      84
+    ],
+    "flooring-finish-comparison--floor-perimeter": [
+      85,
+      19
+    ]
+  },
+  "kitchen-surfaces": {
+    "kitchen-surfaces--surface-fronts": [
+      82,
+      17
+    ],
+    "kitchen-surfaces--surface-counter": [
+      61,
+      54
+    ],
+    "kitchen-surfaces--surface-splash": [
+      74,
       35
     ]
   },
-  "open-concept-wall-removal": {
-    "opening-study": [
-      63,
-      40
+  "fireplace-mantel-redesign": {
+    "fireplace-mantel-redesign--fireplace-face": [
+      72,
+      56
     ],
-    "thresholds": [
-      82,
-      83
+    "fireplace-mantel-redesign--mantel-clearance": [
+      54,
+      28
     ],
-    "beam-finish": [
-      37,
-      20
+    "fireplace-mantel-redesign--flanking-cabinets": [
+      83,
+      53
     ]
   },
-  "basement-garage-conversion": {
-    "basement-envelope": [
-      75,
-      30
+  "closet-built-in-storage-redesign": {
+    "closet-built-in-storage-redesign--closet-zones": [
+      30,
+      41
     ],
-    "service-access": [
-      18,
-      53
-    ],
-    "desk": [
-      53,
+    "closet-built-in-storage-redesign--drawer-runners": [
+      54,
       61
     ]
   },
-  "exterior-curb-appeal": {
-    "exterior-paint": [
-      30,
-      48
+  "small-space-studio-apartment-layout": {
+    "small-space-studio-apartment-layout--daybed": [
+      81,
+      65
     ],
-    "siding": [
-      66,
-      30
+    "small-space-studio-apartment-layout--open-divider": [
+      73,
+      31
     ],
-    "outdoor-light": [
+    "small-space-studio-apartment-layout--studio-table": [
+      37,
+      47
+    ]
+  },
+  "nursery-kids-room-design": {
+    "nursery-kids-room-design--cot-zone": [
+      25,
+      55
+    ],
+    "nursery-kids-room-design--nursery-storage": [
+      86,
+      60
+    ],
+    "nursery-kids-room-design--night-care-light": [
       72,
-      46
+      22
+    ]
+  },
+  "home-gym-conversion": {
+    "home-gym-conversion--rubber-floor": [
+      69,
+      84
+    ],
+    "home-gym-conversion--equipment-zones": [
+      56,
+      39
+    ],
+    "home-gym-conversion--gym-comfort": [
+      49,
+      12
+    ]
+  },
+  "open-concept-wall-removal": {
+    "open-concept-wall-removal--opening-engineering": [
+      25,
+      53
+    ],
+    "open-concept-wall-removal--floor-stitch": [
+      83,
+      73
+    ],
+    "open-concept-wall-removal--beam-envelope": [
+      64,
+      10
+    ]
+  },
+  "basement-garage-conversion": {
+    "basement-garage-conversion--dry-lining": [
+      22,
+      39
+    ],
+    "basement-garage-conversion--service-panels": [
+      75,
+      13
+    ],
+    "basement-garage-conversion--basement-desk": [
+      45,
+      62
+    ]
+  },
+  "exterior-curb-appeal": {
+    "exterior-curb-appeal--facade-system": [
+      27,
+      49
+    ],
+    "exterior-curb-appeal--entry-door": [
+      68,
+      73
+    ],
+    "exterior-curb-appeal--entry-light": [
+      71,
+      53
     ]
   },
   "backyard-outdoor-living-redesign": {
-    "patio": [
-      59,
-      88
+    "backyard-outdoor-living-redesign--patio-base": [
+      88,
+      91
     ],
-    "shade": [
-      75,
-      25
+    "backyard-outdoor-living-redesign--umbrella": [
+      68,
+      19
+    ],
+    "backyard-outdoor-living-redesign--outdoor-seating": [
+      70,
+      62
     ]
   },
   "airbnb-turnover-refresh": {
-    "accent-textiles": [
-      41,
-      53
+    "airbnb-turnover-refresh--turnover-covers": [
+      64,
+      46
     ],
-    "wall-art": [
-      14,
-      25
+    "airbnb-turnover-refresh--turnover-art": [
+      18,
+      20
     ],
-    "light-bulbs": [
-      33,
-      23
+    "airbnb-turnover-refresh--lamp-stock": [
+      34,
+      22
     ]
   }
 }

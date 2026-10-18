@@ -7,12 +7,10 @@ const examples = read('content/solutions/examples.json');
 const media = read('content/solutions/media.json');
 const budgets = read('content/solutions/budgets.json');
 const advice = read('content/solutions/advice.json');
+const references = read('content/advice-references.json');
 const sparks = read('content/solutions/sparks.json');
 const pages = read('content/solutions/en.json').pages;
-const tipsFor = (locale, slug) => advice.pages[slug].map(id => {
-  const shared = advice.sharedHomeTips[id];
-  return shared ? read(`content/${locale}.json`).home.brillDemo.tips[shared.index] : advice.topics[id][locale];
-});
+const tipsFor = (locale, slug) => advice.pages[slug].map(id => advice.topics[id][locale]);
 const escape = text => text.replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#x27;' }[character]));
 
 test('every Solution has its own complete bilingual example and a real WebP asset', () => {
@@ -56,12 +54,13 @@ test('all Solutions have distinct Economy, Standard and Premium advice in both l
 test('every Solution has localized feature advice with three fully distinct budget specifications', () => {
   assert.deepEqual(Object.keys(advice.pages).sort(), pages.map(page => page.slug).sort());
   const referenced = new Set(Object.values(advice.pages).flat());
-  assert.deepEqual([...referenced].sort(), [...Object.keys(advice.topics), ...Object.keys(advice.sharedHomeTips)].sort(), 'No missing or unused feature topics');
+  assert.deepEqual([...referenced].sort(), Object.keys(advice.topics).sort(), 'No missing or unused feature topics');
+  assert.equal(Object.values(advice.pages).flat().length, referenced.size, 'Each image needs its own advice, rather than shared fallback cards');
   for (const { slug } of pages) {
     const ids = advice.pages[slug];
     assert.ok(ids.length >= 3, `${slug}: provide several relevant feature options`);
     assert.equal(new Set(ids).size, ids.length, `${slug}: repeated feature`);
-    for (const id of ids) assert.ok(advice.topics[id] || advice.sharedHomeTips[id], `${slug}: unknown feature ${id}`);
+    for (const id of ids) assert.ok(advice.topics[id], `${slug}: unknown feature ${id}`);
     for (const locale of ['en', 'uk']) for (const tip of tipsFor(locale, slug)) {
       assert.ok(tip.category.trim() && tip.title.trim(), `${locale}/${slug}: missing feature label`);
       assert.deepEqual(Object.keys(tip.budgets), ['economy', 'standard', 'premium']);
@@ -72,6 +71,40 @@ test('every Solution has localized feature advice with three fully distinct budg
       }
     }
   }
+});
+
+test('advice stays image-specific, bilingual and connected to official reference sources', () => {
+  const homeTips = locale => read(`content/${locale}.json`).home.brillDemo.tips;
+  for (const locale of ['en', 'uk']) {
+    const topics = Object.values(advice.topics).map(topic => topic[locale]);
+    for (const field of ['title', 'check']) {
+      const values = topics.map(topic => topic[field]);
+      assert.ok(values.every(value => typeof value === 'string' && value.trim()));
+      assert.equal(new Set(values).size, values.length, `${locale}: repeated ${field} across images`);
+    }
+    for (const field of ['specification', 'detail', 'difference']) {
+      const values = topics.flatMap(topic => Object.values(topic.budgets).map(option => option[field]));
+      assert.equal(new Set(values).size, values.length, `${locale}: repeated ${field} across images or budgets`);
+    }
+    for (const tip of [...topics, ...homeTips(locale)]) {
+      assert.ok(tip.check.trim(), `${locale}/${tip.title}: missing ordering check`);
+      assert.ok(tip.references.length > 0, `${locale}/${tip.title}: missing reference`);
+      assert.equal(new Set(tip.references).size, tip.references.length, 'Repeated reference in one card');
+      for (const id of tip.references) {
+        assert.ok(references[id], `Unknown reference: ${id}`);
+        const url = new URL(references[id].url);
+        assert.equal(url.protocol, 'https:');
+        assert.ok(!url.username && !url.password && !url.search && !url.hash, 'Reference must be a clean public documentation URL');
+        assert.ok(references[id][locale].label.trim());
+      }
+    }
+    for (const tip of homeTips(locale)) {
+      assert.deepEqual(Object.keys(tip.quick), ['economy', 'standard', 'premium']);
+      assert.equal(new Set(Object.values(tip.quick)).size, 3, 'Home Sparks must change with the budget');
+    }
+  }
+  for (const topic of Object.values(advice.topics)) assert.deepEqual(topic.en.references, topic.uk.references);
+  assert.deepEqual(homeTips('en').map(tip => tip.references), homeTips('uk').map(tip => tip.references));
 });
 
 test('each Solution has image hotspots linked to its own advice features', () => {
@@ -114,8 +147,14 @@ test('all localized exports render feature cards instead of old rows and preserv
       }
       assert.ok(html.includes('id="solution-advice-options"'));
       assert.equal((html.match(/data-advice="/g) || []).length, advice.pages[page.slug].length);
-      for (const tip of tipsFor(locale, page.slug)) for (const text of [tip.category, tip.title, ...Object.values(tip.budgets.standard)]) {
-        assert.ok(html.includes(escape(text)), `${locale}/${page.slug}: missing feature specification ${text}`);
+      for (const tip of tipsFor(locale, page.slug)) {
+        for (const text of [tip.category, tip.title, tip.check, ...Object.values(tip.budgets.standard)]) {
+          assert.ok(html.includes(escape(text)), `${locale}/${page.slug}: missing feature specification ${text}`);
+        }
+        for (const id of tip.references) {
+          assert.ok(html.includes(`href="${escape(references[id].url)}"`), `${locale}/${page.slug}: missing reference link`);
+          assert.ok(html.includes(escape(references[id][locale].label)), `${locale}/${page.slug}: untranslated reference`);
+        }
       }
       for (const text of [example.title, example.before, example.after, example.check]) {
         assert.ok(html.includes(escape(text)), `${locale}/${page.slug}: missing example text ${text}`);

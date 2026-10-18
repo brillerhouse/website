@@ -12,7 +12,7 @@ const labels = {
     budgets: { economy: 'Economy', standard: 'Standard', premium: 'Premium' },
     budgetNote: 'The comparison shows one illustrative direction. Budget options explore alternative specifications for the project.',
     specification: 'Suggested specification', detail: 'How to implement it', difference: 'What changes:',
-    adviceNote: 'Example specifications for this use case. Confirm dimensions, product compatibility and any required site design with your installer before ordering or building.',
+    adviceNote: 'Illustrative specifications. Confirm dimensions, loads, compatibility and local requirements for your project. References open official guidance and product libraries; use the current data sheet for your chosen model.',
   },
   uk: {
     eyebrow: 'Розгляньмо детальніше', heading: 'До та після', before: 'До', after: 'Концепція після',
@@ -23,7 +23,7 @@ const labels = {
     budgets: { economy: 'Економ', standard: 'Стандарт', premium: 'Преміум' },
     budgetNote: 'Порівняння показує один ілюстративний напрям. Варіанти бюджету досліджують альтернативні специфікації проєкту.',
     specification: 'Рекомендована специфікація', detail: 'Як це реалізувати', difference: 'Що змінюється:',
-    adviceNote: 'Приклади специфікацій для цього сценарію. До замовлення чи виконання узгодьте з монтажником розміри, сумісність виробів і необхідні проєктні рішення для об’єкта.',
+    adviceNote: 'Ілюстративні специфікації. Узгодьте розміри, навантаження, сумісність і місцеві вимоги вашого проєкту. Посилання відкривають офіційні рекомендації й бібліотеки виробів; використовуйте чинну технічну карту обраної моделі.',
   },
 };
 
@@ -33,6 +33,6 @@ export function SolutionExample({ locale, slug }: { locale: Locale; slug: string
   return <section className="section solution-example" id="before-after" aria-labelledby="solution-example-heading">
     <p className="eyebrow">{l.eyebrow} / {l.heading}</p>
     <h2 id="solution-example-heading">{example.title}</h2>
-    <SolutionProject slug={slug} example={example} budgets={solutionBudgets(locale, slug)} tips={solutionAdvice(locale, slug)} labels={l}/>
+    <SolutionProject locale={locale} slug={slug} example={example} budgets={solutionBudgets(locale, slug)} tips={solutionAdvice(locale, slug)} labels={l}/>
   </section>;
 }

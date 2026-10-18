@@ -1,0 +1,416 @@
+{
+  "blum": {
+    "url": "https://www.blum.com/",
+    "en": {
+      "label": "Blum · CLIP top BLUMOTION hinges and runner planning"
+    },
+    "uk": {
+      "label": "Blum · завіси CLIP top BLUMOTION та планування напрямних"
+    }
+  },
+  "egger": {
+    "url": "https://www.egger.com/",
+    "en": {
+      "label": "EGGER · decorative boards, edging and worktop processing"
+    },
+    "uk": {
+      "label": "EGGER · декоративні плити, крайки й обробка стільниць"
+    }
+  },
+  "cosentino": {
+    "url": "https://www.cosentino.com/",
+    "en": {
+      "label": "Cosentino · Silestone / Dekton fabrication and care"
+    },
+    "uk": {
+      "label": "Cosentino · виготовлення й догляд Silestone / Dekton"
+    }
+  },
+  "hafele": {
+    "url": "https://www.hafele.com/",
+    "en": {
+      "label": "Häfele · Loox lighting and furniture hardware documentation"
+    },
+    "uk": {
+      "label": "Häfele · документація світла Loox і меблевої фурнітури"
+    }
+  },
+  "lighting": {
+    "url": "https://www.lighting.philips.com/",
+    "en": {
+      "label": "Philips lighting · lamp, driver and dimming data"
+    },
+    "uk": {
+      "label": "Philips lighting · характеристики ламп, блоків і димування"
+    }
+  },
+  "quickstep": {
+    "url": "https://www.quick-step.com/",
+    "en": {
+      "label": "Quick-Step · installation, underlay and floor care instructions"
+    },
+    "uk": {
+      "label": "Quick-Step · монтаж, підкладки й догляд за підлогою"
+    }
+  },
+  "woodfloor": {
+    "url": "https://www.woodfloors.org/",
+    "en": {
+      "label": "NWFA / Wood Floors · wood flooring selection and care"
+    },
+    "uk": {
+      "label": "NWFA / Wood Floors · вибір дерев’яних підлог і догляд"
+    }
+  },
+  "schluter": {
+    "url": "https://www.schluter.com/",
+    "en": {
+      "label": "Schlüter-Systems · KERDI waterproofing and profile details"
+    },
+    "uk": {
+      "label": "Schlüter-Systems · гідроізоляція KERDI й вузли профілів"
+    }
+  },
+  "ikea": {
+    "url": "https://www.ikea.com/",
+    "en": {
+      "label": "IKEA · model-specific assembly, dimensions and parts"
+    },
+    "uk": {
+      "label": "IKEA · складання, розміри й деталі конкретних моделей"
+    }
+  },
+  "cpsc-tip": {
+    "url": "https://www.anchorit.gov/",
+    "en": {
+      "label": "CPSC Anchor It! · furniture restraint guidance"
+    },
+    "uk": {
+      "label": "CPSC Anchor It! · рекомендації кріплення меблів"
+    }
+  },
+  "rug": {
+    "url": "https://carpet-rug.org/",
+    "en": {
+      "label": "Carpet and Rug Institute · rug care and maintenance"
+    },
+    "uk": {
+      "label": "Carpet and Rug Institute · догляд за килимами"
+    }
+  },
+  "osha": {
+    "url": "https://www.osha.gov/etools/computer-workstations",
+    "en": {
+      "label": "OSHA · computer workstation ergonomics"
+    },
+    "uk": {
+      "label": "OSHA · ергономіка комп’ютерного робочого місця"
+    }
+  },
+  "lutron": {
+    "url": "https://www.lutron.com/",
+    "en": {
+      "label": "Lutron · shading fabrics, controls and installation guidance"
+    },
+    "uk": {
+      "label": "Lutron · тканини сонцезахисту, керування й монтаж"
+    }
+  },
+  "kvadrat": {
+    "url": "https://www.kvadrat.dk/",
+    "en": {
+      "label": "Kvadrat · textile abrasion, composition and care documentation"
+    },
+    "uk": {
+      "label": "Kvadrat · стирання тканин, склад і документація догляду"
+    }
+  },
+  "silentgliss": {
+    "url": "https://www.silentgliss.com/",
+    "en": {
+      "label": "Silent Gliss · curtain track, wave and motor planning"
+    },
+    "uk": {
+      "label": "Silent Gliss · планування треків, хвильових штор і приводів"
+    }
+  },
+  "knauf": {
+    "url": "https://knauf.com/",
+    "en": {
+      "label": "Knauf · complete drywall systems and access-panel details"
+    },
+    "uk": {
+      "label": "Knauf · повні гіпсокартонні системи й вузли люків"
+    }
+  },
+  "erco": {
+    "url": "https://www.erco.com/",
+    "en": {
+      "label": "ERCO · track systems, optics and lighting practice"
+    },
+    "uk": {
+      "label": "ERCO · трекові системи, оптика й світлотехнічна практика"
+    }
+  },
+  "dali": {
+    "url": "https://www.dali-alliance.org/",
+    "en": {
+      "label": "DALI Alliance · DALI-2 certification and product database"
+    },
+    "uk": {
+      "label": "DALI Alliance · сертифікація DALI-2 і база виробів"
+    }
+  },
+  "casambi": {
+    "url": "https://casambi.com/",
+    "en": {
+      "label": "Casambi · supported control equipment and commissioning"
+    },
+    "uk": {
+      "label": "Casambi · сумісні пристрої керування й налагодження"
+    }
+  },
+  "mapei": {
+    "url": "https://www.mapei.com/",
+    "en": {
+      "label": "MAPEI · waterproofing, adhesive and grout system data"
+    },
+    "uk": {
+      "label": "MAPEI · карти гідроізоляції, клею й затирки"
+    }
+  },
+  "blanco": {
+    "url": "https://www.blanco.com/",
+    "en": {
+      "label": "BLANCO · exact sink installation templates and fixing instructions"
+    },
+    "uk": {
+      "label": "BLANCO · точні шаблони мийок та інструкції кріплення"
+    }
+  },
+  "ventaxia": {
+    "url": "https://www.vent-axia.com/",
+    "en": {
+      "label": "Vent-Axia · fan performance curves and installation data"
+    },
+    "uk": {
+      "label": "Vent-Axia · характеристики вентиляторів і дані монтажу"
+    }
+  },
+  "nar": {
+    "url": "https://www.nar.realtor/",
+    "en": {
+      "label": "NAR · virtual staging and property-image professional guidance"
+    },
+    "uk": {
+      "label": "NAR · професійні рекомендації віртуального облаштування й фото нерухомості"
+    }
+  },
+  "forbo": {
+    "url": "https://www.forbo.com/flooring/",
+    "en": {
+      "label": "Forbo Flooring · resilient flooring installation and care"
+    },
+    "uk": {
+      "label": "Forbo Flooring · монтаж еластичних підлог і догляд"
+    }
+  },
+  "dulux": {
+    "url": "https://www.duluxtradepaintexpert.co.uk/",
+    "en": {
+      "label": "Dulux Trade · coating-system and preparation data sheets"
+    },
+    "uk": {
+      "label": "Dulux Trade · технічні карти покриттів і підготовки"
+    }
+  },
+  "epa-lead": {
+    "url": "https://www.epa.gov/lead",
+    "en": {
+      "label": "US EPA · older lead-paint inspection and renovation guidance"
+    },
+    "uk": {
+      "label": "US EPA · огляд старої свинцевої фарби й рекомендації ремонту"
+    }
+  },
+  "nbs": {
+    "url": "https://www.thenbs.com/",
+    "en": {
+      "label": "NBS · specification structure and product information"
+    },
+    "uk": {
+      "label": "NBS · структура специфікацій та інформація про вироби"
+    }
+  },
+  "cpsc-cords": {
+    "url": "https://www.cpsc.gov/",
+    "en": {
+      "label": "CPSC · window-covering cord safety guidance"
+    },
+    "uk": {
+      "label": "CPSC · безпека шнурів віконних штор"
+    }
+  },
+  "osmo": {
+    "url": "https://www.osmo.de/en/",
+    "en": {
+      "label": "Osmo · timber finish application and maintenance instructions"
+    },
+    "uk": {
+      "label": "Osmo · нанесення покриттів деревини й догляд"
+    }
+  },
+  "farrowball": {
+    "url": "https://www.farrow-ball.com/",
+    "en": {
+      "label": "Farrow & Ball · paint sampling and finish guidance"
+    },
+    "uk": {
+      "label": "Farrow & Ball · проби фарби й вибір фінішу"
+    }
+  },
+  "regupol": {
+    "url": "https://www.regupol.com/",
+    "en": {
+      "label": "REGUPOL · sports flooring and tested acoustic assemblies"
+    },
+    "uk": {
+      "label": "REGUPOL · спортивні підлоги й випробувані акустичні конструкції"
+    }
+  },
+  "finsa": {
+    "url": "https://www.finsa.com/",
+    "en": {
+      "label": "FINSA · decorative board and veneer technical documentation"
+    },
+    "uk": {
+      "label": "FINSA · технічна документація декоративних плит і шпону"
+    }
+  },
+  "stovax": {
+    "url": "https://www.stovax.com/",
+    "en": {
+      "label": "Stovax · model-specific fireplace installation manuals"
+    },
+    "uk": {
+      "label": "Stovax · монтажні інструкції конкретних камінних моделей"
+    }
+  },
+  "hettich": {
+    "url": "https://www.hettich.com/",
+    "en": {
+      "label": "Hettich · runner dimensions, loading and assembly instructions"
+    },
+    "uk": {
+      "label": "Hettich · розміри напрямних, навантаження й складання"
+    }
+  },
+  "cpsc-sleep": {
+    "url": "https://www.cpsc.gov/SafeSleep",
+    "en": {
+      "label": "CPSC · Safe Sleep, crib hazards and product recalls"
+    },
+    "uk": {
+      "label": "CPSC · Safe Sleep, ризики ліжечок і відкликання виробів"
+    }
+  },
+  "rogue": {
+    "url": "https://www.roguefitness.com/",
+    "en": {
+      "label": "Rogue Fitness · equipment dimensions and assembly instructions"
+    },
+    "uk": {
+      "label": "Rogue Fitness · розміри обладнання й інструкції складання"
+    }
+  },
+  "istructe": {
+    "url": "https://www.istructe.org/",
+    "en": {
+      "label": "Institution of Structural Engineers · finding structural expertise"
+    },
+    "uk": {
+      "label": "Institution of Structural Engineers · пошук конструктора"
+    }
+  },
+  "building-science": {
+    "url": "https://buildingscience.com/",
+    "en": {
+      "label": "Building Science Corporation · basement and moisture research"
+    },
+    "uk": {
+      "label": "Building Science Corporation · дослідження підвалів і вологи"
+    }
+  },
+  "jameshardie": {
+    "url": "https://www.jameshardie.com/",
+    "en": {
+      "label": "James Hardie · siding installation, clearances and maintenance"
+    },
+    "uk": {
+      "label": "James Hardie · монтаж фасаду, відступи й обслуговування"
+    }
+  },
+  "darksky": {
+    "url": "https://darksky.org/",
+    "en": {
+      "label": "DarkSky · responsible outdoor lighting principles"
+    },
+    "uk": {
+      "label": "DarkSky · принципи відповідального зовнішнього освітлення"
+    }
+  },
+  "marshalls": {
+    "url": "https://www.marshalls.co.uk/",
+    "en": {
+      "label": "Marshalls · paving and sub-base installation guidance"
+    },
+    "uk": {
+      "label": "Marshalls · укладання мощення й підготовка основи"
+    }
+  },
+  "sunbrella": {
+    "url": "https://www.sunbrella.com/",
+    "en": {
+      "label": "Sunbrella · outdoor fabric care and product information"
+    },
+    "uk": {
+      "label": "Sunbrella · догляд за вуличними тканинами й дані виробів"
+    }
+  },
+  "fsc": {
+    "url": "https://fsc.org/",
+    "en": {
+      "label": "FSC · checking certified timber and product claims"
+    },
+    "uk": {
+      "label": "FSC · перевірка сертифікованої деревини й заяв про вироби"
+    }
+  },
+  "woodupp": {
+    "url": "https://woodupp.com/",
+    "en": {
+      "label": "WoodUpp · slat-panel installation and acoustic assembly guidance"
+    },
+    "uk": {
+      "label": "WoodUpp · монтаж рейкових панелей та акустичні конструкції"
+    }
+  },
+  "artiteq": {
+    "url": "https://www.artiteq.com/",
+    "en": {
+      "label": "Artiteq · picture rails, hanging hardware and load limits"
+    },
+    "uk": {
+      "label": "Artiteq · картинні рейли, підвіси й допустимі навантаження"
+    }
+  },
+  "tuuci": {
+    "url": "https://www.tuuci.com/",
+    "en": {
+      "label": "TUUCI · parasol installation, bases and operating limits"
+    },
+    "uk": {
+      "label": "TUUCI · монтаж парасоль, основи й робочі обмеження"
+    }
+  }
+}

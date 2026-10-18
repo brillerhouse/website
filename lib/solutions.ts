@@ -6,7 +6,8 @@ import media from '@/content/solutions/media.json';
 import budgets from '@/content/solutions/budgets.json';
 import advice from '@/content/solutions/advice.json';
 import sparks from '@/content/solutions/sparks.json';
-import { copy, href, Locale, site, socialPreview } from './content';
+import { href, Locale, site, socialPreview } from './content';
+import { adviceReferences, type AdviceReference } from './advice';
 
 export type Solution = typeof en.pages[number];
 export type SolutionsLabels = typeof en.hub;
@@ -27,6 +28,8 @@ export type SolutionAdvice = {
   kind: string;
   category: string;
   title: string;
+  check: string;
+  references: AdviceReference[];
   position?: { x: number; y: number };
   budgets: Record<'economy' | 'standard' | 'premium', { specification: string; detail: string; difference: string }>;
 };
@@ -36,14 +39,9 @@ export function solutionAdvice(locale: Locale, slug: string): SolutionAdvice[] {
   return advice.pages[slug as keyof typeof advice.pages].map(id => {
     const coordinates = positions?.[id];
     const position = coordinates ? { x: coordinates[0], y: coordinates[1] } : undefined;
-    if (Object.hasOwn(advice.sharedHomeTips, id)) {
-      const { index, kind } = advice.sharedHomeTips[id as keyof typeof advice.sharedHomeTips];
-      const tip = copy(locale).home.brillDemo.tips[index];
-      return { id, kind, category: tip.category, title: tip.title, budgets: tip.budgets, position };
-    }
     if (!Object.hasOwn(advice.topics, id)) throw new Error(`Missing solution advice topic: ${id}`);
     const topic = advice.topics[id as keyof typeof advice.topics];
-    return { id, kind: topic.kind, ...topic[locale], position };
+    return { id, kind: topic.kind, ...topic[locale], references: adviceReferences(locale, topic[locale].references), position };
   });
 }
 export const solutionHref = (locale: Locale, slug = '') => href(locale, 'solutions' + (slug ? '/' + slug : ''));
