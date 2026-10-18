@@ -1,0 +1,422 @@
+{
+  "en": {
+    "seo": {
+      "title": "Room Analysis, Moodboards & AI Design Features",
+      "description": "Explore Briller’s room analysis, moodboards, budget-specific technical advice, design iterations, Smart Sparks and Shop the Look for your interior project."
+    },
+    "eyebrow": "BRILLER / FEATURES",
+    "title": "Understand your room.\nDevelop every detail.",
+    "intro": "Read the space you have, shape the look you want and explore how to make it work. Briller connects room analysis, visual references and practical advice in a design you can keep refining.",
+    "start": "Start a room project",
+    "explore": "Explore the features",
+    "imageAlt": "Illustrative contemporary living room with large rectangular windows, oak joinery and an open seating area",
+    "imageNote": "Illustrative design concept · A room study for the workflow below.",
+    "navigation": "Explore Briller’s features",
+    "features": [
+      {
+        "id": "room-analysis",
+        "label": "Automated room analysis"
+      },
+      {
+        "id": "moodboards",
+        "label": "Moodboards & references"
+      },
+      {
+        "id": "budget-advice",
+        "label": "Advice for each budget"
+      },
+      {
+        "id": "design-iterations",
+        "label": "Design iterations"
+      },
+      {
+        "id": "shop-the-look",
+        "label": "Shop the Look"
+      },
+      {
+        "id": "smart-sparks",
+        "label": "Smart Sparks"
+      }
+    ],
+    "analysis": {
+      "eyebrow": "01 / AUTOMATED ROOM ANALYSIS",
+      "title": "A useful design starts with reading the room.",
+      "text": "Upload a room photo and Briller analyses the visible layout, openings, furnishings and finishes to establish a starting point. Tell it what stays, what needs to change and how you use the space, so the brief reflects more than a style name.",
+      "outputs": [
+        [
+          "Understand the existing layout",
+          "Identify visible walls, doors and windows and keep those constraints in the design conversation."
+        ],
+        [
+          "Find the opportunities",
+          "Look at daylight, furniture placement, material relationships and the places where daily use feels awkward."
+        ],
+        [
+          "Add the facts only you know",
+          "Supply measurements, storage needs and retained items. A photograph provides visual context; your dimensions make the brief more precise."
+        ]
+      ],
+      "exampleLabel": "EXAMPLE BRIEF / THE ROOM ABOVE",
+      "exampleTitle": "Turn observations into decisions.",
+      "example": [
+        [
+          "Glazing",
+          "Keep the tall windows and access to the daylight clear."
+        ],
+        [
+          "Existing joinery",
+          "Carry the warm timber into the palette instead of introducing an unrelated finish."
+        ],
+        [
+          "Seating area",
+          "Check the sofa footprint and routes around the coffee table before choosing replacements."
+        ]
+      ]
+    },
+    "moodboard": {
+      "eyebrow": "02 / MOODBOARDS & REFERENCES",
+      "title": "Give your references a job to do.",
+      "text": "Add a moodboard to guide colour, texture, furniture and atmosphere. Describe what you like in each reference: the timber tone, a quiet lighting scheme or the shape of a chair. Briller uses that direction alongside your room and brief.",
+      "points": [
+        "Translate a style into a material palette.",
+        "Combine references around one clear direction.",
+        "Keep the room’s architecture and the pieces you already own in the brief."
+      ],
+      "link": "Find references in Inspiration",
+      "boardLabel": "EXAMPLE MOODBOARD DIRECTION",
+      "boardTitle": "Warm timber. Soft colour. Focused light.",
+      "swatches": [
+        "Oak",
+        "Chalk",
+        "Linen",
+        "Clay",
+        "Graphite"
+      ],
+      "notes": [
+        [
+          "Materials",
+          "Matt timber, woven fabric and a restrained wall finish."
+        ],
+        [
+          "Light",
+          "Soft ambient light with a separate lamp for reading."
+        ],
+        [
+          "Keep",
+          "The existing glazing, floor and useful storage."
+        ]
+      ]
+    },
+    "budget": {
+      "eyebrow": "03 / TECHNICAL ADVICE FOR EACH BUDGET",
+      "title": "Change the specification. Understand the trade-off.",
+      "text": "Economy, Standard and Premium should change more than a price label. Explore material build-ups, dimensions, installation considerations and the compromises behind a similar visual result.",
+      "try": "Try the budget comparison",
+      "example": "INTERACTIVE EXAMPLE / FLOORING",
+      "labels": {
+        "economy": "Economy",
+        "standard": "Standard",
+        "premium": "Premium"
+      },
+      "specification": "Suggested specification",
+      "implementation": "How to implement it",
+      "difference": "What changes",
+      "check": "Check before ordering",
+      "note": "This example compares oak-look flooring options. For your project, add quantities and local installation conditions when discussing materials, cost breakdowns and construction details with Briller.",
+      "link": "Explore the full flooring example"
+    },
+    "iterations": {
+      "eyebrow": "04 / RE-ITERATION & REFINEMENT",
+      "title": "Keep the direction. Refine the decision.",
+      "text": "A first render starts the conversation. Review it against your original room, describe what works and ask for a specific change. Keep the features you want to retain in each instruction, then compare the result before moving on.",
+      "example": "EXAMPLE REFINEMENT BRIEFS",
+      "steps": [
+        [
+          "Set the direction",
+          "Use warm oak, pale walls and comfortable seating. Keep the existing windows and floor."
+        ],
+        [
+          "Resolve one detail",
+          "Keep the palette and layout. Replace the large pendant with a smaller, shielded light over the table."
+        ],
+        [
+          "Compare an alternative",
+          "Keep the lighting and finishes. Try a compact sofa so the route to the window stays open."
+        ]
+      ],
+      "note": "Check each version against the original photo and your measurements. State the retained features again when a revision needs to preserve them."
+    },
+    "shopping": {
+      "eyebrow": "05 / SHOP THE LOOK",
+      "title": "Take the look into a real-world shortlist.",
+      "text": "Explore product suggestions inspired by your design, then compare the pieces that could bring it together. Use the visual direction to narrow the search and the product information to decide what belongs in your room.",
+      "criteria": [
+        [
+          "Furniture",
+          "Compare dimensions, upholstery, seat height and the clearance the piece needs."
+        ],
+        [
+          "Lighting",
+          "Check mounting, lamp output, colour temperature and compatibility with your controls."
+        ],
+        [
+          "Materials & finishes",
+          "Request samples and check the finish, substrate and installation requirements."
+        ]
+      ],
+      "note": "Retailers confirm current prices, stock and delivery. A similar appearance does not confirm the same dimensions or specification.",
+      "link": "Explore Shop the Look in Briller"
+    },
+    "sparks": {
+      "eyebrow": "06 / SMART SPARKS & BRILLER INSIGHTS",
+      "title": "Ask about the detail that caught your eye.",
+      "text": "Smart Sparks connect a visible feature with a practical question. Explore how a detail could be specified, installed or adapted to your budget, rather than stopping at the overall look.",
+      "questionsLabel": "QUESTIONS TO EXPLORE WITH BRILLER",
+      "questions": [
+        "What support would these floating shelves need behind the wall?",
+        "Which floor build-up will work with the existing door thresholds?",
+        "How could I light this work surface without glare on the screen?"
+      ],
+      "knowledgeTitle": "Practical knowledge behind the conversation.",
+      "knowledgeText": "Briller’s AI-assisted knowledge base brings together Mike Briller’s hands-on experience and the experience of his architect, designer and construction colleagues. Ask for materials, profiles, fixings, installation sequence and the checks that matter to your project.",
+      "link": "Explore advice for your project"
+    },
+    "tools": {
+      "eyebrow": "MORE WAYS TO SHAPE THE BRIEF",
+      "title": "Bring the context. Keep the work together.",
+      "items": [
+        [
+          "Text or voice",
+          "Describe your priorities in natural language, including English and Ukrainian. Use voice input when it is easier to talk through the room."
+        ],
+        [
+          "Sketches & drawings",
+          "Add a sketch or optional architectural drawings to explain a layout or constraint alongside the room photo. Include verified dimensions in the brief."
+        ],
+        [
+          "Project workflow",
+          "Keep your room, references and refinement work in a project. Compare plan options for export and collaboration features."
+        ]
+      ],
+      "pdf": "PDF export and a faster generation queue",
+      "shared": "Shared projects",
+      "plans": "Compare plans and included features"
+    },
+    "cta": {
+      "title": "Bring a room. Build a direction.",
+      "text": "Start with your photo and a brief. Explore the look, refine the details and ask Briller how the idea could work in your space.",
+      "start": "Open Briller",
+      "solutions": "Find your use case"
+    }
+  },
+  "uk": {
+    "seo": {
+      "title": "Аналіз кімнати, мудборди та інструменти дизайну",
+      "description": "Аналіз кімнати, мудборди, технічні поради для різних бюджетів, уточнення дизайну, Smart Sparks і Shop the Look — інструменти Briller для вашого інтер’єру."
+    },
+    "eyebrow": "BRILLER / МОЖЛИВОСТІ",
+    "title": "Зрозумійте свою кімнату.\nПродумайте кожну деталь.",
+    "intro": "Вивчіть наявний простір, визначте бажаний образ і знайдіть спосіб його втілити. Briller поєднує аналіз кімнати, візуальні референси й практичні поради в дизайні, який можна послідовно уточнювати.",
+    "start": "Почати проєкт кімнати",
+    "explore": "Дослідити можливості",
+    "imageAlt": "Ілюстративна сучасна вітальня з великими прямокутними вікнами, дубовими меблями та відкритою зоною відпочинку",
+    "imageNote": "Ілюстративна дизайн-концепція · Приклад кімнати для описаного нижче процесу.",
+    "navigation": "Дослідити можливості Briller",
+    "features": [
+      {
+        "id": "room-analysis",
+        "label": "Автоматичний аналіз кімнати"
+      },
+      {
+        "id": "moodboards",
+        "label": "Мудборди й референси"
+      },
+      {
+        "id": "budget-advice",
+        "label": "Поради для кожного бюджету"
+      },
+      {
+        "id": "design-iterations",
+        "label": "Уточнення дизайну"
+      },
+      {
+        "id": "shop-the-look",
+        "label": "Shop the Look"
+      },
+      {
+        "id": "smart-sparks",
+        "label": "Smart Sparks"
+      }
+    ],
+    "analysis": {
+      "eyebrow": "01 / АВТОМАТИЧНИЙ АНАЛІЗ КІМНАТИ",
+      "title": "Корисний дизайн починається з розуміння кімнати.",
+      "text": "Завантажте фото кімнати: Briller аналізує видиме планування, прорізи, меблі й оздоблення як основу для роботи. Уточніть, що залишається, що потрібно змінити та як ви користуєтеся простором, щоб завдання охоплювало більше за назву стилю.",
+      "outputs": [
+        [
+          "Зрозумійте наявне планування",
+          "Врахуйте видимі стіни, двері й вікна та зберігайте ці обмеження в обговоренні дизайну."
+        ],
+        [
+          "Знайдіть можливості",
+          "Оцініть денне світло, розміщення меблів, поєднання матеріалів і місця, якими незручно користуватися щодня."
+        ],
+        [
+          "Додайте відомості, які знаєте лише ви",
+          "Укажіть розміри, потреби у зберіганні й речі, які залишаються. Фото дає візуальний контекст, а ваші обміри роблять завдання точнішим."
+        ]
+      ],
+      "exampleLabel": "ПРИКЛАД ЗАВДАННЯ / КІМНАТА ВИЩЕ",
+      "exampleTitle": "Перетворюйте спостереження на рішення.",
+      "example": [
+        [
+          "Скління",
+          "Збережіть високі вікна та вільний доступ денного світла."
+        ],
+        [
+          "Наявні меблі",
+          "Підтримайте теплий тон дерева в палітрі замість додавання неузгодженого оздоблення."
+        ],
+        [
+          "Зона відпочинку",
+          "Перед заміною перевірте габарити дивана й проходи навколо журнального столу."
+        ]
+      ]
+    },
+    "moodboard": {
+      "eyebrow": "02 / МУДБОРДИ Й РЕФЕРЕНСИ",
+      "title": "Визначте роль кожного референса.",
+      "text": "Додайте мудборд як орієнтир для кольору, фактур, меблів і настрою. Поясніть, що подобається в кожному прикладі: тон дерева, спокійне світло чи форма крісла. Briller враховує цей напрям разом із вашою кімнатою та завданням.",
+      "points": [
+        "Перекладіть стиль на палітру матеріалів.",
+        "Поєднайте референси навколо чіткого задуму.",
+        "Урахуйте архітектуру кімнати й меблі, які вже маєте."
+      ],
+      "link": "Знайти референси в Натхненні",
+      "boardLabel": "ПРИКЛАД НАПРЯМУ МУДБОРДА",
+      "boardTitle": "Тепле дерево. М’який колір. Спрямоване світло.",
+      "swatches": [
+        "Дуб",
+        "Крейда",
+        "Льон",
+        "Глина",
+        "Графіт"
+      ],
+      "notes": [
+        [
+          "Матеріали",
+          "Матове дерево, тканий текстиль і стримане оздоблення стін."
+        ],
+        [
+          "Світло",
+          "М’яке загальне світло й окрема лампа для читання."
+        ],
+        [
+          "Зберегти",
+          "Наявне скління, підлогу й корисні місця зберігання."
+        ]
+      ]
+    },
+    "budget": {
+      "eyebrow": "03 / ТЕХНІЧНІ ПОРАДИ ДЛЯ КОЖНОГО БЮДЖЕТУ",
+      "title": "Змінюйте специфікацію. Розумійте компроміс.",
+      "text": "Економ, Стандарт і Преміум мають відрізнятися не лише ціновою позначкою. Досліджуйте склад матеріалів, розміри, монтаж і компроміси за схожим візуальним результатом.",
+      "try": "Спробуйте порівняння бюджетів",
+      "example": "ІНТЕРАКТИВНИЙ ПРИКЛАД / ПІДЛОГА",
+      "labels": {
+        "economy": "Економ",
+        "standard": "Стандарт",
+        "premium": "Преміум"
+      },
+      "specification": "Рекомендована специфікація",
+      "implementation": "Як реалізувати",
+      "difference": "Що змінюється",
+      "check": "Перевірте до замовлення",
+      "note": "Приклад порівнює підлоги з виглядом дуба. Для свого проєкту додайте кількості й місцеві умови монтажу, обговорюючи з Briller матеріали, розподіл витрат і конструктивні деталі.",
+      "link": "Дослідити повний приклад підлоги"
+    },
+    "iterations": {
+      "eyebrow": "04 / ПОВТОРНІ ІТЕРАЦІЇ Й УТОЧНЕННЯ",
+      "title": "Зберігайте напрям. Уточнюйте рішення.",
+      "text": "Перший рендер починає розмову. Порівняйте його з початковою кімнатою, поясніть вдалі рішення й попросіть конкретну зміну. У кожній інструкції вказуйте те, що потрібно зберегти, та оцінюйте результат перед наступним кроком.",
+      "example": "ПРИКЛАДИ ЗАПИТІВ НА УТОЧНЕННЯ",
+      "steps": [
+        [
+          "Визначте напрям",
+          "Використай теплий дуб, світлі стіни й зручні меблі. Збережи наявні вікна та підлогу."
+        ],
+        [
+          "Уточніть одну деталь",
+          "Збережи палітру й планування. Заміни великий підвіс на менший світильник з екранованим джерелом над столом."
+        ],
+        [
+          "Порівняйте альтернативу",
+          "Збережи світло й оздоблення. Спробуй компактний диван, щоб прохід до вікна залишався вільним."
+        ]
+      ],
+      "note": "Перевіряйте кожну версію за початковим фото й обмірами. Повторно вказуйте незмінні елементи, якщо їх потрібно зберегти під час уточнення."
+    },
+    "shopping": {
+      "eyebrow": "05 / SHOP THE LOOK",
+      "title": "Перенесіть образ у список реальних варіантів.",
+      "text": "Досліджуйте рекомендації товарів за мотивами дизайну й порівнюйте речі, які можуть його скласти. Візуальний напрям звужує пошук, а характеристики виробу допомагають вирішити, що підходить вашій кімнаті.",
+      "criteria": [
+        [
+          "Меблі",
+          "Порівнюйте габарити, оббивку, висоту сидіння й потрібне місце навколо."
+        ],
+        [
+          "Освітлення",
+          "Перевіряйте кріплення, світловий потік, колірну температуру й сумісність із керуванням."
+        ],
+        [
+          "Матеріали й оздоблення",
+          "Замовляйте зразки та звіряйте покриття, основу й вимоги до монтажу."
+        ]
+      ],
+      "note": "Актуальні ціни, наявність і доставку підтверджує продавець. Схожий вигляд не підтверджує однакові розміри чи специфікацію.",
+      "link": "Дослідити Shop the Look у Briller"
+    },
+    "sparks": {
+      "eyebrow": "06 / SMART SPARKS І BRILLER INSIGHTS",
+      "title": "Запитайте про деталь, яка привернула увагу.",
+      "text": "Smart Sparks пов’язують видимий елемент із практичним запитанням. Дізнавайтеся, як деталь можна специфікувати, змонтувати чи адаптувати до бюджету, переходячи від загального образу до рішень.",
+      "questionsLabel": "ЗАПИТАННЯ ДЛЯ ОБГОВОРЕННЯ З BRILLER",
+      "questions": [
+        "Яка опора потрібна за стіною для цих навісних полиць?",
+        "Яка конструкція підлоги підійде до наявних дверних порогів?",
+        "Як освітити цю робочу поверхню без відблисків на екрані?"
+      ],
+      "knowledgeTitle": "Практичні знання в основі розмови.",
+      "knowledgeText": "ШІ-база знань Briller поєднує практичний досвід Майка Бріллера та його колег — архітекторів, дизайнерів і будівельників. Запитуйте про матеріали, профілі, кріплення, послідовність монтажу й перевірки, потрібні вашому проєкту.",
+      "link": "Дослідити поради для свого проєкту"
+    },
+    "tools": {
+      "eyebrow": "БІЛЬШЕ СПОСОБІВ УТОЧНИТИ ЗАВДАННЯ",
+      "title": "Додайте контекст. Поєднайте роботу в проєкті.",
+      "items": [
+        [
+          "Текст або голос",
+          "Описуйте пріоритети природною мовою, зокрема українською та англійською. Користуйтеся голосовим введенням, якщо кімнату легше обговорити вголос."
+        ],
+        [
+          "Ескізи й креслення",
+          "Додайте ескіз або архітектурні креслення, щоб пояснити планування чи обмеження разом із фото кімнати. Укажіть перевірені розміри в завданні."
+        ],
+        [
+          "Робота в проєкті",
+          "Об’єднайте кімнату, референси й уточнення в одному проєкті. Порівняйте плани за можливостями експорту та спільної роботи."
+        ]
+      ],
+      "pdf": "PDF-експорт і швидша черга генерації",
+      "shared": "Спільні проєкти",
+      "plans": "Порівняти плани й доступні можливості"
+    },
+    "cta": {
+      "title": "Додайте кімнату. Розробіть напрям.",
+      "text": "Почніть із фото й завдання. Дослідіть образ, уточніть деталі та запитайте Briller, як задум може працювати у вашому просторі.",
+      "start": "Відкрити Briller",
+      "solutions": "Знайти своє завдання"
+    }
+  }
+}

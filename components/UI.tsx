@@ -14,6 +14,7 @@ export function Header({locale,page,solutionMenu}:{locale:Locale,page:string,sol
   const links=[
     {label:c.header.howItWorks,url:href(locale)+'#how-it-works',active:false},
     {label:c.header.solutions,url:href(locale,'solutions'),active:page==='solutions'||page.startsWith('solutions/')},
+    {label:c.nav.features,url:href(locale,'features'),active:page==='features'},
     {label:c.nav.gallery,url:href(locale,'gallery'),active:page==='gallery'},
     {label:c.header.resources,url:href(locale,'faq'),active:page==='faq'},
     {label:c.header.plans,url:href(locale,'pricing'),active:page==='pricing'},
@@ -27,7 +28,7 @@ export function Header({locale,page,solutionMenu}:{locale:Locale,page:string,sol
   return <header className="site-header">
     <BrandLogo locale={locale} className="header-brand"/>
     <nav id="primary-navigation" className={open?'nav open':'nav'} aria-label={locale==='uk'?'Головна навігація':'Main navigation'}>
-      {links.map((link,i)=>i===1?<SolutionsMenu key={link.label} locale={locale} page={page} groups={solutionMenu} mobileOpen={open} onNavigate={()=>setOpen(false)}/>:<a aria-current={link.active?'page':undefined} href={link.url} key={link.label} onClick={()=>setOpen(false)}>{link.label}</a>)}
+      {links.map(link=>link.url===href(locale,'solutions')?<SolutionsMenu key={link.label} locale={locale} page={page} groups={solutionMenu} mobileOpen={open} onNavigate={()=>setOpen(false)}/>:<a aria-current={link.active?'page':undefined} href={link.url} key={link.label} onClick={()=>setOpen(false)}>{link.label}</a>)}
     </nav>
     <div className="header-actions">
       <a className="header-cta button" href={site.app}>{c.login}</a>
