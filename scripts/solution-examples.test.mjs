@@ -88,7 +88,7 @@ test('advice stays image-specific, bilingual and connected to official reference
     }
     for (const tip of [...topics, ...homeTips(locale)]) {
       assert.ok(tip.check.trim(), `${locale}/${tip.title}: missing ordering check`);
-      assert.ok(tip.references.length > 0, `${locale}/${tip.title}: missing reference`);
+      assert.ok(Array.isArray(tip.references), `${locale}/${tip.title}: missing reference selection`);
       assert.equal(new Set(tip.references).size, tip.references.length, 'Repeated reference in one card');
       for (const id of tip.references) {
         assert.ok(references[id], `Unknown reference: ${id}`);
@@ -105,6 +105,25 @@ test('advice stays image-specific, bilingual and connected to official reference
   }
   for (const topic of Object.values(advice.topics)) assert.deepEqual(topic.en.references, topic.uk.references);
   assert.deepEqual(homeTips('en').map(tip => tip.references), homeTips('uk').map(tip => tip.references));
+});
+
+test('reference selections avoid generic homepages and repeated destinations within a project', () => {
+  const used = new Set();
+  for (const locale of ['en', 'uk']) {
+    const groups = [...Object.keys(advice.pages).map(slug => tipsFor(locale, slug)), read(`content/${locale}.json`).home.brillDemo.tips];
+    for (const tips of groups) {
+      const ids = tips.flatMap(tip => tip.references);
+      const urls = ids.map(id => references[id].url);
+      assert.equal(new Set(urls).size, urls.length, 'Publish a destination once per advice section');
+      for (const id of ids) used.add(id);
+    }
+  }
+  assert.deepEqual([...used].sort(), Object.keys(references).sort(), 'Remove unused source entries');
+  for (const [id, reference] of Object.entries(references)) {
+    const url = new URL(reference.url);
+    const isDedicatedProgramme = id === 'cpsc-tip' && url.hostname === 'www.anchorit.gov';
+    assert.ok(url.pathname !== '/' || isDedicatedProgramme, `${id}: link to the relevant guide rather than a general homepage`);
+  }
 });
 
 test('each Solution has image hotspots linked to its own advice features', () => {
@@ -155,6 +174,15 @@ test('all localized exports render feature cards instead of old rows and preserv
           assert.ok(html.includes(`href="${escape(references[id].url)}"`), `${locale}/${page.slug}: missing reference link`);
           assert.ok(html.includes(escape(references[id][locale].label)), `${locale}/${page.slug}: untranslated reference`);
         }
+      }
+      const sourceCount = tipsFor(locale, page.slug).reduce((count, tip) => count + tip.references.length, 0);
+      const referenceLists = tipsFor(locale, page.slug).filter(tip => tip.references.length).length;
+      assert.equal((html.match(/class="advice-references"/g) || []).length, referenceLists, 'Do not show empty reference headings or lists');
+      const evidenceLinks = [...html.matchAll(/<ul class="advice-references">([\s\S]*?)<\/ul>/g)].flatMap(([, list]) => [...list.matchAll(/href="([^"]+)"/g)].map(([, url]) => url));
+      assert.equal(evidenceLinks.length, sourceCount);
+      assert.equal(new Set(evidenceLinks).size, sourceCount, 'No repeated outgoing reference links within a project');
+      for (const [, list] of html.matchAll(/<ul class="advice-references">([\s\S]*?)<\/ul>/g)) {
+        assert.ok(!/rel="[^"]*\b(?:nofollow|sponsored)\b/.test(list), 'Keep independent editorial sources as ordinary links');
       }
       for (const text of [example.title, example.before, example.after, example.check]) {
         assert.ok(html.includes(escape(text)), `${locale}/${page.slug}: missing example text ${text}`);

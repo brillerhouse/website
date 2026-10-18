@@ -80,7 +80,7 @@
       "sparkLabel": "Smart Spark",
       "tipLabel": "Explore Briller’s advice about",
       "detailLabel": "How to implement it",
-      "projectNote": "Example specifications for this room. Confirm products, dimensions, loads and local installation requirements with your team. References open official guidance and product libraries for the selected system.",
+      "projectNote": "Example specifications for this room. Confirm products, dimensions, loads and local installation requirements with your team, using the current installation instructions for your selected products.",
       "cta": "Get advice for your space",
       "tips": [
         {
@@ -105,11 +105,7 @@
             }
           },
           "check": "Calculate the measured run × W/m: for example, 4 m × 14.4 W/m = 57.6 W before the driver manufacturer’s reserve. Check cable voltage drop, dimmer compatibility and driver access.",
-          "references": [
-            "hafele",
-            "dali",
-            "casambi"
-          ],
+          "references": [],
           "quick": {
             "economy": "Surface 45° channel · 24 V · 2700 K · 10 W/m",
             "standard": "Recessed cove · 24 V COB · 2700 K · 14.4 W/m",
@@ -138,10 +134,7 @@
             }
           },
           "check": "Acoustic performance belongs to a tested panel, cavity and backing assembly—not the slat appearance alone. Check reaction-to-fire requirements, wall fixing and ventilation around AV equipment.",
-          "references": [
-            "woodupp",
-            "egger"
-          ],
+          "references": [],
           "quick": {
             "economy": "2400 × 600 mm foil-faced panels · prepared flat wall",
             "standard": "Oak veneer · 9 mm PET backer · 20 × 45 mm battens",
@@ -170,10 +163,7 @@
             }
           },
           "check": "Size the pocket for the selected track, fabric fullness and stack-back. The 150 × 100 mm example is not a universal recess; check the window handle, radiator projection, support and motor access.",
-          "references": [
-            "silentgliss",
-            "knauf"
-          ],
+          "references": [],
           "quick": {
             "economy": "Surface track · 100 mm painted MDF pelmet",
             "standard": "150 × 100 mm example pocket · dual-channel track · structural fixing",
@@ -202,10 +192,7 @@
             }
           },
           "check": "Specify shelf span, depth and intended load before selecting concealed rods. Verify wall backing and bracket capacity as a complete assembly; retain cable bend space, equipment ventilation and driver access.",
-          "references": [
-            "blum",
-            "hafele"
-          ],
+          "references": [],
           "quick": {
             "economy": "Stock lowboard · hollow-core shelves · verified concealed brackets",
             "standard": "Oak-veneered plywood · concealed steel rods · soft-close hardware",

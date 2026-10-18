@@ -143,10 +143,7 @@
         "category": "Joinery & hardware",
         "title": "Replace the doors, keep sound cabinet boxes",
         "check": "Measure door thickness, hinge-cup setback and appliance gaps before ordering; a 35 mm cup alone does not establish compatibility.",
-        "references": [
-          "blum",
-          "egger"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Cabinet enamel over adhesion primer; retain the doors and existing handle centres.",
@@ -169,10 +166,7 @@
         "category": "Меблі й фурнітура",
         "title": "Заміна фасадів зі збереженням міцних корпусів",
         "check": "До замовлення виміряйте товщину дверцят, відступ чашки завіси й зазори техніки: чашка 35 мм сама по собі не гарантує сумісності.",
-        "references": [
-          "blum",
-          "egger"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Меблева емаль по адгезійній ґрунтовці; дверцята й міжосьові відстані ручок залишаються.",
@@ -198,10 +192,7 @@
         "category": "Materials & finishes",
         "title": "A quieter counter with a serviceable sink edge",
         "check": "Check the counter-to-window height and dishwasher removal route; the image cannot establish the existing substrate or sink support.",
-        "references": [
-          "egger",
-          "cosentino"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "38 mm postformed laminate counter with a top-mount sink and sealed cut-outs.",
@@ -224,10 +215,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Спокійна стільниця з ремонтопридатним краєм мийки",
         "check": "Перевірте висоту до вікна й можливість вийняти посудомийку: зображення не показує основу та опору мийки.",
-        "references": [
-          "egger",
-          "cosentino"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Постформована ламінована стільниця 38 мм із врізною мийкою та герметизованими вирізами.",
@@ -253,10 +241,7 @@
         "category": "Lighting & controls",
         "title": "Light the worktop, hide the LED dots",
         "check": "Calculate driver load from the measured run: 3 m × 10 W/m = 30 W before the driver maker’s specified reserve.",
-        "references": [
-          "hafele",
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "24 V, 3000 K, CRI 90+ LED strip, 8 W/m, in a surface aluminium channel with opal cover.",
@@ -279,10 +264,7 @@
         "category": "Освітлення й керування",
         "title": "Освітити стільницю без видимих світлодіодних точок",
         "check": "Потужність блока рахуйте за реальною довжиною: 3 м × 10 Вт/м = 30 Вт до запасу, визначеного виробником.",
-        "references": [
-          "hafele",
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Стрічка 24 В, 3000 K, CRI 90+, 8 Вт/м у накладному алюмінієвому профілі з опаловим розсіювачем.",
@@ -308,10 +290,7 @@
         "category": "Materials & finishes",
         "title": "Carry one floor through the existing opening",
         "check": "Survey flatness, moisture and all finished levels before choosing thickness; order one approved batch for connected rooms.",
-        "references": [
-          "quickstep",
-          "woodfloor"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "8 mm oak-look laminate with the manufacturer’s compatible underlay and matching skirting.",
@@ -334,10 +313,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Єдина підлога крізь наявний проріз",
         "check": "До вибору товщини перевірте рівність, вологість і чистові відмітки; для суміжних кімнат погодьте одну партію.",
-        "references": [
-          "quickstep",
-          "woodfloor"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Ламінат під дуб 8 мм із сумісною підкладкою виробника та узгодженим плінтусом.",
@@ -363,10 +339,7 @@
         "category": "Coordination & verification",
         "title": "Resolve the doorway before ordering floors",
         "check": "Record the combined floor, adhesive and underlay thickness on a section through this doorway.",
-        "references": [
-          "schluter",
-          "quickstep"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Surface T-profile between equal-height floating floors, with the fixing rail clear of board edges.",
@@ -389,10 +362,7 @@
         "category": "Координація та перевірка",
         "title": "Вирішити вузол дверей до замовлення підлоги",
         "check": "На розрізі цього прорізу зафіксуйте сумарну товщину покриття, клею та підкладки.",
-        "references": [
-          "schluter",
-          "quickstep"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Накладний Т-профіль між плаваючими підлогами однакової висоти; кріплення не затискає дошки.",
@@ -418,10 +388,7 @@
         "category": "Joinery & hardware",
         "title": "Make retained shelving part of the finish plan",
         "check": "Check shelf spans and wall attachment separately from the decorative finish; painted surfaces do not improve load capacity.",
-        "references": [
-          "egger",
-          "hafele"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Retained shelving, repaired edges and water-based joinery enamel in the new trim colour.",
@@ -444,10 +411,7 @@
         "category": "Меблі й фурнітура",
         "title": "Включити наявні полиці в план оздоблення",
         "check": "Окремо перевірте прольоти полиць і кріплення до стіни: фарбування не збільшує несучу здатність.",
-        "references": [
-          "egger",
-          "hafele"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Наявні полиці, відремонтовані торці та водна меблева емаль у новому кольорі лиштв.",
@@ -474,7 +438,6 @@
         "title": "Storage that survives a change of address",
         "check": "Tall freestanding units still require the maker’s anti-tip restraint; obtain permission for any necessary wall fixing.",
         "references": [
-          "ikea",
           "cpsc-tip"
         ],
         "budgets": {
@@ -500,7 +463,6 @@
         "title": "Зберігання, яке переїде разом із вами",
         "check": "Високі окремі стелажі потребують протиперекидного кріплення виробника; погодьте необхідні отвори з власником.",
         "references": [
-          "ikea",
           "cpsc-tip"
         ],
         "budgets": {
@@ -528,9 +490,7 @@
         "category": "Lighting & controls",
         "title": "A reading pool beside the sofa",
         "check": "Seat-test the shade: the LED should not be directly visible from the sofa or reflected in the television.",
-        "references": [
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Plug-in floor lamp with an opaque shade and a replaceable 2700 K LED bulb.",
@@ -553,9 +513,7 @@
         "category": "Освітлення й керування",
         "title": "Окреме світло для читання біля дивана",
         "check": "Перевірте абажур сидячи: джерело не має сліпити з дивана чи відбиватися в телевізорі.",
-        "references": [
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Торшер із непрозорим абажуром і змінною LED-лампою 2700 K.",
@@ -581,9 +539,7 @@
         "category": "Materials & finishes",
         "title": "A rug that does not damage the rented floor",
         "check": "Ask the floor manufacturer about rug-pad compatibility; some rubber or latex backings can mark resilient flooring.",
-        "references": [
-          "rug"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Low-pile synthetic rug with bound edges and a floor-compatible loose non-slip pad.",
@@ -606,9 +562,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Килим, який не пошкоджує орендовану підлогу",
         "check": "Уточніть сумісність підкладки у виробника підлоги: деякі гумові чи латексні основи залишають сліди.",
-        "references": [
-          "rug"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Синтетичний килим із низьким ворсом, обшитими краями й сумісною вільною протиковзкою підкладкою.",
@@ -687,10 +641,7 @@
         "category": "Materials & finishes",
         "title": "Control window glare without losing daylight",
         "check": "Turn the screen perpendicular to the glazing before buying a blind; the room’s orientation and screen finish affect the result.",
-        "references": [
-          "lutron",
-          "osha"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Retained curtains with a separate light-filtering roller blind on approved existing fixings.",
@@ -713,10 +664,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Контроль відблисків зі збереженням денного світла",
         "check": "Спершу поверніть екран перпендикулярно до скла: результат залежить від орієнтації кімнати й поверхні монітора.",
-        "references": [
-          "lutron",
-          "osha"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Наявні штори та окремий світлорозсіювальний рулон на погоджених кріпленнях.",
@@ -742,10 +690,7 @@
         "category": "Lighting & controls",
         "title": "Keep power and task light off the floor",
         "check": "Count actual chargers and check socket protection with an electrician; a cable tray does not increase circuit capacity.",
-        "references": [
-          "hafele",
-          "osha"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Clamp-on task lamp, 4000 K, CRI 90+, and reusable cable straps beneath the rear desk edge.",
@@ -768,10 +713,7 @@
         "category": "Освітлення й керування",
         "title": "Прибрати живлення й робоче світло з підлоги",
         "check": "Порахуйте зарядні пристрої й перевірте захист розеток з електриком: лоток не збільшує потужність кола.",
-        "references": [
-          "hafele",
-          "osha"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Затискна настільна лампа 4000 K, CRI 90+ і багаторазові стяжки під заднім краєм столу.",
@@ -797,9 +739,7 @@
         "category": "Materials & finishes",
         "title": "Specify textiles around the client’s retained sofa",
         "check": "Record fibre, abrasion test method, cleaning code and replacement availability; a rub count alone does not predict service life.",
-        "references": [
-          "kvadrat"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Existing upholstery with 450 × 450 mm removable cushion covers and a washable throw.",
@@ -822,9 +762,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Добір текстилю до дивана замовника",
         "check": "Фіксуйте волокно, метод тесту стирання, спосіб чищення й наявність заміни: сам показник циклів не визначає строк служби.",
-        "references": [
-          "kvadrat"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Наявна оббивка, знімні чохли подушок 450 × 450 мм і плед, що переться.",
@@ -850,9 +788,7 @@
         "category": "Joinery & hardware",
         "title": "Turn the curtain elevation into an order",
         "check": "The render does not define a recess: survey the existing ceiling and specify a surface track unless a ceiling alteration is agreed.",
-        "references": [
-          "silentgliss"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Single surface-mounted aluminium track with stock-length linen-look curtains.",
@@ -875,9 +811,7 @@
         "category": "Меблі й фурнітура",
         "title": "Перетворити ескіз штор на замовлення",
         "check": "Рендер не визначає ніші: обміряйте стелю й задайте накладний трек, якщо перебудову не погоджено.",
-        "references": [
-          "silentgliss"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Один накладний алюмінієвий трек і готові штори під льон.",
@@ -903,10 +837,7 @@
         "category": "Joinery & hardware",
         "title": "Draw the cabinet junctions the image cannot resolve",
         "check": "Issue a finish sample and a hardware schedule with the shop drawings; the render is the visual brief, not a fabrication drawing.",
-        "references": [
-          "blum",
-          "egger"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Stock oak-effect cabinet modules with matching filler strips and a loose cable grommet.",
@@ -929,10 +860,7 @@
         "category": "Меблі й фурнітура",
         "title": "Накреслити стики меблів, яких не визначає зображення",
         "check": "Разом із робочими кресленнями видайте зразок покриття й відомість фурнітури: рендер — візуальне завдання, а не розкрій.",
-        "references": [
-          "blum",
-          "egger"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Типові модулі під дуб із добірними планками та окремою кабельною втулкою.",
@@ -958,10 +886,7 @@
         "category": "Joinery & hardware",
         "title": "Detail the decorative screen around the retained column",
         "check": "The column remains structural. Confirm fire protection and attachment constraints before designing a decorative lining.",
-        "references": [
-          "knauf",
-          "egger"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Factory-finished oak-effect panels on a demountable independent lining frame.",
@@ -984,10 +909,7 @@
         "category": "Меблі й фурнітура",
         "title": "Деталізація декоративного екрана навколо наявної колони",
         "check": "Колона залишається несучою. До облицювання перевірте вогнезахист та допустимі кріплення.",
-        "references": [
-          "knauf",
-          "egger"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Готові панелі під дуб на розбірному незалежному каркасі облицювання.",
@@ -1013,10 +935,7 @@
         "category": "Lighting & controls",
         "title": "Coordinate the ceiling tracks with the structural grid",
         "check": "Do not mix 48 V magnetic heads with mains-voltage track; request the exact track, connector, driver and fitting compatibility list.",
-        "references": [
-          "erco",
-          "dali"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Surface mains-voltage track with replaceable adjustable LED heads, 3000 K and CRI 90+.",
@@ -1039,10 +958,7 @@
         "category": "Освітлення й керування",
         "title": "Узгодити світлові треки з конструктивною сіткою",
         "check": "Не змішуйте головки магнітного треку 48 В із мережевим треком; вимагайте перелік сумісних шин, з’єднань, блоків і світильників.",
-        "references": [
-          "erco",
-          "dali"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Накладний мережевий трек зі змінними поворотними LED-головками, 3000 K і CRI 90+.",
@@ -1068,9 +984,7 @@
         "category": "Coordination & verification",
         "title": "Resolve the wall–ceiling reveal as a junction",
         "check": "A decorative reveal is not a movement joint or fire-stop. Check the tested ceiling assembly and required perimeter performance.",
-        "references": [
-          "knauf"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Painted plasterboard stop bead against a separately finished wall, with a maintained flexible perimeter joint.",
@@ -1093,9 +1007,7 @@
         "category": "Координація та перевірка",
         "title": "Опрацювати тіньовий шов стіни й стелі як вузол",
         "check": "Декоративний шов не замінює деформаційний чи протипожежний: перевірте випробувану систему стелі та вимоги периметра.",
-        "references": [
-          "knauf"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Фарбований торцевий профіль гіпсокартону біля окремо оздобленої стіни зі збереженим еластичним швом.",
@@ -1121,10 +1033,7 @@
         "category": "Materials & finishes",
         "title": "Price the full-height slab as a fabricated assembly",
         "check": "List slab yield, cut-outs, edge polishing, delivery and protection separately; a square-metre rate misses much of this scope.",
-        "references": [
-          "cosentino",
-          "mapei"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Large-format marble-look porcelain tiles with grout joints, matched trim and a flexible counter junction.",
@@ -1147,10 +1056,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Оцінити суцільний фартух як виріб із монтажем",
         "check": "Окремо вкажіть вихід плити, вирізи, обробку торців, доставку й захист: ціна за м² не охоплює весь обсяг.",
-        "references": [
-          "cosentino",
-          "mapei"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Великоформатна керамогранітна плитка під мармур зі швами, профілем і еластичним стиком до стільниці.",
@@ -1176,10 +1082,7 @@
         "category": "Joinery & hardware",
         "title": "Sequence the sink, tap and worktop template",
         "check": "The exact sink and tap must be available at templating; catalogue dimensions alone can omit clips and service clearances.",
-        "references": [
-          "blanco",
-          "cosentino"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Retained top-mount sink with new seals and a laminate counter cut to the supplied sink template.",
@@ -1202,10 +1105,7 @@
         "category": "Меблі й фурнітура",
         "title": "Узгодити мийку, кран і шаблон стільниці",
         "check": "На шаблонуванні потрібні фактичні мийка й кран: каталог може не враховувати затискачі та сервісні зазори.",
-        "references": [
-          "blanco",
-          "cosentino"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Наявна врізна мийка з новими ущільненнями й ламінованою стільницею за шаблоном мийки.",
@@ -1231,9 +1131,7 @@
         "category": "Coordination & verification",
         "title": "Separate visible finishes from uncertain enabling work",
         "check": "Record exclusions and provisional allowances against the surveyed kitchen; do not present the render as a fixed-price scope.",
-        "references": [
-          "egger"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "A measured finish-only schedule: door count, counter length, splash area and existing fitting positions.",
@@ -1256,9 +1154,7 @@
         "category": "Координація та перевірка",
         "title": "Відділити оздоблення від невідомих підготовчих робіт",
         "check": "Фіксуйте виключення й попередні суми за обмірами кухні; рендер не є обсягом робіт із фіксованою ціною.",
-        "references": [
-          "egger"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Відомість оздоблення за обмірами: кількість дверцят, довжина стільниці, площа фартуха й наявна фурнітура.",
@@ -1284,10 +1180,7 @@
         "category": "Materials & finishes",
         "title": "Waterproof the shower as one connected system",
         "check": "Tile and grout are not the waterproofing. Confirm the drain connection, penetrations and local flood-test procedure before tiling.",
-        "references": [
-          "schluter",
-          "mapei"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "A compatible liquid-applied tanking system with reinforcing tape, pipe collars and the specified primer.",
@@ -1310,10 +1203,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Гідроізоляція душу як цілісна система",
         "check": "Плитка й затирка не замінюють гідроізоляцію. До облицювання перевірте злив, проходки та місцеву процедуру випробування.",
-        "references": [
-          "schluter",
-          "mapei"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Сумісна рідка гідроізоляція з армувальною стрічкою, манжетами труб і визначеною ґрунтовкою.",
@@ -1339,10 +1229,7 @@
         "category": "Materials & finishes",
         "title": "Set out handmade-look tile before fixing",
         "check": "Check shade variation, calibration and actual edge thickness from the delivered boxes; the trim height must suit the tile assembly.",
-        "references": [
-          "schluter",
-          "mapei"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "100 × 200 mm ceramic wall tile, compatible cement grout and a straight aluminium exposed-edge trim.",
@@ -1365,10 +1252,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Розкласти плитку ручної фактури до монтажу",
         "check": "Перевірте тон, калібр і фактичну товщину з поставлених коробок; висота профілю має відповідати вузлу облицювання.",
-        "references": [
-          "schluter",
-          "mapei"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Настінна керамічна плитка 100 × 200 мм, сумісна цементна затирка й прямий алюмінієвий торцевий профіль.",
@@ -1394,10 +1278,7 @@
         "category": "Lighting & controls",
         "title": "Coordinate mirror light with moisture extraction",
         "check": "An electrician determines required bathroom zones and IP protection; the image cannot establish electrical distances or duct resistance.",
-        "references": [
-          "ventaxia",
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "3000 K, CRI 90+ diffused mirror light and a separately switched extractor on the existing compliant route.",
@@ -1420,10 +1301,7 @@
         "category": "Освітлення й керування",
         "title": "Узгодити дзеркальне світло з витяжкою",
         "check": "Електрик визначає зони ванної та IP-захист; зображення не встановлює електричних відстаней чи опору повітроводу.",
-        "references": [
-          "ventaxia",
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Розсіяне світло дзеркала 3000 K, CRI 90+ та окремо керований вентилятор на наявному придатному каналі.",
@@ -1449,9 +1327,7 @@
         "category": "Space & ergonomics",
         "title": "Stage a room the buyer can actually furnish",
         "check": "Use measured room dimensions; do not enlarge glazing, remove radiators or conceal permanent defects in a staged listing image.",
-        "references": [
-          "nar"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "A measured sofa, rug and coffee-table overlay on the original photograph.",
@@ -1474,9 +1350,7 @@
         "category": "Простір та ергономіка",
         "title": "Віртуально облаштувати кімнату в реальному масштабі",
         "check": "Використовуйте обміри; не збільшуйте вікна, не прибирайте радіатори й не приховуйте постійних дефектів на зображенні оголошення.",
-        "references": [
-          "nar"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Диван, килим і журнальний стіл у реальному масштабі на оригінальному фото.",
@@ -1502,9 +1376,7 @@
         "category": "Coordination & verification",
         "title": "Keep an auditable original-to-staged image pair",
         "check": "Confirm the current local listing platform’s image rules; professional guidance is not a substitute for local disclosure requirements.",
-        "references": [
-          "nar"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Original photo plus a staged copy with a visible “Virtually staged” caption.",
@@ -1527,9 +1399,7 @@
         "category": "Координація та перевірка",
         "title": "Зберегти простежувану пару оригінал–віртуальне облаштування",
         "check": "Перевірте чинні правила місцевого майданчика: професійні рекомендації не замінюють місцевих вимог розкриття.",
-        "references": [
-          "nar"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Оригінальне фото й облаштована копія з видимим підписом «Віртуальне облаштування».",
@@ -1555,9 +1425,7 @@
         "category": "Lighting & controls",
         "title": "Photograph neutral finishes without mixed colour casts",
         "check": "Keep one unedited reference exposure; brighter photographs must not imply that permanent lighting or finishes have been upgraded.",
-        "references": [
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Matched replaceable 3000 K LED bulbs in existing fittings, with daylight photographs of the actual room.",
@@ -1580,9 +1448,7 @@
         "category": "Освітлення й керування",
         "title": "Зняти нейтральне оздоблення без змішаних кольорових відтінків",
         "check": "Зберігайте незмінний контрольний кадр: світліше фото не має натякати на неіснуюче оновлення освітлення чи покриттів.",
-        "references": [
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Однакові змінні LED-лампи 3000 K у наявних світильниках і денні фото реальної кімнати.",
@@ -1608,10 +1474,7 @@
         "category": "Materials & finishes",
         "title": "Price the floor after opening up the substrate",
         "check": "Moisture limits and flatness tolerances belong to the chosen flooring system; a new wear layer will not repair a damp or moving base.",
-        "references": [
-          "quickstep",
-          "forbo"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Domestic click LVP, around 4–5 mm thick, with a 0.3 mm wear layer for an appropriate residential use class.",
@@ -1634,10 +1497,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Оцінити підлогу після огляду основи",
         "check": "Межі вологості й допуски рівності задає система підлоги; нове покриття не ремонтує вологу чи рухому основу.",
-        "references": [
-          "quickstep",
-          "forbo"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Побутовий замковий LVP приблизно 4–5 мм із захисним шаром 0,3 мм для належного житлового класу.",
@@ -1664,7 +1524,6 @@
         "title": "Keep cosmetic paint separate from defect remediation",
         "check": "Stains and cracks need a diagnosed cause. Survey suspect older coatings before sanding or disturbing them.",
         "references": [
-          "dulux",
           "epa-lead"
         ],
         "budgets": {
@@ -1690,7 +1549,6 @@
         "title": "Відділити фарбування від усунення дефектів",
         "check": "Плями й тріщини потребують встановлення причини. Перед шліфуванням перевірте підозрілі старі покриття.",
         "references": [
-          "dulux",
           "epa-lead"
         ],
         "budgets": {
@@ -1718,9 +1576,7 @@
         "category": "Lighting & controls",
         "title": "Replace the fitting without inventing a rewiring scope",
         "check": "A qualified electrician checks the existing circuit and mounting support; ceiling finish alone does not show either condition.",
-        "references": [
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "A stock ceiling fitting with replaceable 3000 K bulbs and the existing switch position.",
@@ -1743,9 +1599,7 @@
         "category": "Освітлення й керування",
         "title": "Заміна світильника без вигаданого обсягу нової проводки",
         "check": "Кваліфікований електрик перевіряє наявне коло й опору: вигляд стелі не показує їх стану.",
-        "references": [
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Типовий стельовий світильник зі змінними лампами 3000 K та наявним вимикачем.",
@@ -1771,10 +1625,7 @@
         "category": "Coordination & verification",
         "title": "Make the show-apartment finish repeatable",
         "check": "A render does not establish an as-built product. Keep proposed, approved and installed finish records distinct.",
-        "references": [
-          "nbs",
-          "egger"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "A room finish register with product code, colour, sheen, supplier and substitution approval column.",
@@ -1797,10 +1648,7 @@
         "category": "Координація та перевірка",
         "title": "Зробити оздоблення показової квартири повторюваним",
         "check": "Рендер не визначає фактичний виріб. Розділяйте запропоновані, погоджені й установлені покриття.",
-        "references": [
-          "nbs",
-          "egger"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Відомість покриттів за кімнатами з кодом, кольором, блиском, постачальником і погодженням замін.",
@@ -1826,10 +1674,7 @@
         "category": "Joinery & hardware",
         "title": "Specify a repeatable oak-tone kitchen package",
         "check": "Use sample doors from the actual production line; an oak image is not a veneer grade or laminate code.",
-        "references": [
-          "egger",
-          "blum"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "18 mm melamine-faced carcasses and oak-effect laminate fronts with sealed ABS edging.",
@@ -1852,10 +1697,7 @@
         "category": "Меблі й фурнітура",
         "title": "Задати повторюваний пакет кухні під дуб",
         "check": "Погоджуйте фасади з реальної виробничої лінії: зображення дуба не визначає сорт шпону чи код ламінату.",
-        "references": [
-          "egger",
-          "blum"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Корпуси з меламінованої плити 18 мм і фасади під дуб із герметизованою ABS-крайкою.",
@@ -1881,10 +1723,7 @@
         "category": "Space & ergonomics",
         "title": "Coordinate the island as furniture and a service zone",
         "check": "Check actual door swings and circulation around occupied stools; the perspective image is not a clearance survey.",
-        "references": [
-          "blum",
-          "cosentino"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Stock island modules, a laminate top and freestanding stools on a measured furniture plan.",
@@ -1907,10 +1746,7 @@
         "category": "Простір та ергономіка",
         "title": "Узгодити острів як меблі й зону комунікацій",
         "check": "Перевірте дверцята й проходи біля зайнятих стільців: перспективне зображення не є обміром.",
-        "references": [
-          "blum",
-          "cosentino"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Типові острівні модулі, ламінована стільниця й окремі стільці на обмірному плані.",
@@ -1936,9 +1772,7 @@
         "category": "Materials & finishes",
         "title": "Choose upholstery for the cleaning cycle",
         "check": "Ask for the actual care method and spare-cover lead time; “performance fabric” alone says little about stain removal.",
-        "references": [
-          "kvadrat"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Retained sofa with manufacturer-compatible washable covers and a second ready-to-fit cover set.",
@@ -1961,9 +1795,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Обрати оббивку під цикл прибирання",
         "check": "Уточніть реальний догляд і строк постачання чохлів: назва «performance» мало говорить про видалення плям.",
-        "references": [
-          "kvadrat"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Наявний диван із сумісними чохлами для прання та другим готовим комплектом.",
@@ -1989,9 +1821,7 @@
         "category": "Joinery & hardware",
         "title": "Give luggage a place that is easy to clean",
         "check": "Measure the largest intended suitcase open, not just closed; keep the entry route and heater unobstructed.",
-        "references": [
-          "hafele"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Folding luggage rack with replaceable webbing and washable wall protection behind it.",
@@ -2014,9 +1844,7 @@
         "category": "Меблі й фурнітура",
         "title": "Місце для багажу, яке легко прибирати",
         "check": "Виміряйте найбільшу валізу відкритою, а не лише закритою; не перекривайте вхід і опалення.",
-        "references": [
-          "hafele"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Складана багажна підставка зі змінними ременями й мийним захистом стіни за нею.",
@@ -2042,10 +1870,7 @@
         "category": "Materials & finishes",
         "title": "Choose a blind guests can operate on the first try",
         "check": "Blackout fabric is not a blackout assembly: side gaps and the top junction determine light leakage.",
-        "references": [
-          "silentgliss",
-          "cpsc-cords"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Stock lined curtains on the retained track with safe, cord-free operation.",
@@ -2068,10 +1893,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Штори, з якими гість розбереться одразу",
         "check": "Тканина blackout не дорівнює повному затемненню: світло проходить крізь боки й верхній вузол.",
-        "references": [
-          "silentgliss",
-          "cpsc-cords"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Готові штори з підкладкою на наявному треку з безпечним безшнуровим керуванням.",
@@ -2097,9 +1919,7 @@
         "category": "Materials & finishes",
         "title": "Make the Japandi change through texture, not clutter",
         "check": "Keep the retained sofa colour as the reference; compare real fabric swatches rather than matching a generated beige pixel.",
-        "references": [
-          "kvadrat"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Two removable cotton-linen cushion covers and one plain woven throw in warm, related neutrals.",
@@ -2122,9 +1942,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Створити Japandi фактурою, а не кількістю декору",
         "check": "Залиште колір дивана еталоном; порівнюйте реальні тканини, а не згенерований бежевий піксель.",
-        "references": [
-          "kvadrat"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Два знімні бавовняно-лляні чохли й один однотонний тканий плед у споріднених теплих нейтралях.",
@@ -2150,10 +1968,7 @@
         "category": "Joinery & hardware",
         "title": "Choose the timber tone against the retained floor",
         "check": "A render cannot distinguish solid oak from veneer. Request a real top-edge sample and written substrate description.",
-        "references": [
-          "egger",
-          "osmo"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Oak-effect laminate coffee table with sealed edges and a stable stock base.",
@@ -2176,10 +1991,7 @@
         "category": "Меблі й фурнітура",
         "title": "Обрати тон деревини поруч із наявною підлогою",
         "check": "Рендер не відрізняє масив дуба від шпону. Попросіть зразок торця й письмовий опис основи.",
-        "references": [
-          "egger",
-          "osmo"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Журнальний стіл із ламінатом під дуб, захищеними торцями й стійкою типовою основою.",
@@ -2205,9 +2017,7 @@
         "category": "Lighting & controls",
         "title": "Use one calm light source as the accent",
         "check": "Check shade glare from the actual sofa position; visual softness is not established by a fabric-shade photograph.",
-        "references": [
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Retained floor lamp with a warm 2700 K LED bulb and a simple opaque shade.",
@@ -2230,9 +2040,7 @@
         "category": "Освітлення й керування",
         "title": "Один спокійний світильник як акцент",
         "check": "Перевірте засліплення з дивана: фото тканинного абажура не визначає м’якість світла.",
-        "references": [
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Наявний торшер із теплою LED-лампою 2700 K та простим непрозорим абажуром.",
@@ -2259,7 +2067,6 @@
         "title": "Prepare one consistent wall before judging greige",
         "check": "Check the cause of stains, powdering and cracks before paint selection; the visual test assumes a dry, sound substrate.",
         "references": [
-          "dulux",
           "epa-lead"
         ],
         "budgets": {
@@ -2285,7 +2092,6 @@
         "title": "Підготувати рівномірну стіну перед оцінкою greige",
         "check": "До вибору фарби з’ясуйте причини плям, осипання й тріщин; візуальний тест передбачає суху міцну основу.",
         "references": [
-          "dulux",
           "epa-lead"
         ],
         "budgets": {
@@ -2313,10 +2119,7 @@
         "category": "Materials & finishes",
         "title": "Compare undertones on movable sample boards",
         "check": "A screen preview narrows options; a fully dried sample in the intended product and sheen settles the colour choice.",
-        "references": [
-          "farrowball",
-          "dulux"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Two coats on separate A3 primed boards in two candidate colours.",
@@ -2339,10 +2142,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Порівняти підтони на переносних щитах",
         "check": "Екран звужує вибір; остаточне рішення — за висохлим зразком потрібного продукту й блиску.",
-        "references": [
-          "farrowball",
-          "dulux"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Два шари на окремих ґрунтованих щитах A3 у двох кольорах-кандидатах.",
@@ -2368,9 +2168,7 @@
         "category": "Lighting & controls",
         "title": "Hold lighting constant while comparing wall colours",
         "check": "Kelvin and CRI describe different properties: equal colour temperature does not guarantee equal colour rendering.",
-        "references": [
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "One matched set of 2700 K replacement bulbs for all evening colour trials.",
@@ -2393,9 +2191,7 @@
         "category": "Освітлення й керування",
         "title": "Зберігати однакове світло при порівнянні кольорів",
         "check": "Кельвіни й CRI описують різні властивості: однакова температура не гарантує однакову передачу кольору.",
-        "references": [
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Один узгоджений комплект ламп 2700 K для всіх вечірніх кольорових проб.",
@@ -2421,10 +2217,7 @@
         "category": "Lighting & controls",
         "title": "Size the pendant to the table and seated sightline",
         "check": "Treat 650–800 mm above the tabletop as a mock-up starting range, not a universal rule; verify glare and head clearance.",
-        "references": [
-          "lighting",
-          "erco"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Fabric-shade pendant with a bottom diffuser and replaceable dimmable 2700 K lamp.",
@@ -2447,10 +2240,7 @@
         "category": "Освітлення й керування",
         "title": "Розмір підвісу за столом і лінією погляду сидячи",
         "check": "650–800 мм над стільницею — початковий діапазон макета, а не універсальна норма; перевірте засліплення й висоту проходу.",
-        "references": [
-          "lighting",
-          "erco"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Підвіс із тканинним абажуром, нижнім розсіювачем і змінною димованою лампою 2700 K.",
@@ -2476,9 +2266,7 @@
         "category": "Lighting & controls",
         "title": "Keep the side lamp on an independent layer",
         "check": "Do not infer a hidden ceiling cove from the image; the visible background layer comes from the side lamp.",
-        "references": [
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Small shaded table lamp, 2700 K, using an existing socket and a separate switch.",
@@ -2501,9 +2289,7 @@
         "category": "Освітлення й керування",
         "title": "Залишити бічну лампу окремим шаром світла",
         "check": "Не припускайте прихований карниз у стелі: видимий фоновий шар створює бічна лампа.",
-        "references": [
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Невелика настільна лампа з абажуром 2700 K від наявної розетки й окремого вимикача.",
@@ -2529,10 +2315,7 @@
         "category": "Coordination & verification",
         "title": "Specify the dimmer–driver pair, not just “dimmable”",
         "check": "Check minimum load, control protocol and tested compatibility for the exact models; different dimming systems are not interchangeable.",
-        "references": [
-          "dali",
-          "casambi"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Manufacturer-listed phase-cut dimmable bulbs and a compatible wall dimmer.",
@@ -2555,10 +2338,7 @@
         "category": "Координація та перевірка",
         "title": "Задати пару димер–блок, а не лише «димований»",
         "check": "Звірте мінімальне навантаження, протокол і сумісність точних моделей; різні системи димування не взаємозамінні.",
-        "references": [
-          "dali",
-          "casambi"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Лампи з підтримкою фазового димування з переліку виробника й сумісний настінний димер.",
@@ -2584,10 +2364,7 @@
         "category": "Materials & finishes",
         "title": "Compare the plank construction, not just the oak colour",
         "check": "Request a real plank edge sample and installation sheet; the same oak appearance can represent laminate, LVT or engineered timber.",
-        "references": [
-          "woodfloor",
-          "quickstep"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "8–10 mm oak-look laminate with a documented use class and manufacturer-approved underlay.",
@@ -2610,10 +2387,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Порівняти будову планки, а не лише колір дуба",
         "check": "Попросіть реальний торцевий зразок та інструкцію: однаковий вигляд дуба може означати ламінат, LVT чи інженерну дошку.",
-        "references": [
-          "woodfloor",
-          "quickstep"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Ламінат під дуб 8–10 мм із визначеним класом використання та погодженою підкладкою.",
@@ -2639,10 +2413,7 @@
         "category": "Joinery & hardware",
         "title": "Keep floor movement clear at the window and skirting",
         "check": "Use the flooring maker’s perimeter gap and maximum-run limits; do not fill a floating-floor expansion joint with rigid grout.",
-        "references": [
-          "quickstep",
-          "schluter"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Retained skirting plus a matching quadrant trim covering the required perimeter expansion space.",
@@ -2665,10 +2436,7 @@
         "category": "Меблі й фурнітура",
         "title": "Зберегти рух підлоги біля вікна й плінтуса",
         "check": "Дотримуйтесь зазору й максимального поля виробника; не заповнюйте розширювальний шов плаваючої підлоги жорсткою затиркою.",
-        "references": [
-          "quickstep",
-          "schluter"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Наявний плінтус і узгоджений штапик, що закриває потрібний розширювальний зазор.",
@@ -2694,10 +2462,7 @@
         "category": "Coordination & verification",
         "title": "Ask for acoustic evidence for the whole floor assembly",
         "check": "Do not transfer a laboratory underlay dB claim to this room without its test floor, installation and measured parameter.",
-        "references": [
-          "regupol",
-          "woodfloor"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "The flooring manufacturer’s basic underlay, selected for compressive strength and the actual subfloor.",
@@ -2720,10 +2485,7 @@
         "category": "Координація та перевірка",
         "title": "Вимагати акустичні дані для всієї конструкції підлоги",
         "check": "Не переносіть лабораторні дБ підкладки на цю кімнату без тестової основи, монтажу й визначеного показника.",
-        "references": [
-          "regupol",
-          "woodfloor"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Базова підкладка виробника підлоги, підібрана за міцністю на стиск і реальною основою.",
@@ -2749,10 +2511,7 @@
         "category": "Materials & finishes",
         "title": "Build the palette around a real oak front sample",
         "check": "Put the actual front, grout and counter samples together; identical screen colours can hide very different sheen and grain.",
-        "references": [
-          "egger",
-          "finsa"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "18 mm oak-effect laminate fronts with coordinated ABS edging and existing compatible hinges.",
@@ -2775,10 +2534,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Побудувати палітру навколо реального дубового фасаду",
         "check": "Покладіть разом реальні зразки фасаду, затирки й стільниці: екран приховує різницю блиску й волокон.",
-        "references": [
-          "egger",
-          "finsa"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Ламіновані фасади під дуб 18 мм з узгодженою ABS-крайкою та сумісними наявними завісами.",
@@ -2804,10 +2560,7 @@
         "category": "Materials & finishes",
         "title": "Choose the counter edge with the seating overhang",
         "check": "Do not infer slab type or unsupported span from the render; the fabricator must approve edge, cut-outs and overhang support.",
-        "references": [
-          "cosentino",
-          "egger"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "38 mm pale laminate with a postformed front edge and supported breakfast-bar extension.",
@@ -2830,10 +2583,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Обрати торець стільниці разом зі звисом під сидіння",
         "check": "Не визначайте матеріал чи безопорний проліт за рендером: виробник погоджує торець, вирізи й опори звису.",
-        "references": [
-          "cosentino",
-          "egger"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Світла ламінована стільниця 38 мм із постформованим торцем і опорою барного звису.",
@@ -2859,10 +2609,7 @@
         "category": "Materials & finishes",
         "title": "Set backsplash joints from the counter and cabinet lines",
         "check": "Sample grout on the actual tile. A bright-white grout can change the whole palette even when the tile colour is right.",
-        "references": [
-          "mapei",
-          "schluter"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "100 × 200 mm pale ceramic tile with a simple straight set-out and colour-matched grout.",
@@ -2885,10 +2632,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Розмітити шви фартуха за стільницею й шафами",
         "check": "Випробуйте затирку на фактичній плитці: яскраво-білий шов може змінити всю палітру навіть за вдалого кольору плитки.",
-        "references": [
-          "mapei",
-          "schluter"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Світла кераміка 100 × 200 мм із простою прямою розкладкою й узгодженою затиркою.",
@@ -2914,10 +2658,7 @@
         "category": "Materials & finishes",
         "title": "Match the surround system to the appliance",
         "check": "Identify the appliance and obtain its installation manual first; decorative stone does not cancel combustible clearances or ventilation requirements.",
-        "references": [
-          "stovax",
-          "mapei"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Cleaned retained masonry with repaired joints and a coating explicitly approved for the verified surface temperatures.",
@@ -2940,10 +2681,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Узгодити облицювання з топкою",
         "check": "Спершу визначте модель топки й отримайте інструкцію: декоративний камінь не скасовує протипожежні відступи чи вентиляцію.",
-        "references": [
-          "stovax",
-          "mapei"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Очищена наявна кладка з ремонтом швів і покриттям, прямо дозволеним для встановлених температур поверхні.",
@@ -2969,9 +2707,7 @@
         "category": "Joinery & hardware",
         "title": "Set the timber mantel from verified heat clearances",
         "check": "There is no safe universal mantel height or depth: use the exact appliance manual and the local installer’s approval.",
-        "references": [
-          "stovax"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Retained mantel, repaired finish and verified existing fixing and heat clearance.",
@@ -2994,9 +2730,7 @@
         "category": "Меблі й фурнітура",
         "title": "Розмістити дерев’яний портал за перевіреними тепловими відступами",
         "check": "Універсально безпечної висоти чи глибини полиці немає: потрібні інструкція конкретної топки й погодження монтажника.",
-        "references": [
-          "stovax"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Наявна полиця з ремонтом фінішу й перевіркою кріплень та теплових відступів.",
@@ -3022,10 +2756,7 @@
         "category": "Joinery & hardware",
         "title": "Keep side storage clear of the heat zone",
         "check": "Check the appliance’s side clearances and convection route before adding cabinets, books or wiring beside the surround.",
-        "references": [
-          "stovax",
-          "egger"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Retained side cabinets repainted in a compatible joinery finish, with vent and access positions kept clear.",
@@ -3048,10 +2779,7 @@
         "category": "Меблі й фурнітура",
         "title": "Тримати бічні шафи поза тепловою зоною",
         "check": "До шаф, книжок чи проводки перевірте бокові відступи й конвекційний маршрут топки.",
-        "references": [
-          "stovax",
-          "egger"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Наявні бічні шафи із сумісним перефарбуванням та відкритими вентиляцією й доступами.",
@@ -3077,10 +2805,7 @@
         "category": "Space & ergonomics",
         "title": "Size hanging zones from the clothes you own",
         "check": "Use approximately 550–600 mm hanging depth only as a starting point; measure actual hangers and verify the doors close.",
-        "references": [
-          "ikea",
-          "hafele"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Stock adjustable shelves and hanging rails fitted to the existing closet opening.",
@@ -3103,10 +2828,7 @@
         "category": "Простір та ергономіка",
         "title": "Розміри секцій за одягом, який уже є",
         "check": "Глибина під вішалки приблизно 550–600 мм — лише початкова: виміряйте плічка й перевірте зачинення дверей.",
-        "references": [
-          "ikea",
-          "hafele"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Типові регульовані полиці й штанги в наявному отворі шафи.",
@@ -3132,10 +2854,7 @@
         "category": "Joinery & hardware",
         "title": "Choose drawers by extension, load and replacement parts",
         "check": "A soft-close label does not define runner length or load class; specify the actual hardware model and drawer construction.",
-        "references": [
-          "blum",
-          "hettich"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Stock full-extension ball-bearing runners with a documented drawer load and replaceable handles.",
@@ -3158,10 +2877,7 @@
         "category": "Меблі й фурнітура",
         "title": "Обрати шухляди за висуванням, навантаженням і запчастинами",
         "check": "Позначка «дотягувач» не задає довжину чи навантаження: визначте модель напрямних і будову шухляди.",
-        "references": [
-          "blum",
-          "hettich"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Типові кулькові напрямні повного висування із задокументованим навантаженням і змінними ручками.",
@@ -3187,9 +2903,7 @@
         "category": "Lighting & controls",
         "title": "Put light in front of hanging clothes",
         "check": "Route low-voltage wiring away from sliding and hinged hardware; keep the driver accessible after clothes are stored.",
-        "references": [
-          "hafele"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Rechargeable diffused LED bars with presence sensing and removable charging brackets.",
@@ -3212,9 +2926,7 @@
         "category": "Освітлення й керування",
         "title": "Розмістити світло перед одягом",
         "check": "Ведіть низьковольтні кабелі подалі від рухомої фурнітури; блок має бути доступним і після заповнення шафи.",
-        "references": [
-          "hafele"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Акумуляторні розсіяні LED-планки з датчиком присутності й знімним кріпленням для заряджання.",
@@ -3240,9 +2952,7 @@
         "category": "Space & ergonomics",
         "title": "Use a daybed footprint, not an imaginary wall bed",
         "check": "The image shows a daybed. Measure its real sleeping surface and any pull-out envelope before replacing the furniture.",
-        "references": [
-          "ikea"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Retained daybed with a correctly sized mattress protector and removable washable cover.",
@@ -3265,9 +2975,7 @@
         "category": "Простір та ергономіка",
         "title": "Планувати кушетку, а не уявне відкидне ліжко",
         "check": "На зображенні кушетка. До заміни виміряйте реальне спальне місце й зону розкладання.",
-        "references": [
-          "ikea"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Наявна кушетка з наматрацником потрібного розміру й знімним чохлом для прання.",
@@ -3294,8 +3002,7 @@
         "title": "Let the open shelf divide zones without blocking light",
         "check": "A room-divider shelf is exposed on both sides; specify its restraint and stability rather than assuming freestanding means safe.",
         "references": [
-          "cpsc-tip",
-          "hafele"
+          "cpsc-tip"
         ],
         "budgets": {
           "economy": {
@@ -3320,8 +3027,7 @@
         "title": "Розділити зони стелажем, не перекриваючи світло",
         "check": "Стелаж-перегородка відкритий з обох боків; задайте кріплення й стійкість, не вважайте окреме розташування автоматично безпечним.",
         "references": [
-          "cpsc-tip",
-          "hafele"
+          "cpsc-tip"
         ],
         "budgets": {
           "economy": {
@@ -3349,7 +3055,6 @@
         "title": "Make the dining table usable in its open position",
         "check": "Measure chairs occupied and doors open; a folded dimension is not proof that a table fits this studio.",
         "references": [
-          "ikea",
           "osha"
         ],
         "budgets": {
@@ -3375,7 +3080,6 @@
         "title": "Забезпечити зручність столу в розкладеному стані",
         "check": "Вимірюйте зі зайнятими стільцями й відчиненими дверима: складений розмір не доводить придатності столу.",
         "references": [
-          "ikea",
           "osha"
         ],
         "budgets": {
@@ -3404,8 +3108,7 @@
         "title": "Keep the cot bare and away from window hazards",
         "check": "Use a cot meeting the applicable local safety rules and its exact matching firm, flat mattress; price does not change safe-sleep guidance.",
         "references": [
-          "cpsc-sleep",
-          "cpsc-cords"
+          "cpsc-sleep"
         ],
         "budgets": {
           "economy": {
@@ -3430,8 +3133,7 @@
         "title": "Порожнє ліжечко подалі від віконних ризиків",
         "check": "Обирайте ліжечко за чинними місцевими правилами з точним твердим рівним матрацом: ціна не змінює правил безпечного сну.",
         "references": [
-          "cpsc-sleep",
-          "cpsc-cords"
+          "cpsc-sleep"
         ],
         "budgets": {
           "economy": {
@@ -3459,8 +3161,7 @@
         "title": "Keep everyday supplies low and furniture restrained",
         "check": "Anchor applicable furniture to verified wall structure with the maker’s restraint; adhesive wall pads are not a substitute.",
         "references": [
-          "cpsc-tip",
-          "ikea"
+          "cpsc-tip"
         ],
         "budgets": {
           "economy": {
@@ -3485,8 +3186,7 @@
         "title": "Низькі щоденні речі й закріплені меблі",
         "check": "Закріпіть належні меблі до перевіреної конструкції кріпленням виробника; клейові подушечки його не замінюють.",
         "references": [
-          "cpsc-tip",
-          "ikea"
+          "cpsc-tip"
         ],
         "budgets": {
           "economy": {
@@ -3513,10 +3213,7 @@
         "category": "Lighting & controls",
         "title": "Separate gentle night light from care tasks",
         "check": "Keep all leads, lamps and controls outside the child’s reach; never run a flex through or beside the cot.",
-        "references": [
-          "lighting",
-          "cpsc-sleep"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Shielded plug-in night light with a warm 2200–2700 K source, located away from the cot.",
@@ -3539,10 +3236,7 @@
         "category": "Освітлення й керування",
         "title": "Розділити м’яке нічне світло й догляд",
         "check": "Усі шнури, лампи й органи керування мають бути недосяжні дитині; не ведіть шнур крізь ліжечко чи поруч.",
-        "references": [
-          "lighting",
-          "cpsc-sleep"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Екранований вставний нічник теплого світла 2200–2700 K подалі від ліжечка.",
@@ -3568,9 +3262,7 @@
         "category": "Materials & finishes",
         "title": "Choose rubber for the actual exercise, not a gym aesthetic",
         "check": "Rubber tiles do not establish floor load capacity or isolate dropped weights from neighbours; assess the structure and use separately.",
-        "references": [
-          "regupol"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "6–8 mm dense rubber roll for bodyweight work and controlled light equipment, subject to the floor supplier’s use limits.",
@@ -3593,9 +3285,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Обрати гуму під реальні вправи, а не вигляд спортзалу",
         "check": "Гумові плити не визначають вантажність перекриття й не ізолюють падіння ваги від сусідів; конструкцію та режим оцінюють окремо.",
-        "references": [
-          "regupol"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Щільна рулонна гума 6–8 мм для вправ із власною вагою й легким обладнанням у межах виробника.",
@@ -3621,9 +3311,7 @@
         "category": "Space & ergonomics",
         "title": "Plan the bench in use and the weights at rest",
         "check": "Follow each equipment maker’s working and emergency clearances; a decorative room plan does not establish safe training space.",
-        "references": [
-          "rogue"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Foldable bench, a small dumbbell set and a clear mat zone with no overhead storage.",
@@ -3646,9 +3334,7 @@
         "category": "Простір та ергономіка",
         "title": "Планувати лаву в роботі й вагу на зберіганні",
         "check": "Дотримуйтесь робочих та аварійних відступів виробника обладнання; декоративний план не визначає безпечний простір тренування.",
-        "references": [
-          "rogue"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Складана лава, невеликий комплект гантелей і вільна зона килимка без зберігання над головою.",
@@ -3674,10 +3360,7 @@
         "category": "Lighting & controls",
         "title": "Avoid mirror glare and plan real air exchange",
         "check": "An open window is not a quantified ventilation design; assess occupancy, heat and moisture before enclosing a converted room.",
-        "references": [
-          "ventaxia",
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Diffused LED ceiling light, 3000–4000 K, and retained safe opening-window ventilation.",
@@ -3700,10 +3383,7 @@
         "category": "Освітлення й керування",
         "title": "Уникнути відблисків і передбачити повітрообмін",
         "check": "Відкрите вікно не є розрахунком вентиляції; оцініть людей, тепло й вологу до облаштування переобладнаної кімнати.",
-        "references": [
-          "ventaxia",
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Розсіяний LED-світильник 3000–4000 K і наявна безпечна вентиляція через відчинюване вікно.",
@@ -3729,9 +3409,7 @@
         "category": "Coordination & verification",
         "title": "Turn the wider opening into an engineer’s scope",
         "check": "No beam size or load path can be determined from this image. Survey structure and services before any demolition.",
-        "references": [
-          "istructe"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Measured feasibility study retaining the existing opening until structural and service investigations are complete.",
@@ -3754,9 +3432,7 @@
         "category": "Координація та перевірка",
         "title": "Перетворити ширший проріз на завдання конструктору",
         "check": "Розмір балки чи шлях навантаження неможливо визначити за зображенням. До демонтажу потрібні обстеження конструкцій і комунікацій.",
-        "references": [
-          "istructe"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Обмірне дослідження можливості зі збереженням прорізу до перевірки конструкцій і комунікацій.",
@@ -3782,10 +3458,7 @@
         "category": "Materials & finishes",
         "title": "Resolve the floor scar where the wall stood",
         "check": "Survey the floor underneath the proposed opening; matching surface colour will not solve a structural joint or height difference.",
-        "references": [
-          "schluter",
-          "woodfloor"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "An expressed timber or metal transition strip spanning a properly repaired non-moving floor infill.",
@@ -3808,10 +3481,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Вирішити слід у підлозі на місці стіни",
         "check": "Обстежте підлогу під майбутнім прорізом: збіг кольору не вирішує конструкційний шов чи перепад.",
-        "references": [
-          "schluter",
-          "woodfloor"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Видима дерев’яна чи металева перехідна смуга над належно відремонтованою нерухомою вставкою підлоги.",
@@ -3837,10 +3507,7 @@
         "category": "Coordination & verification",
         "title": "Separate the beam’s structure from its visible finish",
         "check": "The timber appearance may be structural timber or a decorative casing. Establish material, fire strategy and movement before detailing.",
-        "references": [
-          "knauf",
-          "istructe"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Plain plasterboard enclosure to the engineer’s and fire designer’s specified assembly.",
@@ -3863,10 +3530,7 @@
         "category": "Координація та перевірка",
         "title": "Розділити конструкцію балки та її видиме оздоблення",
         "check": "Дерев’яний вигляд може означати несучу деревину чи декоративний короб. Спершу визначте матеріал, вогнезахист і рух.",
-        "references": [
-          "knauf",
-          "istructe"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Простий гіпсокартонний короб за системою конструктора й проєктувальника вогнезахисту.",
@@ -3892,10 +3556,7 @@
         "category": "Materials & finishes",
         "title": "Solve moisture before building a finished wall",
         "check": "Do not hide a damp foundation behind decorative insulation; survey water entry, condensation and local radon requirements first.",
-        "references": [
-          "building-science",
-          "knauf"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "A dry, repaired existing shell with breathable decoration only after the moisture cause is resolved.",
@@ -3918,10 +3579,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Вирішити вологу до влаштування чистової стіни",
         "check": "Не приховуйте вологий фундамент декоративною ізоляцією; спершу перевірте воду, конденсацію й місцеві вимоги радону.",
-        "references": [
-          "building-science",
-          "knauf"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Суха відремонтована оболонка з паропроникним декоруванням лише після усунення причини вологи.",
@@ -3947,9 +3605,7 @@
         "category": "Joinery & hardware",
         "title": "Keep boxed services genuinely accessible",
         "check": "Size access from the equipment’s removal and service instructions, not the visual size of a valve on the image.",
-        "references": [
-          "knauf"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Screw-fixed removable painted panels over non-rated service boxing where permitted.",
@@ -3972,9 +3628,7 @@
         "category": "Меблі й фурнітура",
         "title": "Зберегти реальний доступ до закритих комунікацій",
         "check": "Розмір доступу визначають інструкції обслуговування й заміни, а не видимий розмір клапана на зображенні.",
-        "references": [
-          "knauf"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Знімні фарбовані панелі на гвинтах для сервісного короба без спеціальних вимог, де це дозволено.",
@@ -4001,8 +3655,7 @@
         "title": "Plan the office around headroom, light and escape",
         "check": "A small existing window does not prove lawful habitable-room use or compliant escape; confirm local conversion requirements.",
         "references": [
-          "osha",
-          "ventaxia"
+          "osha"
         ],
         "budgets": {
           "economy": {
@@ -4027,8 +3680,7 @@
         "title": "Планувати кабінет за висотою, світлом і евакуацією",
         "check": "Мале наявне вікно не підтверджує придатність для постійного перебування чи евакуації; перевірте місцеві вимоги переобладнання.",
         "references": [
-          "osha",
-          "ventaxia"
+          "osha"
         ],
         "budgets": {
           "economy": {
@@ -4056,9 +3708,7 @@
         "title": "Match the green coating to the existing siding",
         "check": "Identify timber, fibre cement, render or another substrate before specifying primers; assess suspect older coatings before disturbance.",
         "references": [
-          "dulux",
-          "epa-lead",
-          "jameshardie"
+          "epa-lead"
         ],
         "budgets": {
           "economy": {
@@ -4083,9 +3733,7 @@
         "title": "Узгодити зелене покриття з наявним фасадом",
         "check": "Визначте деревину, фіброцемент, штукатурку чи іншу основу до вибору ґрунту; перевірте підозрілі старі покриття до робіт.",
         "references": [
-          "dulux",
-          "epa-lead",
-          "jameshardie"
+          "epa-lead"
         ],
         "budgets": {
           "economy": {
@@ -4112,10 +3760,7 @@
         "category": "Joinery & hardware",
         "title": "Refinish the real door and preserve weather seals",
         "check": "Check door material, security hardware and weather seals before choosing a coating; decorative colour is not a security specification.",
-        "references": [
-          "dulux",
-          "osmo"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Retained door with compatible exterior enamel and cleaned, serviceable existing hardware.",
@@ -4138,10 +3783,7 @@
         "category": "Меблі й фурнітура",
         "title": "Оновити справжні двері зі збереженням ущільнень",
         "check": "До покриття перевірте матеріал дверей, замки й ущільнення: декоративний колір не задає захищеності.",
-        "references": [
-          "dulux",
-          "osmo"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Наявні двері із сумісною зовнішньою емаллю та очищеною справною фурнітурою.",
@@ -4167,10 +3809,7 @@
         "category": "Lighting & controls",
         "title": "Light the doorstep without lighting the neighbours",
         "check": "Select IP protection for actual exposure and local electrical rules; an IP rating alone does not establish corrosion resistance.",
-        "references": [
-          "darksky",
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Shielded exterior fitting with a replaceable 2700 K bulb on the existing compliant circuit.",
@@ -4193,10 +3832,7 @@
         "category": "Освітлення й керування",
         "title": "Освітити поріг без засвічення сусідів",
         "check": "Добирайте IP під реальний вплив погоди й місцеві електричні правила; IP сам по собі не визначає корозійну стійкість.",
-        "references": [
-          "darksky",
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Екранований зовнішній світильник зі змінною лампою 2700 K на наявному придатному колі.",
@@ -4222,10 +3858,7 @@
         "category": "Materials & finishes",
         "title": "Set paving levels from the house and drainage route",
         "check": "A suggested fall around 1:60–1:80 is only a design starting point; the paving supplier and site drainage design govern the final falls.",
-        "references": [
-          "marshalls",
-          "mapei"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Concrete pavers on a site-designed compacted sub-base and bedding with positive edge restraint.",
@@ -4248,10 +3881,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Визначити рівні мощення від будинку й водовідведення",
         "check": "Орієнтовний ухил 1:60–1:80 — лише початок проєкту; остаточні ухили визначають виробник мощення й проєкт дренажу.",
-        "references": [
-          "marshalls",
-          "mapei"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Бетонна бруківка на ущільненій основі й підстильному шарі за проєктом із закріпленими краями.",
@@ -4277,9 +3907,7 @@
         "category": "Space & ergonomics",
         "title": "Size the parasol to shade occupied seats",
         "check": "The image shows a loose parasol, not a pergola. Use the exact supplier’s ballast and wind limits for the selected model.",
-        "references": [
-          "tuuci"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Stock centre-pole parasol with a supplier-matched weighted base and a removable washable canopy.",
@@ -4302,9 +3930,7 @@
         "category": "Простір та ергономіка",
         "title": "Розмір парасолі за зайнятими місцями",
         "check": "На зображенні окрема парасоля, а не пергола. Баласт і вітрові межі беріть для точної моделі виробника.",
-        "references": [
-          "tuuci"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Типова парасоля з центральною стійкою, відповідною обважненою основою й знімним тентом.",
@@ -4330,10 +3956,7 @@
         "category": "Materials & finishes",
         "title": "Specify the frame, cushion core and winter storage",
         "check": "“Outdoor fabric” does not make the whole cushion rainproof; confirm drainage, drying and storage requirements for the complete assembly.",
-        "references": [
-          "sunbrella",
-          "fsc"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Powder-coated aluminium seating with removable polyester cushions stored indoors after wet weather.",
@@ -4356,10 +3979,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Задати каркас, наповнювач подушок і зимове зберігання",
         "check": "«Вулична тканина» не робить всю подушку водонепроникною; перевірте дренаж, сушіння й зберігання всього виробу.",
-        "references": [
-          "sunbrella",
-          "fsc"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Алюмінієві меблі з порошковим покриттям і знімними поліестеровими подушками для зберігання всередині після дощу.",
@@ -4385,9 +4005,7 @@
         "category": "Materials & finishes",
         "title": "Standardise covers for a one-visit changeover",
         "check": "Test shrinkage and drying time using the actual laundry process; a washable label does not promise next-day readiness.",
-        "references": [
-          "kvadrat"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Two sets of stock 450 × 450 mm zipped cushion covers and one machine-washable throw.",
@@ -4410,9 +4028,7 @@
         "category": "Матеріали й оздоблення",
         "title": "Уніфікувати чохли для заміни за один візит",
         "check": "Перевірте усадку й висихання в реальному пранні: позначка «можна прати» не гарантує готовності наступного дня.",
-        "references": [
-          "kvadrat"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Два комплекти типових чохлів 450 × 450 мм на блискавках і один плед для машинного прання.",
@@ -4438,9 +4054,7 @@
         "category": "Joinery & hardware",
         "title": "Refresh artwork through existing verified supports",
         "check": "Check actual frame weight and wall support; never infer a fixing’s capacity from the old frame hanging there.",
-        "references": [
-          "artiteq"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Standard-size prints in lightweight frames using sound, verified existing hanging points.",
@@ -4463,9 +4077,7 @@
         "category": "Меблі й фурнітура",
         "title": "Оновити мистецтво на перевірених наявних опорах",
         "check": "Перевірте масу рами й основу: стара рама на стіні не доводить вантажність кріплення.",
-        "references": [
-          "artiteq"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Типові принти в легких рамах на перевірених справних наявних кріпленнях.",
@@ -4491,9 +4103,7 @@
         "category": "Lighting & controls",
         "title": "Keep a lamp specification the cleaner can replenish",
         "check": "Record cap, dimensions, colour temperature, lumen output and dimmer compatibility; “warm bulb” is not an orderable specification.",
-        "references": [
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "One matched stock LED bulb family, 2700 K, in the retained floor and table lamps.",
@@ -4516,9 +4126,7 @@
         "category": "Освітлення й керування",
         "title": "Зберегти специфікацію ламп для швидкого поповнення",
         "check": "Запишіть цоколь, розміри, температуру, люмени й сумісність димера: «тепла лампа» не є специфікацією замовлення.",
-        "references": [
-          "lighting"
-        ],
+        "references": [],
         "budgets": {
           "economy": {
             "specification": "Одне типове сімейство LED-ламп 2700 K у наявних торшері й настільній лампі.",

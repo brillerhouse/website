@@ -12,7 +12,7 @@ const labels = {
     budgets: { economy: 'Economy', standard: 'Standard', premium: 'Premium' },
     budgetNote: 'The comparison shows one illustrative direction. Budget options explore alternative specifications for the project.',
     specification: 'Suggested specification', detail: 'How to implement it', difference: 'What changes:',
-    adviceNote: 'Illustrative specifications. Confirm dimensions, loads, compatibility and local requirements for your project. References open official guidance and product libraries; use the current data sheet for your chosen model.',
+    adviceNote: 'Illustrative specifications. Confirm dimensions, loads, compatibility and local requirements with your project team. Use the current technical data and installation instructions for your selected products.',
   },
   uk: {
     eyebrow: 'Розгляньмо детальніше', heading: 'До та після', before: 'До', after: 'Концепція після',
@@ -23,7 +23,7 @@ const labels = {
     budgets: { economy: 'Економ', standard: 'Стандарт', premium: 'Преміум' },
     budgetNote: 'Порівняння показує один ілюстративний напрям. Варіанти бюджету досліджують альтернативні специфікації проєкту.',
     specification: 'Рекомендована специфікація', detail: 'Як це реалізувати', difference: 'Що змінюється:',
-    adviceNote: 'Ілюстративні специфікації. Узгодьте розміри, навантаження, сумісність і місцеві вимоги вашого проєкту. Посилання відкривають офіційні рекомендації й бібліотеки виробів; використовуйте чинну технічну карту обраної моделі.',
+    adviceNote: 'Ілюстративні специфікації. Узгодьте розміри, навантаження, сумісність і місцеві вимоги з командою проєкту. Використовуйте чинні технічні карти й інструкції монтажу обраних виробів.',
   },
 };
 

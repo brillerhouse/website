@@ -6,9 +6,9 @@ export function AdviceReferences({ locale, check, references }: { locale: Locale
   return <div className="advice-evidence">
     <p className="brill-specification-label">{locale === 'uk' ? 'Що перевірити до замовлення' : 'Check before ordering'}</p>
     <p>{check}</p>
-    <p className="brill-specification-label">{locale === 'uk' ? 'Довідкові джерела' : 'Reference sources'}</p>
+    {references.length > 0 && <><p className="brill-specification-label">{locale === 'uk' ? 'Довідкові джерела' : 'Reference sources'}</p>
     <ul className="advice-references">
       {references.map(reference => <li key={reference.id}><a href={reference.url} target="_blank" rel="noopener noreferrer">{reference.label}<ArrowUpRight size={14} aria-hidden="true"/></a></li>)}
-    </ul>
+    </ul></>}
   </div>;
 }
