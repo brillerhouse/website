@@ -1,0 +1,888 @@
+{
+  "name": "Briller gallery category icons",
+  "version": 1,
+  "canvas": 32,
+  "strokeWidth": 1.8,
+  "total": 25,
+  "sourceCategories": "Existing gallery category IDs and English/Ukrainian labels, copied read-only.",
+  "variants": [
+    "duotone",
+    "dark",
+    "monochrome"
+  ],
+  "pngSizes": [
+    24,
+    48,
+    72,
+    256
+  ],
+  "palette": {
+    "duotone": {
+      "ink": "#292c26",
+      "accent": "#a8573e",
+      "wash": "#efe5d5"
+    },
+    "dark": {
+      "ink": "#f8f6f1",
+      "accent": "#e3b966",
+      "wash": "#353b31"
+    },
+    "monochrome": {
+      "ink": "currentColor",
+      "accent": "currentColor",
+      "wash": "none"
+    }
+  },
+  "icons": [
+    {
+      "id": "minimalism",
+      "category": "styles",
+      "slug": "styles-minimalism",
+      "label": {
+        "en": "Minimalism",
+        "uk": "Мінімалізм"
+      },
+      "svg": {
+        "duotone": "svg/duotone/styles/minimalism.svg",
+        "dark": "svg/dark/styles/minimalism.svg",
+        "monochrome": "svg/monochrome/styles/minimalism.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/styles/minimalism.png",
+          "48": "png/duotone/48/styles/minimalism.png",
+          "72": "png/duotone/72/styles/minimalism.png",
+          "256": "png/duotone/256/styles/minimalism.png"
+        },
+        "dark": {
+          "24": "png/dark/24/styles/minimalism.png",
+          "48": "png/dark/48/styles/minimalism.png",
+          "72": "png/dark/72/styles/minimalism.png",
+          "256": "png/dark/256/styles/minimalism.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/styles/minimalism.png",
+          "48": "png/monochrome/48/styles/minimalism.png",
+          "72": "png/monochrome/72/styles/minimalism.png",
+          "256": "png/monochrome/256/styles/minimalism.png"
+        }
+      }
+    },
+    {
+      "id": "japandi",
+      "category": "styles",
+      "slug": "styles-japandi",
+      "label": {
+        "en": "Japandi",
+        "uk": "Джапанді"
+      },
+      "svg": {
+        "duotone": "svg/duotone/styles/japandi.svg",
+        "dark": "svg/dark/styles/japandi.svg",
+        "monochrome": "svg/monochrome/styles/japandi.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/styles/japandi.png",
+          "48": "png/duotone/48/styles/japandi.png",
+          "72": "png/duotone/72/styles/japandi.png",
+          "256": "png/duotone/256/styles/japandi.png"
+        },
+        "dark": {
+          "24": "png/dark/24/styles/japandi.png",
+          "48": "png/dark/48/styles/japandi.png",
+          "72": "png/dark/72/styles/japandi.png",
+          "256": "png/dark/256/styles/japandi.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/styles/japandi.png",
+          "48": "png/monochrome/48/styles/japandi.png",
+          "72": "png/monochrome/72/styles/japandi.png",
+          "256": "png/monochrome/256/styles/japandi.png"
+        }
+      }
+    },
+    {
+      "id": "natural",
+      "category": "styles",
+      "slug": "styles-natural",
+      "label": {
+        "en": "Natural Modern",
+        "uk": "Природний модерн"
+      },
+      "svg": {
+        "duotone": "svg/duotone/styles/natural.svg",
+        "dark": "svg/dark/styles/natural.svg",
+        "monochrome": "svg/monochrome/styles/natural.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/styles/natural.png",
+          "48": "png/duotone/48/styles/natural.png",
+          "72": "png/duotone/72/styles/natural.png",
+          "256": "png/duotone/256/styles/natural.png"
+        },
+        "dark": {
+          "24": "png/dark/24/styles/natural.png",
+          "48": "png/dark/48/styles/natural.png",
+          "72": "png/dark/72/styles/natural.png",
+          "256": "png/dark/256/styles/natural.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/styles/natural.png",
+          "48": "png/monochrome/48/styles/natural.png",
+          "72": "png/monochrome/72/styles/natural.png",
+          "256": "png/monochrome/256/styles/natural.png"
+        }
+      }
+    },
+    {
+      "id": "scandinavian",
+      "category": "styles",
+      "slug": "styles-scandinavian",
+      "label": {
+        "en": "Scandinavian",
+        "uk": "Скандинавський"
+      },
+      "svg": {
+        "duotone": "svg/duotone/styles/scandinavian.svg",
+        "dark": "svg/dark/styles/scandinavian.svg",
+        "monochrome": "svg/monochrome/styles/scandinavian.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/styles/scandinavian.png",
+          "48": "png/duotone/48/styles/scandinavian.png",
+          "72": "png/duotone/72/styles/scandinavian.png",
+          "256": "png/duotone/256/styles/scandinavian.png"
+        },
+        "dark": {
+          "24": "png/dark/24/styles/scandinavian.png",
+          "48": "png/dark/48/styles/scandinavian.png",
+          "72": "png/dark/72/styles/scandinavian.png",
+          "256": "png/dark/256/styles/scandinavian.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/styles/scandinavian.png",
+          "48": "png/monochrome/48/styles/scandinavian.png",
+          "72": "png/monochrome/72/styles/scandinavian.png",
+          "256": "png/monochrome/256/styles/scandinavian.png"
+        }
+      }
+    },
+    {
+      "id": "mid-century",
+      "category": "styles",
+      "slug": "styles-mid-century",
+      "label": {
+        "en": "Mid-century Modern",
+        "uk": "Модернізм середини століття"
+      },
+      "svg": {
+        "duotone": "svg/duotone/styles/mid-century.svg",
+        "dark": "svg/dark/styles/mid-century.svg",
+        "monochrome": "svg/monochrome/styles/mid-century.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/styles/mid-century.png",
+          "48": "png/duotone/48/styles/mid-century.png",
+          "72": "png/duotone/72/styles/mid-century.png",
+          "256": "png/duotone/256/styles/mid-century.png"
+        },
+        "dark": {
+          "24": "png/dark/24/styles/mid-century.png",
+          "48": "png/dark/48/styles/mid-century.png",
+          "72": "png/dark/72/styles/mid-century.png",
+          "256": "png/dark/256/styles/mid-century.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/styles/mid-century.png",
+          "48": "png/monochrome/48/styles/mid-century.png",
+          "72": "png/monochrome/72/styles/mid-century.png",
+          "256": "png/monochrome/256/styles/mid-century.png"
+        }
+      }
+    },
+    {
+      "id": "industrial",
+      "category": "styles",
+      "slug": "styles-industrial",
+      "label": {
+        "en": "Industrial",
+        "uk": "Індустріальний"
+      },
+      "svg": {
+        "duotone": "svg/duotone/styles/industrial.svg",
+        "dark": "svg/dark/styles/industrial.svg",
+        "monochrome": "svg/monochrome/styles/industrial.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/styles/industrial.png",
+          "48": "png/duotone/48/styles/industrial.png",
+          "72": "png/duotone/72/styles/industrial.png",
+          "256": "png/duotone/256/styles/industrial.png"
+        },
+        "dark": {
+          "24": "png/dark/24/styles/industrial.png",
+          "48": "png/dark/48/styles/industrial.png",
+          "72": "png/dark/72/styles/industrial.png",
+          "256": "png/dark/256/styles/industrial.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/styles/industrial.png",
+          "48": "png/monochrome/48/styles/industrial.png",
+          "72": "png/monochrome/72/styles/industrial.png",
+          "256": "png/monochrome/256/styles/industrial.png"
+        }
+      }
+    },
+    {
+      "id": "contemporary",
+      "category": "styles",
+      "slug": "styles-contemporary",
+      "label": {
+        "en": "Contemporary",
+        "uk": "Сучасний"
+      },
+      "svg": {
+        "duotone": "svg/duotone/styles/contemporary.svg",
+        "dark": "svg/dark/styles/contemporary.svg",
+        "monochrome": "svg/monochrome/styles/contemporary.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/styles/contemporary.png",
+          "48": "png/duotone/48/styles/contemporary.png",
+          "72": "png/duotone/72/styles/contemporary.png",
+          "256": "png/duotone/256/styles/contemporary.png"
+        },
+        "dark": {
+          "24": "png/dark/24/styles/contemporary.png",
+          "48": "png/dark/48/styles/contemporary.png",
+          "72": "png/dark/72/styles/contemporary.png",
+          "256": "png/dark/256/styles/contemporary.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/styles/contemporary.png",
+          "48": "png/monochrome/48/styles/contemporary.png",
+          "72": "png/monochrome/72/styles/contemporary.png",
+          "256": "png/monochrome/256/styles/contemporary.png"
+        }
+      }
+    },
+    {
+      "id": "mediterranean",
+      "category": "styles",
+      "slug": "styles-mediterranean",
+      "label": {
+        "en": "Mediterranean",
+        "uk": "Середземноморський"
+      },
+      "svg": {
+        "duotone": "svg/duotone/styles/mediterranean.svg",
+        "dark": "svg/dark/styles/mediterranean.svg",
+        "monochrome": "svg/monochrome/styles/mediterranean.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/styles/mediterranean.png",
+          "48": "png/duotone/48/styles/mediterranean.png",
+          "72": "png/duotone/72/styles/mediterranean.png",
+          "256": "png/duotone/256/styles/mediterranean.png"
+        },
+        "dark": {
+          "24": "png/dark/24/styles/mediterranean.png",
+          "48": "png/dark/48/styles/mediterranean.png",
+          "72": "png/dark/72/styles/mediterranean.png",
+          "256": "png/dark/256/styles/mediterranean.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/styles/mediterranean.png",
+          "48": "png/monochrome/48/styles/mediterranean.png",
+          "72": "png/monochrome/72/styles/mediterranean.png",
+          "256": "png/monochrome/256/styles/mediterranean.png"
+        }
+      }
+    },
+    {
+      "id": "bohemian",
+      "category": "styles",
+      "slug": "styles-bohemian",
+      "label": {
+        "en": "Bohemian",
+        "uk": "Богемний"
+      },
+      "svg": {
+        "duotone": "svg/duotone/styles/bohemian.svg",
+        "dark": "svg/dark/styles/bohemian.svg",
+        "monochrome": "svg/monochrome/styles/bohemian.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/styles/bohemian.png",
+          "48": "png/duotone/48/styles/bohemian.png",
+          "72": "png/duotone/72/styles/bohemian.png",
+          "256": "png/duotone/256/styles/bohemian.png"
+        },
+        "dark": {
+          "24": "png/dark/24/styles/bohemian.png",
+          "48": "png/dark/48/styles/bohemian.png",
+          "72": "png/dark/72/styles/bohemian.png",
+          "256": "png/dark/256/styles/bohemian.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/styles/bohemian.png",
+          "48": "png/monochrome/48/styles/bohemian.png",
+          "72": "png/monochrome/72/styles/bohemian.png",
+          "256": "png/monochrome/256/styles/bohemian.png"
+        }
+      }
+    },
+    {
+      "id": "art-deco",
+      "category": "styles",
+      "slug": "styles-art-deco",
+      "label": {
+        "en": "Art Deco",
+        "uk": "Ар-деко"
+      },
+      "svg": {
+        "duotone": "svg/duotone/styles/art-deco.svg",
+        "dark": "svg/dark/styles/art-deco.svg",
+        "monochrome": "svg/monochrome/styles/art-deco.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/styles/art-deco.png",
+          "48": "png/duotone/48/styles/art-deco.png",
+          "72": "png/duotone/72/styles/art-deco.png",
+          "256": "png/duotone/256/styles/art-deco.png"
+        },
+        "dark": {
+          "24": "png/dark/24/styles/art-deco.png",
+          "48": "png/dark/48/styles/art-deco.png",
+          "72": "png/dark/72/styles/art-deco.png",
+          "256": "png/dark/256/styles/art-deco.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/styles/art-deco.png",
+          "48": "png/monochrome/48/styles/art-deco.png",
+          "72": "png/monochrome/72/styles/art-deco.png",
+          "256": "png/monochrome/256/styles/art-deco.png"
+        }
+      }
+    },
+    {
+      "id": "modern-classic",
+      "category": "styles",
+      "slug": "styles-modern-classic",
+      "label": {
+        "en": "Modern Classic",
+        "uk": "Сучасна класика"
+      },
+      "svg": {
+        "duotone": "svg/duotone/styles/modern-classic.svg",
+        "dark": "svg/dark/styles/modern-classic.svg",
+        "monochrome": "svg/monochrome/styles/modern-classic.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/styles/modern-classic.png",
+          "48": "png/duotone/48/styles/modern-classic.png",
+          "72": "png/duotone/72/styles/modern-classic.png",
+          "256": "png/duotone/256/styles/modern-classic.png"
+        },
+        "dark": {
+          "24": "png/dark/24/styles/modern-classic.png",
+          "48": "png/dark/48/styles/modern-classic.png",
+          "72": "png/dark/72/styles/modern-classic.png",
+          "256": "png/dark/256/styles/modern-classic.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/styles/modern-classic.png",
+          "48": "png/monochrome/48/styles/modern-classic.png",
+          "72": "png/monochrome/72/styles/modern-classic.png",
+          "256": "png/monochrome/256/styles/modern-classic.png"
+        }
+      }
+    },
+    {
+      "id": "wabi-sabi",
+      "category": "styles",
+      "slug": "styles-wabi-sabi",
+      "label": {
+        "en": "Wabi-sabi",
+        "uk": "Вабі-сабі"
+      },
+      "svg": {
+        "duotone": "svg/duotone/styles/wabi-sabi.svg",
+        "dark": "svg/dark/styles/wabi-sabi.svg",
+        "monochrome": "svg/monochrome/styles/wabi-sabi.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/styles/wabi-sabi.png",
+          "48": "png/duotone/48/styles/wabi-sabi.png",
+          "72": "png/duotone/72/styles/wabi-sabi.png",
+          "256": "png/duotone/256/styles/wabi-sabi.png"
+        },
+        "dark": {
+          "24": "png/dark/24/styles/wabi-sabi.png",
+          "48": "png/dark/48/styles/wabi-sabi.png",
+          "72": "png/dark/72/styles/wabi-sabi.png",
+          "256": "png/dark/256/styles/wabi-sabi.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/styles/wabi-sabi.png",
+          "48": "png/monochrome/48/styles/wabi-sabi.png",
+          "72": "png/monochrome/72/styles/wabi-sabi.png",
+          "256": "png/monochrome/256/styles/wabi-sabi.png"
+        }
+      }
+    },
+    {
+      "id": "living",
+      "category": "rooms",
+      "slug": "rooms-living",
+      "label": {
+        "en": "Living room",
+        "uk": "Вітальня"
+      },
+      "svg": {
+        "duotone": "svg/duotone/rooms/living.svg",
+        "dark": "svg/dark/rooms/living.svg",
+        "monochrome": "svg/monochrome/rooms/living.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/rooms/living.png",
+          "48": "png/duotone/48/rooms/living.png",
+          "72": "png/duotone/72/rooms/living.png",
+          "256": "png/duotone/256/rooms/living.png"
+        },
+        "dark": {
+          "24": "png/dark/24/rooms/living.png",
+          "48": "png/dark/48/rooms/living.png",
+          "72": "png/dark/72/rooms/living.png",
+          "256": "png/dark/256/rooms/living.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/rooms/living.png",
+          "48": "png/monochrome/48/rooms/living.png",
+          "72": "png/monochrome/72/rooms/living.png",
+          "256": "png/monochrome/256/rooms/living.png"
+        }
+      }
+    },
+    {
+      "id": "bedroom",
+      "category": "rooms",
+      "slug": "rooms-bedroom",
+      "label": {
+        "en": "Bedroom",
+        "uk": "Спальня"
+      },
+      "svg": {
+        "duotone": "svg/duotone/rooms/bedroom.svg",
+        "dark": "svg/dark/rooms/bedroom.svg",
+        "monochrome": "svg/monochrome/rooms/bedroom.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/rooms/bedroom.png",
+          "48": "png/duotone/48/rooms/bedroom.png",
+          "72": "png/duotone/72/rooms/bedroom.png",
+          "256": "png/duotone/256/rooms/bedroom.png"
+        },
+        "dark": {
+          "24": "png/dark/24/rooms/bedroom.png",
+          "48": "png/dark/48/rooms/bedroom.png",
+          "72": "png/dark/72/rooms/bedroom.png",
+          "256": "png/dark/256/rooms/bedroom.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/rooms/bedroom.png",
+          "48": "png/monochrome/48/rooms/bedroom.png",
+          "72": "png/monochrome/72/rooms/bedroom.png",
+          "256": "png/monochrome/256/rooms/bedroom.png"
+        }
+      }
+    },
+    {
+      "id": "bathroom",
+      "category": "rooms",
+      "slug": "rooms-bathroom",
+      "label": {
+        "en": "Bathroom",
+        "uk": "Ванна кімната"
+      },
+      "svg": {
+        "duotone": "svg/duotone/rooms/bathroom.svg",
+        "dark": "svg/dark/rooms/bathroom.svg",
+        "monochrome": "svg/monochrome/rooms/bathroom.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/rooms/bathroom.png",
+          "48": "png/duotone/48/rooms/bathroom.png",
+          "72": "png/duotone/72/rooms/bathroom.png",
+          "256": "png/duotone/256/rooms/bathroom.png"
+        },
+        "dark": {
+          "24": "png/dark/24/rooms/bathroom.png",
+          "48": "png/dark/48/rooms/bathroom.png",
+          "72": "png/dark/72/rooms/bathroom.png",
+          "256": "png/dark/256/rooms/bathroom.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/rooms/bathroom.png",
+          "48": "png/monochrome/48/rooms/bathroom.png",
+          "72": "png/monochrome/72/rooms/bathroom.png",
+          "256": "png/monochrome/256/rooms/bathroom.png"
+        }
+      }
+    },
+    {
+      "id": "kitchen",
+      "category": "rooms",
+      "slug": "rooms-kitchen",
+      "label": {
+        "en": "Kitchen",
+        "uk": "Кухня"
+      },
+      "svg": {
+        "duotone": "svg/duotone/rooms/kitchen.svg",
+        "dark": "svg/dark/rooms/kitchen.svg",
+        "monochrome": "svg/monochrome/rooms/kitchen.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/rooms/kitchen.png",
+          "48": "png/duotone/48/rooms/kitchen.png",
+          "72": "png/duotone/72/rooms/kitchen.png",
+          "256": "png/duotone/256/rooms/kitchen.png"
+        },
+        "dark": {
+          "24": "png/dark/24/rooms/kitchen.png",
+          "48": "png/dark/48/rooms/kitchen.png",
+          "72": "png/dark/72/rooms/kitchen.png",
+          "256": "png/dark/256/rooms/kitchen.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/rooms/kitchen.png",
+          "48": "png/monochrome/48/rooms/kitchen.png",
+          "72": "png/monochrome/72/rooms/kitchen.png",
+          "256": "png/monochrome/256/rooms/kitchen.png"
+        }
+      }
+    },
+    {
+      "id": "office",
+      "category": "rooms",
+      "slug": "rooms-office",
+      "label": {
+        "en": "Office",
+        "uk": "Кабінет"
+      },
+      "svg": {
+        "duotone": "svg/duotone/rooms/office.svg",
+        "dark": "svg/dark/rooms/office.svg",
+        "monochrome": "svg/monochrome/rooms/office.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/rooms/office.png",
+          "48": "png/duotone/48/rooms/office.png",
+          "72": "png/duotone/72/rooms/office.png",
+          "256": "png/duotone/256/rooms/office.png"
+        },
+        "dark": {
+          "24": "png/dark/24/rooms/office.png",
+          "48": "png/dark/48/rooms/office.png",
+          "72": "png/dark/72/rooms/office.png",
+          "256": "png/dark/256/rooms/office.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/rooms/office.png",
+          "48": "png/monochrome/48/rooms/office.png",
+          "72": "png/monochrome/72/rooms/office.png",
+          "256": "png/monochrome/256/rooms/office.png"
+        }
+      }
+    },
+    {
+      "id": "dining",
+      "category": "rooms",
+      "slug": "rooms-dining",
+      "label": {
+        "en": "Dining room",
+        "uk": "Їдальня"
+      },
+      "svg": {
+        "duotone": "svg/duotone/rooms/dining.svg",
+        "dark": "svg/dark/rooms/dining.svg",
+        "monochrome": "svg/monochrome/rooms/dining.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/rooms/dining.png",
+          "48": "png/duotone/48/rooms/dining.png",
+          "72": "png/duotone/72/rooms/dining.png",
+          "256": "png/duotone/256/rooms/dining.png"
+        },
+        "dark": {
+          "24": "png/dark/24/rooms/dining.png",
+          "48": "png/dark/48/rooms/dining.png",
+          "72": "png/dark/72/rooms/dining.png",
+          "256": "png/dark/256/rooms/dining.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/rooms/dining.png",
+          "48": "png/monochrome/48/rooms/dining.png",
+          "72": "png/monochrome/72/rooms/dining.png",
+          "256": "png/monochrome/256/rooms/dining.png"
+        }
+      }
+    },
+    {
+      "id": "workspace",
+      "category": "rooms",
+      "slug": "rooms-workspace",
+      "label": {
+        "en": "Workspace",
+        "uk": "Творча майстерня"
+      },
+      "svg": {
+        "duotone": "svg/duotone/rooms/workspace.svg",
+        "dark": "svg/dark/rooms/workspace.svg",
+        "monochrome": "svg/monochrome/rooms/workspace.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/rooms/workspace.png",
+          "48": "png/duotone/48/rooms/workspace.png",
+          "72": "png/duotone/72/rooms/workspace.png",
+          "256": "png/duotone/256/rooms/workspace.png"
+        },
+        "dark": {
+          "24": "png/dark/24/rooms/workspace.png",
+          "48": "png/dark/48/rooms/workspace.png",
+          "72": "png/dark/72/rooms/workspace.png",
+          "256": "png/dark/256/rooms/workspace.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/rooms/workspace.png",
+          "48": "png/monochrome/48/rooms/workspace.png",
+          "72": "png/monochrome/72/rooms/workspace.png",
+          "256": "png/monochrome/256/rooms/workspace.png"
+        }
+      }
+    },
+    {
+      "id": "economy",
+      "category": "budgets",
+      "slug": "budgets-economy",
+      "label": {
+        "en": "Economy",
+        "uk": "Економ"
+      },
+      "svg": {
+        "duotone": "svg/duotone/budgets/economy.svg",
+        "dark": "svg/dark/budgets/economy.svg",
+        "monochrome": "svg/monochrome/budgets/economy.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/budgets/economy.png",
+          "48": "png/duotone/48/budgets/economy.png",
+          "72": "png/duotone/72/budgets/economy.png",
+          "256": "png/duotone/256/budgets/economy.png"
+        },
+        "dark": {
+          "24": "png/dark/24/budgets/economy.png",
+          "48": "png/dark/48/budgets/economy.png",
+          "72": "png/dark/72/budgets/economy.png",
+          "256": "png/dark/256/budgets/economy.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/budgets/economy.png",
+          "48": "png/monochrome/48/budgets/economy.png",
+          "72": "png/monochrome/72/budgets/economy.png",
+          "256": "png/monochrome/256/budgets/economy.png"
+        }
+      }
+    },
+    {
+      "id": "budget",
+      "category": "budgets",
+      "slug": "budgets-budget",
+      "label": {
+        "en": "Budget",
+        "uk": "Бюджетний"
+      },
+      "svg": {
+        "duotone": "svg/duotone/budgets/budget.svg",
+        "dark": "svg/dark/budgets/budget.svg",
+        "monochrome": "svg/monochrome/budgets/budget.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/budgets/budget.png",
+          "48": "png/duotone/48/budgets/budget.png",
+          "72": "png/duotone/72/budgets/budget.png",
+          "256": "png/duotone/256/budgets/budget.png"
+        },
+        "dark": {
+          "24": "png/dark/24/budgets/budget.png",
+          "48": "png/dark/48/budgets/budget.png",
+          "72": "png/dark/72/budgets/budget.png",
+          "256": "png/dark/256/budgets/budget.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/budgets/budget.png",
+          "48": "png/monochrome/48/budgets/budget.png",
+          "72": "png/monochrome/72/budgets/budget.png",
+          "256": "png/monochrome/256/budgets/budget.png"
+        }
+      }
+    },
+    {
+      "id": "premium",
+      "category": "budgets",
+      "slug": "budgets-premium",
+      "label": {
+        "en": "Premium",
+        "uk": "Преміум"
+      },
+      "svg": {
+        "duotone": "svg/duotone/budgets/premium.svg",
+        "dark": "svg/dark/budgets/premium.svg",
+        "monochrome": "svg/monochrome/budgets/premium.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/budgets/premium.png",
+          "48": "png/duotone/48/budgets/premium.png",
+          "72": "png/duotone/72/budgets/premium.png",
+          "256": "png/duotone/256/budgets/premium.png"
+        },
+        "dark": {
+          "24": "png/dark/24/budgets/premium.png",
+          "48": "png/dark/48/budgets/premium.png",
+          "72": "png/dark/72/budgets/premium.png",
+          "256": "png/dark/256/budgets/premium.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/budgets/premium.png",
+          "48": "png/monochrome/48/budgets/premium.png",
+          "72": "png/monochrome/72/budgets/premium.png",
+          "256": "png/monochrome/256/budgets/premium.png"
+        }
+      }
+    },
+    {
+      "id": "small",
+      "category": "sizes",
+      "slug": "sizes-small",
+      "label": {
+        "en": "Small",
+        "uk": "Мала площа"
+      },
+      "svg": {
+        "duotone": "svg/duotone/sizes/small.svg",
+        "dark": "svg/dark/sizes/small.svg",
+        "monochrome": "svg/monochrome/sizes/small.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/sizes/small.png",
+          "48": "png/duotone/48/sizes/small.png",
+          "72": "png/duotone/72/sizes/small.png",
+          "256": "png/duotone/256/sizes/small.png"
+        },
+        "dark": {
+          "24": "png/dark/24/sizes/small.png",
+          "48": "png/dark/48/sizes/small.png",
+          "72": "png/dark/72/sizes/small.png",
+          "256": "png/dark/256/sizes/small.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/sizes/small.png",
+          "48": "png/monochrome/48/sizes/small.png",
+          "72": "png/monochrome/72/sizes/small.png",
+          "256": "png/monochrome/256/sizes/small.png"
+        }
+      }
+    },
+    {
+      "id": "medium",
+      "category": "sizes",
+      "slug": "sizes-medium",
+      "label": {
+        "en": "Medium",
+        "uk": "Середня площа"
+      },
+      "svg": {
+        "duotone": "svg/duotone/sizes/medium.svg",
+        "dark": "svg/dark/sizes/medium.svg",
+        "monochrome": "svg/monochrome/sizes/medium.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/sizes/medium.png",
+          "48": "png/duotone/48/sizes/medium.png",
+          "72": "png/duotone/72/sizes/medium.png",
+          "256": "png/duotone/256/sizes/medium.png"
+        },
+        "dark": {
+          "24": "png/dark/24/sizes/medium.png",
+          "48": "png/dark/48/sizes/medium.png",
+          "72": "png/dark/72/sizes/medium.png",
+          "256": "png/dark/256/sizes/medium.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/sizes/medium.png",
+          "48": "png/monochrome/48/sizes/medium.png",
+          "72": "png/monochrome/72/sizes/medium.png",
+          "256": "png/monochrome/256/sizes/medium.png"
+        }
+      }
+    },
+    {
+      "id": "large",
+      "category": "sizes",
+      "slug": "sizes-large",
+      "label": {
+        "en": "Large",
+        "uk": "Велика площа"
+      },
+      "svg": {
+        "duotone": "svg/duotone/sizes/large.svg",
+        "dark": "svg/dark/sizes/large.svg",
+        "monochrome": "svg/monochrome/sizes/large.svg"
+      },
+      "png": {
+        "duotone": {
+          "24": "png/duotone/24/sizes/large.png",
+          "48": "png/duotone/48/sizes/large.png",
+          "72": "png/duotone/72/sizes/large.png",
+          "256": "png/duotone/256/sizes/large.png"
+        },
+        "dark": {
+          "24": "png/dark/24/sizes/large.png",
+          "48": "png/dark/48/sizes/large.png",
+          "72": "png/dark/72/sizes/large.png",
+          "256": "png/dark/256/sizes/large.png"
+        },
+        "monochrome": {
+          "24": "png/monochrome/24/sizes/large.png",
+          "48": "png/monochrome/48/sizes/large.png",
+          "72": "png/monochrome/72/sizes/large.png",
+          "256": "png/monochrome/256/sizes/large.png"
+        }
+      }
+    }
+  ]
+}
