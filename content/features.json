@@ -39,7 +39,7 @@
       }
     ],
     "analysis": {
-      "eyebrow": "01 / AUTOMATED ROOM ANALYSIS",
+      "eyebrow": "AUTOMATED ROOM ANALYSIS",
       "title": "A useful design starts with reading the room.",
       "text": "Upload a room photo and Briller analyses the visible layout, openings, furnishings and finishes to establish a starting point. Tell it what stays, what needs to change and how you use the space, so the brief reflects more than a style name.",
       "outputs": [
@@ -74,7 +74,7 @@
       ]
     },
     "moodboard": {
-      "eyebrow": "02 / MOODBOARDS & REFERENCES",
+      "eyebrow": "MOODBOARDS & REFERENCES",
       "title": "Bring a specific detail into your room.",
       "text": "A moodboard can define an overall style or provide a specific technical solution, item or design element. Pick what you want from a reference photo — a recessed curtain track, a particular chair or a timber wall detail — and ask Briller to apply it to your original room alongside your brief.",
       "points": [
@@ -115,7 +115,7 @@
       ]
     },
     "budget": {
-      "eyebrow": "03 / TECHNICAL ADVICE FOR EACH BUDGET",
+      "eyebrow": "TECHNICAL ADVICE FOR EACH BUDGET",
       "title": "Change the specification. Understand the trade-off.",
       "text": "Economy, Standard and Premium should change more than a price label. Explore material build-ups, dimensions, installation considerations and the compromises behind a similar visual result.",
       "try": "Try the budget comparison",
@@ -133,7 +133,7 @@
       "link": "Explore the full flooring example"
     },
     "iterations": {
-      "eyebrow": "04 / RE-ITERATION & REFINEMENT",
+      "eyebrow": "RE-ITERATION & REFINEMENT",
       "title": "Keep the direction. Refine the decision.",
       "text": "A first render starts the conversation. Review it against your original room, describe what works and ask for a specific change. Keep the features you want to retain in each instruction, then compare the result before moving on.",
       "example": "EXAMPLE REFINEMENT BRIEFS",
@@ -154,7 +154,7 @@
       "note": "Check each version against the original photo and your measurements. State the retained features again when a revision needs to preserve them."
     },
     "shopping": {
-      "eyebrow": "05 / SHOP THE LOOK",
+      "eyebrow": "SHOP THE LOOK",
       "title": "Take the look into a real-world shortlist.",
       "text": "Explore product suggestions inspired by your design, then compare the pieces that could bring it together. Use the visual direction to narrow the search and the product information to decide what belongs in your room.",
       "criteria": [
@@ -175,7 +175,7 @@
       "link": "Explore Shop the Look in Briller"
     },
     "sparks": {
-      "eyebrow": "06 / SMART SPARKS & BRILLER INSIGHTS",
+      "eyebrow": "SMART SPARKS & BRILLER INSIGHTS",
       "title": "Ask about the detail that caught your eye.",
       "text": "Smart Sparks connect a visible feature with a practical question. Explore how a detail could be specified, installed or adapted to your budget, rather than stopping at the overall look.",
       "questionsLabel": "QUESTIONS TO EXPLORE WITH BRILLER",
@@ -256,7 +256,7 @@
       }
     ],
     "analysis": {
-      "eyebrow": "01 / АВТОМАТИЧНИЙ АНАЛІЗ КІМНАТИ",
+      "eyebrow": "АВТОМАТИЧНИЙ АНАЛІЗ КІМНАТИ",
       "title": "Корисний дизайн починається з розуміння кімнати.",
       "text": "Завантажте фото кімнати: Briller аналізує видиме планування, прорізи, меблі й оздоблення як основу для роботи. Уточніть, що залишається, що потрібно змінити та як ви користуєтеся простором, щоб завдання охоплювало більше за назву стилю.",
       "outputs": [
@@ -291,7 +291,7 @@
       ]
     },
     "moodboard": {
-      "eyebrow": "02 / МУДБОРДИ Й РЕФЕРЕНСИ",
+      "eyebrow": "МУДБОРДИ Й РЕФЕРЕНСИ",
       "title": "Перенесіть конкретну деталь у свою кімнату.",
       "text": "Мудборд може задавати загальний стиль або містити конкретне технічне рішення, предмет чи елемент дизайну. Оберіть потрібне на фото-референсі — прихований карниз для штор, певне крісло чи дерев’яне оздоблення стіни — та попросіть Briller застосувати це до вашої початкової кімнати разом з іншими вимогами завдання.",
       "points": [
@@ -332,7 +332,7 @@
       ]
     },
     "budget": {
-      "eyebrow": "03 / ТЕХНІЧНІ ПОРАДИ ДЛЯ КОЖНОГО БЮДЖЕТУ",
+      "eyebrow": "ТЕХНІЧНІ ПОРАДИ ДЛЯ КОЖНОГО БЮДЖЕТУ",
       "title": "Змінюйте специфікацію. Розумійте компроміс.",
       "text": "Економ, Стандарт і Преміум мають відрізнятися не лише ціновою позначкою. Досліджуйте склад матеріалів, розміри, монтаж і компроміси за схожим візуальним результатом.",
       "try": "Спробуйте порівняння бюджетів",
@@ -350,7 +350,7 @@
       "link": "Дослідити повний приклад підлоги"
     },
     "iterations": {
-      "eyebrow": "04 / ПОВТОРНІ ІТЕРАЦІЇ Й УТОЧНЕННЯ",
+      "eyebrow": "ПОВТОРНІ ІТЕРАЦІЇ Й УТОЧНЕННЯ",
       "title": "Зберігайте напрям. Уточнюйте рішення.",
       "text": "Перший рендер починає розмову. Порівняйте його з початковою кімнатою, поясніть вдалі рішення й попросіть конкретну зміну. У кожній інструкції вказуйте те, що потрібно зберегти, та оцінюйте результат перед наступним кроком.",
       "example": "ПРИКЛАДИ ЗАПИТІВ НА УТОЧНЕННЯ",
@@ -371,7 +371,7 @@
       "note": "Перевіряйте кожну версію за початковим фото й обмірами. Повторно вказуйте незмінні елементи, якщо їх потрібно зберегти під час уточнення."
     },
     "shopping": {
-      "eyebrow": "05 / SHOP THE LOOK",
+      "eyebrow": "SHOP THE LOOK",
       "title": "Перенесіть образ у список реальних варіантів.",
       "text": "Досліджуйте рекомендації товарів за мотивами дизайну й порівнюйте речі, які можуть його скласти. Візуальний напрям звужує пошук, а характеристики виробу допомагають вирішити, що підходить вашій кімнаті.",
       "criteria": [
@@ -392,7 +392,7 @@
       "link": "Дослідити Shop the Look у Briller"
     },
     "sparks": {
-      "eyebrow": "06 / SMART SPARKS І BRILLER INSIGHTS",
+      "eyebrow": "SMART SPARKS І BRILLER INSIGHTS",
       "title": "Запитайте про деталь, яка привернула увагу.",
       "text": "Smart Sparks пов’язують видимий елемент із практичним запитанням. Дізнавайтеся, як деталь можна специфікувати, змонтувати чи адаптувати до бюджету, переходячи від загального образу до рішень.",
       "questionsLabel": "ЗАПИТАННЯ ДЛЯ ОБГОВОРЕННЯ З BRILLER",

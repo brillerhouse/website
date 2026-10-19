@@ -59,7 +59,7 @@ export function InspirationPage({ locale }: { locale: Locale }) {
     </section>
     <section className="section inspiration-faq" aria-labelledby="inspiration-faq-title">
       <div><p className="eyebrow">{c.faq.eyebrow}</p><h2 id="inspiration-faq-title">{c.faq.title}</h2></div>
-      <div className="faq-list">{c.faq.items.map(([question, answer], index) => <details key={question}><summary><span className="faq-number">0{index + 1}</span><span>{question}</span><span className="plus" aria-hidden="true">+</span></summary><p>{answer}</p></details>)}</div>
+      <div className="faq-list">{c.faq.items.map(([question, answer]) => <details key={question}><summary><span>{question}</span><span className="plus" aria-hidden="true">+</span></summary><p>{answer}</p></details>)}</div>
     </section>
     <section className="cta section inspiration-cta"><span className="cta-spark" aria-hidden="true"><Sparkles strokeWidth={1}/></span><p className="eyebrow">BRILLER</p><h2>{c.cta.title}</h2><p>{c.cta.text}</p><div className="button-row"><a className="button light" href={site.app}>{c.cta.start}<ArrowUpRight size={17} aria-hidden="true"/></a><a className="text-link" href={href(locale, 'solutions')}>{c.cta.solutions}<ArrowUpRight size={17} aria-hidden="true"/></a></div></section>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\\u003c') }}/>

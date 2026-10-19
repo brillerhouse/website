@@ -149,6 +149,8 @@ label { font-weight: 500; }
 .workflow-grid article, .feature-row { padding-top: 1.5rem; }
 .workflow-grid h3, .feature-row h3 { font-size: var(--text-title-small); line-height: 1.45; }
 .workflow-grid p { max-width: none; }
+.feature-row .feature-category { grid-column: 1; grid-row: 1; }
+.feature-row > div:last-of-type { grid-row: 2; }
 .mike-section { background: var(--sage); gap: 4rem; }
 .mike-example { padding: 24px; }
 .mike-topics { gap: 24px; }
@@ -170,6 +172,7 @@ label { font-weight: 500; }
 .solution-card, .solution-advice-grid article, .solution-empty { background: var(--surface); border-radius: 12px; padding: 24px; }
 .solution-card:hover { background: var(--surface); border-color: var(--accent); box-shadow: inset 0 3px var(--accent); }
 .solution-card h3, .solution-card h4 { font-size: var(--text-title-small); }
+.solution-benefit-icon { display: block; color: var(--accent); margin-bottom: 24px; }
 .solution-example { background: var(--paper); }
 .solution-example-figure { border-radius: 12px; background: var(--surface); }
 .solution-example-layout { padding: 32px; background: var(--sage); gap: 32px; }
@@ -250,7 +253,7 @@ label { font-weight: 500; }
 .billing-toggle span { font-size: var(--text-caption); color: inherit; }
 .faq-list summary { min-height: 64px; padding-block: 20px; font-size: 1rem; line-height: 1.6; gap: 16px; }
 .faq-list details[open] summary { color: var(--accent); }
-.faq-list details p { line-height: 1.75; }
+.faq-list details p { margin-left: 0; line-height: 1.75; }
 /* Capped reading layouts use fixed responsive gutters, not the full-width section inset. */
 .privacy-policy { width: 100%; max-width: 68rem; padding-inline: var(--gutter); }
 .privacy-policy .privacy-contents { background: var(--surface); border-radius: 12px; }

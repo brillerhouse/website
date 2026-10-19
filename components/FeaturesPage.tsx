@@ -29,7 +29,7 @@ export function FeaturesPage({ locale }: { locale: Locale }) {
     </nav>
     <section className="section features-analysis" id="room-analysis" aria-labelledby="room-analysis-title">
       <div className="features-section-intro"><p className="eyebrow">{c.analysis.eyebrow}</p><h2 id="room-analysis-title">{c.analysis.title}</h2><p>{c.analysis.text}</p></div>
-      <div className="features-analysis-grid"><ol className="features-output-list">{c.analysis.outputs.map(([title, text], index) => <li key={title}><span>0{index + 1}</span><div><h3>{title}</h3><p>{text}</p></div></li>)}</ol>
+      <div className="features-analysis-grid"><ul className="features-output-list">{c.analysis.outputs.map(([title, text]) => <li key={title}><div><h3>{title}</h3><p>{text}</p></div></li>)}</ul>
         <aside className="features-room-brief"><p className="eyebrow">{c.analysis.exampleLabel}</p><h3>{c.analysis.exampleTitle}</h3><dl>{c.analysis.example.map(([title, text]) => <div key={title}><dt><Check size={17} aria-hidden="true"/>{title}</dt><dd>{text}</dd></div>)}</dl></aside>
       </div>
     </section>
