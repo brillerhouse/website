@@ -316,7 +316,7 @@
     ],
     "pricing": [
       "Make room for\nyour next idea.",
-      "Start free, then choose the room, credits and tools your design process needs."
+      "Registration includes a Pro trial. Explore your ideas, then choose the credits and tools your design process needs."
     ],
     "faq": [
       "Good questions.\nClearer answers.",
@@ -328,6 +328,12 @@
     ]
   },
   "pricing": {
+    "trial": {
+      "label": "Included at registration",
+      "title": "{hours}-hour Pro trial · {credits} credits",
+      "description": "Create your account to receive Pro access for {hours} hours with {credits} trial credits.",
+      "cta": "Register & try Pro"
+    },
     "monthly": "Monthly",
     "annual": "Annual",
     "annualNote": "Lower monthly equivalent with annual billing",

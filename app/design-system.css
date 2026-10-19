@@ -229,6 +229,17 @@ label { font-weight: 500; }
 .feature-specification dt { font-size: var(--text-ui); }
 
 /* Plans, FAQ, legal reading and contact share the same controls and surfaces. */
+.pricing-trial { display: flex; align-items: center; justify-content: space-between; gap: 24px 32px; padding: 32px; margin-bottom: 40px; border: 1px solid var(--line); border-radius: 12px; background: var(--sage); }
+.pricing-trial > div { min-width: 0; }
+.pricing-trial .eyebrow { margin: 0 0 12px; color: var(--accent); }
+.pricing-trial h2 { margin: 0 0 12px; font-size: 28px; line-height: 1.3; }
+.pricing-trial p:last-child { margin: 0; color: var(--muted); }
+.pricing-trial .button { flex-shrink: 0; }
+@media (max-width: 959px) {
+  .pricing-trial { align-items: flex-start; flex-direction: column; padding: 24px; }
+  .pricing-trial h2 { font-size: 24px; }
+  .pricing-trial .button { white-space: normal; }
+}
 .price-card { background: var(--surface); border-radius: 12px; padding: 28px 24px; border-color: var(--line); }
 .price-card.featured { background: var(--surface); border: 2px solid var(--accent); box-shadow: none; }
 .price-card .popular { background: var(--accent); color: white; font-size: var(--text-caption); border-radius: 0 0 6px 6px; }

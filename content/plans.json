@@ -1,4 +1,8 @@
 {
+  "trial": {
+    "durationHours": 72,
+    "credits": 15
+  },
   "plans": [
     {
       "name": "Free",
