@@ -1,5 +1,6 @@
 'use client';
 
+import { GalleryCategoryIcon } from './GalleryCategoryIcon';
 import { useState } from 'react';
 import { ChevronDown, ClipboardList, Layers, Ruler, Sparkles, Sun, Wrench } from 'lucide-react';
 import type { SolutionAdvice, solutionExample } from '@/lib/solutions';
@@ -57,7 +58,7 @@ export function SolutionProject({ locale, slug, example, budgets, tips, labels: 
               <legend>{l.budget}</legend>
               <div className="brill-budget-choices">{budgetLevels.map(level => <label key={level} className={budget === level ? 'selected' : ''}>
                 <input type="radio" name="solution-project-budget" value={level} checked={budget === level} onChange={() => setBudget(level)} aria-controls="solution-advice-options"/>
-                <span>{l.budgets[level]}</span>
+                <GalleryCategoryIcon category="budgets" id={level === 'standard' ? 'budget' : level} size={22}/><span>{l.budgets[level]}</span>
               </label>)}</div>
               <p id="solution-budget-note">{l.budgetNote}</p>
             </fieldset>

@@ -34,11 +34,11 @@ export function SolutionsMenu({ locale, page, groups, mobileOpen, onNavigate }: 
     return () => { document.removeEventListener('pointerdown', outside); document.removeEventListener('keydown', escape); };
   }, [expanded]);
   useEffect(() => {
-    if (!mobileOpen && window.matchMedia('(max-width:1024px)').matches) setExpanded(false);
+    if (!mobileOpen && window.matchMedia('(max-width:1100px)').matches) setExpanded(false);
   }, [mobileOpen]);
   useEffect(() => () => cancelClose(), []);
   return <div className="solutions-dropdown" ref={root}
-    onPointerEnter={event => { if (event.pointerType === 'mouse' && window.matchMedia('(min-width:1025px) and (hover:hover)').matches) { cancelClose(); if (!expanded) openedByHover.current = true; setExpanded(true); } }}
+    onPointerEnter={event => { if (event.pointerType === 'mouse' && window.matchMedia('(min-width:1101px) and (hover:hover)').matches) { cancelClose(); if (!expanded) openedByHover.current = true; setExpanded(true); } }}
     onPointerLeave={event => {
       if (event.pointerType !== 'mouse') return;
       cancelClose();
@@ -57,9 +57,9 @@ export function SolutionsMenu({ locale, page, groups, mobileOpen, onNavigate }: 
           <p className="solution-menu-label">{kind === 'audience' ? c.byAudience : c.byProject}</p>
           {groups.filter(group => group.kind === kind).map(group => <div className="solution-menu-group" key={group.id}>
             <button id={'solutions-category-' + group.id} type="button" className="solution-menu-category" aria-expanded={selected === group.id} aria-controls={'solutions-links-' + group.id}
-              onPointerEnter={event => { if (event.pointerType === 'mouse' && window.matchMedia('(min-width:1025px) and (hover:hover)').matches) setSelected(group.id); }}
-              onFocus={() => { if (window.matchMedia('(min-width:1025px)').matches) setSelected(group.id); }}
-              onClick={() => setSelected(value => window.matchMedia('(max-width:1024px)').matches && value === group.id ? '' : group.id)}
+              onPointerEnter={event => { if (event.pointerType === 'mouse' && window.matchMedia('(min-width:1101px) and (hover:hover)').matches) setSelected(group.id); }}
+              onFocus={() => { if (window.matchMedia('(min-width:1101px)').matches) setSelected(group.id); }}
+              onClick={() => setSelected(value => window.matchMedia('(max-width:1100px)').matches && value === group.id ? '' : group.id)}
               onKeyDown={event => {
                 const index = groups.findIndex(item => item.id === group.id);
                 if (event.key === 'ArrowDown' || event.key === 'ArrowUp') { event.preventDefault(); focusCategory(index + (event.key === 'ArrowDown' ? 1 : -1)); }

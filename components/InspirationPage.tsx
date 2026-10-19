@@ -3,6 +3,7 @@ import { href, site, type Locale } from '@/lib/content';
 import { galleryHighlights, galleryRooms, galleryStyles } from '@/lib/gallery';
 import { inspirationCopy, inspirationImage } from '@/lib/inspiration';
 import { Gallery } from './Gallery';
+import { GalleryCategoryIcon } from './GalleryCategoryIcon';
 
 export function InspirationPage({ locale }: { locale: Locale }) {
   const c = inspirationCopy(locale);
@@ -34,7 +35,7 @@ export function InspirationPage({ locale }: { locale: Locale }) {
           <div className="section-heading"><div><p className="eyebrow">{c.styles.eyebrow}</p><h2 id="design-styles-title">{c.styles.title}</h2></div><p>{c.styles.intro}</p></div>
           <div className="inspiration-style-grid">{c.styles.groups.map(group => <article key={group.title}>
             <h3>{group.title}</h3><p>{group.text}</p>
-            <ul className="inspiration-style-names">{group.styles.map(id => <li key={id}>{galleryStyles.find(style => style.id === id)!.label[locale]}</li>)}</ul>
+            <ul className="inspiration-style-names">{group.styles.map(id => <li key={id}><GalleryCategoryIcon category="styles" id={id} size={24}/><span>{galleryStyles.find(style => style.id === id)!.label[locale]}</span></li>)}</ul>
           </article>)}</div>
           <a className="text-link" href="#gallery-style-filter">{c.styles.browse}<ArrowUpRight size={17} aria-hidden="true"/></a>
         </section>
@@ -60,7 +61,7 @@ export function InspirationPage({ locale }: { locale: Locale }) {
       <div><p className="eyebrow">{c.faq.eyebrow}</p><h2 id="inspiration-faq-title">{c.faq.title}</h2></div>
       <div className="faq-list">{c.faq.items.map(([question, answer], index) => <details key={question}><summary><span className="faq-number">0{index + 1}</span><span>{question}</span><span className="plus" aria-hidden="true">+</span></summary><p>{answer}</p></details>)}</div>
     </section>
-    <section className="cta section inspiration-cta"><span className="cta-spark" aria-hidden="true">✳</span><p className="eyebrow">BRILLER</p><h2>{c.cta.title}</h2><p>{c.cta.text}</p><div className="button-row"><a className="button light" href={site.app}>{c.cta.start}<ArrowUpRight size={17} aria-hidden="true"/></a><a className="text-link" href={href(locale, 'solutions')}>{c.cta.solutions}<ArrowUpRight size={17} aria-hidden="true"/></a></div></section>
+    <section className="cta section inspiration-cta"><span className="cta-spark" aria-hidden="true"><Sparkles strokeWidth={1}/></span><p className="eyebrow">BRILLER</p><h2>{c.cta.title}</h2><p>{c.cta.text}</p><div className="button-row"><a className="button light" href={site.app}>{c.cta.start}<ArrowUpRight size={17} aria-hidden="true"/></a><a className="text-link" href={href(locale, 'solutions')}>{c.cta.solutions}<ArrowUpRight size={17} aria-hidden="true"/></a></div></section>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\\u003c') }}/>
   </>;
 }

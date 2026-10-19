@@ -1,4 +1,6 @@
+import './design-tokens.css';
 import './globals.css';
+import './design-system.css';
 import type { Metadata } from 'next';
 import { socialPreview } from '@/lib/content';
 export const metadata: Metadata = { metadataBase: new URL('https://briller.house'), title: 'Briller — AI interior design & architectural visualisation', description: 'Explore your space with Briller, an AI co-pilot for interior design, architectural visualisation and thoughtful renovation ideas.', openGraph: { images: [socialPreview] }, twitter: { card: 'summary_large_image', images: [socialPreview] } };

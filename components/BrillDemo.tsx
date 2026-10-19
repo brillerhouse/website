@@ -1,5 +1,6 @@
 'use client';
 
+import { GalleryCategoryIcon } from './GalleryCategoryIcon';
 import { useState } from 'react';
 import { ArrowUpRight, ChevronDown, Layers, Sparkles, Sun, Wrench } from 'lucide-react';
 import { copy, Locale, site } from '@/lib/content';
@@ -57,7 +58,7 @@ export function BrillDemo({ locale }: { locale: Locale }) {
         <div className="brill-budget-choices">
           {budgetLevels.map(level => <label key={level} className={budget === level ? 'selected' : ''}>
             <input type="radio" name="briller-demo-budget" value={level} checked={budget === level} onChange={() => setBudget(level)}/>
-            <span>{c.budgets[level].label}</span>
+            <GalleryCategoryIcon category="budgets" id={level === 'standard' ? 'budget' : level} size={22}/><span>{c.budgets[level].label}</span>
           </label>)}
         </div>
         <p id="brill-budget-description" aria-live="polite" aria-atomic="true"><strong>{c.budgets[budget].label}:</strong> {c.budgets[budget].description}</p>

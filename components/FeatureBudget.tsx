@@ -1,5 +1,6 @@
 'use client';
 
+import { GalleryCategoryIcon } from './GalleryCategoryIcon';
 import { useState } from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import type { SolutionAdvice } from '@/lib/solutions';
@@ -20,7 +21,7 @@ export function FeatureBudget({ advice, labels: c, href }: {
       <legend>{c.try}</legend>
       <div className="feature-budget-choices">{levels.map(level => <label key={level} className={budget === level ? 'selected' : ''}>
         <input type="radio" name="feature-budget" value={level} checked={budget === level} onChange={() => setBudget(level)} aria-controls="feature-budget-detail"/>
-        <span>{c.labels[level]}</span>
+        <GalleryCategoryIcon category="budgets" id={level === 'standard' ? 'budget' : level} size={22}/><span>{c.labels[level]}</span>
       </label>)}</div>
     </fieldset>
     <div id="feature-budget-detail" aria-live="polite" aria-atomic="true">
