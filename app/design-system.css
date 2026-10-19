@@ -240,7 +240,8 @@ label { font-weight: 500; }
 .faq-list summary { min-height: 64px; padding-block: 20px; font-size: 1rem; line-height: 1.6; gap: 16px; }
 .faq-list details[open] summary { color: var(--accent); }
 .faq-list details p { line-height: 1.75; }
-.privacy-policy { max-width: 52rem; }
+/* Capped reading layouts use fixed responsive gutters, not the full-width section inset. */
+.privacy-policy { width: 100%; max-width: 68rem; padding-inline: var(--gutter); }
 .privacy-policy .privacy-contents { background: var(--surface); border-radius: 12px; }
 .privacy-table-wrap { background: var(--surface); border-radius: 12px; }
 .privacy-table-wrap table { font-variant-numeric: tabular-nums; }
