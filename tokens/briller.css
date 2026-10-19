@@ -1,0 +1,124 @@
+/* Briller Porcelain & Ink Blue v1.0.0 | 2026-10-19 | light mode */
+@font-face{font-family:Manrope;src:url("../assets/fonts/manrope-0.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:Manrope;src:url("../assets/fonts/manrope-1.ttf") format("truetype");font-weight:500;font-style:normal;font-display:swap;}
+@font-face{font-family:Manrope;src:url("../assets/fonts/manrope-2.ttf") format("truetype");font-weight:600;font-style:normal;font-display:swap;}
+@font-face{font-family:Manrope;src:url("../assets/fonts/manrope-3.ttf") format("truetype");font-weight:700;font-style:normal;font-display:swap;}
+:root {
+  --briller-color-canvas: #F1F3F4;
+  --briller-color-surface: #FFFFFF;
+  --briller-color-text: #202C35;
+  --briller-color-text-secondary: #586875;
+  --briller-color-accent: #294B61;
+  --briller-color-accent-tint: #DDE7EC;
+  --briller-color-border: #CED9E0;
+  --briller-color-on-accent: #FFFFFF;
+  --briller-color-accent-hover: #203B4D;
+  --briller-color-accent-pressed: #172C3B;
+  --briller-color-control-border: #6F8391;
+  --briller-color-focus: #2C678B;
+  --briller-color-disabled-background: #E5EAED;
+  --briller-color-disabled-text: #586875;
+  --briller-color-success: #28624A;
+  --briller-color-success-tint: #E8F1EC;
+  --briller-color-warning: #7A5718;
+  --briller-color-warning-tint: #F7EFDC;
+  --briller-color-danger: #9F3B3B;
+  --briller-color-danger-tint: #F8EAEA;
+  --briller-color-info: #294B61;
+  --briller-color-info-tint: #DDE7EC;
+  --briller-color-overlay: #202C3599;
+  --briller-space-0: 0rem;
+  --briller-space-4: 0.25rem;
+  --briller-space-8: 0.5rem;
+  --briller-space-12: 0.75rem;
+  --briller-space-16: 1rem;
+  --briller-space-20: 1.25rem;
+  --briller-space-24: 1.5rem;
+  --briller-space-32: 2rem;
+  --briller-space-40: 2.5rem;
+  --briller-space-48: 3rem;
+  --briller-space-64: 4rem;
+  --briller-space-80: 5rem;
+  --briller-space-96: 6rem;
+  --briller-radius-control: 0.375rem;
+  --briller-radius-card: 0.75rem;
+  --briller-radius-media: 0.75rem;
+  --briller-radius-dialog: 1rem;
+  --briller-radius-pill: 999px;
+  --briller-size-control: 3rem;
+  --briller-size-compact-control: 2.75rem;
+  --briller-size-touch-target: 3rem;
+  --briller-size-touch-target-ios-minimum: 2.75rem;
+  --briller-size-sidebar: 17.5rem;
+  --briller-size-content-max: 80rem;
+  --briller-size-article-max: 45rem;
+  --briller-font-family: Manrope, Arial, sans-serif;
+  --briller-type-display-font-size: 4rem;
+  --briller-type-display-line-height: 4.25rem;
+  --briller-type-display-font-weight: 500;
+  --briller-type-display-letter-spacing: -0.16rem;
+  --briller-type-h1-font-size: 3rem;
+  --briller-type-h1-line-height: 3.375rem;
+  --briller-type-h1-font-weight: 500;
+  --briller-type-h1-letter-spacing: -0.09rem;
+  --briller-type-h2-font-size: 2.5rem;
+  --briller-type-h2-line-height: 2.875rem;
+  --briller-type-h2-font-weight: 500;
+  --briller-type-h2-letter-spacing: -0.075rem;
+  --briller-type-h3-font-size: 1.5rem;
+  --briller-type-h3-line-height: 2rem;
+  --briller-type-h3-font-weight: 600;
+  --briller-type-h3-letter-spacing: -0.03rem;
+  --briller-type-card-title-font-size: 1.125rem;
+  --briller-type-card-title-line-height: 1.625rem;
+  --briller-type-card-title-font-weight: 600;
+  --briller-type-card-title-letter-spacing: -0.01125rem;
+  --briller-type-lead-font-size: 1rem;
+  --briller-type-lead-line-height: 1.625rem;
+  --briller-type-lead-font-weight: 400;
+  --briller-type-lead-letter-spacing: 0rem;
+  --briller-type-body-font-size: 0.875rem;
+  --briller-type-body-line-height: 1.375rem;
+  --briller-type-body-font-weight: 400;
+  --briller-type-body-letter-spacing: 0rem;
+  --briller-type-label-font-size: 0.875rem;
+  --briller-type-label-line-height: 1.25rem;
+  --briller-type-label-font-weight: 600;
+  --briller-type-label-letter-spacing: 0rem;
+  --briller-type-caption-font-size: 0.75rem;
+  --briller-type-caption-line-height: 1.125rem;
+  --briller-type-caption-font-weight: 500;
+  --briller-type-caption-letter-spacing: 0rem;
+  --briller-type-eyebrow-font-size: 0.75rem;
+  --briller-type-eyebrow-line-height: 1.125rem;
+  --briller-type-eyebrow-font-weight: 600;
+  --briller-type-eyebrow-letter-spacing: 0.075rem;
+  --briller-motion-fast: 120ms;
+  --briller-motion-standard: 180ms;
+  --briller-motion-emphasis: 240ms;
+  --briller-motion-reduced: 0ms;
+  --briller-ease: cubic-bezier(0.2, 0, 0, 1);
+  --briller-elevation-flat: none;
+  --briller-elevation-popover: 0 4px 16px rgba(32,44,53,0.08);
+  --briller-elevation-dialog: 0 12px 32px rgba(32,44,53,0.14);
+}
+@media (max-width: 39.999rem) { :root {
+  --briller-type-display-font-size: 2.5rem;
+  --briller-type-display-line-height: 2.75rem;
+  --briller-type-display-font-weight: 500;
+  --briller-type-display-letter-spacing: -0.075rem;
+  --briller-type-h1-font-size: 2rem;
+  --briller-type-h1-line-height: 2.375rem;
+  --briller-type-h1-font-weight: 500;
+  --briller-type-h1-letter-spacing: -0.06rem;
+  --briller-type-h2-font-size: 1.75rem;
+  --briller-type-h2-line-height: 2.125rem;
+  --briller-type-h2-font-weight: 500;
+  --briller-type-h2-letter-spacing: -0.035rem;
+  --briller-type-h3-font-size: 1.375rem;
+  --briller-type-h3-line-height: 1.875rem;
+  --briller-type-h3-font-weight: 600;
+  --briller-type-h3-letter-spacing: -0.01375rem;
+}}
+@media (prefers-reduced-motion: reduce) { :root { --briller-motion-fast:0ms; --briller-motion-standard:0ms; --briller-motion-emphasis:0ms; } }
+/* Apply the component rules in STYLE-GUIDE.md; this file only defines tokens/fonts. */

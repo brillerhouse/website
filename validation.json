@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-19",
+  "guideSections": 23,
+  "pages": 24,
+  "continuationPages": 0,
+  "checks": [
+    "no content/footer overlap",
+    "all embedded images loaded",
+    "all section anchors resolve",
+    "no JavaScript required",
+    "responsive widths 320/390/768/1440",
+    "colour-pair thresholds checked in contrast-report.json",
+    "PDF generated with tags and document outline",
+    "PDF page count matches HTML sheets; every page has header/footer",
+    "exact eight chosen palette values preserved",
+    "official logo SVG assets byte-identical",
+    "native TypeScript export passes strict no-emit compilation",
+    "Manrope font files include Ukrainian glyphs",
+    "CSS tokens match JSON; small-screen typography and reduced-motion overrides verified"
+  ],
+  "limitations": [
+    "PDF tagging is not a verified PDF/UA audit",
+    "Native exports are handoff tokens; no app integration or device accessibility audit performed",
+    "Product implementation and deployment are outside this guide"
+  ],
+  "pdfPages": 24
+}

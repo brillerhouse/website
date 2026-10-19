@@ -1,0 +1,153 @@
+{
+  "method": "WCAG 2.x relative luminance, opaque sRGB; ratios do not validate a full interface",
+  "pairs": [
+    {
+      "foreground": "text",
+      "background": "canvas",
+      "ratio": 12.81,
+      "minimum": 4.5,
+      "purpose": "text"
+    },
+    {
+      "foreground": "text",
+      "background": "surface",
+      "ratio": 14.26,
+      "minimum": 4.5,
+      "purpose": "text"
+    },
+    {
+      "foreground": "textSecondary",
+      "background": "canvas",
+      "ratio": 5.17,
+      "minimum": 4.5,
+      "purpose": "text"
+    },
+    {
+      "foreground": "textSecondary",
+      "background": "surface",
+      "ratio": 5.75,
+      "minimum": 4.5,
+      "purpose": "text"
+    },
+    {
+      "foreground": "textSecondary",
+      "background": "accentTint",
+      "ratio": 4.58,
+      "minimum": 4.5,
+      "purpose": "text"
+    },
+    {
+      "foreground": "accent",
+      "background": "surface",
+      "ratio": 9.24,
+      "minimum": 4.5,
+      "purpose": "text"
+    },
+    {
+      "foreground": "accent",
+      "background": "accentTint",
+      "ratio": 7.35,
+      "minimum": 4.5,
+      "purpose": "text"
+    },
+    {
+      "foreground": "onAccent",
+      "background": "accent",
+      "ratio": 9.24,
+      "minimum": 4.5,
+      "purpose": "text"
+    },
+    {
+      "foreground": "onAccent",
+      "background": "accentHover",
+      "ratio": 11.7,
+      "minimum": 4.5,
+      "purpose": "text"
+    },
+    {
+      "foreground": "onAccent",
+      "background": "accentPressed",
+      "ratio": 14.38,
+      "minimum": 4.5,
+      "purpose": "text"
+    },
+    {
+      "foreground": "success",
+      "background": "successTint",
+      "ratio": 6.21,
+      "minimum": 4.5,
+      "purpose": "text"
+    },
+    {
+      "foreground": "warning",
+      "background": "warningTint",
+      "ratio": 5.72,
+      "minimum": 4.5,
+      "purpose": "text"
+    },
+    {
+      "foreground": "danger",
+      "background": "dangerTint",
+      "ratio": 5.67,
+      "minimum": 4.5,
+      "purpose": "text"
+    },
+    {
+      "foreground": "info",
+      "background": "infoTint",
+      "ratio": 7.35,
+      "minimum": 4.5,
+      "purpose": "text"
+    },
+    {
+      "foreground": "disabledText",
+      "background": "disabledBackground",
+      "ratio": 4.74,
+      "minimum": 4.5,
+      "purpose": "text"
+    },
+    {
+      "foreground": "controlBorder",
+      "background": "canvas",
+      "ratio": 3.54,
+      "minimum": 3,
+      "purpose": "meaningful control boundary or focus indicator"
+    },
+    {
+      "foreground": "controlBorder",
+      "background": "surface",
+      "ratio": 3.94,
+      "minimum": 3,
+      "purpose": "meaningful control boundary or focus indicator"
+    },
+    {
+      "foreground": "controlBorder",
+      "background": "accentTint",
+      "ratio": 3.14,
+      "minimum": 3,
+      "purpose": "meaningful control boundary or focus indicator"
+    },
+    {
+      "foreground": "focus",
+      "background": "canvas",
+      "ratio": 5.52,
+      "minimum": 3,
+      "purpose": "meaningful control boundary or focus indicator"
+    },
+    {
+      "foreground": "focus",
+      "background": "surface",
+      "ratio": 6.14,
+      "minimum": 3,
+      "purpose": "meaningful control boundary or focus indicator"
+    },
+    {
+      "foreground": "focus",
+      "background": "accentTint",
+      "ratio": 4.89,
+      "minimum": 3,
+      "purpose": "meaningful control boundary or focus indicator"
+    }
+  ],
+  "allPass": true
+}

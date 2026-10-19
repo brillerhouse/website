@@ -1,0 +1,117 @@
+[
+  {
+    "id": "direction",
+    "number": "01",
+    "title": "A clear, architectural identity."
+  },
+  {
+    "id": "identity",
+    "number": "02",
+    "title": "Keep the familiar signature."
+  },
+  {
+    "id": "palette",
+    "number": "03",
+    "title": "A restrained working palette."
+  },
+  {
+    "id": "states",
+    "number": "04",
+    "title": "Make state changes unmistakable."
+  },
+  {
+    "id": "typography",
+    "number": "05",
+    "title": "Manrope, with room to read."
+  },
+  {
+    "id": "layout",
+    "number": "06",
+    "title": "A shared grid, adapted to the task."
+  },
+  {
+    "id": "space",
+    "number": "07",
+    "title": "Precision through repetition."
+  },
+  {
+    "id": "imagery",
+    "number": "08",
+    "title": "Show credible spaces."
+  },
+  {
+    "id": "buttons",
+    "number": "09",
+    "title": "Actions with a clear hierarchy."
+  },
+  {
+    "id": "forms",
+    "number": "10",
+    "title": "Fields that explain themselves."
+  },
+  {
+    "id": "navigation",
+    "number": "11",
+    "title": "Orient the user at every level."
+  },
+  {
+    "id": "cards",
+    "number": "12",
+    "title": "Containers that reveal the content."
+  },
+  {
+    "id": "comparison",
+    "number": "13",
+    "title": "Two states. One credible room."
+  },
+  {
+    "id": "sparks",
+    "number": "14",
+    "title": "Advice at the point of interest."
+  },
+  {
+    "id": "advice",
+    "number": "15",
+    "title": "Budget advice with real differences."
+  },
+  {
+    "id": "gallery",
+    "number": "16",
+    "title": "A gallery with range and restraint."
+  },
+  {
+    "id": "workflow",
+    "number": "17",
+    "title": "Keep the user\u2019s intent intact."
+  },
+  {
+    "id": "shop",
+    "number": "18",
+    "title": "Turn a direction into a shortlist."
+  },
+  {
+    "id": "feedback",
+    "number": "19",
+    "title": "Explain what is happening."
+  },
+  {
+    "id": "motion",
+    "number": "20",
+    "title": "Every interaction has an alternative."
+  },
+  {
+    "id": "language",
+    "number": "21",
+    "title": "Specific, calm and useful."
+  },
+  {
+    "id": "handoff",
+    "number": "22",
+    "title": "One source, two platforms."
+  },
+  {
+    "id": "release",
+    "number": "23",
+    "title": "Review the whole experience."
+  }
+]

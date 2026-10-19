@@ -1,0 +1,282 @@
+{
+  "metadata": {
+    "name": "Briller — Porcelain & Ink Blue",
+    "version": "1.0.0",
+    "date": "2026-10-19",
+    "mode": "light",
+    "status": "Selected visual direction; implementation specification, not a deployment",
+    "units": {
+      "web": "CSS px reference; typography and spacing exported in rem",
+      "native": "logical points / density-independent units; font scaling enabled"
+    },
+    "source": "User-selected palette 03 and the website/mobile mockups",
+    "notes": [
+      "Plain platform-neutral JSON; not a proprietary Figma or DTCG import format.",
+      "Token additions extend the chosen palette for accessibility and product states."
+    ]
+  },
+  "color": {
+    "canvas": "#F1F3F4",
+    "surface": "#FFFFFF",
+    "text": "#202C35",
+    "textSecondary": "#586875",
+    "accent": "#294B61",
+    "accentTint": "#DDE7EC",
+    "border": "#CED9E0",
+    "onAccent": "#FFFFFF",
+    "accentHover": "#203B4D",
+    "accentPressed": "#172C3B",
+    "controlBorder": "#6F8391",
+    "focus": "#2C678B",
+    "disabledBackground": "#E5EAED",
+    "disabledText": "#586875",
+    "success": "#28624A",
+    "successTint": "#E8F1EC",
+    "warning": "#7A5718",
+    "warningTint": "#F7EFDC",
+    "danger": "#9F3B3B",
+    "dangerTint": "#F8EAEA",
+    "info": "#294B61",
+    "infoTint": "#DDE7EC",
+    "overlay": "#202C3599"
+  },
+  "space": {
+    "0": 0,
+    "4": 4,
+    "8": 8,
+    "12": 12,
+    "16": 16,
+    "20": 20,
+    "24": 24,
+    "32": 32,
+    "40": 40,
+    "48": 48,
+    "64": 64,
+    "80": 80,
+    "96": 96
+  },
+  "radius": {
+    "control": 6,
+    "card": 12,
+    "media": 12,
+    "dialog": 16,
+    "pill": 999
+  },
+  "borderWidth": {
+    "default": 1,
+    "selected": 2,
+    "focus": 2
+  },
+  "size": {
+    "control": 48,
+    "compactControl": 44,
+    "touchTarget": 48,
+    "touchTargetIosMinimum": 44,
+    "sidebar": 280,
+    "contentMax": 1280,
+    "articleMax": 720
+  },
+  "breakpoint": {
+    "small": 640,
+    "medium": 960,
+    "large": 1280
+  },
+  "layout": {
+    "gutterSmall": 20,
+    "gutterMedium": 32,
+    "gutterLarge": 64,
+    "gridGapSmall": 16,
+    "gridGapMedium": 24,
+    "gridGapLarge": 32,
+    "sectionSmall": 48,
+    "sectionMedium": 64,
+    "sectionLarge": 80
+  },
+  "font": {
+    "family": "Manrope",
+    "weights": [
+      400,
+      500,
+      600,
+      700
+    ],
+    "fallbackWeb": "Arial, sans-serif"
+  },
+  "type": {
+    "web": {
+      "display": {
+        "fontSize": 64,
+        "lineHeight": 68,
+        "fontWeight": 500,
+        "letterSpacing": -2.56
+      },
+      "h1": {
+        "fontSize": 48,
+        "lineHeight": 54,
+        "fontWeight": 500,
+        "letterSpacing": -1.44
+      },
+      "h2": {
+        "fontSize": 40,
+        "lineHeight": 46,
+        "fontWeight": 500,
+        "letterSpacing": -1.2
+      },
+      "h3": {
+        "fontSize": 24,
+        "lineHeight": 32,
+        "fontWeight": 600,
+        "letterSpacing": -0.48
+      },
+      "cardTitle": {
+        "fontSize": 18,
+        "lineHeight": 26,
+        "fontWeight": 600,
+        "letterSpacing": -0.18
+      },
+      "lead": {
+        "fontSize": 16,
+        "lineHeight": 26,
+        "fontWeight": 400,
+        "letterSpacing": 0
+      },
+      "body": {
+        "fontSize": 14,
+        "lineHeight": 22,
+        "fontWeight": 400,
+        "letterSpacing": 0
+      },
+      "label": {
+        "fontSize": 14,
+        "lineHeight": 20,
+        "fontWeight": 600,
+        "letterSpacing": 0
+      },
+      "caption": {
+        "fontSize": 12,
+        "lineHeight": 18,
+        "fontWeight": 500,
+        "letterSpacing": 0
+      },
+      "eyebrow": {
+        "fontSize": 12,
+        "lineHeight": 18,
+        "fontWeight": 600,
+        "letterSpacing": 1.2
+      }
+    },
+    "smallWeb": {
+      "display": {
+        "fontSize": 40,
+        "lineHeight": 44,
+        "fontWeight": 500,
+        "letterSpacing": -1.2
+      },
+      "h1": {
+        "fontSize": 32,
+        "lineHeight": 38,
+        "fontWeight": 500,
+        "letterSpacing": -0.96
+      },
+      "h2": {
+        "fontSize": 28,
+        "lineHeight": 34,
+        "fontWeight": 500,
+        "letterSpacing": -0.56
+      },
+      "h3": {
+        "fontSize": 22,
+        "lineHeight": 30,
+        "fontWeight": 600,
+        "letterSpacing": -0.22
+      },
+      "cardTitle": {
+        "fontSize": 18,
+        "lineHeight": 26,
+        "fontWeight": 600,
+        "letterSpacing": -0.18
+      },
+      "lead": {
+        "fontSize": 16,
+        "lineHeight": 26,
+        "fontWeight": 400,
+        "letterSpacing": 0
+      },
+      "body": {
+        "fontSize": 14,
+        "lineHeight": 22,
+        "fontWeight": 400,
+        "letterSpacing": 0
+      },
+      "label": {
+        "fontSize": 14,
+        "lineHeight": 20,
+        "fontWeight": 600,
+        "letterSpacing": 0
+      },
+      "caption": {
+        "fontSize": 12,
+        "lineHeight": 18,
+        "fontWeight": 500,
+        "letterSpacing": 0
+      },
+      "eyebrow": {
+        "fontSize": 12,
+        "lineHeight": 18,
+        "fontWeight": 600,
+        "letterSpacing": 1.2
+      }
+    },
+    "native": {
+      "screenTitle": {
+        "fontSize": 28,
+        "lineHeight": 34,
+        "fontWeight": "600",
+        "letterSpacing": -0.56
+      },
+      "sectionTitle": {
+        "fontSize": 22,
+        "lineHeight": 30,
+        "fontWeight": "600",
+        "letterSpacing": -0.22
+      },
+      "cardTitle": {
+        "fontSize": 18,
+        "lineHeight": 26,
+        "fontWeight": "600",
+        "letterSpacing": 0
+      },
+      "body": {
+        "fontSize": 16,
+        "lineHeight": 24,
+        "fontWeight": "400",
+        "letterSpacing": 0
+      },
+      "label": {
+        "fontSize": 14,
+        "lineHeight": 20,
+        "fontWeight": "600",
+        "letterSpacing": 0
+      },
+      "caption": {
+        "fontSize": 12,
+        "lineHeight": 18,
+        "fontWeight": "500",
+        "letterSpacing": 0
+      }
+    }
+  },
+  "motion": {
+    "instant": 0,
+    "fast": 120,
+    "standard": 180,
+    "emphasis": 240,
+    "easing": "cubic-bezier(0.2, 0, 0, 1)",
+    "reduced": 0
+  },
+  "elevation": {
+    "flat": "none",
+    "popover": "0 4px 16px rgba(32,44,53,0.08)",
+    "dialog": "0 12px 32px rgba(32,44,53,0.14)"
+  }
+}
