@@ -1,0 +1,46 @@
+{
+  "graphite": {
+    "id": 1,
+    "name": "Graphite & Chalk",
+    "mood": "Architectural · precise · timeless",
+    "fit": "The clearest architectural direction: neutral surfaces, strong hierarchy and imagery in the foreground.",
+    "canvas": "#F4F3EF",
+    "surface": "#FFFFFF",
+    "ink": "#252A2B",
+    "accent": "#343E40",
+    "tint": "#E5E7E4",
+    "muted": "#626A68",
+    "line": "#D7DCD8",
+    "onAccent": "#FFFFFF",
+    "tag": "BEST FOR A DESIGN STUDIO",
+    "contrast": {
+      "bodyOnCanvas": 13.091183098813275,
+      "mutedOnCanvas": 5.002391098122569,
+      "mutedOnSurface": 5.5543169152870355,
+      "button": 10.999972221390559,
+      "accentOnTint": 8.843063902170153
+    }
+  },
+  "inkblue": {
+    "id": 3,
+    "name": "Porcelain & Ink Blue",
+    "mood": "Technical · clear · dependable",
+    "fit": "A strong fit for architecture software, technical advice, specifications and detailed project work.",
+    "canvas": "#F1F3F4",
+    "surface": "#FFFFFF",
+    "ink": "#202C35",
+    "accent": "#294B61",
+    "tint": "#DDE7EC",
+    "muted": "#586875",
+    "line": "#CED9E0",
+    "onAccent": "#FFFFFF",
+    "tag": "BEST FOR DESIGN + TECHNOLOGY",
+    "contrast": {
+      "bodyOnCanvas": 12.807527387762653,
+      "mutedOnCanvas": 5.166221746274052,
+      "mutedOnSurface": 5.750371298360618,
+      "button": 9.237559722343608,
+      "accentOnTint": 7.35310710456128
+    }
+  }
+}
