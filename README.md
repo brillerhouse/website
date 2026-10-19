@@ -1,31 +1,21 @@
-# Briller — website and app palette mockups
+# Briller palette mockups — version 2
 
-One full homepage concept and a mobile project/advice screen, each in two palettes:
+[Download updated mockups and interactive prototype (ZIP)](https://github.com/brillerhouse/website/raw/refs/heads/design-palette-mockups/briller-palette-mockups-v2.zip)
 
-- **01 Graphite & Chalk:** neutral, restrained, architectural.
-- **03 Porcelain & Ink Blue:** clear, technical, contemporary.
+**Extract the whole ZIP, then open START-HERE.html in Chrome, Safari, Firefox or Edge.**
 
-The layout, typography, room photography and content are identical between the palettes. These are visual concepts, not screenshots of the released app. The website and app code have not been changed or deployed.
+The palette and website/app controls now use normal links to four independent HTML pages. They work with JavaScript disabled. Keep all HTML files together. Sliders, budgets, Smart Sparks and mobile tabs need JavaScript; document previews may block scripts or navigation. PNG images are static.
 
-## Download
+| Palette | Website image | App image | Website HTML download | App HTML download |
+| --- | --- | --- | --- | --- |
+| 01 Graphite & Chalk | [View](website-01-full.png) | [View](app-01.png) | [Download](https://github.com/brillerhouse/website/raw/refs/heads/design-palette-mockups/website-01.html) | [Download](https://github.com/brillerhouse/website/raw/refs/heads/design-palette-mockups/app-01.html) |
+| 03 Porcelain & Ink Blue | [View](website-03-full.png) | [View](app-03.png) | [Download](https://github.com/brillerhouse/website/raw/refs/heads/design-palette-mockups/website-03.html) | [Download](https://github.com/brillerhouse/website/raw/refs/heads/design-palette-mockups/app-03.html) |
 
-[Download all mockups and the interactive HTML prototype (ZIP)](https://github.com/brillerhouse/website/raw/refs/heads/design-palette-mockups/briller-palette-mockups.zip)
+Same layout, typography, photography and content across the two palettes. These are visual concepts; the live website and app have not changed.
 
-Unzip the archive and open `briller-palette-mockups/mockups.html` in a browser. Switch the palette and website/mobile view using the top study bar. The before/after dividers, after-only Smart Sparks, budget comparisons and mobile project tabs work in the prototype. Images and fonts are embedded, so no build or installation is needed. It does not generate redesigns, save projects or query products; links to Briller open the real website/app.
+## Validation
 
-## Full-resolution images
+All 32 top-link checks passed across both JavaScript modes. App budget specifications, tabs, after-only sparks and mobile toolbar checked.
 
-| Palette | Full homepage | Mobile app screen |
-| --- | --- | --- |
-| 01 Graphite & Chalk | [View PNG](website-01-full.png) | [View PNG](app-01.png) |
-| 03 Porcelain & Ink Blue | [View PNG](website-03-full.png) | [View PNG](app-03.png) |
-
-## Homepage comparison
-
-![Full homepage concepts](website-comparison-full.png)
-
-## Mobile app comparison
-
-![Project and advice screen concepts](app-comparison.png)
-
-The ZIP includes the individual screenshots, comparison boards, self-contained HTML, colour tokens and the Manrope font licence.
+![Website comparison](website-comparison-full.png)
+![App comparison](app-comparison.png)

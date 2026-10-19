@@ -1,0 +1,11 @@
+{
+  "topLinksChecked": 32,
+  "javaScriptModes": [
+    true,
+    false
+  ],
+  "appBudgets": true,
+  "appTabs": true,
+  "afterOnlySparks": true,
+  "mobileToolbarFits": true
+}
