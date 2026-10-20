@@ -10,7 +10,7 @@
     "gallery:review": "node scripts/gallery-quality.mjs report",
     "check": "tsc --noEmit",
     "test": "node scripts/locale-routing.test.mjs && node scripts/cookie-consent.test.mjs && node scripts/verify.mjs && node scripts/solution-examples.test.mjs && node scripts/gallery.test.mjs && node --test scripts/gallery-quality.test.mjs && npm run test:blog",
-    "test:blog": "node --experimental-strip-types --test scripts/blog.test.mjs && node --test services/blog-leads/server.test.mjs",
+    "test:blog": "node --experimental-strip-types --test scripts/blog.test.mjs && node --test services/blog-leads/server.test.mjs && node --test scripts/blog-cloud-setup.test.mjs",
     "blog:leads": "node services/blog-leads/server.mjs"
   },
   "dependencies": {

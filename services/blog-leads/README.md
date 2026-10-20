@@ -46,6 +46,15 @@ Open `/blog/`. The email service has no dry-run mode that pretends to deliver ma
 
 ## Production connection
 
+### One-time Google Cloud prerequisite
+
+Run `deployment/setup-blog-leads.sh` in Google Cloud Shell as the project administrator. It creates a dedicated runtime account and regional Secret Manager secret, grants that runtime access to this secret only, and allows the existing GitHub deployer to use the runtime account and inspect secret metadata. It grants no project-wide administrative role.
+
+If there is no enabled secret version, the script privately prompts for the Brevo key and sends it directly to Secret Manager through standard input. It preserves an existing enabled key. A proxy-backed key configured in the Codex environment can validate Brevo API requests, but cannot be exported into a production Google secret.
+
+The manual **Briller Resource Delivery** workflow (`blog-leads.yml`) runs on `dev`, like the existing keyless deployment identity. First use `mode=inspect`; after setup use `mode=deploy`, the exact approved `source_sha`, verified sender `hello@briller.house` and the configured contact-list ID. The workflow tests the service, verifies the container, deploys only `briller-blog-leads`, and checks health/CORS/invalid submissions without sending email or creating test contacts.
+
+
 Use a dedicated Cloud Run service, `briller-blog-leads`, in the existing Google project and region. Keep it separate from the static website and the Briller app. Configure a dedicated runtime service account and allow that identity to access only the relevant Brevo secret in Secret Manager.
 
 Required runtime settings:

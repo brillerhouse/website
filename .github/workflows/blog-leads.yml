@@ -59,7 +59,7 @@ jobs:
         with:
           node-version: '22'
       - name: Test resource service
-        run: node --test services/blog-leads/server.test.mjs
+        run: node --test services/blog-leads/server.test.mjs scripts/blog-cloud-setup.test.mjs
       - uses: google-github-actions/auth@v2
         with:
           workload_identity_provider: projects/1097780641970/locations/global/workloadIdentityPools/briller-website-dev/providers/github-dev
@@ -70,13 +70,14 @@ jobs:
         run: |
           READY=true
           gcloud run services list --project="$PROJECT_ID" --region="$REGION" --filter="metadata.name=$SERVICE" --format='value(metadata.name,status.url)'
-          if ! gcloud iam service-accounts describe "briller-blog-leads-runtime@$PROJECT_ID.iam.gserviceaccount.com" --project="$PROJECT_ID" --format='value(email)'; then READY=false; fi
-          if ! gcloud secrets describe "$BREVO_SECRET" --project="$PROJECT_ID" --format='value(name)'; then READY=false; fi
+          if ! gcloud iam service-accounts describe "briller-blog-leads-runtime@$PROJECT_ID.iam.gserviceaccount.com" --project="$PROJECT_ID" --format='value(email)'; then echo "::warning title=Resource service prerequisites::Required cloud resource is missing or inaccessible; run deployment/setup-blog-leads.sh as project administrator."; READY=false; fi
+          if ! gcloud secrets describe "$BREVO_SECRET" --project="$PROJECT_ID" --format='value(name)'; then echo "::warning title=Resource service prerequisites::Required cloud resource is missing or inaccessible; run deployment/setup-blog-leads.sh as project administrator."; READY=false; fi
           if [[ "$READY" == true ]]; then
             VERSIONS="$(gcloud secrets versions list "$BREVO_SECRET" --project="$PROJECT_ID" --filter='state=ENABLED' --format='value(name)' --limit=1)" || READY=false
             [[ -n "$VERSIONS" ]] || READY=false
           fi
           echo "ready=$READY" >> "$GITHUB_OUTPUT"
+          echo "::notice title=Resource service readiness::ready=$READY"
           printf '### Resource delivery prerequisites\n\nReady: `%s`\n\nRun `deployment/setup-blog-leads.sh` in Cloud Shell if setup is missing. Secret contents are never read by this workflow.\n' "$READY" >> "$GITHUB_STEP_SUMMARY"
           if [[ "$DEPLOY_MODE" == deploy && "$READY" != true ]]; then exit 1; fi
       - name: Build and verify container
