@@ -4,7 +4,7 @@ import { ArrowUpRight, Check, Download } from 'lucide-react';
 
 const downloadPath = '/downloads/briller-builder-checklist-letter.pdf';
 const endpoint = process.env.NEXT_PUBLIC_BLOG_LEAD_ENDPOINT || '/api/blog-leads/';
-export function ChecklistForm({ postSlug }: { postSlug: string }) {
+export function ChecklistForm({ postSlug, inline = false }: { postSlug: string; inline?: boolean }) {
   const [status, setStatus] = useState<'idle' | 'sending' | 'ready' | 'error'>('idle');
   const [emailed, setEmailed] = useState(false);
   const result = useRef<HTMLDivElement>(null), startedAt = useRef(0);
@@ -28,8 +28,8 @@ export function ChecklistForm({ postSlug }: { postSlug: string }) {
     } catch { setStatus('error'); }
     finally { clearTimeout(timeout); }
   }
-  return <section className="blog-download" id="download-checklist" aria-labelledby="checklist-title">
-    <div className="blog-download-intro"><p className="eyebrow">FREE DOWNLOAD / ONE-PAGE PDF</p><h2 id="checklist-title">Take the right questions to your builder.</h2><p>The AI render review checklist covers geometry, structure, services, ceiling height and project scope, with space to record decisions and responsibilities.</p><img src="/images/blog/builder-checklist-preview.webp" width={773} height={1000} alt="Preview of the one-page builder checklist, with confirmation columns and room for notes." loading="lazy"/></div>
+  return <section className={'blog-download' + (inline ? ' blog-download-inline' : '')} id="download-checklist" aria-label="Free builder checklist download">
+    <div className="blog-download-intro"><p className="eyebrow">FREE DOWNLOAD / ONE-PAGE PDF</p>{!inline && <><h2>Take the right questions to your builder.</h2><p>The AI render review checklist covers geometry, structure, services, ceiling height and project scope, with space to record decisions and responsibilities.</p></>}<img src="/images/blog/builder-checklist-preview.webp" width={773} height={1000} alt="Preview of the one-page builder checklist, with confirmation columns and room for notes." loading="lazy"/></div>
     <div className="blog-download-form">
       {status === 'ready' ? <div className="blog-download-ready" ref={result} tabIndex={-1} role="status"><Check size={28} aria-hidden="true"/><h3>Your checklist is ready.</h3><p>{emailed ? 'We’ve sent the link to your email. You can also download your copy here.' : 'Your request is saved, but we couldn’t send the email. You can download your copy here.'}</p><a className="button" href={downloadPath} download><Download size={18} aria-hidden="true"/>Download the free PDF</a><p className="small">US Letter · 1 page · PDF</p></div>
       : <form onSubmit={submit} aria-label="Get the free builder checklist" aria-busy={status === 'sending'}>

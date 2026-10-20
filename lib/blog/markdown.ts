@@ -1,6 +1,7 @@
 import MarkdownIt from 'markdown-it';
 
 export type ArticleHeading = { id: string; title: string; level: number };
+export type ArticleBlock = { type: 'html'; html: string } | { type: 'download'; resource: string };
 export function renderArticle(source: string) {
   // The title and supplied byline have their own accessible article header.
   const body = source.replace(/^# .+\r?\n+/, '').replace(/^\*By .+\*\r?\n+/, '');
@@ -34,5 +35,18 @@ export function renderArticle(source: string) {
   const originalTable = md.renderer.rules.table_open;
   md.renderer.rules.table_open = (t, i, o, e, r) => `<div class="article-table" role="region" tabindex="0" aria-label="Article table">${originalTable ? originalTable(t, i, o, e, r) : r.renderToken(t, i, o)}`;
   md.renderer.rules.table_close = () => '</table></div>\n';
-  return { html: md.renderer.render(tokens, md.options, {}), headings };
+  // Standalone resource markers become React slots, never raw HTML or executable content.
+  const blocks: ArticleBlock[] = [];
+  let start = 0;
+  for (let i = 0; i < tokens.length; i++) {
+    const marker = tokens[i].type === 'paragraph_open' && tokens[i].level === 0 && tokens[i + 1]?.type === 'inline'
+      && tokens[i + 2]?.type === 'paragraph_close'
+      ? tokens[i + 1].content.match(/^\{\{download:([a-z0-9-]+)\}\}$/) : null;
+    if (!marker) continue;
+    if (i > start) blocks.push({ type: 'html', html: md.renderer.render(tokens.slice(start, i), md.options, {}) });
+    blocks.push({ type: 'download', resource: marker[1] });
+    i += 2; start = i + 1;
+  }
+  if (start < tokens.length) blocks.push({ type: 'html', html: md.renderer.render(tokens.slice(start), md.options, {}) });
+  return { html: blocks.filter((block): block is Extract<ArticleBlock, { type: 'html' }> => block.type === 'html').map(block => block.html).join(''), headings, blocks };
 }

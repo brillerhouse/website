@@ -14,6 +14,23 @@ test('Blog catalog has unique slugs, valid taxonomy and local content/assets', (
 test('Article renders its real structure, dimension table, five checks and five technical source anchors', () => {
   const {html,headings}=renderArticle(source);assert.ok(!html.includes('<h1'));assert.equal(headings.length,5);assert.ok(headings.some(h=>h.title==='Sources'));assert.equal((html.match(/id="source-\d+"/g)||[]).length,5);assert.equal((html.match(/<h3[^>]*>Check \d:/g)||[]).length,5);assert.match(html,/2,325 mm/);assert.match(html,/<table>/);assert.match(html,/href="#source-5"/);assert.ok(!html.includes('>1. A convincing image'));assert.ok(!html.includes('<h2>1.'));
 });
+test('Checklist download sits in its article section before Sources without repeated printed questions', () => {
+  const { blocks } = renderArticle(source);
+  const index = blocks.findIndex(block => block.type === 'download' && block.resource === 'builder-checklist');
+  assert.ok(index > 0 && index < blocks.length - 1);
+  assert.match(blocks[index - 1].html, /id="take-this-checklist-to-your-builder"/);
+  assert.match(blocks[index + 1].html, /id="sources"/);
+  assert.ok(!source.includes('### A. Geometry and fit'));
+  assert.ok(!source.includes('**Project:**'));
+  assert.equal(blocks.filter(block => block.type === 'download').length, 1);
+});
+test('Resource slots only interpret standalone article markers, leaving code and nested paragraphs inert', () => {
+  const source = '# Title\n\n{{download:builder-checklist}}\n\n```\n{{download:example}}\n```\n\n> {{download:quoted}}';
+  const { blocks, html } = renderArticle(source);
+  assert.deepEqual(blocks.filter(block => block.type === 'download'), [{ type: 'download', resource: 'builder-checklist' }]);
+  assert.ok(!html.includes('{{download:builder-checklist}}'));
+  assert.ok(html.includes('{{download:example}}') && html.includes('{{download:quoted}}'));
+});
 test('Markdown does not allow executable raw HTML or script links', () => {
   const {html}=renderArticle('# Title\n\n<script>alert(1)</script>\n\n[bad](javascript:alert(1))\n\n## A heading\n\n## A heading');assert.ok(!html.includes('<script>'));assert.ok(!html.includes('href="javascript:'));assert.match(html,/id="a-heading"/);assert.match(html,/id="a-heading-2"/);
 });

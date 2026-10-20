@@ -116,40 +116,9 @@ Ask what supports the shelf and where the lighting driver goes. If you're lookin
 
 Bring the original photos and selected render, along with measured drawings and the actual product dimensions. Get the relevant designer or engineer involved, and bring in the plumber or electrician for the decisions they're responsible for.
 
-Mark an item **confirmed** once it's checked, or **change required** when it needs revising. If there's an unresolved site check, use **investigation required** and keep it there until someone's resolved it. Record who's responsible and what supports the answer. Identify the document or site measurement that backs up the answer.
+Get the free one-page PDF below, with space to record checks, decisions and who is responsible.
 
-**Project:** __________  
-**Room and render version:** __________  
-**Site review date:** __________
-
-### A. Geometry and fit
-
-1. Check the proposal against site measurements. Record discrepancies in openings and wall positions. Include fixed obstructions.
-2. Test furniture and appliance dimensions, door swings, access and working space on the proposed plan.
-
-### B. Structure
-
-1. Identify structural alterations. Obtain the necessary assessment and design before work starts.
-2. Show required beams and supports in the drawings and quote. Include their associated enclosures.
-
-### C. Building services
-
-1. Confirm the water and drainage connection points. Check routes and required access.
-2. Confirm electrical capacity, circuit arrangements, fitting locations, and required inspection and testing.
-3. Confirm ventilation routes, equipment space, termination points and maintenance access.
-
-### D. Ceiling height and finishes
-
-1. Record existing clear heights and the lowest beam or bulkhead.
-2. Draw the proposed floor and ceiling assemblies. State the finished clear height at the lowest point.
-3. Check applicable headroom requirements and product installation clearances.
-4. Select actual lighting and material systems. Confirm samples and substrate preparation. Agree on installation details.
-
-### E. Scope: costs and approvals
-
-1. Identify required permissions and technical approvals. Name who will obtain them.
-2. List unverified concealed conditions. Agree how investigations and resulting price changes will be handled.
-3. Reference the agreed plans and sections in the quote, along with the specifications. State exclusions and allowances.
+{{download:builder-checklist}}
 
 [Start with your room in Briller](https://build.briller.house/).
 
