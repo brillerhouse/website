@@ -118,5 +118,6 @@ jobs:
             --port=8080 --min-instances=0 --max-instances=1 --cpu=1 --memory=256Mi --concurrency=20 --timeout=30 \
             --allow-unauthenticated --quiet
           URL="$(gcloud run services describe "$SERVICE" --project="$PROJECT_ID" --region="$REGION" --format='value(status.url)')"
+          echo "::notice title=Resource endpoint::$URL/checklist"
           node scripts/check-blog-service.mjs "$URL" true
           printf '### Resource delivery deployed\n\nSource: `%s`\n\nEndpoint: `%s/checklist`\n\nHealth, CORS and invalid-request handling passed. No customer contacts or real emails were created by these checks.\n' "$SOURCE_SHA" "$URL" >> "$GITHUB_STEP_SUMMARY"
