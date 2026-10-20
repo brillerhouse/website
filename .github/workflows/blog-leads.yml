@@ -11,11 +11,15 @@ on:
         required: true
         default: inspect
         type: choice
-        options: [inspect, prepare, deploy]
+        options: [inspect, prepare, deploy, verify]
       sender_email:
         description: Verified Brevo sender
         required: true
         default: hello@briller.house
+        type: string
+      test_email:
+        description: Optional owner-authorized single test recipient (verify mode only)
+        required: false
         type: string
       list_id:
         description: Brevo resource-request contact list ID
@@ -44,6 +48,7 @@ jobs:
       DEPLOY_MODE: ${{ inputs.mode }}
       SENDER_EMAIL: ${{ inputs.sender_email }}
       LIST_ID: ${{ inputs.list_id }}
+      TEST_EMAIL: ${{ inputs.test_email }}
     steps:
       - name: Validate inputs
         run: |
@@ -117,7 +122,20 @@ jobs:
             --set-env-vars="BLOG_SENDER_EMAIL=$SENDER_EMAIL,BREVO_CHECKLIST_LIST_ID=$LIST_ID,BLOG_ALLOWED_ORIGINS=https://briller.house" \
             --port=8080 --min-instances=0 --max-instances=1 --cpu=1 --memory=256Mi --concurrency=20 --timeout=30 \
             --allow-unauthenticated --quiet
+      - name: Verify live resource service
+        if: inputs.mode == 'deploy' || inputs.mode == 'verify'
+        run: |
           URL="$(gcloud run services describe "$SERVICE" --project="$PROJECT_ID" --region="$REGION" --format='value(status.url)')"
           echo "::notice title=Resource endpoint::$URL/checklist"
-          node scripts/check-blog-service.mjs "$URL" true
+          export RESOURCE_URL="$URL"
+          if ! node scripts/check-blog-service.mjs "$URL" true >"$RUNNER_TEMP/resource-check.txt" 2>&1; then
+            python3 - <<'PYCODE'
+          import os
+          from pathlib import Path
+          message=Path(os.environ['RUNNER_TEMP'],'resource-check.txt').read_text().replace('%','%25').replace('\r','%0D').replace('\n','%0A')
+          print('::error title=Resource verification::'+message[:3000])
+          PYCODE
+            exit 1
+          fi
+          if [[ "$DEPLOY_MODE" == verify && -n "$TEST_EMAIL" ]]; then node scripts/test-blog-delivery.mjs "$URL"; fi
           printf '### Resource delivery deployed\n\nSource: `%s`\n\nEndpoint: `%s/checklist`\n\nHealth, CORS and invalid-request handling passed. No customer contacts or real emails were created by these checks.\n' "$SOURCE_SHA" "$URL" >> "$GITHUB_STEP_SUMMARY"

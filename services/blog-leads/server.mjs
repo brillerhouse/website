@@ -37,7 +37,7 @@ export function createHandler(config, { fetcher = fetch, now = Date.now } = {}) 
   }
   return async (req, res) => {
     const origin = req.headers.origin || '';
-    if (req.url === '/healthz' && req.method === 'GET') return response(res, 200, { ok: true, deliveryConfigured: configured }, origin);
+    if ((req.url === '/health' || req.url === '/healthz') && req.method === 'GET') return response(res, 200, { ok: true, deliveryConfigured: configured }, origin);
     if (req.url !== '/checklist' && req.url !== '/api/blog-leads/') return response(res, 404, { error: 'Not found' }, origin);
     if (!allowedOrigins.has(origin)) return response(res, 403, { error: 'Origin not allowed' }, origin);
     if (req.method === 'OPTIONS') {

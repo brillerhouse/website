@@ -1,11 +1,11 @@
 import assert from 'node:assert/strict';
 const base = process.argv[2], configured = process.argv[3] === 'true';
-let health;
+let health, healthStatus;
 for(let attempt=0;attempt<15;attempt++){
-  try{const r=await fetch(base+'/healthz',{signal:AbortSignal.timeout(3000)});if(r.ok){health=await r.json();break;}}catch{}
+  try{const r=await fetch(base+'/health',{signal:AbortSignal.timeout(3000)});healthStatus=r.status;if(r.ok){health=await r.json();break;}}catch{}
   await new Promise(resolve=>setTimeout(resolve,500));
 }
-assert.equal(health?.ok,true,'Service must be healthy');
+assert.equal(health?.ok,true,`Service must be healthy (HTTP ${healthStatus ?? 'unreachable'})`);
 assert.equal(health.deliveryConfigured,configured,'Credential settings presence');
 const headers={Origin:'https://briller.house','Content-Type':'application/json'};
 const options=await fetch(base+'/checklist',{method:'OPTIONS',headers});assert.equal(options.status,204);assert.equal(options.headers.get('access-control-allow-origin'),'https://briller.house');

@@ -48,7 +48,7 @@ test('Escapes user-provided names in the email HTML', async t => {
 });
 test('Answers CORS preflight narrowly and does not expose secrets in health status', async t => {
   const { url } = await service(t);const preflight = await fetch(url + '/checklist', { method: 'OPTIONS', headers: { Origin: 'http://localhost:3001' } });assert.equal(preflight.status, 204);assert.equal(preflight.headers.get('access-control-allow-origin'), 'http://localhost:3001');
-  const health = await fetch(url + '/healthz');assert.deepEqual(await health.json(), { ok: true, deliveryConfigured: true });
+  const health = await fetch(url + '/health');assert.deepEqual(await health.json(), { ok: true, deliveryConfigured: true });
 });
 test('Enforces JSON and request body size', async t => {
   const { send, url, calls } = await service(t);assert.equal((await send(valid(), { headers: { 'Content-Type': 'text/plain' } })).status, 415);
