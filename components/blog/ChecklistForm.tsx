@@ -1,9 +1,10 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import { ArrowUpRight, Check, Download } from 'lucide-react';
+import delivery from '@/content/blog/delivery.json';
 
 const downloadPath = '/downloads/briller-builder-checklist-letter.pdf';
-const endpoint = process.env.NEXT_PUBLIC_BLOG_LEAD_ENDPOINT || '/api/blog-leads/';
+const endpoint = process.env.NEXT_PUBLIC_BLOG_LEAD_ENDPOINT || delivery.endpoint || '/api/blog-leads/';
 export function ChecklistForm({ postSlug, inline = false }: { postSlug: string; inline?: boolean }) {
   const [status, setStatus] = useState<'idle' | 'sending' | 'ready' | 'error'>('idle');
   const [emailed, setEmailed] = useState(false);

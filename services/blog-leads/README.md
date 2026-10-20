@@ -71,9 +71,9 @@ Build `services/blog-leads/Dockerfile` with `services/blog-leads` as its context
 
 After deployment:
 
-1. `GET /healthz` must return `deliveryConfigured: true`. This reports the presence of settings; it does not validate Brevo authorization or inbox delivery.
-2. Set the GitHub repository variable `BLOG_LEAD_ENDPOINT` to the service's public HTTPS URL followed by `/checklist`. This URL is public; it contains no credentials.
-3. The existing Dev and production workflows pass that variable to the static build. `scripts/render-nginx.mjs` adds only the exact endpoint origin to `connect-src`; no wildcard or tracking changes are needed.
+1. `GET /health` must return `deliveryConfigured: true`. This reports the presence of settings; it does not validate Brevo authorization or inbox delivery.
+2. Set `content/blog/delivery.json` to the deployed public HTTPS endpoint followed by `/checklist`. This public URL contains no credentials. The optional GitHub repository variable `BLOG_LEAD_ENDPOINT` overrides it for an environment.
+3. The form and `scripts/render-nginx.mjs` use the same public endpoint configuration. The renderer adds only its exact origin to `connect-src`; no wildcard or tracking changes are needed.
 4. Rebuild/redeploy the website through the existing reviewed-preview pipeline. The endpoint is baked into the static client bundle.
 5. Submit with an authorized test address and verify the Brevo list entry, inbox link, visible download and supplied PDF. Check failure behavior as well. Confirm the processor/privacy and retention settings before accepting real requests.
 

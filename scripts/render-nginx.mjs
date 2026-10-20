@@ -6,5 +6,5 @@ export function renderNginx(template, endpoint = '') {
   return template.replace("connect-src 'self'", `connect-src 'self' ${url.origin}`);
 }
 if (process.argv[1]?.endsWith('/render-nginx.mjs') && process.argv[2]) {
-  fs.writeFileSync(process.argv[2], renderNginx(fs.readFileSync('deployment/nginx.conf', 'utf8'), process.env.NEXT_PUBLIC_BLOG_LEAD_ENDPOINT || ''));
+  fs.writeFileSync(process.argv[2], renderNginx(fs.readFileSync('deployment/nginx.conf', 'utf8'), process.env.NEXT_PUBLIC_BLOG_LEAD_ENDPOINT || JSON.parse(fs.readFileSync('content/blog/delivery.json', 'utf8')).endpoint || ''));
 }
