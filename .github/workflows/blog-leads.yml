@@ -1,0 +1,108 @@
+name: Briller Resource Delivery
+on:
+  workflow_dispatch:
+    inputs:
+      source_sha:
+        description: Exact approved source commit
+        required: true
+        type: string
+      mode:
+        description: Inspect prerequisites or deploy the email service
+        required: true
+        default: inspect
+        type: choice
+        options: [inspect, deploy]
+      sender_email:
+        description: Verified Brevo sender
+        required: true
+        default: hello@briller.house
+        type: string
+      list_id:
+        description: Brevo resource-request contact list ID
+        required: true
+        default: '2'
+        type: string
+permissions:
+  contents: read
+  id-token: write
+concurrency:
+  group: briller-resource-delivery
+  cancel-in-progress: false
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/dev'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment: production
+    env:
+      PROJECT_ID: nifty-atlas-473013-f9
+      REGION: europe-west1
+      SERVICE: briller-blog-leads
+      REGISTRY: briller-web
+      BREVO_SECRET: briller-blog-leads-brevo-api-key
+      SOURCE_SHA: ${{ inputs.source_sha }}
+      DEPLOY_MODE: ${{ inputs.mode }}
+      SENDER_EMAIL: ${{ inputs.sender_email }}
+      LIST_ID: ${{ inputs.list_id }}
+    steps:
+      - name: Validate inputs
+        run: |
+          [[ "$SOURCE_SHA" =~ ^[0-9a-f]{40}$ ]]
+          [[ "$LIST_ID" =~ ^[1-9][0-9]*$ ]]
+          [[ "$SENDER_EMAIL" =~ ^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$ ]]
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.source_sha }}
+      - name: Verify exact reviewed source
+        run: '[[ "$(git rev-parse HEAD)" == "$SOURCE_SHA" ]]'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test resource service
+        run: node --test services/blog-leads/server.test.mjs
+      - uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: projects/1097780641970/locations/global/workloadIdentityPools/briller-website-dev/providers/github-dev
+          service_account: briller-dev-deployer@nifty-atlas-473013-f9.iam.gserviceaccount.com
+      - uses: google-github-actions/setup-gcloud@v2
+      - name: Inspect cloud prerequisites without reading secret values
+        id: prerequisites
+        run: |
+          READY=true
+          gcloud run services list --project="$PROJECT_ID" --region="$REGION" --filter="metadata.name=$SERVICE" --format='value(metadata.name,status.url)'
+          if ! gcloud iam service-accounts describe "briller-blog-leads-runtime@$PROJECT_ID.iam.gserviceaccount.com" --project="$PROJECT_ID" --format='value(email)'; then READY=false; fi
+          if ! gcloud secrets describe "$BREVO_SECRET" --project="$PROJECT_ID" --format='value(name)'; then READY=false; fi
+          if [[ "$READY" == true ]]; then
+            VERSIONS="$(gcloud secrets versions list "$BREVO_SECRET" --project="$PROJECT_ID" --filter='state=ENABLED' --format='value(name)' --limit=1)" || READY=false
+            [[ -n "$VERSIONS" ]] || READY=false
+          fi
+          echo "ready=$READY" >> "$GITHUB_OUTPUT"
+          printf '### Resource delivery prerequisites\n\nReady: `%s`\n\nRun `deployment/setup-blog-leads.sh` in Cloud Shell if setup is missing. Secret contents are never read by this workflow.\n' "$READY" >> "$GITHUB_STEP_SUMMARY"
+          if [[ "$DEPLOY_MODE" == deploy && "$READY" != true ]]; then exit 1; fi
+      - name: Build and verify container
+        if: inputs.mode == 'deploy'
+        run: |
+          IMAGE="$REGION-docker.pkg.dev/$PROJECT_ID/$REGISTRY/$SERVICE:$SOURCE_SHA"
+          docker build -t "$IMAGE" services/blog-leads
+          CHECK_CONTAINER="briller-resource-check-$GITHUB_RUN_ID"
+          docker run -d --rm --name "$CHECK_CONTAINER" -p 127.0.0.1:18082:8080 "$IMAGE"
+          trap 'docker rm -f "$CHECK_CONTAINER" >/dev/null 2>&1 || true' EXIT
+          node scripts/check-blog-service.mjs http://127.0.0.1:18082 false
+          docker rm -f "$CHECK_CONTAINER"
+          trap - EXIT
+          gcloud auth configure-docker "$REGION-docker.pkg.dev" --quiet
+          docker push "$IMAGE"
+          echo "RESOURCE_IMAGE=$IMAGE" >> "$GITHUB_ENV"
+      - name: Deploy resource service
+        if: inputs.mode == 'deploy'
+        run: |
+          gcloud run deploy "$SERVICE" --image="$RESOURCE_IMAGE" \
+            --project="$PROJECT_ID" --region="$REGION" \
+            --service-account="briller-blog-leads-runtime@$PROJECT_ID.iam.gserviceaccount.com" \
+            --update-secrets="BREVO_API_KEY=$BREVO_SECRET:latest" \
+            --set-env-vars="BLOG_SENDER_EMAIL=$SENDER_EMAIL,BREVO_CHECKLIST_LIST_ID=$LIST_ID,BLOG_ALLOWED_ORIGINS=https://briller.house" \
+            --port=8080 --min-instances=0 --max-instances=1 --cpu=1 --memory=256Mi --concurrency=20 --timeout=30 \
+            --allow-unauthenticated --quiet
+          URL="$(gcloud run services describe "$SERVICE" --project="$PROJECT_ID" --region="$REGION" --format='value(status.url)')"
+          node scripts/check-blog-service.mjs "$URL" true
+          printf '### Resource delivery deployed\n\nSource: `%s`\n\nEndpoint: `%s/checklist`\n\nHealth, CORS and invalid-request handling passed. No customer contacts or real emails were created by these checks.\n' "$SOURCE_SHA" "$URL" >> "$GITHUB_STEP_SUMMARY"
