@@ -48,3 +48,9 @@ See [the Brevo setup guide](../../services/blog-leads/README.md). Real delivery 
 The English PDF remains `/downloads/briller-builder-checklist-letter.pdf`. The Ukrainian A4 companion is `/downloads/briller-builder-checklist-uk.pdf`, with its own preview. The form submits `locale: en|uk`; the delivery service selects the matching email, privacy link and PDF. Older clients omitting locale retain English behavior. Unknown locales are rejected. No real emails are sent by unit/browser tests.
 
 When releasing this change, deploy the updated resource service and the static website as a coordinated release. An old service only returns the English PDF; the new Ukrainian form deliberately rejects that mismatched result instead of claiming success. Resource-service changes are not activated by publishing the preview branch.
+
+## Local development routing
+
+`npm run dev` uses normal Next routing (without `output: export`) and permanent redirects from `/blog/...` to `/en/blog/...`. Production builds still use static export; nginx owns production redirects. This prevents export-only parameter errors for unknown local URLs after route changes. Restart the dev server after pulling configuration changes; if its previous build cache contains old routes, remove only the generated `.next` directory before starting again.
+
+With the local server running, use `npm run test:dev -- http://127.0.0.1:3001` in a second terminal to check actual EN/UK blog routes, legacy redirects and unknown-page 404 behavior. These checks send no emails.
