@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import http from 'node:http';
 import { randomUUID } from 'node:crypto';
-import { createHandler, resourcePath } from './server.mjs';
+import { createHandler, resourcePath, ukrainianResourcePath } from './server.mjs';
 import { renderNginx } from '../../scripts/render-nginx.mjs';
 
 const config = { apiKey: 'unit-test-provider-key', senderEmail: 'checklist@example.test', listId: 17, allowedOrigins: ['http://localhost:3001'] };
@@ -23,7 +23,7 @@ test('Stores the requested contact then sends the resource email and returns its
   assert.ok(calls[1].url.endsWith('/smtp/email'));assert.match(calls[1].body.textContent, /https:\/\/briller.house\/downloads\/briller-builder-checklist-letter.pdf/);assert.match(calls[1].body.textContent, /not been subscribed to marketing/);
 });
 test('Rejects missing consent, invalid input, unknown resources and honeypot submissions without contacting Brevo', async t => {
-  for (const change of [{ consent: false }, { email: 'bad-address' }, { name: 'A' }, { website: 'spam' }, { resource: 'other-file' }, { startedAt: Date.now() }, { source: '../../secrets' }]) {
+  for (const change of [{ consent: false }, { email: 'bad-address' }, { name: 'A' }, { website: 'spam' }, { resource: 'other-file' }, { startedAt: Date.now() }, { source: '../../secrets' }, { locale: 'fr' }, { locale: '../uk' }]) {
     const { send, calls } = await service(t);assert.equal((await send({ ...valid(), ...change })).status, 400);assert.equal(calls.length, 0);
   }
 });
@@ -58,4 +58,26 @@ test('Adds only the configured HTTPS delivery origin to the existing CSP', () =>
   const original = "connect-src 'self' https://api.country.is; form-action 'self'";
   assert.equal(renderNginx(original), original);assert.equal(renderNginx(original, 'https://example.run.app/checklist'), "connect-src 'self' https://example.run.app https://api.country.is; form-action 'self'");
   for (const invalid of ['http://example.run.app/checklist','https://user:secret@example.run.app/checklist','https://example.run.app/;bad'])assert.throws(() => renderNginx(original, invalid));
+});
+
+test('Ukrainian requests receive a Ukrainian email, privacy link and exact Ukrainian PDF', async t => {
+  const { send, calls } = await service(t);
+  const r = await send({ ...valid(), locale: 'uk', name: 'Олена Тест' });
+  assert.equal(r.status, 200); assert.deepEqual(await r.json(), { downloadUrl: ukrainianResourcePath, emailSent: true });
+  const email = calls[1].body;
+  assert.match(email.subject, /Ваш безкоштовний чекліст/);
+  assert.match(email.textContent, /briller-builder-checklist-uk\.pdf/);
+  assert.match(email.htmlContent, /lang="uk"/); assert.match(email.htmlContent, /\/uk\/privacy\//);
+  assert.ok(!email.htmlContent.includes('builder-checklist-letter.pdf'));
+});
+test('A language switch cannot reuse a previous-language response for the same request ID', async t => {
+  const { send, calls } = await service(t); const data = valid();
+  assert.equal((await (await send(data)).json()).downloadUrl, resourcePath);
+  assert.equal((await (await send({ ...data, locale: 'uk' })).json()).downloadUrl, ukrainianResourcePath);
+  assert.equal(calls.length, 4);
+});
+test('Ukrainian download remains available after storage when email delivery fails', async t => {
+  const { send } = await service(t, { fail: url => url.endsWith('/smtp/email') });
+  const r = await send({ ...valid(), locale: 'uk' });
+  assert.equal(r.status, 200); assert.deepEqual(await r.json(), { downloadUrl: ukrainianResourcePath, emailSent: false });
 });

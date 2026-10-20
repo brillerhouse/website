@@ -45,10 +45,24 @@ for (const path of ['/en/solutions', '/uk/pricing', '/en/privacy']) {
   else assert(result.body.includes('<html'), `${path}: expected the exported page`);
 }
 
+for (const [path, target] of [
+  ['/blog', '/en/blog/'], ['/blog/', '/en/blog/'],
+  ['/blog/?q=lighting', '/en/blog/?q=lighting'],
+  ['/blog/how-to-read-an-ai-render-before-you-build/?source=legacy', '/en/blog/how-to-read-an-ai-render-before-you-build/?source=legacy'],
+  ['/blog/category/renovation-planning/', '/en/blog/category/renovation-planning/'],
+  ['/blog/tag/lighting/', '/en/blog/tag/lighting/']
+]) {
+  const result = await request(path);
+  assert.equal(result.status, 301, path + ': permanent blog migration');
+  assert.equal(result.location, target, path + ': preserve path/query on HTTPS');
+}
+for (const path of ['/en/blog/', '/uk/blog/', '/uk/blog/how-to-read-an-ai-render-before-you-build/']) {
+  const result = await request(path); assert.equal(result.status, 200, path);
+}
 const www = await request('/uk/pricing/?source=redirect-check', 'www.briller.house');
 assert.equal(www.status, 301);
 assert.equal(www.location, 'https://briller.house/uk/pricing/?source=redirect-check');
 const missing = await request('/not-a-briller-page');
 assert.equal(missing.status, 404);
 assert.equal(missing.location, undefined);
-console.log('PASS: root, EN/UK, preview host, directory normalization, www/query preservation and 404; no backend scheme/port leak.');
+console.log('PASS: root, EN/UK, localized blogs, legacy blog 301s, preview host, directory normalization, www/query preservation and 404; no backend scheme/port leak.');

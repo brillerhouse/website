@@ -42,7 +42,7 @@ Start the website in a second terminal:
 BRILLER_PREVIEW=1 NEXT_PUBLIC_BLOG_LEAD_ENDPOINT=http://localhost:8782/checklist npm run dev -- --port 3001
 ```
 
-Open `/blog/`. The email service has no dry-run mode that pretends to deliver mail. A real form submission with these credentials stores a contact and sends an email. Use your own address for an authorized integration test. Missing credentials produce HTTP 503 and the form's retry/contact message.
+Open `/en/blog/` or `/uk/blog/`. The email service has no dry-run mode that pretends to deliver mail. A real form submission with these credentials stores a contact and sends an email. Use your own address for an authorized integration test. Missing credentials produce HTTP 503 and the form's retry/contact message.
 
 ## Production connection
 
@@ -76,6 +76,8 @@ After deployment:
 3. The form and `scripts/render-nginx.mjs` use the same public endpoint configuration. The renderer adds only its exact origin to `connect-src`; no wildcard or tracking changes are needed.
 4. Rebuild/redeploy the website through the existing reviewed-preview pipeline. The endpoint is baked into the static client bundle.
 5. Submit with an authorized test address and verify the Brevo list entry, inbox link, visible download and supplied PDF. Check failure behavior as well. Confirm the processor/privacy and retention settings before accepting real requests.
+
+The optional request field `locale` accepts only `en` or `uk` and defaults to English for existing clients. It chooses the email language, privacy URL and allowlisted PDF; Ukrainian uses `/downloads/briller-builder-checklist-uk.pdf`. The Ukrainian website requires this updated backend, so release both together. No new Brevo contact attributes are needed for language selection.
 
 The service accepts `POST /checklist` and `POST /api/blog-leads/` with the same schema. The website defaults to the latter same-origin path only when no endpoint is configured; static nginx does not pretend to provide an API. Unconfigured forms show a real error and a manual email fallback.
 

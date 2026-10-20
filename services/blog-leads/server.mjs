@@ -2,6 +2,7 @@ import http from 'node:http';
 import { pathToFileURL } from 'node:url';
 
 export const resourcePath = '/downloads/briller-builder-checklist-letter.pdf';
+export const ukrainianResourcePath = '/downloads/briller-builder-checklist-uk.pdf';
 const emailPattern = /^[^\s<>@]+@[^\s<>@]+\.[^\s<>@]+$/;
 const escapeHtml = text => text.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -24,16 +25,24 @@ export function createHandler(config, { fetcher = fetch, now = Date.now } = {}) 
   }
   async function deliver(data) {
     await provider('contacts', { email: data.email, updateEnabled: true, listIds: [config.listId], attributes: { FIRSTNAME: data.name, BRILLER_RESOURCE: 'builder-checklist', BRILLER_CHECKLIST_AT: new Date(now()).toISOString() } });
+    const uk = data.locale === 'uk', path = uk ? ukrainianResourcePath : resourcePath;
+    const greeting = uk ? 'Вітаємо' : 'Hi';
+    const intro = uk ? 'Ось односторінковий чекліст, який ви замовили. Візьміть його на зустріч із будівельником, щоб перевірити геометрію, конструкції, інженерні мережі, чистові висоти й обсяг робіт.' : 'Here is the one-page checklist you requested. Take it to your builder to review geometry, structure, services, finished heights and project scope.';
+    const linkText = uk ? 'Завантажити безкоштовний PDF-чекліст' : 'Download your free PDF checklist';
+    const notice = uk ? 'Цей лист надіслано на ваш запит. Ви не підписані на рекламну розсилку.' : 'This email delivers your requested resource. You have not been subscribed to marketing.';
+    const privacy = uk ? 'Політика конфіденційності' : 'Privacy Policy';
+    const locale = uk ? 'uk' : 'en';
     let emailSent = true;
     try {
       await provider('smtp/email', {
         sender: { name: 'Briller', email: config.senderEmail }, to: [{ email: data.email, name: data.name }],
-        subject: 'Your free Briller builder checklist',
-        htmlContent: `<p>Hi ${escapeHtml(data.name)},</p><p>Here is the one-page checklist you requested. Take it to your builder to review geometry, structure, services, finished heights and project scope.</p><p><a href="https://briller.house${resourcePath}">Download your free PDF checklist</a></p><p>This email delivers your requested resource. You have not been subscribed to marketing.</p><p>Briller · <a href="https://briller.house/en/privacy/">Privacy Policy</a> · hello@briller.house</p>`,
-        textContent: `Hi ${data.name},\n\nHere is your free builder checklist:\nhttps://briller.house${resourcePath}\n\nThis email delivers your requested resource. You have not been subscribed to marketing.\n\nBriller | hello@briller.house | https://briller.house/en/privacy/`
+        subject: uk ? 'Ваш безкоштовний чекліст Briller для будівельника' : 'Your free Briller builder checklist',
+        htmlContent: `<html lang="${locale}"><body><p>${greeting}, ${escapeHtml(data.name)}!</p><p>${intro}</p><p><a href="https://briller.house${path}">${linkText}</a></p><p>${notice}</p><p>Briller · <a href="https://briller.house/${locale}/privacy/">${privacy}</a> · hello@briller.house</p></body></html>`,
+        textContent: `${greeting}, ${data.name}!\n\n${intro}\n\n${linkText}:\nhttps://briller.house${path}\n\n${notice}\n\nBriller | hello@briller.house | https://briller.house/${locale}/privacy/`
+
       });
     } catch { emailSent = false; }
-    return { downloadUrl: resourcePath, emailSent };
+    return { downloadUrl: path, emailSent };
   }
   return async (req, res) => {
     const origin = req.headers.origin || '';
@@ -59,13 +68,14 @@ export function createHandler(config, { fetcher = fetch, now = Date.now } = {}) 
     let data;
     try { data = JSON.parse(body); } catch { return response(res, 400, { error: 'Invalid JSON' }, origin); }
     if (!data || typeof data !== 'object' || Array.isArray(data)) return response(res, 400, { error: 'Invalid request' }, origin);
+    if (data.locale !== undefined && data.locale !== 'en' && data.locale !== 'uk') return response(res, 400, { error: 'Unsupported language' }, origin);
     if (data.website) return response(res, 400, { error: 'Invalid request' }, origin);
     if (typeof data.name !== 'string' || data.name.trim().length < 2 || data.name.length > 120 || /[\x00-\x1f\x7f]/.test(data.name) || typeof data.email !== 'string' || data.email.length > 254 || !emailPattern.test(data.email.trim()) || data.consent !== true || data.resource !== 'builder-checklist' || typeof data.source !== 'string' || !/^[a-z0-9-]{1,120}$/.test(data.source) || typeof data.requestId !== 'string' || !/^[0-9a-f-]{36}$/i.test(data.requestId) || typeof data.startedAt !== 'number' || clock - data.startedAt < 1000 || clock - data.startedAt > 86400000) return response(res, 400, { error: 'Check the form details' }, origin);
     data = { ...data, name: data.name.trim(), email: data.email.trim().toLowerCase() };
     // Keep email addresses out of runtime logs and map keys.
     const { createHash } = await import('node:crypto');
     const emailKey = createHash('sha256').update(data.email).digest('hex');
-    const requestKey = emailKey + ':' + data.requestId;
+    const requestKey = emailKey + ':' + (data.locale || 'en') + ':' + data.requestId;
     if (delivered.has(requestKey)) return response(res, 200, delivered.get(requestKey).result, origin);
     if (pending.has(requestKey)) { try { return response(res, 200, await pending.get(requestKey), origin); } catch { return response(res, 503, { error: 'Please try later' }, origin); } }
     if (rateLimit('email:' + emailKey, 2, 300000)) return response(res, 429, { error: 'Please try later' }, origin);

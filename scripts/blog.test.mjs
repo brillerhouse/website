@@ -42,13 +42,63 @@ test('Search uses title relevance, full text, categories and tags together', () 
 test('Search normalizes punctuation, diacritics, case and hyphenated terms', () => {
   const post={slug:'x',title:'Café — warm lighting',excerpt:'',categories:[],tags:[],keywords:['load-bearing'],searchText:''};assert.equal(searchPosts([post],'CAFE lighting').length,1);assert.equal(searchPosts([post],'load bearing').length,1);assert.equal(searchPosts([post],'<script>').length,0);
 });
-test('Every exported blog and taxonomy page is canonical, crawl-controlled and has valid anchors', () => {
-  const paths=['/blog/',...catalog.posts.map(p=>`/blog/${p.slug}/`),...catalog.categories.filter(c=>catalog.posts.some(p=>p.categories.includes(c.slug))).map(c=>`/blog/category/${c.slug}/`),...catalog.tags.filter(t=>catalog.posts.some(p=>p.tags.includes(t.slug))).map(t=>`/blog/tag/${t.slug}/`)];
+test('English and Ukrainian catalogs have matching taxonomy and real localized content/resources', () => {
+  const uk=JSON.parse(fs.readFileSync('content/blog/catalog.uk.json','utf8'));
+  const ui=JSON.parse(fs.readFileSync('content/blog/interface.json','utf8'));
+  assert.deepEqual(Object.keys(ui.en),Object.keys(ui.uk));
+  for(const collection of ['posts','categories','tags']) assert.deepEqual(uk[collection].map(x=>x.slug),catalog[collection].map(x=>x.slug));
+  for(const post of uk.posts){
+    assert.notEqual(post.title,catalog.posts.find(p=>p.slug===post.slug).title);
+    assert.ok(fs.existsSync(`content/blog/posts/uk/${post.slug}.md`));
+  }
+  assert.equal(fs.readFileSync('public/downloads/briller-builder-checklist-uk.pdf').subarray(0,5).toString(),'%PDF-');
+  assert.ok(fs.existsSync('public/images/blog/builder-checklist-preview-uk.webp'));
+});
+test('Ukrainian article retains checks, references, dimensions and stable cross-language section anchors', () => {
+  const uk=fs.readFileSync('content/blog/posts/uk/how-to-read-an-ai-render-before-you-build.md','utf8');
+  const translated=renderArticle(uk,'uk'), original=renderArticle(source);
+  assert.deepEqual(translated.headings.map(h=>h.id),original.headings.map(h=>h.id));
+  assert.equal((translated.html.match(/id="source-\d+"/g)||[]).length,5);
+  assert.equal((translated.html.match(/<h3[^>]*>Перевірка \d:/g)||[]).length,5);
+  assert.match(translated.html,/2 325 мм/); assert.match(translated.html,/aria-label="Джерело 5"/);
+  assert.ok(!translated.html.includes('*Автор:')&&!translated.html.includes('{#'));
+  assert.ok(!uk.includes('https://briller.house/en/'));
+  const unicode=renderArticle('## Українська тема\n\n## Українська тема','uk');
+  assert.equal(unicode.headings[0].id,'українська-тема');assert.equal(unicode.headings[1].id,'українська-тема-2');
+});
+test('Keyword search supports Ukrainian words and mixed technical terms', () => {
+  const post={slug:'uk',title:'Висота стелі та освітлення',excerpt:'',categories:[],tags:[],keywords:['LED'],searchText:'Перевірте вентиляцію й електрику.'};
+  assert.equal(searchPosts([post],'ВИСОТА стелі').length,1);
+  assert.equal(searchPosts([post],'вентиляцію LED').length,1);
+});
+test('Every localized blog export has canonical/alternate URLs, localized UI, valid anchors and no menu link', () => {
+  const suffixes=['',...catalog.posts.map(p=>p.slug+'/'),...catalog.categories.filter(c=>catalog.posts.some(p=>p.categories.includes(c.slug))).map(c=>'category/'+c.slug+'/'),...catalog.tags.filter(t=>catalog.posts.some(p=>p.tags.includes(t.slug))).map(t=>'tag/'+t.slug+'/')];
   const sitemap=fs.readFileSync('out/sitemap.xml','utf8');
-  for(const path of paths){const html=fs.readFileSync('out'+path+'index.html','utf8');assert.match(html,/<html lang="en"/);assert.ok(html.includes(`rel="canonical" href="https://briller.house${path}"`));assert.equal((html.match(/<h1[ >]/g)||[]).length,1);assert.ok(sitemap.includes('https://briller.house'+path));if(process.env.BRILLER_PREVIEW==='1')assert.match(html,/name="robots" content="noindex, nofollow"/);else assert.ok(!/name="robots" content="noindex/.test(html));
+  assert.ok(!sitemap.includes('<loc>https://briller.house/blog/'));
+  for(const locale of ['en','uk'])for(const suffix of suffixes){
+   const path=`/${locale}/blog/${suffix}`,html=fs.readFileSync('out'+path+'index.html','utf8');
+   assert.ok(html.includes(`<html lang="${locale}"`));assert.ok(html.includes(`rel="canonical" href="https://briller.house${path}"`));
+   for(const other of ['en','uk'])assert.ok(html.includes(`hrefLang="${other}" href="https://briller.house/${other}/blog/${suffix}"`),path+': alternate '+other);
+   assert.equal((html.match(/<h1[ >]/g)||[]).length,1);assert.ok(sitemap.includes('https://briller.house'+path));
+   if(process.env.BRILLER_PREVIEW==='1')assert.match(html,/name="robots" content="noindex, nofollow"/);else assert.ok(!/name="robots" content="noindex/.test(html));
    for(const match of html.matchAll(/href="#([^"]+)"/g))assert.ok(html.includes(`id="${match[1]}"`),`${path}: missing anchor ${match[1]}`);
    for(const match of html.matchAll(/(?:href|src)="(\/[^"?#]*)/g)){if(match[1].startsWith('//'))continue;assert.ok(fs.existsSync('out'+decodeURIComponent(match[1]))||fs.existsSync('out'+decodeURIComponent(match[1])+'/index.html'),`${path}: missing ${match[1]}`);}
-   const header=html.match(/<header class="site-header"[\s\S]*?<\/header>/)?.[0]||'';assert.ok(!header.includes('href="/blog/"'));
-   for(const match of html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs))assert.equal(JSON.parse(match[1])['@context'],'https://schema.org');
+   assert.ok(!/href="\/blog\//.test(html),path+': obsolete internal link');
+   assert.ok(html.includes(`href="/${locale==='en'?'uk':'en'}/blog/${suffix}"`),path+': footer language switch');
+   const header=html.match(/<header class="site-header"[\s\S]*?<\/header>/)?.[0]||'';assert.ok(!header.includes('href="/'+locale+'/blog/"'));
+   for(const match of html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)){
+    const schema=JSON.parse(match[1]);assert.equal(schema['@context'],'https://schema.org');
+    if(schema['@type']==='Blog'||schema['@type']==='BlogPosting')assert.equal(schema.inLanguage,locale);
+   }
+   if(suffix===catalog.posts[0].slug+'/'){
+    assert.equal((html.match(/id="download-checklist"/g)||[]).length,1);
+    assert.ok(html.includes(`href="/${locale}/privacy/"`));
+    assert.ok(html.includes(locale==='uk'?'Отримайте безкоштовний чекліст':'Get your free checklist'));
+   }
+  }
+  for(const suffix of suffixes){
+    const fallback=fs.readFileSync('out/blog/'+suffix+'index.html','utf8');
+    assert.ok(fallback.includes('/en/blog/'+suffix));assert.ok(fallback.includes('location.search+location.hash'));
+    assert.ok(!fallback.includes('article-prose'));
   }
 });
