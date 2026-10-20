@@ -48,3 +48,7 @@ Briller.House's AI-assisted knowledge base brings together Mike Briller's hands-
 
 ## Plan capabilities
 Commercial licensing is available on all paid plans. PDF specification export and a dedicated faster generation queue are available on Pro Design and Studio / Architect. Shared projects are available on Studio / Architect, which includes three team seats. Confirm current terms and entitlements in the app.
+
+## Blog: Briller Field Notes
+- [Blog](https://briller.house/blog/): Practical design and renovation guides, with category and topic archives. English-first.
+- [How to Read an AI Render Before You Build](https://briller.house/blog/how-to-read-an-ai-render-before-you-build/): Mike Briller’s five checks for room geometry, structure, services, ceiling height and material specifications. Includes a free one-page builder checklist.

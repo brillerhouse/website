@@ -34,16 +34,16 @@ export function LocaleRouting() {
   }, []);
   return null;
 }
-export function FooterLanguages({ locale, page }: { locale: Locale; page: string }) {
+export function FooterLanguages({ locale, page, languages = ['en', 'uk'], paths }: { locale: Locale; page: string; languages?: Locale[]; paths?: Partial<Record<Locale, string>> }) {
   return <nav className="footer-languages" aria-label={locale === 'uk' ? 'Мова сайту' : 'Website language'}>
-    {(['en','uk'] as const).map(language => <a key={language} href={href(language,page)} hrefLang={language} lang={language} aria-current={locale === language ? 'true' : undefined}
+    {languages.map(language => <a key={language} href={paths?.[language] ?? href(language,page)} hrefLang={language} lang={language} aria-current={locale === language ? 'true' : undefined}
       aria-label={language === 'uk' ? 'Перемкнути українською' : 'Switch to English'}
       onClick={event => {
         remember(language);
         // Native links remain usable without JavaScript; preserve URL extras for ordinary clicks.
         if (!event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey && event.button === 0) {
           event.preventDefault();
-          location.assign(href(language,page) + location.search + location.hash);
+          location.assign((paths?.[language] ?? href(language,page)) + location.search + location.hash);
         }
       }}>{language.toUpperCase()}</a>)}
   </nav>;

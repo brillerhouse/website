@@ -87,6 +87,14 @@
           {
             "type": "paragraph",
             "text": "When you do send it, we receive your name, email address and message. We use them only to answer you. Mailbox provider: Gmail. We keep enquiries for 3 months and delete them on request, unless we have to keep them by law."
+          },
+          {
+            "type": "heading",
+            "text": "Free resource requests"
+          },
+          {
+            "type": "paragraph",
+            "text": "If you request a free checklist or other resource, we collect your name, email address, the requested resource and the request date. We use Brevo to store the request and send the download link. This is separate from the contact form above and does not subscribe you to marketing. You can request deletion by emailing hello@briller.house."
           }
         ]
       },
@@ -354,6 +362,10 @@
               [
                 "Google Analytics, Meta",
                 "Optional website analytics and advertising, with your consent"
+              ],
+              [
+                "Brevo",
+                "Storing requested-resource contacts and sending download emails"
               ]
             ]
           },
@@ -527,6 +539,14 @@
           {
             "type": "paragraph",
             "text": "Після надсилання ми отримуємо ваше ім’я, email-адресу та повідомлення. Ми використовуємо їх лише для відповіді. Поштовий провайдер: Gmail. Ми зберігаємо звернення 3 місяці та видаляємо на запит, якщо закон не вимагає їх зберігати."
+          },
+          {
+            "type": "heading",
+            "text": "Запити на безкоштовні матеріали"
+          },
+          {
+            "type": "paragraph",
+            "text": "Якщо ви замовляєте безкоштовний чекліст чи інший матеріал, ми збираємо ваше ім’я, email-адресу, назву матеріалу та дату запиту. Ми використовуємо Brevo для зберігання запиту й надсилання посилання для завантаження. Це окремо від контактної форми вище й не підписує вас на маркетингові розсилки. Для видалення даних напишіть на hello@briller.house."
           }
         ]
       },
@@ -794,6 +814,10 @@
               [
                 "Google Analytics, Meta",
                 "Необов’язкова аналітика сайту та реклама за вашою згодою"
+              ],
+              [
+                "Brevo",
+                "Зберігання контактів для запитаних матеріалів і надсилання листів із посиланнями"
               ]
             ]
           },

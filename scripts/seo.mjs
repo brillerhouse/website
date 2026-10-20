@@ -9,6 +9,11 @@ for(const page of pages){
  fs.writeFileSync(file,html.replace('<html lang="en"','<html lang="uk"'));
 }
 fs.writeFileSync('out/sitemap.xml','<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+['en','uk'].flatMap(locale=>pages.map(page=>{const suffix=page?page+'/':'';return `<url><loc>${origin}/${locale}/${suffix}</loc><xhtml:link rel="alternate" hreflang="en" href="${origin}/en/${suffix}"/><xhtml:link rel="alternate" hreflang="uk" href="${origin}/uk/${suffix}"/><xhtml:link rel="alternate" hreflang="x-default" href="${origin}/en/${suffix}"/></url>`})).join('')+'</urlset>');
+// Blog is English-first and intentionally absent from the navigation menus.
+const blog=JSON.parse(fs.readFileSync('content/blog/catalog.json','utf8'));
+const blogPaths=['/blog/',...blog.posts.map(post=>`/blog/${post.slug}/`),...blog.categories.filter(category=>blog.posts.some(post=>post.categories.includes(category.slug))).map(category=>`/blog/category/${category.slug}/`),...blog.tags.filter(tag=>blog.posts.some(post=>post.tags.includes(tag.slug))).map(tag=>`/blog/tag/${tag.slug}/`)];
+const sitemap=fs.readFileSync('out/sitemap.xml','utf8');
+fs.writeFileSync('out/sitemap.xml',sitemap.replace('</urlset>',blogPaths.map(route=>`<url><loc>${origin}${route}</loc></url>`).join('')+'</urlset>'));
 const preview=process.env.BRILLER_PREVIEW==='1';
 if(preview){
  function protect(directory){for(const entry of fs.readdirSync(directory,{withFileTypes:true})){

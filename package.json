@@ -9,15 +9,19 @@
     "gallery:quality": "node scripts/gallery-quality.mjs check",
     "gallery:review": "node scripts/gallery-quality.mjs report",
     "check": "tsc --noEmit",
-    "test": "node scripts/locale-routing.test.mjs && node scripts/cookie-consent.test.mjs && node scripts/verify.mjs && node scripts/solution-examples.test.mjs && node scripts/gallery.test.mjs && node --test scripts/gallery-quality.test.mjs"
+    "test": "node scripts/locale-routing.test.mjs && node scripts/cookie-consent.test.mjs && node scripts/verify.mjs && node scripts/solution-examples.test.mjs && node scripts/gallery.test.mjs && node --test scripts/gallery-quality.test.mjs && npm run test:blog",
+    "test:blog": "node --experimental-strip-types --test scripts/blog.test.mjs && node --test services/blog-leads/server.test.mjs",
+    "blog:leads": "node services/blog-leads/server.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",
+    "markdown-it": "14.3.3",
     "next": "^15.5.12",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@types/markdown-it": "14.1.2",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",

@@ -31,6 +31,7 @@ jobs:
       REGISTRY: briller-web
       BRILLER_PREVIEW: '0'
       NEXT_TELEMETRY_DISABLED: '1'
+      NEXT_PUBLIC_BLOG_LEAD_ENDPOINT: ${{ vars.BLOG_LEAD_ENDPOINT }}
       BRILLER_RELEASE_SHA: ${{ inputs.release_sha }}
     steps:
       - name: Validate release input
@@ -78,7 +79,7 @@ jobs:
           gcloud auth configure-docker "$REGION-docker.pkg.dev" --quiet
           mkdir -p "$RUNNER_TEMP/briller-container"
           cp -R out "$RUNNER_TEMP/briller-container/out"
-          cp deployment/nginx.conf "$RUNNER_TEMP/briller-container/nginx.conf"
+          node scripts/render-nginx.mjs "$RUNNER_TEMP/briller-container/nginx.conf"
           cp deployment/Dockerfile.runtime "$RUNNER_TEMP/briller-container/Dockerfile"
           IMAGE="$REGION-docker.pkg.dev/$PROJECT_ID/$REGISTRY/$SERVICE:$BRILLER_RELEASE_SHA"
           docker build -t "$IMAGE" "$RUNNER_TEMP/briller-container"

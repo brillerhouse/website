@@ -1,0 +1,99 @@
+{
+  "categories": [
+    {
+      "slug": "renovation-planning",
+      "name": "Renovation planning",
+      "description": "Decisions, site checks and project scope before work begins."
+    },
+    {
+      "slug": "building-technical",
+      "name": "Building & technical",
+      "description": "Geometry, structure, services and the details behind a design."
+    },
+    {
+      "slug": "design-workflows",
+      "name": "Design workflows",
+      "description": "Room analysis, references and focused design iterations."
+    },
+    {
+      "slug": "materials-lighting",
+      "name": "Materials & lighting",
+      "description": "Specifications, finishes, lighting and product choices."
+    }
+  ],
+  "tags": [
+    {
+      "slug": "ai-renders",
+      "name": "AI renders"
+    },
+    {
+      "slug": "site-measurements",
+      "name": "Site measurements"
+    },
+    {
+      "slug": "structural-changes",
+      "name": "Structural changes"
+    },
+    {
+      "slug": "building-services",
+      "name": "Building services"
+    },
+    {
+      "slug": "lighting",
+      "name": "Lighting"
+    },
+    {
+      "slug": "checklists",
+      "name": "Checklists"
+    }
+  ],
+  "posts": [
+    {
+      "slug": "how-to-read-an-ai-render-before-you-build",
+      "title": "How to Read an AI Render Before You Build",
+      "excerpt": "A convincing image can still miss the things that matter on site. Mike Briller walks through five checks for geometry, structure, services, ceiling height and specifications before you commit to work.",
+      "date": "2026-10-20",
+      "author": {
+        "name": "Mike Briller",
+        "role": "Founder of Briller.House",
+        "image": "/images/mike-briller.webp"
+      },
+      "categories": [
+        "renovation-planning",
+        "building-technical"
+      ],
+      "tags": [
+        "ai-renders",
+        "site-measurements",
+        "structural-changes",
+        "building-services",
+        "lighting",
+        "checklists"
+      ],
+      "keywords": [
+        "AI interior design",
+        "render review",
+        "renovation",
+        "builder checklist",
+        "room geometry",
+        "measured survey",
+        "load bearing wall",
+        "plumbing",
+        "drainage",
+        "electrical",
+        "ventilation",
+        "ceiling height",
+        "cabinet fronts",
+        "microcement",
+        "LED",
+        "2700K",
+        "3000K"
+      ],
+      "image": "/images/hero-room-after.webp",
+      "imageAlt": "Illustrative living-room design with timber details, layered lighting and fitted storage.",
+      "imageCaption": "Illustrative design concept. Dimensions, structure and services still need to be checked on site.",
+      "download": "builder-checklist",
+      "featured": true
+    }
+  ]
+}
