@@ -11,8 +11,8 @@ test('Blog catalog has unique slugs, valid taxonomy and local content/assets', (
   for(const post of catalog.posts){assert.match(post.slug,/^[a-z0-9-]+$/);assert.ok(fs.existsSync(`content/blog/posts/${post.slug}.md`));assert.ok(fs.existsSync('public'+post.image));assert.ok(post.categories.every(id=>catalog.categories.some(c=>c.slug===id)));assert.ok(post.tags.every(id=>catalog.tags.some(t=>t.slug===id)));}
   assert.equal(fs.readFileSync('public/downloads/briller-builder-checklist-letter.pdf').subarray(0,5).toString(),'%PDF-');
 });
-test('Article renders its real structure, dimension table, five checks and all ten source anchors', () => {
-  const {html,headings}=renderArticle(source);assert.ok(!html.includes('<h1'));assert.equal(headings.length,5);assert.ok(headings.some(h=>h.title==='Sources'));assert.equal((html.match(/id="source-\d+"/g)||[]).length,10);assert.equal((html.match(/<h3[^>]*>Check \d:/g)||[]).length,5);assert.match(html,/2,325 mm/);assert.match(html,/<table>/);assert.match(html,/href="#source-10"/);assert.ok(!html.includes('>1. A convincing image'));assert.ok(!html.includes('<h2>1.'));
+test('Article renders its real structure, dimension table, five checks and five technical source anchors', () => {
+  const {html,headings}=renderArticle(source);assert.ok(!html.includes('<h1'));assert.equal(headings.length,5);assert.ok(headings.some(h=>h.title==='Sources'));assert.equal((html.match(/id="source-\d+"/g)||[]).length,5);assert.equal((html.match(/<h3[^>]*>Check \d:/g)||[]).length,5);assert.match(html,/2,325 mm/);assert.match(html,/<table>/);assert.match(html,/href="#source-5"/);assert.ok(!html.includes('>1. A convincing image'));assert.ok(!html.includes('<h2>1.'));
 });
 test('Markdown does not allow executable raw HTML or script links', () => {
   const {html}=renderArticle('# Title\n\n<script>alert(1)</script>\n\n[bad](javascript:alert(1))\n\n## A heading\n\n## A heading');assert.ok(!html.includes('<script>'));assert.ok(!html.includes('href="javascript:'));assert.match(html,/id="a-heading"/);assert.match(html,/id="a-heading-2"/);
