@@ -11,7 +11,7 @@ on:
         required: true
         default: inspect
         type: choice
-        options: [inspect, deploy]
+        options: [inspect, prepare, deploy]
       sender_email:
         description: Verified Brevo sender
         required: true
@@ -65,6 +65,19 @@ jobs:
           workload_identity_provider: projects/1097780641970/locations/global/workloadIdentityPools/briller-website-dev/providers/github-dev
           service_account: briller-dev-deployer@nifty-atlas-473013-f9.iam.gserviceaccount.com
       - uses: google-github-actions/setup-gcloud@v2
+      - name: Prepare missing cloud resources with current deployment permissions
+        if: inputs.mode == 'prepare'
+        run: |
+          if ! bash deployment/setup-blog-leads.sh --prepare-only 2>"$RUNNER_TEMP/resource-setup-error.txt"; then
+            python3 - <<'PYCODE'
+          import os
+          from pathlib import Path
+          message=Path(os.environ['RUNNER_TEMP'],'resource-setup-error.txt').read_text().strip()
+          message=message.replace('%','%25').replace('\r','%0D').replace('\n','%0A')
+          print('::error title=Resource cloud setup rejected::'+message[:4000])
+          PYCODE
+            exit 1
+          fi
       - name: Inspect cloud prerequisites without reading secret values
         id: prerequisites
         run: |

@@ -3,6 +3,7 @@
 # The key is entered privately here, never sent to GitHub or chat.
 set +x
 set -euo pipefail
+[[ "${1:-}" == '' || "${1:-}" == --prepare-only ]] || { echo 'Unknown setup option' >&2; exit 1; }
 BRILLER_PROJECT='nifty-atlas-473013-f9'
 BRILLER_REGION='europe-west1'
 BRILLER_SECRET='briller-blog-leads-brevo-api-key'
@@ -33,6 +34,10 @@ briller_retry_iam gcloud secrets add-iam-policy-binding "$BRILLER_SECRET" --proj
 briller_retry_iam gcloud secrets add-iam-policy-binding "$BRILLER_SECRET" --project="$BRILLER_PROJECT" --member="serviceAccount:$BRILLER_DEPLOYER" --role=roles/secretmanager.viewer --quiet >/dev/null
 briller_retry_iam gcloud iam service-accounts add-iam-policy-binding "$BRILLER_RUNTIME" --project="$BRILLER_PROJECT" --member="serviceAccount:$BRILLER_DEPLOYER" --role=roles/iam.serviceAccountUser --quiet >/dev/null
 BRILLER_VERSIONS="$(gcloud secrets versions list "$BRILLER_SECRET" --project="$BRILLER_PROJECT" --filter='state=ENABLED' --format='value(name)' --limit=1)"
+if [[ -z "$BRILLER_VERSIONS" && "${1:-}" == --prepare-only ]]; then
+  printf 'Cloud resources prepared. Add the Brevo key to Secret Manager before deployment.\n'
+  exit 0
+fi
 if [[ -z "$BRILLER_VERSIONS" ]]; then
   read -r -s -p 'Paste the Brevo API key (hidden input): ' BRILLER_BREVO_KEY
   printf '\n'
