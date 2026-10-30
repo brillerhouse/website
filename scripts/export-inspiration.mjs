@@ -4,18 +4,21 @@ import os from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { spawn } from 'node:child_process';
 import sharp from 'sharp';
+import { galleryWebImages, applyGalleryWebImage } from './gallery-image-records.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = async file => JSON.parse(await fs.readFile(path.join(root, file), 'utf8'));
 const slug = value => String(value).normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const csv = value => '"' + String(value ?? '').replace(/"/g, '""') + '"';
 
-export async function inventory() {
+export async function inventory({ original = false } = {}) {
   const catalogue = await read('content/gallery-catalogue.json');
   const edition = await read('content/gallery-variants.json');
   const references = await read('content/gallery.json');
+  const webImages = await galleryWebImages(root);
   const label = (items, id, locale = 'en') => items.find(item => item.id === id)?.label[locale] || id || '';
   return [...edition.variants.map(item => ({ ...item, collection: 'designs' })), ...references.map(item => ({ ...item, collection: 'original-references' }))].map(item => {
+    if (!original) item = applyGalleryWebImage(item,item.collection,webImages);
     const room = label(catalogue.rooms, item.room), style = label(catalogue.styles, item.style);
     const budget = label(edition.tiers, item.tier), size = label(edition.sizes, item.size);
     const title = item.title || { en: `${style} · ${room}`, uk: `${label(catalogue.styles, item.style, 'uk')} · ${label(catalogue.rooms, item.room, 'uk')}` };

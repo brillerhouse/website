@@ -16,6 +16,7 @@ const scope = { exports: {}, require: id => {
   if (id === '@/content/gallery-catalogue.json') return { default: catalogue };
   if (id === '@/content/gallery-variants.json') return { default: edition };
   if (id === '@/content/gallery.json') return { default: originals };
+  if (id === '@/content/gallery-web-images.json') return { default: read('content/gallery-web-images.json') };
   throw new Error(`Unexpected dependency: ${id}`);
 }};
 vm.runInNewContext(outputText, scope);
@@ -81,6 +82,7 @@ test('original and selectively corrected image sets provide 252 valid, individua
 });
 test('current quality review records changed images, preserves selected renders and binds every approval to current pixels', () => {
   const sha = data => createHash('sha256').update(data).digest('hex');
+  const sourceItem = item => item.id.startsWith('reference:') ? originals.find(row => row.id === item.id.slice('reference:'.length)) : edition.variants.find(row => row.id === item.id);
   const renderedHash = item => {
     const image = item.detailImage || item.image;
     const crop = item.detailImage || !item.crop ? null : item.crop;
@@ -100,11 +102,11 @@ test('current quality review records changed images, preserves selected renders 
   for (const item of review.preserved) {
     const current = galleryConcepts.find(candidate => candidate.id === item.id);
     assert.ok(current, item.id);
-    assert.equal(renderedHash(current), item.renderSha256, `Unreviewed change: ${item.id}`);
+    assert.equal(renderedHash(sourceItem(current)), item.renderSha256, `Changed historical source: ${item.id}`);
   }
   for (const item of review.replacements) {
     assert.ok(item.reason && item.fix, item.id);
-    const digest = renderedHash(galleryConcepts.find(candidate => candidate.id === item.id));
+    const digest = renderedHash(sourceItem(galleryConcepts.find(candidate => candidate.id === item.id)));
     assert.notEqual(digest, item.previousRenderSha256, item.id);
     assert.equal(digest, item.renderSha256, item.id);
   }
@@ -118,7 +120,8 @@ test('curated opening uses real variants and original references remain availabl
   assert.equal(galleryHighlights.length, 3);
   assert.equal(new Set(galleryHighlights.map(item => item.id)).size, 3);
   for (const item of galleryHighlights) assert.ok(galleryConcepts.some(candidate => candidate.id === item.id));
-  assert.equal(galleryConcepts.filter(item => item.detailImage).length, 3);
+  const importedIds = read('content/gallery-web-images.json').images.filter(item => item.id.startsWith('designs:')).map(item => item.id.slice('designs:'.length));
+  assert.equal(galleryConcepts.filter(item => item.detailImage).length, new Set([...galleryHighlights.map(item => item.id), ...importedIds]).size);
   for (const item of galleryHighlights) {
     assert.ok(item.detailImage, item.id);
     const image = fs.readFileSync('public' + item.detailImage);

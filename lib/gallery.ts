@@ -1,6 +1,7 @@
 import catalogue from '@/content/gallery-catalogue.json';
 import edition from '@/content/gallery-variants.json';
 import references from '@/content/gallery.json';
+import webImages from '@/content/gallery-web-images.json';
 import type { Locale } from './content';
 
 export const galleryRooms = catalogue.rooms;
@@ -16,6 +17,7 @@ export type GalleryItem = {
   title: Record<Locale, string>;
   image: string;
   detailImage?: string;
+  webImage?: { id: string; src: string; width: number; height: number; sources: { src: string; width: number; height: number }[] };
   tile?: number;
   crop?: { x: number; y: number; width: number; height: number };
   tier?: string;
@@ -23,19 +25,24 @@ export type GalleryItem = {
   area?: number;
   architecture?: Record<Locale, string>;
 };
+const webImageMap = new Map((webImages.images as NonNullable<GalleryItem['webImage']>[]).map(image => [image.id, image]));
+function withWebImage(item: GalleryItem, collection: string): GalleryItem {
+  const webImage = webImageMap.get(`${collection}:${item.id}`);
+  return webImage ? { ...item, detailImage: webImage.src, webImage } : item;
+}
 // Interleave rooms, styles and specifications so the first screen is a varied selection.
 export const galleryConcepts: GalleryItem[] = galleryStyles.flatMap((_, round) =>
   galleryRooms.flatMap((room, roomIndex) => galleryTiers.map((tier, tierIndex) => {
     const style = galleryStyles[(round + roomIndex + tierIndex * 4) % galleryStyles.length];
     const variant = edition.variants.find(item => item.room === room.id && item.style === style.id && item.tier === tier.id)!;
-    return {
+    return withWebImage({
       ...variant,
       crop: 'crop' in variant ? variant.crop as GalleryItem['crop'] : undefined,
       title: { en: `${style.label.en} · ${room.label.en}`, uk: `${style.label.uk} · ${room.label.uk}` }
-    };
+    }, 'designs');
   }))
 );
-export const galleryReferences: GalleryItem[] = references;
+export const galleryReferences: GalleryItem[] = references.map(item => withWebImage(item, 'original-references'));
 export const galleryHighlights = ['living-contemporary-premium', 'living-industrial-economy', 'bedroom-japandi-budget'].map(id => galleryConcepts.find(item => item.id === id)!);
 export function galleryVersions(item: GalleryItem) {
   return galleryTiers.map(tier => galleryConcepts.find(other => other.room === item.room && other.style === item.style && other.tier === tier.id)!).filter(Boolean);

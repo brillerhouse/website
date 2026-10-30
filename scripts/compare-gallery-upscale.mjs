@@ -41,7 +41,7 @@ async function writeResult(output,sample,method,bytes,native={}) {
 }
 export async function runComparison(options,{apiKey=(process.env.GEMINI_API_KEY||'').trim(),fetcher=fetch,createLocal=createRealEsrgan,log=console.log}={}) {
  const profile=resolutionProfile(options.resolution);
- const all=await inventory(),items=options.ids.map(id=>all.find(item=>item.id===id));
+ const all=await inventory({original:true}),items=options.ids.map(id=>all.find(item=>item.id===id));
  if(items.some(item=>!item)||new Set(items.map(item=>item.room)).size!==3)throw new Error('Select three existing gallery items from different room categories');
  const config={model:options.model,height:profile.height,ids:options.ids,promptSha256:hash(geminiPrompt(profile)),realEsrganModelSha256:JSON.parse(await fs.readFile(path.join(root,'tools/upscale/models/realesrgan-general-x4v3-dni030.json'),'utf8')).sha256};
  let report;

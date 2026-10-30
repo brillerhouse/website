@@ -6,3 +6,6 @@ out/
 .gallery-review/
 
 gha-creds-*.json
+
+/public/images/gallery/.import-*/
+/content/gallery-web-images.json.tmp-*

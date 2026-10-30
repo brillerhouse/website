@@ -3,6 +3,7 @@ import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
+import { galleryWebImages, applyGalleryWebImage, verifyGalleryWebImages } from './gallery-image-records.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const read = async file => JSON.parse(await fs.readFile(path.join(root, file), 'utf8'));
@@ -16,7 +17,9 @@ export const hamming = (a, b) => {
 };
 export async function entries() {
   const [edition, references] = await Promise.all([read('content/gallery-variants.json'), read('content/gallery.json')]);
-  return [...edition.variants, ...references.map(item => ({ ...item, id: `reference:${item.id}`, reference: true }))];
+  const images = await galleryWebImages(root);
+  await verifyGalleryWebImages(root,images);
+  return [...edition.variants.map(item => applyGalleryWebImage(item,'designs',images)), ...references.map(item => ({ ...applyGalleryWebImage(item,'original-references',images), id: `reference:${item.id}`, reference: true }))];
 }
 export function validateCoverage(items, catalogue, edition) {
   const errors = [], concepts = items.filter(item => !item.reference);

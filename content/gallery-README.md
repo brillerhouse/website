@@ -40,3 +40,7 @@ Most sources are portrait 1024×1536 sets of eight landscape scenes. Each varian
 `components/Gallery.tsx` provides room/style/budget/size filters, pagination, three-way version switching and bilingual prompt copying. Some exact filter combinations have no matching version and offer a reset. Original references have no assigned budget/size and disappear when either filter is active. Clipboard rejection exposes a selectable prompt. There is no automatic prompt transfer to the redesign app.
 
 Verify with `BRILLER_PREVIEW=1 npm run build`, `npm run check` and `BRILLER_PREVIEW=1 npm test`. Browser checks should cover all 252 versions in both languages, source/crop matching, filters, copying and clipboard rejection, dialog focus/Escape, and desktop/mobile layouts. Ordinary edits are published to `preview` only, following the repository's AGENTS.md.
+
+## Individual high-resolution images
+
+`gallery-web-images.json` is an optional, initially empty overlay keyed by `designs:<id>` and `original-references:<id>`. The Gemini importer activates it only after validating and encoding a complete 4K batch. Each entry supplies the individual full-size image and responsive derivatives. Gallery rendering, SEO, exports and quality analysis resolve this overlay consistently; source clusters, original metadata and history remain intact. Changed pixels still invalidate existing visual approvals. See [the import guide](../GALLERY-WEB-IMPORT.md).

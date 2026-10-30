@@ -48,12 +48,12 @@ export async function planBatch({input,output,model}) {
     const dest = await canonical(output), relative = path.relative(input,dest);
     if (!relative || (!relative.startsWith('..' + path.sep) && relative !== '..' && !path.isAbsolute(relative))) throw new Error('Output must be outside the input folder');
   }
-  const sources = input ? await walk(input) : (await inventory()).map(item => ({ source:path.join(root,'public',item.detailImage || item.image), relative:item.file, item }));
+  const sources = input ? await walk(input) : (await inventory({original:true})).map(item => ({ source:path.join(root,'public',item.detailImage || item.image), relative:item.file, item }));
   if (!sources.length) throw new Error('No separate JPG, PNG or WebP images found');
   const entries = [];
   const sheetHashes = new Set();
   if (input) {
-    const sheets = new Set((await inventory()).filter(item => item.crop && !item.detailImage).map(item => item.image));
+    const sheets = new Set((await inventory({original:true})).filter(item => item.crop && !item.detailImage).map(item => item.image));
     for (const sheet of sheets) sheetHashes.add(hash(await fs.readFile(path.join(root,'public',sheet))));
   }
   for (const source of sources) {

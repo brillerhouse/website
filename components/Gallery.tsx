@@ -5,7 +5,8 @@ import { GalleryCategoryIcon } from './GalleryCategoryIcon';
 import { copy, site, type Locale } from '@/lib/content';
 import { galleryConcepts, galleryReferences, galleryRooms, galleryStyles, galleryTiers, gallerySizes, galleryHighlights, galleryVersions, galleryPrompt, type GalleryItem } from '@/lib/gallery';
 
-function GalleryImage({ item, locale }: { item: GalleryItem; locale: Locale }) {
+function GalleryImage({ item, locale, large = false }: { item: GalleryItem; locale: Locale; large?: boolean }) {
+  if (item.webImage) return <img className="gallery-reference-image" src={item.webImage.src} srcSet={item.webImage.sources.map(source => `${source.src} ${source.width}w`).join(', ')} sizes={large ? "(max-width: 700px) 100vw, 70vw" : "(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw"} width={item.webImage.width} height={item.webImage.height} alt={item.title[locale]} loading="lazy" decoding="async"/>;
   if (item.detailImage || item.tile === undefined) return <img className="gallery-reference-image" src={item.detailImage || item.image} alt={item.title[locale]} loading="lazy"/>;
   const crop = item.crop;
   if (!crop) return null;
@@ -74,12 +75,12 @@ export function Gallery({ locale, preview = false, children }: { locale: Locale;
     {references.length > 0 && <section className="gallery-originals">{!preview && <div className="gallery-reference-heading"><h2>{g.references}</h2><p>{g.referenceIntro}</p></div>}{cards(references)}</section>}
     <p className="small gallery-note">{preview ? c.home.galleryNote : g.generatedNote}</p><span className="sr-only" role="status" aria-live="polite">{copied ? g.copied : ''}</span>
     <dialog ref={dialog} className="inspiration-dialog" onClose={closed} onClick={event => { if (event.target === dialog.current) close(); }} aria-labelledby={`gallery-title-${preview ? 'preview' : 'full'}`}>
-      {active && <div className="inspiration-lightbox"><button className="dialog-close" type="button" onClick={close} aria-label={g.close}><X/></button><div className="inspiration-lightbox-image"><GalleryImage item={active} locale={locale}/></div>
+      {active && <div className="inspiration-lightbox"><button className="dialog-close" type="button" onClick={close} aria-label={g.close}><X/></button><div className="inspiration-lightbox-image"><GalleryImage item={active} locale={locale} large/></div>
         <div className="inspiration-lightbox-copy"><p className="eyebrow">{active.tier ? meta(active) : galleryRooms.find(room => room.id === active.room)?.label[locale]}</p><h2 id={`gallery-title-${preview ? 'preview' : 'full'}`}>{active.title[locale]}</h2>
           {active.tier && <fieldset className="gallery-version-selector"><legend>{g.compareVersions}</legend>{galleryVersions(active).map(version => <button key={version.id} type="button" aria-pressed={active.id === version.id} className={active.id === version.id ? 'selected' : ''} onClick={() => { setActive(version); setCopyFailed(false); }}><strong><GalleryCategoryIcon category="budgets" id={version.tier!} size={22}/>{galleryTiers.find(t => t.id === version.tier)?.label[locale]}</strong><span>{gallerySizes.find(s => s.id === version.size)?.label[locale]}</span></button>)}</fieldset>}
           <label className="gallery-prompt-label" htmlFor={`gallery-prompt-${preview ? 'preview' : 'full'}`}>{g.promptLabel}</label><textarea ref={prompt} id={`gallery-prompt-${preview ? 'preview' : 'full'}`} className="gallery-prompt" readOnly value={galleryPrompt(active, locale)} rows={8}/>
           {copyFailed && <p className="gallery-copy-error" role="status">{g.copyFailed}</p>}<div className="button-row"><button type="button" className="button" onClick={event => copyPrompt(active, event.currentTarget)}>{copied === active.id ? <Check size={17}/> : <Copy size={17}/>} {copied === active.id ? g.copied : g.copyPrompt}</button><a className="text-link" href={site.app}>{g.studio}<ArrowUpRight size={17}/></a></div><p className="small">{g.promptHelp}</p>
-          {active.tile === undefined && <><a className="gallery-download text-link" href={active.image} download={`briller-reference-${active.id}.jpg`}><Download size={16}/>{g.save}</a><p className="small">{g.manual}</p></>}<p className="small">{active.tile === undefined ? c.home.galleryNote : g.generatedNote}</p>
+          {active.tile === undefined && <><a className="gallery-download text-link" href={active.detailImage || active.image} download={active.webImage?.src.split('/').pop() || `briller-reference-${active.id}.jpg`}><Download size={16}/>{g.save}</a><p className="small">{g.manual}</p></>}<p className="small">{active.tile === undefined ? c.home.galleryNote : g.generatedNote}</p>
         </div></div>}
     </dialog>
   </div>;
