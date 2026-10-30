@@ -10,6 +10,7 @@ import { createRealEsrgan } from './upscale/real-esrgan.mjs';
 import { checkGemini, upscaleGemini, inspectGeminiImage, safeError, DEFAULT_GEMINI_MODEL, geminiPrompt } from './upscale/gemini.mjs';
 import { resolutionProfile, profileForHeight } from './upscale/resolution.mjs';
 import { neuralUpscaleToTarget } from './upscale/neural-target.mjs';
+import { normalizeImage } from './upscale/normalize.mjs';
 import { comparisonHtml } from './upscale/report.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
@@ -33,17 +34,10 @@ async function saveReport(output,report) {
 }
 async function writeResult(output,sample,method,bytes,native={}) {
  const profile=profileForHeight(sample.target.height),file=sample.id+'/'+method+'-'+profile.suffix+'.jpg',target=path.join(output,file);
- if(method!=='baseline'){
-  const native=await sharp(bytes).metadata();
-  if(Math.min(sample.target.width/native.width,sample.target.height/native.height)>1)throw new Error('Native AI output is below target; ordinary enlargement is not allowed');
- }
- const resized=await sharp(bytes).resize(sample.target.width,sample.target.height,{fit:'inside',kernel:'lanczos3',withoutEnlargement:method!=='baseline'}).toBuffer({resolveWithObject:true});
- const dx=sample.target.width-resized.info.width,dy=sample.target.height-resized.info.height;
- const padding={left:Math.floor(dx/2),right:Math.ceil(dx/2),top:Math.floor(dy/2),bottom:Math.ceil(dy/2)};
- await sharp(resized.data).extend({...padding,background:'#f1f3f4'}).jpeg({quality:95,chromaSubsampling:'4:4:4',mozjpeg:true}).toFile(target);
- const metadata=await sharp(target).metadata();
- if(metadata.width!==sample.target.width||metadata.height!==sample.target.height)throw new Error('Output size mismatch');
- sample.results[method]={status:'complete',file,width:metadata.width,height:metadata.height,sha256:await fileHash(target),contentWidth:resized.info.width,contentHeight:resized.info.height,padding,...native};
+ const normalized=await normalizeImage(bytes,sample.target,{allowEnlarge:method==='baseline'});
+ await fs.writeFile(target,normalized.data);
+ const {data,...dimensions}=normalized;
+ sample.results[method]={status:'complete',file,...dimensions,sha256:await fileHash(target),...native};
 }
 export async function runComparison(options,{apiKey=(process.env.GEMINI_API_KEY||'').trim(),fetcher=fetch,createLocal=createRealEsrgan,log=console.log}={}) {
  const profile=resolutionProfile(options.resolution);

@@ -16,7 +16,8 @@
     "gallery:export": "node scripts/export-inspiration.mjs",
     "gallery:compare": "node scripts/compare-gallery-upscale.mjs",
     "gallery:compare:setup": "node tools/upscale/setup.mjs",
-    "test:upscale": "node --test scripts/upscale/*.test.mjs"
+    "test:upscale": "node --test scripts/upscale/*.test.mjs",
+    "gallery:upscale:gemini": "node scripts/upscale-gallery-gemini.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

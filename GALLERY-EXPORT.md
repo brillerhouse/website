@@ -41,3 +41,5 @@ This is a local export tool. It does not change gallery photos, website content 
 ## AI-upscale comparison
 
 The export above is ordinary resizing, not detail restoration. To compare real local Real-ESRGAN with Gemini on three original scene crops, use [the comparison guide](GALLERY-UPSCALING-COMPARISON.md).
+
+For a full Gemini-only 4K batch with descriptive filenames, resumable processing and a local review report, see [the Gemini batch guide](GALLERY-GEMINI-4K.md).
