@@ -7,7 +7,9 @@ import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
 import { inventory, extractionBox } from './export-inspiration.mjs';
 import { createRealEsrgan } from './upscale/real-esrgan.mjs';
-import { checkGemini, upscaleGemini, safeError, DEFAULT_GEMINI_MODEL, GEMINI_PROMPT } from './upscale/gemini.mjs';
+import { checkGemini, upscaleGemini, inspectGeminiImage, safeError, DEFAULT_GEMINI_MODEL, geminiPrompt } from './upscale/gemini.mjs';
+import { resolutionProfile, profileForHeight } from './upscale/resolution.mjs';
+import { neuralUpscaleToTarget } from './upscale/neural-target.mjs';
 import { comparisonHtml } from './upscale/report.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
@@ -15,13 +17,14 @@ export const SAMPLE_IDS=['living-minimalism-economy','kitchen-industrial-budget'
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 const fileHash=async file=>hash(await fs.readFile(file));
 export function parseOptions(args=process.argv.slice(2)) {
- const {values}=parseArgs({args,options:{run:{type:'boolean',default:false},resume:{type:'boolean',default:false},output:{type:'string'},methods:{type:'string',default:'both'},model:{type:'string',default:process.env.GEMINI_IMAGE_MODEL||DEFAULT_GEMINI_MODEL},ids:{type:'string'},threads:{type:'string',default:'4'},help:{type:'boolean',default:false}},strict:true});
+ const {values}=parseArgs({args,options:{run:{type:'boolean',default:false},resume:{type:'boolean',default:false},output:{type:'string'},methods:{type:'string',default:'both'},model:{type:'string',default:process.env.GEMINI_IMAGE_MODEL||DEFAULT_GEMINI_MODEL},ids:{type:'string'},threads:{type:'string',default:'4'},resolution:{type:'string',default:'1080p'},help:{type:'boolean',default:false}},strict:true});
  if(!['both','realesrgan','gemini'].includes(values.methods))throw new Error('--methods must be both, realesrgan or gemini');
+ const resolution=resolutionProfile(values.resolution);
  const ids=values.ids?values.ids.split(','):SAMPLE_IDS;
  if(ids.length!==3||new Set(ids).size!==3)throw new Error('Select exactly three different gallery IDs');
  const threads=Number(values.threads);if(!Number.isInteger(threads)||threads<1||threads>16)throw new Error('--threads must be an integer from 1 to 16');
  if(values.resume&&!values.output)throw new Error('--resume requires --output with a previous comparison folder');
- return {...values,ids,threads,output:path.resolve(values.output||path.join(os.homedir(),'Downloads','briller-upscale-comparison-'+new Date().toISOString().replace(/[:.]/g,'-'))),methods:values.methods==='both'?['realesrgan','gemini']:[values.methods]};
+ return {...values,resolution:resolution.id,ids,threads,output:path.resolve(values.output||path.join(os.homedir(),'Downloads','briller-upscale-comparison-'+(resolution.id==='4k'?'4k-':'')+new Date().toISOString().replace(/[:.]/g,'-'))),methods:values.methods==='both'?['realesrgan','gemini']:[values.methods]};
 }
 async function saveReport(output,report) {
  await fs.writeFile(path.join(output,'comparison.json.tmp'),JSON.stringify(report,null,2)+'\n');
@@ -29,16 +32,24 @@ async function saveReport(output,report) {
  await fs.writeFile(path.join(output,'comparison.html'),comparisonHtml(report));
 }
 async function writeResult(output,sample,method,bytes,native={}) {
- const file=sample.id+'/'+method+'-1080.jpg',target=path.join(output,file);
- await sharp(bytes).resize(sample.target.width,sample.target.height,{fit:'fill',kernel:'lanczos3'}).jpeg({quality:95,chromaSubsampling:'4:4:4',mozjpeg:true}).toFile(target);
+ const profile=profileForHeight(sample.target.height),file=sample.id+'/'+method+'-'+profile.suffix+'.jpg',target=path.join(output,file);
+ if(method!=='baseline'){
+  const native=await sharp(bytes).metadata();
+  if(Math.min(sample.target.width/native.width,sample.target.height/native.height)>1)throw new Error('Native AI output is below target; ordinary enlargement is not allowed');
+ }
+ const resized=await sharp(bytes).resize(sample.target.width,sample.target.height,{fit:'inside',kernel:'lanczos3',withoutEnlargement:method!=='baseline'}).toBuffer({resolveWithObject:true});
+ const dx=sample.target.width-resized.info.width,dy=sample.target.height-resized.info.height;
+ const padding={left:Math.floor(dx/2),right:Math.ceil(dx/2),top:Math.floor(dy/2),bottom:Math.ceil(dy/2)};
+ await sharp(resized.data).extend({...padding,background:'#f1f3f4'}).jpeg({quality:95,chromaSubsampling:'4:4:4',mozjpeg:true}).toFile(target);
  const metadata=await sharp(target).metadata();
  if(metadata.width!==sample.target.width||metadata.height!==sample.target.height)throw new Error('Output size mismatch');
- sample.results[method]={status:'complete',file,width:metadata.width,height:metadata.height,sha256:await fileHash(target),...native};
+ sample.results[method]={status:'complete',file,width:metadata.width,height:metadata.height,sha256:await fileHash(target),contentWidth:resized.info.width,contentHeight:resized.info.height,padding,...native};
 }
 export async function runComparison(options,{apiKey=(process.env.GEMINI_API_KEY||'').trim(),fetcher=fetch,createLocal=createRealEsrgan,log=console.log}={}) {
+ const profile=resolutionProfile(options.resolution);
  const all=await inventory(),items=options.ids.map(id=>all.find(item=>item.id===id));
  if(items.some(item=>!item)||new Set(items.map(item=>item.room)).size!==3)throw new Error('Select three existing gallery items from different room categories');
- const config={model:options.model,height:1080,ids:options.ids,promptSha256:hash(GEMINI_PROMPT),realEsrganModelSha256:JSON.parse(await fs.readFile(path.join(root,'tools/upscale/models/realesrgan-general-x4v3-dni030.json'),'utf8')).sha256};
+ const config={model:options.model,height:profile.height,ids:options.ids,promptSha256:hash(geminiPrompt(profile)),realEsrganModelSha256:JSON.parse(await fs.readFile(path.join(root,'tools/upscale/models/realesrgan-general-x4v3-dni030.json'),'utf8')).sha256};
  let report;
  if(options.resume){
   report=JSON.parse(await fs.readFile(path.join(options.output,'comparison.json'),'utf8'));
@@ -59,7 +70,7 @@ export async function runComparison(options,{apiKey=(process.env.GEMINI_API_KEY|
    else {
     const ratio=box?(item.crop.width*metadata.width)/(item.crop.height*metadata.height):metadata.width/metadata.height;
     if(Math.abs(ratio-4/3)>0.001)throw new Error('This comparison expects 4:3 gallery scenes');
-    sample={id:item.id,title:item.title.uk,room:item.roomName,style:item.styleName,budget:item.budgetName,input:{width:nativeMetadata.width,height:nativeMetadata.height,sha256:inputHash,source:item.detailImage||item.image,crop:box},target:{width:Math.round(1080*ratio),height:1080},results:{}};
+    sample={id:item.id,title:item.title.uk,room:item.roomName,style:item.styleName,budget:item.budgetName,input:{width:nativeMetadata.width,height:nativeMetadata.height,sha256:inputHash,source:item.detailImage||item.image,crop:box},target:{width:Math.round(profile.height*ratio),height:profile.height},results:{}};
     await fs.mkdir(path.join(options.output,item.id));
     const file=item.id+'/source.png';await fs.writeFile(path.join(options.output,file),native);
     sample.results.source={status:'complete',file,width:nativeMetadata.width,height:nativeMetadata.height,sha256:inputHash};
@@ -67,7 +78,22 @@ export async function runComparison(options,{apiKey=(process.env.GEMINI_API_KEY|
     report.samples.push(sample);
    }
   }
-  await fs.writeFile(path.join(options.output,'README.txt'),'Briller — three-image upscale comparison\n\nOpen comparison.html in a browser. Source: original isolated tile, not the old JPEG export. Baseline: ordinary Lanczos resize. Real-ESRGAN: official general x4v3 model, conservative 0.3 denoise, local CPU inference. Gemini: one remote image request per scene, 2K requested; low-resolution or changed-aspect-ratio responses are rejected.\n\nAI outputs can alter small details. Inspect geometry, hardware, textiles and edges before choosing a batch method. File dimensions are not a fidelity guarantee.\n\nCompleted outputs are skipped with --resume. Failed or interrupted Gemini calls are never retried automatically; a manual retry can incur another charge. No API keys are written into these files. Gallery source files are never modified.\n');
+  await fs.writeFile(path.join(options.output,'README.txt'),`Briller — three-image upscale comparison\n\nOpen comparison.html in a browser. Source: original isolated tile, not the old JPEG export. Baseline: ordinary Lanczos resize. Real-ESRGAN: official general x4v3 model, conservative 0.3 denoise, local CPU inference. Target: ${profile.width}×${profile.height}. For 4K small tiles, Real-ESRGAN runs two neural passes with an intermediate reduction; the final result is not a simple enlargement of its first pass. Gemini: one remote image request per scene, ${profile.imageSize} requested; undersized responses or aspect deviations above 1% are rejected. Near-matching frames are fitted without stretching/cropping, with declared neutral padding.\n\nAI outputs can alter small details. Inspect geometry, hardware, textiles and edges before choosing a batch method. File dimensions are not a fidelity guarantee.\n\nCompleted outputs are skipped with --resume. Failed or interrupted Gemini calls are never retried automatically; a manual retry can incur another charge. No API keys are written into these files. Gallery source files are never modified.\n`);
+  // Recover usable saved Gemini responses before any API preflight. This also
+  // works with --resume WITHOUT --run: no network or paid generation is needed.
+  if(options.resume){
+   for(const sample of report.samples){
+    const old=sample.results.gemini;
+    if(old?.status==='complete'||!old?.nativeFile)continue;
+    const candidate=path.resolve(options.output,old.nativeFile);
+    if(!candidate.startsWith(path.resolve(options.output)+path.sep))throw new Error('Invalid cached native file path');
+    try{
+     const checked=await inspectGeminiImage(await fs.readFile(candidate),{width:sample.target.width,height:sample.target.height,imageSize:profile.imageSize});
+     await writeResult(options.output,sample,'gemini',checked.buffer,{nativeWidth:checked.width,nativeHeight:checked.height,nativeFile:old.nativeFile,aspectDifferencePercent:checked.aspectDifferencePercent,recoveredFromNative:true});
+     log(`${sample.id}: reused saved Gemini native image; no API call`);
+    }catch(error){sample.results.gemini={...old,status:'error',error:safeError(error,apiKey)};}
+   }
+  }
   await saveReport(options.output,report);
   if(!options.run){log('Prepared three native crops, Lanczos controls and comparison.html. No AI inference/API calls performed. Add --run to execute the selected methods.');return report;}
   const missing=method=>report.samples.some(s=>s.results[method]?.status!=='complete');
@@ -83,10 +109,10 @@ export async function runComparison(options,{apiKey=(process.env.GEMINI_API_KEY|
     try {
      let bytes,native={};
      if(method==='realesrgan'){
-      bytes=await local.run(png,(done,total)=>{if(done===1||done===total||done%4===0)log(`  Real-ESRGAN tiles ${done}/${total}`);});
-      const m=await sharp(bytes).metadata();native={nativeWidth:m.width,nativeHeight:m.height};
+      const r=await neuralUpscaleToTarget(png,sample.target,local,(pass,done,total)=>{if(done===1||done===total||done%4===0)log(`  Real-ESRGAN pass ${pass}, tiles ${done}/${total}`);});
+      bytes=r.buffer;native={nativeWidth:r.width,nativeHeight:r.height,passes:r.passes};
      }else{
-      const r=await upscaleGemini(png,{apiKey,model:options.model,width:sample.target.width,height:sample.target.height,fetcher});bytes=r.buffer;native={nativeWidth:r.width,nativeHeight:r.height,modelVersion:r.modelVersion,usage:r.usage};
+      const r=await upscaleGemini(png,{apiKey,model:options.model,width:sample.target.width,height:sample.target.height,imageSize:profile.imageSize,fetcher});bytes=r.buffer;native={nativeWidth:r.width,nativeHeight:r.height,modelVersion:r.modelVersion,usage:r.usage,aspectDifferencePercent:r.aspectDifferencePercent};
      }
      const file=sample.id+'/'+method+'-native.png';await sharp(bytes).png().toFile(path.join(options.output,file));
      await writeResult(options.output,sample,method,bytes,{...native,seconds:Math.round((Date.now()-started)/100)/10,nativeFile:file});
@@ -109,7 +135,7 @@ export async function runComparison(options,{apiKey=(process.env.GEMINI_API_KEY|
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
  try{
   const options=parseOptions();
-  if(options.help)console.log('npm run gallery:compare -- [--run] [--methods both|realesrgan|gemini] [--output NEW_FOLDER] [--resume] [--model IMAGE_MODEL_ID] [--threads 1–16] [--ids id1,id2,id3]');
+  if(options.help)console.log('npm run gallery:compare -- [--run] [--resolution 1080p|4k] [--methods both|realesrgan|gemini] [--output NEW_FOLDER] [--resume] [--model IMAGE_MODEL_ID] [--threads 1–16] [--ids id1,id2,id3]');
   else {const report=await runComparison(options);if(options.run&&report.samples.some(s=>options.methods.some(m=>s.results[m]?.status!=='complete')))process.exitCode=1;}
  }catch(error){console.error(safeError(error,(process.env.GEMINI_API_KEY||'').trim()));process.exitCode=1;}
 }

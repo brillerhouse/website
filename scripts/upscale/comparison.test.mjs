@@ -5,6 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import sharp from 'sharp';
 import { runtimeDirectory } from '../../tools/upscale/runtime.mjs';
+import { neuralUpscaleToTarget } from './neural-target.mjs';
 import { checkGemini, upscaleGemini } from './gemini.mjs';
 import { runComparison, parseOptions, SAMPLE_IDS } from '../compare-gallery-upscale.mjs';
 
@@ -57,6 +58,7 @@ test('Three-scene prepare/run/resume preserves native inputs and never repeats c
  const html=await fs.readFile(path.join(output,'comparison.html'),'utf8'),json=await fs.readFile(path.join(output,'comparison.json'),'utf8');
  assert.ok(!html.includes(key)&&!json.includes(key));assert.ok(html.includes('data-divider')&&html.includes('data-zoom'));
  await assert.rejects(()=>runComparison({...options,run:true,resume:true,model:'different-model'},{apiKey:key,fetcher,log:()=>{}}),/settings\/model changed/);
+ await assert.rejects(()=>runComparison({...options,run:true,resume:true,resolution:'4k'},{apiKey:key,fetcher:async()=>{throw new Error('Should not make a request');},log:()=>{}}),/settings\/model changed/);
 });
 test('Failed Gemini calls remain errors; an explicit resume is required to retry them',async t=>{
  const parent=await fs.mkdtemp(path.join(os.tmpdir(),'briller-upscale-failure-'));t.after(()=>fs.rm(parent,{recursive:true,force:true}));
@@ -93,4 +95,48 @@ test('A paid but undersized Gemini image is retained for inspection and never la
   const m=await sharp(path.join(options.output,result.nativeFile)).metadata();assert.equal(m.height,768);
  }
  assert.ok((await fs.readFile(path.join(options.output,'comparison.html'),'utf8')).includes('Переглянути нативну відповідь'));
+});
+
+test('The exact 2400×1792 Gemini response is accepted without hiding a meaningful framing change',async()=>{
+ const native=await sharp({create:{width:2400,height:1792,channels:3,background:'white'}}).png().toBuffer();
+ const result=await upscaleGemini(input,{apiKey:key,model:'test',fetcher:async()=>response(native)});
+ assert.equal(result.width,2400);assert.equal(result.height,1792);assert.ok(result.aspectDifferencePercent<1);
+});
+test('Previously rejected near-4:3 images are recovered without an API key, network request or stretching',async t=>{
+ const parent=await fs.mkdtemp(path.join(os.tmpdir(),'briller-upscale-recover-'));t.after(()=>fs.rm(parent,{recursive:true,force:true}));
+ const options=parseOptions(['--output',path.join(parent,'comparison'),'--methods','gemini']);
+ const old=await runComparison(options,{log:()=>{}});
+ const native=await sharp({create:{width:2400,height:1792,channels:3,background:'white'}}).png().toBuffer();
+ for(const sample of old.samples){const file=sample.id+'/gemini-rejected-native.png';await fs.writeFile(path.join(options.output,file),native);sample.results.gemini={status:'error',nativeFile:file,nativeWidth:2400,nativeHeight:1792,error:'Old strict aspect-ratio check'};}
+ await fs.writeFile(path.join(options.output,'comparison.json'),JSON.stringify(old));
+ const recovered=await runComparison({...options,resume:true},{apiKey:'',fetcher:async()=>{throw new Error('Cached recovery must not call Google');},log:()=>{}});
+ for(const sample of recovered.samples){
+  const r=sample.results.gemini;assert.equal(r.status,'complete');assert.equal(r.recoveredFromNative,true);
+  assert.equal(r.width,1440);assert.equal(r.height,1080);assert.equal(r.contentWidth,1440);
+  assert.ok(r.padding.top+r.padding.bottom>0&&r.padding.top+r.padding.bottom<=6);
+  assert.equal(r.contentHeight+r.padding.top+r.padding.bottom,1080);
+  assert.ok(Math.abs(r.contentWidth/r.contentHeight-2400/1792)<.001);
+ }
+});
+test('4K Gemini requests require genuine native 4K pixels',async()=>{
+ const fourK=await sharp({create:{width:4096,height:3072,channels:3,background:'white'}}).png().toBuffer();let body;
+ const r=await upscaleGemini(input,{apiKey:key,model:'test',width:4096,height:3072,fetcher:async(url,options)=>{body=JSON.parse(options.body);return response(fourK);}});
+ assert.equal(r.width,4096);assert.equal(r.height,3072);
+ assert.equal(body.generationConfig.imageConfig.imageSize,'4K');assert.match(body.contents[0].parts[0].text,/4096 pixels wide and 3072 pixels high/);
+ await assert.rejects(()=>upscaleGemini(input,{apiKey:key,model:'test',width:4096,height:3072,fetcher:async()=>response(large)}),/below the requested resolution/);
+});
+test('Small tiles reach 4K through two neural passes and only an intermediate reduction',async()=>{
+ const inputs=[];const engine={run:async bytes=>{const m=await sharp(bytes).metadata();inputs.push([m.width,m.height]);return sharp(bytes).resize(m.width*4,m.height*4,{kernel:'nearest'}).png().toBuffer();}};
+ const r=await neuralUpscaleToTarget(input,{width:4096,height:3072},engine);
+ assert.deepEqual(inputs,[[499,374],[1024,767]]);assert.equal(r.passes.length,2);assert.equal(r.width,4096);assert.equal(r.height,3068);
+ await assert.rejects(()=>neuralUpscaleToTarget(input,{width:4096,height:3072},{run:async bytes=>bytes}),/native 4× neural result/);
+});
+test('The 4K comparison writes 4096×3072 files with distinct names and report metadata',async t=>{
+ const parent=await fs.mkdtemp(path.join(os.tmpdir(),'briller-upscale-4k-'));t.after(()=>fs.rm(parent,{recursive:true,force:true}));
+ const options=parseOptions(['--output',path.join(parent,'comparison'),'--methods','gemini','--resolution','4K','--run']);
+ const fourK=await sharp({create:{width:4096,height:3072,channels:3,background:'white'}}).png().toBuffer();
+ const report=await runComparison(options,{apiKey:key,fetcher:async(url,request)=>request?.method==='POST'?response(fourK):new Response(JSON.stringify({supportedGenerationMethods:['generateContent']}),{status:200}),log:()=>{}});
+ assert.equal(report.config.height,3072);assert.equal(options.resolution,'4k');
+ for(const sample of report.samples){const r=sample.results.gemini;assert.equal(r.status,'complete');assert.equal(r.width,4096);assert.equal(r.height,3072);assert.ok(r.file.endsWith('gemini-4k.jpg'));}
+ assert.throws(()=>parseOptions(['--resolution','8k']),/1080p or 4k/);
 });
