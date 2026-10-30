@@ -115,7 +115,7 @@ test('Unsupported ratios omit the API preset; dry run needs no key and no genera
 
 
 test('Known eight-frame contact sheets are rejected in folder mode before spending',async t=>{
- const options=await fixture(t),items=await inventory(),sheet=items.find(e=>e.crop&&!e.detailImage);
+ const options=await fixture(t),items=await inventory({original:true}),sheet=items.find(e=>e.crop&&!e.detailImage);
  await fs.copyFile(path.join(process.cwd(),'public',sheet.image),path.join(options.input,'contact-sheet.webp'));
  await assert.rejects(()=>runBatch(options,{...silent,fetcher:async()=>{throw Error('No API');}}),/contact sheet/);
 });

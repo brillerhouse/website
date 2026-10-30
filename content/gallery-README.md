@@ -4,7 +4,11 @@ The gallery covers **12 styles × 7 room types × 3 versions = 252 concepts**, p
 
 `gallery-catalogue.json` defines localized room/style descriptions. `gallery-variants.json` defines the versions, sizes, scene sources and framing. `lib/gallery.ts` interleaves the collection, selects three opening images and builds the bilingual copyable redesign prompts. Those prompts preserve the customer's actual room geometry and now explicitly discourage crowded shelves, competing patterns and excessive plants. Generation briefs and quality records are never imported into the client bundle.
 
-## Current visual review
+## Current individual image delivery
+
+The October 30 import uses 254 checksum-verified Gemini 4K results and four explicitly retained originals as individual responsive WebP files. The retained scenes are `bathroom-modern-classic-economy`, `kitchen-wabi-sabi-economy`, `office-wabi-sabi-budget`, and original reference `studio`. Their native pixels are preserved without enlargement; `gallery-web-images.json` records their actual resolution. The first three had Gemini HTTP 503 failures; Studio's returned aspect ratio deviated by 8.94%, so its source view is retained. There are no contact-sheet requests after the overlay is active. `gallery-web-image-review.json` records delivery hashes, fidelity triage and review provenance.
+
+## Source design review history
 
 The October 17 quality pass reviewed all 252 concepts and all six original references. It replaced **162 concepts**, preserved **90**, and retained the six reference image files byte-for-byte. The original reference named `bedroom` actually depicts a lounge corner; its room filter is now Living room. Only two intentional roof examples remain: `bedroom-scandinavian-economy` and `living-industrial-premium`. Normal camera perspective is not classified as a tilted wall or ceiling.
 
@@ -35,7 +39,7 @@ For a new generation or replacement:
 
 ## Rendering and behavior
 
-Most sources are portrait 1024×1536 sets of eight landscape scenes. Each variant has a normalized 4:3 crop; SVG viewports isolate the scene without changing its camera framing or creating cropped raster derivatives. Current replacements use `quality-review-01.webp` through `quality-review-22.webp`. Unused cells and superseded cells are not gallery entries. Opening images use larger standalone assets through `detailImage`; all three quieter opening photographs use `quality-featured-<variant-id>.webp`.
+Historical source files are portrait 1024×1536 sets of eight landscape scenes. The active web manifest now resolves every entry to an individual image; the following describes the preserved source framing. Each variant has a normalized 4:3 crop; SVG viewports isolate the scene without changing its camera framing or creating cropped raster derivatives. Current replacements use `quality-review-01.webp` through `quality-review-22.webp`. Unused cells and superseded cells are not gallery entries. Opening images use larger standalone assets through `detailImage`; all three quieter opening photographs use `quality-featured-<variant-id>.webp`.
 
 `components/Gallery.tsx` provides room/style/budget/size filters, pagination, three-way version switching and bilingual prompt copying. Some exact filter combinations have no matching version and offer a reset. Original references have no assigned budget/size and disappear when either filter is active. Clipboard rejection exposes a selectable prompt. There is no automatic prompt transfer to the redesign app.
 

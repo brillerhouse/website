@@ -183,3 +183,27 @@ test('Inspiration is a crawlable localized landing page with focused metadata an
     assert.ok(html.includes(`property="og:image" content="${collection.primaryImageOfPage.contentUrl}"`));
   }
 });
+
+test('active individual delivery covers every gallery ID and records genuine 4K versus retained native scenes',()=>{
+  const manifest=read('content/gallery-web-images.json');
+  assert.equal(manifest.images.length,258);
+  assert.equal(new Set(manifest.images.map(image=>image.id)).size,258);
+  assert.equal(new Set(manifest.images.map(image=>image.src)).size,258);
+  const active=[...galleryConcepts.map(item=>({item,key:'designs:'+item.id})),...galleryReferences.map(item=>({item,key:'original-references:'+item.id}))];
+  for(const {item,key} of active) {
+    const delivery=manifest.images.find(image=>image.id===key);assert.ok(delivery,key);
+    assert.equal(item.detailImage,delivery.src);assert.equal(item.webImage.src,delivery.src);
+    assert.ok(delivery.src.startsWith('/images/gallery/individual/'));
+    assert.ok(delivery.sources.some(source=>source.src===delivery.src));
+    assert.ok(delivery.sources.every(source=>source.width<=delivery.width));
+    if(delivery.resolution==='4k') {
+      assert.equal(Math.max(delivery.width,delivery.height),4096,key);
+      assert.ok(delivery.src.endsWith('__4k.webp'));assert.equal(delivery.sourceStatus,'complete');
+    } else {
+      assert.equal(delivery.resolution,'original');assert.ok(delivery.src.endsWith('__original.webp'));
+      const retained=manifest.retainedOriginals.find(entry=>entry.id===key);assert.ok(retained,key);
+      assert.equal(delivery.width,retained.width);assert.equal(delivery.height,retained.height);
+    }
+  }
+  assert.equal(manifest.images.filter(image=>image.resolution==='4k').length+manifest.retainedOriginals.length,258);
+});

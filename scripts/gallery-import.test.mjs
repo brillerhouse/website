@@ -97,3 +97,17 @@ test('Gallery renderer uses responsive individual photos instead of cluster SVGs
  const large=render({item,locale:'uk',large:true});assert.ok(large.includes('70vw'));assert.ok(large.includes('Вітальня'));
  const {webImage,...fallback}=item;const old=render({item:fallback,locale:'en'});assert.ok(old.includes('<svg')&&old.includes('cluster.webp'));
 });
+
+test('Explicit keep-originals preserves failed scenes at native resolution as separate lossless images',async t=>{
+ const options=await fixture(t);options.job.entries[0].status='uncertain';delete options.job.entries[0].result;await options.save();
+ const plan=await inspectImport({...options,keepOriginals:true});
+ assert.equal(plan.plan[0].resolution,'original');assert.equal(plan.plan[0].width,80);assert.equal(plan.plan[0].height,60);assert.ok(plan.plan[0].name.endsWith('__original'));
+ const result=await importGallery4K({...options,apply:true,keepOriginals:true},silent);
+ assert.deepEqual(result.manifest.retainedOriginals,[{id:'designs:living-minimalism-economy',status:'uncertain',width:80,height:60}]);
+ const first=result.manifest.images[0];assert.equal(first.width,80);assert.equal(first.height,60);assert.equal(first.sources.length,1);assert.equal(first.resolution,'original');assert.ok(!first.src.includes('__4k'));
+ const original=await sharp(path.join(options.siteRoot,'public/images/sheet.png')).extract({left:0,top:0,width:80,height:60}).raw().toBuffer();
+ const preserved=await sharp(path.join(options.siteRoot,'public',first.src)).raw().toBuffer();assert.deepEqual(preserved,original);
+ await verifyGalleryWebImages(options.siteRoot,await galleryWebImages(options.siteRoot));
+ // The explicit option cannot hide a corrupt result marked complete.
+ options.job.entries[1].result.sha256='wrong';await options.save();await assert.rejects(()=>inspectImport({...options,keepOriginals:true}),/checksum mismatch/);
+});
