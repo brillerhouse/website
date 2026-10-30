@@ -1,0 +1,8 @@
+{
+  "name": "briller-local-upscale-comparison",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Isolated CPU inference runtime for the local Real-ESRGAN comparison; not used by the website",
+  "engines": { "node": ">=20" },
+  "dependencies": { "onnxruntime-node": "1.23.2" }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "briller-local-upscale-runtime-compat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CPU-only compatible runtime for macOS 11 through 13.3; loads only the bundled checksum-verified model",
+  "engines": { "node": ">=20" },
+  "dependencies": { "onnxruntime-node": "1.17.3" }
+}

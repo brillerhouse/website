@@ -1,0 +1,22 @@
+{
+  "name": "Real-ESRGAN general x4v3",
+  "architecture": "SRVGGNetCompact, 64 features, 32 body convolutions, PReLU, 4\u00d7 pixel shuffle + nearest residual",
+  "license": "BSD-3-Clause",
+  "source": "https://github.com/xinntao/Real-ESRGAN",
+  "release": "v0.2.5.0",
+  "denoiseStrength": 0.3,
+  "weights": [
+    {
+      "file": "realesr-general-x4v3.pth",
+      "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292"
+    },
+    {
+      "file": "realesr-general-wdn-x4v3.pth",
+      "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca"
+    }
+  ],
+  "sha256": "cc1c670e034e6ab5d0ce4cca57ef8b07386beae17b62129a040717b52de9dee9",
+  "opset": 17,
+  "precision": "float32",
+  "conversion": "torch 2.6.0 / onnx 1.17.0"
+}

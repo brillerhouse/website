@@ -9,11 +9,14 @@
     "gallery:quality": "node scripts/gallery-quality.mjs check",
     "gallery:review": "node scripts/gallery-quality.mjs report",
     "check": "tsc --noEmit",
-    "test": "node --test scripts/dev-config.test.mjs && node scripts/locale-routing.test.mjs && node scripts/cookie-consent.test.mjs && node scripts/verify.mjs && node scripts/solution-examples.test.mjs && node scripts/gallery.test.mjs && node --test scripts/gallery-quality.test.mjs && npm run test:blog",
+    "test": "node --test scripts/dev-config.test.mjs && node scripts/locale-routing.test.mjs && node scripts/cookie-consent.test.mjs && node scripts/verify.mjs && node scripts/solution-examples.test.mjs && node scripts/gallery.test.mjs && node --test scripts/gallery-quality.test.mjs && npm run test:blog && npm run test:upscale",
     "test:blog": "node --experimental-strip-types --test scripts/blog.test.mjs && node --test services/blog-leads/server.test.mjs && node --test scripts/blog-cloud-setup.test.mjs",
     "blog:leads": "node services/blog-leads/server.mjs",
     "test:dev": "node scripts/check-dev-routing.mjs",
-    "gallery:export": "node scripts/export-inspiration.mjs"
+    "gallery:export": "node scripts/export-inspiration.mjs",
+    "gallery:compare": "node scripts/compare-gallery-upscale.mjs",
+    "gallery:compare:setup": "node tools/upscale/setup.mjs",
+    "test:upscale": "node --test scripts/upscale/*.test.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

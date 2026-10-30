@@ -37,3 +37,7 @@ npm run gallery:export -- --render --output "$HOME/Downloads/briller-gallery-ima
 Existing folders and archives are never overwritten. A normal run without `--output` uses a timestamp to avoid collisions. Add `--no-zip` if you only need the separate files. Omit `--render` for a read-only inventory/dry run.
 
 This is a local export tool. It does not change gallery photos, website content or deployment.
+
+## AI-upscale comparison
+
+The export above is ordinary resizing, not detail restoration. To compare real local Real-ESRGAN with Gemini on three original scene crops, use [the comparison guide](GALLERY-UPSCALING-COMPARISON.md).
