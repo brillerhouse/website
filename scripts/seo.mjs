@@ -8,10 +8,11 @@ const blog=JSON.parse(fs.readFileSync('content/blog/catalog.json','utf8'));
 const blogSuffixes=['blog',...blog.posts.map(post=>`blog/${post.slug}`),...blog.categories.filter(category=>blog.posts.some(post=>post.categories.includes(category.slug))).map(category=>`blog/category/${category.slug}`),...blog.tags.filter(tag=>blog.posts.some(post=>post.tags.includes(tag.slug))).map(tag=>`blog/tag/${tag.slug}`)];
 const comparisonCatalog=JSON.parse(fs.readFileSync('content/compare/catalog.json','utf8'));
 const comparisonSuffixes=['compare',...comparisonCatalog.products.map(product=>'compare/'+product.slug)];
-const localizedPages=[...pages,...blogSuffixes,...comparisonSuffixes];
+const comparison2Suffixes=['comparison2',...comparisonCatalog.products.map(product=>'comparison2/'+product.slug)];
+const localizedPages=[...pages,...blogSuffixes,...comparisonSuffixes,...comparison2Suffixes];
 const verifiedComparisons=comparisonCatalog.products.filter(product=>product.verification==='reviewed').map(product=>'compare/'+product.slug);
 if(comparisonCatalog.products.every(product=>product.verification==='reviewed'))verifiedComparisons.push('compare');
-const sitemapPages=localizedPages.filter(page=>!comparisonSuffixes.includes(page)||verifiedComparisons.includes(page));
+const sitemapPages=localizedPages.filter(page=>!comparison2Suffixes.includes(page)&&(!comparisonSuffixes.includes(page)||verifiedComparisons.includes(page)));
 const comparisonReviewDates=new Map(comparisonCatalog.products.filter(product=>product.verification==='reviewed').map(product=>['compare/'+product.slug,product.reviewedAt]));
 if(verifiedComparisons.includes('compare'))comparisonReviewDates.set('compare',[...comparisonReviewDates.values()].sort().at(-1));
 for(const page of localizedPages){
