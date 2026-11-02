@@ -59,7 +59,11 @@
               "en": "Confirm export dimensions and collaborator seats.",
               "uk": "Уточніть розміри експорту й місця для співробітників."
             }
-          ]
+          ],
+          "monthlyAllowance": {
+            "en": "1,000 designs / month",
+            "uk": "1 000 дизайнів / місяць"
+          }
         },
         {
           "id": "premium",
@@ -102,7 +106,11 @@
           "sources": [
             "pricing"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "5,000 designs / month",
+            "uk": "5 000 дизайнів / місяць"
+          }
         },
         {
           "id": "ultra",
@@ -145,7 +153,11 @@
           "sources": [
             "pricing"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "25,000 designs / month",
+            "uk": "25 000 дизайнів / місяць"
+          }
         }
       ],
       "notes": [
@@ -167,6 +179,18 @@
           "title": "Interior AI plan cards and FAQ",
           "checkedAt": "2026-11-02",
           "status": "verified"
+        }
+      ],
+      "monthlyNotes": [
+        {
+          "en": "Pro includes commercial image use. Premium adds the broader editing toolkit; Ultra mainly increases volume and parallel capacity.",
+          "uk": "Pro включає комерційне використання зображень. Premium додає ширший набір редагування; Ultra насамперед збільшує обсяг і паралельну обробку."
+        }
+      ],
+      "monthlyChecks": [
+        {
+          "en": "Confirm team-seat arrangements and exact export dimensions.",
+          "uk": "Уточніть командний доступ і точні розміри експорту."
         }
       ]
     },
@@ -219,7 +243,11 @@
             "pricing",
             "cards"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "30 credits / month",
+            "uk": "30 кредитів / місяць"
+          }
         },
         {
           "id": "pro",
@@ -258,7 +286,11 @@
             "pricing",
             "cards"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "200 credits / month",
+            "uk": "200 кредитів / місяць"
+          }
         },
         {
           "id": "advanced",
@@ -297,7 +329,11 @@
             "pricing",
             "cards"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "400 credits / month",
+            "uk": "400 кредитів / місяць"
+          }
         },
         {
           "id": "agency",
@@ -336,7 +372,11 @@
             "pricing",
             "cards"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "900 credits / month",
+            "uk": "900 кредитів / місяць"
+          }
         }
       ],
       "notes": [
@@ -370,6 +410,18 @@
           "checkedAt": "2026-11-02",
           "status": "verified"
         }
+      ],
+      "monthlyNotes": [
+        {
+          "en": "Visualization uses 1 credit; visualization with real-product discovery uses 2. Conversation and idea exploration use 0.",
+          "uk": "Візуалізація використовує 1 кредит, із пошуком реальних товарів — 2. Обговорення та пошук ідей — 0."
+        }
+      ],
+      "monthlyChecks": [
+        {
+          "en": "Confirm the checkout amount and team seats: older pricing text elsewhere on the site differs from the active cards.",
+          "uk": "Уточніть суму оформлення та кількість місць: старіші ціни на сайті відрізняються від активних карток."
+        }
       ]
     },
     {
@@ -380,8 +432,8 @@
         "uk": "Уточніть безкоштовний кредитний ліміт після реєстрації."
       },
       "context": {
-        "en": "RoomGPT sells one-time credit packs. Briller includes a monthly allowance with a subscription, so the prices below keep those purchase types separate.",
-        "uk": "RoomGPT продає разові пакети кредитів. Briller включає місячний ліміт у передплату, тому нижче ці типи покупок зазначено окремо."
+        "en": "RoomGPT uses one-time credit packs and has no listed monthly subscription. There is no monthly rate to put alongside Briller. Compare it for occasional theme exploration; Briller’s subscriptions suit an ongoing room project with a recurring allowance.",
+        "uk": "RoomGPT продає разові пакети кредитів і не має опублікованої місячної підписки. Тому місячної ціни для порівняння з Briller немає. RoomGPT варто розглянути для епізодичного пошуку тем, а підписки Briller — для роботи над проєктом із регулярним поповненням кредитів."
       },
       "tiers": [
         {
@@ -543,7 +595,14 @@
           "checkedAt": "2026-11-02",
           "status": "verified"
         }
-      ]
+      ],
+      "monthlyNotes": [
+        {
+          "en": "Credit use depends on quality and the number of themes. Confirm credit expiry and export sizes before buying a pack.",
+          "uk": "Витрата кредитів залежить від якості та кількості тем. До придбання пакета уточніть термін дії кредитів і розміри експорту."
+        }
+      ],
+      "monthlyChecks": []
     },
     {
       "slug": "homedesigns-ai",
@@ -602,7 +661,11 @@
           "sources": [
             "pricing"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "100 design credits / month",
+            "uk": "100 дизайн-кредитів / місяць"
+          }
         },
         {
           "id": "pro",
@@ -649,7 +712,11 @@
           "sources": [
             "pricing"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "1,000 design credits / month",
+            "uk": "1 000 дизайн-кредитів / місяць"
+          }
         },
         {
           "id": "expert",
@@ -696,7 +763,11 @@
           "sources": [
             "pricing"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "2,000 design credits / month",
+            "uk": "2 000 дизайн-кредитів / місяць"
+          }
         }
       ],
       "notes": [
@@ -722,6 +793,18 @@
           "title": "HomeDesignsAI current plan cards and renewal FAQ",
           "checkedAt": "2026-11-02",
           "status": "verified"
+        }
+      ],
+      "monthlyNotes": [
+        {
+          "en": "A photo redesign uses 1 credit. Video and other advanced tools may use more; check the tools needed for your project.",
+          "uk": "Фотооновлення використовує 1 кредит. Відео та інші розширені інструменти можуть потребувати більше; перевірте потрібні для проєкту функції."
+        }
+      ],
+      "monthlyChecks": [
+        {
+          "en": "Confirm advanced-tool credit costs and Expert seat permissions.",
+          "uk": "Уточніть витрату кредитів розширених інструментів і права місць Expert."
         }
       ]
     },
@@ -834,7 +917,11 @@
             "faq",
             "features"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "Paid render allowance: confirm in the app.",
+            "uk": "Платний ліміт рендерів: уточніть у застосунку."
+          }
         }
       ],
       "notes": [
@@ -870,6 +957,18 @@
           "title": "Remodel AI app features",
           "checkedAt": "2026-11-02",
           "status": "verified"
+        }
+      ],
+      "monthlyNotes": [
+        {
+          "en": "The range comes from monthly subscriptions listed in the US App Store. Your device, account and region determine the available offer; Android may differ.",
+          "uk": "Діапазон узято з місячних підписок у US App Store. Доступна пропозиція залежить від пристрою, акаунта й регіону; Android може відрізнятися."
+        }
+      ],
+      "monthlyChecks": [
+        {
+          "en": "Confirm the monthly offer, render allowance, export size and commercial-use licence in your app.",
+          "uk": "Уточніть місячну пропозицію, ліміт генерацій, розміри експорту та комерційні права у своєму застосунку."
         }
       ]
     },
@@ -960,7 +1059,11 @@
           "sources": [
             "pricing"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "Unlimited projects; 100 AI Studio credits / month.",
+            "uk": "Необмежені проєкти; 100 кредитів AI Studio / місяць."
+          }
         },
         {
           "id": "professional",
@@ -1003,7 +1106,11 @@
           "sources": [
             "pricing"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "Unlimited projects; 1,000 AI Studio credits / month.",
+            "uk": "Необмежені проєкти; 1 000 кредитів AI Studio / місяць."
+          }
         },
         {
           "id": "enterprise",
@@ -1063,6 +1170,18 @@
           "checkedAt": "2026-11-02",
           "status": "verified"
         }
+      ],
+      "monthlyNotes": [
+        {
+          "en": "US prices. AI Studio credit use varies by model and output. Floor-plan recognition has a separate allowance.",
+          "uk": "Ціни для США. Витрата кредитів AI Studio залежить від моделі й результату. Розпізнавання планів має окремий ліміт."
+        }
+      ],
+      "monthlyChecks": [
+        {
+          "en": "Confirm model licences and the export formats required for your client handover.",
+          "uk": "Уточніть ліцензії моделей і формати експорту для передачі клієнту."
+        }
       ]
     },
     {
@@ -1073,8 +1192,8 @@
         "uk": "Basic безкоштовний і включає необмежений 1K-рендеринг."
       },
       "context": {
-        "en": "Homestyler’s paid tiers expand 3D editing and render allowances. Its advertised starting rates need a billing-term check; Team is priced per seat.",
-        "uk": "Платні тарифи Homestyler розширюють 3D-редагування й ліміти рендерів. Для рекламованих початкових ставок потрібно уточнити строк оплати; Team оплачується за місце."
+        "en": "Homestyler lists Pro+, Master+ and Team, but its advertised starting prices do not establish the month-to-month charge. Their allowances appear below; the monthly price needs confirmation. Team is priced per seat.",
+        "uk": "Homestyler має Pro+, Master+ та Team, але опубліковані початкові ціни не підтверджують оплату за один місяць. Нижче наведені ліміти; місячну ціну потрібно уточнити. Team оплачується за місце."
       },
       "tiers": [
         {
@@ -1148,7 +1267,11 @@
           "sources": [
             "pricing"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "75 renders each for 2K and 4K; 180 AI credits / month.",
+            "uk": "По 75 рендерів 2K і 4K; 180 ШІ-кредитів / місяць."
+          }
         },
         {
           "id": "master-plus",
@@ -1187,7 +1310,11 @@
           "sources": [
             "pricing"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "Unlimited 4K image rendering; 380 AI credits / month.",
+            "uk": "Необмежений рендеринг 4K-зображень; 380 ШІ-кредитів / місяць."
+          }
         },
         {
           "id": "team",
@@ -1227,7 +1354,11 @@
           "sources": [
             "pricing"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "500 AI credit coupons per account / month; per-seat pricing.",
+            "uk": "500 ШІ-кредитних купонів на акаунт / місяць; ціна за місце."
+          }
         },
         {
           "id": "enterprise",
@@ -1291,6 +1422,18 @@
           "checkedAt": "2026-11-02",
           "status": "verified"
         }
+      ],
+      "monthlyNotes": [
+        {
+          "en": "Ordinary renders and AI credits are separate. AI Render uses 25 credits for 2K and 35 for 4K.",
+          "uk": "Звичайні рендери та AI-кредити рахуються окремо. AI Render використовує 25 кредитів для 2K та 35 для 4K."
+        }
+      ],
+      "monthlyChecks": [
+        {
+          "en": "Confirm month-to-month prices, minimum Team seats and model / output rights.",
+          "uk": "Уточніть ціни помісячної оплати, мінімум місць Team і права на моделі та результати."
+        }
       ]
     },
     {
@@ -1301,8 +1444,8 @@
         "uk": "14-денний пробний період; картка не потрібна."
       },
       "context": {
-        "en": "Foyr Neo combines editable 3D design with presentation exports. Its annual plans can have different render allowances from the monthly plans.",
-        "uk": "Foyr Neo поєднує редагований 3D-дизайн з експортом презентацій. Річні тарифи можуть мати інші ліміти рендерів, ніж помісячні."
+        "en": "These USD subscriptions are billed monthly. Standard adds two users and walkthroughs; Premium adds scaled elevations and a custom-model service. Briller pairs the room concept with material and installation advice.",
+        "uk": "Ці підписки в доларах оплачуються щомісяця. Standard додає двох користувачів і прогулянки, Premium — масштабовані розгортки та створення моделі. Briller поєднує концепцію кімнати з порадами щодо матеріалів і монтажу."
       },
       "tiers": [
         {
@@ -1347,7 +1490,11 @@
             "pricing",
             "config"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "30 render credits / month; 1 user.",
+            "uk": "30 кредитів рендерингу / місяць; 1 користувач."
+          }
         },
         {
           "id": "standard",
@@ -1391,7 +1538,11 @@
             "pricing",
             "config"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "90 render credits / month; 2 users.",
+            "uk": "90 кредитів рендерингу / місяць; 2 користувачі."
+          }
         },
         {
           "id": "premium",
@@ -1435,7 +1586,11 @@
             "pricing",
             "config"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "210 render credits / month; 2 users.",
+            "uk": "210 кредитів рендерингу / місяць; 2 користувачі."
+          }
         }
       ],
       "notes": [
@@ -1468,6 +1623,18 @@
           "title": "Foyr live billing-period and regional price / allowance selector",
           "checkedAt": "2026-11-02",
           "status": "verified"
+        }
+      ],
+      "monthlyNotes": [
+        {
+          "en": "Allowances shown are for the USD monthly plans. Foyr Manage estimates and invoicing are a separate product.",
+          "uk": "Наведені ліміти місячних тарифів у доларах. Кошториси та рахунки Foyr Manage — окремий продукт."
+        }
+      ],
+      "monthlyChecks": [
+        {
+          "en": "Confirm your region’s monthly render allowance and the custom-model turnaround.",
+          "uk": "Уточніть місячний ліміт рендерів для свого регіону та строки створення власної моделі."
         }
       ]
     },
@@ -1559,7 +1726,11 @@
             "pricing",
             "config"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "500 credits / month; 1 seat.",
+            "uk": "500 кредитів / місяць; 1 місце."
+          }
         },
         {
           "id": "studio",
@@ -1607,7 +1778,11 @@
             "pricing",
             "config"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "1,500 credits / month; up to 2 seats.",
+            "uk": "1 500 кредитів / місяць; до 2 місць."
+          }
         },
         {
           "id": "agency",
@@ -1655,7 +1830,11 @@
             "pricing",
             "config"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "3,500 credits / month; up to 5 seats.",
+            "uk": "3 500 кредитів / місяць; до 5 місць."
+          }
         },
         {
           "id": "education",
@@ -1702,7 +1881,11 @@
             "pricing",
             "config"
           ],
-          "checks": []
+          "checks": [],
+          "monthlyAllowance": {
+            "en": "1,500 credits / month; eligible academic email required.",
+            "uk": "1 500 кредитів / місяць; потрібна відповідна академічна адреса."
+          }
         }
       ],
       "notes": [
@@ -1735,6 +1918,18 @@
           "title": "Spacely global / regional subscription prices and credits",
           "checkedAt": "2026-11-02",
           "status": "verified"
+        }
+      ],
+      "monthlyNotes": [
+        {
+          "en": "Global plans are shown; India has different prices and allowances. Personal excludes 4K downloads, Pro tools and CAD integrations.",
+          "uk": "Наведені глобальні тарифи; для Індії ціни й ліміти відрізняються. Personal не включає завантаження 4K, інструменти Pro та CAD-інтеграції."
+        }
+      ],
+      "monthlyChecks": [
+        {
+          "en": "Confirm regional monthly prices, API scope and Education eligibility / seats.",
+          "uk": "Уточніть регіональні місячні ціни, функції API, умови Education та кількість місць."
         }
       ]
     }

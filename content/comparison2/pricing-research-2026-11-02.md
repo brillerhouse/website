@@ -21,3 +21,18 @@ Rows pair plans by the job they support, without asserting identical capabilitie
 Briller amounts and entitlements are generated from `content/plans.json`: monthly price, annual charge (annual monthly amount × 12, rounded to cents), quota, projects, seats, basic/full insights, watermark, HD / 4K, PDF, commercial rights, queue and shared projects. No cost-per-render or currency conversion is inferred.
 
 Only the competitor homepage link appears publicly at the bottom of each comparison. Detailed evidence stays in the editorial records. Original page prose remains table-free; all tables in the alternative remain inside pricing sections.
+
+## Monthly presentation and feature expansion
+
+The comparison2 presentation now selects only monthly subscription tiers (23 across eight providers), preserving the full research data above. Homestyler's three paid plan names remain available for comparison, but their unconfirmed starting figures are suppressed and replaced by a monthly-price confirmation label. RoomGPT has no monthly table. Monthly allowances are explicit: Planner 5D 100/1,000 AI Studio credits, Foyr Neo 30/90/210 render credits, Spacely 500/1,500/3,500 credits (Education 1,500). Do not substitute annual allowances for these.
+
+Additional official feature pages checked on 2026-11-02 (all returned HTTP 200):
+
+- HomeDesignsAI: https://homedesigns.ai/ai-features and https://homedesigns.ai/partial-remodel-ai — Precision+, Materials Swap (including uploaded materials), Design Transfer and selected-area remodeling. Tool listing alone does not establish inclusion on every subscription.
+- Planner 5D: https://planner5d.com/ai/floor-plan-to-3d-model and https://planner5d.com/collaboration-tool — plan recognition; shared editing on all plans including Free; view/comment/edit permissions and invitations by email or link. Editing guests need an account.
+- Homestyler: https://www.homestyler.com/solution/design_floor-planner and https://www.homestyler.com/solution/design_team-license — team folders, private model/material library, admin/member roles, team asset retention and custom branding on renders.
+- Foyr: https://foyr.com/mood-board-creator/ and https://foyr.com/3d-modeling-software-online/ — moodboard and editable-model workflows. These pages do not establish that separate Foyr Manage administration is included in Neo.
+- Spacely: https://www.spacely.ai/tools — Point and Edit, Lighting Transfer, Lighting Control, material workflows. Plan-specific CAD/4K access is taken from the pricing evidence above, not inferred from the general tools listing.
+- RoomGPT's public generator and credit-purchase workflow (previous capture) specify Basic/Pro/Ultra at 1/2/4 credits per selected theme, with extra written details for Pro/Ultra. The saved-dashboard promise remains marked Coming Soon.
+
+Raw feature captures and fetch statuses are saved outside the repository in `/workspace/exports/comparison2-features-2026-11-02/`. Audience examples are editorial applications of these features, not claims of measured performance, compliance or guaranteed construction outcomes. Every capability has a localized solution crosslink; those targets are checked against the actual solution catalogue and static output.

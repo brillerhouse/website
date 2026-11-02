@@ -7,12 +7,12 @@ import { href, site, socialPreview, type Locale } from './content';
 
 type Editorial = {
   slug: string; intro: Localized;
-  sections: { id: string; heading: Localized; paragraphs: Localized[] }[];
+  sections: { id: string; heading: Localized; paragraphs: Localized[]; perspective: { audience: Localized; text: Localized; solution: string; label: Localized } }[];
   checks: Localized[];
 };
 export type TierOffer = { billing: 'monthly' | 'yearly' | 'annualEquivalent' | 'oneOff' | 'weekly' | 'free' | 'quote'; currency: string; amount?: number; maximum?: number; starting?: boolean; perSeat?: boolean; qualifier?: Localized };
-export type ComparisonTier = { id: string; name: string; brillerPlan: string; purpose: Localized; allowance: Localized; offers: TierOffer[]; features: Localized[]; sources: string[]; checks: Localized[] };
-export type TierPricing = { slug: string; checkedAt: string; trial: Localized; context: Localized; tiers: ComparisonTier[]; notes: Localized[]; checks: Localized[]; sources: { id: string; title: string; url: string; checkedAt: string; status: string }[] };
+export type ComparisonTier = { id: string; name: string; brillerPlan: string; purpose: Localized; allowance: Localized; monthlyAllowance?: Localized; offers: TierOffer[]; features: Localized[]; sources: string[]; checks: Localized[] };
+export type TierPricing = { slug: string; checkedAt: string; trial: Localized; context: Localized; tiers: ComparisonTier[]; notes: Localized[]; checks: Localized[]; monthlyNotes: Localized[]; monthlyChecks: Localized[]; sources: { id: string; title: string; url: string; checkedAt: string; status: string }[] };
 export type Comparison2Product = Competitor & { editorial: Editorial; tierPricing: TierPricing };
 export const comparison2Products: Comparison2Product[] = competitors.map(product => {
   const editorial = (content.products as Editorial[]).find(item => item.slug === product.slug);
@@ -26,7 +26,10 @@ export const comparison2Copy = (locale: Locale) => ui[locale];
 export const comparison2Href = (locale: Locale, slug?: string) => href(locale, 'comparison2' + (slug ? '/' + slug : ''));
 export const comparison2Title = (product: Competitor) => `Briller vs ${product.name}`;
 export const comparison2BrillerPlan = (tier: ComparisonTier) => plans.plans.find(plan => plan.name === tier.brillerPlan)!;
-export const comparison2EntryTier = (product: Comparison2Product) => product.tierPricing.tiers.find(tier => tier.offers.some(offer => (offer.amount ?? 0) > 0))!;
+export const comparison2MonthlyTiers = (product: Comparison2Product) => product.tierPricing.tiers.filter(tier => tier.offers.some(offer => offer.billing === 'monthly'));
+// A starting rate with an unknown billing term is not a verified monthly price.
+export const comparison2MonthlyOffer = (tier: ComparisonTier) => tier.offers.find(offer => offer.billing === 'monthly' && !offer.starting);
+export const comparison2EntryTier = (product: Comparison2Product) => comparison2MonthlyTiers(product)[0];
 export function comparison2Offer(offer: TierOffer, locale: Locale) {
   const c = comparison2Copy(locale);
   const value = offer.amount === undefined ? c.customQuote : `${offer.starting ? c.from + ' ' : ''}${amountLabel(offer.amount, offer.currency, locale)}${offer.maximum !== undefined ? '–' + amountLabel(offer.maximum, offer.currency, locale) : ''}`;
@@ -34,7 +37,10 @@ export function comparison2Offer(offer: TierOffer, locale: Locale) {
   return { value, basis, qualifier: offer.qualifier?.[locale] };
 }
 export function comparison2PriceLead(product: Comparison2Product, locale: Locale) {
-  const tier = comparison2EntryTier(product), offer = tier.offers.find(item => (item.amount ?? 0) > 0)!;
+  const tier = comparison2EntryTier(product), c = comparison2Copy(locale);
+  if (!tier) return c.noMonthly;
+  const offer = comparison2MonthlyOffer(tier);
+  if (!offer) return `${tier.name}: ${c.monthlyUnknown}`;
   const price = comparison2Offer(offer, locale);
   return `${tier.name}: ${price.value} ${price.basis}`;
 }

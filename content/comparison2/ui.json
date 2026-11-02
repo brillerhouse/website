@@ -9,7 +9,7 @@
     "read": "Read the comparison",
     "overview": "All comparisons",
     "onPage": "In this comparison",
-    "pricing": "Compare the plans",
+    "pricing": "Monthly subscriptions",
     "provider": "Platform",
     "plan": "Platform and plan",
     "price": "Price and billing",
@@ -41,7 +41,7 @@
     "official": "Official website",
     "related": "Another comparison to read",
     "useCase": "For this kind of work",
-    "competitorEntry": "Competitor entry plan",
+    "competitorEntry": "Entry monthly plan",
     "brillerMatch": "Briller plan alongside it",
     "customQuote": "Custom quote",
     "startingMonth": "per month, advertised starting rate; term to confirm",
@@ -55,7 +55,7 @@
       "free": "free access",
       "quote": "based on scope"
     },
-    "unitsNote": "Each row pairs plans for a similar job. Credit counts keep each provider’s own units; they do not represent equal numbers of renders.",
+    "unitsNote": "Monthly billing only. Each row pairs plans for a similar job; credits are each provider’s own units, not equal numbers of renders.",
     "unlimitedProjects": "unlimited projects",
     "projects": "projects",
     "basicAdvice": "Basic Briller insights.",
@@ -72,7 +72,9 @@
     "sharedProjects": "Shared projects.",
     "annualTotal": "per year",
     "annualEquivalent": "per month equivalent",
-    "pricingFlags": "Pricing details to confirm"
+    "pricingFlags": "Pricing details to confirm",
+    "monthlyUnknown": "Monthly rate to confirm",
+    "noMonthly": "One-time credit packs; no monthly subscription."
   },
   "uk": {
     "label": "Порівняння",
@@ -84,7 +86,7 @@
     "read": "Прочитати порівняння",
     "overview": "Усі порівняння",
     "onPage": "У цьому порівнянні",
-    "pricing": "Порівняння тарифів",
+    "pricing": "Місячні підписки",
     "provider": "Платформа",
     "plan": "Платформа й тариф",
     "price": "Ціна й умови оплати",
@@ -116,7 +118,7 @@
     "official": "Офіційний сайт",
     "related": "Ще одне порівняння",
     "useCase": "Для такої роботи",
-    "competitorEntry": "Початковий тариф конкурента",
+    "competitorEntry": "Початковий місячний тариф",
     "brillerMatch": "Тариф Briller поруч",
     "customQuote": "Індивідуальний розрахунок",
     "startingMonth": "на місяць, рекламована початкова ставка; строк уточніть",
@@ -130,7 +132,7 @@
       "free": "безкоштовний доступ",
       "quote": "залежить від охоплення"
     },
-    "unitsNote": "Кожен рядок поєднує тарифи для подібної роботи. Кредити зберігають одиниці кожного сервісу й не означають однакової кількості рендерів.",
+    "unitsNote": "Лише помісячна оплата. Кожен рядок зіставляє тарифи для подібної роботи; кредити різних платформ не означають однакову кількість рендерів.",
     "unlimitedProjects": "необмежені проєкти",
     "projects": "проєктів",
     "basicAdvice": "Базові рекомендації Briller.",
@@ -147,6 +149,8 @@
     "sharedProjects": "Спільні проєкти.",
     "annualTotal": "на рік",
     "annualEquivalent": "на місяць у перерахунку",
-    "pricingFlags": "Що уточнити в тарифах"
+    "pricingFlags": "Що уточнити в тарифах",
+    "monthlyUnknown": "Місячну ціну потрібно уточнити",
+    "noMonthly": "Разові пакети кредитів; місячної підписки немає."
   }
 }

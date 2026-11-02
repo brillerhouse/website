@@ -10,8 +10,8 @@
         {
           "id": "room-design",
           "heading": {
-            "en": "Starting with the room",
-            "uk": "Почніть із кімнати"
+            "en": "Room photos and virtual staging",
+            "uk": "Фото кімнати та віртуальний стейджинг"
           },
           "paragraphs": [
             {
@@ -22,13 +22,28 @@
               "en": "Briller starts with your room photo and the problem you want to solve. A moodboard can contribute a particular element, such as a concealed curtain track or a wall finish. You can use that detail to develop the original room rather than settling on a style name alone.",
               "uk": "Briller починає з фото вашої кімнати й задачі, яку потрібно вирішити. Мудборд може підказати конкретний елемент: прихований карниз чи оздоблення стіни. Цю деталь можна використати для розвитку початкової кімнати, виходячи за межі самої назви стилю."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For agents preparing a listing",
+              "uk": "Для агентів, які готують оголошення"
+            },
+            "text": {
+              "en": "An empty room needs enough furniture to explain its use without suggesting a different floor plan. Interior AI is worth considering when staging images are the main deliverable. If the owner is also deciding what to renovate before selling, use Briller to work through the proposed finishes and fitting choices. Keep the original property photo alongside the staging.",
+              "uk": "У порожній кімнаті меблі мають пояснити призначення простору, не створюючи враження іншого планування. Interior AI варто розглянути, коли потрібні саме зображення для оголошення. Якщо власник ще вирішує, що оновити перед продажем, Briller допоможе опрацювати оздоблення та варіанти монтажу. Збережіть оригінальне фото нерухомості поруч із віртуальним стейджингом."
+            },
+            "solution": "real-estate-agents-listing-prep",
+            "label": {
+              "en": "Plan a listing refresh",
+              "uk": "Спланувати оновлення перед продажем"
+            }
+          }
         },
         {
           "id": "editing",
           "heading": {
-            "en": "Refining the picture",
-            "uk": "Уточніть зображення"
+            "en": "Wall edits, lighting changes and furniture",
+            "uk": "Редагування стін, освітлення та меблів"
           },
           "paragraphs": [
             {
@@ -39,13 +54,28 @@
               "en": "With Briller, refinements can follow the decisions you are making: keep the floor, try a different cabinet finish, then reconsider the lighting. Project history keeps the room’s iterations together. Smart Sparks connect the selected design details with advice you can inspect more closely.",
               "uk": "У Briller уточнення можуть відповідати вашим рішенням: залишити підлогу, спробувати інше оздоблення шаф, потім повернутися до освітлення. Історія проєкту зберігає ітерації кімнати разом. Smart Sparks пов’язують вибрані деталі дизайну з порадами, які можна розглянути докладніше."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a refresh with a few things staying",
+              "uk": "Для оновлення зі збереженням частини інтер’єру"
+            },
+            "text": {
+              "en": "A renter may want a warmer wall colour and different furniture while keeping the flooring and ceiling. Interior AI Premium offers the image edits for that exercise. With Briller, include those limits in the brief and use the advice to discuss removable finishes, existing light points and what the landlord must approve before work starts.",
+              "uk": "Орендарю може бути потрібен тепліший колір стін та інші меблі зі збереженням підлоги й стелі. Для таких візуальних змін Interior AI пропонує інструменти Premium. У Briller варто одразу зазначити ці обмеження та обговорити знімне оздоблення, наявні точки освітлення й роботи, які спочатку потрібно погодити з власником."
+            },
+            "solution": "renter-friendly-makeover",
+            "label": {
+              "en": "Explore a renter-friendly makeover",
+              "uk": "Оновити орендоване житло"
+            }
+          }
         },
         {
           "id": "materials",
           "heading": {
-            "en": "Choosing what to buy and build",
-            "uk": "Виберіть, що купувати й монтувати"
+            "en": "Google Lens and a workable shopping list",
+            "uk": "Google Lens і практичний список покупок"
           },
           "paragraphs": [
             {
@@ -56,13 +86,28 @@
               "en": "Briller’s Shop the Look helps build an item shortlist, while budget-specific advice covers the material and installation choices around it. For a slat wall, for example, compare a foil finish with natural veneer and consider the backing and cable route before ordering panels.",
               "uk": "Shop the Look у Briller допомагає скласти список предметів, а поради за бюджетом — розглянути матеріали й монтаж навколо них. Для рейкової стіни, наприклад, можна порівняти плівкове покриття з натуральним шпоном та продумати основу й кабелі до замовлення панелей."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a furnished rental",
+              "uk": "Для мебльованого житла під оренду"
+            },
+            "text": {
+              "en": "Finding a similar chair is only part of buying for a rental. Compare dimensions, cleanability and replacement availability before ordering several rooms’ worth. Interior AI’s Lens lookup can start the search; Briller’s shortlist and budget advice help develop the choices around retained furniture and the work needed to fit new items. Verify stock and prices with the retailer.",
+              "uk": "Знайти схоже крісло — лише частина закупівель для орендного житла. Перед замовленням для кількох кімнат порівняйте розміри, догляд та можливість заміни. Пошук Lens в Interior AI допоможе почати; список товарів і бюджетні поради Briller — узгодити вибір із наявними меблями та монтажем. Наявність і ціни перевіряйте у продавця."
+            },
+            "solution": "short-term-rental-airbnb-hosts",
+            "label": {
+              "en": "Prepare a rental that is easier to maintain",
+              "uk": "Підготувати житло до короткострокової оренди"
+            }
+          }
         },
         {
           "id": "delivery",
           "heading": {
-            "en": "Presenting and sharing the result",
-            "uk": "Підготуйте результат до передачі"
+            "en": "Image volume, video and client handover",
+            "uk": "Кількість зображень, відео та передача клієнту"
           },
           "paragraphs": [
             {
@@ -73,7 +118,22 @@
               "en": "Briller Pro Design and Studio / Architect include HD / 4K images and PDF specifications. Every paid Briller plan includes commercial licensing, and Studio / Architect adds shared projects. This is useful when the handover needs to explain the proposed work as well as show the finished look.",
               "uk": "Briller Pro Design та Studio / Architect включають HD / 4K-зображення й PDF-специфікації. Усі платні тарифи мають комерційну ліцензію, а Studio / Architect додає спільні проєкти. Це корисно, коли під час передачі потрібно пояснити запропоновані роботи разом із майбутнім виглядом."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For freelance designers",
+              "uk": "Для незалежних дизайнерів"
+            },
+            "text": {
+              "en": "A designer producing many visual directions may value Interior AI’s parallel rendering and larger allowances. A smaller commission may instead need fewer images and a clear explanation of the selected scheme. Briller Pro Design provides the PDF specification for that discussion; Studio adds three seats and shared projects when colleagues need access. Confirm Interior AI’s seat policy before sharing an account.",
+              "uk": "Дизайнеру з великою кількістю концепцій можуть бути корисні паралельні генерації та більші ліміти Interior AI. Для невеликого замовлення важливішими можуть бути кілька зображень і зрозуміле пояснення обраного рішення. Briller Pro Design дає PDF-специфікацію для обговорення, а Studio — три місця та спільні проєкти. Перед спільним використанням Interior AI уточніть правила доступу."
+            },
+            "solution": "interior-designers-freelance-decorators",
+            "label": {
+              "en": "Build a clearer client proposal",
+              "uk": "Підготувати зрозумілу пропозицію клієнту"
+            }
+          }
         }
       ],
       "checks": [
@@ -97,8 +157,8 @@
         {
           "id": "starting-point",
           "heading": {
-            "en": "Staging and redesign",
-            "uk": "Стейджинг і редизайн"
+            "en": "Essential staging and the Pro design workflow",
+            "uk": "Стейджинг Essential і робочий процес Pro"
           },
           "paragraphs": [
             {
@@ -109,13 +169,28 @@
               "en": "Briller begins with room analysis and the goal for your space. You can explore a design direction, keep the decisions you like and refine the next part. For a lived-in home, the useful brief may be to keep the layout and improve storage or lighting.",
               "uk": "Briller починає з аналізу кімнати й задачі для вашого простору. Можна дослідити напрям, зберегти вдалі рішення та уточнити наступну частину. Для обжитого дому корисною задачею може бути збереження планування з кращим зберіганням або освітленням."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For occupied and empty listings",
+              "uk": "Для порожньої та житлової нерухомості"
+            },
+            "text": {
+              "en": "An agent furnishing an empty listing may find Essential sufficient. A furnished property that needs repeated instructions or reference-led edits calls for the Pro workflow. Briller is useful earlier in the sale preparation: decide which changes to make in the actual room, then discuss the finishes and labour behind them before commissioning the listing photographs.",
+              "uk": "Для меблювання порожньої квартири агенту може вистачити Essential. Якщо житлова квартира потребує послідовних правок або роботи з референсами, варто розглянути Pro. Briller допоможе на етапі підготовки до продажу: визначити реальні зміни в кімнаті та обговорити матеріали й роботи перед зйомкою оголошення."
+            },
+            "solution": "real-estate-agents-listing-prep",
+            "label": {
+              "en": "Decide what to improve before listing",
+              "uk": "Визначити зміни перед продажем"
+            }
+          }
         },
         {
           "id": "references",
           "heading": {
-            "en": "References and small changes",
-            "uk": "Референси й невеликі зміни"
+            "en": "Reference-photo control and edit memory",
+            "uk": "Керування референсами та пам’ять правок"
           },
           "paragraphs": [
             {
@@ -126,13 +201,28 @@
               "en": "A Briller moodboard can carry a specific solution from a reference: a ceiling detail, a storage element or a lighting arrangement. The point is to decide which part belongs in your room and then consider the material and fitting requirements that come with it.",
               "uk": "Мудборд Briller може перенести конкретне рішення з референсу: деталь стелі, елемент зберігання чи схему освітлення. Важливо вибрати, яка частина підходить вашій кімнаті, а потім розглянути матеріали та вимоги до монтажу."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a first room project",
+              "uk": "Для першого проєкту кімнати"
+            },
+            "text": {
+              "en": "When two people like different reference rooms, agree on the elements to borrow: the storage arrangement, pendant shape or wall treatment. REimagineHome Pro’s scene and object references support that visual conversation. Briller can take a particular reference detail into the brief and help explore its implications, such as a curtain pocket needing ceiling space and access for fitting.",
+              "uk": "Якщо двом людям подобаються різні референси, узгодьте конкретні елементи: зберігання, форму підвісного світильника чи оздоблення стіни. Референси сцен і предметів у REimagineHome Pro підтримують таке візуальне обговорення. Briller допоможе перенести окрему деталь у завдання та розглянути наслідки: наприклад, скільки місця й доступу потребуватиме ніша для штор."
+            },
+            "solution": "first-room-refresh",
+            "label": {
+              "en": "Work through your first room refresh",
+              "uk": "Опрацювати перше оновлення кімнати"
+            }
+          }
         },
         {
           "id": "products",
           "heading": {
-            "en": "Real products and practical specifications",
-            "uk": "Реальні товари й практичні специфікації"
+            "en": "Real Products Discovery + Visualization",
+            "uk": "Real Products Discovery + Visualization"
           },
           "paragraphs": [
             {
@@ -143,13 +233,28 @@
               "en": "Briller’s Shop the Look supports an item shortlist. Alongside it, Briller’s budget options help you discuss specifications: the finish on a cabinet, the type of LED profile or the curtain-track detail. These choices help turn a shopping direction into a more useful project brief.",
               "uk": "Shop the Look у Briller допомагає скласти список предметів. Поруч із ним бюджетні варіанти дозволяють обговорити специфікації: покриття шафи, тип LED-профілю чи деталь карниза. Так напрям для покупок перетворюється на корисніше завдання для проєкту."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For investors buying to a budget",
+              "uk": "Для інвесторів із визначеним бюджетом"
+            },
+            "text": {
+              "en": "A flipper comparing several properties needs to distinguish a shoppable item from a complete installed cost. REimagineHome’s product-discovery visualization uses two credits rather than one for visualization alone. Briller’s budget-specific advice adds a discussion of preparation, supports and fitting choices. Check dimensions, local availability and the contractor’s quote before treating either shortlist as a purchasing schedule.",
+              "uk": "Інвестору, який порівнює кілька об’єктів, важливо відрізняти ціну товару від вартості встановленого рішення. Візуалізація з пошуком товарів у REimagineHome використовує два кредити замість одного. Бюджетні поради Briller допомагають обговорити підготовку, кріплення та монтаж. Розміри, місцеву наявність і кошторис підрядника перевірте до закупівлі."
+            },
+            "solution": "real-estate-investors-house-flippers",
+            "label": {
+              "en": "Compare renovation choices for an investment",
+              "uk": "Порівняти рішення для інвестиційного ремонту"
+            }
+          }
         },
         {
           "id": "handover",
           "heading": {
-            "en": "Property work and project handover",
-            "uk": "Робота з нерухомістю й передача проєкту"
+            "en": "Listing batches and agency work",
+            "uk": "Пакетна робота з оголошеннями та агентствами"
           },
           "paragraphs": [
             {
@@ -160,7 +265,22 @@
               "en": "Briller Pro Design and Studio / Architect include PDF specifications and HD / 4K output. Studio / Architect adds shared projects. This can help a designer or homeowner keep the visual direction and the implementation discussion together through the handover.",
               "uk": "Briller Pro Design та Studio / Architect включають PDF-специфікації й HD / 4K-експорт. Studio / Architect додає спільні проєкти. Це допомагає дизайнеру чи власнику житла передавати візуальний напрям разом з обговоренням реалізації."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a developer’s sales and delivery teams",
+              "uk": "Для відділів продажу й реалізації забудовника"
+            },
+            "text": {
+              "en": "Batch processing helps a sales team prepare many property images; a construction team needs the selected finish explained consistently across units. REimagineHome’s higher tiers increase the credit pool for the Pro workflow. Briller Studio’s shared projects and PDF specifications can support the material discussion. Confirm REimagineHome’s team-seat count and batch controls against the number of people and listings involved.",
+              "uk": "Пакетна обробка допомагає відділу продажу готувати багато зображень, а будівельній команді потрібен послідовний опис обраного оздоблення для всіх квартир. Старші тарифи REimagineHome збільшують запас кредитів для процесу Pro. Спільні проєкти та PDF-специфікації Briller Studio підтримують обговорення матеріалів. Уточніть кількість місць і керування пакетами в REimagineHome під вашу команду."
+            },
+            "solution": "property-developers",
+            "label": {
+              "en": "Coordinate the finish proposal across units",
+              "uk": "Узгодити оздоблення для кількох об’єктів"
+            }
+          }
         }
       ],
       "checks": [
@@ -184,42 +304,72 @@
         {
           "id": "themes",
           "heading": {
-            "en": "Exploring room themes",
-            "uk": "Дослідіть оформлення кімнати"
+            "en": "Themes, quality models and credit use",
+            "uk": "Теми, моделі якості та витрати кредитів"
           },
           "paragraphs": [
             {
-              "en": "RoomGPT is built around seeing a room in different themes from one photograph. It is an option for the early question: which direction would I like to explore before renovating?",
-              "uk": "RoomGPT побудовано навколо перегляду кімнати в різних темах за одним фото. Це варіант для початкового питання: який напрям хотілося б дослідити до ремонту?"
+              "en": "RoomGPT starts with a room photograph and a choice of themes. Its generator offers Basic, Pro and Ultra quality options, using one, two and four credits respectively for each selected theme. Choosing several themes multiplies the credit use; the packs buy credits rather than a fixed number of high-quality outputs.",
+              "uk": "RoomGPT починає з фото кімнати та вибору тем. Генератор пропонує якість Basic, Pro та Ultra з витратою одного, двох і чотирьох кредитів відповідно на кожну тему. Вибір кількох тем множить витрату; пакети містять кредити, а не фіксовану кількість зображень високої якості."
             },
             {
               "en": "Briller also begins with the existing room, then lets the brief become more specific. You can bring a reference image and select a particular material, piece of furniture or technical detail to apply to the original space.",
               "uk": "Briller також починає з наявної кімнати, а потім дозволяє уточнювати задачу. Можна додати референс і вибрати конкретний матеріал, меблі чи технічну деталь для початкового простору."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For choosing a direction before spending",
+              "uk": "Для вибору напряму до початку витрат"
+            },
+            "text": {
+              "en": "For a homeowner comparing broad styles, choose a small set of themes first. RoomGPT’s credit cost increases with quality and each theme: two Pro themes use four credits, while two Ultra themes use eight. Briller is useful when that first comparison becomes a more specific question about retained furniture, a reference detail or the budget for the selected look.",
+              "uk": "Власнику, який порівнює загальні стилі, варто почати з кількох тем. У RoomGPT витрата залежить від якості та кількості тем: дві теми Pro коштують чотири кредити, дві Ultra — вісім. Briller стане корисним, коли після першого порівняння виникнуть конкретні питання про наявні меблі, деталь із референсу чи бюджет обраного вигляду."
+            },
+            "solution": "try-a-design-style",
+            "label": {
+              "en": "Try a style in your own room",
+              "uk": "Приміряти стиль до своєї кімнати"
+            }
+          }
         },
         {
           "id": "refinements",
           "heading": {
-            "en": "Developing the chosen direction",
-            "uk": "Розвиньте вибраний напрям"
+            "en": "Extra written details and repeat design passes",
+            "uk": "Додаткові текстові побажання та послідовні варіанти"
           },
           "paragraphs": [
             {
-              "en": "RoomGPT’s theme variations give you an initial visual comparison. If your next step needs local object edits, reference-photo control or a saved editing history, confirm those functions in the version you are using.",
-              "uk": "Тематичні варіанти RoomGPT дають початкове візуальне порівняння. Якщо далі потрібні локальні зміни предметів, керування за референсом або збережена історія редагування, уточніть ці функції у своїй версії."
+              "en": "RoomGPT’s Pro and Ultra options allow extra written details about the room. That gives the theme a more specific brief. Local selection masks, reference-photo controls and an available saved-project dashboard still need confirming; the pack page labels dashboard saving “Coming Soon”.",
+              "uk": "Опції Pro та Ultra в RoomGPT дозволяють додати текстові побажання щодо кімнати й уточнити завдання для теми. Маски локального вибору, керування референсами та доступність збережених проєктів ще потрібно підтвердити: на сторінці пакетів збереження в панелі позначене «Coming Soon»."
             },
             {
               "en": "Briller keeps design iterations within a project and connects the image to Smart Sparks and advice. That helps when you like the room’s overall feel but still need to resolve a shelf detail, task lighting or how the new finish meets the floor you are keeping.",
               "uk": "Briller зберігає ітерації в проєкті та пов’язує зображення зі Smart Sparks і порадами. Це допомагає, коли загальний настрій кімнати вже підходить, але треба вирішити деталь полиці, робоче освітлення чи стик нового оздоблення з підлогою, яку ви залишаєте."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a small room with fixed constraints",
+              "uk": "Для маленької кімнати з обмеженнями"
+            },
+            "text": {
+              "en": "In a studio apartment, a different theme does not establish whether the sofa bed opens or the route to the kitchen stays clear. Use RoomGPT’s extra written details to describe what must remain, then check the result against measurements. Briller can develop the storage and finish choices around those constraints. Keep a measured layout alongside both tools when deciding where furniture goes.",
+              "uk": "У квартирі-студії інша тема ще не показує, чи розкладається диван і чи вільний прохід до кухні. Додаткові текстові побажання RoomGPT допоможуть описати, що має залишитися; результат потрібно звірити з вимірами. Briller допоможе опрацювати зберігання й оздоблення навколо цих обмежень. Для розміщення меблів тримайте поруч обмірний план."
+            },
+            "solution": "small-space-studio-apartment-layout",
+            "label": {
+              "en": "Plan a small-space refresh",
+              "uk": "Спланувати оновлення невеликого простору"
+            }
+          }
         },
         {
           "id": "specifications",
           "heading": {
-            "en": "From an image to a project brief",
-            "uk": "Від зображення до завдання на роботи"
+            "en": "Commercial photo use and the work brief",
+            "uk": "Комерційне використання фото та завдання на роботи"
           },
           "paragraphs": [
             {
@@ -230,7 +380,22 @@
               "en": "Briller offers material specifications and installation advice across budget options, with full insights on Pro Design and Studio / Architect. Those plans also include PDF specifications and HD / 4K images. Paid plans include commercial licensing, and Studio / Architect supports shared projects.",
               "uk": "Briller пропонує специфікації матеріалів і поради з монтажу для різних бюджетів; повні рекомендації доступні у Pro Design та Studio / Architect. Ці тарифи також включають PDF-специфікації й HD / 4K-зображення. Платні тарифи мають комерційну ліцензію, а Studio / Architect підтримує спільні проєкти."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a contractor discussing the quote",
+              "uk": "Для підрядника під час узгодження кошторису"
+            },
+            "text": {
+              "en": "A theme image can help a customer explain their taste, but the quote still needs an agreed scope. Ask which floor stays, which wall changes and who supplies the lighting. RoomGPT’s paid packs permit commercial photo use. Briller’s full advice and PDF specifications help develop the material and fitting discussion before the contractor turns it into priced work.",
+              "uk": "Зображення теми допоможе клієнту пояснити смак, але для кошторису потрібен узгоджений обсяг робіт. З’ясуйте, яка підлога залишається, яку стіну змінюють і хто постачає світильники. Платні пакети RoomGPT дозволяють комерційне використання фото. Повні поради та PDF-специфікації Briller допоможуть опрацювати матеріали й монтаж перед розрахунком підрядника."
+            },
+            "solution": "general-contractors-remodeling-companies",
+            "label": {
+              "en": "Turn the design discussion into a clearer brief",
+              "uk": "Уточнити завдання для підрядника"
+            }
+          }
         }
       ],
       "checks": [
@@ -258,8 +423,8 @@
         {
           "id": "spaces",
           "heading": {
-            "en": "Rooms, exteriors and gardens",
-            "uk": "Кімнати, екстер’єри й сади"
+            "en": "Object detection, material swaps and outdoor spaces",
+            "uk": "Розпізнавання об’єктів, заміна матеріалів і зовнішні простори"
           },
           "paragraphs": [
             {
@@ -270,13 +435,28 @@
               "en": "Briller helps you develop a room around a practical brief. You can keep elements that already work and explore the changes that matter: the cabinet fronts, a darker worktop area or a better place to store everyday things.",
               "uk": "Briller допомагає розвивати кімнату навколо практичної задачі. Можна залишити елементи, які вже працюють, і дослідити потрібні зміни: фасади шаф, темну робочу поверхню чи зручніше зберігання щоденних речей."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a garden and exterior refresh",
+              "uk": "Для оновлення саду та екстер’єру"
+            },
+            "text": {
+              "en": "When the brief crosses the back door, compare the patio surface, furniture and façade together. HomeDesignsAI’s exterior and garden tools let you explore that visual relationship. Its Partial Remodel workflow also targets selected changes. In Briller, bring the chosen reference into the brief and discuss finishes and budget; ground levels, drainage and outdoor electrical work still need site checks.",
+              "uk": "Коли проєкт виходить у двір, порівнюйте покриття тераси, меблі й фасад разом. Інструменти екстер’єру та саду HomeDesignsAI допомагають побачити їх поєднання; Partial Remodel працює з вибраними змінами. У Briller можна додати обраний референс і обговорити оздоблення та бюджет. Відмітки землі, водовідведення й зовнішню електрику перевіряють на місці."
+            },
+            "solution": "backyard-outdoor-living-redesign",
+            "label": {
+              "en": "Develop an outdoor-living brief",
+              "uk": "Опрацювати завдання для подвір’я"
+            }
+          }
         },
         {
           "id": "reference-shopping",
           "heading": {
-            "en": "References and furniture shopping",
-            "uk": "Референси й підбір меблів"
+            "en": "Design Transfer, Materials Swap and furniture shopping",
+            "uk": "Design Transfer, Materials Swap і пошук меблів"
           },
           "paragraphs": [
             {
@@ -287,13 +467,28 @@
               "en": "Briller moodboards can contribute specific elements as well as a general look. Shop the Look helps create a shortlist, while the advice can address how those items relate to the room: clearances, retained finishes and the fitting work around them.",
               "uk": "Мудборди Briller можуть підказувати конкретні елементи разом із загальним виглядом. Shop the Look допомагає скласти список предметів, а поради — розглянути їхній зв’язок із кімнатою: проходи, збережене оздоблення й необхідні монтажні роботи."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For deciding what to keep",
+              "uk": "Для рішення, що зберегти"
+            },
+            "text": {
+              "en": "A homeowner keeping the floor may need only a new wall colour, fabric and a chair. HomeDesignsAI’s Materials Swap accepts a material reference; Design Transfer borrows a look from an inspiration image, and Pro adds Furniture Finder. Check the subscription access for each named tool. Briller helps connect the selected reference elements with preparation and fitting choices before you buy samples.",
+              "uk": "Якщо підлога залишається, власнику можуть бути потрібні лише новий колір стін, тканина й крісло. Materials Swap у HomeDesignsAI приймає референс матеріалу, Design Transfer переносить вигляд із натхненного зображення, а Pro додає Furniture Finder. Доступність кожного інструмента уточніть у тарифі. Briller допоможе пов’язати обрані деталі з підготовкою та монтажем перед купівлею зразків."
+            },
+            "solution": "paint-wall-color-testing",
+            "label": {
+              "en": "Choose a wall finish around what stays",
+              "uk": "Підібрати стіни до наявного інтер’єру"
+            }
+          }
         },
         {
           "id": "budget",
           "heading": {
-            "en": "Budget tools and material decisions",
-            "uk": "Бюджетні інструменти й вибір матеріалів"
+            "en": "Expert’s estimator, floor plans and walkthroughs",
+            "uk": "Оцінка бюджету, плани та відео в Expert"
           },
           "paragraphs": [
             {
@@ -304,13 +499,28 @@
               "en": "Briller’s budget options go into the specification choices behind the look. For a ceiling glow, you might compare a surface-mounted LED channel with a recessed cove, then consider the ceiling work and driver access each approach needs. Full technical insights are on Pro Design and Studio / Architect.",
               "uk": "Бюджетні варіанти Briller розбирають специфікації, що стоять за виглядом. Для підсвічування стелі можна порівняти накладний LED-профіль із вбудованою нішею та розглянути стельові роботи й доступ до драйвера в обох випадках. Повні технічні рекомендації доступні у Pro Design та Studio / Architect."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a kitchen or bathroom proposal",
+              "uk": "Для пропозиції кухні або ванної"
+            },
+            "text": {
+              "en": "An estimator and a walkthrough answer different questions: one starts the cost conversation; the other shows the proposal. HomeDesignsAI Expert combines both with 2D-to-3D conversion. For a kitchen, use Briller to explore worktop and splashback alternatives, edge details and fitting access. Confirm how the estimator handles labour and location, and keep appliance dimensions and service positions on the measured plan.",
+              "uk": "Оцінка бюджету починає розмову про витрати, а відео показує пропозицію. HomeDesignsAI Expert поєднує обидва інструменти з перетворенням 2D у 3D. Для кухні Briller допоможе обговорити стільницю, фартух, крайки та доступ для монтажу. Уточніть, як оцінювач враховує роботу й регіон, а габарити техніки та комунікації залиште на обмірному плані."
+            },
+            "solution": "kitchen-bath-remodelers",
+            "label": {
+              "en": "Work through a kitchen or bathroom specification",
+              "uk": "Опрацювати специфікацію кухні або ванної"
+            }
+          }
         },
         {
           "id": "team-delivery",
           "heading": {
-            "en": "Client work and team access",
-            "uk": "Клієнтська робота й команда"
+            "en": "Commercial rights, tool access and five team seats",
+            "uk": "Комерційні права, доступ до інструментів і п’ять місць"
           },
           "paragraphs": [
             {
@@ -321,7 +531,22 @@
               "en": "Briller Studio / Architect supports shared projects, while Pro Design and Studio / Architect include PDF specifications and HD / 4K exports. Choose around the handover you need: a picture for discussion, a product shortlist or an explanation of the proposed specification.",
               "uk": "Briller Studio / Architect підтримує спільні проєкти, а Pro Design та Studio / Architect включають PDF-специфікації й HD / 4K-експорт. Орієнтуйтеся на потрібну передачу: зображення для обговорення, список предметів або пояснення запропонованої специфікації."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a small design practice",
+              "uk": "Для невеликої дизайн-студії"
+            },
+            "text": {
+              "en": "A five-person practice should compare the work each seat needs to do. HomeDesignsAI Expert includes up to five seats and its advanced presentation tools. Briller Studio has three seats and shared projects, with full advice and PDFs. Before choosing, test one representative client brief through the tools you will actually use and confirm HomeDesignsAI’s seat permissions and advanced-tool credit costs.",
+              "uk": "Студії з п’яти людей варто порівняти роботу кожного учасника. HomeDesignsAI Expert включає до п’яти місць та розширені інструменти презентації. Briller Studio має три місця, спільні проєкти, повні поради й PDF. Перед вибором пройдіть одне типове клієнтське завдання та уточніть права учасників і витрату кредитів розширених інструментів HomeDesignsAI."
+            },
+            "solution": "interior-designers-freelance-decorators",
+            "label": {
+              "en": "Shape a repeatable client workflow",
+              "uk": "Налагодити роботу з клієнтськими проєктами"
+            }
+          }
         }
       ],
       "checks": [
@@ -345,8 +570,8 @@
         {
           "id": "phone-workflow",
           "heading": {
-            "en": "Trying a change on your phone",
-            "uk": "Спробуйте зміни на телефоні"
+            "en": "Photo previews on iOS and Android",
+            "uk": "Фотоескізи на iOS та Android"
           },
           "paragraphs": [
             {
@@ -357,13 +582,28 @@
               "en": "Briller pairs the room photo with analysis and a project brief. You can use a moodboard to bring in a particular item, finish or technical element, then develop the original space through several design iterations.",
               "uk": "Briller поєднує фото кімнати з аналізом і завданням на проєкт. Через мудборд можна додати конкретний предмет, оздоблення чи технічний елемент, а потім розвивати початковий простір кількома ітераціями."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For the first conversation at home",
+              "uk": "Для першого обговорення вдома"
+            },
+            "text": {
+              "en": "A phone preview is convenient when you are choosing between a painted wall and a new floor while standing in the room. Remodel AI suits that quick visual check. Briller becomes useful when you want to keep the options in a project and discuss what the preferred change involves. Take clear original photos and note the items you want to retain.",
+              "uk": "Фотоескіз на телефоні зручний, коли ви просто в кімнаті обираєте між фарбуванням стін і новою підлогою. Remodel AI підходить для такої швидкої перевірки. Briller допоможе зберегти варіанти в проєкті та обговорити, що передбачає обрана зміна. Зробіть чіткі оригінальні фото й зазначте предмети, які хочете залишити."
+            },
+            "solution": "first-room-refresh",
+            "label": {
+              "en": "Start with one room and a clear brief",
+              "uk": "Почати з кімнати та зрозумілого завдання"
+            }
+          }
         },
         {
           "id": "objects",
           "heading": {
-            "en": "Surfaces, objects and furniture",
-            "uk": "Поверхні, предмети й меблі"
+            "en": "Reskin, Replace and Remove",
+            "uk": "Reskin, Replace та Remove"
           },
           "paragraphs": [
             {
@@ -374,13 +614,28 @@
               "en": "Briller’s Shop the Look helps build a shortlist too. The advice around it can address what the product choice changes in practice: how a thicker worktop meets the sink, whether a floating shelf has suitable support or how a new finish sits beside what stays.",
               "uk": "Shop the Look у Briller також допомагає скласти список предметів. Поради поруч розбирають практичні наслідки вибору: як товстіша стільниця стикується з мийкою, чи має навісна полиця відповідну опору або як нове оздоблення виглядатиме поруч зі збереженим."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For comparing flooring and retained furniture",
+              "uk": "Для порівняння підлоги зі збереженими меблями"
+            },
+            "text": {
+              "en": "Use Reskin to explore the surface and Replace or Remove for an object you intend to change. For flooring, the next decision is often the junction: the hallway, a door or the kitchen units. Briller’s advice helps compare those finish and fitting choices. A preview cannot establish substrate condition; check levels, moisture and door clearance before ordering.",
+              "uk": "Reskin допомагає приміряти поверхню, а Replace і Remove — змінити чи прибрати предмет. Для підлоги наступне питання часто стосується стиків: із коридором, дверима або кухонними шафами. Поради Briller допоможуть порівняти оздоблення й монтаж. Фотоескіз не визначає стан основи; до замовлення перевірте рівні, вологість і зазор під дверима."
+            },
+            "solution": "flooring-finish-comparison",
+            "label": {
+              "en": "Compare floor finishes and fitting choices",
+              "uk": "Порівняти підлогові покриття та монтаж"
+            }
+          }
         },
         {
           "id": "budget",
           "heading": {
-            "en": "Specifying the improvement",
-            "uk": "Продумайте реалізацію"
+            "en": "From a finish preview to fitting choices",
+            "uk": "Від вигляду оздоблення до монтажних рішень"
           },
           "paragraphs": [
             {
@@ -391,13 +646,28 @@
               "en": "Briller’s budget-specific advice covers specifications and implementation choices, with full insights on Pro Design and Studio / Architect. For a floor change, that discussion can include the finish, substrate preparation and junctions with existing doors or adjacent surfaces.",
               "uk": "Поради Briller за бюджетом охоплюють специфікації й варіанти реалізації; повні рекомендації доступні у Pro Design та Studio / Architect. Для зміни підлоги можна розглянути покриття, підготовку основи та стики з наявними дверима чи суміжними поверхнями."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a kitchen surface refresh",
+              "uk": "Для оновлення кухонних поверхонь"
+            },
+            "text": {
+              "en": "A changed worktop colour can make the room feel different without replacing every cabinet. Remodel AI can help explore the appearance. In Briller, develop the specification around the existing carcasses, sink, hob and splashback, then compare budget options. Ask the fitter to confirm support, cut-outs and service connections before accepting a surface that works only in the picture.",
+              "uk": "Інший колір стільниці може змінити кухню без заміни всіх шаф. Remodel AI допоможе приміряти вигляд. У Briller можна опрацювати специфікацію з урахуванням наявних корпусів, мийки, варильної поверхні та фартуха й порівняти бюджетні варіанти. До вибору матеріалу попросіть майстра перевірити опори, вирізи та підключення."
+            },
+            "solution": "kitchen-surfaces",
+            "label": {
+              "en": "Explore a kitchen-surface update",
+              "uk": "Опрацювати оновлення кухонних поверхонь"
+            }
+          }
         },
         {
           "id": "sharing",
           "heading": {
-            "en": "Saving and sharing the proposal",
-            "uk": "Збережіть і передайте пропозицію"
+            "en": "Saving proposals and checking client-use rights",
+            "uk": "Збереження пропозицій і права для клієнтської роботи"
           },
           "paragraphs": [
             {
@@ -408,7 +678,22 @@
               "en": "Briller Pro Design and Studio / Architect include HD / 4K output and PDF specifications. All paid plans include commercial licensing; Studio / Architect adds shared projects. Those are useful entitlements to compare when the result is going to a client or a fitting team.",
               "uk": "Briller Pro Design та Studio / Architect включають HD / 4K-експорт і PDF-специфікації. Усі платні тарифи мають комерційну ліцензію; Studio / Architect додає спільні проєкти. Ці умови варто порівняти, коли результат передаватиметься клієнту чи монтажній команді."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a rental between bookings",
+              "uk": "Для орендного житла між бронюваннями"
+            },
+            "text": {
+              "en": "A host may have only a few days to replace a damaged finish or update furniture. Remodel AI’s saved images can help agree on the look quickly. Briller’s project and PDF specification can hold the chosen detail for the person doing the work. Confirm Remodel AI’s commercial-use rights and export resolution if you plan to use the image in a listing or paid client proposal.",
+              "uk": "Між бронюваннями господар може мати лише кілька днів на заміну оздоблення чи меблів. Збережені зображення Remodel AI допоможуть швидко узгодити вигляд. Проєкт і PDF-специфікація Briller збережуть обрану деталь для виконавця. Якщо зображення потрібне для оголошення або платної пропозиції клієнту, уточніть комерційні права та роздільність експорту Remodel AI."
+            },
+            "solution": "airbnb-turnover-refresh",
+            "label": {
+              "en": "Plan a refresh between bookings",
+              "uk": "Спланувати оновлення між бронюваннями"
+            }
+          }
         }
       ],
       "checks": [
@@ -432,8 +717,8 @@
         {
           "id": "planning",
           "heading": {
-            "en": "Drawing and testing the layout",
-            "uk": "Накресліть і перевірте планування"
+            "en": "Editable 2D / 3D plans and recognition",
+            "uk": "Редаговані 2D / 3D-плани та розпізнавання"
           },
           "paragraphs": [
             {
@@ -444,13 +729,28 @@
               "en": "Briller works with room photos and blueprint references. It helps explore the design direction and the proposed details, while measured planning stays in your drawing tool. The two can work together: use the plan for dimensions and Briller to discuss the room’s finishes and implementation.",
               "uk": "Briller працює з фото кімнат і кресленнями як референсами. Він допомагає дослідити дизайнерський напрям і деталі, а обмірне планування залишається в редакторі креслень. Їх можна поєднати: план — для розмірів, Briller — для оздоблення й реалізації."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For architects testing the layout",
+              "uk": "Для архітекторів, які перевіряють планування"
+            },
+            "text": {
+              "en": "When a door moves or a circulation route changes, an editable model gives the team something to measure and revise. Planner 5D’s recognition can turn an uploaded plan into that starting model; verify the recognized geometry before designing. Briller can support the parallel discussion about how the room should feel and how the chosen finishes might be built. Keep the agreed measurements in the plan.",
+              "uk": "Коли змінюється дверний отвір або прохід, редагована модель дає команді основу для вимірів і правок. Розпізнавання Planner 5D перетворює завантажений план на початкову модель; геометрію слід перевірити до проєктування. Briller підтримає паралельне обговорення вигляду кімнати та виконання оздоблення. Узгоджені розміри залишайте в плані."
+            },
+            "solution": "architects-architecture-studios",
+            "label": {
+              "en": "Connect the concept with the architectural brief",
+              "uk": "Пов’язати концепцію з архітектурним завданням"
+            }
+          }
         },
         {
           "id": "ai-studio",
           "heading": {
-            "en": "Moodboards and visual development",
-            "uk": "Мудборди й розвиток візуального напряму"
+            "en": "AI Studio canvas, references and local edits",
+            "uk": "Полотно AI Studio, референси та локальні правки"
           },
           "paragraphs": [
             {
@@ -461,13 +761,28 @@
               "en": "Briller moodboards can also carry particular technical elements into the original room. A curtain pocket, fitted shelf or lighting detail can become part of the brief, with further iterations used to refine how the idea sits in the space.",
               "uk": "Мудборди Briller також можуть переносити конкретні технічні елементи до початкової кімнати. Ніша для штор, вбудована полиця чи деталь освітлення можуть стати частиною завдання, а подальші ітерації — уточнити їхній вигляд у просторі."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a renovation across several rooms",
+              "uk": "Для ремонту кількох кімнат"
+            },
+            "text": {
+              "en": "Whole-home decisions need a common palette without making every room identical. Planner 5D’s canvas can organize plans, images and moodboards while local edits develop individual views. Briller projects let you refine the room concept and inspect particular details through Smart Sparks. Use the same brief for retained flooring, lighting temperature and storage priorities so the separate rooms belong together.",
+              "uk": "Для ремонту всього житла потрібна спільна палітра, але не однакові кімнати. Полотно Planner 5D організовує плани, зображення й мудборди, а локальні правки розвивають окремі види. Проєкти Briller допоможуть уточнювати концепцію та вивчати деталі через Smart Sparks. Узгодьте спільні вимоги до збереженої підлоги, температури світла та зберігання."
+            },
+            "solution": "whole-home-renovation-planning",
+            "label": {
+              "en": "Keep a whole-home renovation consistent",
+              "uk": "Узгодити ремонт усього житла"
+            }
+          }
         },
         {
           "id": "costs",
           "heading": {
-            "en": "Costs, products and specifications",
-            "uk": "Витрати, товари й специфікації"
+            "en": "Budget Widget, Price Estimator and project documents",
+            "uk": "Budget Widget, Price Estimator і проєктні документи"
           },
           "paragraphs": [
             {
@@ -478,13 +793,28 @@
               "en": "Briller’s advice helps discuss the specification behind a design choice. For fitted storage, you can explore board or veneer options, concealed supports and cable access across budgets. Shop the Look supports a shortlist, while Pro Design and Studio / Architect provide full technical insights and PDF specifications.",
               "uk": "Поради Briller допомагають обговорити специфікацію дизайнерського рішення. Для вбудованого зберігання можна розглянути плитні матеріали чи шпон, приховані опори й доступ до кабелів за різних бюджетів. Shop the Look допомагає зі списком предметів; Pro Design та Studio / Architect надають повні технічні рекомендації й PDF-специфікації."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a contractor pricing the proposal",
+              "uk": "Для підрядника, який розраховує пропозицію"
+            },
+            "text": {
+              "en": "Planner 5D’s costing and document tools matter when the model must feed a cost discussion. Briller helps develop the choices the contractor needs to price: the cabinet finish, fixing approach or ceiling detail. Keep product costs, labour and allowances visible as separate items. Confirm the estimator’s regional coverage and what the specification export contains before using it as the basis for a quote.",
+              "uk": "Інструменти кошторису й документів Planner 5D важливі, коли модель переходить в обговорення витрат. Briller допомагає опрацювати рішення для розрахунку: оздоблення шаф, кріплення чи деталь стелі. Розділяйте вартість товарів, роботу та резерви. Перед використанням оцінки в кошторисі уточніть регіональне покриття та склад експортованої специфікації."
+            },
+            "solution": "general-contractors-remodeling-companies",
+            "label": {
+              "en": "Prepare a more useful contractor brief",
+              "uk": "Підготувати завдання для розрахунку робіт"
+            }
+          }
         },
         {
           "id": "collaboration",
           "heading": {
-            "en": "Working with a client or team",
-            "uk": "Робота з клієнтом і командою"
+            "en": "Shared editing, CAD and 4K handover",
+            "uk": "Спільне редагування, CAD і передача в 4K"
           },
           "paragraphs": [
             {
@@ -495,7 +825,22 @@
               "en": "Briller Studio / Architect includes shared projects. Pro Design and Studio / Architect combine HD / 4K visuals with PDF specifications, which can sit alongside the measured drawings and help explain the intended materials and details to the people doing the work.",
               "uk": "Briller Studio / Architect включає спільні проєкти. Pro Design та Studio / Architect поєднують HD / 4K-візуалізації з PDF-специфікаціями. Їх можна використовувати разом з обмірними кресленнями, пояснюючи виконавцям потрібні матеріали й деталі."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a developer and external designers",
+              "uk": "Для забудовника та залучених дизайнерів"
+            },
+            "text": {
+              "en": "Planner 5D allows shared editing on every plan, including Free, with view, comment and edit roles. That can suit client layout approval before Professional’s CAD and 4K exports are needed. Briller Studio’s shared projects address the visual and specification discussion. Decide who owns the measured layout and who approves the finishes so a change in one place reaches the other.",
+              "uk": "Planner 5D дозволяє спільне редагування на всіх тарифах, включно з Free, з ролями перегляду, коментування та редагування. Це зручно для погодження планування до потреби в CAD і 4K на Professional. Спільні проєкти Briller Studio підтримують візуальне обговорення та специфікації. Визначте відповідальних за обмірний план і оздоблення, щоб зміни узгоджувалися між ними."
+            },
+            "solution": "property-developers",
+            "label": {
+              "en": "Coordinate layouts and finish decisions",
+              "uk": "Узгодити планування та оздоблення"
+            }
+          }
         }
       ],
       "checks": [
@@ -519,8 +864,8 @@
         {
           "id": "scene",
           "heading": {
-            "en": "Building the room in 3D",
-            "uk": "Побудуйте кімнату в 3D"
+            "en": "Parametric rooms, cabinetry and furniture",
+            "uk": "Параметричні кімнати, шафи та меблі"
           },
           "paragraphs": [
             {
@@ -531,13 +876,28 @@
               "en": "Briller lets the existing room photograph remain the starting point. You can test a change, bring in a detail from a moodboard and refine it through project iterations. If you need measured geometry, keep that work in your planning tool and use Briller for the design and specification discussion.",
               "uk": "Briller дозволяє почати з фото наявної кімнати. Можна спробувати зміни, додати деталь із мудборда й уточнювати її ітераціями проєкту. Якщо потрібна обмірна геометрія, ведіть її в планувальнику, а Briller використовуйте для обговорення дизайну й специфікацій."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For storage in a small apartment",
+              "uk": "Для зберігання в невеликій квартирі"
+            },
+            "text": {
+              "en": "A built-in cabinet in a tight room needs door swings, useful internal space and a clear route past it. Homestyler’s parametric and custom-furniture tools help develop the model. Briller helps explore the visual treatment and budget-specific specification around that idea. Before production, have the joiner check site dimensions, wall tolerances and the actual hardware against the final drawings.",
+              "uk": "Вбудована шафа в тісній кімнаті потребує місця для дверцят, корисного наповнення та вільного проходу. Параметричні інструменти й власні меблі Homestyler допомагають розвинути модель. Briller допоможе обговорити вигляд і специфікацію під бюджет. До виробництва мебляр має перевірити обміри, нерівності стін і фурнітуру за фінальними кресленнями."
+            },
+            "solution": "small-space-studio-apartment-layout",
+            "label": {
+              "en": "Make room for storage without losing circulation",
+              "uk": "Знайти місце для зберігання та проходів"
+            }
+          }
         },
         {
           "id": "materials-light",
           "heading": {
-            "en": "Materials, light and visual references",
-            "uk": "Матеріали, світло й референси"
+            "en": "LightMix, materials and AI moodboards",
+            "uk": "LightMix, матеріали та AI-мудборди"
           },
           "paragraphs": [
             {
@@ -548,13 +908,28 @@
               "en": "Briller connects a selected visual detail with practical advice. For a warm ceiling glow, the useful questions include the profile type, where the driver can be reached and how much ceiling work the budget allows. The Economy, Standard and Premium options help you compare those approaches.",
               "uk": "Briller пов’язує вибрану візуальну деталь із практичними порадами. Для теплого підсвічування стелі важливі тип профілю, доступ до драйвера й обсяг стельових робіт у межах бюджету. Economy, Standard та Premium допомагають порівняти ці підходи."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For comparing lighting schemes",
+              "uk": "Для порівняння схем освітлення"
+            },
+            "text": {
+              "en": "A designer can use LightMix to explore the scene’s lighting and material response. Briller’s advice helps carry the preferred effect into a discussion of fixture positions, LED profiles, driver access and budget. Decide separately which light is for a task and which creates atmosphere. Check fixture data and the electrician’s design when the visual direction becomes a lighting schedule.",
+              "uk": "Дизайнер може використати LightMix для порівняння освітлення сцени та реакції матеріалів. Поради Briller допоможуть обговорити розміщення світильників, LED-профілі, доступ до драйверів і бюджет обраного ефекту. Окремо визначте робоче та атмосферне світло. Для специфікації перевірте характеристики світильників і проєкт електрика."
+            },
+            "solution": "lighting-design-fixture-selection",
+            "label": {
+              "en": "Develop the lighting beyond the render",
+              "uk": "Опрацювати освітлення після візуалізації"
+            }
+          }
         },
         {
           "id": "products-drawings",
           "heading": {
-            "en": "Furniture, schedules and drawings",
-            "uk": "Меблі, відомості й креслення"
+            "en": "Branded models, BOMs and drawing exports",
+            "uk": "Брендові моделі, BOM і експорт креслень"
           },
           "paragraphs": [
             {
@@ -565,13 +940,28 @@
               "en": "Briller’s Shop the Look supports a product shortlist, and Pro Design / Studio specifications help explain material and fitting choices. For a built-in cabinet, that can mean discussing the finish, hardware and junctions before the measured joinery drawings are finalized.",
               "uk": "Shop the Look у Briller допомагає зі списком товарів, а специфікації Pro Design / Studio — пояснити матеріали й монтаж. Для вбудованої шафи можна обговорити покриття, фурнітуру й стики до завершення розмірних столярних креслень."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a joiner preparing fitted storage",
+              "uk": "Для мебляра, який готує вбудоване зберігання"
+            },
+            "text": {
+              "en": "A model library and a BOM help organize the proposal; the workshop still needs agreed sizes, edges, fixings and hardware. Homestyler Pro+ supplies drawing and schedule exports for that workflow. Briller’s full advice can help compare board finishes, access panels and installation approaches. Review a sample Homestyler export to confirm the detail and units your workshop expects.",
+              "uk": "Бібліотека моделей і BOM допомагають організувати пропозицію, а майстерні потрібні узгоджені розміри, крайки, кріплення й фурнітура. Homestyler Pro+ має експорт креслень і відомостей для цього процесу. Повні поради Briller допоможуть порівняти оздоблення плит, доступ до комунікацій і монтаж. Перевірте зразок експорту Homestyler на потрібну деталізацію та одиниці."
+            },
+            "solution": "closet-built-in-storage-redesign",
+            "label": {
+              "en": "Work through a fitted-storage brief",
+              "uk": "Опрацювати завдання для вбудованих меблів"
+            }
+          }
         },
         {
           "id": "renders-team",
           "heading": {
-            "en": "Rendering and studio work",
-            "uk": "Рендеринг і робота студії"
+            "en": "Render quotas, shared libraries and branding",
+            "uk": "Ліміти рендерів, спільні бібліотеки та брендування"
           },
           "paragraphs": [
             {
@@ -582,7 +972,22 @@
               "en": "Briller Studio / Architect includes shared projects, and both Pro Design and Studio / Architect offer HD / 4K images and PDF specifications. It is a useful combination when your presentation should also explain how the proposal changes with the available budget.",
               "uk": "Briller Studio / Architect включає спільні проєкти, а Pro Design та Studio / Architect — HD / 4K-зображення й PDF-специфікації. Це корисне поєднання, коли презентація має також пояснювати, як пропозиція змінюється залежно від бюджету."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a studio managing reusable assets",
+              "uk": "Для студії зі спільними матеріалами"
+            },
+            "text": {
+              "en": "Homestyler Team keeps projects and private models in team folders, supports admin and member permissions, and can put the studio’s own branding on renders. That is useful when several designers reuse a material library. Briller Studio offers three seats and shared projects for the concept and specification work. Compare asset ownership, client access and seat costs before moving an existing studio library.",
+              "uk": "Homestyler Team зберігає проєкти й приватні моделі в командних папках, має ролі адміністратора та учасника й дозволяє додати бренд студії до рендерів. Це корисно для спільної бібліотеки матеріалів. Briller Studio пропонує три місця та спільні проєкти для концепції і специфікацій. Перед перенесенням бібліотеки порівняйте власність матеріалів, доступ клієнтів і вартість місць."
+            },
+            "solution": "interior-designers-freelance-decorators",
+            "label": {
+              "en": "Organize the studio’s client handover",
+              "uk": "Організувати передачу проєкту клієнту"
+            }
+          }
         }
       ],
       "checks": [
@@ -606,8 +1011,8 @@
         {
           "id": "layout",
           "heading": {
-            "en": "Drawing and furnishing the space",
-            "uk": "Накресліть і облаштуйте простір"
+            "en": "Dimensioned walls, model catalogue and plan exports",
+            "uk": "Стіни з розмірами, каталог моделей і експорт планів"
           },
           "paragraphs": [
             {
@@ -618,13 +1023,28 @@
               "en": "Briller uses photos and blueprint references to explore a design direction. Keep measured geometry in the drawing tool, and use Briller to consider the finishes and details that will make that layout work for the people using it.",
               "uk": "Briller використовує фото й креслення як референси для дослідження дизайнерського напряму. Обмірну геометрію залишайте в редакторі креслень, а з Briller розглядайте оздоблення й деталі, які зроблять планування зручним для користувачів."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a kitchen or bathroom remodeler",
+              "uk": "Для підрядника з ремонту кухонь і ванних"
+            },
+            "text": {
+              "en": "A kitchen layout needs appliance clearances and service positions alongside the presentation. Foyr Neo’s editable wall dimensions and model placement support that spatial work. Briller helps compare the cabinet, worktop and lighting details around the chosen layout. Keep site measurements and manufacturer installation requirements with the plan, particularly where a visual model uses a similar rather than the exact product.",
+              "uk": "План кухні має враховувати зазори техніки та комунікації разом із презентацією. Редаговані розміри стін і розміщення моделей Foyr Neo підтримують цю роботу. Briller допоможе порівняти шафи, стільницю й освітлення навколо обраного планування. Зберігайте обміри та вимоги виробника поруч із планом, особливо якщо модель лише схожа на реальний товар."
+            },
+            "solution": "kitchen-bath-remodelers",
+            "label": {
+              "en": "Connect the room proposal with the fitting brief",
+              "uk": "Пов’язати пропозицію з монтажним завданням"
+            }
+          }
         },
         {
           "id": "design-development",
           "heading": {
-            "en": "Developing the room’s character",
-            "uk": "Розвиньте характер кімнати"
+            "en": "Moodboards, lighting controls and walkthroughs",
+            "uk": "Мудборди, керування освітленням і віртуальні прогулянки"
           },
           "paragraphs": [
             {
@@ -635,13 +1055,28 @@
               "en": "In Briller, a reference can contribute a specific solution to the original room. You might bring in a floating credenza or a recessed curtain track, refine its appearance and then use the advice to discuss supports, access and the surrounding finish.",
               "uk": "У Briller референс може підказати конкретне рішення для початкової кімнати. Можна додати навісну тумбу чи прихований карниз, уточнити вигляд і через поради розглянути опори, доступ та суміжне оздоблення."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For an agent planning improvements before sale",
+              "uk": "Для агента, який планує оновлення перед продажем"
+            },
+            "text": {
+              "en": "A walkthrough can help an owner understand a proposed reconfiguration, but creating the model takes more preparation than changing a photo. Foyr Neo suits a proposal that needs several modeled views. Briller is useful for exploring which retained-room changes deserve that investment: a brighter finish, a revised lighting detail or a more restrained feature wall before the listing is photographed.",
+              "uk": "Віртуальна прогулянка пояснить власнику перепланування, але модель потребує більше підготовки, ніж зміна фото. Foyr Neo підходить для пропозиції з кількома модельованими видами. Briller допоможе визначити, які зміни варто опрацьовувати: світліше оздоблення, інше освітлення чи спокійніша акцентна стіна перед зйомкою оголошення."
+            },
+            "solution": "real-estate-agents-listing-prep",
+            "label": {
+              "en": "Choose improvements for sale preparation",
+              "uk": "Обрати покращення перед продажем"
+            }
+          }
         },
         {
           "id": "specifications",
           "heading": {
-            "en": "Specifying and costing the work",
-            "uk": "Продумайте специфікацію й витрати"
+            "en": "Neo specifications and Foyr Manage",
+            "uk": "Специфікації Neo та Foyr Manage"
           },
           "paragraphs": [
             {
@@ -652,13 +1087,28 @@
               "en": "Briller’s budget options help explore material and installation alternatives within a design. For a feature wall, you can discuss veneer versus a decorative finish, the fixing method and cable coordination. Full technical insights and PDF specifications are included on Pro Design and Studio / Architect.",
               "uk": "Бюджетні варіанти Briller допомагають дослідити альтернативи матеріалів і монтажу в межах дизайну. Для акцентної стіни можна обговорити шпон і декоративне покриття, спосіб кріплення та узгодження кабелів. Повні технічні рекомендації й PDF-специфікації включено до Pro Design та Studio / Architect."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a contractor separating design and administration",
+              "uk": "Для підрядника, який розділяє дизайн і адміністрування"
+            },
+            "text": {
+              "en": "A floor-plan export, a material brief and an invoice serve different parts of a job. Foyr Neo covers the model and presentation; confirm Foyr Manage separately if you need estimates or invoicing. Briller’s full advice helps develop material and installation alternatives for the brief. The contractor can then price the agreed option with actual quantities, supplier costs and labour.",
+              "uk": "Експорт плану, опис матеріалів і рахунок потрібні на різних етапах. Foyr Neo відповідає за модель і презентацію; для кошторисів та рахунків окремо уточніть Foyr Manage. Повні поради Briller допоможуть опрацювати матеріали й варіанти монтажу в завданні. Підрядник розрахує узгоджений варіант за реальними обсягами, цінами постачальників і роботою."
+            },
+            "solution": "general-contractors-remodeling-companies",
+            "label": {
+              "en": "Clarify the specification before pricing",
+              "uk": "Уточнити специфікацію до розрахунку"
+            }
+          }
         },
         {
           "id": "presentation",
           "heading": {
-            "en": "Presenting with a studio",
-            "uk": "Презентація й робота студії"
+            "en": "Two-user work, scaled elevations and custom models",
+            "uk": "Два користувачі, масштабовані розгортки та власні моделі"
           },
           "paragraphs": [
             {
@@ -669,7 +1119,22 @@
               "en": "Briller Studio / Architect includes shared projects. Its HD / 4K images and PDF specifications can accompany the drawings from your planning software, giving the team a visual direction and an explanation of the proposed specification.",
               "uk": "Briller Studio / Architect включає спільні проєкти. Його HD / 4K-зображення та PDF-специфікації можуть доповнювати креслення з планувальника, надаючи команді візуальний напрям і пояснення запропонованих специфікацій."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For an architecture practice’s presentation package",
+              "uk": "Для презентаційного пакета архітектурної студії"
+            },
+            "text": {
+              "en": "Standard’s two users and walkthroughs may cover a small practice; Premium adds scaled wall elevations and one custom model per month. Compare those deliverables with the objects your projects require. Briller Studio provides shared projects and PDFs to explain the visual and material decisions alongside the drawings. Confirm the custom-model turnaround and export detail before promising a delivery date to a client.",
+              "uk": "Двох користувачів і прогулянок Standard може вистачити невеликій студії; Premium додає масштабовані розгортки стін та одну власну модель на місяць. Порівняйте ці результати з потребами ваших проєктів. Briller Studio дає спільні проєкти й PDF для пояснення матеріалів поруч із кресленнями. До обіцянки строків клієнту уточніть термін виготовлення моделі та деталізацію експорту."
+            },
+            "solution": "architects-architecture-studios",
+            "label": {
+              "en": "Prepare the design discussion around the drawings",
+              "uk": "Підготувати обговорення дизайну поруч із кресленнями"
+            }
+          }
         }
       ],
       "checks": [
@@ -693,25 +1158,40 @@
         {
           "id": "inputs",
           "heading": {
-            "en": "Working from design files and photos",
-            "uk": "Працюйте з дизайн-файлами й фото"
+            "en": "SketchUp, Revit, AutoCAD and Rhino integrations",
+            "uk": "Інтеграції SketchUp, Revit, AutoCAD та Rhino"
           },
           "paragraphs": [
             {
-              "en": "Spacely.ai lists integrations with SketchUp, Revit, AutoCAD and Rhino. Its rendering tools cover interiors and exteriors, making it relevant when you already have a design workflow and want to develop its visual output.",
-              "uk": "Spacely.ai включає інтеграції зі SketchUp, Revit, AutoCAD та Rhino. Інструменти рендерингу охоплюють інтер’єри й екстер’єри, що доречно для наявного дизайнерського процесу, який потрібно доповнити візуалізаціями."
+              "en": "Spacely.ai’s Studio and Agency plans list SketchUp, Revit, AutoCAD and Rhino integrations. Personal excludes those plugins and the Pro toolkit. The rendering tools cover interiors and exteriors, so the higher plans are relevant when a modeled design needs visual development within an existing CAD workflow.",
+              "uk": "Тарифи Studio та Agency Spacely.ai включають інтеграції SketchUp, Revit, AutoCAD та Rhino. Personal не має цих плагінів та інструментів Pro. Рендеринг охоплює інтер’єри й екстер’єри, тож старші тарифи доречні для візуального розвитку моделі в наявному CAD-процесі."
             },
             {
               "en": "Briller starts from room photos and can use blueprints as references. It helps shape the design brief and the material decisions. Keep the measured model in your CAD tool, then bring the visual direction into a conversation about finishes, lighting and implementation.",
               "uk": "Briller починає з фото кімнат і може використовувати креслення як референси. Він допомагає формувати дизайнерську задачу й вибір матеріалів. Обмірну модель залишайте в CAD, а візуальний напрям використовуйте для обговорення оздоблення, світла й реалізації."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For architects with an existing model",
+              "uk": "Для архітекторів із готовою моделлю"
+            },
+            "text": {
+              "en": "If the geometry already lives in a CAD workflow, Spacely’s integrations can be the reason to choose it. They belong to Studio and Agency, so Personal’s lower rate does not cover the same job. Briller can support the reference and specification discussion around that geometry. Confirm the plugin version and model-transfer steps for your application before moving a live client project.",
+              "uk": "Якщо геометрія вже є в CAD, інтеграції Spacely можуть стати причиною вибору. Вони доступні на Studio та Agency, тому дешевший Personal не покриває ту саму роботу. Briller підтримає обговорення референсів і специфікацій навколо геометрії. Перед перенесенням клієнтського проєкту уточніть версію плагіна та порядок передачі моделі для вашої програми."
+            },
+            "solution": "architects-architecture-studios",
+            "label": {
+              "en": "Develop the brief alongside your CAD workflow",
+              "uk": "Розвинути завдання поруч із CAD-процесом"
+            }
+          }
         },
         {
           "id": "edits",
           "heading": {
-            "en": "References and local changes",
-            "uk": "Референси й локальні зміни"
+            "en": "Point and Edit Pro, transfer tools and shared canvas",
+            "uk": "Point and Edit Pro, перенесення вигляду та спільне полотно"
           },
           "paragraphs": [
             {
@@ -722,13 +1202,28 @@
               "en": "Briller moodboards can carry a particular technical element or item into the original room. Further iterations let you refine that choice, while Smart Sparks connect selected design details to the advice behind them.",
               "uk": "Мудборди Briller можуть переносити конкретний технічний елемент чи предмет до початкової кімнати. Подальші ітерації дозволяють уточнювати вибір, а Smart Sparks пов’язують вибрані деталі дизайну з відповідними порадами."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For choosing wall colour and lighting mood",
+              "uk": "Для вибору кольору стін та освітлення"
+            },
+            "text": {
+              "en": "Spacely’s Lighting Transfer borrows the mood of a reference; Lighting Control changes the direction of light, while Point and Edit Pro targets local changes. For a homeowner, decide which variable you are testing so colour and lighting do not change together unnoticed. Briller helps develop the selected finish and the practical lighting detail. Compare real paint samples in the room before committing.",
+              "uk": "Lighting Transfer у Spacely переносить настрій освітлення з референсу, Lighting Control змінює напрямок світла, а Point and Edit Pro працює з локальними правками. Власнику варто обрати одну змінну для перевірки, щоб колір і світло не змінювалися непомітно разом. Briller допоможе опрацювати оздоблення та монтажну деталь світла. Фарбу перевірте на реальних зразках у кімнаті."
+            },
+            "solution": "paint-wall-color-testing",
+            "label": {
+              "en": "Test the finish around the room’s actual light",
+              "uk": "Приміряти оздоблення до світла кімнати"
+            }
+          }
         },
         {
           "id": "implementation",
           "heading": {
-            "en": "Materials and the work around them",
-            "uk": "Матеріали й роботи навколо них"
+            "en": "Material previews and installation choices",
+            "uk": "Вигляд матеріалів і монтажні рішення"
           },
           "paragraphs": [
             {
@@ -739,13 +1234,28 @@
               "en": "Briller works through budget-specific specifications and implementation choices. A floating shelf, for example, raises questions about the support, wall structure and cable route as well as the timber finish. Full insights and PDF specifications are available on Pro Design and Studio / Architect.",
               "uk": "Briller розбирає специфікації й варіанти реалізації для різних бюджетів. Навісна полиця, наприклад, потребує уваги до опори, конструкції стіни й кабелів разом з оздобленням деревини. Повні рекомендації та PDF-специфікації доступні у Pro Design та Studio / Architect."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For a built-in storage proposal",
+              "uk": "Для пропозиції вбудованого зберігання"
+            },
+            "text": {
+              "en": "Spacely’s material tools can help compare a timber finish or painted cabinet in the render. A joiner also needs the panel thickness, edge, support and access details. Briller’s full advice develops those questions across budget options. Keep the agreed appearance as the visual reference and ask the joiner to confirm the measured specification, hardware and fixing method before manufacture.",
+              "uk": "Інструменти матеріалів Spacely допоможуть порівняти дерев’яне оздоблення чи фарбовану шафу на рендері. Мебляру також потрібні товщина панелей, крайки, опори та доступ. Повні поради Briller розвивають ці питання для різних бюджетів. Збережіть погоджений вигляд як референс, а обмірну специфікацію, фурнітуру й кріплення підтвердьте з мебляром до виробництва."
+            },
+            "solution": "closet-built-in-storage-redesign",
+            "label": {
+              "en": "Develop a storage specification from the concept",
+              "uk": "Перейти від концепції до специфікації меблів"
+            }
+          }
         },
         {
           "id": "team-exports",
           "heading": {
-            "en": "Team access and presentation files",
-            "uk": "Командний доступ і файли презентації"
+            "en": "4K, API access and collaboration seats",
+            "uk": "4K, API та командні місця"
           },
           "paragraphs": [
             {
@@ -756,7 +1266,22 @@
               "en": "Briller’s paid plans include commercial licensing. Studio / Architect adds shared projects, while Pro Design and Studio / Architect provide HD / 4K visuals and PDF specifications. Compare the tools around the work your team needs to hand over: images, technical explanations or integration with an existing design system.",
               "uk": "Платні тарифи Briller включають комерційну ліцензію. Studio / Architect додає спільні проєкти, а Pro Design та Studio / Architect — HD / 4K-візуалізації й PDF-специфікації. Порівнюйте інструменти за потрібною передачею: зображеннями, технічними поясненнями або інтеграцією з наявною дизайн-системою."
             }
-          ]
+          ],
+          "perspective": {
+            "audience": {
+              "en": "For developers producing several presentations",
+              "uk": "Для забудовників із кількома презентаціями"
+            },
+            "text": {
+              "en": "Studio’s two seats may suit a designer and reviewer; Agency’s five seats and API integration address a larger production workflow. Confirm API scope and request limits before budgeting an automated process. Briller Studio has three seats, shared projects and PDF specifications for the design decisions. Compare the outputs your team must deliver and the people who need access, alongside monthly credits.",
+              "uk": "Два місця Studio можуть підійти дизайнеру й рецензенту; п’ять місць та API Agency — більшому виробничому процесу. До планування автоматизації уточніть функції API та ліміти запитів. Briller Studio має три місця, спільні проєкти й PDF-специфікації для дизайнерських рішень. Порівнюйте результати й потрібний доступ разом із місячними кредитами."
+            },
+            "solution": "property-developers",
+            "label": {
+              "en": "Coordinate concept images and specifications",
+              "uk": "Узгодити концептуальні зображення та специфікації"
+            }
+          }
         }
       ],
       "checks": [
@@ -765,8 +1290,8 @@
           "uk": "Перевірте, які CAD-інтеграції, 4K-інструменти й функції співпраці включено до вибраного тарифу."
         },
         {
-          "en": "Explore product discovery, installation specifications and the release schedule for annual credits if your workflow depends on them.",
-          "uk": "Уточніть пошук товарів, монтажні специфікації й графік нарахування річних кредитів, якщо вони потрібні для роботи."
+          "en": "Explore product discovery, installation specifications and the API request limits if your workflow depends on them.",
+          "uk": "Уточніть пошук товарів, монтажні специфікації та ліміти запитів API, якщо вони потрібні у вашій роботі."
         }
       ]
     }

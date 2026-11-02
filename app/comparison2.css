@@ -24,6 +24,9 @@
 .comparison2-capability h2 { margin:0 0 1.4rem;font-size:var(--briller-type-h3-font-size,1.5rem); }
 .comparison2-capability p { margin:0 0 1.1rem; }
 .comparison2-capability p + p { color:var(--muted); }
+.comparison2-perspective { margin-top:1.5rem;padding-left:1.2rem;border-left:2px solid var(--line); }
+.comparison2-perspective h3 { font-size:var(--text-title-small);margin:0 0 .7rem; }
+.comparison2-perspective .text-link { line-height:1.6; }
 .comparison2-pricing { scroll-margin-top:125px; }
 .comparison2-pricing > h2 { margin:0 0 1.5rem; }
 .comparison2-table-scroll { overflow-x:auto;overscroll-behavior-inline:contain;border:1px solid var(--line);border-radius:10px;background:var(--surface);margin:1.8rem 0; }
@@ -58,16 +61,12 @@
 .comparison2-trial-pair strong { display:block;margin-bottom:.5rem; }
 .comparison2-paired-pricing th:first-child { width:17%; }
 .comparison2-paired-pricing td { padding:1.5rem; }
-.comparison2-paired-pricing td h3 { margin:0 0 1rem;font-size:var(--text-title-small); }
+.comparison2-paired-pricing td h3 { margin:0 0 .6rem;font-size:var(--text-title-small); }
 .comparison2-paired-pricing .comparison2-briller-package { background:var(--sage); }
-.comparison2-package-prices { display:grid;gap:.9rem;margin-bottom:1.2rem; }
 .comparison2-offer { line-height:1.7; }
 .comparison2-offer small { display:block;color:var(--muted);font-size:var(--text-caption);margin-top:.25rem;line-height:1.7; }
-.comparison2-package-allowance { padding:1rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 0 1rem;font-weight:500; }
-.comparison2-package-features { padding-left:1.1rem;margin:0; }
-.comparison2-package-features li { margin:.5rem 0;line-height:1.8; }
-.comparison2-tier-checks { margin-top:1rem; }
-.comparison2-tier-checks p { margin:.4rem 0 0;color:var(--muted); }
+.comparison2-package-allowance { margin:.6rem 0 0;font-weight:500; }
+.comparison2-package-advice { margin:.5rem 0 0;color:var(--muted); }
 .comparison2-pricing-checks { border-left:2px solid var(--accent);padding-left:1rem;margin:1.5rem 0; }
 .comparison2-pricing-checks ul { padding-left:1.1rem;margin:.5rem 0; }
 .comparison2-pricing-checks li { line-height:1.85;margin:.5rem 0; }
