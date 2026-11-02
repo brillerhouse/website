@@ -29,7 +29,7 @@ test('Documented competitor facts and numeric prices require verified official s
   const check=ids=>{assert.ok(ids.length,product.slug+': unsupported claim');for(const id of ids){const source=sources.get(id);assert.ok(source,product.slug+': unknown source '+id);assert.equal(source.status,'verified');assert.match(source.checkedAt,/^\d{4}-\d{2}-\d{2}$/);}};
   for(const [key,fact]of Object.entries(product.features)){assert.ok(fact.text.en&&fact.text.uk,product.slug+': '+key);assert.ok(['documented','unconfirmed','different'].includes(fact.state));if(fact.state!=='unconfirmed')check(fact.sources);}
   if(product.pricing.state==='verified')check(product.pricing.sources);
-  for(const plan of product.pricing.plans){assert.ok(Number.isFinite(plan.amount)&&plan.amount>0);assert.ok(['monthly','annual','yearly','oneOff'].includes(plan.billing));assert.match(plan.currency,/^[A-Z]{3}$/);assert.ok(plan.allowance.en&&plan.allowance.uk);check(plan.sources);}
+  for(const plan of product.pricing.plans){assert.ok(Number.isFinite(plan.amount)&&plan.amount>0);assert.ok(['monthly','annual','yearly','oneOff','publishedMonthly','seatMonthly'].includes(plan.billing));assert.match(plan.currency,/^[A-Z]{3}$/);assert.ok(plan.allowance.en&&plan.allowance.uk);check(plan.sources);for(const locale of ['en','uk'])assert.ok(ui[locale][plan.billing]);}
   if(product.verification==='reviewed'){assert.match(product.reviewedAt,/^\d{4}-\d{2}-\d{2}$/);assert.ok(product.sources.some(s=>s.status==='verified'));assert.ok(product.takeaways.length>=3&&product.chooseCompetitor.length&&product.chooseBriller.length&&product.watchouts.length);}
   for(const source of product.sources){assert.equal(new URL(source.url).protocol,'https:');assert.ok(source.title);if(source.status==='verified')assert.match(source.checkedAt,/^\d{4}-\d{2}-\d{2}$/);}
  }
@@ -44,6 +44,19 @@ test('Briller comparison pricing, trial and seats stay synchronized with its act
 test('Metadata uses canonical locale pairs and keeps unfinished research out of indexing',()=>{
  for(const locale of ['en','uk'])for(const product of products){const meta=lib.comparisonMetadata(locale,product);assert.equal(meta.alternates.canonical,content.site.origin+lib.comparisonHref(locale,product.slug));assert.equal(meta.alternates.languages.en,content.site.origin+lib.comparisonHref('en',product.slug));assert.equal(meta.alternates.languages.uk,content.site.origin+lib.comparisonHref('uk',product.slug));assert.equal(meta.robots.index,product.verification==='reviewed');assert.ok(meta.title.includes(product.name));}
 });
+test('Reviewed analysis is distinct, bilingual and backed by first-party sources',()=>{
+ for(const locale of ['en','uk']){
+  const reviewed=products.filter(p=>p.verification==='reviewed');
+  assert.equal(new Set(reviewed.map(p=>p.summary[locale])).size,reviewed.length);
+  for(const product of reviewed){
+   assert.ok(product.summary[locale].length>70);
+   assert.ok(!/review in progress|Ще не перевірено|Буде уточнено/.test(product.summary[locale]));
+   for(const field of ['takeaways','chooseCompetitor','chooseBriller','watchouts'])assert.ok(product[field].every(p=>p[locale]?.trim()));
+   const official=new URL(product.url).hostname.replace(/^www\./,'');
+   for(const source of product.sources){const host=new URL(source.url).hostname.replace(/^www\./,'');assert.ok(host===official||(product.slug==='remodel-ai'&&host==='apps.apple.com'),product.slug+': nonofficial source '+source.url);}
+  }
+ }
+});
 test('Static comparison pages have real cross-links, sources, language metadata and sitemap entries',()=>{
  const sitemap=fs.readFileSync('out/sitemap.xml','utf8');
  for(const locale of ['en','uk']){
@@ -53,6 +66,11 @@ test('Static comparison pages have real cross-links, sources, language metadata 
    const href=lib.comparisonHref(locale,product.slug);assert.ok(hubMarkup.includes(`href="${href}"`));assert.equal(sitemap.includes('https://briller.house'+href),product.verification==='reviewed');
    const html=fs.readFileSync(`out/${locale}/compare/${product.slug}/index.html`,'utf8');assert.ok(html.includes(locale==='uk'?'Альтернатива':'alternative'));assert.ok(html.includes(`<html lang="${locale}"`));
    assert.ok(html.includes(`href="/${locale}/compare/"`));assert.ok(html.includes(`name="description"`));
+   const markup=html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g,'');
+   assert.ok(markup.includes(`<link rel="canonical" href="https://briller.house${href}"`));
+   for(const language of ['en','uk'])assert.ok(markup.includes(`hrefLang="${language}" href="https://briller.house${lib.comparisonHref(language,product.slug)}"`));
+   assert.ok(markup.includes('hrefLang="x-default"'));assert.ok(markup.includes('property="og:image"'));assert.ok(markup.includes('name="twitter:card"'));
+   for(const [,target]of markup.matchAll(/href="#(source-[^"]+)"/g))assert.ok(markup.includes(`id="${target}"`),href+': broken source anchor');
    for(const source of product.sources)assert.ok(html.includes(source.url.replaceAll('&','&amp;')));
    const structured=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(([,s])=>JSON.parse(s));
    assert.ok(structured.some(s=>s['@type']==='WebPage'&&s.url==='https://briller.house'+href));assert.ok(!structured.some(s=>s.aggregateRating));

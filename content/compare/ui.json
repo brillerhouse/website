@@ -80,7 +80,9 @@
     "faqTitle": "Questions about this alternative",
     "faqBriller": "When is Briller an alternative to {name}?",
     "faqCompetitor": "When should I choose {name}?",
-    "faqPricing": "How does Briller pricing compare with {name}?"
+    "faqPricing": "How does Briller pricing compare with {name}?",
+    "publishedMonthly": "per month, advertised starting rate; billing term at checkout",
+    "seatMonthly": "per seat / month, advertised starting rate; billing term at checkout"
   },
   "uk": {
     "label": "Порівняння",
@@ -163,6 +165,8 @@
     "faqTitle": "Запитання про цю альтернативу",
     "faqBriller": "Коли Briller є альтернативою {name}?",
     "faqCompetitor": "Коли варто обрати {name}?",
-    "faqPricing": "Як відрізняються тарифи Briller та {name}?"
+    "faqPricing": "Як відрізняються тарифи Briller та {name}?",
+    "publishedMonthly": "на місяць, рекламована початкова ставка; строк оплати уточніть під час покупки",
+    "seatMonthly": "за місце / місяць, рекламована початкова ставка; строк оплати уточніть під час покупки"
   }
 }

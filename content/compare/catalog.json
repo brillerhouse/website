@@ -6,118 +6,268 @@
       "name": "Interior AI",
       "url": "https://interiorai.com/",
       "category": "photo",
-      "verification": "pending",
-      "reviewedAt": null,
+      "verification": "reviewed",
+      "reviewedAt": "2026-11-02",
       "summary": {
-        "en": "Official product and pricing review in progress.",
-        "uk": "Перевірка офіційних можливостей і тарифів триває."
+        "en": "Interior AI focuses on photo redesign, virtual staging and visual output volume. Briller adds budget-specific material and installation guidance to a room-photo workflow.",
+        "uk": "Interior AI спеціалізується на редизайні фото, віртуальному стейджингу й великій кількості візуалізацій. Briller доповнює роботу за фото порадами щодо матеріалів і монтажу для різних бюджетів."
       },
       "bestFor": {
-        "en": "To be confirmed from official documentation.",
-        "uk": "Буде уточнено за офіційними джерелами."
+        "en": "Visual concepts, listing imagery and high-volume photo variations.",
+        "uk": "Візуальні концепції, зображення для оголошень і багато варіантів за фото."
       },
       "freeTrial": {
         "text": {
-          "en": "Not yet verified.",
-          "uk": "Ще не перевірено."
+          "en": "A free generation allowance was not confirmed on the public pricing page.",
+          "uk": "Безкоштовний ліміт генерацій на публічній сторінці тарифів не підтверджено."
         },
-        "sources": []
+        "sources": [
+          "pricing"
+        ]
       },
       "pricing": {
-        "state": "pending",
+        "state": "verified",
         "summary": {
-          "en": "Current public pricing has not yet been verified.",
-          "uk": "Актуальні публічні тарифи ще не перевірено."
+          "en": "Pro $49, Premium $99, Ultra $199/month with monthly billing.",
+          "uk": "Pro $49, Premium $99, Ultra $199 на місяць за помісячної оплати."
         },
-        "plans": [],
-        "notes": [],
-        "sources": []
+        "plans": [
+          {
+            "name": "Pro",
+            "amount": 49,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "1,000 designs; commercial use.",
+              "uk": "1 000 дизайнів; комерційне використання."
+            },
+            "sources": [
+              "pricing"
+            ]
+          },
+          {
+            "name": "Premium",
+            "amount": 99,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "5,000 designs; editing, upscaling and additional presentation tools.",
+              "uk": "5 000 дизайнів; редагування, апскейл і додаткові інструменти презентації."
+            },
+            "sources": [
+              "pricing"
+            ]
+          },
+          {
+            "name": "Ultra",
+            "amount": 199,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "25,000 designs; priority rendering and expanded storage.",
+              "uk": "25 000 дизайнів; пріоритетний рендеринг і розширене зберігання."
+            },
+            "sources": [
+              "pricing"
+            ]
+          },
+          {
+            "name": "Pro — annual",
+            "amount": 349,
+            "currency": "USD",
+            "billing": "yearly",
+            "allowance": {
+              "en": "Published annual total, not $29 × 12.",
+              "uk": "Опублікована річна сума, а не $29 × 12."
+            },
+            "sources": [
+              "pricing"
+            ]
+          },
+          {
+            "name": "Premium — annual",
+            "amount": 599,
+            "currency": "USD",
+            "billing": "yearly",
+            "allowance": {
+              "en": "Published annual total.",
+              "uk": "Опублікована річна сума."
+            },
+            "sources": [
+              "pricing"
+            ]
+          },
+          {
+            "name": "Ultra — annual",
+            "amount": 1199,
+            "currency": "USD",
+            "billing": "yearly",
+            "allowance": {
+              "en": "Published annual total.",
+              "uk": "Опублікована річна сума."
+            },
+            "sources": [
+              "pricing"
+            ]
+          }
+        ],
+        "notes": [
+          {
+            "en": "The yearly cards show rounded monthly equivalents of $29 / $49 / $99 but charge $349 / $599 / $1,199 per year. Use the stated annual totals.",
+            "uk": "У річних картках наведено округлені еквіваленти $29 / $49 / $99 на місяць, але до сплати зазначено $349 / $599 / $1 199 на рік. Орієнтуйтеся на річні суми."
+          },
+          {
+            "en": "The page also contains a conflicting older annual Pro figure in its marketing copy; this comparison uses the pricing cards. Confirm the checkout total.",
+            "uk": "На сторінці є й інша річна ціна Pro у маркетинговому тексті; тут використано суми з тарифних карток. Уточніть підсумок під час оплати."
+          }
+        ],
+        "sources": [
+          "pricing"
+        ]
       },
       "features": {
         "workflow": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Upload a room photograph for redesign or virtual staging; sketch and SketchUp-to-render workflows are also advertised.",
+            "uk": "Завантажте фото кімнати для редизайну або стейджингу; також заявлено перетворення ескізів і SketchUp на рендери."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "references": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Style presets, custom prompts and style remixing guide the visual direction. This does not establish a separate technical moodboard workflow.",
+            "uk": "Стильові пресети, власні промпти й змішування стилів задають візуальний напрям. Окремий процес технічних мудбордів не підтверджено."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "iterations": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Premium lists editing, wall painting, lighting changes and adding furniture; these are above the entry Pro tier.",
+            "uk": "Premium включає редагування, зміну кольору стін, освітлення та додавання меблів; це можливості понад початковий Pro."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "technical": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Budget-tier material specifications and installation guidance are not established in the reviewed pages.",
+            "uk": "На переглянутих сторінках не підтверджено специфікації матеріалів та поради з монтажу для різних бюджетів."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "planning": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "An editable, dimensioned floor-plan or CAD workflow is not established in the reviewed pages.",
+            "uk": "На переглянутих сторінках не підтверджено редагування розмірних планів або CAD."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "exports": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Premium lists upscaling, walkthrough video and VR; image-quality tiers differ by plan. The table does not specify a universal pixel size.",
+            "uk": "Premium включає апскейл, відеопрогулянку й VR; якість зображень залежить від тарифу. Єдиний розмір у пікселях у таблиці не наведено."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "commercial": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "The Pro pricing card explicitly includes a commercial-use licence.",
+            "uk": "У картці Pro прямо зазначено ліцензію на комерційне використання."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "teams": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "A defined professional seat allowance and shared-project entitlement are not established in the reviewed pages.",
+            "uk": "На переглянутих сторінках не підтверджено кількість професійних місць і умови спільних проєктів."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "shopping": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Premium lists Google Lens for visual product lookup. A lookup is not a guaranteed dimension-checked purchase schedule.",
+            "uk": "У Premium зазначено Google Lens для візуального пошуку товарів. Такий пошук не є гарантованою відомістю покупок із перевіреними розмірами."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         }
       },
-      "takeaways": [],
-      "chooseCompetitor": [],
-      "chooseBriller": [],
-      "watchouts": [],
+      "takeaways": [
+        {
+          "en": "The entry plan emphasizes the number of designs; Premium unlocks a substantially wider editing and presentation toolkit.",
+          "uk": "Початковий тариф робить акцент на кількості дизайнів; Premium відкриває значно ширший набір редагування й презентації."
+        },
+        {
+          "en": "Google Lens and walkthroughs support visual exploration; they do not replace material specifications or measured drawings.",
+          "uk": "Google Lens і відеопрогулянки допомагають досліджувати концепцію, але не замінюють специфікації матеріалів чи обмірні креслення."
+        },
+        {
+          "en": "Briller is a candidate when the decision is how to implement a look at different budgets, rather than how many visual variants to generate.",
+          "uk": "Briller варто розглянути, коли потрібно зрозуміти реалізацію стилю за різних бюджетів, а не лише отримати багато візуальних варіантів."
+        }
+      ],
+      "chooseCompetitor": [
+        {
+          "en": "You need large published design allowances or virtual-staging presentation options.",
+          "uk": "Потрібні великі заявлені ліміти дизайнів або інструменти презентації віртуального стейджингу."
+        },
+        {
+          "en": "You want the Premium visual-editing, video or VR workflow and have checked its entitlement.",
+          "uk": "Потрібні візуальне редагування, відео чи VR із Premium і перевірено умови доступу."
+        }
+      ],
+      "chooseBriller": [
+        {
+          "en": "You want a room concept connected to budget-specific materials, profiles and installation explanations.",
+          "uk": "Потрібна концепція кімнати з матеріалами, профілями й поясненнями монтажу для різних бюджетів."
+        },
+        {
+          "en": "You want to carry selected details from reference images into a project, then review practical trade-offs alongside the design.",
+          "uk": "Потрібно перенести вибрані деталі з референсів у проєкт та оцінити практичні компроміси разом із дизайном."
+        }
+      ],
+      "watchouts": [
+        {
+          "en": "Parallel generation limits describe simultaneous renders, not collaborator seats.",
+          "uk": "Ліміти паралельної генерації стосуються одночасних рендерів, а не місць для співробітників."
+        },
+        {
+          "en": "Neither attractive staging nor an upscale proves room measurements or construction feasibility.",
+          "uk": "Привабливий стейджинг чи апскейл не підтверджує розміри кімнати та можливість будівельної реалізації."
+        }
+      ],
       "sources": [
         {
-          "id": "official",
-          "title": "Interior AI — official website",
-          "url": "https://interiorai.com/",
-          "checkedAt": null,
-          "status": "pending"
+          "id": "pricing",
+          "title": "Interior AI — product, pricing cards and FAQ",
+          "url": "https://interiorai.com/#pricing",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
         }
       ]
     },
@@ -126,118 +276,249 @@
       "name": "REimagineHome",
       "url": "https://www.reimaginehome.ai/",
       "category": "photo",
-      "verification": "pending",
-      "reviewedAt": null,
+      "verification": "reviewed",
+      "reviewedAt": "2026-11-02",
       "summary": {
-        "en": "Official product and pricing review in progress.",
-        "uk": "Перевірка офіційних можливостей і тарифів триває."
+        "en": "REimagineHome combines staging with conversational redesign and real-product visualization on Pro and higher plans. Briller is an alternative for budget-specific implementation advice.",
+        "uk": "REimagineHome поєднує стейджинг із діалоговим редизайном і візуалізацією реальних товарів у Pro та вищих тарифах. Briller — альтернатива для порад щодо реалізації за різних бюджетів."
       },
       "bestFor": {
-        "en": "To be confirmed from official documentation.",
-        "uk": "Буде уточнено за офіційними джерелами."
+        "en": "Property staging and guided redesign with reference images and real products.",
+        "uk": "Стейджинг нерухомості й керований редизайн із референсами та реальними товарами."
       },
       "freeTrial": {
         "text": {
-          "en": "Not yet verified.",
-          "uk": "Ще не перевірено."
+          "en": "5 free designs for new users; no card required.",
+          "uk": "5 безкоштовних дизайнів для нових користувачів; без картки."
         },
-        "sources": []
+        "sources": [
+          "pricing"
+        ]
       },
       "pricing": {
-        "state": "pending",
+        "state": "verified",
         "summary": {
-          "en": "Current public pricing has not yet been verified.",
-          "uk": "Актуальні публічні тарифи ще не перевірено."
+          "en": "Published monthly offers: Essential $14, Pro $29, Advanced $49, Agency $99.",
+          "uk": "Опубліковані місячні тарифи: Essential $14, Pro $29, Advanced $49, Agency $99."
         },
-        "plans": [],
-        "notes": [],
-        "sources": []
+        "plans": [
+          {
+            "name": "Essential",
+            "amount": 14,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "30 credits/month; legacy staging and light edits.",
+              "uk": "30 кредитів на місяць; базовий стейджинг і нескладне редагування."
+            },
+            "sources": [
+              "pricing"
+            ]
+          },
+          {
+            "name": "Pro",
+            "amount": 29,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "200 credits/month; conversational workflow and real products.",
+              "uk": "200 кредитів на місяць; діалоговий процес і реальні товари."
+            },
+            "sources": [
+              "pricing"
+            ]
+          },
+          {
+            "name": "Advanced",
+            "amount": 49,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "Higher-volume Pro workflow; the page disagrees on the allowance (400 vs 500 credits).",
+              "uk": "Більший обсяг роботи Pro; на сторінці суперечливі ліміти: 400 або 500 кредитів."
+            },
+            "sources": [
+              "pricing"
+            ]
+          },
+          {
+            "name": "Agency",
+            "amount": 99,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "Higher-volume Pro workflow; the page disagrees on the allowance (900 vs 1,200 credits).",
+              "uk": "Більший обсяг роботи Pro; на сторінці суперечливі ліміти: 900 або 1 200 кредитів."
+            },
+            "sources": [
+              "pricing"
+            ]
+          }
+        ],
+        "notes": [
+          {
+            "en": "Numeric prices are published in the official pricing page’s structured offers. Its visible Advanced / Agency cards say 400 / 900 credits, while structured offers say 500 / 1,200. Confirm the allowance at checkout.",
+            "uk": "Числові ціни наведено у структурованих пропозиціях офіційної сторінки. Видимі картки Advanced / Agency зазначають 400 / 900 кредитів, а структуровані дані — 500 / 1 200. Уточніть ліміт під час оплати."
+          },
+          {
+            "en": "A design-only visualization uses 1 credit; visualization with real-product discovery uses 2. Conversation and idea exploration are listed as 0 credits.",
+            "uk": "Візуалізація без підбору товарів використовує 1 кредит, із пошуком реальних товарів — 2. Діалог та обговорення ідей зазначено як 0 кредитів."
+          }
+        ],
+        "sources": [
+          "pricing"
+        ]
       },
       "features": {
         "workflow": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Essential covers legacy staging and light edits. Pro and higher add conversational interior, exterior and property-design workflows.",
+            "uk": "Essential охоплює базовий стейджинг і нескладні зміни. Pro та вищі тарифи додають діалогову роботу з інтер’єрами, екстер’єрами й нерухомістю."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "references": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Reference-photo scene and object control is listed from Pro; Essential explicitly excludes reference-photo generation.",
+            "uk": "Керування сценою й предметами за референсом зазначено від Pro; Essential прямо виключає генерацію за фото-референсом."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "iterations": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Pro supports precise conversational instructions, incremental edits and memory across refinements.",
+            "uk": "Pro підтримує точні інструкції в діалозі, послідовне редагування та пам’ять попередніх уточнень."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "technical": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Budget-tier material specifications and installation guidance are not established in the reviewed pages.",
+            "uk": "На переглянутих сторінках не підтверджено специфікації матеріалів та поради з монтажу для різних бюджетів."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "planning": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "An editable, dimensioned floor-plan or CAD workflow is not established in the reviewed pages.",
+            "uk": "На переглянутих сторінках не підтверджено редагування розмірних планів або CAD."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "exports": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "The page lists watermark-free, shareable outputs and high-resolution professional visuals. An exact universal pixel size is not stated.",
+            "uk": "Зазначено зображення без водяного знака для поширення та професійні візуалізації високої роздільності. Єдиний точний розмір у пікселях не наведено."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "commercial": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Confirm the applicable output licence before using designs for paid client work.",
+            "uk": "Перш ніж використовувати зображення у платних клієнтських проєктах, уточніть ліцензію на результати."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "teams": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Pro lists team / agency workflow tooling and listing-batch processing; an included seat count is not specified.",
+            "uk": "У Pro зазначено інструменти для команд / агенцій і пакетну обробку оголошень; кількість включених місць не наведено."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "shopping": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Pro and higher include Real Products Discovery + Visualization; Essential excludes real shoppable products.",
+            "uk": "Pro та вищі тарифи включають Real Products Discovery + Visualization; Essential не включає реальні товари для покупки."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         }
       },
-      "takeaways": [],
-      "chooseCompetitor": [],
-      "chooseBriller": [],
-      "watchouts": [],
+      "takeaways": [
+        {
+          "en": "This is more than a vacant-room staging tool: Pro includes conversational edits, reference photos and real-product visualization.",
+          "uk": "Це не лише стейджинг порожніх кімнат: Pro включає редагування в діалозі, референси й візуалізацію реальних товарів."
+        },
+        {
+          "en": "Essential and Pro differ in workflow, while Advanced and Agency mainly scale the Pro credit allowance.",
+          "uk": "Essential та Pro відрізняються процесом роботи; Advanced і Agency переважно збільшують кредитний ліміт Pro."
+        },
+        {
+          "en": "For implementation, compare Briller’s budget-specific specifications with the exact guidance available in your REimagineHome plan.",
+          "uk": "Для реалізації порівняйте специфікації Briller за бюджетом із конкретними порадами, доступними у вашому тарифі REimagineHome."
+        }
+      ],
+      "chooseCompetitor": [
+        {
+          "en": "You prepare property listings or need batch staging and a real-product visualization workflow.",
+          "uk": "Готуєте оголошення нерухомості або потребуєте пакетного стейджингу й візуалізації реальних товарів."
+        },
+        {
+          "en": "You prefer a conversational design studio with reference-photo control on Pro or higher.",
+          "uk": "Вам зручна діалогова дизайн-студія з керуванням за референсами у Pro або вищому тарифі."
+        }
+      ],
+      "chooseBriller": [
+        {
+          "en": "You want to discuss materials, installation details and Economy / Standard / Premium alternatives alongside the room concept.",
+          "uk": "Потрібно розглянути матеріали, деталі монтажу та альтернативи Economy / Standard / Premium разом із концепцією кімнати."
+        },
+        {
+          "en": "You want technical elements from a moodboard to inform the original room and then export specifications on an eligible Briller plan.",
+          "uk": "Потрібно застосувати технічні елементи мудборда до початкової кімнати та експортувати специфікації у відповідному тарифі Briller."
+        }
+      ],
+      "watchouts": [
+        {
+          "en": "Do not equate one credit with one fully shoppable redesign: product discovery changes the credit cost.",
+          "uk": "Один кредит не завжди дорівнює одному редизайну з товарами: підбір товарів змінює витрату кредитів."
+        },
+        {
+          "en": "Ask for the current Advanced / Agency allowance and seat policy; the public page does not resolve both clearly.",
+          "uk": "Уточніть актуальний ліміт Advanced / Agency та правила місць: публічна сторінка не дає однозначної відповіді."
+        }
+      ],
       "sources": [
         {
-          "id": "official",
-          "title": "REimagineHome — official website",
+          "id": "pricing",
+          "title": "REimagineHome — pricing, plan comparison and FAQ",
+          "url": "https://www.reimaginehome.ai/pricing",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "home",
+          "title": "REimagineHome — product workflows",
           "url": "https://www.reimaginehome.ai/",
-          "checkedAt": null,
-          "status": "pending"
+          "checkedAt": "2026-11-02",
+          "status": "verified"
         }
       ]
     },
@@ -246,118 +527,194 @@
       "name": "RoomGPT",
       "url": "https://www.roomgpt.io/",
       "category": "photo",
-      "verification": "pending",
-      "reviewedAt": null,
+      "verification": "reviewed",
+      "reviewedAt": "2026-11-02",
       "summary": {
-        "en": "Official product and pricing review in progress.",
-        "uk": "Перевірка офіційних можливостей і тарифів триває."
+        "en": "RoomGPT offers a focused photo-to-room-theme workflow. Briller is an alternative when a visual restyle also needs references, iterative decisions and budget-specific technical advice.",
+        "uk": "RoomGPT пропонує сфокусований процес: фото кімнати та нова тема оформлення. Briller — альтернатива, коли редизайн потребує також референсів, послідовних уточнень і технічних порад за бюджетом."
       },
       "bestFor": {
-        "en": "To be confirmed from official documentation.",
-        "uk": "Буде уточнено за офіційними джерелами."
+        "en": "Quick exploration of room themes from a single photograph.",
+        "uk": "Швидке дослідження варіантів оформлення кімнати за одним фото."
       },
       "freeTrial": {
         "text": {
-          "en": "Not yet verified.",
-          "uk": "Ще не перевірено."
+          "en": "The public redesign route asks for login; a current free allowance is not confirmed.",
+          "uk": "Публічний маршрут редизайну просить увійти; актуальний безкоштовний ліміт не підтверджено."
         },
-        "sources": []
+        "sources": [
+          "home",
+          "app"
+        ]
       },
       "pricing": {
-        "state": "pending",
+        "state": "unavailable",
         "summary": {
-          "en": "Current public pricing has not yet been verified.",
-          "uk": "Актуальні публічні тарифи ще не перевірено."
+          "en": "Current numeric prices are not exposed on the reviewed public pages.",
+          "uk": "Актуальні числові ціни не наведено на переглянутих публічних сторінках."
         },
         "plans": [],
-        "notes": [],
-        "sources": []
+        "notes": [
+          {
+            "en": "The home page’s redesign link leads to /dream, where sign-in is required. No current pack price or credit allowance was publicly verifiable.",
+            "uk": "Посилання редизайну з головної веде на /dream, де потрібен вхід. Поточні ціни пакетів і кредитні ліміти публічно перевірити не вдалося."
+          },
+          {
+            "en": "A promotional banner is not treated as a permanent base price.",
+            "uk": "Промобанер не використано як постійну базову ціну."
+          }
+        ],
+        "sources": [
+          "home"
+        ]
       },
       "features": {
         "workflow": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Start from one photograph and explore the room in different themes. The public redesign route requires login.",
+            "uk": "Почніть з одного фото й досліджуйте кімнату в різних темах оформлення. Публічний маршрут редизайну потребує входу."
           },
-          "sources": []
+          "sources": [
+            "home",
+            "app"
+          ]
         },
         "references": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "The reviewed pages do not establish a reference-image or moodboard workflow.",
+            "uk": "Переглянуті сторінки не підтверджують роботу з референсами чи мудбордами."
           },
-          "sources": []
+          "sources": [
+            "home"
+          ]
         },
         "iterations": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "The home page describes viewing alternative themes before renovating. Local masking and persistent edit history are not established publicly.",
+            "uk": "Головна сторінка описує перегляд різних тем до ремонту. Локальні маски й постійна історія редагування публічно не підтверджені."
           },
-          "sources": []
+          "sources": [
+            "home"
+          ]
         },
         "technical": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Budget-tier material specifications and installation guidance are not established in the reviewed pages.",
+            "uk": "На переглянутих сторінках не підтверджено специфікації матеріалів та поради з монтажу для різних бюджетів."
           },
-          "sources": []
+          "sources": [
+            "home"
+          ]
         },
         "planning": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "An editable, dimensioned floor-plan or CAD workflow is not established in the reviewed pages.",
+            "uk": "На переглянутих сторінках не підтверджено редагування розмірних планів або CAD."
           },
-          "sources": []
+          "sources": [
+            "home"
+          ]
         },
         "exports": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Exact export resolution and document formats are not established in the reviewed pages.",
+            "uk": "На переглянутих сторінках не підтверджено точну роздільність експорту та формати документів."
           },
-          "sources": []
+          "sources": [
+            "home"
+          ]
         },
         "commercial": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Confirm the applicable output licence before using designs for paid client work.",
+            "uk": "Перш ніж використовувати зображення у платних клієнтських проєктах, уточніть ліцензію на результати."
           },
-          "sources": []
+          "sources": [
+            "home"
+          ]
         },
         "teams": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "A defined professional seat allowance and shared-project entitlement are not established in the reviewed pages.",
+            "uk": "На переглянутих сторінках не підтверджено кількість професійних місць і умови спільних проєктів."
           },
-          "sources": []
+          "sources": [
+            "home"
+          ]
         },
         "shopping": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "A product-discovery or shopping-list workflow is not established in the reviewed pages.",
+            "uk": "На переглянутих сторінках не підтверджено пошук товарів або формування списку покупок."
           },
-          "sources": []
+          "sources": [
+            "home"
+          ]
         }
       },
-      "takeaways": [],
-      "chooseCompetitor": [],
-      "chooseBriller": [],
-      "watchouts": [],
+      "takeaways": [
+        {
+          "en": "RoomGPT’s public proposition is deliberately focused: one room photo, alternative themes.",
+          "uk": "Публічна пропозиція RoomGPT сфокусована: одне фото кімнати й альтернативні теми."
+        },
+        {
+          "en": "A public login wall limits what can be verified about current prices, output formats and licence terms.",
+          "uk": "Вимога входу обмежує публічну перевірку актуальних цін, форматів експорту й ліцензії."
+        },
+        {
+          "en": "Briller is worth comparing when the follow-up question is what to specify and how to implement the chosen direction.",
+          "uk": "Briller варто порівняти, коли наступне питання — що саме специфікувати та як реалізувати вибраний напрям."
+        }
+      ],
+      "chooseCompetitor": [
+        {
+          "en": "You want to try a focused room-theme tool and can verify its current offer after signing in.",
+          "uk": "Хочете випробувати сфокусований інструмент тем кімнати й можете перевірити актуальну пропозицію після входу."
+        }
+      ],
+      "chooseBriller": [
+        {
+          "en": "You want reference-led room iterations with material and installation advice for your budget.",
+          "uk": "Потрібні ітерації за референсами з порадами щодо матеріалів і монтажу під ваш бюджет."
+        },
+        {
+          "en": "You need published plan entitlements for PDF specifications, commercial work or shared projects.",
+          "uk": "Потрібні публічні умови тарифів для PDF-специфікацій, комерційної роботи або спільних проєктів."
+        }
+      ],
+      "watchouts": [
+        {
+          "en": "Verify the current credit pack, renewal policy, export size and client-use rights in the account before paying.",
+          "uk": "Перед оплатою перевірте в акаунті пакет кредитів, правила поновлення, розмір експорту та права для клієнтської роботи."
+        },
+        {
+          "en": "Unconfirmed public features are not scored as missing; this review does not test the signed-in product.",
+          "uk": "Публічно не підтверджені функції не оцінено як відсутні; цей огляд не тестує продукт після входу."
+        }
+      ],
       "sources": [
         {
-          "id": "official",
-          "title": "RoomGPT — official website",
+          "id": "home",
+          "title": "RoomGPT — public product page",
           "url": "https://www.roomgpt.io/",
-          "checkedAt": null,
-          "status": "pending"
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "app",
+          "title": "RoomGPT — public redesign / sign-in route",
+          "url": "https://www.roomgpt.io/dream",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
         }
       ]
     },
@@ -366,118 +723,237 @@
       "name": "HomeDesignsAI",
       "url": "https://homedesigns.ai/",
       "category": "photo",
-      "verification": "pending",
-      "reviewedAt": null,
+      "verification": "reviewed",
+      "reviewedAt": "2026-11-02",
       "summary": {
-        "en": "Official product and pricing review in progress.",
-        "uk": "Перевірка офіційних можливостей і тарифів триває."
+        "en": "HomeDesignsAI covers interiors, exteriors and gardens, with shopping on Pro and budget estimation on Expert. Briller focuses on room concepts with budget-specific specifications and implementation advice.",
+        "uk": "HomeDesignsAI охоплює інтер’єри, екстер’єри й сади, має підбір товарів у Pro та оцінку бюджету в Expert. Briller зосереджений на концепціях кімнат зі специфікаціями й порадами щодо реалізації за бюджетом."
       },
       "bestFor": {
-        "en": "To be confirmed from official documentation.",
-        "uk": "Буде уточнено за офіційними джерелами."
+        "en": "A broad photo toolkit for interiors, exteriors and gardens.",
+        "uk": "Широкий набір інструментів за фото для інтер’єрів, екстер’єрів і садів."
       },
       "freeTrial": {
         "text": {
-          "en": "Not yet verified.",
-          "uk": "Ще не перевірено."
+          "en": "A permanent free generation allowance is not established by the current pricing cards.",
+          "uk": "Постійний безкоштовний ліміт генерацій у поточних картках тарифів не підтверджено."
         },
-        "sources": []
+        "sources": [
+          "pricing"
+        ]
       },
       "pricing": {
-        "state": "pending",
+        "state": "verified",
         "summary": {
-          "en": "Current public pricing has not yet been verified.",
-          "uk": "Актуальні публічні тарифи ще не перевірено."
+          "en": "Monthly billing: Standard $22, Pro $29, Expert $37. Introductory annual offers are separate.",
+          "uk": "Помісячна оплата: Standard $22, Pro $29, Expert $37. Вступні річні пропозиції наведено окремо."
         },
-        "plans": [],
-        "notes": [],
-        "sources": []
+        "plans": [
+          {
+            "name": "Standard",
+            "amount": 22,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "100 design credits/month; core photo redesign.",
+              "uk": "100 дизайн-кредитів на місяць; основний редизайн за фото."
+            },
+            "sources": [
+              "pricing"
+            ]
+          },
+          {
+            "name": "Pro",
+            "amount": 29,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "1,000 design credits/month; shopping, reference transfer and commercial licence.",
+              "uk": "1 000 дизайн-кредитів на місяць; підбір товарів, перенесення референсу й комерційна ліцензія."
+            },
+            "sources": [
+              "pricing"
+            ]
+          },
+          {
+            "name": "Expert",
+            "amount": 37,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "2,000 design credits/month; budget estimator, video, 2D-to-3D and up to 5 seats.",
+              "uk": "2 000 дизайн-кредитів на місяць; оцінка бюджету, відео, 2D у 3D та до 5 місць."
+            },
+            "sources": [
+              "pricing"
+            ]
+          }
+        ],
+        "notes": [
+          {
+            "en": "The annual cards advertise introductory equivalents of $9 / $11 / $14 per month. The FAQ says the first year is discounted and renewal uses the standard annual price; do not assume the introductory price repeats.",
+            "uk": "Річні картки рекламують вступні еквіваленти $9 / $11 / $14 на місяць. FAQ зазначає знижку на перший рік і поновлення за стандартною річною ціною; не вважайте вступну ціну постійною."
+          },
+          {
+            "en": "One photo redesign uses 1 credit; richer tools such as video use more. Credit counts are not a universal output count.",
+            "uk": "Один редизайн фото використовує 1 кредит; складніші інструменти, зокрема відео, витрачають більше. Кредитний ліміт не є універсальною кількістю результатів."
+          }
+        ],
+        "sources": [
+          "pricing"
+        ]
       },
       "features": {
         "workflow": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Redesign interiors, exteriors and gardens from photos; Standard includes colour / material swaps and object detection.",
+            "uk": "Редизайн інтер’єрів, екстер’єрів і садів за фото; Standard включає заміну кольорів / матеріалів і розпізнавання предметів."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "references": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Copying a look from an inspiration photo is included on Pro and Expert, not the Standard card.",
+            "uk": "Перенесення стилю з фото-референсу включено до Pro та Expert, але не до Standard."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "iterations": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Object detection and selective changes support targeted edits; Pro adds staging and the broader image toolkit.",
+            "uk": "Розпізнавання предметів і вибіркові зміни підтримують локальне редагування; Pro додає стейджинг і ширший набір інструментів."
           },
-          "sources": []
+          "sources": [
+            "pricing",
+            "home"
+          ]
         },
         "technical": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Expert explicitly includes a budget estimator and material changes. Budget-tier installation specifications are not described in the plan cards.",
+            "uk": "Expert прямо включає оцінку бюджету та зміни матеріалів. Специфікації монтажу для різних бюджетів у картках не описано."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "planning": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Expert includes 2D-to-3D floor plans. The card does not establish an editable dimensioned CAD deliverable.",
+            "uk": "Expert включає перетворення 2D-планів у 3D. Картка не підтверджує редагований розмірний CAD-документ."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "exports": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Pro and Expert list watermark-free results. Expert adds photo-to-video walkthroughs; a fixed image pixel size is not specified in the cards.",
+            "uk": "Pro та Expert включають результати без водяного знака. Expert додає відеопрогулянки за фото; фіксований розмір зображення в пікселях у картках не наведено."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "commercial": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Commercial licence is checked for Pro and Expert, but crossed out for Standard.",
+            "uk": "Комерційну ліцензію позначено включеною для Pro та Expert і виключеною для Standard."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "teams": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Expert includes up to 5 team seats; the Standard and Pro cards exclude them.",
+            "uk": "Expert включає до 5 командних місць; картки Standard та Pro їх виключають."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "shopping": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Find & shop real furniture is included on Pro and Expert; Standard marks it unavailable.",
+            "uk": "Пошук реальних меблів для покупки включено до Pro та Expert; у Standard цю функцію позначено недоступною."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         }
       },
-      "takeaways": [],
-      "chooseCompetitor": [],
-      "chooseBriller": [],
-      "watchouts": [],
+      "takeaways": [
+        {
+          "en": "This competitor also offers shopping and a budget estimator; the meaningful comparison is the depth of guidance and the plan that includes it.",
+          "uk": "Цей конкурент також має підбір товарів і оцінку бюджету; порівнювати слід глибину порад і тариф, що їх включає."
+        },
+        {
+          "en": "The plan cards distinguish core redesign, Pro shopping / commercial rights, and Expert budget / team tools.",
+          "uk": "Картки розділяють основний редизайн, підбір товарів / комерційні права Pro та бюджетні / командні інструменти Expert."
+        },
+        {
+          "en": "An introductory annual headline is not the same as an ongoing monthly subscription or renewal price.",
+          "uk": "Вступна річна ціна не дорівнює постійній місячній передплаті або вартості поновлення."
+        }
+      ],
+      "chooseCompetitor": [
+        {
+          "en": "Your projects span interiors, façades and gardens and you want those visual tools in one subscription.",
+          "uk": "Проєкти охоплюють інтер’єри, фасади й сади, і потрібні відповідні візуальні інструменти в одній передплаті."
+        },
+        {
+          "en": "Expert’s combination of video, budget estimation and up to 5 seats fits your workflow.",
+          "uk": "Вам підходить поєднання відео, оцінки бюджету та до 5 місць в Expert."
+        }
+      ],
+      "chooseBriller": [
+        {
+          "en": "You want to compare named materials, profiles and installation methods across budgets, alongside the concept.",
+          "uk": "Потрібно порівняти конкретні матеріали, профілі й способи монтажу за бюджетами разом із концепцією."
+        },
+        {
+          "en": "Your main workflow is refining the original room with selected moodboard elements and exporting practical specifications.",
+          "uk": "Основна задача — уточнювати початкову кімнату вибраними елементами мудборда й експортувати практичні специфікації."
+        }
+      ],
+      "watchouts": [
+        {
+          "en": "Read the included / excluded feature marks: merely seeing a feature name under Standard does not mean it is included.",
+          "uk": "Читайте позначки включення / виключення: сама назва функції під Standard не означає, що вона доступна."
+        },
+        {
+          "en": "Confirm the standard annual renewal amount and whether your intended commercial use requires Pro or Expert.",
+          "uk": "Уточніть стандартну річну суму поновлення та чи потрібен Pro або Expert для запланованого комерційного використання."
+        }
+      ],
       "sources": [
         {
-          "id": "official",
-          "title": "HomeDesignsAI — official website",
+          "id": "pricing",
+          "title": "HomeDesignsAI — current plan cards and billing FAQ",
+          "url": "https://homedesigns.ai/#pwh-plans",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "home",
+          "title": "HomeDesignsAI — redesign and editing tools",
           "url": "https://homedesigns.ai/",
-          "checkedAt": null,
-          "status": "pending"
+          "checkedAt": "2026-11-02",
+          "status": "verified"
         }
       ]
     },
@@ -486,118 +962,256 @@
       "name": "Remodel AI",
       "url": "https://remodelai.app/",
       "category": "photo",
-      "verification": "pending",
-      "reviewedAt": null,
+      "verification": "reviewed",
+      "reviewedAt": "2026-11-02",
       "summary": {
-        "en": "Official product and pricing review in progress.",
-        "uk": "Перевірка офіційних можливостей і тарифів триває."
+        "en": "Remodel AI is a mobile-first photo renovation tool with surface edits and furniture discovery. Briller is an alternative for connecting a room concept to budget-specific technical guidance.",
+        "uk": "Remodel AI — мобільний інструмент ремонту за фото зі зміною поверхонь і пошуком меблів. Briller — альтернатива для поєднання концепції кімнати з технічними порадами за бюджетом."
       },
       "bestFor": {
-        "en": "To be confirmed from official documentation.",
-        "uk": "Буде уточнено за офіційними джерелами."
+        "en": "Phone-based interior / exterior renovation previews and surface changes.",
+        "uk": "Перегляд змін інтер’єру / екстер’єру та поверхонь із телефона."
       },
       "freeTrial": {
         "text": {
-          "en": "Not yet verified.",
-          "uk": "Ще не перевірено."
+          "en": "Limited free renders; the official FAQ does not state a universal allowance or trial duration.",
+          "uk": "Обмежена кількість безкоштовних рендерів; офіційний FAQ не встановлює єдиного ліміту чи тривалості пробного періоду."
         },
-        "sources": []
+        "sources": [
+          "faq"
+        ]
       },
       "pricing": {
-        "state": "pending",
+        "state": "verified",
         "summary": {
-          "en": "Current public pricing has not yet been verified.",
-          "uk": "Актуальні публічні тарифи ще не перевірено."
+          "en": "US App Store lists monthly Pro SKUs at $6.99–$9.99 and yearly SKUs at $39.99–$89.99; the applicable offer varies.",
+          "uk": "У US App Store зазначено місячні покупки Pro за $6.99–$9.99 і річні за $39.99–$89.99; конкретна пропозиція залежить від умов."
         },
-        "plans": [],
-        "notes": [],
-        "sources": []
+        "plans": [
+          {
+            "name": "Pro Monthly — US listed SKU",
+            "amount": 6.99,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "One of several US in-app purchase entries, not a guaranteed offer for every account.",
+              "uk": "Одна з кількох покупок у US App Store; не гарантована пропозиція для всіх акаунтів."
+            },
+            "sources": [
+              "store"
+            ]
+          },
+          {
+            "name": "Pro Monthly — US listed SKU",
+            "amount": 9.99,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "The US listing also includes a $7.99 monthly entry.",
+              "uk": "У US App Store також є місячна покупка за $7.99."
+            },
+            "sources": [
+              "store"
+            ]
+          },
+          {
+            "name": "Pro Yearly — US listed SKU",
+            "amount": 39.99,
+            "currency": "USD",
+            "billing": "yearly",
+            "allowance": {
+              "en": "One of several US annual entries; eligibility is not stated.",
+              "uk": "Одна з кількох річних покупок у US App Store; умови доступності не наведено."
+            },
+            "sources": [
+              "store"
+            ]
+          },
+          {
+            "name": "Pro Yearly — US listed SKU",
+            "amount": 89.99,
+            "currency": "USD",
+            "billing": "yearly",
+            "allowance": {
+              "en": "The US listing also includes a $49.99 annual entry.",
+              "uk": "У US App Store також є річна покупка за $49.99."
+            },
+            "sources": [
+              "store"
+            ]
+          }
+        ],
+        "notes": [
+          {
+            "en": "The listing contains several monthly, yearly and weekly SKUs. They are a catalogue of offers, not a single universal current price; check your storefront and renewal terms.",
+            "uk": "Сторінка містить кілька місячних, річних і тижневих покупок. Це каталог пропозицій, а не єдина актуальна ціна; перевірте свій магазин та умови поновлення."
+          },
+          {
+            "en": "The official FAQ directs pricing questions to Apple / Google Play. Android and non-US prices are not inferred from the US Apple listing.",
+            "uk": "Офіційний FAQ спрямовує до Apple / Google Play. Ціни Android та інших країн не виводяться з американської сторінки Apple."
+          }
+        ],
+        "sources": [
+          "store"
+        ]
       },
       "features": {
         "workflow": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "iOS / Android photo-based interior and exterior renovation previews, including flooring, paint, walls and landscaping.",
+            "uk": "Попередній перегляд ремонту інтер’єру й екстер’єру за фото в iOS / Android, зокрема підлоги, фарбування, стін та озеленення."
           },
-          "sources": []
+          "sources": [
+            "home"
+          ]
         },
         "references": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "The reviewed pages do not establish a reference-image or moodboard workflow.",
+            "uk": "Переглянуті сторінки не підтверджують роботу з референсами чи мудбордами."
           },
-          "sources": []
+          "sources": [
+            "faq"
+          ]
         },
         "iterations": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Reskin, Replace and Remove tools target surfaces and objects rather than only selecting a whole-room style.",
+            "uk": "Інструменти Reskin, Replace та Remove змінюють поверхні й предмети, а не лише стиль усієї кімнати."
           },
-          "sources": []
+          "sources": [
+            "home"
+          ]
         },
         "technical": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Budget-tier material specifications and installation guidance are not established in the reviewed pages.",
+            "uk": "На переглянутих сторінках не підтверджено специфікації матеріалів та поради з монтажу для різних бюджетів."
           },
-          "sources": []
+          "sources": [
+            "faq"
+          ]
         },
         "planning": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "An editable, dimensioned floor-plan or CAD workflow is not established in the reviewed pages.",
+            "uk": "На переглянутих сторінках не підтверджено редагування розмірних планів або CAD."
           },
-          "sources": []
+          "sources": [
+            "faq"
+          ]
         },
         "exports": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "The store describes saving and sharing designs; the reviewed pages do not establish a universal 4K or PDF-specification entitlement.",
+            "uk": "Магазин описує збереження й поширення дизайнів; переглянуті сторінки не підтверджують універсальний доступ до 4K або PDF-специфікацій."
           },
-          "sources": []
+          "sources": [
+            "store"
+          ]
         },
         "commercial": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Confirm the applicable output licence before using designs for paid client work.",
+            "uk": "Перш ніж використовувати зображення у платних клієнтських проєктах, уточніть ліцензію на результати."
           },
-          "sources": []
+          "sources": [
+            "faq"
+          ]
         },
         "teams": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "A defined professional seat allowance and shared-project entitlement are not established in the reviewed pages.",
+            "uk": "На переглянутих сторінках не підтверджено кількість професійних місць і умови спільних проєктів."
           },
-          "sources": []
+          "sources": [
+            "faq"
+          ]
         },
         "shopping": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "The official site advertises finding furniture that matches the renovation image.",
+            "uk": "Офіційний сайт рекламує пошук меблів, що відповідають зображенню після редизайну."
           },
-          "sources": []
+          "sources": [
+            "home"
+          ]
         }
       },
-      "takeaways": [],
-      "chooseCompetitor": [],
-      "chooseBriller": [],
-      "watchouts": [],
+      "takeaways": [
+        {
+          "en": "The mobile workflow is a practical distinction if you photograph and explore renovation options on your phone.",
+          "uk": "Мобільний процес є суттєвою відмінністю, якщо ви фотографуєте й досліджуєте варіанти ремонту на телефоні."
+        },
+        {
+          "en": "Furniture discovery and targeted surface edits already exist here; Briller’s case should rest on the practical advice needed after the image.",
+          "uk": "Тут уже є пошук меблів і локальні зміни поверхонь; доцільність Briller слід оцінювати за потрібними практичними порадами після генерації."
+        },
+        {
+          "en": "Store SKUs require careful reading: weekly, monthly and yearly offers must not be compared as if they had the same period.",
+          "uk": "Покупки магазину потребують уважного читання: тижневі, місячні та річні пропозиції не можна порівнювати як оплату за один період."
+        }
+      ],
+      "chooseCompetitor": [
+        {
+          "en": "You prefer a phone-native renovation app and primarily want quick flooring, paint or furniture previews.",
+          "uk": "Вам зручний мобільний застосунок для швидкого перегляду підлоги, фарбування чи меблів."
+        },
+        {
+          "en": "You want its specific Reskin / Replace / Remove tools and have checked the local store offer.",
+          "uk": "Потрібні саме інструменти Reskin / Replace / Remove і перевірено пропозицію місцевого магазину."
+        }
+      ],
+      "chooseBriller": [
+        {
+          "en": "You need the design direction paired with budget-dependent specifications and installation explanations.",
+          "uk": "Потрібен дизайнерський напрям зі специфікаціями й поясненнями монтажу залежно від бюджету."
+        },
+        {
+          "en": "Your work calls for published commercial licensing, PDF specifications or a defined studio seat allowance on an eligible plan.",
+          "uk": "Для роботи потрібні публічні умови комерційної ліцензії, PDF-специфікацій або визначеної кількості місць студії у відповідному тарифі."
+        }
+      ],
+      "watchouts": [
+        {
+          "en": "Apple Family Sharing is not evidence of a professional shared-project licence or studio seat count.",
+          "uk": "Apple Family Sharing не підтверджує професійну ліцензію спільних проєктів або кількість місць студії."
+        },
+        {
+          "en": "Confirm free-render limits, paid export quality and output-use rights inside the app.",
+          "uk": "Уточніть у застосунку ліміти безкоштовних рендерів, якість платного експорту й права на результати."
+        }
+      ],
       "sources": [
         {
-          "id": "official",
-          "title": "Remodel AI — official website",
+          "id": "faq",
+          "title": "Remodel AI — official FAQ and free-render policy",
+          "url": "https://remodelai.app/faqs/",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "home",
+          "title": "Remodel AI — mobile features",
           "url": "https://remodelai.app/",
-          "checkedAt": null,
-          "status": "pending"
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "store",
+          "title": "Remodel AI — US Apple App Store and in-app purchases",
+          "url": "https://apps.apple.com/us/app/remodel-ai-home-design/id6446040791",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
         }
       ]
     },
@@ -606,118 +1220,249 @@
       "name": "Planner 5D",
       "url": "https://planner5d.com/",
       "category": "planning",
-      "verification": "pending",
-      "reviewedAt": null,
+      "verification": "reviewed",
+      "reviewedAt": "2026-11-02",
       "summary": {
-        "en": "Official product and pricing review in progress.",
-        "uk": "Перевірка офіційних можливостей і тарифів триває."
+        "en": "Planner 5D combines editable 2D / 3D planning with AI Studio, cost tools and professional exports. Briller offers a photo-led route to concepts and budget-specific implementation advice.",
+        "uk": "Planner 5D поєднує редаговане 2D / 3D-планування з AI Studio, оцінкою витрат і професійним експортом. Briller пропонує концепції за фото та поради щодо реалізації за бюджетом."
       },
       "bestFor": {
-        "en": "To be confirmed from official documentation.",
-        "uk": "Буде уточнено за офіційними джерелами."
+        "en": "Editable floor plans, furnished 3D projects and professional presentation / CAD exports.",
+        "uk": "Редаговані плани, облаштовані 3D-проєкти та професійні презентації / CAD-експорт."
       },
       "freeTrial": {
         "text": {
-          "en": "Not yet verified.",
-          "uk": "Ще не перевірено."
+          "en": "Free plan without a time limit; paid-plan trial eligibility and terms are offer-dependent.",
+          "uk": "Free без обмеження строку; доступність та умови пробних платних тарифів залежать від пропозиції."
         },
-        "sources": []
+        "sources": [
+          "pricing"
+        ]
       },
       "pricing": {
-        "state": "pending",
+        "state": "verified",
         "summary": {
-          "en": "Current public pricing has not yet been verified.",
-          "uk": "Актуальні публічні тарифи ще не перевірено."
+          "en": "US monthly pricing: Premium $19.99; Professional $49.99. Annual totals: $59.99 / $399.99.",
+          "uk": "Місячні ціни США: Premium $19.99; Professional $49.99. Річні суми: $59.99 / $399.99."
         },
-        "plans": [],
-        "notes": [],
-        "sources": []
+        "plans": [
+          {
+            "name": "Premium",
+            "amount": 19.99,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "Full catalogue, plan recognition, standard renders and 100 AI Studio credits.",
+              "uk": "Повний каталог, розпізнавання планів, стандартні рендери та 100 кредитів AI Studio."
+            },
+            "sources": [
+              "pricing"
+            ]
+          },
+          {
+            "name": "Professional",
+            "amount": 49.99,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "4K renders, CAD export, cost / document tools and 1,000 AI Studio credits.",
+              "uk": "4K-рендери, CAD-експорт, інструменти витрат / документації та 1 000 кредитів AI Studio."
+            },
+            "sources": [
+              "pricing"
+            ]
+          },
+          {
+            "name": "Premium — annual",
+            "amount": 59.99,
+            "currency": "USD",
+            "billing": "yearly",
+            "allowance": {
+              "en": "1,200 AI Studio credits with annual billing.",
+              "uk": "1 200 кредитів AI Studio за річної оплати."
+            },
+            "sources": [
+              "pricing"
+            ]
+          },
+          {
+            "name": "Professional — annual",
+            "amount": 399.99,
+            "currency": "USD",
+            "billing": "yearly",
+            "allowance": {
+              "en": "12,000 AI Studio credits with annual billing.",
+              "uk": "12 000 кредитів AI Studio за річної оплати."
+            },
+            "sources": [
+              "pricing"
+            ]
+          }
+        ],
+        "notes": [
+          {
+            "en": "US prices are stated in the official pricing FAQ; local currency and taxes may differ. Trial duration, introductory charges and first renewal date depend on the offer.",
+            "uk": "Ціни США наведено в офіційному FAQ тарифів; місцева валюта й податки можуть відрізнятися. Тривалість проби, вступні платежі й дата поновлення залежать від пропозиції."
+          },
+          {
+            "en": "AI plan recognition has a separate allowance from AI Studio. Studio credit cost depends on model, resolution, output count and video settings.",
+            "uk": "Розпізнавання планів має окремий ліміт від AI Studio. Витрата кредитів Studio залежить від моделі, роздільності, кількості результатів і налаштувань відео."
+          }
+        ],
+        "sources": [
+          "pricing"
+        ]
       },
       "features": {
         "workflow": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Build and furnish editable 2D / 3D projects; AI Studio also starts from photos, sketches, plans, reference images and PDFs.",
+            "uk": "Створюйте й облаштовуйте редаговані 2D / 3D-проєкти; AI Studio також працює з фото, ескізами, планами, референсами й PDF."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "references": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "AI Studio includes moodboards, material / colour palettes and reference images on an interactive canvas.",
+            "uk": "AI Studio включає мудборди, палітри матеріалів / кольорів і референси на інтерактивному полотні."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "iterations": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Edit 3D layouts directly or use Studio mask edits, visual alternatives and Canvas Agent to develop and organize concepts.",
+            "uk": "Редагуйте 3D-планування безпосередньо або використовуйте маски Studio, візуальні варіанти та Canvas Agent для розвитку й організації концепцій."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "technical": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Premium lists a Budget Widget. Professional adds a Price Estimator and Specs & Docs Organizer; these are different deliverables from installation advice.",
+            "uk": "Premium включає Budget Widget. Professional додає Price Estimator та Specs & Docs Organizer; це інші результати, ніж поради щодо монтажу."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "planning": {
-          "state": "unconfirmed",
+          "state": "different",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Editable 2D / 3D layouts with plan recognition on Premium; Professional includes CAD export. Briller does not replace this editor.",
+            "uk": "Редаговані 2D / 3D-планування з розпізнаванням планів у Premium; Professional включає CAD-експорт. Briller не замінює цей редактор."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "exports": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Professional includes watermark-free photorealistic 4K renders, CAD export, panoramas and walkthroughs. Studio generation resolution depends on model and settings.",
+            "uk": "Professional включає фотореалістичні 4K-рендери без водяного знака, CAD-експорт, панорами й прогулянки. Роздільність генерацій Studio залежить від моделі та налаштувань."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "commercial": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Professional is explicitly positioned for client-facing design and professional presentation. Confirm the licence for the specific AI model and uploaded assets.",
+            "uk": "Professional прямо призначено для клієнтського дизайну й професійних презентацій. Уточніть ліцензію конкретної ШІ-моделі та завантажених ресурсів."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "teams": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "The FAQ says every plan supports shared editing, view / edit permissions and real-time collaboration by email or link; it does not define this as a fixed paid seat bundle.",
+            "uk": "FAQ зазначає спільне редагування, права перегляду / змін і роботу в реальному часі через email або посилання в усіх тарифах; це не описано як фіксований платний пакет місць."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "shopping": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "The official site advertises a shopping list and cost estimates with budget / luxury options. Catalogue items and estimates still need availability checks.",
+            "uk": "Офіційний сайт заявляє список покупок та оцінку вартості з бюджетними / розкішними варіантами. Наявність каталожних предметів і кошторис слід уточнювати."
           },
-          "sources": []
+          "sources": [
+            "home"
+          ]
         }
       },
-      "takeaways": [],
-      "chooseCompetitor": [],
-      "chooseBriller": [],
-      "watchouts": [],
+      "takeaways": [
+        {
+          "en": "Choose the deliverable first: editable spatial planning and CAD exports solve a different task from a photo concept.",
+          "uk": "Спочатку оберіть потрібний результат: редаговане просторове планування й CAD-експорт вирішують іншу задачу, ніж концепція за фото."
+        },
+        {
+          "en": "Planner 5D already includes moodboards, cost tools and collaboration; these should not be presented as exclusive Briller capabilities.",
+          "uk": "Planner 5D уже має мудборди, оцінку витрат і співпрацю; їх не слід подавати як виключні можливості Briller."
+        },
+        {
+          "en": "Briller can complement a planning editor by connecting selected visual details with material and implementation alternatives.",
+          "uk": "Briller може доповнювати редактор планування, пов’язуючи вибрані візуальні деталі з матеріалами й варіантами реалізації."
+        }
+      ],
+      "chooseCompetitor": [
+        {
+          "en": "You need to draw and repeatedly edit a dimensioned layout, furnish a 3D model or export CAD on Professional.",
+          "uk": "Потрібно креслити й багаторазово редагувати розмірне планування, облаштовувати 3D-модель або експортувати CAD у Professional."
+        },
+        {
+          "en": "Shared editing, professional 4K presentation and a project document organizer are central to your process.",
+          "uk": "Спільне редагування, професійні 4K-презентації й організація документації є основою вашого процесу."
+        }
+      ],
+      "chooseBriller": [
+        {
+          "en": "You want to begin from the existing room photograph and explore a direction with budget-specific material and installation guidance.",
+          "uk": "Хочете почати з фото наявної кімнати й дослідити напрям із порадами щодо матеріалів та монтажу за бюджетом."
+        },
+        {
+          "en": "You already use a measured plan elsewhere and need practical advice attached to visual iterations.",
+          "uk": "Обмірний план уже ведете в іншому інструменті, а до візуальних ітерацій потрібні практичні поради."
+        }
+      ],
+      "watchouts": [
+        {
+          "en": "Do not compare AI Studio credits directly with Briller credits or with plan-recognition allowances.",
+          "uk": "Не порівнюйте кредити AI Studio безпосередньо з кредитами Briller або лімітами розпізнавання планів."
+        },
+        {
+          "en": "CAD export and generated plans still need verified site dimensions and appropriate professional review.",
+          "uk": "CAD-експорт і згенеровані плани все одно потребують перевірених обмірів та відповідного професійного контролю."
+        }
+      ],
       "sources": [
         {
-          "id": "official",
-          "title": "Planner 5D — official website",
+          "id": "pricing",
+          "title": "Planner 5D — pricing and detailed plan FAQ",
+          "url": "https://planner5d.com/pricing",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "home",
+          "title": "Planner 5D — planning and cost tools",
           "url": "https://planner5d.com/",
-          "checkedAt": null,
-          "status": "pending"
+          "checkedAt": "2026-11-02",
+          "status": "verified"
         }
       ]
     },
@@ -726,118 +1471,238 @@
       "name": "Homestyler",
       "url": "https://www.homestyler.com/",
       "category": "planning",
-      "verification": "pending",
-      "reviewedAt": null,
+      "verification": "reviewed",
+      "reviewedAt": "2026-11-02",
       "summary": {
-        "en": "Official product and pricing review in progress.",
-        "uk": "Перевірка офіційних можливостей і тарифів триває."
+        "en": "Homestyler combines a 3D floor planner, model library, AI tools and drawing / BOM exports. Briller is a photo-led alternative for budget-specific material and installation decisions.",
+        "uk": "Homestyler поєднує 3D-планувальник, бібліотеку моделей, ШІ-інструменти й експорт креслень / відомостей. Briller — альтернатива за фото для вибору матеріалів і монтажу за бюджетом."
       },
       "bestFor": {
-        "en": "To be confirmed from official documentation.",
-        "uk": "Буде уточнено за офіційними джерелами."
+        "en": "Detailed furnished 3D scenes, lighting studies and studio asset libraries.",
+        "uk": "Детально облаштовані 3D-сцени, світлові дослідження та бібліотеки ресурсів студії."
       },
       "freeTrial": {
         "text": {
-          "en": "Not yet verified.",
-          "uk": "Ще не перевірено."
+          "en": "Free Basic: 3D floor planner and unlimited 1K rendering; higher resolutions and advanced tools have separate conditions.",
+          "uk": "Безкоштовний Basic: 3D-планувальник і необмежені 1K-рендери; вищі роздільності й розширені інструменти мають окремі умови."
         },
-        "sources": []
+        "sources": [
+          "pricing"
+        ]
       },
       "pricing": {
-        "state": "pending",
+        "state": "verified",
         "summary": {
-          "en": "Current public pricing has not yet been verified.",
-          "uk": "Актуальні публічні тарифи ще не перевірено."
+          "en": "Advertised starting rates: Pro+ $6.80/month, Master+ $11.80/month, Team $19.90/seat/month; billing term must be checked.",
+          "uk": "Рекламовані початкові ставки: Pro+ від $6.80/місяць, Master+ від $11.80/місяць, Team від $19.90/місце/місяць; строк оплати слід уточнювати."
         },
-        "plans": [],
-        "notes": [],
-        "sources": []
+        "plans": [
+          {
+            "name": "Pro+ — starts from",
+            "amount": 6.8,
+            "currency": "USD",
+            "billing": "publishedMonthly",
+            "allowance": {
+              "en": "Advertised starting rate; 75 renders each for 2K and 4K, plus 180 AI credits/month.",
+              "uk": "Рекламована початкова ставка; по 75 рендерів 2K і 4K та 180 ШІ-кредитів на місяць."
+            },
+            "sources": [
+              "pricing"
+            ]
+          },
+          {
+            "name": "Master+ — starts from",
+            "amount": 11.8,
+            "currency": "USD",
+            "billing": "publishedMonthly",
+            "allowance": {
+              "en": "Advertised starting rate; unlimited 4K image rendering and 380 AI credits/month.",
+              "uk": "Рекламована початкова ставка; необмежені 4K-зображення й 380 ШІ-кредитів на місяць."
+            },
+            "sources": [
+              "pricing"
+            ]
+          },
+          {
+            "name": "Team — starts from",
+            "amount": 19.9,
+            "currency": "USD",
+            "billing": "seatMonthly",
+            "allowance": {
+              "en": "Per-seat starting rate; shared design space, libraries and administration.",
+              "uk": "Початкова ставка за місце; спільний простір, бібліотеки й адміністрування."
+            },
+            "sources": [
+              "pricing"
+            ]
+          }
+        ],
+        "notes": [
+          {
+            "en": "The public cards say “starts from”; they do not establish that these are month-to-month checkout prices. Confirm duration, region and renewal before comparing totals.",
+            "uk": "Публічні картки зазначають «від»; це не підтверджує помісячну оплату за цими цінами. Перед порівнянням сум уточніть строк, регіон і поновлення."
+          },
+          {
+            "en": "Traditional renders and AI credits are separate allowances. The page lists AI Render at 25 credits for 2K and 35 for 4K; AI tools have different costs.",
+            "uk": "Звичайні рендери й ШІ-кредити мають окремі ліміти. Сторінка зазначає AI Render за 25 кредитів для 2K та 35 для 4K; інші ШІ-інструменти коштують інакше."
+          }
+        ],
+        "sources": [
+          "pricing"
+        ]
       },
       "features": {
         "workflow": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Cloud 3D floor planning and drag-and-drop furnishing, alongside AI staging, image editing, moodboards and modeling tools.",
+            "uk": "Хмарне 3D-планування й облаштування перетягуванням предметів разом із ШІ-стейджингом, редагуванням зображень, мудбордами та моделюванням."
           },
-          "sources": []
+          "sources": [
+            "pricing",
+            "home"
+          ]
         },
         "references": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Image-to-Moodboard and image / text-to-3D tools connect visual references to boards and model creation; AI credits apply.",
+            "uk": "Інструменти Image-to-Moodboard та image / text-to-3D пов’язують референси з мудбордами й створенням моделей; використовуються ШІ-кредити."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "iterations": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Edit scene geometry, furniture, materials and lighting directly; Pro+ adds LightMix and advanced rendering / modeling controls.",
+            "uk": "Редагуйте геометрію сцени, меблі, матеріали й освітлення безпосередньо; Pro+ додає LightMix і розширене керування рендерингом / моделюванням."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "technical": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Pro+ lists material / furniture customization, plumbing and electrical tools, BOM and construction drawing exports. These are not a stated budget-tier installation-advice service.",
+            "uk": "Pro+ включає налаштування матеріалів / меблів, інструменти сантехніки й електрики, експорт відомостей та будівельних креслень. Це не заявлено як сервіс порад з монтажу для різних бюджетів."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "planning": {
-          "state": "unconfirmed",
+          "state": "different",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Editable floor plans and 3D scenes, multi-floor tools and parametric stairs / cabinetry. Briller does not provide an equivalent 3D editor.",
+            "uk": "Редаговані плани й 3D-сцени, багатоповерхові інструменти та параметричні сходи / шафи. Briller не надає відповідного 3D-редактора."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "exports": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Basic includes 1K renders. Pro+ lists 2K / 4K allowances and floor-plan / BOM / drawing exports; Master+ lists unlimited 4K image renders.",
+            "uk": "Basic включає 1K-рендери. Pro+ має ліміти 2K / 4K та експорт планів / відомостей / креслень; Master+ заявляє необмежені 4K-зображення."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "commercial": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "The FAQ describes individual plans for freelancers / professionals and Team for businesses. Confirm asset-specific and output licensing for client delivery.",
+            "uk": "FAQ описує індивідуальні тарифи для фрилансерів / професіоналів і Team для бізнесу. Для клієнтських результатів уточніть ліцензії окремих ресурсів та експорту."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "teams": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Team includes Shared Design Space, shared models / textures, sub-account management and branded renders; advertised pricing is per seat.",
+            "uk": "Team включає Shared Design Space, спільні моделі / текстури, керування субакаунтами й брендування рендерів; рекламована ціна — за місце."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "shopping": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "A branded 3D furniture catalogue supports scene furnishing; BOM exports are listed on Pro+. A model is not proof of local product stock.",
+            "uk": "Каталог брендованих 3D-меблів допомагає облаштовувати сцену; експорт відомостей зазначено у Pro+. Модель не підтверджує місцеву наявність товару."
           },
-          "sources": []
+          "sources": [
+            "home",
+            "pricing"
+          ]
         }
       },
-      "takeaways": [],
-      "chooseCompetitor": [],
-      "chooseBriller": [],
-      "watchouts": [],
+      "takeaways": [
+        {
+          "en": "Homestyler offers an editable scene and drawing workflow, not only generated room images.",
+          "uk": "Homestyler пропонує редаговані сцени й роботу з кресленнями, а не лише генерацію зображень кімнат."
+        },
+        {
+          "en": "AI credits, standard render quotas and paid high-resolution outputs are separate parts of the offer.",
+          "uk": "ШІ-кредити, квоти звичайного рендерингу й платні результати високої роздільності — окремі складові пропозиції."
+        },
+        {
+          "en": "Briller fits a different starting point: the existing room photo, selected reference details and budget-dependent implementation choices.",
+          "uk": "Briller має іншу початкову точку: фото наявної кімнати, вибрані деталі референсів і рішення щодо реалізації за бюджетом."
+        }
+      ],
+      "chooseCompetitor": [
+        {
+          "en": "You need detailed 3D furnishing, lighting controls and construction / BOM exports.",
+          "uk": "Потрібне детальне 3D-облаштування, керування освітленням та експорт креслень / відомостей."
+        },
+        {
+          "en": "Your studio needs shared model libraries, branded renders and managed multi-user access.",
+          "uk": "Студії потрібні спільні бібліотеки моделей, брендовані рендери та керований доступ кількох користувачів."
+        }
+      ],
+      "chooseBriller": [
+        {
+          "en": "You want to explore the photographed room and understand material / installation alternatives without first constructing a full 3D scene.",
+          "uk": "Хочете дослідити сфотографовану кімнату й зрозуміти альтернативи матеріалів / монтажу до побудови повної 3D-сцени."
+        },
+        {
+          "en": "You want practical explanations connected to Smart Sparks and refinements of the chosen look.",
+          "uk": "Потрібні практичні пояснення, пов’язані зі Smart Sparks та уточненнями вибраного оформлення."
+        }
+      ],
+      "watchouts": [
+        {
+          "en": "Check the billing term behind each “starts from” rate and whether the Team quote covers the required number of seats.",
+          "uk": "Перевірте строк оплати за кожною ціною «від» та чи покриває сума Team потрібну кількість місць."
+        },
+        {
+          "en": "BOM exports, parametric models and electrical symbols do not by themselves validate code compliance or installation feasibility.",
+          "uk": "Відомості, параметричні моделі й електричні позначення самі по собі не підтверджують відповідність нормам або можливість монтажу."
+        }
+      ],
       "sources": [
         {
-          "id": "official",
-          "title": "Homestyler — official website",
+          "id": "pricing",
+          "title": "Homestyler — plans, rendering limits and FAQ",
+          "url": "https://www.homestyler.com/pricing",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "home",
+          "title": "Homestyler — 3D and AI design workflows",
           "url": "https://www.homestyler.com/",
-          "checkedAt": null,
-          "status": "pending"
+          "checkedAt": "2026-11-02",
+          "status": "verified"
         }
       ]
     },
@@ -846,118 +1711,253 @@
       "name": "Foyr Neo",
       "url": "https://foyr.com/",
       "category": "planning",
-      "verification": "pending",
-      "reviewedAt": null,
+      "verification": "reviewed",
+      "reviewedAt": "2026-11-02",
       "summary": {
-        "en": "Official product and pricing review in progress.",
-        "uk": "Перевірка офіційних можливостей і тарифів триває."
+        "en": "Foyr Neo focuses on dimensioned 3D design, rendering and client presentations. Briller is an alternative for exploring room-photo concepts with budget-specific material and installation advice.",
+        "uk": "Foyr Neo спеціалізується на розмірному 3D-дизайні, рендерингу й клієнтських презентаціях. Briller — альтернатива для концепцій за фото з порадами щодо матеріалів і монтажу за бюджетом."
       },
       "bestFor": {
-        "en": "To be confirmed from official documentation.",
-        "uk": "Буде уточнено за офіційними джерелами."
+        "en": "Professional interior design, editable 3D layouts and drawing / presentation deliverables.",
+        "uk": "Професійний дизайн інтер’єру, редаговані 3D-планування та креслення / презентації."
       },
       "freeTrial": {
         "text": {
-          "en": "Not yet verified.",
-          "uk": "Ще не перевірено."
+          "en": "14-day free trial; the official pricing FAQ says no credit card is required.",
+          "uk": "14-денний безкоштовний пробний період; офіційний FAQ тарифів зазначає, що картка не потрібна."
         },
-        "sources": []
+        "sources": [
+          "pricing"
+        ]
       },
       "pricing": {
-        "state": "pending",
+        "state": "verified",
         "summary": {
-          "en": "Current public pricing has not yet been verified.",
-          "uk": "Актуальні публічні тарифи ще не перевірено."
+          "en": "USD monthly billing: Basic $39, Standard $89, Premium $159. Annual equivalents are advertised at $33 / $67 / $103 per month.",
+          "uk": "Помісячна оплата USD: Basic $39, Standard $89, Premium $159. Рекламовані річні еквіваленти — $33 / $67 / $103 на місяць."
         },
-        "plans": [],
-        "notes": [],
-        "sources": []
+        "plans": [
+          {
+            "name": "Basic",
+            "amount": 39,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "30 render credits/month in the USD monthly pricing selector.",
+              "uk": "30 рендер-кредитів на місяць у перемикачі помісячних тарифів USD."
+            },
+            "sources": [
+              "pricing",
+              "config"
+            ]
+          },
+          {
+            "name": "Standard",
+            "amount": 89,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "90 render credits/month in the selector; 2 users and floor-plan export.",
+              "uk": "90 рендер-кредитів на місяць у перемикачі; 2 користувачі та експорт планів."
+            },
+            "sources": [
+              "pricing",
+              "config"
+            ]
+          },
+          {
+            "name": "Premium",
+            "amount": 159,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "210 render credits/month in the selector; scaled elevation exports.",
+              "uk": "210 рендер-кредитів на місяць у перемикачі; експорт фасадів стін у масштабі."
+            },
+            "sources": [
+              "pricing",
+              "config"
+            ]
+          }
+        ],
+        "notes": [
+          {
+            "en": "The official selector distinguishes monthly from annual pricing and adjusts allowances by region. Its USD monthly configuration is used here.",
+            "uk": "Офіційний перемикач розрізняє помісячні й річні ціни та змінює ліміти за регіоном. Тут використано його помісячну конфігурацію USD."
+          },
+          {
+            "en": "The initial page and feature table contain conflicting render counts, including an “unlimited” Premium claim. The live pricing script sets 30 / 90 / 210 for USD monthly billing; confirm the purchased allowance.",
+            "uk": "Початкова сторінка й таблиця містять суперечливі кількості рендерів, зокрема «необмежений» Premium. Чинний скрипт тарифів задає 30 / 90 / 210 для помісячного USD; уточніть придбаний ліміт."
+          },
+          {
+            "en": "Foyr Manage estimates / invoicing are advertised separately from Neo; their inclusion in a Neo subscription is not assumed.",
+            "uk": "Кошториси / рахунки Foyr Manage рекламуються окремо від Neo; їх включення до передплати Neo тут не припускається."
+          }
+        ],
+        "sources": [
+          "pricing",
+          "config"
+        ]
       },
       "features": {
         "workflow": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Draw dimensioned floor plans, furnish editable 3D scenes and render presentation images / walkthroughs.",
+            "uk": "Кресліть розмірні плани, облаштовуйте редаговані 3D-сцени й створюйте презентаційні зображення / прогулянки."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "references": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "The official site advertises moodboards and a 3D furniture catalogue. A room-photo technical-element transfer workflow is not established.",
+            "uk": "Офіційний сайт заявляє мудборди й каталог 3D-меблів. Перенесення технічних елементів із фото кімнати не підтверджено."
           },
-          "sources": []
+          "sources": [
+            "home",
+            "pricing"
+          ]
         },
         "iterations": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Edit wall lengths / thicknesses, furniture, textures, custom lighting and camera views within the 3D project.",
+            "uk": "Редагуйте довжини / товщини стін, меблі, текстури, освітлення й ракурси всередині 3D-проєкту."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "technical": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Neo provides material / scene controls and plan / elevation deliverables. Foyr Manage’s separate estimates are not treated as included budget-tier installation guidance.",
+            "uk": "Neo надає керування матеріалами / сценою та плани / фасади стін. Окремі кошториси Foyr Manage не подано як включені поради з монтажу за бюджетами."
           },
-          "sources": []
+          "sources": [
+            "pricing",
+            "home"
+          ]
         },
         "planning": {
-          "state": "unconfirmed",
+          "state": "different",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Dimensioned 2D / 3D design with adjustable walls and real-world units. Standard exports floor plans; Premium adds true-to-scale elevations.",
+            "uk": "Розмірний 2D / 3D-дизайн із редагованими стінами й реальними одиницями. Standard експортує плани; Premium додає фасади стін у масштабі."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "exports": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Basic lists HD / 2K / 4K renders. Standard adds floor-plan JPG / PDF and walkthroughs; Premium adds scaled elevation PDFs.",
+            "uk": "Basic включає HD / 2K / 4K-рендери. Standard додає плани JPG / PDF і прогулянки; Premium — PDF фасадів стін у масштабі."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "commercial": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Plans are explicitly aimed at professional interior designers and client presentations. Confirm model / output licence terms for the intended delivery.",
+            "uk": "Тарифи прямо призначено для професійних дизайнерів інтер’єру й клієнтських презентацій. Уточніть ліцензії моделей / результатів для потрібної передачі клієнту."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "teams": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Standard explicitly lists 2 users; Premium includes Standard features. Do not infer more seats from a larger rendering allowance.",
+            "uk": "Standard прямо включає 2 користувачів; Premium включає функції Standard. Більший ліміт рендерингу не означає більше місць."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "shopping": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "A 3D furniture catalogue supports furnishing and similar-item suggestions. Local retail availability and a complete purchase list are not established.",
+            "uk": "Каталог 3D-меблів підтримує облаштування й пропозиції схожих предметів. Місцева наявність та повний список покупок не підтверджені."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         }
       },
-      "takeaways": [],
-      "chooseCompetitor": [],
-      "chooseBriller": [],
-      "watchouts": [],
+      "takeaways": [
+        {
+          "en": "Foyr Neo is a spatial editor and presentation workflow; its drawing deliverables are a substantial reason to choose it.",
+          "uk": "Foyr Neo — просторовий редактор і процес презентації; його креслення є суттєвою причиною вибору."
+        },
+        {
+          "en": "Neo and Foyr Manage are different advertised products. Comparing only the Foyr home page can wrongly combine their entitlements.",
+          "uk": "Neo та Foyr Manage — різні рекламовані продукти. Порівняння лише головної Foyr може помилково об’єднати їхні можливості."
+        },
+        {
+          "en": "Briller is a complementary option when the immediate need is a room-photo direction and practical budget trade-offs rather than editable 3D geometry.",
+          "uk": "Briller може доповнювати процес, коли зараз потрібні напрям за фото й практичні бюджетні компроміси, а не редагована 3D-геометрія."
+        }
+      ],
+      "chooseCompetitor": [
+        {
+          "en": "You build professional 3D interiors and need floor-plan exports, walkthroughs or scaled elevations.",
+          "uk": "Створюєте професійні 3D-інтер’єри та потребуєте експорту планів, прогулянок або фасадів стін у масштабі."
+        },
+        {
+          "en": "A two-user Standard workflow and the editable furniture / material scene suit your studio.",
+          "uk": "Студії підходять Standard для двох користувачів і редагована сцена з меблями / матеріалами."
+        }
+      ],
+      "chooseBriller": [
+        {
+          "en": "You want to test a direction from the photographed room with explanations of materials, profiles and installation alternatives.",
+          "uk": "Хочете випробувати напрям за фото кімнати з поясненнями матеріалів, профілів і варіантів монтажу."
+        },
+        {
+          "en": "You keep measured drawings elsewhere and need budget-specific guidance linked to visual concepts.",
+          "uk": "Обмірні креслення ведете окремо й потребуєте порад за бюджетом, пов’язаних із візуальними концепціями."
+        }
+      ],
+      "watchouts": [
+        {
+          "en": "Confirm region, billing term and render allowance because the public cards, table and pricing selector disagree.",
+          "uk": "Уточніть регіон, строк оплати й ліміт рендерів: публічні картки, таблиця та перемикач суперечать одне одному."
+        },
+        {
+          "en": "Check whether estimates, invoicing or project management require a separate Foyr Manage subscription.",
+          "uk": "Перевірте, чи потребують кошториси, рахунки або керування проєктами окремої передплати Foyr Manage."
+        }
+      ],
       "sources": [
         {
-          "id": "official",
-          "title": "Foyr Neo — official website",
+          "id": "pricing",
+          "title": "Foyr Neo — pricing, plan features and trial FAQ",
+          "url": "https://foyr.com/pricing/",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "home",
+          "title": "Foyr — Neo and separately advertised Manage products",
           "url": "https://foyr.com/",
-          "checkedAt": null,
-          "status": "pending"
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "config",
+          "title": "Foyr — public pricing selector and regional allowances",
+          "url": "https://foyr.com/wp-content/cache/min/1/wp-content/themes/foyr/v3/modules/pricing/assets/pricing.js?ver=1793343704",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
         }
       ]
     },
@@ -966,118 +1966,292 @@
       "name": "Spacely.ai",
       "url": "https://www.spacely.ai/",
       "category": "photo",
-      "verification": "pending",
-      "reviewedAt": null,
+      "verification": "reviewed",
+      "reviewedAt": "2026-11-02",
       "summary": {
-        "en": "Official product and pricing review in progress.",
-        "uk": "Перевірка офіційних можливостей і тарифів триває."
+        "en": "Spacely.ai focuses on professional AI rendering, localized edits and CAD integrations, with team plans. Briller emphasizes room-photo concepts with budget-specific specifications and implementation advice.",
+        "uk": "Spacely.ai зосереджений на професійному ШІ-рендерингу, локальних змінах, CAD-інтеграціях і командних тарифах. Briller — на концепціях за фото зі специфікаціями й порадами щодо реалізації за бюджетом."
       },
       "bestFor": {
-        "en": "To be confirmed from official documentation.",
-        "uk": "Буде уточнено за офіційними джерелами."
+        "en": "Designers refining renders or CAD views, with shared canvas and team options.",
+        "uk": "Дизайнери, що уточнюють рендери або CAD-види та потребують спільного полотна й командних можливостей."
       },
       "freeTrial": {
         "text": {
-          "en": "Not yet verified.",
-          "uk": "Ще не перевірено."
+          "en": "Free plan advertises 40 trial credits and no card requirement.",
+          "uk": "Безкоштовний тариф рекламує 40 пробних кредитів без вимоги картки."
         },
-        "sources": []
+        "sources": [
+          "pricing"
+        ]
       },
       "pricing": {
-        "state": "pending",
+        "state": "verified",
         "summary": {
-          "en": "Current public pricing has not yet been verified.",
-          "uk": "Актуальні публічні тарифи ще не перевірено."
+          "en": "Global monthly configuration: Personal $25, Studio $50, Agency $100; regional offers vary.",
+          "uk": "Глобальна місячна конфігурація: Personal $25, Studio $50, Agency $100; регіональні пропозиції відрізняються."
         },
-        "plans": [],
-        "notes": [],
-        "sources": []
+        "plans": [
+          {
+            "name": "Personal — global",
+            "amount": 25,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "500 credits/month; 1 seat in the public global configuration.",
+              "uk": "500 кредитів на місяць; 1 місце в публічній глобальній конфігурації."
+            },
+            "sources": [
+              "pricing",
+              "config"
+            ]
+          },
+          {
+            "name": "Studio Pro — global",
+            "amount": 50,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "1,500 credits/month; up to 2 seats.",
+              "uk": "1 500 кредитів на місяць; до 2 місць."
+            },
+            "sources": [
+              "pricing",
+              "config"
+            ]
+          },
+          {
+            "name": "Agency Pro+ — global",
+            "amount": 100,
+            "currency": "USD",
+            "billing": "monthly",
+            "allowance": {
+              "en": "3,500 credits/month; up to 5 seats.",
+              "uk": "3 500 кредитів на місяць; до 5 місць."
+            },
+            "sources": [
+              "pricing",
+              "config"
+            ]
+          },
+          {
+            "name": "Personal — global annual",
+            "amount": 240,
+            "currency": "USD",
+            "billing": "yearly",
+            "allowance": {
+              "en": "6,000 credits in the annual configuration.",
+              "uk": "6 000 кредитів у річній конфігурації."
+            },
+            "sources": [
+              "config"
+            ]
+          },
+          {
+            "name": "Studio Pro — global annual",
+            "amount": 480,
+            "currency": "USD",
+            "billing": "yearly",
+            "allowance": {
+              "en": "18,000 credits in the annual configuration.",
+              "uk": "18 000 кредитів у річній конфігурації."
+            },
+            "sources": [
+              "config"
+            ]
+          },
+          {
+            "name": "Agency Pro+ — global annual",
+            "amount": 960,
+            "currency": "USD",
+            "billing": "yearly",
+            "allowance": {
+              "en": "42,000 credits in the annual configuration.",
+              "uk": "42 000 кредитів у річній конфігурації."
+            },
+            "sources": [
+              "config"
+            ]
+          }
+        ],
+        "notes": [
+          {
+            "en": "Subscription amounts and credit allowances are taken from the public pricing page’s global configuration. The same configuration contains different India offers; actual regional checkout and taxes take precedence.",
+            "uk": "Суми передплат і кредитні ліміти взято з публічної глобальної конфігурації сторінки тарифів. У ній є інші пропозиції для Індії; актуальна регіональна оплата й податки мають пріоритет."
+          },
+          {
+            "en": "Subscriber-only top-ups are separate one-time purchases: 200 credits $9, 1,000 $35, 5,000 $150. The $9 pack is not a subscription entry price.",
+            "uk": "Поповнення лише для передплатників — окремі разові покупки: 200 кредитів за $9, 1 000 за $35, 5 000 за $150. Пакет $9 не є початковою ціною передплати."
+          },
+          {
+            "en": "Renders consume different credit amounts by tool and settings. Published credit allowances are not guaranteed render counts.",
+            "uk": "Рендери витрачають різну кількість кредитів залежно від інструмента й налаштувань. Заявлені кредитні ліміти не гарантують певну кількість рендерів."
+          }
+        ],
+        "sources": [
+          "pricing",
+          "config"
+        ]
       },
       "features": {
         "workflow": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "AI rendering for interior / exterior design, with realistic rendering, furnishing, material and lighting controls.",
+            "uk": "ШІ-рендеринг інтер’єрів / екстер’єрів із реалістичним рендерингом, меблюванням, матеріалами й освітленням."
           },
-          "sources": []
+          "sources": [
+            "pricing",
+            "home"
+          ]
         },
         "references": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Style transfer, collage-to-render and lighting-transfer tools use visual inputs; a shared canvas supports project exploration.",
+            "uk": "Перенесення стилю, collage-to-render і перенесення освітлення використовують візуальні матеріали; спільне полотно підтримує дослідження проєкту."
           },
-          "sources": []
+          "sources": [
+            "home",
+            "pricing"
+          ]
         },
         "iterations": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Point and Edit Pro and material settings are listed as Pro features, rather than universally included basic tools.",
+            "uk": "Point and Edit Pro та налаштування матеріалів зазначено як Pro-функції, а не універсальні базові інструменти."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "technical": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Budget-tier material specifications and installation guidance are not established in the reviewed pages.",
+            "uk": "На переглянутих сторінках не підтверджено специфікації матеріалів та поради з монтажу для різних бюджетів."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "planning": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "The pricing page lists SketchUp, Revit, AutoCAD and Rhino integrations. Rendering a CAD view does not establish that Spacely replaces the source CAD editor.",
+            "uk": "Сторінка тарифів зазначає інтеграції SketchUp, Revit, AutoCAD та Rhino. Рендеринг CAD-виду не підтверджує, що Spacely замінює вихідний CAD-редактор."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "exports": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "High-resolution downloads are listed; 4K download is specifically marked Pro. Verify the entitlement of the selected plan.",
+            "uk": "Зазначено завантаження високої роздільності; 4K окремо позначено Pro. Перевірте доступ у вибраному тарифі."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "commercial": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "The pricing page explicitly lists commercial licence, private mode and watermark-free output. This does not remove rights checks for uploaded references.",
+            "uk": "Сторінка тарифів прямо зазначає комерційну ліцензію, приватний режим і результати без водяного знака. Права на завантажені референси все одно потрібно перевіряти."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "teams": {
-          "state": "unconfirmed",
+          "state": "documented",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "Personal lists 1 seat, Studio Pro up to 2, Agency Pro+ up to 5. Team collaboration is shown on Studio / Agency; Agency adds API integration.",
+            "uk": "Personal має 1 місце, Studio Pro — до 2, Agency Pro+ — до 5. Командну співпрацю зазначено у Studio / Agency; Agency додає API-інтеграцію."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         },
         "shopping": {
           "state": "unconfirmed",
           "text": {
-            "en": "Not yet verified in public documentation.",
-            "uk": "Ще не перевірено в публічній документації."
+            "en": "A product-discovery or shopping-list workflow is not established in the reviewed pages.",
+            "uk": "На переглянутих сторінках не підтверджено пошук товарів або формування списку покупок."
           },
-          "sources": []
+          "sources": [
+            "pricing"
+          ]
         }
       },
-      "takeaways": [],
-      "chooseCompetitor": [],
-      "chooseBriller": [],
-      "watchouts": [],
+      "takeaways": [
+        {
+          "en": "CAD integrations and local render edits are a strong reason to shortlist Spacely for an existing professional design workflow.",
+          "uk": "CAD-інтеграції та локальні зміни рендерів — суттєва причина розглянути Spacely для наявного професійного процесу."
+        },
+        {
+          "en": "Pro rendering / 4K tools, team seats and subscriber top-ups have distinct conditions; a low top-up price is not the price of the full service.",
+          "uk": "Pro-рендеринг / 4K, командні місця й поповнення мають окремі умови; низька ціна поповнення не є ціною всього сервісу."
+        },
+        {
+          "en": "Briller addresses the next implementation discussion: material selection, budget tiers and practical installation details linked to the concept.",
+          "uk": "Briller допомагає з наступним обговоренням реалізації: вибором матеріалів, бюджетними варіантами й практичними деталями монтажу, пов’язаними з концепцією."
+        }
+      ],
+      "chooseCompetitor": [
+        {
+          "en": "You already use SketchUp, Revit, AutoCAD or Rhino and want AI rendering around that workflow.",
+          "uk": "Уже використовуєте SketchUp, Revit, AutoCAD чи Rhino та хочете додати ШІ-рендеринг до цього процесу."
+        },
+        {
+          "en": "You need Point and Edit Pro, a shared design canvas or Agency-level team / API options.",
+          "uk": "Потрібні Point and Edit Pro, спільне дизайн-полотно або командні / API-можливості Agency."
+        }
+      ],
+      "chooseBriller": [
+        {
+          "en": "You want a room-photo concept with budget-specific specifications rather than a CAD-to-render integration.",
+          "uk": "Потрібна концепція за фото кімнати зі специфікаціями за бюджетом, а не інтеграція CAD у рендеринг."
+        },
+        {
+          "en": "Your decision depends on practical material and installation alternatives, with PDF specifications on an eligible plan.",
+          "uk": "Рішення залежить від практичних альтернатив матеріалів і монтажу з PDF-специфікаціями у відповідному тарифі."
+        }
+      ],
+      "watchouts": [
+        {
+          "en": "Confirm global / regional pricing, credit consumption and the exact CAD integration available on the chosen plan.",
+          "uk": "Уточніть глобальні / регіональні ціни, витрату кредитів і конкретну CAD-інтеграцію вибраного тарифу."
+        },
+        {
+          "en": "An integration, material setting or realistic render is not evidence of a dimension-verified construction document.",
+          "uk": "Інтеграція, налаштування матеріалу чи реалістичний рендер не є підтвердженням будівельного документа з перевіреними розмірами."
+        }
+      ],
       "sources": [
         {
-          "id": "official",
-          "title": "Spacely.ai — official website",
+          "id": "pricing",
+          "title": "Spacely.ai — plans, seats, integrations and top-ups",
+          "url": "https://www.spacely.ai/pricing",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "home",
+          "title": "Spacely.ai — rendering and design tools",
           "url": "https://www.spacely.ai/",
-          "checkedAt": null,
-          "status": "pending"
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "config",
+          "title": "Spacely.ai — public global / regional pricing configuration",
+          "url": "https://www.spacely.ai/_next/static/chunks/77d9906c504f8c14.js?dpl=dpl_21xQ6YGkkF8PYRZ9uMUjrGBxG7eu",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
         }
       ]
     }

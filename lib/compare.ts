@@ -6,7 +6,7 @@ import { href, site, socialPreview, type Locale } from './content';
 export type Localized = Record<Locale, string>;
 export type ComparisonSource = { id: string; title: string; url: string; checkedAt: string | null; status: 'pending' | 'verified' | 'unavailable' };
 export type ComparisonFact = { state: 'documented' | 'unconfirmed' | 'different'; text: Localized; sources: string[] };
-export type ComparisonPlan = { name: string; amount: number; currency: string; billing: 'monthly' | 'annual' | 'oneOff' | 'yearly'; allowance: Localized; sources: string[] };
+export type ComparisonPlan = { name: string; amount: number; currency: string; billing: 'monthly' | 'annual' | 'oneOff' | 'yearly' | 'publishedMonthly' | 'seatMonthly'; allowance: Localized; sources: string[] };
 export const featureKeys = ['workflow','references','iterations','technical','planning','shopping','exports','commercial','teams'] as const;
 export type FeatureKey = typeof featureKeys[number];
 export type Competitor = {
@@ -16,6 +16,7 @@ export type Competitor = {
   features: Record<FeatureKey, ComparisonFact>; takeaways: Localized[]; chooseCompetitor: Localized[]; chooseBriller: Localized[]; watchouts: Localized[]; sources: ComparisonSource[];
 };
 export const competitors = catalog.products as Competitor[];
+export const latestComparisonReview = competitors.filter(item => item.verification === 'reviewed' && item.reviewedAt).map(item => item.reviewedAt!).sort().at(-1);
 export const comparisonCopy = (locale: Locale) => labels[locale];
 export const comparisonHref = (locale: Locale, slug?: string) => href(locale, 'compare' + (slug ? '/' + slug : ''));
 export const competitorBySlug = (slug: string) => competitors.find(item => item.slug === slug);

@@ -4,23 +4,11 @@ Routes: `/en/compare/`, `/uk/compare/`, and a localized page for every slug in `
 
 ## Research status
 
-The initial directory is a **draft structure**, not a completed competitor study. Competitor facts and prices are marked pending until the official websites can be read. The draft explicitly displays this status, individual pages are `noindex`, and unreviewed pages are omitted from the sitemap. Do not turn a failed fetch or a missing mention into a claim that a competitor lacks a feature.
+All nine bilingual analyses were reviewed against official public sources on **2 November 2026**. See [research-2026-11-02.md](research-2026-11-02.md) for evidence, access limitations and conflicting source fields. This is a desk study, not paid-account performance testing.
 
-The proposed shortlist is:
+The set covers Interior AI, REimagineHome, RoomGPT, HomeDesignsAI, Remodel AI, Planner 5D, Homestyler, Foyr Neo and Spacely.ai. Reviewed comparisons are eligible for production indexing and enter the generated sitemap / llms.txt; the ordinary preview build remains noindex.
 
-| Product | Official site | Selection hypothesis to verify |
-| --- | --- | --- |
-| Interior AI | https://interiorai.com/ | Photo-led visual redesign alternative. |
-| REimagineHome | https://www.reimaginehome.ai/ | Property presentation and staging use cases. |
-| RoomGPT | https://www.roomgpt.io/ | An occasional user comparing a focused room-redesign service. |
-| HomeDesignsAI | https://homedesigns.ai/ | Breadth of interior and exterior redesign tasks. |
-| Remodel AI | https://remodelai.app/ | A mobile-led homeowner and remodeling workflow. |
-| Planner 5D | https://planner5d.com/ | Floor-plan and editable 3D planning needs. |
-| Homestyler | https://www.homestyler.com/ | Furnished 3D layouts and visualisation workflows. |
-| Foyr Neo | https://foyr.com/ | A professional 3D design and client-presentation workflow. |
-| Spacely.ai | https://www.spacely.ai/ | AI visualisation for design work; explicitly requested by the user. |
-
-These selection hypotheses are research questions, not verified current feature or pricing claims.
+RoomGPT does not expose current pricing before login. REimagineHome has conflicting credit allowances; Foyr's initial HTML and dynamic allowances also differ. These limitations are visible in the actual pages. Homestyler's advertised starting rates are not labeled as monthly-billed subscriptions. Spacely's global pricing is cited to its public pricing configuration and qualified for regional differences. Remodel AI's US App Store SKUs are regional catalogue entries, not universal checkout offers.
 
 ## Editorial model
 
@@ -31,7 +19,7 @@ For every provider:
 1. Read the current official home/product page, pricing and any necessary official help or licensing page. Record the exact URL and actual verification date. Store supporting excerpts and access outcomes in the research notes. A bot block, login wall or inaccessible checkout leaves the relevant fact unconfirmed.
 2. Distinguish photo restyling from editable measured floor plans, 3D modelling, professional drawing deliverables and actual technical implementation advice. Do not infer dimension accuracy from an attractive render.
 3. Check room/reference inputs, iteration, material/budget advice, floor planning, product discovery, exports/resolution, commercial rights and collaboration. Feature entitlement is plan-dependent; include the qualifying plan or allowance.
-4. Record the original currency, price and billing basis. `annual` is a monthly equivalent with annual payment, `yearly` a yearly total, `monthly` month-to-month, and `oneOff` a pack/purchase. Do not convert regional app-store offers into universal web pricing, or credits into renders without a documented conversion.
+4. Record the original currency, price and billing basis. `annual` is a monthly equivalent with annual payment, `yearly` a yearly total, `monthly` month-to-month, `oneOff` a pack/purchase, `publishedMonthly` an advertised starting monthly rate with an unconfirmed billing term, and `seatMonthly` that starting rate per seat. Do not convert regional app-store offers into universal web pricing, or credits into renders without a documented conversion.
 5. Explain realistic reasons to choose the competitor as well as Briller. Do not claim performance, image fidelity, accuracy, speed, lowest price or universal superiority without supporting tests.
 6. Set a fact to `documented` or `different` only with at least one verified source ID. `unconfirmed` means the evidence is insufficient, not that the feature is absent. Numeric pricing offers also require verified sources.
 7. Use `verification: reviewed` only after writing the actual analysis and completing the source review. Unavailable numeric prices can remain explicitly unconfirmed on an otherwise useful, reviewed feature analysis.

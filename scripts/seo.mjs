@@ -12,12 +12,14 @@ const localizedPages=[...pages,...blogSuffixes,...comparisonSuffixes];
 const verifiedComparisons=comparisonCatalog.products.filter(product=>product.verification==='reviewed').map(product=>'compare/'+product.slug);
 if(comparisonCatalog.products.every(product=>product.verification==='reviewed'))verifiedComparisons.push('compare');
 const sitemapPages=localizedPages.filter(page=>!comparisonSuffixes.includes(page)||verifiedComparisons.includes(page));
+const comparisonReviewDates=new Map(comparisonCatalog.products.filter(product=>product.verification==='reviewed').map(product=>['compare/'+product.slug,product.reviewedAt]));
+if(verifiedComparisons.includes('compare'))comparisonReviewDates.set('compare',[...comparisonReviewDates.values()].sort().at(-1));
 for(const page of localizedPages){
  const file=path.join('out','uk',page,'index.html');
  const html=fs.readFileSync(file,'utf8');
  fs.writeFileSync(file,html.replace('<html lang="en"','<html lang="uk"'));
 }
-fs.writeFileSync('out/sitemap.xml','<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+['en','uk'].flatMap(locale=>sitemapPages.map(page=>{const suffix=page?page+'/':'';return `<url><loc>${origin}/${locale}/${suffix}</loc><xhtml:link rel="alternate" hreflang="en" href="${origin}/en/${suffix}"/><xhtml:link rel="alternate" hreflang="uk" href="${origin}/uk/${suffix}"/><xhtml:link rel="alternate" hreflang="x-default" href="${origin}/en/${suffix}"/></url>`})).join('')+'</urlset>');
+fs.writeFileSync('out/sitemap.xml','<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+['en','uk'].flatMap(locale=>sitemapPages.map(page=>{const suffix=page?page+'/':'';return `<url><loc>${origin}/${locale}/${suffix}</loc>${comparisonReviewDates.get(page)?`<lastmod>${comparisonReviewDates.get(page)}</lastmod>`:''}<xhtml:link rel="alternate" hreflang="en" href="${origin}/en/${suffix}"/><xhtml:link rel="alternate" hreflang="uk" href="${origin}/uk/${suffix}"/><xhtml:link rel="alternate" hreflang="x-default" href="${origin}/en/${suffix}"/></url>`})).join('')+'</urlset>');
 // HTTP 301 is handled by nginx. These tiny fallbacks keep static/local previews usable.
 for(const suffix of blogSuffixes){
  const target='/en/'+suffix+'/', directory=path.join('out',suffix);

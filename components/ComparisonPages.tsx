@@ -1,7 +1,7 @@
 import { ArrowRight, ArrowUpRight, FileText, Layers, Scale } from 'lucide-react';
 import { href, site, type Locale } from '@/lib/content';
 import plans from '@/content/plans.json';
-import { competitors, comparisonCopy, comparisonHref, brillerPrice, brillerTrial, brillerFeature, compareDate, amountLabel, featureKeys, comparisonFAQs, type Competitor, type ComparisonFact } from '@/lib/compare';
+import { competitors, comparisonCopy, comparisonHref, brillerPrice, brillerTrial, brillerFeature, compareDate, amountLabel, featureKeys, comparisonFAQs, latestComparisonReview, type Competitor, type ComparisonFact } from '@/lib/compare';
 
 function Sources({ product, ids, locale }: { product: Competitor; ids: string[]; locale: Locale }) {
   return <span className="compare-citations">{[...new Set(ids)].map(id => {
@@ -26,9 +26,9 @@ function ComparisonCard({ product, locale }: { product: Competitor; locale: Loca
 }
 export function ComparisonHub({ locale }: { locale: Locale }) {
   const c = comparisonCopy(locale);
-  const schema = { '@context': 'https://schema.org', '@type': 'CollectionPage', '@id': site.origin + comparisonHref(locale), name: c.title, description: c.intro, url: site.origin + comparisonHref(locale), inLanguage: locale, publisher: { '@id': site.origin + '/#organization' }, mainEntity: { '@type': 'ItemList', itemListElement: competitors.map((product, index) => ({ '@type': 'ListItem', position: index + 1, name: c.alternativeHeading.replace('{name}',product.name), url: site.origin + comparisonHref(locale, product.slug) })) } };
+  const schema = { '@context': 'https://schema.org', '@type': 'CollectionPage', '@id': site.origin + comparisonHref(locale), name: c.title, description: c.intro, url: site.origin + comparisonHref(locale), inLanguage: locale, ...(latestComparisonReview ? { dateModified: latestComparisonReview } : {}), publisher: { '@id': site.origin + '/#organization' }, mainEntity: { '@type': 'ItemList', itemListElement: competitors.map((product, index) => ({ '@type': 'ListItem', position: index + 1, name: c.alternativeHeading.replace('{name}',product.name), url: site.origin + comparisonHref(locale, product.slug) })) } };
   return <div className="compare-page">
-    <section className="page-heading compare-hero"><p className="eyebrow">{c.eyebrow}</p><h1>{c.title}</h1><p>{c.intro}</p>{competitors.some(item=>item.verification!=='reviewed')&&<aside className="compare-draft"><strong>{c.pending}</strong><p>{c.draftNote}</p></aside>}<div className="button-row"><a className="button" href="#comparison-table">{c.tableTitle}<Scale size={17} aria-hidden="true"/></a><a className="text-link" href="#individual-comparisons">{c.directory}<ArrowRight size={16} aria-hidden="true"/></a></div></section>
+    <section className="page-heading compare-hero"><p className="eyebrow">{c.eyebrow}</p><h1>{c.title}</h1><p>{c.intro}</p>{latestComparisonReview&&<p className="small compare-scope"><time dateTime={latestComparisonReview}>{c.updated}: {compareDate(latestComparisonReview,locale)}</time></p>}{competitors.some(item=>item.verification!=='reviewed')&&<aside className="compare-draft"><strong>{c.pending}</strong><p>{c.draftNote}</p></aside>}<div className="button-row"><a className="button" href="#comparison-table">{c.tableTitle}<Scale size={17} aria-hidden="true"/></a><a className="text-link" href="#individual-comparisons">{c.directory}<ArrowRight size={16} aria-hidden="true"/></a></div></section>
     <section className="section compare-overview" id="comparison-table" aria-labelledby="compare-table-title"><div className="section-heading"><div><p className="eyebrow">{c.label}</p><h2 id="compare-table-title">{c.tableTitle}</h2></div><p>{c.tableIntro}</p></div>
       <p className="small compare-scroll-hint" id="compare-scroll-hint">{c.tableHint}</p>
       <div className="compare-table-scroll" role="region" aria-label={c.tableLabel} aria-describedby="compare-scroll-hint" tabIndex={0}><table className="compare-table"><caption className="sr-only">{c.tableLabel}</caption><thead><tr>{[c.product,c.focus,c.price,c.trial,c.advice,c.plans,c.analysis].map(label => <th scope="col" key={label}>{label}</th>)}</tr></thead><tbody>
