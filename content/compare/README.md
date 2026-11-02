@@ -28,7 +28,7 @@ The comparison is published by Briller and describes a review of public document
 
 ## UI and SEO
 
-The overview has a row for Briller and one for each competitor; every competitor links to a full analysis. Detailed pages have source anchors beside the relevant claims, a short official-source list, fit guidance for both products and links to related analyses. External links stay in the source section; table and directory links point to the site's analyses.
+The overview has a row for Briller and one for each competitor; every competitor links to a full analysis. Detailed pages have fit guidance for both products and links to related analyses, with one official competitor website link at the bottom. Numbered citations and source lists are not rendered. The full research evidence and claim-level source IDs remain in the editorial catalogue; table and directory links point to the site's analyses.
 
 Responsive tables have a labeled, keyboard-focusable horizontal scroll region and a sticky tool column. Sources, layout and typography follow the site's Porcelain & Ink Blue tokens. Locale pairs include canonical/hreflang links; structured data uses CollectionPage/ItemList and WebPage, without unsupported ratings or competitor Offer schemas. Research dates are stored facts, not refreshed automatically at build time.
 
@@ -47,6 +47,6 @@ The comparison tests cover the nine-provider directory, Spacely.ai, source-backe
 
 Each detail page targets its actual competitor name with a localized alternative-intent title, description, H1 and internal anchor text (for example, “Spacely.ai alternative” / “Альтернатива Spacely.ai”). The description is derived from that provider's editorial summary. Avoid duplicated ranking pages, hidden keywords or promises of search positions.
 
-Reviewed pages expose a visible Q&A section and matching FAQPage JSON-LD. The WebPage schema cites verified official sources as CreativeWork references; access dates are not misrepresented as competitor page modification dates. Canonical, EN/UK/x-default hreflang, Open Graph, Twitter, breadcrumbs and CollectionPage/ItemList describe the same static URLs.
+Reviewed pages expose a visible Q&A section and matching FAQPage JSON-LD. The WebPage schema cites the same official competitor homepage that is visibly linked at the bottom; detailed research sources stay in the editorial catalogue. Access dates are not misrepresented as competitor page modification dates. Canonical, EN/UK/x-default hreflang, Open Graph, Twitter, breadcrumbs and CollectionPage/ItemList describe the same static URLs.
 
 Only reviewed analyses enter the sitemap and generated `out/llms.txt`. The hub becomes indexable when the complete proposed comparison set is reviewed. Pending pages stay noindex. Published production robots allow ordinary crawlers; preview retains the site's noindex/nofollow protection. `llms.txt` and structured data improve machine-readable discovery; they do not guarantee AI citations, Google rich results or rankings.

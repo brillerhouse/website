@@ -57,7 +57,7 @@ test('Reviewed analysis is distinct, bilingual and backed by first-party sources
   }
  }
 });
-test('Static comparison pages have real cross-links, sources, language metadata and sitemap entries',()=>{
+test('Static comparison pages have real cross-links, one official competitor link, locale metadata and sitemap entries',()=>{
  const sitemap=fs.readFileSync('out/sitemap.xml','utf8');
  for(const locale of ['en','uk']){
   const hub=fs.readFileSync(`out/${locale}/compare/index.html`,'utf8');
@@ -70,10 +70,14 @@ test('Static comparison pages have real cross-links, sources, language metadata 
    assert.ok(markup.includes(`<link rel="canonical" href="https://briller.house${href}"`));
    for(const language of ['en','uk'])assert.ok(markup.includes(`hrefLang="${language}" href="https://briller.house${lib.comparisonHref(language,product.slug)}"`));
    assert.ok(markup.includes('hrefLang="x-default"'));assert.ok(markup.includes('property="og:image"'));assert.ok(markup.includes('name="twitter:card"'));
-   for(const [,target]of markup.matchAll(/href="#(source-[^"]+)"/g))assert.ok(markup.includes(`id="${target}"`),href+': broken source anchor');
-   for(const source of product.sources)assert.ok(html.includes(source.url.replaceAll('&','&amp;')));
+   const article=markup.slice(markup.indexOf('<article class="compare-page">'),markup.lastIndexOf('</article>'));
+   assert.ok(!article.includes('compare-citations')&&!article.includes('href="#source-')&&!article.includes('compare-source-number'));
+   const externalLinks=[...article.matchAll(/<a\b[^>]*href="(https?:[^"]+)"[^>]*>/g)].map(match=>match[1]).filter(url=>{const host=new URL(url).hostname;return host!=='briller.house'&&!host.endsWith('.briller.house');});
+   assert.deepEqual(externalLinks,[product.url]);
+   assert.ok(article.lastIndexOf('compare-official-site')>article.lastIndexOf('compare-related'));
    const structured=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(([,s])=>JSON.parse(s));
    assert.ok(structured.some(s=>s['@type']==='WebPage'&&s.url==='https://briller.house'+href));assert.ok(!structured.some(s=>s.aggregateRating));
+   assert.equal(structured.find(s=>s['@type']==='WebPage').citation.url,product.url);
    if(product.verification==='reviewed'){const faq=structured.find(s=>s['@type']==='FAQPage');assert.ok(faq&&faq.mainEntity.length===3);for(const question of faq.mainEntity)assert.ok(html.includes(question.name.replaceAll('&','&amp;')));}else assert.ok(!structured.some(s=>s['@type']==='FAQPage'));
    const llms=fs.readFileSync('out/llms.txt','utf8');assert.equal(llms.includes('https://briller.house'+href),product.verification==='reviewed');
   }
