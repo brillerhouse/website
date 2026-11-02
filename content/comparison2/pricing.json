@@ -1,0 +1,1742 @@
+{
+  "checkedAt": "2026-11-02",
+  "products": [
+    {
+      "slug": "interior-ai",
+      "checkedAt": "2026-11-02",
+      "trial": {
+        "en": "Free-generation allowance: confirm the current offer.",
+        "uk": "Безкоштовний ліміт генерацій: уточніть поточну пропозицію."
+      },
+      "context": {
+        "en": "Interior AI’s tiers increase design volume and add editing tools. The Briller plans alongside them show the price of basic insights, full specifications and shared projects.",
+        "uk": "Тарифи Interior AI збільшують кількість дизайнів і додають інструменти редагування. Поруч наведено тарифи Briller з базовими порадами, повними специфікаціями та спільними проєктами."
+      },
+      "tiers": [
+        {
+          "id": "pro",
+          "name": "Pro",
+          "brillerPlan": "Explorer",
+          "purpose": {
+            "en": "Photo concepts",
+            "uk": "Концепції за фото"
+          },
+          "allowance": {
+            "en": "1,000 designs / month",
+            "uk": "1 000 дизайнів / місяць"
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 49
+            },
+            {
+              "billing": "yearly",
+              "currency": "USD",
+              "amount": 349
+            }
+          ],
+          "features": [
+            {
+              "en": "Room redesign and virtual staging; custom prompts and style mixing.",
+              "uk": "Редизайн кімнат і віртуальний стейджинг; власні промпти й змішування стилів."
+            },
+            {
+              "en": "Flux model; up to 4 rooms generated in parallel.",
+              "uk": "Модель Flux; паралельна генерація до 4 кімнат."
+            },
+            {
+              "en": "Commercial-use licence.",
+              "uk": "Ліцензія на комерційне використання."
+            }
+          ],
+          "sources": [
+            "pricing"
+          ],
+          "checks": [
+            {
+              "en": "Confirm export dimensions and collaborator seats.",
+              "uk": "Уточніть розміри експорту й місця для співробітників."
+            }
+          ]
+        },
+        {
+          "id": "premium",
+          "name": "Premium",
+          "brillerPlan": "Pro Design",
+          "purpose": {
+            "en": "Editing and handover",
+            "uk": "Редагування й передача"
+          },
+          "allowance": {
+            "en": "5,000 designs / month",
+            "uk": "5 000 дизайнів / місяць"
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 99
+            },
+            {
+              "billing": "yearly",
+              "currency": "USD",
+              "amount": 599
+            }
+          ],
+          "features": [
+            {
+              "en": "Pro tools plus image edits, wall painting, lighting changes and furniture additions.",
+              "uk": "Інструменти Pro та редагування зображень, фарбування стін, зміна світла й додавання меблів."
+            },
+            {
+              "en": "Upscaling, walkthrough video, VR and Google Lens lookup.",
+              "uk": "Апскейл, відеопрогулянки, VR і пошук через Google Lens."
+            },
+            {
+              "en": "Hyper Realism model; up to 8 parallel rooms; commercial use.",
+              "uk": "Модель Hyper Realism; до 8 паралельних кімнат; комерційне використання."
+            }
+          ],
+          "sources": [
+            "pricing"
+          ],
+          "checks": []
+        },
+        {
+          "id": "ultra",
+          "name": "Ultra",
+          "brillerPlan": "Studio / Architect",
+          "purpose": {
+            "en": "Larger workloads",
+            "uk": "Більший обсяг роботи"
+          },
+          "allowance": {
+            "en": "25,000 designs / month",
+            "uk": "25 000 дизайнів / місяць"
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 199
+            },
+            {
+              "billing": "yearly",
+              "currency": "USD",
+              "amount": 1199
+            }
+          ],
+          "features": [
+            {
+              "en": "Premium tools with ultra-quality renders and up to 16 parallel rooms.",
+              "uk": "Інструменти Premium з ultra-якістю рендерів і до 16 паралельних кімнат."
+            },
+            {
+              "en": "Priority rendering, dedicated rendering server and unlimited storage.",
+              "uk": "Пріоритетний рендеринг, виділений сервер і необмежене зберігання."
+            },
+            {
+              "en": "Commercial use; parallel rendering does not specify a seat bundle.",
+              "uk": "Комерційне використання; паралельний рендеринг не визначає пакет місць."
+            }
+          ],
+          "sources": [
+            "pricing"
+          ],
+          "checks": []
+        }
+      ],
+      "notes": [
+        {
+          "en": "Annual totals are $349 / $599 / $1,199. Use these totals rather than multiplying the rounded $29 / $49 / $99 monthly labels.",
+          "uk": "Річні суми — $349 / $599 / $1 199. Використовуйте їх замість множення округлених місячних позначок $29 / $49 / $99."
+        }
+      ],
+      "checks": [
+        {
+          "en": "Confirm the Pro annual checkout total and team-seat policy.",
+          "uk": "Уточніть річну суму Pro під час оплати та правила командних місць."
+        }
+      ],
+      "sources": [
+        {
+          "id": "pricing",
+          "url": "https://interiorai.com/#pricing",
+          "title": "Interior AI plan cards and FAQ",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "slug": "reimaginehome",
+      "checkedAt": "2026-11-02",
+      "trial": {
+        "en": "5 free designs; no card required.",
+        "uk": "5 безкоштовних дизайнів; картка не потрібна."
+      },
+      "context": {
+        "en": "Essential covers basic staging. Pro adds conversational control, references and real products; Advanced and Agency buy more credits for that workflow.",
+        "uk": "Essential охоплює базовий стейджинг. Pro додає діалогове керування, референси й реальні товари; Advanced та Agency дають більше кредитів для цього процесу."
+      },
+      "tiers": [
+        {
+          "id": "essential",
+          "name": "Essential",
+          "brillerPlan": "Explorer",
+          "purpose": {
+            "en": "Basic staging",
+            "uk": "Базовий стейджинг"
+          },
+          "allowance": {
+            "en": "30 credits / month",
+            "uk": "30 кредитів / місяць"
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 19
+            }
+          ],
+          "features": [
+            {
+              "en": "Virtual staging, light redesigns and basic exterior / landscaping edits.",
+              "uk": "Віртуальний стейджинг, нескладний редизайн і базові зміни екстер’єру / озеленення."
+            },
+            {
+              "en": "Watermark-free shareable images and before / after comparison.",
+              "uk": "Зображення без водяного знака для поширення й порівняння до / після."
+            },
+            {
+              "en": "Conversational editing, reference-photo generation and real-product discovery are excluded.",
+              "uk": "Діалогове редагування, генерація за референсом і підбір реальних товарів не включені."
+            }
+          ],
+          "sources": [
+            "pricing",
+            "cards"
+          ],
+          "checks": []
+        },
+        {
+          "id": "pro",
+          "name": "Pro",
+          "brillerPlan": "Pro Design",
+          "purpose": {
+            "en": "Controlled redesign",
+            "uk": "Керований редизайн"
+          },
+          "allowance": {
+            "en": "200 credits / month",
+            "uk": "200 кредитів / місяць"
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 36
+            }
+          ],
+          "features": [
+            {
+              "en": "Conversational design, incremental edits and reference-photo control.",
+              "uk": "Діалоговий дизайн, послідовні зміни й керування за референсами."
+            },
+            {
+              "en": "Real Products Discovery + Visualization and batch listing work.",
+              "uk": "Real Products Discovery + Visualization і пакетна робота з оголошеннями."
+            },
+            {
+              "en": "Team / agency workflow tools; exact seat allowance to confirm.",
+              "uk": "Командні / агентські інструменти; точний ліміт місць уточніть."
+            }
+          ],
+          "sources": [
+            "pricing",
+            "cards"
+          ],
+          "checks": []
+        },
+        {
+          "id": "advanced",
+          "name": "Advanced",
+          "brillerPlan": "Pro Design",
+          "purpose": {
+            "en": "More design volume",
+            "uk": "Більше дизайнів"
+          },
+          "allowance": {
+            "en": "400 credits / month",
+            "uk": "400 кредитів / місяць"
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 59
+            }
+          ],
+          "features": [
+            {
+              "en": "The same Pro tools, with a larger credit allowance.",
+              "uk": "Ті самі інструменти Pro з більшим кредитним лімітом."
+            },
+            {
+              "en": "Conversational edits, references and real-product visualization.",
+              "uk": "Діалогове редагування, референси й візуалізація реальних товарів."
+            },
+            {
+              "en": "Designed for multiple spaces or property listings.",
+              "uk": "Для кількох просторів або оголошень нерухомості."
+            }
+          ],
+          "sources": [
+            "pricing",
+            "cards"
+          ],
+          "checks": []
+        },
+        {
+          "id": "agency",
+          "name": "Agency",
+          "brillerPlan": "Studio / Architect",
+          "purpose": {
+            "en": "Agency workload",
+            "uk": "Робота агенції"
+          },
+          "allowance": {
+            "en": "900 credits / month",
+            "uk": "900 кредитів / місяць"
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 119
+            }
+          ],
+          "features": [
+            {
+              "en": "Pro tools at the highest listed credit allowance.",
+              "uk": "Інструменти Pro з найбільшим зазначеним лімітом кредитів."
+            },
+            {
+              "en": "Batch property work and real-product visualization.",
+              "uk": "Пакетна робота з нерухомістю й візуалізація реальних товарів."
+            },
+            {
+              "en": "Confirm the included user / seat arrangement.",
+              "uk": "Уточніть включену кількість користувачів / місць."
+            }
+          ],
+          "sources": [
+            "pricing",
+            "cards"
+          ],
+          "checks": []
+        }
+      ],
+      "notes": [
+        {
+          "en": "Design visualization costs 1 credit; adding real-product discovery brings it to 2. Conversation and idea exploration use 0.",
+          "uk": "Візуалізація дизайну коштує 1 кредит; із підбором реальних товарів — 2. Діалог і обговорення ідей використовують 0."
+        },
+        {
+          "en": "The active pricing cards show $19 / $36 / $59 / $119 and 30 / 200 / 400 / 900 credits.",
+          "uk": "Поточні тарифні картки показують $19 / $36 / $59 / $119 та 30 / 200 / 400 / 900 кредитів."
+        }
+      ],
+      "checks": [
+        {
+          "en": "Confirm checkout and renewal details: other pricing text on the site still gives older amounts and credit counts.",
+          "uk": "Уточніть умови оплати й поновлення: інший текст тарифів на сайті досі містить старі суми та ліміти кредитів."
+        }
+      ],
+      "sources": [
+        {
+          "id": "pricing",
+          "url": "https://www.reimaginehome.ai/pricing",
+          "title": "REimagineHome active plan-card data",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "cards",
+          "url": "https://www.reimaginehome.ai/_next/static/chunks/66050bc1c74c817a.js?dpl=dpl_SRbU247Q1JEAyc9mf6dhThc1QVq8",
+          "title": "REimagineHome pricing card renderer",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "slug": "roomgpt",
+      "checkedAt": "2026-11-02",
+      "trial": {
+        "en": "Confirm the free-credit allowance at registration.",
+        "uk": "Уточніть безкоштовний кредитний ліміт після реєстрації."
+      },
+      "context": {
+        "en": "RoomGPT sells one-time credit packs. Briller includes a monthly allowance with a subscription, so the prices below keep those purchase types separate.",
+        "uk": "RoomGPT продає разові пакети кредитів. Briller включає місячний ліміт у передплату, тому нижче ці типи покупок зазначено окремо."
+      },
+      "tiers": [
+        {
+          "id": "credits-30",
+          "name": "30 credits",
+          "brillerPlan": "Explorer",
+          "purpose": {
+            "en": "Try room ideas",
+            "uk": "Спробуйте ідеї кімнати"
+          },
+          "allowance": {
+            "en": "30 purchased credits",
+            "uk": "30 придбаних кредитів"
+          },
+          "offers": [
+            {
+              "billing": "oneOff",
+              "currency": "USD",
+              "amount": 9
+            }
+          ],
+          "features": [
+            {
+              "en": "Photo redesigns with all listed AI models available.",
+              "uk": "Редизайн фото з усіма зазначеними ШІ-моделями."
+            },
+            {
+              "en": "Commercial use of photos; email support and feature requests.",
+              "uk": "Комерційне використання фото; підтримка email і запити функцій."
+            },
+            {
+              "en": "Base quality uses 1 credit per theme; Pro uses 2 and Ultra uses 4.",
+              "uk": "Базова якість використовує 1 кредит на тему; Pro — 2, Ultra — 4."
+            }
+          ],
+          "sources": [
+            "pricing",
+            "packs",
+            "models"
+          ],
+          "checks": []
+        },
+        {
+          "id": "credits-100",
+          "name": "100 credits",
+          "brillerPlan": "Explorer",
+          "purpose": {
+            "en": "More variations",
+            "uk": "Більше варіантів"
+          },
+          "allowance": {
+            "en": "100 purchased credits",
+            "uk": "100 придбаних кредитів"
+          },
+          "offers": [
+            {
+              "billing": "oneOff",
+              "currency": "USD",
+              "amount": 19
+            }
+          ],
+          "features": [
+            {
+              "en": "Photo redesigns with all listed AI models available.",
+              "uk": "Редизайн фото з усіма зазначеними ШІ-моделями."
+            },
+            {
+              "en": "Commercial use of photos; email support and feature requests.",
+              "uk": "Комерційне використання фото; підтримка email і запити функцій."
+            },
+            {
+              "en": "Base quality uses 1 credit per theme; Pro uses 2 and Ultra uses 4.",
+              "uk": "Базова якість використовує 1 кредит на тему; Pro — 2, Ultra — 4."
+            }
+          ],
+          "sources": [
+            "pricing",
+            "packs",
+            "models"
+          ],
+          "checks": []
+        },
+        {
+          "id": "credits-200",
+          "name": "200 credits",
+          "brillerPlan": "Pro Design",
+          "purpose": {
+            "en": "Larger credit pack",
+            "uk": "Більший пакет кредитів"
+          },
+          "allowance": {
+            "en": "200 purchased credits",
+            "uk": "200 придбаних кредитів"
+          },
+          "offers": [
+            {
+              "billing": "oneOff",
+              "currency": "USD",
+              "amount": 29
+            }
+          ],
+          "features": [
+            {
+              "en": "Photo redesigns with all listed AI models available.",
+              "uk": "Редизайн фото з усіма зазначеними ШІ-моделями."
+            },
+            {
+              "en": "Commercial use of photos; email support and feature requests.",
+              "uk": "Комерційне використання фото; підтримка email і запити функцій."
+            },
+            {
+              "en": "Base quality uses 1 credit per theme; Pro uses 2 and Ultra uses 4.",
+              "uk": "Базова якість використовує 1 кредит на тему; Pro — 2, Ultra — 4."
+            }
+          ],
+          "sources": [
+            "pricing",
+            "packs",
+            "models"
+          ],
+          "checks": []
+        }
+      ],
+      "notes": [
+        {
+          "en": "These are the listed pack prices before temporary coupon offers. Packs are one-time payments, not monthly subscriptions.",
+          "uk": "Це зазначені ціни пакетів до тимчасових промокодів. Пакети оплачуються разово, а не щомісяця."
+        },
+        {
+          "en": "The pack page advertises a matching redesign count; actual credit use depends on model quality and the number of selected themes.",
+          "uk": "Сторінка пакетів рекламує відповідну кількість редизайнів; фактична витрата кредитів залежить від якості моделі й кількості вибраних тем."
+        }
+      ],
+      "checks": [
+        {
+          "en": "Confirm credit expiry, export resolution and project-history tools. Dashboard saving is still labeled “Coming Soon” on the pack page.",
+          "uk": "Уточніть строк дії кредитів, роздільність експорту й історію проєктів. Збереження в dashboard на сторінці пакетів досі позначене «Coming Soon»."
+        }
+      ],
+      "sources": [
+        {
+          "id": "pricing",
+          "url": "https://www.roomgpt.io/buy-credits",
+          "title": "RoomGPT Buy Credits",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "packs",
+          "url": "https://www.roomgpt.io/_next/static/chunks/pages/buy-credits-a810693edef1138b.js",
+          "title": "RoomGPT credit-pack prices and inclusions",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "models",
+          "url": "https://www.roomgpt.io/_next/static/chunks/pages/dream-65d8fc4725cae491.js",
+          "title": "RoomGPT model credit costs",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "slug": "homedesigns-ai",
+      "checkedAt": "2026-11-02",
+      "trial": {
+        "en": "Confirm the current trial allowance.",
+        "uk": "Уточніть поточний пробний ліміт."
+      },
+      "context": {
+        "en": "Standard is the core redesign plan. Pro adds shopping and commercial rights; Expert adds budget estimation, video, plan conversion and team seats.",
+        "uk": "Standard — основний тариф редизайну. Pro додає підбір товарів і комерційні права; Expert — оцінку бюджету, відео, перетворення планів і командні місця."
+      },
+      "tiers": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "brillerPlan": "Explorer",
+          "purpose": {
+            "en": "Personal redesign",
+            "uk": "Особистий редизайн"
+          },
+          "allowance": {
+            "en": "100 design credits / month",
+            "uk": "100 дизайн-кредитів / місяць"
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 22
+            },
+            {
+              "billing": "annualEquivalent",
+              "currency": "USD",
+              "amount": 9,
+              "qualifier": {
+                "en": "First year; renewal price to confirm.",
+                "uk": "Перший рік; ціну поновлення уточніть."
+              }
+            }
+          ],
+          "features": [
+            {
+              "en": "Interiors, exteriors and gardens; colour / material changes and object detection.",
+              "uk": "Інтер’єри, екстер’єри й сади; зміна кольорів / матеріалів і розпізнавання предметів."
+            },
+            {
+              "en": "Reference transfer, furniture shopping and commercial licence are excluded.",
+              "uk": "Перенесення референсів, підбір меблів і комерційна ліцензія не включені."
+            },
+            {
+              "en": "Video, plan conversion, estimator and team seats are excluded.",
+              "uk": "Відео, перетворення планів, оцінка бюджету й командні місця не включені."
+            }
+          ],
+          "sources": [
+            "pricing"
+          ],
+          "checks": []
+        },
+        {
+          "id": "pro",
+          "name": "Pro",
+          "brillerPlan": "Pro Design",
+          "purpose": {
+            "en": "Commercial image work",
+            "uk": "Комерційні зображення"
+          },
+          "allowance": {
+            "en": "1,000 design credits / month",
+            "uk": "1 000 дизайн-кредитів / місяць"
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 29
+            },
+            {
+              "billing": "annualEquivalent",
+              "currency": "USD",
+              "amount": 11,
+              "qualifier": {
+                "en": "First year; renewal price to confirm.",
+                "uk": "Перший рік; ціну поновлення уточніть."
+              }
+            }
+          ],
+          "features": [
+            {
+              "en": "Standard tools plus empty-room staging and inspiration-photo transfer.",
+              "uk": "Інструменти Standard, стейджинг порожніх кімнат і перенесення фото-референсу."
+            },
+            {
+              "en": "Find and shop real furniture; commercial licence and no watermark.",
+              "uk": "Пошук реальних меблів для покупки; комерційна ліцензія й результати без водяного знака."
+            },
+            {
+              "en": "Video, floor-plan conversion, budget estimator and team seats require Expert.",
+              "uk": "Для відео, перетворення планів, оцінки бюджету й командних місць потрібен Expert."
+            }
+          ],
+          "sources": [
+            "pricing"
+          ],
+          "checks": []
+        },
+        {
+          "id": "expert",
+          "name": "Expert",
+          "brillerPlan": "Studio / Architect",
+          "purpose": {
+            "en": "Advanced tools and team",
+            "uk": "Розширені інструменти й команда"
+          },
+          "allowance": {
+            "en": "2,000 design credits / month",
+            "uk": "2 000 дизайн-кредитів / місяць"
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 37
+            },
+            {
+              "billing": "annualEquivalent",
+              "currency": "USD",
+              "amount": 14,
+              "qualifier": {
+                "en": "First year; renewal price to confirm.",
+                "uk": "Перший рік; ціну поновлення уточніть."
+              }
+            }
+          ],
+          "features": [
+            {
+              "en": "Pro tools plus photo-to-video and 2D-to-3D floor-plan conversion.",
+              "uk": "Інструменти Pro, photo-to-video та перетворення 2D-планів у 3D."
+            },
+            {
+              "en": "Budget estimator and up to 5 team seats.",
+              "uk": "Оцінка бюджету й до 5 командних місць."
+            },
+            {
+              "en": "Commercial licence, shopping and watermark-free results.",
+              "uk": "Комерційна ліцензія, підбір товарів і результати без водяного знака."
+            }
+          ],
+          "sources": [
+            "pricing"
+          ],
+          "checks": []
+        }
+      ],
+      "notes": [
+        {
+          "en": "Annual equivalents are first-year offers; the standard renewal charge needs confirmation.",
+          "uk": "Річні еквіваленти є пропозиціями першого року; стандартну суму поновлення потрібно уточнити."
+        },
+        {
+          "en": "A photo redesign uses 1 credit. Video and other richer tools can use more.",
+          "uk": "Редизайн фото використовує 1 кредит. Відео та інші складніші інструменти можуть витрачати більше."
+        }
+      ],
+      "checks": [
+        {
+          "en": "Confirm any unlimited-generation add-on’s eligibility, scope and limits before including it in a budget.",
+          "uk": "Уточніть доступність, охоплення й обмеження доповнення з необмеженою генерацією перед плануванням бюджету."
+        }
+      ],
+      "sources": [
+        {
+          "id": "pricing",
+          "url": "https://homedesigns.ai/#pwh-plans",
+          "title": "HomeDesignsAI current plan cards and renewal FAQ",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "slug": "remodel-ai",
+      "checkedAt": "2026-11-02",
+      "trial": {
+        "en": "Limited free renders; the in-app offer sets the allowance.",
+        "uk": "Обмежені безкоштовні рендери; ліміт визначає пропозиція в застосунку."
+      },
+      "context": {
+        "en": "Remodel AI has free renders and Pro subscriptions through the app stores. The US Apple listing contains several prices for each subscription period.",
+        "uk": "Remodel AI має безкоштовні рендери й передплати Pro через магазини застосунків. Американська сторінка Apple містить кілька цін для кожного строку передплати."
+      },
+      "tiers": [
+        {
+          "id": "free",
+          "name": "Free renders",
+          "brillerPlan": "Free",
+          "purpose": {
+            "en": "Try a renovation preview",
+            "uk": "Спробуйте вигляд ремонту"
+          },
+          "allowance": {
+            "en": "Limited free renders; exact count to confirm.",
+            "uk": "Обмежені безкоштовні рендери; точну кількість уточніть."
+          },
+          "offers": [
+            {
+              "billing": "free",
+              "currency": "USD",
+              "amount": 0
+            }
+          ],
+          "features": [
+            {
+              "en": "iOS / Android photo-based renovation previews.",
+              "uk": "Попередній перегляд ремонту за фото на iOS / Android."
+            },
+            {
+              "en": "Subscription needed after the free allowance.",
+              "uk": "Після безкоштовного ліміту потрібна передплата."
+            }
+          ],
+          "sources": [
+            "faq"
+          ],
+          "checks": []
+        },
+        {
+          "id": "pro",
+          "name": "Pro",
+          "brillerPlan": "Pro Design",
+          "purpose": {
+            "en": "Paid renovation work",
+            "uk": "Платна робота з ремонтом"
+          },
+          "allowance": {
+            "en": "Paid render allowance: confirm in the app.",
+            "uk": "Платний ліміт рендерів: уточніть у застосунку."
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 6.99,
+              "maximum": 9.99,
+              "qualifier": {
+                "en": "Listed US monthly options; $7.99 is also listed.",
+                "uk": "Місячні варіанти США; також зазначено $7.99."
+              }
+            },
+            {
+              "billing": "yearly",
+              "currency": "USD",
+              "amount": 39.99,
+              "maximum": 89.99,
+              "qualifier": {
+                "en": "Listed US annual options include $49.99.",
+                "uk": "Річні варіанти США включають $49.99."
+              }
+            },
+            {
+              "billing": "weekly",
+              "currency": "USD",
+              "amount": 4.99,
+              "maximum": 9.99,
+              "qualifier": {
+                "en": "Weekly purchase options, separate from monthly billing.",
+                "uk": "Тижневі варіанти покупок, окремо від місячної оплати."
+              }
+            }
+          ],
+          "features": [
+            {
+              "en": "Interior / exterior photo previews and surface changes.",
+              "uk": "Попередній перегляд інтер’єрів / екстер’єрів за фото й зміна поверхонь."
+            },
+            {
+              "en": "Reskin, Replace, Remove and furniture matching.",
+              "uk": "Reskin, Replace, Remove та підбір схожих меблів."
+            },
+            {
+              "en": "Confirm paid render limits, export resolution and commercial rights in the app.",
+              "uk": "Уточніть у застосунку платні ліміти рендерів, роздільність експорту й комерційні права."
+            }
+          ],
+          "sources": [
+            "store",
+            "faq",
+            "features"
+          ],
+          "checks": []
+        }
+      ],
+      "notes": [
+        {
+          "en": "US App Store purchase options are regional catalogue entries. Confirm the actual offer and renewal period for your account; Android and other regions can differ.",
+          "uk": "Покупки US App Store — регіональні пропозиції каталогу. Уточніть ціну й поновлення свого акаунта; Android та інші регіони можуть відрізнятися."
+        }
+      ],
+      "checks": [
+        {
+          "en": "Confirm the paid allowance, free trial terms, export sizes and commercial-use licence.",
+          "uk": "Уточніть платний ліміт, пробні умови, розміри експорту й комерційну ліцензію."
+        }
+      ],
+      "sources": [
+        {
+          "id": "store",
+          "url": "https://apps.apple.com/us/app/remodel-ai-home-design/id6446040791",
+          "title": "Remodel AI US App Store in-app purchases",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "faq",
+          "url": "https://remodelai.app/faqs/",
+          "title": "Remodel AI free-render policy",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "features",
+          "url": "https://remodelai.app/",
+          "title": "Remodel AI app features",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "slug": "planner-5d",
+      "checkedAt": "2026-11-02",
+      "trial": {
+        "en": "Free has no time limit. Paid trial terms depend on the selected offer.",
+        "uk": "Free не має обмеження строку. Пробні умови платних тарифів залежать від пропозиції."
+      },
+      "context": {
+        "en": "Planner 5D includes editable 2D / 3D planning. Briller’s column covers photo-led concepts and practical specifications; it does not include a measured CAD editor.",
+        "uk": "Planner 5D включає редаговане 2D / 3D-планування. Колонка Briller охоплює концепції за фото й практичні специфікації; обмірний CAD-редактор не включено."
+      },
+      "tiers": [
+        {
+          "id": "free",
+          "name": "Free",
+          "brillerPlan": "Free",
+          "purpose": {
+            "en": "Explore a room",
+            "uk": "Дослідіть кімнату"
+          },
+          "allowance": {
+            "en": "Unlimited projects; access to 50% of the furniture catalogue.",
+            "uk": "Необмежені проєкти; доступ до 50% каталогу меблів."
+          },
+          "offers": [
+            {
+              "billing": "free",
+              "currency": "USD",
+              "amount": 0
+            }
+          ],
+          "features": [
+            {
+              "en": "Editable 2D / 3D layouts across web and mobile.",
+              "uk": "Редаговані 2D / 3D-планування у вебі й на мобільних."
+            },
+            {
+              "en": "Project sharing, view / edit permissions and real-time collaboration.",
+              "uk": "Поширення проєктів, права перегляду / змін і співпраця в реальному часі."
+            }
+          ],
+          "sources": [
+            "pricing"
+          ],
+          "checks": []
+        },
+        {
+          "id": "premium",
+          "name": "Premium",
+          "brillerPlan": "Explorer",
+          "purpose": {
+            "en": "Home design project",
+            "uk": "Дизайн житла"
+          },
+          "allowance": {
+            "en": "Unlimited projects; 100 AI Studio credits / month, or 1,200 with annual billing.",
+            "uk": "Необмежені проєкти; 100 кредитів AI Studio / місяць або 1 200 за річної оплати."
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 19.99
+            },
+            {
+              "billing": "yearly",
+              "currency": "USD",
+              "amount": 59.99
+            }
+          ],
+          "features": [
+            {
+              "en": "Full furniture catalogue, plan recognition and editable 3D projects.",
+              "uk": "Повний каталог меблів, розпізнавання планів і редаговані 3D-проєкти."
+            },
+            {
+              "en": "Standard renders and Budget Widget.",
+              "uk": "Стандартні рендери й Budget Widget."
+            },
+            {
+              "en": "AI Studio moodboards, references and local edits; sharing and collaboration.",
+              "uk": "Мудборди, референси й локальні зміни AI Studio; поширення й співпраця."
+            }
+          ],
+          "sources": [
+            "pricing"
+          ],
+          "checks": []
+        },
+        {
+          "id": "professional",
+          "name": "Professional",
+          "brillerPlan": "Pro Design",
+          "purpose": {
+            "en": "Professional handover",
+            "uk": "Професійна передача"
+          },
+          "allowance": {
+            "en": "Unlimited projects; 1,000 AI Studio credits / month, or 12,000 with annual billing.",
+            "uk": "Необмежені проєкти; 1 000 кредитів AI Studio / місяць або 12 000 за річної оплати."
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 49.99
+            },
+            {
+              "billing": "yearly",
+              "currency": "USD",
+              "amount": 399.99
+            }
+          ],
+          "features": [
+            {
+              "en": "Premium tools plus unlimited watermark-free photorealistic 4K renders.",
+              "uk": "Інструменти Premium та необмежені фотореалістичні 4K-рендери без водяного знака."
+            },
+            {
+              "en": "CAD export, Price Estimator and Specs & Docs Organizer.",
+              "uk": "CAD-експорт, Price Estimator та Specs & Docs Organizer."
+            },
+            {
+              "en": "Custom model uploads, panoramas and walkthroughs.",
+              "uk": "Завантаження власних моделей, панорами й прогулянки."
+            }
+          ],
+          "sources": [
+            "pricing"
+          ],
+          "checks": []
+        },
+        {
+          "id": "enterprise",
+          "name": "Enterprise",
+          "brillerPlan": "Studio / Architect",
+          "purpose": {
+            "en": "Business requirements",
+            "uk": "Потреби бізнесу"
+          },
+          "allowance": {
+            "en": "Custom scope and volume.",
+            "uk": "Індивідуальне охоплення й обсяг."
+          },
+          "offers": [
+            {
+              "billing": "quote",
+              "currency": "USD"
+            }
+          ],
+          "features": [
+            {
+              "en": "White-label planner, own product catalogue and 3D configurator.",
+              "uk": "Планувальник white-label, власний каталог товарів і 3D-конфігуратор."
+            },
+            {
+              "en": "API, cart / CRM / ERP connections and analytics.",
+              "uk": "API, підключення кошика / CRM / ERP та аналітика."
+            },
+            {
+              "en": "Custom enterprise package; compare requirements with Briller’s fixed 3-seat Studio plan.",
+              "uk": "Індивідуальний enterprise-пакет; зіставте вимоги з фіксованим Studio Briller на 3 місця."
+            }
+          ],
+          "sources": [
+            "pricing"
+          ],
+          "checks": []
+        }
+      ],
+      "notes": [
+        {
+          "en": "US prices are shown. AI Studio generation cost varies by model and output; plan recognition has a separate allowance.",
+          "uk": "Показано ціни США. Витрата AI Studio залежить від моделі й результату; розпізнавання планів має окремий ліміт."
+        }
+      ],
+      "checks": [
+        {
+          "en": "Confirm trial / renewal terms and the licences for models and client deliverables.",
+          "uk": "Уточніть пробні умови / поновлення та ліцензії моделей і результатів для клієнта."
+        }
+      ],
+      "sources": [
+        {
+          "id": "pricing",
+          "url": "https://planner5d.com/pricing",
+          "title": "Planner 5D plan cards and US pricing FAQ",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "slug": "homestyler",
+      "checkedAt": "2026-11-02",
+      "trial": {
+        "en": "Basic is free and includes unlimited 1K rendering.",
+        "uk": "Basic безкоштовний і включає необмежений 1K-рендеринг."
+      },
+      "context": {
+        "en": "Homestyler’s paid tiers expand 3D editing and render allowances. Its advertised starting rates need a billing-term check; Team is priced per seat.",
+        "uk": "Платні тарифи Homestyler розширюють 3D-редагування й ліміти рендерів. Для рекламованих початкових ставок потрібно уточнити строк оплати; Team оплачується за місце."
+      },
+      "tiers": [
+        {
+          "id": "basic",
+          "name": "Basic",
+          "brillerPlan": "Free",
+          "purpose": {
+            "en": "Get started",
+            "uk": "Початок роботи"
+          },
+          "allowance": {
+            "en": "Unlimited projects and 1K renders; advanced renders have separate conditions.",
+            "uk": "Необмежені проєкти й 1K-рендери; розширений рендеринг має окремі умови."
+          },
+          "offers": [
+            {
+              "billing": "free",
+              "currency": "USD",
+              "amount": 0
+            }
+          ],
+          "features": [
+            {
+              "en": "Cloud 3D floor planner and free model / material library.",
+              "uk": "Хмарний 3D-планувальник і безкоштовна бібліотека моделей / матеріалів."
+            },
+            {
+              "en": "4K renders are purchased separately.",
+              "uk": "4K-рендери купуються окремо."
+            }
+          ],
+          "sources": [
+            "pricing"
+          ],
+          "checks": []
+        },
+        {
+          "id": "pro-plus",
+          "name": "Pro+",
+          "brillerPlan": "Pro Design",
+          "purpose": {
+            "en": "Detailed solo project",
+            "uk": "Докладний особистий проєкт"
+          },
+          "allowance": {
+            "en": "75 renders each for 2K and 4K; 180 AI credits / month.",
+            "uk": "По 75 рендерів 2K і 4K; 180 ШІ-кредитів / місяць."
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 6.8,
+              "starting": true
+            }
+          ],
+          "features": [
+            {
+              "en": "Watermark removal; up to 300 model and 300 texture uploads.",
+              "uk": "Прибирання водяного знака; до 300 завантажень моделей і 300 текстур."
+            },
+            {
+              "en": "LightMix, multi-floor / parametric tools, custom furniture and material editing.",
+              "uk": "LightMix, багатоповерхові / параметричні інструменти, власні меблі й матеріали."
+            },
+            {
+              "en": "Coloured plans, BOM and construction drawing exports.",
+              "uk": "Експорт кольорових планів, відомостей і будівельних креслень."
+            }
+          ],
+          "sources": [
+            "pricing"
+          ],
+          "checks": []
+        },
+        {
+          "id": "master-plus",
+          "name": "Master+",
+          "brillerPlan": "Pro Design",
+          "purpose": {
+            "en": "Frequent rendering",
+            "uk": "Частий рендеринг"
+          },
+          "allowance": {
+            "en": "Unlimited 4K image rendering; 380 AI credits / month.",
+            "uk": "Необмежений рендеринг 4K-зображень; 380 ШІ-кредитів / місяць."
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 11.8,
+              "starting": true
+            }
+          ],
+          "features": [
+            {
+              "en": "All Pro+ tools; up to 500 model and 500 texture uploads.",
+              "uk": "Усі інструменти Pro+; до 500 моделей і 500 текстур."
+            },
+            {
+              "en": "Larger video and high-resolution panorama allowances.",
+              "uk": "Більші ліміти відео й панорам високої роздільності."
+            },
+            {
+              "en": "Designer-services listing and design-service sales.",
+              "uk": "Каталог послуг дизайнерів і продаж дизайн-послуг."
+            }
+          ],
+          "sources": [
+            "pricing"
+          ],
+          "checks": []
+        },
+        {
+          "id": "team",
+          "name": "Team",
+          "brillerPlan": "Studio / Architect",
+          "purpose": {
+            "en": "Studio workspace",
+            "uk": "Простір студії"
+          },
+          "allowance": {
+            "en": "500 AI credit coupons per account / month; per-seat pricing.",
+            "uk": "500 ШІ-кредитних купонів на акаунт / місяць; ціна за місце."
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 19.9,
+              "starting": true,
+              "perSeat": true
+            }
+          ],
+          "features": [
+            {
+              "en": "Master+ tools, shared design space and shared model / texture libraries.",
+              "uk": "Інструменти Master+, спільний дизайн-простір і бібліотеки моделей / текстур."
+            },
+            {
+              "en": "Sub-account management and branded renders.",
+              "uk": "Керування субакаунтами й брендовані рендери."
+            },
+            {
+              "en": "Unlimited own model / texture uploads.",
+              "uk": "Необмежені завантаження власних моделей / текстур."
+            }
+          ],
+          "sources": [
+            "pricing"
+          ],
+          "checks": []
+        },
+        {
+          "id": "enterprise",
+          "name": "Enterprise",
+          "brillerPlan": "Studio / Architect",
+          "purpose": {
+            "en": "Custom business needs",
+            "uk": "Індивідуальні потреби бізнесу"
+          },
+          "allowance": {
+            "en": "Custom package and seat quote.",
+            "uk": "Індивідуальний пакет і вартість місць."
+          },
+          "offers": [
+            {
+              "billing": "quote",
+              "currency": "USD"
+            }
+          ],
+          "features": [
+            {
+              "en": "Team features plus SSO, white-label environment and custom API integration.",
+              "uk": "Функції Team, SSO, середовище white-label і власна API-інтеграція."
+            },
+            {
+              "en": "3D model creation and virtual photo studio.",
+              "uk": "Створення 3D-моделей і віртуальна фотостудія."
+            },
+            {
+              "en": "Compare the custom requirements with Briller’s fixed 3-seat Studio offering.",
+              "uk": "Зіставте індивідуальні вимоги з фіксованим Studio Briller на 3 місця."
+            }
+          ],
+          "sources": [
+            "pricing"
+          ],
+          "checks": []
+        }
+      ],
+      "notes": [
+        {
+          "en": "The $6.80 / $11.80 / $19.90 figures are advertised starting rates, not confirmed month-to-month checkout prices.",
+          "uk": "Суми $6.80 / $11.80 / $19.90 — рекламовані початкові ставки, а не підтверджені ціни помісячної оплати."
+        },
+        {
+          "en": "Ordinary renders and AI credits are separate. AI Render costs 25 credits for 2K and 35 for 4K.",
+          "uk": "Звичайні рендери й ШІ-кредити — окремі ліміти. AI Render коштує 25 кредитів для 2K та 35 для 4K."
+        }
+      ],
+      "checks": [
+        {
+          "en": "Confirm term, renewal total, minimum Team seats and model / output rights.",
+          "uk": "Уточніть строк, суму поновлення, мінімум місць Team і права моделей / результатів."
+        }
+      ],
+      "sources": [
+        {
+          "id": "pricing",
+          "url": "https://www.homestyler.com/pricing",
+          "title": "Homestyler public plan cards, price configuration and FAQ",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "slug": "foyr-neo",
+      "checkedAt": "2026-11-02",
+      "trial": {
+        "en": "14-day trial; no credit card required.",
+        "uk": "14-денний пробний період; картка не потрібна."
+      },
+      "context": {
+        "en": "Foyr Neo combines editable 3D design with presentation exports. Its annual plans can have different render allowances from the monthly plans.",
+        "uk": "Foyr Neo поєднує редагований 3D-дизайн з експортом презентацій. Річні тарифи можуть мати інші ліміти рендерів, ніж помісячні."
+      },
+      "tiers": [
+        {
+          "id": "basic",
+          "name": "Basic",
+          "brillerPlan": "Pro Design",
+          "purpose": {
+            "en": "Solo presentation work",
+            "uk": "Особисті презентації"
+          },
+          "allowance": {
+            "en": "USD monthly: 30 render credits / month. USD annual: 30 / month.",
+            "uk": "Місячний USD: 30 рендер-кредитів / місяць. Річний USD: 30 / місяць."
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 39
+            },
+            {
+              "billing": "annualEquivalent",
+              "currency": "USD",
+              "amount": 33
+            }
+          ],
+          "features": [
+            {
+              "en": "Editable dimensioned 3D scenes, full model catalogue and unlimited projects.",
+              "uk": "Редаговані розмірні 3D-сцени, повний каталог моделей і необмежені проєкти."
+            },
+            {
+              "en": "HD, 2K and 4K renders.",
+              "uk": "HD, 2K та 4K-рендери."
+            },
+            {
+              "en": "Basic design / modeling tools and chat / email support.",
+              "uk": "Базові інструменти дизайну / моделювання й підтримка чатом / email."
+            }
+          ],
+          "sources": [
+            "pricing",
+            "config"
+          ],
+          "checks": []
+        },
+        {
+          "id": "standard",
+          "name": "Standard",
+          "brillerPlan": "Studio / Architect",
+          "purpose": {
+            "en": "Two-user design work",
+            "uk": "Дизайн для двох користувачів"
+          },
+          "allowance": {
+            "en": "USD monthly: 90 render credits / month. USD annual: 180 / month.",
+            "uk": "Місячний USD: 90 рендер-кредитів / місяць. Річний USD: 180 / місяць."
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 89
+            },
+            {
+              "billing": "annualEquivalent",
+              "currency": "USD",
+              "amount": 67
+            }
+          ],
+          "features": [
+            {
+              "en": "Basic features plus 2 users and the full 3D editing / modeling toolset.",
+              "uk": "Функції Basic, 2 користувачі й повний набір 3D-редагування / моделювання."
+            },
+            {
+              "en": "Floor-plan JPG / PDF export, walkthroughs and FoyrAR.",
+              "uk": "Експорт планів JPG / PDF, прогулянки й FoyrAR."
+            },
+            {
+              "en": "1 hour of onboarding and training.",
+              "uk": "1 година введення в роботу й навчання."
+            }
+          ],
+          "sources": [
+            "pricing",
+            "config"
+          ],
+          "checks": []
+        },
+        {
+          "id": "premium",
+          "name": "Premium",
+          "brillerPlan": "Studio / Architect",
+          "purpose": {
+            "en": "Studio deliverables",
+            "uk": "Результати студії"
+          },
+          "allowance": {
+            "en": "USD monthly: 210 render credits / month. USD annual: unlimited render credits advertised.",
+            "uk": "Місячний USD: 210 рендер-кредитів / місяць. Для річного USD заявлено необмежені рендер-кредити."
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 159
+            },
+            {
+              "billing": "annualEquivalent",
+              "currency": "USD",
+              "amount": 103
+            }
+          ],
+          "features": [
+            {
+              "en": "Standard features, including 2 users; scaled elevation PDF export.",
+              "uk": "Функції Standard, включно з 2 користувачами; PDF фасадів стін у масштабі."
+            },
+            {
+              "en": "1 custom 3D model per month and dedicated success manager.",
+              "uk": "1 власна 3D-модель на місяць і виділений менеджер."
+            },
+            {
+              "en": "3 hours of onboarding and training.",
+              "uk": "3 години введення в роботу й навчання."
+            }
+          ],
+          "sources": [
+            "pricing",
+            "config"
+          ],
+          "checks": []
+        }
+      ],
+      "notes": [
+        {
+          "en": "These are the USD options. Render allowances change with billing period and region; annual prices are advertised monthly equivalents.",
+          "uk": "Це пропозиції USD. Ліміти рендерів змінюються зі строком оплати й регіоном; річні ціни наведено як рекламовані місячні еквіваленти."
+        },
+        {
+          "en": "Estimates and invoicing through Foyr Manage are a separate product to check.",
+          "uk": "Кошториси й рахунки через Foyr Manage — окремий продукт, умови якого слід уточнити."
+        }
+      ],
+      "checks": [
+        {
+          "en": "Confirm the full annual charge, regional render allowance and any conditions on unlimited rendering.",
+          "uk": "Уточніть повну річну суму, регіональний ліміт і умови необмеженого рендерингу."
+        }
+      ],
+      "sources": [
+        {
+          "id": "pricing",
+          "url": "https://foyr.com/pricing/",
+          "title": "Foyr Neo plans and trial FAQ",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "config",
+          "url": "https://foyr.com/wp-content/cache/min/1/wp-content/themes/foyr/v3/modules/pricing/assets/pricing.js?ver=1793343704",
+          "title": "Foyr live billing-period and regional price / allowance selector",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "slug": "spacely-ai",
+      "checkedAt": "2026-11-02",
+      "trial": {
+        "en": "Free includes 40 trial credits; no card required.",
+        "uk": "Free включає 40 пробних кредитів; картка не потрібна."
+      },
+      "context": {
+        "en": "Personal covers basic tools. Studio and Agency add Pro rendering / 4K and collaboration; team-seat counts differ from Briller Studio.",
+        "uk": "Personal охоплює базові інструменти. Studio та Agency додають Pro-рендеринг / 4K і співпрацю; кількість командних місць відрізняється від Studio Briller."
+      },
+      "tiers": [
+        {
+          "id": "free",
+          "name": "Free",
+          "brillerPlan": "Free",
+          "purpose": {
+            "en": "Try the tools",
+            "uk": "Спробуйте інструменти"
+          },
+          "allowance": {
+            "en": "40 trial credits, not a monthly 40-credit allowance.",
+            "uk": "40 пробних кредитів, а не місячний ліміт у 40 кредитів."
+          },
+          "offers": [
+            {
+              "billing": "free",
+              "currency": "USD",
+              "amount": 0
+            }
+          ],
+          "features": [
+            {
+              "en": "Trial access to features and high-resolution downloads.",
+              "uk": "Пробний доступ до функцій і завантажень високої роздільності."
+            },
+            {
+              "en": "Commercial licence, private mode and watermark-free output listed.",
+              "uk": "Зазначено комерційну ліцензію, приватний режим і результати без водяного знака."
+            }
+          ],
+          "sources": [
+            "pricing"
+          ],
+          "checks": []
+        },
+        {
+          "id": "personal",
+          "name": "Personal",
+          "brillerPlan": "Explorer",
+          "purpose": {
+            "en": "Solo visual exploration",
+            "uk": "Особисте дослідження вигляду"
+          },
+          "allowance": {
+            "en": "Global: 500 credits / month, or 6,000 annually; 1 seat.",
+            "uk": "Глобально: 500 кредитів / місяць або 6 000 на рік; 1 місце."
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 25
+            },
+            {
+              "billing": "yearly",
+              "currency": "USD",
+              "amount": 240
+            }
+          ],
+          "features": [
+            {
+              "en": "Basic features, high-resolution downloads and credit stacking.",
+              "uk": "Базові функції, завантаження високої роздільності й накопичення кредитів."
+            },
+            {
+              "en": "Commercial licence, private mode and no watermark.",
+              "uk": "Комерційна ліцензія, приватний режим і результати без водяного знака."
+            },
+            {
+              "en": "Pro tools, 4K and listed CAD integrations are excluded from Personal.",
+              "uk": "Pro-інструменти, 4K і зазначені CAD-інтеграції не включено до Personal."
+            }
+          ],
+          "sources": [
+            "pricing",
+            "config"
+          ],
+          "checks": []
+        },
+        {
+          "id": "studio",
+          "name": "Studio Pro",
+          "brillerPlan": "Studio / Architect",
+          "purpose": {
+            "en": "Team rendering",
+            "uk": "Командний рендеринг"
+          },
+          "allowance": {
+            "en": "Global: 1,500 credits / month, or 18,000 annually; up to 2 seats.",
+            "uk": "Глобально: 1 500 кредитів / місяць або 18 000 на рік; до 2 місць."
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 50
+            },
+            {
+              "billing": "yearly",
+              "currency": "USD",
+              "amount": 480
+            }
+          ],
+          "features": [
+            {
+              "en": "Realistic Render, Auto Furnish, Point and Edit Pro and material settings.",
+              "uk": "Realistic Render, Auto Furnish, Point and Edit Pro та налаштування матеріалів."
+            },
+            {
+              "en": "4K downloads; SketchUp / Revit / AutoCAD / Rhino integrations.",
+              "uk": "4K-завантаження; інтеграції SketchUp / Revit / AutoCAD / Rhino."
+            },
+            {
+              "en": "Commercial licence, private mode and no watermark.",
+              "uk": "Комерційна ліцензія, приватний режим і результати без водяного знака."
+            },
+            {
+              "en": "Team collaboration and shared canvas / projects.",
+              "uk": "Командна співпраця й спільне полотно / проєкти."
+            }
+          ],
+          "sources": [
+            "pricing",
+            "config"
+          ],
+          "checks": []
+        },
+        {
+          "id": "agency",
+          "name": "Agency Pro+",
+          "brillerPlan": "Studio / Architect",
+          "purpose": {
+            "en": "Larger team and API",
+            "uk": "Більша команда й API"
+          },
+          "allowance": {
+            "en": "Global: 3,500 credits / month, or 42,000 annually; up to 5 seats.",
+            "uk": "Глобально: 3 500 кредитів / місяць або 42 000 на рік; до 5 місць."
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 100
+            },
+            {
+              "billing": "yearly",
+              "currency": "USD",
+              "amount": 960
+            }
+          ],
+          "features": [
+            {
+              "en": "Realistic Render, Auto Furnish, Point and Edit Pro and material settings.",
+              "uk": "Realistic Render, Auto Furnish, Point and Edit Pro та налаштування матеріалів."
+            },
+            {
+              "en": "4K downloads; SketchUp / Revit / AutoCAD / Rhino integrations.",
+              "uk": "4K-завантаження; інтеграції SketchUp / Revit / AutoCAD / Rhino."
+            },
+            {
+              "en": "Commercial licence, private mode and no watermark.",
+              "uk": "Комерційна ліцензія, приватний режим і результати без водяного знака."
+            },
+            {
+              "en": "Team collaboration and private API integration.",
+              "uk": "Командна співпраця й приватна API-інтеграція."
+            }
+          ],
+          "sources": [
+            "pricing",
+            "config"
+          ],
+          "checks": []
+        },
+        {
+          "id": "education",
+          "name": "Education",
+          "brillerPlan": "Pro Design",
+          "purpose": {
+            "en": "Academic use",
+            "uk": "Академічне використання"
+          },
+          "allowance": {
+            "en": "1,500 fresh credits / month; eligible academic email required.",
+            "uk": "1 500 нових кредитів / місяць; потрібен відповідний академічний email."
+          },
+          "offers": [
+            {
+              "billing": "monthly",
+              "currency": "USD",
+              "amount": 30,
+              "qualifier": {
+                "en": "Education offer; individual, non-transferable.",
+                "uk": "Освітня пропозиція; індивідуальна, без передачі іншим."
+              }
+            }
+          ],
+          "features": [
+            {
+              "en": "Realistic Render, Auto Furnish, Point and Edit Pro and material settings.",
+              "uk": "Realistic Render, Auto Furnish, Point and Edit Pro та налаштування матеріалів."
+            },
+            {
+              "en": "4K downloads; SketchUp / Revit / AutoCAD / Rhino integrations.",
+              "uk": "4K-завантаження; інтеграції SketchUp / Revit / AutoCAD / Rhino."
+            },
+            {
+              "en": "Commercial licence, private mode and no watermark.",
+              "uk": "Комерційна ліцензія, приватний режим і результати без водяного знака."
+            },
+            {
+              "en": "Studio features; confirm seat and billing eligibility.",
+              "uk": "Функції Studio; уточніть умови місць і оплати."
+            }
+          ],
+          "sources": [
+            "pricing",
+            "config"
+          ],
+          "checks": []
+        }
+      ],
+      "notes": [
+        {
+          "en": "Global prices are shown; India has separate prices and credit allowances.",
+          "uk": "Показано глобальні ціни; для Індії є окремі ціни й кредитні ліміти."
+        },
+        {
+          "en": "Subscriber-only top-ups: 200 credits $9, 1,000 $35, 5,000 $150. These are additional one-time purchases.",
+          "uk": "Поповнення лише для передплатників: 200 кредитів за $9, 1 000 за $35, 5 000 за $150. Це додаткові разові покупки."
+        }
+      ],
+      "checks": [
+        {
+          "en": "Confirm regional checkout, annual credit release timing and Education eligibility / seats.",
+          "uk": "Уточніть регіональну оплату, графік річного нарахування кредитів і умови / місця Education."
+        }
+      ],
+      "sources": [
+        {
+          "id": "pricing",
+          "url": "https://www.spacely.ai/pricing",
+          "title": "Spacely plans, entitlement marks, seats and Education",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        },
+        {
+          "id": "config",
+          "url": "https://www.spacely.ai/_next/static/chunks/77d9906c504f8c14.js?dpl=dpl_21xQ6YGkkF8PYRZ9uMUjrGBxG7eu",
+          "title": "Spacely global / regional subscription prices and credits",
+          "checkedAt": "2026-11-02",
+          "status": "verified"
+        }
+      ]
+    }
+  ]
+}

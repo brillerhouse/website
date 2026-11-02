@@ -85,46 +85,6 @@
           "en": "Check whether Interior AI provides the material schedules or installation detail your project needs.",
           "uk": "Перевірте, чи надає Interior AI потрібні вашому проєкту відомості матеріалів або деталі монтажу."
         }
-      ],
-      "trial": {
-        "en": "Free access: confirm the current offer before signing up.",
-        "uk": "Безкоштовний доступ: уточніть поточну пропозицію перед реєстрацією."
-      },
-      "planDetails": [
-        {
-          "en": "1,000 designs; commercial use.",
-          "uk": "1 000 дизайнів; комерційне використання."
-        },
-        {
-          "en": "5,000 designs; editing, upscaling and presentation tools.",
-          "uk": "5 000 дизайнів; редагування, апскейл і презентаційні інструменти."
-        },
-        {
-          "en": "25,000 designs; priority rendering and expanded storage.",
-          "uk": "25 000 дизайнів; пріоритетний рендеринг і розширене зберігання."
-        },
-        {
-          "en": "Annual Pro subscription.",
-          "uk": "Річна передплата Pro."
-        },
-        {
-          "en": "Annual Premium subscription.",
-          "uk": "Річна передплата Premium."
-        },
-        {
-          "en": "Annual Ultra subscription.",
-          "uk": "Річна передплата Ultra."
-        }
-      ],
-      "pricingNotes": [
-        {
-          "en": "Interior AI’s annual totals are $349, $599 and $1,199. The displayed monthly equivalents are rounded; use the full annual amount when budgeting.",
-          "uk": "Річні суми Interior AI — $349, $599 та $1 199. Показані місячні еквіваленти округлено; для бюджету використовуйте повну річну суму."
-        },
-        {
-          "en": "Confirm the Pro annual renewal total at checkout: another part of the site gives a different figure.",
-          "uk": "Уточніть річну суму поновлення Pro під час оплати: в іншій частині сайту зазначено іншу ціну."
-        }
       ]
     },
     {
@@ -205,48 +165,12 @@
       ],
       "checks": [
         {
-          "en": "Confirm the Advanced and Agency credit allowances: the pricing information gives 400 / 900 in one place and 500 / 1,200 in another.",
-          "uk": "Уточніть ліміти Advanced і Agency: в одній частині тарифів зазначено 400 / 900, в іншій — 500 / 1 200 кредитів."
-        },
-        {
           "en": "Confirm included seats, exact export sizes and commercial output rights for the plan you want.",
           "uk": "Уточніть включені місця, точні розміри експорту й комерційні права на результати вибраного тарифу."
         },
         {
           "en": "Ask how much installation detail accompanies the material and product recommendations.",
           "uk": "Уточніть, наскільки докладними є поради з монтажу разом із рекомендаціями матеріалів і товарів."
-        }
-      ],
-      "trial": {
-        "en": "New users get 5 free designs without a card.",
-        "uk": "Нові користувачі отримують 5 безкоштовних дизайнів без картки."
-      },
-      "planDetails": [
-        {
-          "en": "30 credits/month; basic staging and light edits.",
-          "uk": "30 кредитів на місяць; базовий стейджинг і нескладні зміни."
-        },
-        {
-          "en": "200 credits/month; conversational design, references and real products.",
-          "uk": "200 кредитів на місяць; діалоговий дизайн, референси й реальні товари."
-        },
-        {
-          "en": "Higher-volume Pro workflow; confirm the credit allowance.",
-          "uk": "Більший обсяг роботи Pro; уточніть кредитний ліміт."
-        },
-        {
-          "en": "Higher-volume Pro workflow; confirm the credit allowance.",
-          "uk": "Більший обсяг роботи Pro; уточніть кредитний ліміт."
-        }
-      ],
-      "pricingNotes": [
-        {
-          "en": "A design visualization costs 1 credit. Adding real-product discovery brings it to 2; conversation and idea exploration use 0.",
-          "uk": "Візуалізація дизайну коштує 1 кредит. Із підбором реальних товарів — 2; діалог та обговорення ідей використовують 0."
-        },
-        {
-          "en": "Advanced and Agency use the Pro toolset with larger allowances. Confirm those allowances before choosing a plan.",
-          "uk": "Advanced та Agency використовують інструменти Pro з більшими лімітами. Уточніть їх перед вибором тарифу."
         }
       ]
     },
@@ -299,8 +223,8 @@
           },
           "paragraphs": [
             {
-              "en": "For RoomGPT, confirm the export sizes, output licence and any material or installation guidance you need before using the result in paid client work or sending it to a fitter.",
-              "uk": "Для RoomGPT уточніть розміри експорту, ліцензію на результати та потрібні поради щодо матеріалів або монтажу, перш ніж використовувати зображення в платному клієнтському проєкті чи передавати майстру."
+              "en": "RoomGPT’s paid credit packs include commercial photo use and email support. Confirm export sizes and any material or fitting guidance you need before handing a design to a client or contractor.",
+              "uk": "Платні пакети RoomGPT включають комерційне використання фото й підтримку email. Уточніть розміри експорту та потрібні поради щодо матеріалів чи монтажу перед передачею дизайну клієнту або підряднику."
             },
             {
               "en": "Briller offers material specifications and installation advice across budget options, with full insights on Pro Design and Studio / Architect. Those plans also include PDF specifications and HD / 4K images. Paid plans include commercial licensing, and Studio / Architect supports shared projects.",
@@ -311,27 +235,16 @@
       ],
       "checks": [
         {
-          "en": "Confirm current RoomGPT prices, credit-pack size, expiry and any renewal terms.",
-          "uk": "Уточніть поточні ціни RoomGPT, розмір пакетів кредитів, строк їх дії та умови поновлення."
+          "en": "Confirm credit expiry and the free-credit allowance at registration.",
+          "uk": "Уточніть строк дії кредитів і безкоштовний ліміт після реєстрації."
         },
         {
-          "en": "Confirm the free allowance, export resolution and rights for paid client work.",
-          "uk": "Уточніть безкоштовний ліміт, роздільність експорту й права для платної клієнтської роботи."
+          "en": "Confirm export dimensions for the quality setting you intend to use.",
+          "uk": "Уточніть розміри експорту для потрібного налаштування якості."
         },
         {
           "en": "Explore reference-image editing, project history and collaboration before relying on them for a project.",
           "uk": "Перевірте редагування за референсами, історію проєктів і співпрацю до використання в проєкті."
-        }
-      ],
-      "trial": {
-        "en": "Free allowance: to confirm.",
-        "uk": "Безкоштовний ліміт: уточнити."
-      },
-      "planDetails": [],
-      "pricingNotes": [
-        {
-          "en": "RoomGPT’s current paid plans and credit packs need confirmation. Check the offer in your account before budgeting for a project.",
-          "uk": "Поточні платні тарифи й пакети кредитів RoomGPT потребують уточнення. Перевірте пропозицію у своєму акаунті перед плануванням витрат."
         }
       ]
     },
@@ -413,44 +326,12 @@
       ],
       "checks": [
         {
-          "en": "Confirm the standard annual renewal price after the first-year discount.",
-          "uk": "Уточніть стандартну річну ціну поновлення після знижки першого року."
-        },
-        {
           "en": "Check exact export dimensions and whether the 2D-to-3D result provides the editable plan format you need.",
           "uk": "Перевірте точні розміри експорту й чи дає 2D-to-3D потрібний вам редагований формат плану."
         },
         {
           "en": "Explore the estimator’s cost coverage and the depth of material / installation guidance on Expert.",
           "uk": "Уточніть охоплення витрат в оцінювачі та глибину порад щодо матеріалів / монтажу в Expert."
-        }
-      ],
-      "trial": {
-        "en": "Trial allowance: confirm the current offer.",
-        "uk": "Пробний ліміт: уточніть поточну пропозицію."
-      },
-      "planDetails": [
-        {
-          "en": "100 design credits/month; core redesign and material changes.",
-          "uk": "100 дизайн-кредитів на місяць; основний редизайн і зміна матеріалів."
-        },
-        {
-          "en": "1,000 design credits/month; references, shopping and commercial licence.",
-          "uk": "1 000 дизайн-кредитів на місяць; референси, підбір товарів і комерційна ліцензія."
-        },
-        {
-          "en": "2,000 design credits/month; estimator, video, plan conversion and up to 5 seats.",
-          "uk": "2 000 дизайн-кредитів на місяць; оцінка бюджету, відео, перетворення планів і до 5 місць."
-        }
-      ],
-      "pricingNotes": [
-        {
-          "en": "First-year annual offers show equivalents of $9 / $11 / $14 per month. Renewal uses the standard annual rate, which needs checking before purchase.",
-          "uk": "Річні пропозиції першого року показують еквіваленти $9 / $11 / $14 на місяць. Поновлення відбувається за стандартною річною ставкою; уточніть її перед покупкою."
-        },
-        {
-          "en": "A photo redesign uses 1 credit; tools such as video use more.",
-          "uk": "Редизайн фото використовує 1 кредит; інструменти на кшталт відео витрачають більше."
         }
       ]
     },
@@ -532,48 +413,12 @@
       ],
       "checks": [
         {
-          "en": "Confirm your local subscription price, renewal period and free-render allowance in the app.",
-          "uk": "Уточніть у застосунку місцеву ціну передплати, період поновлення й безкоштовний ліміт рендерів."
-        },
-        {
           "en": "Confirm export resolution, PDF specifications and commercial-use rights for your intended work.",
           "uk": "Уточніть роздільність експорту, PDF-специфікації й комерційні права для своєї роботи."
         },
         {
           "en": "Check reference-image workflows and professional shared-project access if those are important to you.",
           "uk": "Перевірте роботу з референсами й професійний доступ до спільних проєктів, якщо вони вам потрібні."
-        }
-      ],
-      "trial": {
-        "en": "Limited free renders are available. Check the in-app allowance and trial terms.",
-        "uk": "Є обмежена кількість безкоштовних рендерів. Уточніть ліміт і пробні умови в застосунку."
-      },
-      "planDetails": [
-        {
-          "en": "US App Store monthly purchase option; availability depends on the account.",
-          "uk": "Місячний варіант покупки в US App Store; доступність залежить від акаунта."
-        },
-        {
-          "en": "US App Store monthly purchase option; a $7.99 option is also listed.",
-          "uk": "Місячний варіант покупки в US App Store; також зазначено пропозицію за $7.99."
-        },
-        {
-          "en": "US App Store annual purchase option; check eligibility.",
-          "uk": "Річний варіант покупки в US App Store; уточніть доступність."
-        },
-        {
-          "en": "US App Store annual purchase option; a $49.99 option is also listed.",
-          "uk": "Річний варіант покупки в US App Store; також зазначено пропозицію за $49.99."
-        }
-      ],
-      "pricingNotes": [
-        {
-          "en": "The table uses US Apple purchase options. Your storefront may show another price or offer; weekly subscriptions are also listed separately.",
-          "uk": "У таблиці використано варіанти покупок Apple у США. Ваш магазин може показувати іншу ціну чи пропозицію; тижневі передплати наведено окремо."
-        },
-        {
-          "en": "Compare the renewal period as well as the amount.",
-          "uk": "Порівнюйте період поновлення разом із сумою."
         }
       ]
     },
@@ -655,48 +500,12 @@
       ],
       "checks": [
         {
-          "en": "Confirm trial duration, any introductory charge and the first renewal date for the offer you select.",
-          "uk": "Уточніть тривалість проби, вступні платежі й дату першого поновлення вибраної пропозиції."
-        },
-        {
           "en": "Check AI Studio credit consumption for the models, resolutions and video tools you need.",
           "uk": "Перевірте витрату кредитів AI Studio для потрібних моделей, роздільностей і відеоінструментів."
         },
         {
           "en": "Confirm output and model-asset rights for your client deliverables.",
           "uk": "Уточніть права на результати й ресурси моделей для передачі клієнту."
-        }
-      ],
-      "trial": {
-        "en": "Free has no time limit. Premium and Professional trial terms depend on the offer.",
-        "uk": "Free не має обмеження строку. Пробні умови Premium та Professional залежать від пропозиції."
-      },
-      "planDetails": [
-        {
-          "en": "Full catalogue, plan recognition, standard renders and 100 AI Studio credits.",
-          "uk": "Повний каталог, розпізнавання планів, стандартні рендери та 100 кредитів AI Studio."
-        },
-        {
-          "en": "4K renders, CAD export, cost / document tools and 1,000 AI Studio credits.",
-          "uk": "4K-рендери, CAD-експорт, інструменти витрат / документації та 1 000 кредитів AI Studio."
-        },
-        {
-          "en": "Annual Premium; 1,200 AI Studio credits.",
-          "uk": "Річний Premium; 1 200 кредитів AI Studio."
-        },
-        {
-          "en": "Annual Professional; 12,000 AI Studio credits.",
-          "uk": "Річний Professional; 12 000 кредитів AI Studio."
-        }
-      ],
-      "pricingNotes": [
-        {
-          "en": "These are US prices. Local currency, taxes and trial terms depend on your offer.",
-          "uk": "Це ціни США. Місцева валюта, податки й пробні умови залежать від пропозиції."
-        },
-        {
-          "en": "AI Studio and floor-plan recognition have separate allowances. Studio generation costs vary with model and output settings.",
-          "uk": "AI Studio та розпізнавання планів мають окремі ліміти. Вартість генерації Studio залежить від моделі й налаштувань результату."
         }
       ]
     },
@@ -778,44 +587,12 @@
       ],
       "checks": [
         {
-          "en": "Confirm the billing term and renewal behind each advertised starting price, including the required Team seats.",
-          "uk": "Уточніть строк оплати й поновлення за кожною початковою ціною, включно з потрібними місцями Team."
-        },
-        {
           "en": "Check the separate AI-credit and ordinary-render allowances for your expected workload.",
           "uk": "Перевірте окремі ліміти ШІ-кредитів і звичайного рендерингу для свого обсягу роботи."
         },
         {
           "en": "Confirm licensing for the specific models and outputs you will deliver, and check how much installation guidance accompanies the drawings.",
           "uk": "Уточніть ліцензії конкретних моделей і результатів для передачі та обсяг порад з монтажу разом із кресленнями."
-        }
-      ],
-      "trial": {
-        "en": "Basic is free, with a 3D floor planner and unlimited 1K rendering.",
-        "uk": "Basic безкоштовний: 3D-планувальник і необмежений 1K-рендеринг."
-      },
-      "planDetails": [
-        {
-          "en": "75 renders each for 2K and 4K, plus 180 AI credits/month.",
-          "uk": "По 75 рендерів 2K і 4K та 180 ШІ-кредитів на місяць."
-        },
-        {
-          "en": "Unlimited 4K image rendering and 380 AI credits/month.",
-          "uk": "Необмежений рендеринг 4K-зображень і 380 ШІ-кредитів на місяць."
-        },
-        {
-          "en": "Per seat; shared design space, libraries and administration.",
-          "uk": "За місце; спільний дизайн-простір, бібліотеки й адміністрування."
-        }
-      ],
-      "pricingNotes": [
-        {
-          "en": "Homestyler advertises starting rates. Confirm the subscription duration and renewal total before comparing them with monthly-billed plans.",
-          "uk": "Homestyler рекламує початкові ставки. Уточніть строк передплати й суму поновлення перед порівнянням із помісячними тарифами."
-        },
-        {
-          "en": "AI Render uses 25 credits for 2K and 35 for 4K. Other AI tools have their own credit costs, separate from ordinary render quotas.",
-          "uk": "AI Render використовує 25 кредитів для 2K та 35 для 4K. Інші ШІ-інструменти мають власну витрату кредитів, окремо від квот звичайного рендерингу."
         }
       ]
     },
@@ -897,44 +674,12 @@
       ],
       "checks": [
         {
-          "en": "Confirm render allowances for your region and billing term: the plan information contains different counts, including an unlimited Premium claim.",
-          "uk": "Уточніть ліміти рендерів для свого регіону й строку оплати: інформація тарифів містить різні кількості, зокрема заяву про необмежений Premium."
-        },
-        {
           "en": "Confirm whether estimates, invoicing and project administration require Foyr Manage separately.",
           "uk": "Уточніть, чи потрібен окремий Foyr Manage для кошторисів, рахунків та адміністрування."
         },
         {
           "en": "Check model / output licensing and any reference-photo transfer tools needed for your client workflow.",
           "uk": "Перевірте ліцензії моделей / результатів та потрібні інструменти перенесення референсів для клієнтської роботи."
-        }
-      ],
-      "trial": {
-        "en": "14-day free trial; no credit card required.",
-        "uk": "14-денний безкоштовний пробний період; картка не потрібна."
-      },
-      "planDetails": [
-        {
-          "en": "USD monthly option: 30 render credits/month.",
-          "uk": "Місячна пропозиція USD: 30 рендер-кредитів на місяць."
-        },
-        {
-          "en": "USD monthly option: 90 render credits/month; 2 users and floor-plan exports.",
-          "uk": "Місячна пропозиція USD: 90 рендер-кредитів на місяць; 2 користувачі й експорт планів."
-        },
-        {
-          "en": "USD monthly option: 210 render credits/month; scaled elevation exports.",
-          "uk": "Місячна пропозиція USD: 210 рендер-кредитів на місяць; експорт фасадів стін у масштабі."
-        }
-      ],
-      "pricingNotes": [
-        {
-          "en": "Annual billing advertises monthly equivalents of $33 / $67 / $103. Check the full charge and regional allowance.",
-          "uk": "Річна оплата рекламує місячні еквіваленти $33 / $67 / $103. Уточніть повну суму списання й регіональний ліміт."
-        },
-        {
-          "en": "The table uses the USD monthly option’s 30 / 90 / 210 render credits. Confirm the purchased allowance because other plan details give different counts.",
-          "uk": "У таблиці використано 30 / 90 / 210 рендер-кредитів із місячної пропозиції USD. Уточніть придбаний ліміт, оскільки інші деталі тарифів наводять інші кількості."
         }
       ]
     },
@@ -1016,56 +761,12 @@
       ],
       "checks": [
         {
-          "en": "Confirm the regional price and credit allowance shown at checkout; the global and India offers differ.",
-          "uk": "Уточніть регіональну ціну й кредитний ліміт під час оплати: глобальні пропозиції та пропозиції Індії відрізняються."
-        },
-        {
           "en": "Check which CAD integrations, 4K tools and collaboration features are included in your chosen plan.",
           "uk": "Перевірте, які CAD-інтеграції, 4K-інструменти й функції співпраці включено до вибраного тарифу."
         },
         {
           "en": "Explore product discovery, installation specifications and the release schedule for annual credits if your workflow depends on them.",
           "uk": "Уточніть пошук товарів, монтажні специфікації й графік нарахування річних кредитів, якщо вони потрібні для роботи."
-        }
-      ],
-      "trial": {
-        "en": "40 trial credits; no card required.",
-        "uk": "40 пробних кредитів; картка не потрібна."
-      },
-      "planDetails": [
-        {
-          "en": "500 credits/month; 1 seat.",
-          "uk": "500 кредитів на місяць; 1 місце."
-        },
-        {
-          "en": "1,500 credits/month; up to 2 seats.",
-          "uk": "1 500 кредитів на місяць; до 2 місць."
-        },
-        {
-          "en": "3,500 credits/month; up to 5 seats.",
-          "uk": "3 500 кредитів на місяць; до 5 місць."
-        },
-        {
-          "en": "Annual allowance: 6,000 credits.",
-          "uk": "Річний ліміт: 6 000 кредитів."
-        },
-        {
-          "en": "Annual allowance: 18,000 credits.",
-          "uk": "Річний ліміт: 18 000 кредитів."
-        },
-        {
-          "en": "Annual allowance: 42,000 credits.",
-          "uk": "Річний ліміт: 42 000 кредитів."
-        }
-      ],
-      "pricingNotes": [
-        {
-          "en": "The table uses global plan prices. Confirm your region, tax and the credit allocation before paying.",
-          "uk": "У таблиці використано глобальні ціни тарифів. Уточніть свій регіон, податки й нарахування кредитів перед оплатою."
-        },
-        {
-          "en": "Subscriber top-ups are separate one-time purchases: $9 for 200 credits, $35 for 1,000 and $150 for 5,000. Tool and output settings affect credit use.",
-          "uk": "Поповнення для передплатників — окремі разові покупки: $9 за 200 кредитів, $35 за 1 000 та $150 за 5 000. Інструмент і налаштування результату впливають на витрату кредитів."
         }
       ]
     }

@@ -51,3 +51,33 @@
 .comparison2-page .text-link,.comparison2-table-scroll a { text-underline-offset:4px; }
 @media(max-width:1050px) { .comparison2-reading-layout { grid-template-columns:180px minmax(0,1fr);gap:2rem; } .comparison2-position { gap:2rem; } }
 @media(max-width:760px) { .comparison2-reading-layout,.comparison2-position,.comparison2-cards { grid-template-columns:1fr; } .comparison2-contents { position:static;border-bottom:1px solid var(--line);padding-bottom:1.5rem; } .comparison2-contents nav { gap:.65rem; } .comparison2-card,.comparison2-checks { padding:1.4rem; } .comparison2-capability { margin-bottom:2.5rem; } .comparison2-cta { flex-direction:column;align-items:flex-start;gap:1rem;padding:1.5rem; } }
+
+.comparison2-units-note { color:var(--muted); }
+.comparison2-trial-pair { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem;margin:1.5rem 0; }
+.comparison2-trial-pair p { margin:0;padding:1rem 0;border-top:1px solid var(--line); }
+.comparison2-trial-pair strong { display:block;margin-bottom:.5rem; }
+.comparison2-paired-pricing th:first-child { width:17%; }
+.comparison2-paired-pricing td { padding:1.5rem; }
+.comparison2-paired-pricing td h3 { margin:0 0 1rem;font-size:var(--text-title-small); }
+.comparison2-paired-pricing .comparison2-briller-package { background:var(--sage); }
+.comparison2-package-prices { display:grid;gap:.9rem;margin-bottom:1.2rem; }
+.comparison2-offer { line-height:1.7; }
+.comparison2-offer small { display:block;color:var(--muted);font-size:var(--text-caption);margin-top:.25rem;line-height:1.7; }
+.comparison2-package-allowance { padding:1rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 0 1rem;font-weight:500; }
+.comparison2-package-features { padding-left:1.1rem;margin:0; }
+.comparison2-package-features li { margin:.5rem 0;line-height:1.8; }
+.comparison2-tier-checks { margin-top:1rem; }
+.comparison2-tier-checks p { margin:.4rem 0 0;color:var(--muted); }
+.comparison2-pricing-checks { border-left:2px solid var(--accent);padding-left:1rem;margin:1.5rem 0; }
+.comparison2-pricing-checks ul { padding-left:1.1rem;margin:.5rem 0; }
+.comparison2-pricing-checks li { line-height:1.85;margin:.5rem 0; }
+@media(max-width:760px) {
+  .comparison2-trial-pair { grid-template-columns:1fr;gap:.5rem; }
+  .comparison2-table-scroll .comparison2-paired-pricing { display:block;min-width:0; }
+  .comparison2-paired-pricing thead { position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap; }
+  .comparison2-paired-pricing tbody { display:block; }
+  .comparison2-paired-pricing tbody tr { display:grid;grid-template-columns:1fr; }
+  .comparison2-paired-pricing tbody th:first-child { position:static;width:auto;background:var(--sage);box-shadow:none; }
+  .comparison2-paired-pricing td { display:block;min-width:0;padding:1.3rem; }
+  .comparison2-paired-pricing td::before { content:attr(data-platform);display:block;color:var(--accent);font-size:var(--text-caption);font-weight:600;margin-bottom:.75rem; }
+}

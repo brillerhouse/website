@@ -1,8 +1,7 @@
 import { ArrowRight, ArrowUpRight } from 'lucide-react';
-import plans from '@/content/plans.json';
 import { Shell } from '@/components/Shell';
-import { amountLabel, brillerPrice, brillerTrial, compareDate, comparisonCopy, latestComparisonReview } from '@/lib/compare';
-import { comparison2Products, comparison2Copy, comparison2Href, comparison2Title, comparison2PriceLead, comparison2PlanName, comparison2BrillerAllowance, type Comparison2Product } from '@/lib/comparison2';
+import { amountLabel, brillerTrial, compareDate, comparisonCopy } from '@/lib/compare';
+import { comparison2Products, comparison2Copy, comparison2Href, comparison2Title, comparison2PriceLead, comparison2BrillerAllowance, comparison2BrillerFeatures, comparison2BrillerPlan, comparison2EntryTier, comparison2Offer, type ComparisonTier, type Comparison2Product } from '@/lib/comparison2';
 import { href, site, type Locale } from '@/lib/content';
 
 function Card({ product, locale }: { product: Comparison2Product; locale: Locale }) {
@@ -13,17 +12,29 @@ function CTA({ locale }: { locale: Locale }) {
   const c = comparison2Copy(locale);
   return <aside className="comparison2-cta"><div><h2>{c.ctaTitle}</h2><p>{c.ctaText}</p></div><a className="button" href={site.app}>{c.cta}<ArrowUpRight size={17} aria-hidden="true"/></a></aside>;
 }
+function CompetitorPackage({ tier, locale }: { tier: ComparisonTier; locale: Locale }) {
+  const c = comparison2Copy(locale);
+  return <><h3>{tier.name}</h3><div className="comparison2-package-prices">{tier.offers.map((offer, index) => {
+    const price = comparison2Offer(offer, locale);
+    return <div className="comparison2-offer" key={index}><strong>{price.value}</strong> <span>{price.basis}</span>{price.qualifier && <small>{price.qualifier}</small>}</div>;
+  })}</div><p className="comparison2-package-allowance">{tier.allowance[locale]}</p><ul className="comparison2-package-features">{tier.features.map(feature => <li key={feature.en}>{feature[locale]}</li>)}</ul>{tier.checks.length > 0 && <div className="comparison2-tier-checks"><span className="comparison2-check-label">{c.confirm}</span>{tier.checks.map(check => <p key={check.en}>{check[locale]}</p>)}</div>}</>;
+}
+function BrillerPackage({ tier, locale }: { tier: ComparisonTier; locale: Locale }) {
+  const plan = comparison2BrillerPlan(tier), c = comparison2Copy(locale), billing = comparisonCopy(locale);
+  const annual = Math.round(plan.annualMonthly * 12 * 100) / 100;
+  return <><h3>{plan.name}</h3><div className="comparison2-package-prices"><div className="comparison2-offer"><strong>{amountLabel(plan.monthly, 'USD', locale)}</strong> <span>{plan.monthly === 0 ? c.free : billing.monthly}</span></div>{plan.monthly > 0 && <div className="comparison2-offer"><strong>{amountLabel(annual, 'USD', locale)}</strong> <span>{billing.yearly}</span><small>{amountLabel(plan.annualMonthly, 'USD', locale)} {c.annualEquivalent}</small></div>}</div><p className="comparison2-package-allowance">{comparison2BrillerAllowance(plan, locale)}</p><ul className="comparison2-package-features">{comparison2BrillerFeatures(plan, locale).map(feature => <li key={feature}>{feature}</li>)}</ul></>;
+}
 function Pricing({ product, locale }: { product: Comparison2Product; locale: Locale }) {
-  const c = comparison2Copy(locale), billing = comparisonCopy(locale);
+  const c = comparison2Copy(locale), pricing = product.tierPricing;
   return <section className="comparison2-pricing" id="pricing" aria-labelledby="comparison2-pricing-title"><h2 id="comparison2-pricing-title">{c.pricing}</h2>
-    <p><strong>Briller.</strong> {brillerTrial(locale)}</p><p><strong>{product.name}.</strong> {product.editorial.trial[locale]}</p>
-    <div className="comparison2-table-scroll" role="region" aria-label={c.pricing} tabIndex={0}><table><caption className="sr-only">{c.pricing}: Briller / {product.name}</caption><thead><tr><th scope="col">{c.plan}</th><th scope="col">{c.price}</th><th scope="col">{c.includes}</th></tr></thead><tbody>
-      {plans.plans.map(plan => <tr className="comparison2-briller-price" key={plan.name}><th scope="row">Briller<span>{plan.name}</span></th><td><strong>{amountLabel(plan.monthly, 'USD', locale)}</strong> {plan.monthly === 0 ? c.free : billing.monthly}{plan.monthly > 0 && <span>{amountLabel(plan.annualMonthly, 'USD', locale)} {billing.annual}</span>}</td><td>{comparison2BrillerAllowance(plan, locale)}</td></tr>)}
-      {product.pricing.plans.map((plan, index) => <tr key={plan.name + index}><th scope="row">{product.name}<span>{comparison2PlanName(plan.name)}</span></th><td><strong>{amountLabel(plan.amount, plan.currency, locale)}</strong> {billing[plan.billing]}</td><td>{product.editorial.planDetails[index][locale]}</td></tr>)}
-      {!product.pricing.plans.length && <tr><th scope="row">{product.name}</th><td colSpan={2}>{c.priceUnknown}</td></tr>}
+    <p>{pricing.context[locale]}</p><p className="comparison2-units-note">{c.unitsNote}</p>
+    <div className="comparison2-trial-pair"><p><strong>{product.name}</strong>{pricing.trial[locale]}</p><p><strong>Briller</strong>{brillerTrial(locale)}</p></div>
+    <div className="comparison2-table-scroll comparison2-paired-scroll" role="region" aria-label={c.pricing} tabIndex={0}><table className="comparison2-paired-pricing" role="table"><caption className="sr-only">{c.pricing}: {product.name} / Briller</caption><thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">{c.useCase}</th><th scope="col" role="columnheader">{product.name}</th><th scope="col" role="columnheader">Briller</th></tr></thead><tbody role="rowgroup">
+      {pricing.tiers.map(tier => <tr key={tier.id} role="row" data-tier-id={tier.id} data-briller-plan={tier.brillerPlan}><th scope="row" role="rowheader">{tier.purpose[locale]}</th><td role="cell" data-platform={product.name}><CompetitorPackage tier={tier} locale={locale}/></td><td role="cell" data-platform="Briller" className="comparison2-briller-package"><BrillerPackage tier={tier} locale={locale}/></td></tr>)}
     </tbody></table></div>
-    {product.editorial.pricingNotes.map(note => <p className="comparison2-price-note" key={note.en}>{note[locale]}</p>)}
-    {product.reviewedAt && <p className="comparison2-date">{c.pricesDate}: <time dateTime={product.reviewedAt}>{compareDate(product.reviewedAt, locale)}</time></p>}
+    {pricing.notes.map(note => <p className="comparison2-price-note" key={note.en}>{note[locale]}</p>)}
+    {pricing.checks.length > 0 && <aside className="comparison2-pricing-checks" aria-label={c.pricingFlags}><span className="comparison2-check-label">{c.confirm}</span><ul>{pricing.checks.map(check => <li key={check.en}>{check[locale]}</li>)}</ul></aside>}
+    <p className="comparison2-date">{c.pricesDate}: <time dateTime={pricing.checkedAt}>{compareDate(pricing.checkedAt, locale)}</time></p>
     <a className="text-link" href={href(locale, 'pricing')}>{c.brillerPlans}<ArrowRight size={16} aria-hidden="true"/></a>
   </section>;
 }
@@ -33,7 +44,7 @@ export function Comparison2Hub({ locale }: { locale: Locale }) {
   return <div className="comparison2-page"><section className="page-heading comparison2-hero"><p className="eyebrow">BRILLER / {c.label}</p><h1>{c.title}</h1><p>{c.intro}</p></section>
     <section className="section comparison2-position"><h2>{c.brillerTitle}</h2><p>{c.brillerIntro}</p></section>
     <section className="section comparison2-directory"><h2>{c.directory}</h2><div className="comparison2-cards">{comparison2Products.map(product => <Card product={product} locale={locale} key={product.slug}/>)}</div></section>
-    <section className="section comparison2-hub-pricing" id="pricing"><h2>{c.pricing}</h2><div className="comparison2-table-scroll" role="region" aria-label={c.pricing} tabIndex={0}><table><caption className="sr-only">{c.pricing}</caption><thead><tr><th scope="col">{c.provider}</th><th scope="col">{c.paid}</th><th scope="col">{c.trial}</th></tr></thead><tbody><tr className="comparison2-briller-price"><th scope="row"><a href={href(locale, 'pricing')}>Briller</a></th><td>{c.from} {brillerPrice(locale)}</td><td>{brillerTrial(locale)}</td></tr>{comparison2Products.map(product => <tr key={product.slug}><th scope="row"><a href={comparison2Href(locale, product.slug) + '#pricing'}>{product.name}</a></th><td>{comparison2PriceLead(product, locale)}</td><td>{product.editorial.trial[locale]}</td></tr>)}</tbody></table></div>{latestComparisonReview && <p className="comparison2-date">{c.pricesDate}: <time dateTime={latestComparisonReview}>{compareDate(latestComparisonReview, locale)}</time></p>}</section>
+    <section className="section comparison2-hub-pricing" id="pricing"><h2>{c.pricing}</h2><p>{brillerTrial(locale)}</p><p className="comparison2-units-note">{c.unitsNote}</p><div className="comparison2-table-scroll" role="region" aria-label={c.pricing} tabIndex={0}><table><caption className="sr-only">{c.pricing}</caption><thead><tr><th scope="col">{c.provider}</th><th scope="col">{c.competitorEntry}</th><th scope="col">{c.brillerMatch}</th></tr></thead><tbody>{comparison2Products.map(product => { const tier = comparison2EntryTier(product), plan = comparison2BrillerPlan(tier); return <tr key={product.slug}><th scope="row"><a href={comparison2Href(locale, product.slug) + '#pricing'}>{product.name}</a></th><td>{comparison2PriceLead(product, locale)}<p>{tier.allowance[locale]}</p></td><td><strong>{plan.name}</strong><p>{amountLabel(plan.monthly, 'USD', locale)} {comparisonCopy(locale).monthly}</p><p>{comparison2BrillerAllowance(plan, locale)}</p></td></tr>; })}</tbody></table></div><p className="comparison2-date">{c.pricesDate}: <time dateTime={comparison2Products[0].tierPricing.checkedAt}>{compareDate(comparison2Products[0].tierPricing.checkedAt, locale)}</time></p></section>
     <section className="section"><CTA locale={locale}/></section><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\\u003c') }}/>
   </div>;
 }
