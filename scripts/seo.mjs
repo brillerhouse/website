@@ -6,13 +6,18 @@ const pages=['','features','use-cases','gallery','pricing','faq','contact','priv
 // Blog shares the site's EN/UK structure and stays out of navigation menus.
 const blog=JSON.parse(fs.readFileSync('content/blog/catalog.json','utf8'));
 const blogSuffixes=['blog',...blog.posts.map(post=>`blog/${post.slug}`),...blog.categories.filter(category=>blog.posts.some(post=>post.categories.includes(category.slug))).map(category=>`blog/category/${category.slug}`),...blog.tags.filter(tag=>blog.posts.some(post=>post.tags.includes(tag.slug))).map(tag=>`blog/tag/${tag.slug}`)];
-const localizedPages=[...pages,...blogSuffixes];
+const comparisonCatalog=JSON.parse(fs.readFileSync('content/compare/catalog.json','utf8'));
+const comparisonSuffixes=['compare',...comparisonCatalog.products.map(product=>'compare/'+product.slug)];
+const localizedPages=[...pages,...blogSuffixes,...comparisonSuffixes];
+const verifiedComparisons=comparisonCatalog.products.filter(product=>product.verification==='reviewed').map(product=>'compare/'+product.slug);
+if(comparisonCatalog.products.every(product=>product.verification==='reviewed'))verifiedComparisons.push('compare');
+const sitemapPages=localizedPages.filter(page=>!comparisonSuffixes.includes(page)||verifiedComparisons.includes(page));
 for(const page of localizedPages){
  const file=path.join('out','uk',page,'index.html');
  const html=fs.readFileSync(file,'utf8');
  fs.writeFileSync(file,html.replace('<html lang="en"','<html lang="uk"'));
 }
-fs.writeFileSync('out/sitemap.xml','<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+['en','uk'].flatMap(locale=>localizedPages.map(page=>{const suffix=page?page+'/':'';return `<url><loc>${origin}/${locale}/${suffix}</loc><xhtml:link rel="alternate" hreflang="en" href="${origin}/en/${suffix}"/><xhtml:link rel="alternate" hreflang="uk" href="${origin}/uk/${suffix}"/><xhtml:link rel="alternate" hreflang="x-default" href="${origin}/en/${suffix}"/></url>`})).join('')+'</urlset>');
+fs.writeFileSync('out/sitemap.xml','<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+['en','uk'].flatMap(locale=>sitemapPages.map(page=>{const suffix=page?page+'/':'';return `<url><loc>${origin}/${locale}/${suffix}</loc><xhtml:link rel="alternate" hreflang="en" href="${origin}/en/${suffix}"/><xhtml:link rel="alternate" hreflang="uk" href="${origin}/uk/${suffix}"/><xhtml:link rel="alternate" hreflang="x-default" href="${origin}/en/${suffix}"/></url>`})).join('')+'</urlset>');
 // HTTP 301 is handled by nginx. These tiny fallbacks keep static/local previews usable.
 for(const suffix of blogSuffixes){
  const target='/en/'+suffix+'/', directory=path.join('out',suffix);
@@ -34,5 +39,12 @@ if(preview){
  protect('out');
 }
 fs.writeFileSync('out/robots.txt',preview?'User-agent: *\nDisallow: /\n':`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`);
-fs.copyFileSync('content/llms.txt','out/llms.txt');
+let llms=fs.readFileSync('content/llms.txt','utf8');
+const reviewedProducts=comparisonCatalog.products.filter(product=>product.verification==='reviewed');
+if(reviewedProducts.length){
+ llms+='\n## Compare: Briller and design-tool alternatives\n';
+ if(reviewedProducts.length===comparisonCatalog.products.length)llms+=`- [Compare](${origin}/en/compare/): Official-source, billing-aware comparisons of AI redesign and 3D planning tools.\n- [Порівняння](${origin}/uk/compare/): Альтернативи інструментам дизайну, можливості, тарифи та офіційні джерела.\n`;
+ for(const product of reviewedProducts)llms+=`- [${product.name} alternative: Briller](${origin}/en/compare/${product.slug}/): ${product.summary.en} Reviewed ${product.reviewedAt}.\n- [Альтернатива ${product.name}: Briller](${origin}/uk/compare/${product.slug}/): ${product.summary.uk} Перевірено ${product.reviewedAt}.\n`;
+}
+fs.writeFileSync('out/llms.txt',llms);
 console.log('SEO: Ukrainian HTML language, bilingual sitemap, robots.txt and llms.txt generated.');

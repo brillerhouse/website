@@ -1,0 +1,1085 @@
+{
+  "version": 1,
+  "products": [
+    {
+      "slug": "interior-ai",
+      "name": "Interior AI",
+      "url": "https://interiorai.com/",
+      "category": "photo",
+      "verification": "pending",
+      "reviewedAt": null,
+      "summary": {
+        "en": "Official product and pricing review in progress.",
+        "uk": "Перевірка офіційних можливостей і тарифів триває."
+      },
+      "bestFor": {
+        "en": "To be confirmed from official documentation.",
+        "uk": "Буде уточнено за офіційними джерелами."
+      },
+      "freeTrial": {
+        "text": {
+          "en": "Not yet verified.",
+          "uk": "Ще не перевірено."
+        },
+        "sources": []
+      },
+      "pricing": {
+        "state": "pending",
+        "summary": {
+          "en": "Current public pricing has not yet been verified.",
+          "uk": "Актуальні публічні тарифи ще не перевірено."
+        },
+        "plans": [],
+        "notes": [],
+        "sources": []
+      },
+      "features": {
+        "workflow": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "references": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "iterations": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "technical": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "planning": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "exports": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "commercial": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "teams": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "shopping": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        }
+      },
+      "takeaways": [],
+      "chooseCompetitor": [],
+      "chooseBriller": [],
+      "watchouts": [],
+      "sources": [
+        {
+          "id": "official",
+          "title": "Interior AI — official website",
+          "url": "https://interiorai.com/",
+          "checkedAt": null,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "slug": "reimaginehome",
+      "name": "REimagineHome",
+      "url": "https://www.reimaginehome.ai/",
+      "category": "photo",
+      "verification": "pending",
+      "reviewedAt": null,
+      "summary": {
+        "en": "Official product and pricing review in progress.",
+        "uk": "Перевірка офіційних можливостей і тарифів триває."
+      },
+      "bestFor": {
+        "en": "To be confirmed from official documentation.",
+        "uk": "Буде уточнено за офіційними джерелами."
+      },
+      "freeTrial": {
+        "text": {
+          "en": "Not yet verified.",
+          "uk": "Ще не перевірено."
+        },
+        "sources": []
+      },
+      "pricing": {
+        "state": "pending",
+        "summary": {
+          "en": "Current public pricing has not yet been verified.",
+          "uk": "Актуальні публічні тарифи ще не перевірено."
+        },
+        "plans": [],
+        "notes": [],
+        "sources": []
+      },
+      "features": {
+        "workflow": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "references": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "iterations": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "technical": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "planning": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "exports": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "commercial": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "teams": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "shopping": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        }
+      },
+      "takeaways": [],
+      "chooseCompetitor": [],
+      "chooseBriller": [],
+      "watchouts": [],
+      "sources": [
+        {
+          "id": "official",
+          "title": "REimagineHome — official website",
+          "url": "https://www.reimaginehome.ai/",
+          "checkedAt": null,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "slug": "roomgpt",
+      "name": "RoomGPT",
+      "url": "https://www.roomgpt.io/",
+      "category": "photo",
+      "verification": "pending",
+      "reviewedAt": null,
+      "summary": {
+        "en": "Official product and pricing review in progress.",
+        "uk": "Перевірка офіційних можливостей і тарифів триває."
+      },
+      "bestFor": {
+        "en": "To be confirmed from official documentation.",
+        "uk": "Буде уточнено за офіційними джерелами."
+      },
+      "freeTrial": {
+        "text": {
+          "en": "Not yet verified.",
+          "uk": "Ще не перевірено."
+        },
+        "sources": []
+      },
+      "pricing": {
+        "state": "pending",
+        "summary": {
+          "en": "Current public pricing has not yet been verified.",
+          "uk": "Актуальні публічні тарифи ще не перевірено."
+        },
+        "plans": [],
+        "notes": [],
+        "sources": []
+      },
+      "features": {
+        "workflow": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "references": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "iterations": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "technical": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "planning": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "exports": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "commercial": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "teams": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "shopping": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        }
+      },
+      "takeaways": [],
+      "chooseCompetitor": [],
+      "chooseBriller": [],
+      "watchouts": [],
+      "sources": [
+        {
+          "id": "official",
+          "title": "RoomGPT — official website",
+          "url": "https://www.roomgpt.io/",
+          "checkedAt": null,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "slug": "homedesigns-ai",
+      "name": "HomeDesignsAI",
+      "url": "https://homedesigns.ai/",
+      "category": "photo",
+      "verification": "pending",
+      "reviewedAt": null,
+      "summary": {
+        "en": "Official product and pricing review in progress.",
+        "uk": "Перевірка офіційних можливостей і тарифів триває."
+      },
+      "bestFor": {
+        "en": "To be confirmed from official documentation.",
+        "uk": "Буде уточнено за офіційними джерелами."
+      },
+      "freeTrial": {
+        "text": {
+          "en": "Not yet verified.",
+          "uk": "Ще не перевірено."
+        },
+        "sources": []
+      },
+      "pricing": {
+        "state": "pending",
+        "summary": {
+          "en": "Current public pricing has not yet been verified.",
+          "uk": "Актуальні публічні тарифи ще не перевірено."
+        },
+        "plans": [],
+        "notes": [],
+        "sources": []
+      },
+      "features": {
+        "workflow": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "references": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "iterations": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "technical": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "planning": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "exports": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "commercial": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "teams": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "shopping": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        }
+      },
+      "takeaways": [],
+      "chooseCompetitor": [],
+      "chooseBriller": [],
+      "watchouts": [],
+      "sources": [
+        {
+          "id": "official",
+          "title": "HomeDesignsAI — official website",
+          "url": "https://homedesigns.ai/",
+          "checkedAt": null,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "slug": "remodel-ai",
+      "name": "Remodel AI",
+      "url": "https://remodelai.app/",
+      "category": "photo",
+      "verification": "pending",
+      "reviewedAt": null,
+      "summary": {
+        "en": "Official product and pricing review in progress.",
+        "uk": "Перевірка офіційних можливостей і тарифів триває."
+      },
+      "bestFor": {
+        "en": "To be confirmed from official documentation.",
+        "uk": "Буде уточнено за офіційними джерелами."
+      },
+      "freeTrial": {
+        "text": {
+          "en": "Not yet verified.",
+          "uk": "Ще не перевірено."
+        },
+        "sources": []
+      },
+      "pricing": {
+        "state": "pending",
+        "summary": {
+          "en": "Current public pricing has not yet been verified.",
+          "uk": "Актуальні публічні тарифи ще не перевірено."
+        },
+        "plans": [],
+        "notes": [],
+        "sources": []
+      },
+      "features": {
+        "workflow": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "references": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "iterations": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "technical": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "planning": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "exports": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "commercial": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "teams": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "shopping": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        }
+      },
+      "takeaways": [],
+      "chooseCompetitor": [],
+      "chooseBriller": [],
+      "watchouts": [],
+      "sources": [
+        {
+          "id": "official",
+          "title": "Remodel AI — official website",
+          "url": "https://remodelai.app/",
+          "checkedAt": null,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "slug": "planner-5d",
+      "name": "Planner 5D",
+      "url": "https://planner5d.com/",
+      "category": "planning",
+      "verification": "pending",
+      "reviewedAt": null,
+      "summary": {
+        "en": "Official product and pricing review in progress.",
+        "uk": "Перевірка офіційних можливостей і тарифів триває."
+      },
+      "bestFor": {
+        "en": "To be confirmed from official documentation.",
+        "uk": "Буде уточнено за офіційними джерелами."
+      },
+      "freeTrial": {
+        "text": {
+          "en": "Not yet verified.",
+          "uk": "Ще не перевірено."
+        },
+        "sources": []
+      },
+      "pricing": {
+        "state": "pending",
+        "summary": {
+          "en": "Current public pricing has not yet been verified.",
+          "uk": "Актуальні публічні тарифи ще не перевірено."
+        },
+        "plans": [],
+        "notes": [],
+        "sources": []
+      },
+      "features": {
+        "workflow": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "references": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "iterations": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "technical": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "planning": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "exports": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "commercial": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "teams": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "shopping": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        }
+      },
+      "takeaways": [],
+      "chooseCompetitor": [],
+      "chooseBriller": [],
+      "watchouts": [],
+      "sources": [
+        {
+          "id": "official",
+          "title": "Planner 5D — official website",
+          "url": "https://planner5d.com/",
+          "checkedAt": null,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "slug": "homestyler",
+      "name": "Homestyler",
+      "url": "https://www.homestyler.com/",
+      "category": "planning",
+      "verification": "pending",
+      "reviewedAt": null,
+      "summary": {
+        "en": "Official product and pricing review in progress.",
+        "uk": "Перевірка офіційних можливостей і тарифів триває."
+      },
+      "bestFor": {
+        "en": "To be confirmed from official documentation.",
+        "uk": "Буде уточнено за офіційними джерелами."
+      },
+      "freeTrial": {
+        "text": {
+          "en": "Not yet verified.",
+          "uk": "Ще не перевірено."
+        },
+        "sources": []
+      },
+      "pricing": {
+        "state": "pending",
+        "summary": {
+          "en": "Current public pricing has not yet been verified.",
+          "uk": "Актуальні публічні тарифи ще не перевірено."
+        },
+        "plans": [],
+        "notes": [],
+        "sources": []
+      },
+      "features": {
+        "workflow": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "references": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "iterations": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "technical": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "planning": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "exports": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "commercial": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "teams": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "shopping": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        }
+      },
+      "takeaways": [],
+      "chooseCompetitor": [],
+      "chooseBriller": [],
+      "watchouts": [],
+      "sources": [
+        {
+          "id": "official",
+          "title": "Homestyler — official website",
+          "url": "https://www.homestyler.com/",
+          "checkedAt": null,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "slug": "foyr-neo",
+      "name": "Foyr Neo",
+      "url": "https://foyr.com/",
+      "category": "planning",
+      "verification": "pending",
+      "reviewedAt": null,
+      "summary": {
+        "en": "Official product and pricing review in progress.",
+        "uk": "Перевірка офіційних можливостей і тарифів триває."
+      },
+      "bestFor": {
+        "en": "To be confirmed from official documentation.",
+        "uk": "Буде уточнено за офіційними джерелами."
+      },
+      "freeTrial": {
+        "text": {
+          "en": "Not yet verified.",
+          "uk": "Ще не перевірено."
+        },
+        "sources": []
+      },
+      "pricing": {
+        "state": "pending",
+        "summary": {
+          "en": "Current public pricing has not yet been verified.",
+          "uk": "Актуальні публічні тарифи ще не перевірено."
+        },
+        "plans": [],
+        "notes": [],
+        "sources": []
+      },
+      "features": {
+        "workflow": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "references": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "iterations": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "technical": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "planning": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "exports": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "commercial": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "teams": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "shopping": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        }
+      },
+      "takeaways": [],
+      "chooseCompetitor": [],
+      "chooseBriller": [],
+      "watchouts": [],
+      "sources": [
+        {
+          "id": "official",
+          "title": "Foyr Neo — official website",
+          "url": "https://foyr.com/",
+          "checkedAt": null,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "slug": "spacely-ai",
+      "name": "Spacely.ai",
+      "url": "https://www.spacely.ai/",
+      "category": "photo",
+      "verification": "pending",
+      "reviewedAt": null,
+      "summary": {
+        "en": "Official product and pricing review in progress.",
+        "uk": "Перевірка офіційних можливостей і тарифів триває."
+      },
+      "bestFor": {
+        "en": "To be confirmed from official documentation.",
+        "uk": "Буде уточнено за офіційними джерелами."
+      },
+      "freeTrial": {
+        "text": {
+          "en": "Not yet verified.",
+          "uk": "Ще не перевірено."
+        },
+        "sources": []
+      },
+      "pricing": {
+        "state": "pending",
+        "summary": {
+          "en": "Current public pricing has not yet been verified.",
+          "uk": "Актуальні публічні тарифи ще не перевірено."
+        },
+        "plans": [],
+        "notes": [],
+        "sources": []
+      },
+      "features": {
+        "workflow": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "references": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "iterations": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "technical": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "planning": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "exports": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "commercial": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "teams": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        },
+        "shopping": {
+          "state": "unconfirmed",
+          "text": {
+            "en": "Not yet verified in public documentation.",
+            "uk": "Ще не перевірено в публічній документації."
+          },
+          "sources": []
+        }
+      },
+      "takeaways": [],
+      "chooseCompetitor": [],
+      "chooseBriller": [],
+      "watchouts": [],
+      "sources": [
+        {
+          "id": "official",
+          "title": "Spacely.ai — official website",
+          "url": "https://www.spacely.ai/",
+          "checkedAt": null,
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}
