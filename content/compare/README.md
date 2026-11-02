@@ -1,6 +1,6 @@
 # Compare / Порівняння
 
-Routes: `/en/compare/`, `/uk/compare/`, and a localized page for every slug in `catalog.json`. The footer links to the overview. The header, existing pages, gallery images, consent and app routing remain unchanged.
+Routes: `/en/compare/`, `/uk/compare/`, and a localized page for every slug in `catalog.json`. The comparison section is temporarily omitted from the header and footer navigation; its routes remain accessible by direct URL. Existing pages, gallery images, consent and app routing remain unchanged.
 
 ## Research status
 

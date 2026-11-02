@@ -26,7 +26,7 @@ export function Shell({ locale, page = '', children, breadcrumbs }: { locale: Lo
   };
   return <><Language locale={locale}/><LocaleRouting/><a className="skip" href="#main">{locale === 'uk' ? 'До основного вмісту' : 'Skip to content'}</a><Header locale={locale} page={page} solutionMenu={buildSolutionMenu(locale)}/><main id="main" lang={locale}>{children}</main>
     <footer><div className="footer-top"><div><BrandLogo locale={locale} className="wordmark"/><p>{c.footerLine}</p><a className="email" href={'mailto:' + site.email}>{site.email} ↗</a></div>
-      <div><h3>{c.product}</h3>{Object.entries(c.nav).filter(([key]) => key !== 'use-cases').map(([key,label]) => <a key={key} href={href(locale,key)}>{label}</a>)}<a href={href(locale,'compare')}>{locale === 'uk' ? 'Порівняння' : 'Compare'}</a></div>
+      <div><h3>{c.product}</h3>{Object.entries(c.nav).filter(([key]) => key !== 'use-cases').map(([key,label]) => <a key={key} href={href(locale,key)}>{label}</a>)}</div>
       <div><h3>{c.legal}</h3>{legal.map(([key,label]) => <a key={key} href={href(locale,key)}>{label}</a>)}<CookieConsent locale={locale}/></div>
       <div><p className="eyebrow">{c.brandLine}</p><a className="button" href={site.app}>{c.start} ↗</a><div className="footer-site-language"><p className="small">Briller.house</p><FooterLanguages locale={locale} page={page}/></div></div>
     </div><div className="footer-bottom"><span>© {new Date().getFullYear()} {c.copyright}</span><span>{c.brandLine}</span></div></footer>
