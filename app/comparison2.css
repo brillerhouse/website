@@ -74,6 +74,42 @@
 .comparison2-logo-well img { width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain; }
 .comparison2-logo-dark { background:#111; }
 .comparison2-page .text-link,.comparison2-table-scroll a { text-underline-offset:4px; }
+.comparison2-page .comparison2-byline { font-size:var(--text-caption);color:var(--muted);margin-top:1.5rem; }
+.comparison2-selection { padding-top:1rem; }
+.comparison2-selection > p { max-width:60rem;color:var(--muted); }
+.comparison2-quick-picks { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:2rem; }
+.comparison2-quick-picks a { display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.5rem 1rem;padding:1.2rem;border:1px solid var(--line);border-radius:10px;background:var(--surface); }
+.comparison2-quick-picks a:hover { border-color:var(--accent); }
+.comparison2-quick-picks a span { grid-column:1;color:var(--muted);line-height:1.7; }
+.comparison2-quick-picks a svg { grid-column:2;grid-row:1/3;align-self:center; }
+.comparison2-roundup-product { margin-bottom:4rem;padding-bottom:3rem;border-bottom:1px solid var(--line);scroll-margin-top:125px; }
+.comparison2-roundup-product h2 { margin:0 0 1.5rem;font-size:var(--briller-type-h2-font-size); }
+.comparison2-roundup-product h2 > span { display:block;font-size:var(--text-title-small);font-weight:400;letter-spacing:normal;line-height:1.6;color:var(--muted);margin-top:.7rem; }
+.comparison2-roundup-product h3 { font-size:var(--text-title-small);margin:1.8rem 0 .8rem; }
+.comparison2-roundup-lead { display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:2rem;align-items:start;margin-bottom:2rem; }
+.comparison2-roundup-lead > p { margin:0; }
+.comparison2-roundup-product > p { max-width:60rem;margin-bottom:1rem; }
+.comparison2-tradeoffs { display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin:1.5rem 0; }
+.comparison2-tradeoffs > div { border-top:1px solid var(--line); }
+.comparison2-tradeoffs h3 { margin-top:1rem; }
+.comparison2-tradeoffs ul { margin:0;padding-left:1.2rem; }
+.comparison2-tradeoffs li { line-height:1.85;margin:.6rem 0; }
+.comparison2-best-for { padding:1rem 1.3rem;border-left:2px solid var(--accent);background:var(--sage);margin:1.5rem 0; }
+.comparison2-best-for h3 { margin:0 0 .5rem; }
+.comparison2-best-for p { margin:0; }
+.comparison2-roundup-confirm { color:var(--muted); }
+.comparison2-roundup-confirm .comparison2-check-label { margin-right:.4rem; }
+.comparison2-roundup-links { display:flex;align-items:center;flex-wrap:wrap;gap:1rem 1.5rem;margin-top:1.8rem; }
+.comparison2-feedback { border-left:2px solid var(--line);padding-left:1.3rem;margin:2rem 0; }
+.comparison2-review + .comparison2-review { border-top:1px solid var(--line);padding-top:1rem;margin-top:1rem; }
+.comparison2-review-credit { display:flex;align-items:baseline;flex-wrap:wrap;gap:.4rem 1rem;font-size:var(--text-caption);color:var(--muted); }
+.comparison2-review-credit a { display:inline-flex;align-items:center;gap:.3rem;text-decoration:underline;text-underline-offset:4px; }
+.comparison2-conclusion { border-top:1px solid var(--line);scroll-margin-top:125px; }
+.comparison2-conclusion > p { max-width:62rem; }
+.comparison2-conclusion-links { display:flex;flex-wrap:wrap;gap:1rem 2rem;margin:2rem 0; }
+.comparison2-conclusion .comparison2-cta { margin-top:2rem; }
+@media(max-width:1050px) { .comparison2-roundup-lead { grid-template-columns:1fr; } }
+@media(max-width:760px) { .comparison2-quick-picks,.comparison2-tradeoffs { grid-template-columns:1fr; } .comparison2-tradeoffs { gap:1rem; } .comparison2-roundup-product { margin-bottom:3rem;padding-bottom:2.5rem; } }
 @media(max-width:1050px) { .comparison2-reading-layout { grid-template-columns:180px minmax(0,1fr);gap:2rem; } .comparison2-position { gap:2rem; } }
 @media(max-width:1050px) { .comparison2-hero-layout { grid-template-columns:1fr;gap:2rem; } .comparison2-hero-copy { max-width:52rem; } .comparison2-homepage { max-width:58rem; } }
 @media(max-width:420px) { .comparison2-brand-link { gap:.8rem;padding:.65rem; } .comparison2-logo-well { width:8.5rem; } }

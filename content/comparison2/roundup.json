@@ -1,0 +1,712 @@
+{
+  "updatedAt": "2026-11-03",
+  "intro": {
+    "en": "Choose the tool around the work you need to do: restyle a photograph, plan a layout or prepare a client presentation. Here are nine options, with the tools, trade-offs and audiences that matter for each.",
+    "uk": "Обирайте інструмент під завдання: змінити вигляд на фото, спланувати простір або підготувати презентацію клієнту. Порівнюємо дев’ять варіантів, їхні інструменти, обмеження та аудиторії."
+  },
+  "selection": {
+    "en": "For an early room refresh, start with photo tools and the elements you want to keep. For layout changes, choose an editable plan and check the dimensions. For client work, look closely at commercial rights, seats and the files you need to hand over.",
+    "uk": "Для першого оновлення кімнати почніть із фотоінструментів і того, що хочете зберегти. Для зміни планування обирайте редагований план і перевіряйте розміри. Для клієнтської роботи порівнюйте комерційні права, місця та файли, які потрібно передати."
+  },
+  "conclusion": {
+    "title": {
+      "en": "Where Briller fits: work through the details behind the look.",
+      "uk": "Де допоможе Briller: опрацювати деталі за обраним виглядом."
+    },
+    "paragraphs": [
+      {
+        "en": "A room concept becomes more useful when you can explain what to buy, what to keep and what needs doing. Briller starts with the room photo and helps develop those decisions through analysis, reference images and design iterations.",
+        "uk": "Концепція кімнати стає кориснішою, коли зрозуміло, що купити, що залишити й які роботи потрібні. Briller починає з фото та допомагає розвивати ці рішення через аналіз кімнати, референси й послідовні варіанти дизайну."
+      },
+      {
+        "en": "A moodboard can contribute a specific element: a curtain pocket, fitted shelf or lighting detail. Smart Sparks and budget-specific advice help explore the materials and fitting choices around it. The guidance draws on Mike Briller’s hands-on experience and the work of his colleagues in architecture, design and construction.",
+        "uk": "Мудборд може додати конкретний елемент: нішу для штор, вбудовану полицю чи деталь освітлення. Smart Sparks і поради під бюджет допомагають опрацювати матеріали та монтаж. В основі порад — практичний досвід Майка Бріллера та його колег з архітектури, дизайну й будівництва."
+      },
+      {
+        "en": "Pro Design and Studio / Architect include full technical insights, HD / 4K images and PDF specifications. Studio adds three seats and shared projects. Keep measured geometry in your planning tool, and use Briller to develop the visual and material brief around it.",
+        "uk": "Pro Design та Studio / Architect включають повні технічні поради, зображення HD / 4K і PDF-специфікації. Studio додає три місця та спільні проєкти. Обмірну геометрію залишайте у своєму планувальнику, а Briller використовуйте для візуального рішення й опису матеріалів."
+      }
+    ],
+    "bestFor": {
+      "en": "Homeowners, designers and renovation teams who want to connect a room image with material choices, budget options and a clearer brief for the work.",
+      "uk": "Власникам, дизайнерам і ремонтним командам, які хочуть пов’язати зображення кімнати з матеріалами, варіантами бюджету та зрозумілим завданням на роботи."
+    }
+  },
+  "products": [
+    {
+      "slug": "homedesigns-ai",
+      "fit": {
+        "en": "Photo changes across the property",
+        "uk": "Фотооновлення всього об’єкта"
+      },
+      "summary": {
+        "en": "HomeDesignsAI covers room redesign, façades and gardens from photographs. Its wider toolkit includes targeted changes, material swaps, staging and furniture discovery. Compare the tools included in each plan before paying for the broadest bundle.",
+        "uk": "HomeDesignsAI працює з фотографіями кімнат, фасадів і садів. Серед інструментів є точкові зміни, заміна матеріалів, стейджинг і пошук меблів. Перед придбанням найширшого пакета порівняйте функції кожного тарифу."
+      },
+      "features": [
+        {
+          "title": {
+            "en": "Redesign and local changes",
+            "uk": "Оновлення та локальні зміни"
+          },
+          "text": {
+            "en": "Explore a whole-room direction or use Precision+ for a selected area. Materials Swap and paint tools focus on finishes while the rest of the room provides context.",
+            "uk": "Можна приміряти загальний вигляд кімнати або змінити вибрану ділянку через Precision+. Materials Swap та інструменти фарбування працюють з оздобленням у контексті решти інтер’єру."
+          }
+        },
+        {
+          "title": {
+            "en": "References and furniture",
+            "uk": "Референси та меблі"
+          },
+          "text": {
+            "en": "Design Transfer borrows a look from an inspiration image. Pro adds Furniture Finder and empty-room staging, useful when the next step is furnishing rather than changing the layout.",
+            "uk": "Design Transfer переносить вигляд із референсу. Pro додає Furniture Finder і стейджинг порожньої кімнати — це корисно, коли потрібно меблювати простір, а не змінювати планування."
+          }
+        },
+        {
+          "title": {
+            "en": "The Expert additions",
+            "uk": "Додаткові можливості Expert"
+          },
+          "text": {
+            "en": "Expert adds a budget estimator, video walkthroughs, 2D-to-3D conversion and up to five seats. These are separate reasons to upgrade; a paint-colour decision may not need them.",
+            "uk": "Expert додає оцінку бюджету, відеопрогулянки, перетворення 2D у 3D та до п’яти місць. Це окремі причини для переходу на старший тариф; вибір кольору стін може їх не потребувати."
+          }
+        }
+      ],
+      "pros": [
+        {
+          "en": "Interiors, exteriors and gardens in one product.",
+          "uk": "Інтер’єри, екстер’єри та сади в одному продукті."
+        },
+        {
+          "en": "Named tools for changing materials, borrowing references and finding furniture.",
+          "uk": "Окремі інструменти для матеріалів, референсів і пошуку меблів."
+        },
+        {
+          "en": "Expert supports a five-person team.",
+          "uk": "Expert підтримує команду до п’яти людей."
+        }
+      ],
+      "cons": [
+        {
+          "en": "Standard excludes the commercial licence and watermark-free output listed on Pro.",
+          "uk": "Standard не включає комерційну ліцензію та зображення без водяного знака, зазначені для Pro."
+        },
+        {
+          "en": "Budget estimation, video and plan conversion require Expert.",
+          "uk": "Оцінка бюджету, відео й перетворення планів потребують Expert."
+        }
+      ],
+      "bestFor": {
+        "en": "Homeowners exploring several parts of a property, and small practices that need photo tools, shopping and presentation options together.",
+        "uk": "Власникам, які оновлюють різні частини об’єкта, і невеликим студіям, яким потрібні фотоінструменти, пошук товарів та презентації."
+      },
+      "confirm": {
+        "en": "Confirm access to each named tool: the feature directory uses different plan and add-on labels from the pricing cards. Check what the estimator includes for your region.",
+        "uk": "Уточніть доступ до конкретних інструментів: каталог функцій використовує інші назви тарифів і доповнень, ніж картки цін. Перевірте склад оцінки бюджету для свого регіону."
+      }
+    },
+    {
+      "slug": "reimaginehome",
+      "fit": {
+        "en": "Shoppable rooms and listing workflows",
+        "uk": "Інтер’єри з товарами та робота з оголошеннями"
+      },
+      "summary": {
+        "en": "REimagineHome combines staging and redesign with reference-led edits and real-product visualization. The important divide is between Essential’s basic staging and the broader Pro workflow, which Advanced and Agency expand with larger credit pools.",
+        "uk": "REimagineHome поєднує стейджинг та оновлення з правками за референсами й візуалізацією реальних товарів. Важлива різниця — між базовим стейджингом Essential і ширшим процесом Pro, для якого Advanced та Agency збільшують запас кредитів."
+      },
+      "features": [
+        {
+          "title": {
+            "en": "Conversation and references",
+            "uk": "Обговорення та референси"
+          },
+          "text": {
+            "en": "Pro supports instructions, reference scenes and objects, and memory across refinements. That suits a room developed through several changes rather than a single theme selection.",
+            "uk": "Pro підтримує інструкції, референси сцен і предметів та пам’ять послідовних правок. Це підходить для роботи над кімнатою в кілька етапів, а не лише вибору теми."
+          }
+        },
+        {
+          "title": {
+            "en": "Real Products Discovery + Visualization",
+            "uk": "Real Products Discovery + Visualization"
+          },
+          "text": {
+            "en": "Pro can connect the proposed room with shoppable items. Visualization uses one credit; adding real-product discovery uses two. Conversation and idea exploration use no credits.",
+            "uk": "Pro пов’язує запропоновану кімнату з товарами для купівлі. Візуалізація використовує один кредит, а з пошуком реальних товарів — два. Обговорення та пошук ідей не витрачають кредитів."
+          }
+        },
+        {
+          "title": {
+            "en": "Property-photo batches",
+            "uk": "Пакети фотографій нерухомості"
+          },
+          "text": {
+            "en": "The listing workflow groups property photos, supports batch changes and provides review before export. It is relevant for an agency preparing several views of the same listing.",
+            "uk": "Процес для оголошень групує фотографії об’єкта, підтримує пакетні зміни та перевірку перед експортом. Це доречно для агентства, яке готує кілька видів одного об’єкта."
+          }
+        }
+      ],
+      "pros": [
+        {
+          "en": "Reference-photo control and conversational refinements on Pro.",
+          "uk": "Керування референсами та послідовні правки в Pro."
+        },
+        {
+          "en": "Product discovery connects a visual direction with shopping.",
+          "uk": "Пошук товарів пов’язує візуальне рішення із закупівлями."
+        },
+        {
+          "en": "Batch tools fit listing-photo work.",
+          "uk": "Пакетні інструменти підходять для фотографій оголошення."
+        }
+      ],
+      "cons": [
+        {
+          "en": "Essential does not include Pro’s reference, conversational and real-product workflow.",
+          "uk": "Essential не включає роботу Pro з референсами, обговоренням і реальними товарами."
+        },
+        {
+          "en": "Product discovery doubles the credit cost of a visualization.",
+          "uk": "Пошук товарів подвоює витрату кредитів на візуалізацію."
+        }
+      ],
+      "bestFor": {
+        "en": "Agents preparing listings and homeowners who want to refine a room around references and furniture they may actually buy.",
+        "uk": "Агентам, які готують оголошення, та власникам, які хочуть уточнювати кімнату за референсами й меблями для реальної купівлі."
+      },
+      "confirm": {
+        "en": "Confirm team seats, export dimensions and checkout totals. Older price text elsewhere on the site differs from the active pricing cards.",
+        "uk": "Уточніть командні місця, розміри експорту та суму оплати. Старіші ціни на інших сторінках відрізняються від активних карток тарифів."
+      }
+    },
+    {
+      "slug": "interior-ai",
+      "fit": {
+        "en": "Ongoing photo concepts and presentation output",
+        "uk": "Регулярні фотоконцепції та презентаційні матеріали"
+      },
+      "summary": {
+        "en": "Interior AI starts with a photograph, a style or a prompt. Its subscriptions emphasize design volume, with broader editing and presentation tools on higher tiers. It is worth considering when image production is a regular part of the job.",
+        "uk": "Interior AI починає з фотографії, стилю або запиту. Підписки орієнтовані на кількість дизайнів, а старші тарифи додають редагування та презентаційні інструменти. Продукт варто розглянути, якщо зображення потрібні регулярно."
+      },
+      "features": [
+        {
+          "title": {
+            "en": "Room images and staging",
+            "uk": "Зображення кімнат і стейджинг"
+          },
+          "text": {
+            "en": "Style presets, custom prompts and remixing develop room-photo concepts. Virtual staging furnishes empty rooms; sketch and SketchUp inputs support existing design work.",
+            "uk": "Стилі, власні запити та змішування напрямів розвивають концепції за фото кімнати. Віртуальний стейджинг меблює порожні простори; ескізи та види SketchUp підтримують наявну дизайнерську роботу."
+          }
+        },
+        {
+          "title": {
+            "en": "Premium editing",
+            "uk": "Редагування в Premium"
+          },
+          "text": {
+            "en": "Premium adds wall painting, lighting changes, furniture additions and image editing. Google Lens lookup can help find something similar to an object in the design.",
+            "uk": "Premium додає фарбування стін, зміни освітлення, меблі та редагування зображень. Пошук Google Lens допомагає знайти предмет, схожий на показаний у дизайні."
+          }
+        },
+        {
+          "title": {
+            "en": "Volume and presentation",
+            "uk": "Обсяг і презентація"
+          },
+          "text": {
+            "en": "Premium lists upscaling, video and VR. Ultra increases the design allowance and parallel rendering capacity, useful distinctions for a designer producing many alternatives.",
+            "uk": "Premium включає апскейл, відео та VR. Ultra збільшує кількість дизайнів і паралельних генерацій — ці відмінності важливі дизайнеру з великою кількістю варіантів."
+          }
+        }
+      ],
+      "pros": [
+        {
+          "en": "Photo, staging and sketch-based workflows.",
+          "uk": "Робота з фото, стейджингом та ескізами."
+        },
+        {
+          "en": "Commercial use is already included on Pro.",
+          "uk": "Комерційне використання вже є на Pro."
+        },
+        {
+          "en": "Higher tiers add editing and several presentation formats.",
+          "uk": "Старші тарифи додають редагування та різні формати презентації."
+        }
+      ],
+      "cons": [
+        {
+          "en": "The broader editing toolkit requires Premium rather than Pro.",
+          "uk": "Ширший набір редагування потребує Premium, а не Pro."
+        },
+        {
+          "en": "A recurring, high-volume subscription may be more than a single-room experiment needs.",
+          "uk": "Регулярна підписка з великим обсягом може бути надмірною для разового експерименту з кімнатою."
+        }
+      ],
+      "bestFor": {
+        "en": "Designers and property teams that regularly produce room-photo concepts, staging images and client presentation material.",
+        "uk": "Дизайнерам і командам нерухомості, які регулярно готують фотоконцепції, стейджинг та матеріали для клієнтських презентацій."
+      },
+      "confirm": {
+        "en": "Confirm the free allowance, exact export sizes and rules for team access.",
+        "uk": "Уточніть безкоштовний ліміт, точні розміри експорту та правила командного доступу."
+      }
+    },
+    {
+      "slug": "spacely-ai",
+      "fit": {
+        "en": "Renders from an existing CAD workflow",
+        "uk": "Рендери з наявного CAD-процесу"
+      },
+      "summary": {
+        "en": "Spacely.ai is relevant when a drawing or model already exists and the next job is rendering and visual refinement. Its plan choice matters: CAD integrations and the Pro toolkit start above Personal.",
+        "uk": "Spacely.ai доречний, коли креслення або модель уже є, а наступний етап — рендеринг і візуальні правки. Вибір тарифу важливий: CAD-інтеграції та набір Pro доступні вище рівня Personal."
+      },
+      "features": [
+        {
+          "title": {
+            "en": "CAD integrations",
+            "uk": "CAD-інтеграції"
+          },
+          "text": {
+            "en": "Studio and Agency list SketchUp, Revit, AutoCAD and Rhino integrations. These help a practice develop visual output around the model it already uses.",
+            "uk": "Studio та Agency включають інтеграції SketchUp, Revit, AutoCAD і Rhino. Вони допомагають студії розвивати візуальні матеріали навколо наявної моделі."
+          }
+        },
+        {
+          "title": {
+            "en": "Local and reference-led edits",
+            "uk": "Локальні правки та референси"
+          },
+          "text": {
+            "en": "Point and Edit Pro targets changes; style, collage and lighting transfer use references. Lighting Control addresses the direction of light rather than only the overall mood.",
+            "uk": "Point and Edit Pro працює з вибраними змінами; перенесення стилю, колажу й освітлення використовує референси. Lighting Control змінює напрямок світла, а не лише загальний настрій."
+          }
+        },
+        {
+          "title": {
+            "en": "Shared output and integrations",
+            "uk": "Спільні результати та інтеграції"
+          },
+          "text": {
+            "en": "Studio adds up to two seats, collaboration and 4K downloads. Agency expands to five seats and lists API integration for a larger production workflow.",
+            "uk": "Studio додає до двох місць, спільну роботу та завантаження 4K. Agency розширює команду до п’яти місць і включає API для більшого виробничого процесу."
+          }
+        }
+      ],
+      "pros": [
+        {
+          "en": "Connects with established CAD and 3D applications.",
+          "uk": "Працює з поширеними CAD- та 3D-програмами."
+        },
+        {
+          "en": "Separate controls for local changes, materials and lighting.",
+          "uk": "Окремі інструменти для локальних змін, матеріалів і освітлення."
+        },
+        {
+          "en": "Studio and Agency combine rendering with collaboration.",
+          "uk": "Studio та Agency поєднують рендеринг зі спільною роботою."
+        }
+      ],
+      "cons": [
+        {
+          "en": "Personal excludes CAD plugins, Pro tools and 4K downloads.",
+          "uk": "Personal не включає CAD-плагіни, інструменти Pro та завантаження 4K."
+        },
+        {
+          "en": "Studio has two seats; a larger team needs Agency or another arrangement.",
+          "uk": "Studio має два місця; більшій команді потрібен Agency або інші умови."
+        }
+      ],
+      "bestFor": {
+        "en": "Architecture and design practices with an existing model, especially those that need to refine finishes or lighting for presentations.",
+        "uk": "Архітектурним і дизайнерським студіям із наявною моделлю, особливо для уточнення оздоблення й освітлення в презентаціях."
+      },
+      "confirm": {
+        "en": "Confirm plugin compatibility, regional prices, API scope and request limits for the workflow you intend to use.",
+        "uk": "Уточніть сумісність плагінів, регіональні ціни, функції API та ліміти запитів для своєї роботи."
+      }
+    },
+    {
+      "slug": "planner-5d",
+      "fit": {
+        "en": "Editable layouts and plan-led projects",
+        "uk": "Редаговане планування та робота з планами"
+      },
+      "summary": {
+        "en": "Planner 5D gives you an editable 2D and 3D project. It suits decisions about layout and furniture placement, with AI Studio available for visual development alongside the model. Professional adds the broader handover tools.",
+        "uk": "Planner 5D дає редагований 2D- і 3D-проєкт. Він підходить для планування та розміщення меблів, а AI Studio допомагає розвивати візуальне рішення поруч із моделлю. Professional додає ширші інструменти передачі проєкту."
+      },
+      "features": [
+        {
+          "title": {
+            "en": "Plans and recognition",
+            "uk": "Плани та розпізнавання"
+          },
+          "text": {
+            "en": "Premium adds recognition of uploaded floor plans and the full furniture catalogue. Check the recognized geometry against measurements before developing the model.",
+            "uk": "Premium додає розпізнавання завантажених планів і повний каталог меблів. Перед розвитком моделі звірте розпізнану геометрію з вимірами."
+          }
+        },
+        {
+          "title": {
+            "en": "AI Studio canvas",
+            "uk": "Полотно AI Studio"
+          },
+          "text": {
+            "en": "Room photos, references, sketches, plans and PDFs can sit on a canvas with moodboards and palettes. Local edits develop a view without replacing the underlying planning workflow.",
+            "uk": "Фото кімнат, референси, ескізи, плани та PDF можна розмістити на полотні разом із мудбордами й палітрами. Локальні правки розвивають вид поруч з основним процесом планування."
+          }
+        },
+        {
+          "title": {
+            "en": "Collaboration and delivery",
+            "uk": "Спільна робота та передача"
+          },
+          "text": {
+            "en": "Shared editing is available even on Free. Professional adds CAD, 4K renders, a Price Estimator and Specs & Docs Organizer for client-facing work.",
+            "uk": "Спільне редагування доступне навіть на Free. Professional додає CAD, рендери 4K, Price Estimator та Specs & Docs Organizer для клієнтської роботи."
+          }
+        }
+      ],
+      "pros": [
+        {
+          "en": "Editable 2D / 3D layouts and a furniture catalogue.",
+          "uk": "Редаговане 2D / 3D-планування та каталог меблів."
+        },
+        {
+          "en": "Shared editing on all plans, including Free.",
+          "uk": "Спільне редагування на всіх тарифах, включно з Free."
+        },
+        {
+          "en": "Professional combines visual and document exports.",
+          "uk": "Professional поєднує візуальні матеріали та експорт документів."
+        }
+      ],
+      "cons": [
+        {
+          "en": "CAD and the Professional presentation tools sit above Premium.",
+          "uk": "CAD і презентаційні інструменти Professional недоступні на Premium."
+        },
+        {
+          "en": "AI Studio credits and floor-plan recognition have separate allowances to track.",
+          "uk": "Кредити AI Studio та розпізнавання планів мають окремі ліміти."
+        }
+      ],
+      "bestFor": {
+        "en": "Homeowners comparing layouts and designers who want an editable model, shared review and a route to drawing exports.",
+        "uk": "Власникам, які порівнюють планування, та дизайнерам, яким потрібні редагована модель, спільний перегляд і експорт креслень."
+      },
+      "confirm": {
+        "en": "Confirm recognition allowances, credit use by model, and the model / output licences for your client deliverables.",
+        "uk": "Уточніть ліміти розпізнавання, витрати кредитів різних моделей і ліцензії для результатів, які передаєте клієнту."
+      }
+    },
+    {
+      "slug": "homestyler",
+      "fit": {
+        "en": "Detailed scenes and shared model libraries",
+        "uk": "Детальні сцени та спільні бібліотеки моделей"
+      },
+      "summary": {
+        "en": "Homestyler combines a cloud floor planner with detailed scene editing. Its paid tiers add parametric elements, drawing exports and larger render allowances, while Team organizes the studio’s shared projects and assets.",
+        "uk": "Homestyler поєднує хмарний планувальник із детальним редагуванням сцен. Платні тарифи додають параметричні елементи, експорт креслень і більші ліміти рендерів, а Team упорядковує спільні проєкти й матеріали студії."
+      },
+      "features": [
+        {
+          "title": {
+            "en": "Room and furniture modelling",
+            "uk": "Моделювання кімнат і меблів"
+          },
+          "text": {
+            "en": "Pro+ includes multi-floor tools, parametric stairs and cabinetry, custom furniture and material controls. These are useful when the model needs more than catalogue furniture placement.",
+            "uk": "Pro+ має інструменти кількох поверхів, параметричні сходи й шафи, власні меблі та керування матеріалами. Це корисно, коли моделі недостатньо розміщення готових предметів із каталогу."
+          }
+        },
+        {
+          "title": {
+            "en": "Light and drawing outputs",
+            "uk": "Світло та креслення"
+          },
+          "text": {
+            "en": "LightMix develops scene lighting. Pro+ lists coloured floor plans, BOMs and construction drawings; Master+ increases ordinary image rendering to unlimited 4K.",
+            "uk": "LightMix розвиває освітлення сцени. Pro+ має кольорові плани, BOM і будівельні креслення; Master+ додає необмежений звичайний рендеринг зображень у 4K."
+          }
+        },
+        {
+          "title": {
+            "en": "Team assets",
+            "uk": "Командні матеріали"
+          },
+          "text": {
+            "en": "Team provides Shared Design Space, private model / material libraries, member roles and branded renders. It suits a practice reusing the same assets across several projects.",
+            "uk": "Team дає Shared Design Space, приватні бібліотеки моделей і матеріалів, ролі учасників та брендування рендерів. Це підходить студії, яка використовує спільні матеріали в різних проєктах."
+          }
+        }
+      ],
+      "pros": [
+        {
+          "en": "Detailed room, cabinetry and custom-furniture controls.",
+          "uk": "Детальне керування кімнатами, шафами та власними меблями."
+        },
+        {
+          "en": "Drawing and schedule exports alongside renders.",
+          "uk": "Експорт креслень і відомостей разом із рендерами."
+        },
+        {
+          "en": "Shared libraries and account roles for studio work.",
+          "uk": "Спільні бібліотеки та ролі акаунтів для студії."
+        }
+      ],
+      "cons": [
+        {
+          "en": "AI credits and ordinary render allowances are separate.",
+          "uk": "AI-кредити та звичайні рендери мають окремі ліміти."
+        },
+        {
+          "en": "Model-based outputs require building or importing the room’s geometry.",
+          "uk": "Для результатів на основі моделі потрібно побудувати або імпортувати геометрію кімнати."
+        }
+      ],
+      "bestFor": {
+        "en": "Design studios and detailed room projects where shared models, custom elements and drawing exports matter.",
+        "uk": "Дизайн-студіям і детальним проєктам кімнат, для яких важливі спільні моделі, власні елементи та експорт креслень."
+      },
+      "confirm": {
+        "en": "Confirm the actual monthly charge: advertised starting rates do not establish month-to-month billing. Also check minimum Team seats and asset licences.",
+        "uk": "Уточніть фактичну місячну плату: початкові рекламні ціни не підтверджують помісячної оплати. Також перевірте мінімум місць Team і ліцензії матеріалів."
+      }
+    },
+    {
+      "slug": "foyr-neo",
+      "fit": {
+        "en": "Modeled interiors and client presentations",
+        "uk": "Модельовані інтер’єри та клієнтські презентації"
+      },
+      "summary": {
+        "en": "Foyr Neo is built around drawing, furnishing and rendering an editable interior. The plan differences are practical: render credits, user access and the drawings or presentation files the client needs.",
+        "uk": "Foyr Neo побудований навколо креслення, меблювання та рендерингу редагованого інтер’єру. Тарифи відрізняються практичними речами: кредитами рендерингу, доступом користувачів і потрібними клієнту кресленнями чи презентаціями."
+      },
+      "features": [
+        {
+          "title": {
+            "en": "Dimensioned scene editing",
+            "uk": "Редагування сцени з розмірами"
+          },
+          "text": {
+            "en": "Draw walls in real-world units, adjust lengths and thicknesses, then place catalogue models. Materials, lights and cameras are part of the scene.",
+            "uk": "Кресліть стіни в реальних одиницях, змінюйте довжину й товщину, а потім розміщуйте моделі з каталогу. Матеріали, світло та камери є частиною сцени."
+          }
+        },
+        {
+          "title": {
+            "en": "Client presentation",
+            "uk": "Презентація клієнту"
+          },
+          "text": {
+            "en": "Basic lists HD, 2K and 4K output. Standard adds two users, walkthroughs and floor-plan exports, useful when the proposal needs several coordinated views.",
+            "uk": "Basic включає HD, 2K та 4K. Standard додає двох користувачів, прогулянки й експорт планів — це корисно для пропозиції з кількома узгодженими видами."
+          }
+        },
+        {
+          "title": {
+            "en": "Premium deliverables",
+            "uk": "Результати Premium"
+          },
+          "text": {
+            "en": "Premium adds scaled wall elevations and one custom model per month. Foyr Manage handles a different part of the job: estimates, invoicing and administration.",
+            "uk": "Premium додає масштабовані розгортки стін та одну власну модель на місяць. Foyr Manage відповідає за іншу частину роботи: кошториси, рахунки та адміністрування."
+          }
+        }
+      ],
+      "pros": [
+        {
+          "en": "Editable, dimensioned room geometry.",
+          "uk": "Редагована геометрія кімнати з розмірами."
+        },
+        {
+          "en": "Rendering and presentation exports in the same design workflow.",
+          "uk": "Рендеринг і презентаційний експорт в одному дизайнерському процесі."
+        },
+        {
+          "en": "Two-user access on Standard and Premium.",
+          "uk": "Доступ для двох користувачів на Standard та Premium."
+        }
+      ],
+      "cons": [
+        {
+          "en": "Monthly render credits need to cover the views and revisions you plan to deliver.",
+          "uk": "Місячного запасу кредитів має вистачити на заплановані види й правки."
+        },
+        {
+          "en": "Estimates and invoicing through Foyr Manage are a separate product to check.",
+          "uk": "Кошториси та рахунки через Foyr Manage — окремий продукт, умови якого треба уточнити."
+        }
+      ],
+      "bestFor": {
+        "en": "Designers and small practices preparing measured room models, walkthroughs and coordinated presentation packages.",
+        "uk": "Дизайнерам і невеликим студіям, які готують моделі кімнат із розмірами, прогулянки та узгоджені презентаційні пакети."
+      },
+      "confirm": {
+        "en": "Confirm regional render allowances, custom-model turnaround and output / model licensing.",
+        "uk": "Уточніть регіональні ліміти рендерів, терміни створення власних моделей і ліцензії результатів та моделей."
+      }
+    },
+    {
+      "slug": "remodel-ai",
+      "fit": {
+        "en": "Trying finish changes on a phone",
+        "uk": "Примірювання оздоблення на телефоні"
+      },
+      "summary": {
+        "en": "Remodel AI offers iOS and Android photo tools for interiors, exteriors and landscaping. It is a useful starting point for a homeowner standing in the room and deciding which change is worth taking further.",
+        "uk": "Remodel AI пропонує фотоінструменти для інтер’єрів, екстер’єрів і ландшафту на iOS та Android. Це зручний початок для власника, який просто в кімнаті вирішує, яку зміну варто розвивати."
+      },
+      "features": [
+        {
+          "title": {
+            "en": "Paint and floor previews",
+            "uk": "Примірювання фарби та підлоги"
+          },
+          "text": {
+            "en": "Explore a changed wall finish, flooring or exterior from a photo. These previews can help narrow the choices before ordering physical samples.",
+            "uk": "За фото можна приміряти іншу стіну, підлогу або екстер’єр. Такі зображення допомагають звузити вибір перед замовленням реальних зразків."
+          }
+        },
+        {
+          "title": {
+            "en": "Reskin, Replace and Remove",
+            "uk": "Reskin, Replace та Remove"
+          },
+          "text": {
+            "en": "Reskin changes a surface or fabric treatment. Replace swaps an object, while Remove clears it from the image. These address different parts of a room refresh.",
+            "uk": "Reskin змінює вигляд поверхні або тканини. Replace замінює предмет, а Remove прибирає його із зображення. Інструменти вирішують різні завдання оновлення кімнати."
+          }
+        },
+        {
+          "title": {
+            "en": "Furniture matching and sharing",
+            "uk": "Пошук меблів і обмін результатами"
+          },
+          "text": {
+            "en": "The Shop workflow looks for furniture similar to the proposed design. Saving and sharing images helps discuss the direction with a partner, client or fitter.",
+            "uk": "Shop шукає меблі, схожі на запропоновані в дизайні. Збереження й поширення зображень допомагає обговорити напрям із партнером, клієнтом або майстром."
+          }
+        }
+      ],
+      "pros": [
+        {
+          "en": "Available on both iOS and Android.",
+          "uk": "Доступний на iOS та Android."
+        },
+        {
+          "en": "Named tools for surface changes, replacement and removal.",
+          "uk": "Окремі інструменти для поверхонь, заміни та видалення."
+        },
+        {
+          "en": "Interior and outdoor previews.",
+          "uk": "Примірювання інтер’єру та зовнішнього простору."
+        }
+      ],
+      "cons": [
+        {
+          "en": "The subscription offered depends on the app store, region and account.",
+          "uk": "Пропозиція підписки залежить від магазину застосунків, регіону й акаунта."
+        },
+        {
+          "en": "A photo preview still needs a measured layout for decisions about fit and clearance.",
+          "uk": "Для рішень про розміщення та зазори фотоескіз потрібно доповнити обмірним планом."
+        }
+      ],
+      "bestFor": {
+        "en": "Homeowners comparing a few finishes or furniture changes on a phone before committing to a larger project.",
+        "uk": "Власникам, які порівнюють кілька варіантів оздоблення чи меблів на телефоні перед більшим проєктом."
+      },
+      "confirm": {
+        "en": "Confirm the paid render allowance, export resolution and commercial-use rights in the app you will use.",
+        "uk": "Уточніть платний ліміт генерацій, роздільність експорту й комерційні права у своєму застосунку."
+      }
+    },
+    {
+      "slug": "roomgpt",
+      "fit": {
+        "en": "Occasional room-theme experiments",
+        "uk": "Разові експерименти з темами кімнати"
+      },
+      "summary": {
+        "en": "RoomGPT keeps the starting process small: upload a room photo, choose themes and select a quality setting. It sells one-time credit packs, which makes it a different purchase from a recurring design subscription.",
+        "uk": "RoomGPT має короткий початковий процес: завантажте фото кімнати, оберіть теми та якість. Він продає разові пакети кредитів, тому відрізняється від регулярної дизайнерської підписки."
+      },
+      "features": [
+        {
+          "title": {
+            "en": "Themes and quality",
+            "uk": "Теми та якість"
+          },
+          "text": {
+            "en": "Basic, Pro and Ultra use one, two and four credits per selected theme. Two themes on Pro use four credits; two on Ultra use eight.",
+            "uk": "Basic, Pro та Ultra використовують один, два й чотири кредити на кожну вибрану тему. Дві теми на Pro коштують чотири кредити, на Ultra — вісім."
+          }
+        },
+        {
+          "title": {
+            "en": "Extra written details",
+            "uk": "Додаткові текстові побажання"
+          },
+          "text": {
+            "en": "Pro and Ultra allow extra written details about the room. Use them to describe the furniture or finishes that need to stay when trying a new direction.",
+            "uk": "Pro та Ultra дозволяють додати текстові побажання щодо кімнати. Укажіть меблі чи оздоблення, які мають залишитися під час пошуку іншого напряму."
+          }
+        },
+        {
+          "title": {
+            "en": "Credit-pack access",
+            "uk": "Доступ за пакетами кредитів"
+          },
+          "text": {
+            "en": "Paid packs include commercial photo use and email support. The package price buys credits, rather than the same number of outputs at every quality level.",
+            "uk": "Платні пакети включають комерційне використання фото та підтримку електронною поштою. Пакет містить кредити, а не однакову кількість результатів за будь-якої якості."
+          }
+        }
+      ],
+      "pros": [
+        {
+          "en": "A short photo-and-theme workflow.",
+          "uk": "Короткий процес із фото та вибором теми."
+        },
+        {
+          "en": "One-time packs suit occasional use.",
+          "uk": "Разові пакети підходять для епізодичного використання."
+        },
+        {
+          "en": "Pro and Ultra accept more specific written instructions.",
+          "uk": "Pro та Ultra приймають конкретніші текстові побажання."
+        }
+      ],
+      "cons": [
+        {
+          "en": "Higher quality and multiple themes increase credit use.",
+          "uk": "Вища якість і кілька тем збільшують витрату кредитів."
+        },
+        {
+          "en": "The pack page still labels saved-dashboard access “Coming Soon”.",
+          "uk": "На сторінці пакетів збереження в панелі досі позначене «Coming Soon»."
+        }
+      ],
+      "bestFor": {
+        "en": "Someone exploring a few room directions without starting a monthly subscription.",
+        "uk": "Тим, хто хоче приміряти кілька напрямів кімнати без місячної підписки."
+      },
+      "confirm": {
+        "en": "Confirm credit expiry, export sizes and any local-edit or reference-photo controls your next step needs.",
+        "uk": "Уточніть термін дії кредитів, розміри експорту та потрібні інструменти локальних правок або референсів."
+      }
+    }
+  ]
+}

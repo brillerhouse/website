@@ -74,7 +74,7 @@ test('The requested /comparison2 folder works directly; the parallel version sta
  assert.ok(!sitemap.includes('/comparison2/')&&!llms.includes('/comparison2/'));
  for(const slug of ['',...original.map(p=>p.slug)]){
   const html=markup(fs.readFileSync(`out/comparison2/${slug?slug+'/':''}index.html`,'utf8'));
-  assert.ok(html.includes('class="comparison2-page"'));
+  assert.match(html,/class="comparison2-page(?: [^"]+)?"/);
   assert.ok(html.includes(`<link rel="canonical" href="https://briller.house/en/comparison2/${slug?slug+'/':''}"`));
  }
  // Existing comparison pages retain their original published URLs and layout.
@@ -188,4 +188,35 @@ test('Localized article heroes use homepage images and official website links co
   assert.ok(official.includes(`href="${product.url}" target="_blank" rel="noopener noreferrer"`));assert.ok(official.includes(`src="${brand.logo.src}"`));assert.ok(official.includes(`alt="${product.name}"`));assert.ok(official.includes('comparison2-logo-'+brand.logo.background));
   assert.ok(fs.existsSync('out'+brand.homepage.src)&&fs.existsSync('out'+brand.logo.src));
  }
+});
+
+test('The overview is a bilingual guide with specific features, pros, cons, best-for copy and a Briller conclusion',()=>{
+ const guide=json('content/comparison2/roundup.json');assert.equal(guide.products.length,9);assert.deepEqual([...guide.products.map(p=>p.slug)].sort(),original.map(p=>p.slug).sort());
+ for(const locale of ['en','uk']){
+  assert.ok(guide.intro[locale].split(/\s+/).length<65);
+  const html=markup(fs.readFileSync(`out/${locale}/comparison2/index.html`,'utf8'));
+  for(const entry of guide.products){
+   assert.ok(entry.features.length>=3&&entry.pros.length>=2&&entry.cons.length>=1);assert.ok(entry.summary[locale]&&entry.bestFor[locale]&&entry.confirm[locale]);
+   assert.ok(html.includes(`id="${entry.slug}"`));assert.ok(html.includes(`href="#${entry.slug}"`));
+   const block=html.slice(html.indexOf(`class="comparison2-roundup-product" id="${entry.slug}"`),html.indexOf('</section>',html.indexOf(`class="comparison2-roundup-product" id="${entry.slug}"`)));
+   for(const label of ['keyFeatures','pros','cons','bestFor'])assert.ok(block.includes(`<h3>${labels[locale][label]}</h3>`),entry.slug+': missing '+label);
+   assert.ok(block.includes('comparison2-homepage'));assert.ok(block.includes('comparison2-brand-link'));assert.ok(block.includes(`href="/${locale}/comparison2/${entry.slug}/"`));
+   assert.ok(!block.includes('<table'));for(const feature of entry.features)assert.ok(feature.title[locale]&&feature.text[locale]);
+  }
+  assert.ok(html.indexOf('id="briller-conclusion"')>html.indexOf('id="pricing"'));
+  const conclusion=html.slice(html.indexOf('id="briller-conclusion"'));assert.ok(conclusion.includes('Briller'));assert.ok(conclusion.includes('PDF'));assert.ok(conclusion.includes(`href="/${locale}/solutions/first-room-refresh/"`));
+  for(const link of html.matchAll(/href="#([^"]+)"/g))assert.ok(html.includes(`id="${link[1]}"`));
+  assert.ok(!/we tested|fastest|best overall|ми протестували/i.test(JSON.stringify(guide)));
+ }
+});
+
+test('Capterra feedback can render only with verified, dated and attributed source records',()=>{
+ const feedback=json('content/comparison2/reviews.json');
+ if(feedback.status==='verified'){assert.ok(feedback.reviews.length>0);assert.match(feedback.checkedAt,/^\d{4}-\d{2}-\d{2}$/);}else assert.equal(feedback.reviews.length,0);
+ for(const review of feedback.reviews){
+  assert.equal(review.verified,true);assert.ok(original.some(p=>p.slug===review.slug));assert.ok(review.id&&review.author);assert.ok(review.score>=1&&review.score<=5);
+  assert.match(review.reviewedAt,/^\d{4}-\d{2}-\d{2}$/);assert.match(review.accessedAt,/^\d{4}-\d{2}-\d{2}$/);assert.ok(review.reviewedAt<=review.accessedAt);assert.equal(new URL(review.sourceUrl).hostname,'www.capterra.com');
+  for(const locale of ['en','uk']){assert.ok(review.summary[locale]);const html=markup(fs.readFileSync(`out/${locale}/comparison2/index.html`,'utf8'));assert.ok(html.includes(review.author));assert.ok(html.includes(`dateTime="${review.reviewedAt}"`));assert.ok(html.includes(`href="${review.sourceUrl}"`));}
+ }
+ if(!feedback.reviews.length)for(const locale of ['en','uk']){const html=markup(fs.readFileSync(`out/${locale}/comparison2/index.html`,'utf8'));assert.ok(!html.includes('class="comparison2-review"'));}
 });

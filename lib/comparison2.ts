@@ -3,6 +3,8 @@ import ui from '@/content/comparison2/ui.json';
 import tierPricing from '@/content/comparison2/pricing.json';
 import screenshots from '@/content/comparison2/screenshots.json';
 import brands from '@/content/comparison2/brands.json';
+import roundup from '@/content/comparison2/roundup.json';
+import reviews from '@/content/comparison2/reviews.json';
 import plans from '@/content/plans.json';
 import { competitors, amountLabel, type Competitor, type Localized } from './compare';
 import { href, site, socialPreview, type Locale } from './content';
@@ -30,6 +32,15 @@ export const comparison2Products: Comparison2Product[] = competitors.map(product
   return { ...product, editorial, tierPricing: pricing, screenshots: images, brand };
 });
 export const comparison2BySlug = (slug: string) => comparison2Products.find(product => product.slug === slug);
+export type CapterraReview = { id: string; slug: string; author: string; role?: string; reviewedAt: string; score: number; summary: Localized; sourceUrl: string; accessedAt: string; verified: true };
+type RoundupEntry = { slug: string; fit: Localized; summary: Localized; features: { title: Localized; text: Localized }[]; pros: Localized[]; cons: Localized[]; bestFor: Localized; confirm: Localized };
+export const comparison2Roundup = roundup;
+export const comparison2RoundupProducts = (roundup.products as RoundupEntry[]).map(entry => {
+  const product = comparison2BySlug(entry.slug);
+  if (!product) throw new Error(`Unknown roundup product: ${entry.slug}`);
+  const feedback = (reviews.reviews as CapterraReview[]).filter(review => review.slug === entry.slug && review.verified);
+  return { ...product, roundup: entry, reviews: feedback };
+});
 export const comparison2Copy = (locale: Locale) => ui[locale];
 export const comparison2Href = (locale: Locale, slug?: string) => href(locale, 'comparison2' + (slug ? '/' + slug : ''));
 export const comparison2Title = (product: Competitor) => `Briller vs ${product.name}`;
