@@ -22,6 +22,15 @@ function Screenshot({ image, product, locale }: { image: FeatureScreenshot; prod
     <figcaption><p>{image.caption[locale]}</p><div><span>{product.name} · {c.officialDemo}</span><a href={image.src} target="_blank" rel="noopener noreferrer">{c.openScreenshot}<ArrowUpRight size={14} aria-hidden="true"/></a></div></figcaption>
   </figure>;
 }
+function ArticleHero({ product, locale }: { product: Comparison2Product; locale: Locale }) {
+  const c = comparison2Copy(locale), image = product.brand.homepage;
+  return <section className="page-heading comparison2-hero">
+    <a className="text-link comparison2-back" href={comparison2Href(locale)}><ArrowRight size={16} aria-hidden="true"/>{c.overview}</a>
+    <div className="comparison2-hero-layout"><div className="comparison2-hero-copy"><p className="eyebrow">BRILLER / {c.label}</p><h1>{comparison2Title(product)}</h1><p>{product.editorial.intro[locale]}</p></div>
+      <figure className="comparison2-homepage"><a href={image.src} target="_blank" rel="noopener noreferrer" aria-label={`${c.openScreenshot}: ${image.alt[locale]}`}><img src={image.src} width={image.width} height={image.height} alt={image.alt[locale]} fetchPriority="high" decoding="async"/></a><figcaption><span>{product.name} · {c.homepage}</span><a href={image.src} target="_blank" rel="noopener noreferrer">{c.openScreenshot}<ArrowUpRight size={14} aria-hidden="true"/></a></figcaption></figure>
+    </div>
+  </section>;
+}
 function CompetitorPackage({ tier, locale }: { tier: ComparisonTier; locale: Locale }) {
   const c = comparison2Copy(locale), offer = comparison2MonthlyOffer(tier);
   const price = offer ? comparison2Offer(offer, locale) : undefined;
@@ -59,7 +68,7 @@ export function Comparison2Article({ product, locale }: { product: Comparison2Pr
   const c = comparison2Copy(locale), e = product.editorial;
   const schema = { '@context': 'https://schema.org', '@type': 'WebPage', url: site.origin + comparison2Href(locale, product.slug), name: comparison2Title(product), description: e.intro[locale], inLanguage: locale, publisher: { '@id': site.origin + '/#organization' }, isPartOf: { '@id': site.origin + comparison2Href(locale) }, citation: { '@type': 'WebPage', name: product.name, url: product.url } };
   const related = comparison2Products.filter(item => item.slug !== product.slug).sort((a, b) => Number(b.category === product.category) - Number(a.category === product.category)).slice(0, 2);
-  return <article className="comparison2-page"><section className="page-heading comparison2-hero"><a className="text-link comparison2-back" href={comparison2Href(locale)}><ArrowRight size={16} aria-hidden="true"/>{c.overview}</a><p className="eyebrow">BRILLER / {c.label}</p><h1>{comparison2Title(product)}</h1><p>{e.intro[locale]}</p></section>
+  return <article className="comparison2-page"><ArticleHero product={product} locale={locale}/>
     <div className="section comparison2-reading-layout"><aside className="comparison2-contents"><nav aria-label={c.onPage}><p className="eyebrow">{c.onPage}</p>{e.sections.map(section => <a href={'#' + section.id} key={section.id}>{section.heading[locale]}</a>)}<a href="#pricing">{c.pricing}</a><a href="#to-confirm">{c.confirmTitle}</a></nav></aside>
       <div className="comparison2-prose">{e.sections.map(section => <section className="comparison2-capability" id={section.id} key={section.id}><h2>{section.heading[locale]}</h2><p>{section.paragraphs[0][locale]}</p>{product.screenshots.filter(image => image.section === section.id).map(image => <Screenshot image={image} product={product} locale={locale} key={image.id}/>)}{section.paragraphs.slice(1).map(paragraph => <p key={paragraph.en}>{paragraph[locale]}</p>)}<div className="comparison2-perspective"><h3>{section.perspective.audience[locale]}</h3><p>{section.perspective.text[locale]}</p><a className="text-link" href={solutionHref(locale, section.perspective.solution)}>{section.perspective.label[locale]}<ArrowRight size={16} aria-hidden="true"/></a></div></section>)}
         <Pricing product={product} locale={locale}/>
@@ -68,7 +77,7 @@ export function Comparison2Article({ product, locale }: { product: Comparison2Pr
     </div>
     <section className="section"><CTA locale={locale}/></section>
     <section className="section comparison2-related"><h2>{c.related}</h2><div className="comparison2-cards">{related.map(item => <Card product={item} locale={locale} key={item.slug}/>)}</div></section>
-    <section className="section comparison2-official"><a className="text-link" href={product.url} target="_blank" rel="noopener noreferrer">{product.name} — {c.official}<ArrowUpRight size={16} aria-hidden="true"/></a></section>
+    <section className="section comparison2-official"><a className="comparison2-brand-link" href={product.url} target="_blank" rel="noopener noreferrer"><span className={"comparison2-logo-well comparison2-logo-" + product.brand.logo.background}><img src={product.brand.logo.src} width={product.brand.logo.width} height={product.brand.logo.height} alt={product.name} loading="lazy" decoding="async"/></span><span>{c.official}<ArrowUpRight size={16} aria-hidden="true"/></span></a></section>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\\u003c') }}/>
   </article>;
 }

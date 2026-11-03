@@ -76,7 +76,8 @@
     "monthlyUnknown": "Monthly rate to confirm",
     "noMonthly": "One-time credit packs; no monthly subscription.",
     "officialDemo": "Official product demonstration",
-    "openScreenshot": "Open full size"
+    "openScreenshot": "Open full size",
+    "homepage": "Homepage"
   },
   "uk": {
     "label": "Порівняння",
@@ -155,6 +156,7 @@
     "monthlyUnknown": "Місячну ціну потрібно уточнити",
     "noMonthly": "Разові пакети кредитів; місячної підписки немає.",
     "officialDemo": "Офіційна демонстрація продукту",
-    "openScreenshot": "Відкрити повний розмір"
+    "openScreenshot": "Відкрити повний розмір",
+    "homepage": "Головна сторінка"
   }
 }

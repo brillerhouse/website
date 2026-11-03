@@ -1,0 +1,238 @@
+{
+  "products": [
+    {
+      "slug": "interior-ai",
+      "homepage": {
+        "src": "/images/comparison2/interior-ai-homepage.webp",
+        "width": 1440,
+        "height": 960,
+        "alt": {
+          "en": "Interior AI homepage",
+          "uk": "Головна сторінка Interior AI"
+        },
+        "sourceUrl": "https://interiorai.com/",
+        "capturedAt": "2026-11-03",
+        "sha256": "b7bba3ca3c7e7356b7eae557c63e1b0da0e92bc657f2cd3e041a679d1f18f29c"
+      },
+      "logo": {
+        "src": "/images/comparison2/interior-ai-logo.webp",
+        "width": 474,
+        "height": 70,
+        "sourceUrl": "https://interiorai.com/",
+        "capturedAt": "2026-11-03",
+        "background": "dark",
+        "method": "rendered-wordmark",
+        "selector": ".logo",
+        "sha256": "ca5c07227650d7b580b70cc5a92fa7a9116f96dbc10b552237aa20a1ed0201c9"
+      }
+    },
+    {
+      "slug": "reimaginehome",
+      "homepage": {
+        "src": "/images/comparison2/reimaginehome-homepage.webp",
+        "width": 1440,
+        "height": 740,
+        "alt": {
+          "en": "REimagineHome homepage",
+          "uk": "Головна сторінка REimagineHome"
+        },
+        "sourceUrl": "https://www.reimaginehome.ai/",
+        "capturedAt": "2026-11-03",
+        "sha256": "1353a87445a9e61b1ac480046b51c90587de3bf8345bea9646768605ef293f10"
+      },
+      "logo": {
+        "src": "/images/comparison2/reimaginehome-logo.webp",
+        "width": 346,
+        "height": 68,
+        "sourceUrl": "https://www.reimaginehome.ai/",
+        "capturedAt": "2026-11-03",
+        "background": "light",
+        "method": "rendered-wordmark",
+        "selector": "a[aria-label=\"REimagineHome - Go to homepage\"]",
+        "sha256": "df9c7bd0532b73110a373a7c8664c5c1e460bd08d004fa33dc8671c8e9466d9d"
+      }
+    },
+    {
+      "slug": "roomgpt",
+      "homepage": {
+        "src": "/images/comparison2/roomgpt-homepage.webp",
+        "width": 1440,
+        "height": 960,
+        "alt": {
+          "en": "RoomGPT homepage",
+          "uk": "Головна сторінка RoomGPT"
+        },
+        "sourceUrl": "https://www.roomgpt.io/",
+        "capturedAt": "2026-11-03",
+        "sha256": "12bc1efed567bf6dd37341bf70e8830bb460d05324fdb040db8ea6790daacb7d"
+      },
+      "logo": {
+        "src": "/images/comparison2/roomgpt-logo.webp",
+        "width": 480,
+        "height": 82,
+        "sourceUrl": "https://assets.roomgpt.io/roomgptLogo.svg",
+        "capturedAt": "2026-11-03",
+        "background": "light",
+        "method": "official-image",
+        "selector": "img[src*=\"roomgptLogo\"]",
+        "sha256": "bc03587aa896e7d24a596333e8d2a3b042c82339946f16a4e817067f4309f54e"
+      }
+    },
+    {
+      "slug": "homedesigns-ai",
+      "homepage": {
+        "src": "/images/comparison2/homedesigns-ai-homepage.webp",
+        "width": 1440,
+        "height": 960,
+        "alt": {
+          "en": "HomeDesignsAI homepage",
+          "uk": "Головна сторінка HomeDesignsAI"
+        },
+        "sourceUrl": "https://homedesigns.ai/",
+        "capturedAt": "2026-11-03",
+        "sha256": "d912c0d1c66a9b01a9cd9a950b7104cdd994b1572ecef1b8b465f2242ee79a0c"
+      },
+      "logo": {
+        "src": "/images/comparison2/homedesigns-ai-logo.webp",
+        "width": 480,
+        "height": 70,
+        "sourceUrl": "https://cdn.homedesigns.ai/web/images/NewHomeDesignsAILogo.svg",
+        "capturedAt": "2026-11-03",
+        "background": "light",
+        "method": "official-image",
+        "selector": "img[src*=\"NewHomeDesignsAILogo\"]",
+        "sha256": "07c7f7355c23de4be0f5e9a4c1335e3d568fbe91fc0f69b48735e8d97862b3cb"
+      }
+    },
+    {
+      "slug": "remodel-ai",
+      "homepage": {
+        "src": "/images/comparison2/remodel-ai-homepage.webp",
+        "width": 1440,
+        "height": 960,
+        "alt": {
+          "en": "Remodel AI homepage",
+          "uk": "Головна сторінка Remodel AI"
+        },
+        "sourceUrl": "https://remodelai.app/",
+        "capturedAt": "2026-11-03",
+        "sha256": "8e22d16accd7f8a0a8484b5ce1a59b72fc7ac352e95729c7e088e78da32c0764"
+      },
+      "logo": {
+        "src": "/images/comparison2/remodel-ai-logo.webp",
+        "width": 471,
+        "height": 160,
+        "sourceUrl": "https://remodelai.app/wp-content/uploads/2024/04/logo-horizontal-white-1-768x261.png",
+        "capturedAt": "2026-11-03",
+        "background": "dark",
+        "method": "official-image",
+        "selector": "a.transparent-custom-logo img",
+        "sha256": "c86c5839b17812489f94b4e7f3eb519048614ce1fde159ce3f62b9f0381bf326"
+      }
+    },
+    {
+      "slug": "planner-5d",
+      "homepage": {
+        "src": "/images/comparison2/planner-5d-homepage.webp",
+        "width": 1440,
+        "height": 960,
+        "alt": {
+          "en": "Planner 5D homepage",
+          "uk": "Головна сторінка Planner 5D"
+        },
+        "sourceUrl": "https://planner5d.com/",
+        "capturedAt": "2026-11-03",
+        "sha256": "070d4bffab064b715885f72af697dfbcd659f4695a34b95d218be6b5f03afa60"
+      },
+      "logo": {
+        "src": "/images/comparison2/planner-5d-logo.webp",
+        "width": 200,
+        "height": 60,
+        "sourceUrl": "https://planner5d.com/",
+        "capturedAt": "2026-11-03",
+        "background": "light",
+        "method": "rendered-wordmark",
+        "selector": "a.header-main-logo",
+        "sha256": "403c2350c42668efe7de49f67203a3109eac11969e0cde1f66959cfb2c3d498b"
+      }
+    },
+    {
+      "slug": "homestyler",
+      "homepage": {
+        "src": "/images/comparison2/homestyler-homepage.webp",
+        "width": 1440,
+        "height": 960,
+        "alt": {
+          "en": "Homestyler homepage",
+          "uk": "Головна сторінка Homestyler"
+        },
+        "sourceUrl": "https://www.homestyler.com/",
+        "capturedAt": "2026-11-03",
+        "sha256": "ee0d2d4b7984568c1895b9928c14c88b5d91a3a9ca695eba921a86a9d57fc9f2"
+      },
+      "logo": {
+        "src": "/images/comparison2/homestyler-logo.webp",
+        "width": 342,
+        "height": 64,
+        "sourceUrl": "https://cdn-publish-filemanager.homestyler.com/prod/_homestyler/_nuxt/dist/client/img/logo-new.1ecb1cb.png",
+        "capturedAt": "2026-11-03",
+        "background": "light",
+        "method": "official-image",
+        "selector": "a.navbar-logo img",
+        "sha256": "6c2257995655b9d62f603cf41a448438ccadca8b5c6b67046483f01d5282a973"
+      }
+    },
+    {
+      "slug": "foyr-neo",
+      "homepage": {
+        "src": "/images/comparison2/foyr-neo-homepage.webp",
+        "width": 1440,
+        "height": 960,
+        "alt": {
+          "en": "Foyr Neo homepage",
+          "uk": "Головна сторінка Foyr Neo"
+        },
+        "sourceUrl": "https://foyr.com/",
+        "capturedAt": "2026-11-03",
+        "sha256": "900327349917e1d946b3e11613e3f0b5aeb39622c0392541bb8e02946cfae57a"
+      },
+      "logo": {
+        "src": "/images/comparison2/foyr-neo-logo.webp",
+        "width": 136,
+        "height": 66,
+        "sourceUrl": "https://foyr.com/",
+        "capturedAt": "2026-11-03",
+        "background": "light",
+        "method": "rendered-wordmark",
+        "selector": "a.revamp-header__logo",
+        "sha256": "4e8a5ed0dfa1bfbf576c0b19e7bf8493e5eca7daa74ac0723e09c2334578846b"
+      }
+    },
+    {
+      "slug": "spacely-ai",
+      "homepage": {
+        "src": "/images/comparison2/spacely-ai-homepage.webp",
+        "width": 1440,
+        "height": 960,
+        "alt": {
+          "en": "Spacely.ai homepage",
+          "uk": "Головна сторінка Spacely.ai"
+        },
+        "sourceUrl": "https://www.spacely.ai/",
+        "capturedAt": "2026-11-03",
+        "sha256": "7da7bb45ab49663ec8514aab558b214bcaa2a94908b30aac5175fd891305ec7c"
+      },
+      "logo": {
+        "src": "/images/comparison2/spacely-ai-logo.webp",
+        "width": 480,
+        "height": 122,
+        "sourceUrl": "https://www.spacely.ai/assets/icons/spacely-logo.png?dpl=dpl_21xQ6YGkkF8PYRZ9uMUjrGBxG7eu",
+        "capturedAt": "2026-11-03",
+        "background": "light",
+        "method": "official-image",
+        "selector": "img[alt=\"Spacely AI\"]",
+        "sha256": "b89af30c62ef8040208a1796c657d662168797abaadf6df3bd41c1e9e66a7c36"
+      }
+    }
+  ]
+}

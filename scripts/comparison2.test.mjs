@@ -161,3 +161,31 @@ test('Screenshots appear next to the correct capability, open locally at full si
   }
  }
 });
+
+test('Each competitor has a local homepage capture and an official logo with source records',async()=>{
+ const {createHash}=await import('node:crypto');const {default:sharp}=await import('sharp');const brands=json('content/comparison2/brands.json').products;
+ assert.deepEqual(brands.map(b=>b.slug),original.map(p=>p.slug));
+ for(const brand of brands){
+  const product=original.find(p=>p.slug===brand.slug);
+  assert.equal(brand.homepage.sourceUrl,product.url);
+  for(const key of ['homepage','logo']){
+   const asset=brand[key];assert.match(asset.src,new RegExp(`^/images/comparison2/${brand.slug}-${key}\\.webp$`));
+   const bytes=fs.readFileSync('public'+asset.src),meta=await sharp(bytes).metadata();assert.equal(meta.format,'webp');assert.equal(meta.width,asset.width);assert.equal(meta.height,asset.height);assert.equal(createHash('sha256').update(bytes).digest('hex'),asset.sha256);assert.match(asset.capturedAt,/^\d{4}-\d{2}-\d{2}$/);assert.equal(new URL(asset.sourceUrl).protocol,'https:');
+  }
+  assert.equal(brand.homepage.width,1440);assert.ok(brand.homepage.height>=700&&brand.homepage.height<=1000);
+  assert.ok(brand.logo.width>=100&&brand.logo.height>=20);assert.ok(['light','dark'].includes(brand.logo.background));
+  for(const locale of ['en','uk'])assert.ok(brand.homepage.alt[locale].includes(product.name));
+ }
+});
+
+test('Localized article heroes use homepage images and official website links contain the matching logo',()=>{
+ const brands=json('content/comparison2/brands.json').products;
+ for(const locale of ['en','uk'])for(const brand of brands){
+  const product=original.find(p=>p.slug===brand.slug),html=markup(fs.readFileSync(`out/${locale}/comparison2/${brand.slug}/index.html`,'utf8'));
+  const hero=html.slice(html.indexOf('class="page-heading comparison2-hero"'),html.indexOf('class="section comparison2-reading-layout"'));
+  assert.ok(hero.includes('comparison2-hero-layout'));assert.ok(hero.includes(`src="${brand.homepage.src}"`));assert.ok(hero.includes(`alt="${brand.homepage.alt[locale]}"`));assert.ok(hero.includes('fetchPriority="high"'));assert.ok(!hero.includes('loading="lazy"'));
+  const official=html.slice(html.indexOf('class="section comparison2-official"'));
+  assert.ok(official.includes(`href="${product.url}" target="_blank" rel="noopener noreferrer"`));assert.ok(official.includes(`src="${brand.logo.src}"`));assert.ok(official.includes(`alt="${product.name}"`));assert.ok(official.includes('comparison2-logo-'+brand.logo.background));
+  assert.ok(fs.existsSync('out'+brand.homepage.src)&&fs.existsSync('out'+brand.logo.src));
+ }
+});
