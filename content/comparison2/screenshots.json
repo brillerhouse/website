@@ -1,0 +1,292 @@
+{
+  "products": [
+    {
+      "slug": "interior-ai",
+      "images": [],
+      "pending": "Official demonstration assets are blocked by the current environment network allowlist; media-host additions are saved in the environment draft."
+    },
+    {
+      "slug": "reimaginehome",
+      "images": [
+        {
+          "id": "real-product-workflow",
+          "section": "products",
+          "src": "/images/comparison2/reimaginehome-real-product-workflow.webp",
+          "width": 2464,
+          "height": 1104,
+          "alt": {
+            "en": "REimagineHome demo showing a room photo, furniture budget options and a shoppable room design",
+            "uk": "Демонстрація REimagineHome: фото кімнати, варіанти бюджету меблів і дизайн із товарами"
+          },
+          "caption": {
+            "en": "Real-product workflow: the room brief, a choice of furniture sets and the proposed room with shopping controls.",
+            "uk": "Робота з реальними товарами: завдання для кімнати, вибір набору меблів і запропонований інтер’єр із керуванням покупками."
+          },
+          "sourceUrl": "https://www.reimaginehome.ai/",
+          "capturedAt": "2026-11-03",
+          "capture": {
+            "selector": "img[src*=\"real-products-sections-before\"]",
+            "parents": 4,
+            "viewport": {
+              "width": 1440,
+              "height": 1100
+            },
+            "deviceScaleFactor": 2
+          },
+          "sha256": "9d459d9be97519c19945c64968cf771a54edea28d43fa437a37763bc7151ac56"
+        },
+        {
+          "id": "listing-batch-workflow",
+          "section": "handover",
+          "src": "/images/comparison2/reimaginehome-listing-batch-workflow.webp",
+          "width": 2220,
+          "height": 1428,
+          "alt": {
+            "en": "REimagineHome listing workflow with photo upload, room sorting, batch fixes, review and export",
+            "uk": "Робота з оголошеннями REimagineHome: завантаження фото, сортування кімнат, пакетні правки, перевірка та експорт"
+          },
+          "caption": {
+            "en": "Listing batch demo: upload a set of property photos, review the suggested changes and export the finished gallery.",
+            "uk": "Демонстрація пакетної роботи: завантаження фото нерухомості, перевірка запропонованих змін та експорт готової галереї."
+          },
+          "sourceUrl": "https://www.reimaginehome.ai/",
+          "capturedAt": "2026-11-03",
+          "capture": {
+            "selector": "img[src*=\"batch-workflow/card_1\"]",
+            "parents": 3,
+            "viewport": {
+              "width": 1440,
+              "height": 1100
+            },
+            "deviceScaleFactor": 2
+          },
+          "sha256": "4803d405162ff53945bcbef891a71da7548ced5706056f2ebf4f74c6b3de6e84"
+        }
+      ]
+    },
+    {
+      "slug": "roomgpt",
+      "images": [
+        {
+          "id": "room-theme-examples",
+          "section": "themes",
+          "src": "/images/comparison2/roomgpt-room-theme-examples.webp",
+          "width": 2848,
+          "height": 1142,
+          "alt": {
+            "en": "RoomGPT’s published gallery showing three different room-design examples",
+            "uk": "Опублікована галерея RoomGPT із трьома прикладами дизайну кімнат"
+          },
+          "caption": {
+            "en": "Room-design examples from RoomGPT’s published gallery.",
+            "uk": "Приклади дизайну кімнат з офіційної галереї RoomGPT."
+          },
+          "sourceUrl": "https://www.roomgpt.io/",
+          "capturedAt": "2026-11-03",
+          "capture": {
+            "selector": "h2:has-text(\"Rooms that\")",
+            "parents": 3,
+            "viewport": {
+              "width": 1440,
+              "height": 1100
+            },
+            "deviceScaleFactor": 2
+          },
+          "sha256": "e5652d66ab4e20c2bc87dd6f97585c6f1f89a71e3b386ab495dcd4b827518404"
+        }
+      ]
+    },
+    {
+      "slug": "homedesigns-ai",
+      "images": [],
+      "pending": "Official demonstration assets are blocked by the current environment network allowlist; media-host additions are saved in the environment draft."
+    },
+    {
+      "slug": "remodel-ai",
+      "images": [
+        {
+          "id": "room-and-exterior-tools",
+          "section": "phone-workflow",
+          "src": "/images/comparison2/remodel-ai-room-and-exterior-tools.webp",
+          "width": 2240,
+          "height": 894,
+          "alt": {
+            "en": "Remodel AI feature cards comparing interior, exterior and landscaping transformations",
+            "uk": "Картки функцій Remodel AI з прикладами змін інтер’єру, екстер’єру та ландшафту"
+          },
+          "caption": {
+            "en": "Remodel AI’s feature examples cover interiors, façades and landscaping, with before-and-after sliders.",
+            "uk": "Приклади Remodel AI охоплюють інтер’єри, фасади та ландшафт із повзунками «до й після»."
+          },
+          "sourceUrl": "https://remodelai.app/",
+          "capturedAt": "2026-11-03",
+          "capture": {
+            "selector": "img[src*=\"interior-remodel-input\"]",
+            "parents": 6,
+            "viewport": {
+              "width": 1440,
+              "height": 1100
+            },
+            "deviceScaleFactor": 2
+          },
+          "sha256": "e906ac494c015162ca0f411c0396267a7190ac23daad0e93ae377f0a330120cd"
+        },
+        {
+          "id": "replace-remove-and-shop",
+          "section": "objects",
+          "src": "/images/comparison2/remodel-ai-replace-remove-and-shop.webp",
+          "width": 2240,
+          "height": 894,
+          "alt": {
+            "en": "Remodel AI examples of Replace, Remove and Shop tools for furniture and objects",
+            "uk": "Приклади інструментів Replace, Remove та Shop у Remodel AI для меблів і предметів"
+          },
+          "caption": {
+            "en": "Replace changes an object, Remove clears it from the image, and Shop connects the proposed room with furniture searches.",
+            "uk": "Replace змінює предмет, Remove прибирає його із зображення, а Shop пов’язує запропонований інтер’єр із пошуком меблів."
+          },
+          "sourceUrl": "https://remodelai.app/",
+          "capturedAt": "2026-11-03",
+          "capture": {
+            "selector": "img[src*=\"replace-input\"]",
+            "parents": 6,
+            "viewport": {
+              "width": 1440,
+              "height": 1100
+            },
+            "deviceScaleFactor": 2
+          },
+          "sha256": "90992cfc3de8ae79136153b6e0ccbac7f94531811ac1bc5e8a3d72e66836f54e"
+        }
+      ]
+    },
+    {
+      "slug": "planner-5d",
+      "images": [
+        {
+          "id": "shared-editing-and-permissions",
+          "section": "collaboration",
+          "src": "/images/comparison2/planner-5d-shared-editing-and-permissions.webp",
+          "width": 2432,
+          "height": 888,
+          "alt": {
+            "en": "Planner 5D demos of real-time floor-plan editing, live updates and project-sharing permissions",
+            "uk": "Демонстрації Planner 5D: спільне редагування плану, зміни наживо та права доступу до проєкту"
+          },
+          "caption": {
+            "en": "Planner 5D’s collaboration demo shows a shared floor plan, live object updates and controls for inviting people and setting access.",
+            "uk": "Демонстрація спільної роботи Planner 5D показує спільний план, зміни предметів наживо та керування запрошеннями й доступом."
+          },
+          "sourceUrl": "https://planner5d.com/collaboration-tool",
+          "capturedAt": "2026-11-03",
+          "capture": {
+            "selector": "img[alt=\"collaboration\"]",
+            "parents": 3,
+            "viewport": {
+              "width": 1440,
+              "height": 1100
+            },
+            "deviceScaleFactor": 2
+          },
+          "sha256": "d4db68b5248d0b8dee28ec503fd1dc3109a658587928346d19e406dc2b7f9da2"
+        }
+      ]
+    },
+    {
+      "slug": "homestyler",
+      "images": [],
+      "pending": "Official demonstration assets are blocked by the current environment network allowlist; media-host additions are saved in the environment draft."
+    },
+    {
+      "slug": "foyr-neo",
+      "images": [
+        {
+          "id": "scene-editor",
+          "section": "layout",
+          "src": "/images/comparison2/foyr-neo-scene-editor.webp",
+          "width": 2640,
+          "height": 1182,
+          "alt": {
+            "en": "Foyr Neo scene editor demonstration with catalogue, shortlist, uploads and render controls around a furnished room",
+            "uk": "Демонстрація редактора сцен Foyr Neo: каталог, обрані предмети, завантаження та керування рендером навколо мебльованої кімнати"
+          },
+          "caption": {
+            "en": "Foyr’s published editor view shows the furnished scene alongside catalogue, shortlist, upload and rendering controls.",
+            "uk": "Опублікований вигляд редактора Foyr показує мебльовану сцену поруч із каталогом, обраними предметами, завантаженнями та керуванням рендером."
+          },
+          "sourceUrl": "https://foyr.com/3d-modeling-software-online/",
+          "capturedAt": "2026-11-03",
+          "capture": {
+            "selector": "img[src*=\"foyrplan-banner3\"],img[data-src*=\"foyrplan-banner3\"]",
+            "parents": 0,
+            "viewport": {
+              "width": 1440,
+              "height": 1100
+            },
+            "deviceScaleFactor": 2
+          },
+          "sha256": "b3203eb1b8f8fc94d3f831d1a67eb13506bf788768ccabafe4b7a2d3154697f1"
+        }
+      ]
+    },
+    {
+      "slug": "spacely-ai",
+      "images": [
+        {
+          "id": "point-and-edit",
+          "section": "edits",
+          "src": "/images/comparison2/spacely-ai-point-and-edit.webp",
+          "width": 544,
+          "height": 662,
+          "alt": {
+            "en": "Spacely.ai Point and Edit feature card showing an image-editing example",
+            "uk": "Картка Point and Edit у Spacely.ai з прикладом редагування зображення"
+          },
+          "caption": {
+            "en": "Point and Edit is presented as a local image-editing tool driven by a description of the change.",
+            "uk": "Point and Edit представлено як інструмент локального редагування зображення за описом потрібної зміни."
+          },
+          "sourceUrl": "https://www.spacely.ai/tools",
+          "capturedAt": "2026-11-03",
+          "capture": {
+            "selector": "img[src*=\"original/point-and-edit.webp\"]",
+            "parents": 3,
+            "viewport": {
+              "width": 1440,
+              "height": 1100
+            },
+            "deviceScaleFactor": 2
+          },
+          "sha256": "1876d159644155233f527fa75f064d6ce6c1dd6fa37267aa9ef57510f97b2195"
+        },
+        {
+          "id": "lighting-tools",
+          "section": "implementation",
+          "src": "/images/comparison2/spacely-ai-lighting-tools.webp",
+          "width": 544,
+          "height": 662,
+          "alt": {
+            "en": "Spacely.ai Lighting Transfer demonstration with a before-and-after room view",
+            "uk": "Демонстрація Lighting Transfer у Spacely.ai з виглядом кімнати до та після"
+          },
+          "caption": {
+            "en": "Lighting Transfer applies the lighting mood of a reference image to the proposed room.",
+            "uk": "Lighting Transfer переносить настрій освітлення з референсу до запропонованої кімнати."
+          },
+          "sourceUrl": "https://www.spacely.ai/tools",
+          "capturedAt": "2026-11-03",
+          "capture": {
+            "selector": "img[src*=\"original/lighting-transfer.webp\"]",
+            "parents": 3,
+            "viewport": {
+              "width": 1440,
+              "height": 1100
+            },
+            "deviceScaleFactor": 2
+          },
+          "sha256": "7fd62d284ab1c135aa15d8b02b779d657bff93050e7145bba58e9a7aace656a3"
+        }
+      ]
+    }
+  ]
+}

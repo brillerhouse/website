@@ -74,7 +74,9 @@
     "annualEquivalent": "per month equivalent",
     "pricingFlags": "Pricing details to confirm",
     "monthlyUnknown": "Monthly rate to confirm",
-    "noMonthly": "One-time credit packs; no monthly subscription."
+    "noMonthly": "One-time credit packs; no monthly subscription.",
+    "officialDemo": "Official product demonstration",
+    "openScreenshot": "Open full size"
   },
   "uk": {
     "label": "Порівняння",
@@ -151,6 +153,8 @@
     "annualEquivalent": "на місяць у перерахунку",
     "pricingFlags": "Що уточнити в тарифах",
     "monthlyUnknown": "Місячну ціну потрібно уточнити",
-    "noMonthly": "Разові пакети кредитів; місячної підписки немає."
+    "noMonthly": "Разові пакети кредитів; місячної підписки немає.",
+    "officialDemo": "Офіційна демонстрація продукту",
+    "openScreenshot": "Відкрити повний розмір"
   }
 }

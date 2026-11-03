@@ -1,6 +1,7 @@
 import content from '@/content/comparison2/articles.json';
 import ui from '@/content/comparison2/ui.json';
 import tierPricing from '@/content/comparison2/pricing.json';
+import screenshots from '@/content/comparison2/screenshots.json';
 import plans from '@/content/plans.json';
 import { competitors, amountLabel, type Competitor, type Localized } from './compare';
 import { href, site, socialPreview, type Locale } from './content';
@@ -13,13 +14,16 @@ type Editorial = {
 export type TierOffer = { billing: 'monthly' | 'yearly' | 'annualEquivalent' | 'oneOff' | 'weekly' | 'free' | 'quote'; currency: string; amount?: number; maximum?: number; starting?: boolean; perSeat?: boolean; qualifier?: Localized };
 export type ComparisonTier = { id: string; name: string; brillerPlan: string; purpose: Localized; allowance: Localized; monthlyAllowance?: Localized; offers: TierOffer[]; features: Localized[]; sources: string[]; checks: Localized[] };
 export type TierPricing = { slug: string; checkedAt: string; trial: Localized; context: Localized; tiers: ComparisonTier[]; notes: Localized[]; checks: Localized[]; monthlyNotes: Localized[]; monthlyChecks: Localized[]; sources: { id: string; title: string; url: string; checkedAt: string; status: string }[] };
-export type Comparison2Product = Competitor & { editorial: Editorial; tierPricing: TierPricing };
+export type FeatureScreenshot = { id: string; section: string; src: string; width: number; height: number; alt: Localized; caption: Localized; sourceUrl: string; capturedAt: string };
+export type Comparison2Product = Competitor & { editorial: Editorial; tierPricing: TierPricing; screenshots: FeatureScreenshot[] };
 export const comparison2Products: Comparison2Product[] = competitors.map(product => {
   const editorial = (content.products as Editorial[]).find(item => item.slug === product.slug);
   const pricing = (tierPricing.products as TierPricing[]).find(item => item.slug === product.slug);
   if (!editorial || !pricing) throw new Error(`Comparison2 content missing: ${product.slug}`);
   for (const tier of pricing.tiers) if (!plans.plans.some(plan => plan.name === tier.brillerPlan)) throw new Error(`Unknown Briller plan: ${tier.brillerPlan}`);
-  return { ...product, editorial, tierPricing: pricing };
+  const images = (screenshots.products as { slug: string; images: FeatureScreenshot[] }[]).find(item => item.slug === product.slug)?.images ?? [];
+  for (const image of images) if (!editorial.sections.some(section => section.id === image.section)) throw new Error(`Unknown screenshot section: ${product.slug}/${image.section}`);
+  return { ...product, editorial, tierPricing: pricing, screenshots: images };
 });
 export const comparison2BySlug = (slug: string) => comparison2Products.find(product => product.slug === slug);
 export const comparison2Copy = (locale: Locale) => ui[locale];

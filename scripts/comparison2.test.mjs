@@ -124,3 +124,40 @@ test('Monthly presentation has 23 tier choices, with no invented RoomGPT subscri
   for(const article of editorial)for(const section of article.sections)assert.ok(fs.existsSync(`out/${locale}/solutions/${section.perspective.solution}/index.html`));
  }
 });
+
+test('Feature screenshots have matching local image files, provenance and bilingual descriptions',async()=>{
+ const {createHash}=await import('node:crypto');const {default:sharp}=await import('sharp');
+ const products=json('content/comparison2/screenshots.json').products;
+ assert.deepEqual(products.map(p=>p.slug),original.map(p=>p.slug));
+ const paths=new Set();
+ for(const product of products){
+  const article=editorial.find(p=>p.slug===product.slug),identity=original.find(p=>p.slug===product.slug);
+  if(!product.images.length){assert.ok(product.pending);continue;}
+  assert.equal(new Set(product.images.map(i=>i.id)).size,product.images.length);
+  for(const image of product.images){
+   assert.ok(article.sections.some(s=>s.id===image.section));assert.match(image.src,/^\/images\/comparison2\/[a-z0-9-]+\.webp$/);assert.ok(!paths.has(image.src));paths.add(image.src);
+   assert.equal(new URL(image.sourceUrl).protocol,'https:');assert.equal(new URL(image.sourceUrl).hostname.replace(/^www\./,''),new URL(identity.url).hostname.replace(/^www\./,''));
+   assert.match(image.capturedAt,/^\d{4}-\d{2}-\d{2}$/);
+   for(const locale of ['en','uk'])assert.ok(image.alt[locale].length>20&&image.caption[locale].length>20);
+   const bytes=fs.readFileSync('public'+image.src),metadata=await sharp(bytes).metadata();
+   assert.equal(metadata.format,'webp');assert.equal(metadata.width,image.width);assert.equal(metadata.height,image.height);
+   assert.ok(image.width>=500&&image.height>=250);assert.equal(createHash('sha256').update(bytes).digest('hex'),image.sha256);
+  }
+ }
+ assert.ok(paths.size>0);
+});
+
+test('Screenshots appear next to the correct capability, open locally at full size and retain source credits',()=>{
+ const products=json('content/comparison2/screenshots.json').products;
+ for(const locale of ['en','uk'])for(const product of products){
+  const html=markup(fs.readFileSync(`out/${locale}/comparison2/${product.slug}/index.html`,'utf8'));
+  const figures=[...html.matchAll(/<figure\b[^>]*data-screenshot-id="([^"]+)"[^>]*>([\s\S]*?)<\/figure>/g)];assert.equal(figures.length,product.images.length);
+  for(const image of product.images){
+   const figure=figures.find(f=>f[1]===image.id);assert.ok(figure);
+   const position=html.indexOf(figure[0]);const section=html.lastIndexOf('<section ',position);assert.ok(html.slice(section,position).includes(`id="${image.section}"`));
+   assert.ok(figure[2].includes(`src="${image.src}"`));assert.ok(figure[2].includes(`href="${image.src}" target="_blank" rel="noopener noreferrer"`));assert.ok(figure[2].includes('loading="lazy"'));assert.ok(figure[2].includes('decoding="async"'));
+   assert.ok(figure[2].includes(labels[locale].officialDemo));assert.ok(figure[2].includes(labels[locale].openScreenshot));
+   assert.ok(!figure[2].includes('src="https://'));assert.ok(fs.existsSync('out'+image.src));
+  }
+ }
+});

@@ -1,7 +1,7 @@
 import { ArrowRight, ArrowUpRight } from 'lucide-react';
 import { Shell } from '@/components/Shell';
 import { amountLabel, brillerTrial, compareDate, comparisonCopy } from '@/lib/compare';
-import { comparison2Products, comparison2Copy, comparison2Href, comparison2Title, comparison2PriceLead, comparison2BrillerAllowance, comparison2BrillerPlan, comparison2EntryTier, comparison2Offer, comparison2MonthlyTiers, comparison2MonthlyOffer, type ComparisonTier, type Comparison2Product } from '@/lib/comparison2';
+import { comparison2Products, comparison2Copy, comparison2Href, comparison2Title, comparison2PriceLead, comparison2BrillerAllowance, comparison2BrillerPlan, comparison2EntryTier, comparison2Offer, comparison2MonthlyTiers, comparison2MonthlyOffer, type ComparisonTier, type Comparison2Product, type FeatureScreenshot } from '@/lib/comparison2';
 import { href, site, type Locale } from '@/lib/content';
 import { solutionHref } from '@/lib/solutions';
 
@@ -12,6 +12,15 @@ function Card({ product, locale }: { product: Comparison2Product; locale: Locale
 function CTA({ locale }: { locale: Locale }) {
   const c = comparison2Copy(locale);
   return <aside className="comparison2-cta"><div><h2>{c.ctaTitle}</h2><p>{c.ctaText}</p></div><a className="button" href={site.app}>{c.cta}<ArrowUpRight size={17} aria-hidden="true"/></a></aside>;
+}
+function Screenshot({ image, product, locale }: { image: FeatureScreenshot; product: Comparison2Product; locale: Locale }) {
+  const c = comparison2Copy(locale);
+  return <figure className="comparison2-screenshot" data-screenshot-id={image.id} style={{ maxWidth: image.width }}>
+    <a href={image.src} target="_blank" rel="noopener noreferrer" aria-label={`${c.openScreenshot}: ${image.alt[locale]}`}>
+      <img src={image.src} width={image.width} height={image.height} alt={image.alt[locale]} loading="lazy" decoding="async"/>
+    </a>
+    <figcaption><p>{image.caption[locale]}</p><div><span>{product.name} · {c.officialDemo}</span><a href={image.src} target="_blank" rel="noopener noreferrer">{c.openScreenshot}<ArrowUpRight size={14} aria-hidden="true"/></a></div></figcaption>
+  </figure>;
 }
 function CompetitorPackage({ tier, locale }: { tier: ComparisonTier; locale: Locale }) {
   const c = comparison2Copy(locale), offer = comparison2MonthlyOffer(tier);
@@ -52,7 +61,7 @@ export function Comparison2Article({ product, locale }: { product: Comparison2Pr
   const related = comparison2Products.filter(item => item.slug !== product.slug).sort((a, b) => Number(b.category === product.category) - Number(a.category === product.category)).slice(0, 2);
   return <article className="comparison2-page"><section className="page-heading comparison2-hero"><a className="text-link comparison2-back" href={comparison2Href(locale)}><ArrowRight size={16} aria-hidden="true"/>{c.overview}</a><p className="eyebrow">BRILLER / {c.label}</p><h1>{comparison2Title(product)}</h1><p>{e.intro[locale]}</p></section>
     <div className="section comparison2-reading-layout"><aside className="comparison2-contents"><nav aria-label={c.onPage}><p className="eyebrow">{c.onPage}</p>{e.sections.map(section => <a href={'#' + section.id} key={section.id}>{section.heading[locale]}</a>)}<a href="#pricing">{c.pricing}</a><a href="#to-confirm">{c.confirmTitle}</a></nav></aside>
-      <div className="comparison2-prose">{e.sections.map(section => <section className="comparison2-capability" id={section.id} key={section.id}><h2>{section.heading[locale]}</h2>{section.paragraphs.map(paragraph => <p key={paragraph.en}>{paragraph[locale]}</p>)}<div className="comparison2-perspective"><h3>{section.perspective.audience[locale]}</h3><p>{section.perspective.text[locale]}</p><a className="text-link" href={solutionHref(locale, section.perspective.solution)}>{section.perspective.label[locale]}<ArrowRight size={16} aria-hidden="true"/></a></div></section>)}
+      <div className="comparison2-prose">{e.sections.map(section => <section className="comparison2-capability" id={section.id} key={section.id}><h2>{section.heading[locale]}</h2><p>{section.paragraphs[0][locale]}</p>{product.screenshots.filter(image => image.section === section.id).map(image => <Screenshot image={image} product={product} locale={locale} key={image.id}/>)}{section.paragraphs.slice(1).map(paragraph => <p key={paragraph.en}>{paragraph[locale]}</p>)}<div className="comparison2-perspective"><h3>{section.perspective.audience[locale]}</h3><p>{section.perspective.text[locale]}</p><a className="text-link" href={solutionHref(locale, section.perspective.solution)}>{section.perspective.label[locale]}<ArrowRight size={16} aria-hidden="true"/></a></div></section>)}
         <Pricing product={product} locale={locale}/>
         <aside className="comparison2-checks" id="to-confirm"><span className="comparison2-check-label">{c.confirm}</span><h2>{c.confirmTitle}</h2><ul>{e.checks.map(check => <li key={check.en}>{check[locale]}</li>)}</ul></aside>
       </div>
