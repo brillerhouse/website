@@ -36,3 +36,9 @@ Additional official feature pages checked on 2026-11-02 (all returned HTTP 200):
 - RoomGPT's public generator and credit-purchase workflow (previous capture) specify Basic/Pro/Ultra at 1/2/4 credits per selected theme, with extra written details for Pro/Ultra. The saved-dashboard promise remains marked Coming Soon.
 
 Raw feature captures and fetch statuses are saved outside the repository in `/workspace/exports/comparison2-features-2026-11-02/`. Audience examples are editorial applications of these features, not claims of measured performance, compliance or guaranteed construction outcomes. Every capability has a localized solution crosslink; those targets are checked against the actual solution catalogue and static output.
+
+## Feature illustration review — 2026-11-03
+
+All nine competitors now have locally stored official demonstration captures in `screenshots.json` (15 images). The six captures completed after media-host access was enabled cover Interior AI's furnishing video and published walkthrough-demo poster, HomeDesignsAI's Precision+ and Materials Swap video demonstrations, and Homestyler's Team Model Library and Shared Design Space illustrations. Video seek positions / fractions, source pages and asset hashes are recorded with the images. Captions describe the visible feature and attribute the official demonstration; no paid-plan hands-on testing is implied.
+
+HomeDesignsAI's feature directory still uses Individual / Premium / Business and add-on labels, unlike the Standard / Pro / Expert pricing cards reviewed above. Keep the existing instruction to confirm access to each named tool. The selected figures capture the demonstration media without importing those conflicting plan labels; do not use the directory labels to overwrite the verified monthly pricing-card data.

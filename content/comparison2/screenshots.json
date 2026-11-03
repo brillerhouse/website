@@ -2,8 +2,63 @@
   "products": [
     {
       "slug": "interior-ai",
-      "images": [],
-      "pending": "Official demonstration assets are blocked by the current environment network allowlist; media-host additions are saved in the environment draft."
+      "images": [
+        {
+          "id": "virtual-staging-demo",
+          "section": "room-design",
+          "src": "/images/comparison2/interior-ai-virtual-staging-demo.webp",
+          "width": 1162,
+          "height": 912,
+          "alt": {
+            "en": "A frame from Interior AI’s room-furnishing demonstration",
+            "uk": "Кадр демонстрації меблювання кімнати в Interior AI"
+          },
+          "caption": {
+            "en": "Interior AI’s furnishing demo follows an empty room as finishes, furniture and lighting are added.",
+            "uk": "Демонстрація меблювання Interior AI показує додавання оздоблення, меблів та освітлення до порожньої кімнати."
+          },
+          "sourceUrl": "https://interiorai.com/",
+          "capturedAt": "2026-11-03",
+          "capture": {
+            "selector": "video[poster*=\"furnish.jpg\"]",
+            "parents": 0,
+            "viewport": {
+              "width": 1440,
+              "height": 1100
+            },
+            "deviceScaleFactor": 2,
+            "mediaTime": 4
+          },
+          "sha256": "e8df285870e44c75540ebda1b85cfa307f83ed9f09d8630647961525327da457"
+        },
+        {
+          "id": "3d-walkthrough-workflow",
+          "section": "delivery",
+          "src": "/images/comparison2/interior-ai-3d-walkthrough-workflow.webp",
+          "width": 1046,
+          "height": 720,
+          "alt": {
+            "en": "Interior AI’s gallery with room, prompt and style controls, from its published 3D walkthrough demo",
+            "uk": "Галерея Interior AI з вибором кімнати, запитом і стилями з опублікованої демонстрації 3D-прогулянки"
+          },
+          "caption": {
+            "en": "The gallery and design controls at the start of Interior AI’s published 3D walkthrough demo.",
+            "uk": "Галерея та керування дизайном на початку опублікованої демонстрації 3D-прогулянки Interior AI."
+          },
+          "sourceUrl": "https://interiorai.com/",
+          "capturedAt": "2026-11-03",
+          "capture": {
+            "assetUrl": "https://interiorai.com/assets/worldlabs-3d.jpg?1786888193",
+            "selector": "img",
+            "viewport": {
+              "width": 1440,
+              "height": 1100
+            },
+            "deviceScaleFactor": 1
+          },
+          "sha256": "8b6cfdc8d41b4073960578109c60d6ba8d36919b8b2386991b5189f03f4e35ed"
+        }
+      ]
     },
     {
       "slug": "reimaginehome",
@@ -98,8 +153,64 @@
     },
     {
       "slug": "homedesigns-ai",
-      "images": [],
-      "pending": "Official demonstration assets are blocked by the current environment network allowlist; media-host additions are saved in the environment draft."
+      "images": [
+        {
+          "id": "precision-plus-demo",
+          "section": "spaces",
+          "src": "/images/comparison2/homedesigns-ai-precision-plus-demo.webp",
+          "width": 1150,
+          "height": 674,
+          "alt": {
+            "en": "HomeDesignsAI Precision+ demo with a selected part of a room being changed",
+            "uk": "Демонстрація Precision+ у HomeDesignsAI зі зміною вибраної частини кімнати"
+          },
+          "caption": {
+            "en": "Precision+ demonstrates a focused change to part of the room while the surrounding design stays in view.",
+            "uk": "Precision+ демонструє точкову зміну частини кімнати зі збереженням решти дизайну в кадрі."
+          },
+          "sourceUrl": "https://homedesigns.ai/ai-features",
+          "capturedAt": "2026-11-03",
+          "capture": {
+            "selector": "video:has(source[src*=\"Precision-plus\"]),video[src*=\"Precision-plus\"]",
+            "parents": 0,
+            "viewport": {
+              "width": 1440,
+              "height": 1100
+            },
+            "deviceScaleFactor": 2,
+            "mediaTimeFraction": 0.7
+          },
+          "sha256": "591ab39dfc5b318d6f52c73d9dea8e9fb52a90274b1804ab91add997ae771766"
+        },
+        {
+          "id": "materials-swap-demo",
+          "section": "reference-shopping",
+          "src": "/images/comparison2/homedesigns-ai-materials-swap-demo.webp",
+          "width": 1150,
+          "height": 692,
+          "alt": {
+            "en": "HomeDesignsAI Materials Swap demonstration with furniture finishes in an outdoor seating area",
+            "uk": "Демонстрація Materials Swap у HomeDesignsAI з оздобленням меблів у зоні відпочинку надворі"
+          },
+          "caption": {
+            "en": "Materials Swap previews different furniture and surface finishes, shown here in an outdoor seating area.",
+            "uk": "Materials Swap приміряє інше оздоблення меблів і поверхонь; тут показана зона відпочинку надворі."
+          },
+          "sourceUrl": "https://homedesigns.ai/ai-features",
+          "capturedAt": "2026-11-03",
+          "capture": {
+            "selector": "video:has(source[src*=\"Material-Swap\"]),video[src*=\"Material-Swap\"]",
+            "parents": 0,
+            "viewport": {
+              "width": 1440,
+              "height": 1100
+            },
+            "deviceScaleFactor": 2,
+            "mediaTimeFraction": 0.7
+          },
+          "sha256": "94fcca967a859ccb99f61229951328e01bff1043a072020d3732f3880ea98033"
+        }
+      ]
     },
     {
       "slug": "remodel-ai",
@@ -194,8 +305,62 @@
     },
     {
       "slug": "homestyler",
-      "images": [],
-      "pending": "Official demonstration assets are blocked by the current environment network allowlist; media-host additions are saved in the environment draft."
+      "images": [
+        {
+          "id": "team-model-library",
+          "section": "products-drawings",
+          "src": "/images/comparison2/homestyler-team-model-library.webp",
+          "width": 680,
+          "height": 436,
+          "alt": {
+            "en": "Homestyler Team Model Library demonstration with furniture models and upload controls",
+            "uk": "Демонстрація Team Model Library у Homestyler з моделями меблів і керуванням завантаженням"
+          },
+          "caption": {
+            "en": "The Team Model Library demo shows a shared collection of models, with tools to upload and manage the studio’s assets.",
+            "uk": "Демонстрація Team Model Library показує спільну колекцію моделей та інструменти завантаження й упорядкування матеріалів студії."
+          },
+          "sourceUrl": "https://www.homestyler.com/solution/design_team-license",
+          "capturedAt": "2026-11-03",
+          "capture": {
+            "selector": "img[alt=\"Team Model Library\"]",
+            "parents": 0,
+            "viewport": {
+              "width": 1440,
+              "height": 1100
+            },
+            "deviceScaleFactor": 2
+          },
+          "sha256": "fdd8c78ba8ebfbf3253ed132b6f525571c84e7ffe599a3303d00dd50f726562a"
+        },
+        {
+          "id": "shared-design-space",
+          "section": "renders-team",
+          "src": "/images/comparison2/homestyler-shared-design-space.webp",
+          "width": 680,
+          "height": 436,
+          "alt": {
+            "en": "Homestyler Shared Design Space demo with project folders, team access and render previews",
+            "uk": "Демонстрація Shared Design Space у Homestyler з папками проєктів, командним доступом і переглядом рендерів"
+          },
+          "caption": {
+            "en": "Shared Design Space brings team projects and render previews together in a workspace organized by folders.",
+            "uk": "Shared Design Space об’єднує командні проєкти та перегляд рендерів у просторі, упорядкованому за папками."
+          },
+          "sourceUrl": "https://www.homestyler.com/solution/design_team-license",
+          "capturedAt": "2026-11-03",
+          "capture": {
+            "selector": "img[alt=\"Shared Design Space\"]",
+            "parents": 0,
+            "viewport": {
+              "width": 1440,
+              "height": 1100
+            },
+            "deviceScaleFactor": 2
+          },
+          "sha256": "2c7ee399cd3b31ed94bb89b6c94b21c236c84f357ff045b9f2e0da25fabb9fa1"
+        }
+      ]
     },
     {
       "slug": "foyr-neo",

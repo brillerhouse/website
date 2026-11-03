@@ -132,7 +132,7 @@ test('Feature screenshots have matching local image files, provenance and biling
  const paths=new Set();
  for(const product of products){
   const article=editorial.find(p=>p.slug===product.slug),identity=original.find(p=>p.slug===product.slug);
-  if(!product.images.length){assert.ok(product.pending);continue;}
+  assert.ok(product.images.length>0,product.slug+': feature screenshot missing');assert.ok(!product.pending,product.slug+': capture still pending');
   assert.equal(new Set(product.images.map(i=>i.id)).size,product.images.length);
   for(const image of product.images){
    assert.ok(article.sections.some(s=>s.id===image.section));assert.match(image.src,/^\/images\/comparison2\/[a-z0-9-]+\.webp$/);assert.ok(!paths.has(image.src));paths.add(image.src);
