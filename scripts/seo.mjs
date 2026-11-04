@@ -9,12 +9,14 @@ const blogSuffixes=['blog',...blog.posts.map(post=>`blog/${post.slug}`),...blog.
 const comparisonCatalog=JSON.parse(fs.readFileSync('content/compare/catalog.json','utf8'));
 const comparisonSuffixes=['compare',...comparisonCatalog.products.map(product=>'compare/'+product.slug)];
 const comparison2Suffixes=['comparison2',...comparisonCatalog.products.map(product=>'comparison2/'+product.slug)];
+const comparison2Guide=JSON.parse(fs.readFileSync('content/comparison2/roundup.json','utf8'));
 const localizedPages=[...pages,...blogSuffixes,...comparisonSuffixes,...comparison2Suffixes];
 const verifiedComparisons=comparisonCatalog.products.filter(product=>product.verification==='reviewed').map(product=>'compare/'+product.slug);
 if(comparisonCatalog.products.every(product=>product.verification==='reviewed'))verifiedComparisons.push('compare');
-const sitemapPages=localizedPages.filter(page=>!comparison2Suffixes.includes(page)&&(!comparisonSuffixes.includes(page)||verifiedComparisons.includes(page)));
+const sitemapPages=localizedPages.filter(page=>(page==='comparison2'||!comparison2Suffixes.includes(page))&&(!comparisonSuffixes.includes(page)||verifiedComparisons.includes(page)));
 const comparisonReviewDates=new Map(comparisonCatalog.products.filter(product=>product.verification==='reviewed').map(product=>['compare/'+product.slug,product.reviewedAt]));
 if(verifiedComparisons.includes('compare'))comparisonReviewDates.set('compare',[...comparisonReviewDates.values()].sort().at(-1));
+comparisonReviewDates.set('comparison2',comparison2Guide.updatedAt);
 for(const page of localizedPages){
  const file=path.join('out','uk',page,'index.html');
  const html=fs.readFileSync(file,'utf8');
@@ -43,6 +45,7 @@ if(preview){
 }
 fs.writeFileSync('out/robots.txt',preview?'User-agent: *\nDisallow: /\n':`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`);
 let llms=fs.readFileSync('content/llms.txt','utf8');
+llms+=`\n## AI interior design tools — 2026 guide\n- [Best AI interior design tools 2026](${origin}/en/comparison2/): Features, monthly pricing, pros, cons, best-fit audiences and dated Capterra feedback. Updated ${comparison2Guide.updatedAt}.\n- [Найкращі AI-інструменти дизайну інтер’єру 2026](${origin}/uk/comparison2/): Функції, місячні тарифи, переваги, недоліки, аудиторії та відгуки Capterra з датами. Оновлено ${comparison2Guide.updatedAt}.\n`;
 const reviewedProducts=comparisonCatalog.products.filter(product=>product.verification==='reviewed');
 if(reviewedProducts.length){
  llms+='\n## Compare: Briller and design-tool alternatives\n';

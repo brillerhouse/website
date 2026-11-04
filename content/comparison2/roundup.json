@@ -1,8 +1,8 @@
 {
   "updatedAt": "2026-11-04",
   "intro": {
-    "en": "Choose the tool around the work you need to do: restyle a photograph, plan a layout or prepare a client presentation. Here are nine options, with the tools, trade-offs and audiences that matter for each.",
-    "uk": "Обирайте інструмент під завдання: змінити вигляд на фото, спланувати простір або підготувати презентацію клієнту. Порівнюємо дев’ять варіантів, їхні інструменти, обмеження та аудиторії."
+    "en": "Compare AI interior design tools for 2026 around your next project: restyle a room photo, plan a layout or prepare a client presentation. Explore nine options by features, monthly pricing, pros, cons and who each one suits.",
+    "uk": "Порівнюйте AI-інструменти дизайну інтер’єру 2026 року під своє завдання: оновити кімнату на фото, спланувати простір або підготувати презентацію клієнту. Розглядаємо дев’ять варіантів, їхні функції, місячні тарифи, переваги, недоліки та аудиторії."
   },
   "selection": {
     "en": "For an early room refresh, start with photo tools and the elements you want to keep. For layout changes, choose an editable plan and check the dimensions. For client work, look closely at commercial rights, seats and the files you need to hand over.",
@@ -706,6 +706,49 @@
       "confirm": {
         "en": "Confirm credit expiry, export sizes and any local-edit or reference-photo controls your next step needs.",
         "uk": "Уточніть термін дії кредитів, розміри експорту та потрібні інструменти локальних правок або референсів."
+      }
+    }
+  ],
+  "publishedAt": "2026-11-03",
+  "questions": [
+    {
+      "question": {
+        "en": "Which AI interior design tool is best for homeowners?",
+        "uk": "Який AI-інструмент дизайну інтер’єру найкраще підходить власникам житла?"
+      },
+      "answer": {
+        "en": "Start with the decision you need to make. HomeDesignsAI, REimagineHome and Remodel AI offer photo-based changes for trying a room’s look. Planner 5D and Homestyler suit editable layouts and furniture placement. Briller helps connect a room concept with materials, budget options and practical renovation guidance.",
+        "uk": "Почніть із рішення, яке потрібно ухвалити. HomeDesignsAI, REimagineHome та Remodel AI пропонують зміни за фото, щоб приміряти вигляд кімнати. Planner 5D і Homestyler підходять для редагованого планування та розміщення меблів. Briller допомагає пов’язати концепцію з матеріалами, варіантами бюджету й практичними порадами для ремонту."
+      }
+    },
+    {
+      "question": {
+        "en": "How is an AI room design tool different from a 3D floor planner?",
+        "uk": "Чим AI-дизайн кімнати відрізняється від 3D-планувальника?"
+      },
+      "answer": {
+        "en": "A photo-based tool develops the look of an existing view: colours, finishes, furniture or staging. A 3D planner gives you an editable room model for dimensions, layout and multiple views. Some platforms offer both workflows. Check the measurements before treating any visualization as a plan for the work.",
+        "uk": "Фотоінструмент розвиває вигляд наявного ракурсу: кольори, оздоблення, меблі чи стейджинг. 3D-планувальник дає редаговану модель кімнати для розмірів, планування й різних ракурсів. Деякі платформи поєднують обидва процеси. Перевірте виміри, перш ніж використовувати візуалізацію як план робіт."
+      }
+    },
+    {
+      "question": {
+        "en": "Are there free AI interior design tools or trials?",
+        "uk": "Чи є безкоштовні AI-інструменти дизайну інтер’єру або пробні періоди?"
+      },
+      "answer": {
+        "en": "Planner 5D and Homestyler have free plans with limits on tools, catalogues or output. Briller includes a 72-hour Pro trial with 15 credits at registration, followed by a Free option. Compare the free allowance with the features you need; HD exports, commercial work and larger libraries can depend on the plan.",
+        "uk": "Planner 5D і Homestyler мають безкоштовні тарифи з обмеженнями інструментів, каталогів або результатів. Briller надає 72 години Pro та 15 кредитів під час реєстрації, після чого доступний Free. Порівнюйте безкоштовні можливості зі своїми потребами: HD-експорт, комерційна робота й розширені бібліотеки можуть залежати від тарифу."
+      }
+    },
+    {
+      "question": {
+        "en": "What matters when choosing AI design software for client projects?",
+        "uk": "Що важливо при виборі AI-інструмента для клієнтських проєктів?"
+      },
+      "answer": {
+        "en": "Check commercial rights, editable files, export resolution, team seats and the work required to revise a proposal. Spacely.ai connects with CAD workflows, while Foyr Neo and Homestyler offer modeled scenes and presentation tools. Briller’s Pro Design and Studio / Architect plans include HD / 4K images, PDF specifications and full technical insights; Studio adds three seats and shared projects.",
+        "uk": "Перевірте комерційні права, редаговані файли, роздільність експорту, кількість місць і зручність правок. Spacely.ai працює з CAD-процесами, а Foyr Neo та Homestyler пропонують моделювання сцен і презентаційні інструменти. Pro Design та Studio / Architect у Briller включають HD / 4K, PDF-специфікації й повні технічні поради; Studio додає три місця та спільні проєкти."
       }
     }
   ]

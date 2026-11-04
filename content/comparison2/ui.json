@@ -1,8 +1,8 @@
 {
   "en": {
     "label": "Compare",
-    "title": "AI interior design tools for your next project",
-    "intro": "Choose the tool around the work you need to do: restyle a photograph, plan a layout or prepare a client presentation. Here are nine options, with the tools, trade-offs and audiences that matter for each.",
+    "title": "Best AI interior design tools in 2026",
+    "intro": "Compare AI interior design tools for 2026 around your next project: restyle a room photo, plan a layout or prepare a client presentation. Explore nine options by features, monthly pricing, pros, cons and who each one suits.",
     "brillerTitle": "Where Briller helps",
     "brillerIntro": "Briller connects room-photo concepts with materials, budget options and practical advice. Moodboards can contribute a particular item or technical detail; Smart Sparks help you explore it. The guidance draws on the hands-on experience of Mike Briller and his colleagues in design and construction.",
     "directory": "Choose a comparison",
@@ -78,7 +78,7 @@
     "officialDemo": "Official product demonstration",
     "openScreenshot": "Open full size",
     "homepage": "Homepage",
-    "roundupTitle": "Choose around the work you need to do",
+    "roundupTitle": "How to choose an AI interior design tool",
     "roundupContents": "In this guide",
     "keyFeatures": "Key features",
     "pros": "Pros",
@@ -92,12 +92,15 @@
     "conclusion": "Where Briller fits",
     "reviewScore": "out of 5",
     "exploreRoom": "Plan your first room refresh",
-    "explorePractice": "Explore Briller for design work"
+    "explorePractice": "Explore Briller for design work",
+    "seoTitle": "Best AI Interior Design Tools 2026",
+    "seoDescription": "Compare the best AI interior design tools for 2026 by features, monthly pricing, pros, cons and use case. Find the right fit for your room or client project.",
+    "questionsTitle": "Questions about AI interior design tools"
   },
   "uk": {
     "label": "Порівняння",
-    "title": "AI-інструменти дизайну інтер’єру для вашого проєкту",
-    "intro": "Обирайте інструмент під завдання: змінити вигляд на фото, спланувати простір або підготувати презентацію клієнту. Порівнюємо дев’ять варіантів, їхні інструменти, обмеження та аудиторії.",
+    "title": "Найкращі AI-інструменти дизайну інтер’єру у 2026 році",
+    "intro": "Порівнюйте AI-інструменти дизайну інтер’єру 2026 року під своє завдання: оновити кімнату на фото, спланувати простір або підготувати презентацію клієнту. Розглядаємо дев’ять варіантів, їхні функції, місячні тарифи, переваги, недоліки та аудиторії.",
     "brillerTitle": "Де допомагає Briller",
     "brillerIntro": "Briller пов’язує концепції за фото кімнати з матеріалами, бюджетними варіантами й практичними порадами. Мудборди можуть підказувати конкретний предмет або технічну деталь, а Smart Sparks допомагають її дослідити. Рекомендації спираються на практичний досвід Майка Бріллера та його колег у дизайні й будівництві.",
     "directory": "Оберіть порівняння",
@@ -173,7 +176,7 @@
     "officialDemo": "Офіційна демонстрація продукту",
     "openScreenshot": "Відкрити повний розмір",
     "homepage": "Головна сторінка",
-    "roundupTitle": "Обирайте під своє завдання",
+    "roundupTitle": "Як обрати AI-інструмент дизайну інтер’єру",
     "roundupContents": "У цьому огляді",
     "keyFeatures": "Основні можливості",
     "pros": "Переваги",
@@ -187,6 +190,9 @@
     "conclusion": "Де допоможе Briller",
     "reviewScore": "з 5",
     "exploreRoom": "Спланувати перше оновлення кімнати",
-    "explorePractice": "Briller для дизайнерської роботи"
+    "explorePractice": "Briller для дизайнерської роботи",
+    "seoTitle": "Найкращі AI-інструменти дизайну інтер’єру 2026",
+    "seoDescription": "Порівнюйте AI-інструменти дизайну інтер’єру 2026 року: функції, місячні тарифи, переваги й недоліки. Оберіть варіант для своєї кімнати або клієнтського проєкту.",
+    "questionsTitle": "Запитання про AI-дизайн інтер’єру"
   }
 }

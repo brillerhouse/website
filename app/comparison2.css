@@ -94,6 +94,8 @@
 .comparison2-tradeoffs h3 { margin-top:1rem; }
 .comparison2-tradeoffs ul { margin:0;padding-left:1.2rem; }
 .comparison2-tradeoffs li { line-height:1.85;margin:.6rem 0; }
+.comparison2-article-tradeoffs { margin:0 0 2rem; }
+.comparison2-article-tradeoffs > section { min-width:0;margin:0;padding-top:1.4rem;border-top:1px solid var(--line); }
 .comparison2-best-for { padding:1rem 1.3rem;border-left:2px solid var(--accent);background:var(--sage);margin:1.5rem 0; }
 .comparison2-best-for h3 { margin:0 0 .5rem; }
 .comparison2-best-for p { margin:0; }
@@ -108,6 +110,9 @@
 .comparison2-conclusion > p { max-width:62rem; }
 .comparison2-conclusion-links { display:flex;flex-wrap:wrap;gap:1rem 2rem;margin:2rem 0; }
 .comparison2-conclusion .comparison2-cta { margin-top:2rem; }
+.comparison2-questions { scroll-margin-top:125px; }
+.comparison2-questions > div { max-width:60rem;margin-top:2rem; }
+.comparison2-questions h3 { font-size:var(--text-title-small); }
 @media(max-width:1050px) { .comparison2-roundup-lead { grid-template-columns:1fr; } }
 @media(max-width:760px) { .comparison2-quick-picks,.comparison2-tradeoffs { grid-template-columns:1fr; } .comparison2-tradeoffs { gap:1rem; } .comparison2-roundup-product { margin-bottom:3rem;padding-bottom:2.5rem; } }
 @media(max-width:1050px) { .comparison2-reading-layout { grid-template-columns:180px minmax(0,1fr);gap:2rem; } .comparison2-position { gap:2rem; } }

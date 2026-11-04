@@ -34,7 +34,8 @@ test('All localized alternative pages render prose, pricing-only tables, confirm
   const path=`/${locale}/comparison2/${slug?slug+'/':''}`;
   const raw=fs.readFileSync('out'+path+'index.html','utf8'),html=markup(raw);
   assert.equal((html.match(/<h1\b/g)||[]).length,1,path);
-  assert.ok(html.includes(`<html lang="${locale}"`));assert.ok(html.includes('name="robots" content="noindex'));
+  assert.ok(html.includes(`<html lang="${locale}"`));
+  assert.ok(html.includes(`name="robots" content="${process.env.BRILLER_PREVIEW==='1'||slug?'noindex':'index'}`));
   assert.ok(html.includes(`<link rel="canonical" href="https://briller.house${path}"`));
   for(const language of ['en','uk'])assert.ok(html.includes(`hrefLang="${language}" href="https://briller.house/${language}/comparison2/${slug?slug+'/':''}"`));
   assert.ok(!forbidden.test(html),path);assert.equal((html.match(/<table\b/g)||[]).length,slug==='roomgpt'?0:1,path);
@@ -45,6 +46,14 @@ test('All localized alternative pages render prose, pricing-only tables, confirm
   const product=original.find(p=>p.slug===slug),article=editorial.find(p=>p.slug===slug);
   const prose=html.slice(html.indexOf('class="comparison2-prose"'),html.indexOf('id="pricing"'));
   assert.ok(!prose.includes('<table'));assert.ok(html.includes('id="to-confirm"'));
+  const decision=json('content/comparison2/roundup.json').products.find(p=>p.slug===slug);
+  for(const [id,label] of [['pros','pros'],['cons','cons'],['best-for','bestFor']]){
+   const block=prose.match(new RegExp(`<section\\b[^>]*id="${id}"[^>]*>([\\s\\S]*?)</section>`));
+   assert.ok(block,path+': missing '+id);assert.ok(block[1].includes(`>${labels[locale][label]}</h2>`));
+   assert.ok(html.includes(`href="#${id}"`),path+': missing decision navigation');
+   const points=label==='bestFor'?[decision.bestFor]:decision[label];
+   for(const point of points)assert.ok(block[1].includes(point[locale].replaceAll('&','&amp;')),path+': incorrect '+id+' copy');
+  }
   for(const check of article.checks)assert.ok(html.includes(check[locale].replaceAll('&','&amp;')));
   for(const section of article.sections){assert.ok(html.includes(`id="${section.id}"`));assert.ok(prose.includes(`href="/${locale}/solutions/${section.perspective.solution}/"`));assert.ok(prose.includes(section.perspective.audience[locale]));}
   const review=pricing.find(item=>item.slug===slug);
@@ -69,13 +78,15 @@ test('All localized alternative pages render prose, pricing-only tables, confirm
  }
 });
 
-test('The requested /comparison2 folder works directly; the parallel version stays outside sitemap and llms listings',()=>{
+test('The guide is listed for discovery while individual alternatives stay outside sitemap and llms listings',()=>{
  const sitemap=fs.readFileSync('out/sitemap.xml','utf8'),llms=fs.readFileSync('out/llms.txt','utf8');
- assert.ok(!sitemap.includes('/comparison2/')&&!llms.includes('/comparison2/'));
+ for(const locale of ['en','uk']){assert.ok(sitemap.includes(`<loc>https://briller.house/${locale}/comparison2/</loc>`));assert.ok(llms.includes(`https://briller.house/${locale}/comparison2/`));}
+ for(const product of original){assert.ok(!sitemap.includes('/comparison2/'+product.slug+'/'));assert.ok(!llms.includes('/comparison2/'+product.slug+'/'));}
  for(const slug of ['',...original.map(p=>p.slug)]){
   const html=markup(fs.readFileSync(`out/comparison2/${slug?slug+'/':''}index.html`,'utf8'));
   assert.match(html,/class="comparison2-page(?: [^"]+)?"/);
   assert.ok(html.includes(`<link rel="canonical" href="https://briller.house/en/comparison2/${slug?slug+'/':''}"`));
+  if(slug)for(const id of ['pros','cons','best-for'])assert.ok(html.includes(`id="${id}"`)&&html.includes(`href="#${id}"`),slug+': direct route missing '+id);
  }
  // Existing comparison pages retain their original published URLs and layout.
  for(const locale of ['en','uk'])for(const product of original){const html=fs.readFileSync(`out/${locale}/compare/${product.slug}/index.html`,'utf8');assert.ok(html.includes('compare-feature-table'));assert.ok(!html.includes('comparison2-capability'));}
@@ -219,4 +230,23 @@ test('Capterra feedback can render only with verified, dated and attributed sour
   for(const locale of ['en','uk']){assert.ok(review.summary[locale]);const html=markup(fs.readFileSync(`out/${locale}/comparison2/index.html`,'utf8'));assert.ok(html.includes(review.author));assert.ok(html.includes(`dateTime="${review.reviewedAt}"`));assert.ok(html.includes(`href="${review.sourceUrl}"`));}
  }
  if(!feedback.reviews.length)for(const locale of ['en','uk']){const html=markup(fs.readFileSync(`out/${locale}/comparison2/index.html`,'utf8'));assert.ok(!html.includes('class="comparison2-review"'));}
+});
+
+test('The 2026 guide has targeted metadata, canonical locales and visible questions matching structured data',()=>{
+ const guide=json('content/comparison2/roundup.json');
+ for(const locale of ['en','uk']){
+  const raw=fs.readFileSync(`out/${locale}/comparison2/index.html`,'utf8'),html=markup(raw),c=labels[locale];
+  assert.ok(html.includes(`<title>${c.seoTitle} | Briller</title>`));assert.ok(html.includes(`<h1>${c.title}</h1>`));
+  assert.ok(html.includes(`name="description" content="${c.seoDescription}"`));assert.ok(c.seoDescription.length>=100&&c.seoDescription.length<=170);
+  assert.ok(html.includes(`property="og:title" content="${c.seoTitle}"`));assert.ok(html.includes('2026'));
+  const schemas=[...raw.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1]));
+  const graph=schemas.find(s=>s['@graph']?.some(n=>n['@type']==='CollectionPage'))?.['@graph'];assert.ok(graph);
+  const article=graph.find(n=>n['@type']==='Article'),list=graph.find(n=>n['@type']==='CollectionPage').mainEntity,faq=graph.find(n=>n['@type']==='FAQPage');
+  assert.equal(article.headline,c.title);assert.equal(article.datePublished,guide.publishedAt);assert.equal(article.dateModified,guide.updatedAt);assert.equal(article.author.name,'Briller');
+  assert.equal(list.numberOfItems,9);assert.equal(list.itemListElement.length,9);assert.equal(faq.mainEntity.length,guide.questions.length);
+  for(const [i,item] of guide.questions.entries()){
+   assert.equal(faq.mainEntity[i].name,item.question[locale]);assert.equal(faq.mainEntity[i].acceptedAnswer.text,item.answer[locale]);
+   assert.ok(html.includes(item.question[locale].replaceAll('&','&amp;')));assert.ok(html.includes(item.answer[locale].replaceAll('&','&amp;')));
+  }
+ }
 });
