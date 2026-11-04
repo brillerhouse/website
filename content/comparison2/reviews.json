@@ -1,5 +1,108 @@
 {
-  "checkedAt": null,
-  "status": "pending-source-access",
-  "reviews": []
+  "checkedAt": "2026-11-04",
+  "status": "verified",
+  "reviews": [
+    {
+      "id": "740771e8-0553-4d03-a63f-32988f5747a7",
+      "slug": "homedesigns-ai",
+      "author": "Jim C.",
+      "role": "broker",
+      "reviewedAt": "2024-08-06",
+      "score": 5,
+      "title": "Great for real estate agents",
+      "originalLanguage": "en",
+      "summary": {
+        "en": "In a 2024 review, broker Jim C. found it useful for real-estate work, from adding one furniture item to furnishing a room. Getting started took some learning.",
+        "uk": "У відгуку 2024 року брокер Jim C. розповів, що інструмент став у пригоді для роботи з нерухомістю: від додавання одного предмета меблів до облаштування кімнати. На початку знадобився час на освоєння."
+      },
+      "sourceUrl": "https://www.capterra.com/p/10015818/Home-Designs-AI/#reviews",
+      "accessedAt": "2026-11-04",
+      "verified": true
+    },
+    {
+      "id": "60577f78-9834-4f2f-afd6-a2eea8a29383",
+      "slug": "planner-5d",
+      "author": "Reviewer",
+      "role": "Engineering Lead",
+      "reviewedAt": "2026-04-29",
+      "score": 5,
+      "title": "Excellent experience, but expensive for international users",
+      "originalLanguage": "en",
+      "summary": {
+        "en": "An engineering lead liked how easily they could create a full home layout and see it in 3D without a design background. Their main hesitation was the subscription cost in Egypt; they wanted regional pricing or a more flexible option for personal projects.",
+        "uk": "Керівнику інженерної команди сподобалося, що навіть без дизайнерської підготовки легко створити план усього житла й побачити його в 3D. Головним застереженням стала вартість підписки в Єгипті: хотілося регіональних цін або гнучкішого варіанта для особистих проєктів."
+      },
+      "sourceUrl": "https://www.capterra.com/p/164022/Planner-5D/#reviews",
+      "accessedAt": "2026-11-04",
+      "verified": true
+    },
+    {
+      "id": "a3036b4d-4b86-4721-8bfd-1429dc406a51",
+      "slug": "planner-5d",
+      "author": "Reviewer",
+      "role": "Director",
+      "reviewedAt": "2025-02-24",
+      "score": 1,
+      "title": "Misleading Billing & Useless Customer Support – Avoid This App!",
+      "originalLanguage": "en",
+      "summary": {
+        "en": "A director’s 2025 review raised a different concern: they reported being charged after cancelling a trial, then struggling to get the issue resolved through support. It is worth checking the cancellation terms and which payment provider handles your subscription.",
+        "uk": "У відгуку 2025 року директор звернув увагу на іншу проблему: за його словами, після скасування пробного періоду з нього списали кошти, а вирішити питання через підтримку було складно. Варто перевірити умови скасування та з’ясувати, який платіжний сервіс обслуговує підписку."
+      },
+      "sourceUrl": "https://www.capterra.com/p/164022/Planner-5D/#reviews",
+      "accessedAt": "2026-11-04",
+      "verified": true
+    },
+    {
+      "id": "3cec1218-033d-493c-8c76-4c2226349fb2",
+      "slug": "homestyler",
+      "author": "Reviewer",
+      "role": "Interior design",
+      "reviewedAt": "2026-02-22",
+      "score": 5,
+      "title": "Homestyler: Progetta la casa dei tuoi sogni in un click",
+      "originalLanguage": "it",
+      "summary": {
+        "en": "The reviewer enjoyed placing furniture, changing colours and seeing a room take shape in 3D. Bespoke furniture was harder to model, slow internet interrupted work, and better-looking images could require extra credits. Those details matter if your project includes joinery made to order.",
+        "uk": "Автору відгуку сподобалося розставляти меблі, змінювати кольори й одразу бачити кімнату в 3D. Водночас меблі на замовлення було складніше моделювати, повільний інтернет переривав роботу, а якісніші зображення могли потребувати додаткових кредитів. Це варто врахувати, якщо в проєкті є столярні вироби за індивідуальними розмірами."
+      },
+      "sourceUrl": "https://www.capterra.com/p/10016145/Homestyler/#reviews",
+      "accessedAt": "2026-11-04",
+      "verified": true
+    },
+    {
+      "id": "58119579-fb73-49b5-ad18-0185b1e6d282",
+      "slug": "foyr-neo",
+      "author": "Reviewer",
+      "role": "Interior Designer",
+      "reviewedAt": "2024-10-14",
+      "score": 5,
+      "title": "Fantastic Rendering Program!",
+      "originalLanguage": "en",
+      "summary": {
+        "en": "In a 2024 review, an interior designer valued building layouts of existing homes and new builds, then changing products and materials to show clients the proposal. Finding particular items in the library was less straightforward.",
+        "uk": "У відгуку 2024 року дизайнер інтер’єрів відзначив можливість створювати планування наявних будинків і новобудов, а потім змінювати предмети й матеріали, щоб показати клієнтам задум. Пошук окремих предметів у бібліотеці був менш зручним."
+      },
+      "sourceUrl": "https://www.capterra.com/p/204757/Foyr-Neo/#reviews",
+      "accessedAt": "2026-11-04",
+      "verified": true
+    },
+    {
+      "id": "6aef600d-f39b-43dd-ab9e-0eea3db4b6c0",
+      "slug": "foyr-neo",
+      "author": "Reviewer",
+      "role": "Interior designer - Business owner",
+      "reviewedAt": "2024-09-24",
+      "score": 3,
+      "title": "Good software but you're treated badly, even as a loyal customer",
+      "originalLanguage": "en",
+      "summary": {
+        "en": "A designer and business owner’s 2024 review praised the renders and ease of use, but reported long waits for technical fixes and custom models that needed reworking. For a client deadline, support and the custom-model approval process deserve as much attention as the finished image.",
+        "uk": "У відгуку 2024 року дизайнер і власник бізнесу похвалив рендери та зручність роботи, але розповів про тривале очікування технічних виправлень і необхідність переробляти моделі на замовлення. Коли є дедлайн перед клієнтом, підтримка й погодження індивідуальних моделей потребують не меншої уваги, ніж фінальне зображення."
+      },
+      "sourceUrl": "https://www.capterra.com/p/204757/Foyr-Neo/#reviews",
+      "accessedAt": "2026-11-04",
+      "verified": true
+    }
+  ]
 }

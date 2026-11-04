@@ -9,7 +9,7 @@ Feature and monthly-price evidence is retained in `pricing-research-2026-11-02.m
 
 ## Capterra source access
 
-Initial request to https://www.capterra.com/ was denied by the environment proxy (CONNECT 403), before a Capterra response could be obtained. A network draft adding `capterra.com` and `www.capterra.com` was saved for environment publication. Current review data is empty with status `pending-source-access`; no dates, quotations, ratings or reviewer names have been invented. The page renders feedback only from verified review records.
+Initial request to https://www.capterra.com/ was denied by the environment proxy (CONNECT 403), before a Capterra response could be obtained. A network draft adding `capterra.com` and `www.capterra.com` was saved for environment publication. Access was restored on 2026-11-04 and six review records across four platforms were verified directly. See `reviews-research-2026-11-04.md` for the sources, dates and coverage. The page renders feedback only from verified review records.
 
 Known profile links to check after publication:
 
