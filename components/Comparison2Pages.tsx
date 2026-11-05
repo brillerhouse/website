@@ -66,7 +66,7 @@ function RoundupProduct({ product, locale }: { product: typeof comparison2Roundu
   const c = comparison2Copy(locale), entry = product.roundup, tier = comparison2EntryTier(product);
   return <section className="comparison2-roundup-product" id={product.slug} aria-labelledby={'guide-' + product.slug}>
     <h2 id={'guide-' + product.slug}>{product.name}<span>{entry.fit[locale]}</span></h2>
-    <div className="comparison2-roundup-lead"><p>{entry.summary[locale]}</p><Homepage product={product} locale={locale}/></div>
+    <div className="comparison2-roundup-lead"><div className="comparison2-roundup-copy"><p>{entry.summary[locale]}</p><p>{entry.overviewDetails[locale]}</p></div><Homepage product={product} locale={locale}/></div>
     <h3>{c.keyFeatures}</h3>{entry.features.map(feature => <p key={feature.title.en}><strong>{feature.title[locale]}.</strong> {feature.text[locale]}</p>)}
     {product.reviews.length > 0 && <aside className="comparison2-feedback"><h3>{c.reviewHeading}</h3>{product.reviews.map(review => <div className="comparison2-review" key={review.id}><p>{review.summary[locale]}</p><p className="comparison2-review-credit"><strong>{review.author}</strong>{review.role && <span>{review.role}</span>}<span><time dateTime={review.reviewedAt}>{compareDate(review.reviewedAt, locale)}</time> · {review.score} {c.reviewScore}</span><a href={review.sourceUrl} target="_blank" rel="noopener noreferrer">{c.reviewSource}<ArrowUpRight size={14} aria-hidden="true"/></a></p></div>)}</aside>}
     <div className="comparison2-tradeoffs"><div><h3>{c.pros}</h3><ul>{entry.pros.map(point => <li key={point.en}>{point[locale]}</li>)}</ul></div><div><h3>{c.cons}</h3><ul>{entry.cons.map(point => <li key={point.en}>{point[locale]}</li>)}</ul></div></div>

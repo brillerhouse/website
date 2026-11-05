@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-05",
   "intro": {
     "en": "Compare AI interior design tools for 2026 around your next project: restyle a room photo, plan a layout or prepare a client presentation. Explore nine options by features, monthly pricing, pros, cons and who each one suits.",
     "uk": "Порівнюйте AI-інструменти дизайну інтер’єру 2026 року під своє завдання: оновити кімнату на фото, спланувати простір або підготувати презентацію клієнту. Розглядаємо дев’ять варіантів, їхні функції, місячні тарифи, переваги, недоліки та аудиторії."
@@ -106,6 +106,10 @@
       "confirm": {
         "en": "Confirm access to each named tool: the feature directory uses different plan and add-on labels from the pricing cards. Check what the estimator includes for your region.",
         "uk": "Уточніть доступ до конкретних інструментів: каталог функцій використовує інші назви тарифів і доповнень, ніж картки цін. Перевірте склад оцінки бюджету для свого регіону."
+      },
+      "overviewDetails": {
+        "en": "For a room refresh, colour changes and Materials Swap let you compare finishes, while Precision+ focuses on a selected area. Design Transfer uses an inspiration photo to develop a different look. Pro brings empty-room staging and Furniture Finder into the process, so you can move from a furnished image to real products to explore. Expert adds a budget estimator, 2D-to-3D floor plans and video walkthroughs for a broader property proposal, with up to five team seats.",
+        "uk": "Для оновлення кімнати зміна кольору та Materials Swap допомагають порівнювати оздоблення, а Precision+ зосереджує правки на вибраній ділянці. Design Transfer використовує фото-референс, щоб розвинути інший вигляд. Pro додає стейджинг порожніх кімнат і Furniture Finder: від зображення з меблями можна перейти до пошуку реальних товарів. Expert включає оцінку бюджету, перетворення 2D-планів у 3D та відеопрогулянки для презентації всього об’єкта, а також до п’яти місць у команді."
       }
     },
     {
@@ -181,6 +185,10 @@
       "confirm": {
         "en": "Confirm team seats, export dimensions and checkout totals. Older price text elsewhere on the site differs from the active pricing cards.",
         "uk": "Уточніть командні місця, розміри експорту та суму оплати. Старіші ціни на інших сторінках відрізняються від активних карток тарифів."
+      },
+      "overviewDetails": {
+        "en": "Pro supports conversational instructions, reference scenes and objects, and memory across edits. Real Products Discovery + Visualization connects the redesign with shoppable furniture. Listing batches group property photos for review before export. Advanced and Agency increase the credit pool for that same workflow.",
+        "uk": "Pro підтримує вказівки в розмові, референси сцен і предметів та пам’ять попередніх правок. Real Products Discovery + Visualization пов’язує редизайн із меблями, які можна придбати. Пакетна обробка об’єднує фото об’єкта для перегляду перед експортом. Advanced і Agency збільшують кількість кредитів для цього процесу."
       }
     },
     {
@@ -256,6 +264,10 @@
       "confirm": {
         "en": "Confirm the free allowance, exact export sizes and rules for team access.",
         "uk": "Уточніть безкоштовний ліміт, точні розміри експорту та правила командного доступу."
+      },
+      "overviewDetails": {
+        "en": "You can try style presets, write your own prompt or remix a direction, then use virtual staging to furnish an empty property photo. Sketch and SketchUp inputs give an existing design another route into the renderer. Premium adds wall painting, lighting changes and furniture edits, alongside Google Lens lookup for finding similar objects. Upscaling, walkthrough video and VR support presentation work; Ultra increases the image allowance and parallel rendering capacity when several proposals are in progress.",
+        "uk": "Можна приміряти готові стилі, написати власний запит або поєднати напрямки, а віртуальний стейджинг допоможе обставити порожню кімнату на фото. Ескізи та ракурси SketchUp дають ще один спосіб візуалізувати наявний задум. Premium додає фарбування стін, зміну освітлення й меблів, а також пошук схожих предметів через Google Lens. Апскейл, відеопрогулянки та VR розширюють презентацію; Ultra збільшує ліміт зображень і кількість паралельних рендерів для роботи над кількома пропозиціями."
       }
     },
     {
@@ -331,6 +343,10 @@
       "confirm": {
         "en": "Confirm plugin compatibility, regional prices, API scope and request limits for the workflow you intend to use.",
         "uk": "Уточніть сумісність плагінів, регіональні ціни, функції API та ліміти запитів для своєї роботи."
+      },
+      "overviewDetails": {
+        "en": "Studio and Agency list integrations for SketchUp, Revit, AutoCAD and Rhino, alongside tools for interior and exterior views. Point and Edit Pro targets a particular change, while style transfer, collage-to-render and reference lighting offer different ways to develop the scene. Material settings and Lighting Control help compare the finish and direction of light. The higher plans add 4K downloads and collaboration seats; Agency also lists API integration for a practice building rendering into its own process.",
+        "uk": "Studio та Agency пропонують інтеграції зі SketchUp, Revit, AutoCAD і Rhino та інструменти для інтер’єрних і зовнішніх ракурсів. Point and Edit Pro працює з конкретною зміною, а перенесення стилю, рендер із колажу та освітлення за референсом дають різні способи розвинути сцену. Налаштування матеріалів і Lighting Control допомагають порівнювати оздоблення й напрямок світла. Вищі тарифи додають завантаження 4K та місця для спільної роботи; Agency також пропонує API для інтеграції рендерингу у власний процес студії."
       }
     },
     {
@@ -406,6 +422,10 @@
       "confirm": {
         "en": "Confirm recognition allowances, credit use by model, and the model / output licences for your client deliverables.",
         "uk": "Уточніть ліміти розпізнавання, витрати кредитів різних моделей і ліцензії для результатів, які передаєте клієнту."
+      },
+      "overviewDetails": {
+        "en": "Premium recognizes uploaded floor plans and opens the full furniture catalogue, so you can develop the layout before working on its appearance. AI Studio brings photos, sketches, plans, PDFs, moodboards and palettes onto a canvas for reference work and local edits. Shared editing is available even on Free, with view or edit permissions for reviewing a project together. Professional adds CAD output, 4K renders, panoramas, walkthroughs, a Price Estimator and a Specs & Docs Organizer for client handover.",
+        "uk": "Premium розпізнає завантажені плани й відкриває повний каталог меблів, щоб спочатку опрацювати планування, а потім його вигляд. AI Studio об’єднує фото, ескізи, плани, PDF, мудборди та палітри на полотні для роботи з референсами й локальних правок. Спільне редагування доступне навіть на Free, з правами перегляду або редагування для обговорення проєкту. Professional додає CAD-експорт, рендери 4K, панорами, відеопрогулянки, Price Estimator та Specs & Docs Organizer для передачі матеріалів клієнту."
       }
     },
     {
@@ -481,6 +501,10 @@
       "confirm": {
         "en": "Confirm the actual monthly charge: advertised starting rates do not establish month-to-month billing. Also check minimum Team seats and asset licences.",
         "uk": "Уточніть фактичну місячну плату: початкові рекламні ціни не підтверджують помісячної оплати. Також перевірте мінімум місць Team і ліцензії матеріалів."
+      },
+      "overviewDetails": {
+        "en": "Place furniture from the branded model catalogue, compare materials and adjust the lighting before rendering a view. Pro+ adds LightMix, multi-floor tools, parametric stairs and cabinetry, plus coloured floor plans, bills of materials and construction drawings. Its AI tools cover moodboards, texture creation and image- or text-to-3D work. On Team, private model and material libraries keep recurring project assets together; Shared Design Space and member roles help organize who works on each proposal.",
+        "uk": "Розставляйте меблі з каталогу брендових моделей, порівнюйте матеріали й налаштовуйте освітлення перед рендерингом ракурсу. Pro+ додає LightMix, кілька поверхів, параметричні сходи й корпусні меблі, а також кольорові плани, відомості матеріалів і будівельні креслення. AI-інструменти охоплюють мудборди, створення текстур і перетворення зображення чи тексту на 3D. На Team приватні бібліотеки моделей і матеріалів зберігають спільні ресурси проєктів; Shared Design Space та ролі учасників допомагають розподіляти роботу над кожною пропозицією."
       }
     },
     {
@@ -556,6 +580,10 @@
       "confirm": {
         "en": "Confirm regional render allowances, custom-model turnaround and output / model licensing.",
         "uk": "Уточніть регіональні ліміти рендерів, терміни створення власних моделей і ліцензії результатів та моделей."
+      },
+      "overviewDetails": {
+        "en": "Draw walls in real-world units, adjust their lengths and thicknesses, then add furniture, textures, lighting and cameras to the scene. Moodboards help organize a direction before developing the model. Basic lists HD, 2K and 4K renders; Standard adds walkthroughs, floor-plan exports and access for two users. Premium includes scaled wall elevations and a monthly custom-model service. If the job also involves estimates, invoicing and project administration, those belong to the separate Foyr Manage product.",
+        "uk": "Кресліть стіни в реальних одиницях виміру, змінюйте довжину й товщину, а потім додавайте до сцени меблі, текстури, освітлення та камери. Мудборди допомагають зібрати напрямок перед розвитком моделі. Basic включає рендери HD, 2K та 4K; Standard додає відеопрогулянки, експорт планів і доступ для двох користувачів. Premium містить масштабні розгортки стін і щомісячну послугу створення моделі на замовлення. Кошториси, рахунки й адміністрування проєктів належать до окремого продукту Foyr Manage."
       }
     },
     {
@@ -631,6 +659,10 @@
       "confirm": {
         "en": "Confirm the paid render allowance, export resolution and commercial-use rights in the app you will use.",
         "uk": "Уточніть платний ліміт генерацій, роздільність експорту й комерційні права у своєму застосунку."
+      },
+      "overviewDetails": {
+        "en": "Start with a photo and compare a new wall colour, floor finish or outdoor treatment without building a 3D model. Reskin changes a surface or fabric, Replace swaps an object and Remove clears an unwanted item from the image. The Shop workflow looks for furniture similar to the proposal, while saved and shared images help explain the direction to a partner or fitter. It is particularly useful for narrowing a small set of changes before choosing samples and discussing the work.",
+        "uk": "Почніть із фото й порівняйте новий колір стін, підлогове покриття або зовнішнє оздоблення без побудови 3D-моделі. Reskin змінює поверхню чи тканину, Replace замінює предмет, а Remove прибирає зайвий елемент із зображення. Процес Shop шукає меблі, схожі на запропоновані, а збережені зображення, якими можна поділитися, допомагають пояснити напрямок партнеру чи майстру. Це зручно, щоб звузити кілька варіантів змін перед вибором зразків та обговоренням робіт."
       }
     },
     {
@@ -706,6 +738,10 @@
       "confirm": {
         "en": "Confirm credit expiry, export sizes and any local-edit or reference-photo controls your next step needs.",
         "uk": "Уточніть термін дії кредитів, розміри експорту та потрібні інструменти локальних правок або референсів."
+      },
+      "overviewDetails": {
+        "en": "Basic, Pro and Ultra offer different quality settings, with a higher credit cost for each step up. Selecting several themes uses credits for each theme, so the pack size and quality choice need to be considered together. Pro and Ultra also accept extra written details about the room to give the theme a more specific brief. Paid packs include commercial photo use and email support. This suits trying a few directions for an existing room without starting a recurring subscription.",
+        "uk": "Basic, Pro та Ultra пропонують різні рівні якості, і кожен вищий рівень потребує більше кредитів. Якщо обрати кілька тем, кредити витрачаються на кожну, тому розмір пакета варто оцінювати разом із налаштуванням якості. Pro й Ultra також приймають додаткові письмові деталі про кімнату, щоб точніше задати напрямок. Платні пакети включають комерційне використання фото та підтримку електронною поштою. Це підходить, щоб приміряти кілька варіантів наявної кімнати без регулярної підписки."
       }
     }
   ],

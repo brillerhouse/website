@@ -33,7 +33,7 @@ export const comparison2Products: Comparison2Product[] = competitors.map(product
 });
 export const comparison2BySlug = (slug: string) => comparison2Products.find(product => product.slug === slug);
 export type CapterraReview = { id: string; slug: string; author: string; role?: string; reviewedAt: string; score: number; summary: Localized; sourceUrl: string; accessedAt: string; verified: true };
-type RoundupEntry = { slug: string; fit: Localized; summary: Localized; features: { title: Localized; text: Localized }[]; pros: Localized[]; cons: Localized[]; bestFor: Localized; confirm: Localized };
+type RoundupEntry = { slug: string; fit: Localized; summary: Localized; overviewDetails: Localized; features: { title: Localized; text: Localized }[]; pros: Localized[]; cons: Localized[]; bestFor: Localized; confirm: Localized };
 export const comparison2Roundup = roundup;
 export const comparison2RoundupProducts = (roundup.products as RoundupEntry[]).map(entry => {
   const product = comparison2BySlug(entry.slug);
