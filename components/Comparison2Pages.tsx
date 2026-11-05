@@ -24,7 +24,7 @@ function Screenshot({ image, product, locale }: { image: FeatureScreenshot; prod
 }
 function Homepage({ product, locale, priority = false }: { product: Comparison2Product; locale: Locale; priority?: boolean }) {
   const c = comparison2Copy(locale), image = product.brand.homepage;
-  return <figure className="comparison2-homepage"><a href={image.src} target="_blank" rel="noopener noreferrer" aria-label={`${c.openScreenshot}: ${image.alt[locale]}`}><img src={image.src} width={image.width} height={image.height} alt={image.alt[locale]} fetchPriority={priority ? 'high' : undefined} loading={priority ? undefined : 'lazy'} decoding="async"/></a><figcaption><span>{product.name} · {c.homepage}</span><a href={image.src} target="_blank" rel="noopener noreferrer">{c.openScreenshot}<ArrowUpRight size={14} aria-hidden="true"/></a></figcaption></figure>;
+  return <figure className="comparison2-homepage"><a href={product.url} target="_blank" rel="noopener noreferrer" aria-label={`${product.name}: ${c.official} (${c.opensInNewTab})`}><img src={image.src} width={image.width} height={image.height} alt={image.alt[locale]} fetchPriority={priority ? 'high' : undefined} loading={priority ? undefined : 'lazy'} decoding="async"/></a></figure>;
 }
 function OfficialLink({ product, locale }: { product: Comparison2Product; locale: Locale }) {
   const c = comparison2Copy(locale), logo = product.brand.logo;

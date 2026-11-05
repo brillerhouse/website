@@ -8,10 +8,9 @@
 .comparison2-hero-copy { min-width:0; }
 .comparison2-hero-copy > p:last-child { font-size:var(--text-lead);color:var(--muted);margin-bottom:0; }
 .comparison2-homepage { min-width:0;margin:0; }
-.comparison2-homepage > a { display:block;overflow:hidden;border:1px solid var(--line);border-radius:10px;background:var(--surface);cursor:zoom-in; }
+.comparison2-homepage > a { display:block;overflow:hidden;border:1px solid var(--line);border-radius:10px;background:var(--surface); }
+.comparison2-homepage > a:focus-visible { outline:2px solid var(--accent);outline-offset:4px; }
 .comparison2-homepage img { display:block;width:100%;height:auto; }
-.comparison2-homepage figcaption { display:flex;justify-content:space-between;align-items:baseline;gap:.6rem 1rem;flex-wrap:wrap;margin-top:.8rem;color:var(--muted);font-size:var(--text-caption);line-height:1.6; }
-.comparison2-homepage figcaption a { display:inline-flex;align-items:center;gap:.35rem;white-space:nowrap;text-underline-offset:4px; }
 .comparison2-position { display:grid;grid-template-columns:1fr 1.65fr;gap:4rem;background:var(--sage); }
 .comparison2-position h2,.comparison2-position p { margin:0; }
 .comparison2-cards { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem; }

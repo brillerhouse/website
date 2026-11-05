@@ -74,7 +74,7 @@ test('All localized alternative pages render prose, pricing-only tables, confirm
    assert.ok(brillerCell.includes(labels[locale][plan.insights==='full'?'fullAdvice':'basicAdvice']));
   }
   for(const link of html.matchAll(/href="#([^"]+)"/g))assert.ok(html.includes(`id="${link[1]}"`),path+': missing section anchor');
-  assert.ok(!html.includes('compare-citations'));assert.equal((html.match(new RegExp(`href="${product.url.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}"`,'g'))||[]).length,1);
+  assert.ok(!html.includes('compare-citations'));assert.equal((html.match(new RegExp(`href="${product.url.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}"`,'g'))||[]).length,2);
  }
 });
 
@@ -195,6 +195,8 @@ test('Localized article heroes use homepage images and official website links co
   const product=original.find(p=>p.slug===brand.slug),html=markup(fs.readFileSync(`out/${locale}/comparison2/${brand.slug}/index.html`,'utf8'));
   const hero=html.slice(html.indexOf('class="page-heading comparison2-hero"'),html.indexOf('class="section comparison2-reading-layout"'));
   assert.ok(hero.includes('comparison2-hero-layout'));assert.ok(hero.includes(`src="${brand.homepage.src}"`));assert.ok(hero.includes(`alt="${brand.homepage.alt[locale]}"`));assert.ok(hero.includes('fetchPriority="high"'));assert.ok(!hero.includes('loading="lazy"'));
+  const homepage=hero.match(/<figure class="comparison2-homepage">([\s\S]*?)<\/figure>/)[1];
+  assert.ok(homepage.includes(`href="${product.url}" target="_blank" rel="noopener noreferrer"`));assert.ok(homepage.includes(labels[locale].opensInNewTab));assert.ok(!homepage.includes('<figcaption'));assert.ok(!homepage.includes(`href="${brand.homepage.src}"`));
   const official=html.slice(html.indexOf('class="section comparison2-official"'));
   assert.ok(official.includes(`href="${product.url}" target="_blank" rel="noopener noreferrer"`));assert.ok(official.includes(`src="${brand.logo.src}"`));assert.ok(official.includes(`alt="${product.name}"`));assert.ok(official.includes('comparison2-logo-'+brand.logo.background));
   assert.ok(fs.existsSync('out'+brand.homepage.src)&&fs.existsSync('out'+brand.logo.src));
@@ -212,6 +214,8 @@ test('The overview is a bilingual guide with specific features, pros, cons, best
    const block=html.slice(html.indexOf(`class="comparison2-roundup-product" id="${entry.slug}"`),html.indexOf('</section>',html.indexOf(`class="comparison2-roundup-product" id="${entry.slug}"`)));
    for(const label of ['keyFeatures','pros','cons','bestFor'])assert.ok(block.includes(`<h3>${labels[locale][label]}</h3>`),entry.slug+': missing '+label);
    assert.ok(block.includes('comparison2-homepage'));assert.ok(block.includes('comparison2-brand-link'));assert.ok(block.includes(`href="/${locale}/comparison2/${entry.slug}/"`));
+   const homepage=block.match(/<figure class="comparison2-homepage">([\s\S]*?)<\/figure>/)[1],product=original.find(p=>p.slug===entry.slug);
+   assert.ok(homepage.includes(`href="${product.url}" target="_blank" rel="noopener noreferrer"`));assert.ok(!homepage.includes('<figcaption'));assert.ok(!homepage.includes(labels[locale].openScreenshot));
    assert.ok(!block.includes('<table'));for(const feature of entry.features)assert.ok(feature.title[locale]&&feature.text[locale]);
   }
   assert.ok(html.indexOf('id="briller-conclusion"')>html.indexOf('id="pricing"'));
