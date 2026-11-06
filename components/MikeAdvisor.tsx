@@ -5,6 +5,7 @@ import mike from '@/content/mike.json';
 const icons = [Ruler, Calculator, Wrench];
 
 export function MikeAdvisor({ locale }: { locale: Locale }) {
+  if (!mike.showSection) return null;
   const c = copy(locale).home.mike;
   const statuses = ['available', mike.budgetGuidanceStatus, mike.constructionGuidanceStatus];
   return <section className="mike-section section" id="mike-briller" aria-labelledby="mike-heading">

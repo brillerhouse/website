@@ -1,6 +1,7 @@
 import { ArrowLeft, ArrowUpRight, Download } from 'lucide-react';
 import { Shell } from '@/components/Shell';
 import { site } from '@/lib/content';
+import mike from '@/content/mike.json';
 import { blogCatalog, blogHref, categoryHref, tagHref, dateLabel, type allPosts } from '@/lib/blog/content';
 import { blogCopy } from '@/lib/blog/shared';
 import type { Locale } from '@/lib/content';
@@ -12,7 +13,7 @@ export function ArticleLayout({ locale, post, blocks, headings }: { locale: Loca
   const t = blogCopy(locale), { categories: blogCategories, tags: blogTags } = blogCatalog(locale);
   const downloadIndex = blocks.findIndex(block => block.type === 'download' && block.resource === post.download);
   const url = site.origin + blogHref(post.slug, locale);
-  const schema = { '@context': 'https://schema.org', '@type': 'BlogPosting', '@id': url + '#article', headline: post.title, description: post.excerpt, datePublished: post.date, inLanguage: locale, url, mainEntityOfPage: url, image: site.origin + post.image, author: { '@type': 'Person', name: post.author.name, url: site.origin + `/${locale}/#mike-briller` }, publisher: { '@id': site.origin + '/#organization' }, articleSection: post.categories.map(id => blogCategories.find(c => c.slug === id)!.name), keywords: post.keywords.join(', '), isAccessibleForFree: true };
+  const schema = { '@context': 'https://schema.org', '@type': 'BlogPosting', '@id': url + '#article', headline: post.title, description: post.excerpt, datePublished: post.date, inLanguage: locale, url, mainEntityOfPage: url, image: site.origin + post.image, author: { '@type': 'Person', name: post.author.name, ...(mike.showSection ? { url: site.origin + `/${locale}/#mike-briller` } : {}) }, publisher: { '@id': site.origin + '/#organization' }, articleSection: post.categories.map(id => blogCategories.find(c => c.slug === id)!.name), keywords: post.keywords.join(', '), isAccessibleForFree: true };
   return <Shell locale={locale} page={'blog/' + post.slug} breadcrumbs={[{ name: t.blog, href: blogHref('', locale) }, { name: post.title, href: blogHref(post.slug, locale) }]}>
     <article className="blog-article">
       <header className="section blog-article-header">
