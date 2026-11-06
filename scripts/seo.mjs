@@ -10,13 +10,14 @@ const comparisonCatalog=JSON.parse(fs.readFileSync('content/compare/catalog.json
 const comparisonSuffixes=['compare',...comparisonCatalog.products.map(product=>'compare/'+product.slug)];
 const comparison2Suffixes=['comparison2',...comparisonCatalog.products.map(product=>'comparison2/'+product.slug)];
 const comparison2Guide=JSON.parse(fs.readFileSync('content/comparison2/roundup.json','utf8'));
+const comparisonEditorial=JSON.parse(fs.readFileSync('content/comparison2/articles.json','utf8')).products;
 const localizedPages=[...pages,...blogSuffixes,...comparisonSuffixes,...comparison2Suffixes];
 const verifiedComparisons=comparisonCatalog.products.filter(product=>product.verification==='reviewed').map(product=>'compare/'+product.slug);
 if(comparisonCatalog.products.every(product=>product.verification==='reviewed'))verifiedComparisons.push('compare');
-const sitemapPages=localizedPages.filter(page=>(page==='comparison2'||!comparison2Suffixes.includes(page))&&(!comparisonSuffixes.includes(page)||verifiedComparisons.includes(page)));
+const sitemapPages=localizedPages.filter(page=>!comparison2Suffixes.includes(page)&&(!comparisonSuffixes.includes(page)||verifiedComparisons.includes(page)));
 const comparisonReviewDates=new Map(comparisonCatalog.products.filter(product=>product.verification==='reviewed').map(product=>['compare/'+product.slug,product.reviewedAt]));
-if(verifiedComparisons.includes('compare'))comparisonReviewDates.set('compare',[...comparisonReviewDates.values()].sort().at(-1));
-comparisonReviewDates.set('comparison2',comparison2Guide.updatedAt);
+if(verifiedComparisons.includes('compare'))comparisonReviewDates.set('compare',comparison2Guide.updatedAt);
+for(const product of comparisonCatalog.products)if(product.verification==='reviewed')comparisonReviewDates.set('compare/'+product.slug,comparison2Guide.updatedAt);
 for(const page of localizedPages){
  const file=path.join('out','uk',page,'index.html');
  const html=fs.readFileSync(file,'utf8');
@@ -28,6 +29,16 @@ for(const suffix of blogSuffixes){
  const target='/en/'+suffix+'/', directory=path.join('out',suffix);
  fs.mkdirSync(directory,{recursive:true});
  fs.writeFileSync(path.join(directory,'index.html'),`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex, follow"><link rel="canonical" href="${origin}${target}"><title>Blog moved | Briller</title><script>location.replace(${JSON.stringify(target)}+location.search+location.hash)</script></head><body><p><a href="${target}">Continue to the blog</a></p></body></html>`);
+}
+// Canonical public comparisons use /en/compare/ and /uk/compare/.
+// Nginx owns the 301s; these fallbacks preserve query/hash in a plain static preview.
+for(const suffix of comparisonSuffixes){
+ const remainder=suffix.slice('compare'.length),target='/en/'+suffix+'/';
+ const aliases=[['',suffix,target],['','comparison2'+remainder,target],...['en','uk'].map(locale=>[locale,'comparison2'+remainder,'/'+locale+'/'+suffix+'/'])];
+ for(const [locale,alias,destination] of aliases){
+  const directory=path.join('out',locale,alias);fs.mkdirSync(directory,{recursive:true});
+  fs.writeFileSync(path.join(directory,'index.html'),`<!doctype html><html lang="${locale||'en'}"><head><meta charset="utf-8"><meta name="robots" content="noindex, follow"><link rel="canonical" href="${origin}${destination}"><title>AI home design | Briller</title><script>location.replace(${JSON.stringify(destination)}+location.search+location.hash)</script></head><body><p><a href="${destination}">AI home design</a></p></body></html>`);
+ }
 }
 const preview=process.env.BRILLER_PREVIEW==='1';
 if(preview){
@@ -45,12 +56,11 @@ if(preview){
 }
 fs.writeFileSync('out/robots.txt',preview?'User-agent: *\nDisallow: /\n':`User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`);
 let llms=fs.readFileSync('content/llms.txt','utf8');
-llms+=`\n## AI interior design tools — 2026 guide\n- [Best AI interior design tools 2026](${origin}/en/comparison2/): Features, monthly pricing, pros, cons, best-fit audiences and dated Capterra feedback. Updated ${comparison2Guide.updatedAt}.\n- [Найкращі AI-інструменти дизайну інтер’єру 2026](${origin}/uk/comparison2/): Функції, місячні тарифи, переваги, недоліки, аудиторії та відгуки Capterra з датами. Оновлено ${comparison2Guide.updatedAt}.\n`;
+llms+=`\n## AI interior design tools — 2026 guide\n- [Best AI interior design tools 2026](${origin}/en/compare/): Features, monthly pricing, pros, cons, best-fit audiences and dated Capterra feedback. Updated ${comparison2Guide.updatedAt}.\n- [Найкращі AI-інструменти дизайну інтер’єру 2026](${origin}/uk/compare/): Функції, місячні тарифи, переваги, недоліки, аудиторії та відгуки Capterra з датами. Оновлено ${comparison2Guide.updatedAt}.\n`;
 const reviewedProducts=comparisonCatalog.products.filter(product=>product.verification==='reviewed');
 if(reviewedProducts.length){
  llms+='\n## Compare: Briller and design-tool alternatives\n';
- if(reviewedProducts.length===comparisonCatalog.products.length)llms+=`- [Compare](${origin}/en/compare/): Official-source, billing-aware comparisons of AI redesign and 3D planning tools.\n- [Порівняння](${origin}/uk/compare/): Альтернативи інструментам дизайну, можливості, тарифи та офіційні джерела.\n`;
- for(const product of reviewedProducts)llms+=`- [${product.name} alternative: Briller](${origin}/en/compare/${product.slug}/): ${product.summary.en} Reviewed ${product.reviewedAt}.\n- [Альтернатива ${product.name}: Briller](${origin}/uk/compare/${product.slug}/): ${product.summary.uk} Перевірено ${product.reviewedAt}.\n`;
+ for(const product of reviewedProducts){const editorial=comparisonEditorial.find(article=>article.slug===product.slug);llms+=`- [${product.name} alternative: Briller](${origin}/en/compare/${product.slug}/): ${editorial.intro.en}\n- [Альтернатива ${product.name}: Briller](${origin}/uk/compare/${product.slug}/): ${editorial.intro.uk}\n`;}
 }
 fs.writeFileSync('out/llms.txt',llms);
 console.log('SEO: Ukrainian HTML language, bilingual sitemap, robots.txt and llms.txt generated.');

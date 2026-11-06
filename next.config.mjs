@@ -12,7 +12,12 @@ export default function config(phase) {
     // nginx owns these 301s in production; Next handles them for npm run dev.
     ...(development ? {
       async redirects() {
-        return [{ source: '/blog/:path*', destination: '/en/blog/:path*/', permanent: true }];
+        return [
+          { source: '/blog/:path*', destination: '/en/blog/:path*/', permanent: true },
+          { source: '/compare/:path*', destination: '/en/compare/:path*/', permanent: true },
+          { source: '/comparison2/:path*', destination: '/en/compare/:path*/', permanent: true },
+          { source: '/:locale(en|uk)/comparison2/:path*', destination: '/:locale/compare/:path*/', permanent: true }
+        ];
       }
     } : {})
   };

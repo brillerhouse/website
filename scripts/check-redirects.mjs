@@ -59,6 +59,20 @@ for (const [path, target] of [
 for (const path of ['/en/blog/', '/uk/blog/', '/uk/blog/how-to-read-an-ai-render-before-you-build/']) {
   const result = await request(path); assert.equal(result.status, 200, path);
 }
+for (const [path, target] of [
+  ['/compare', '/en/compare/'], ['/compare/', '/en/compare/'],
+  ['/compare/?source=footer', '/en/compare/?source=footer'],
+  ['/compare/planner-5d/?source=direct', '/en/compare/planner-5d/?source=direct'],
+  ['/comparison2', '/en/compare/'], ['/comparison2/', '/en/compare/'],
+  ['/comparison2/planner-5d/?source=legacy', '/en/compare/planner-5d/?source=legacy'],
+  ['/en/comparison2', '/en/compare/'], ['/uk/comparison2/', '/uk/compare/'],
+  ['/uk/comparison2/spacely-ai/?source=legacy', '/uk/compare/spacely-ai/?source=legacy']
+]) {
+  const result = await request(path); assert.equal(result.status, 301, path); assert.equal(result.location, target, path + ': comparison redirect preserves locale/query');
+}
+for (const path of ['/en/compare/', '/uk/compare/', '/en/compare/planner-5d/', '/uk/compare/spacely-ai/']) {
+  const result = await request(path); assert.equal(result.status, 200, path); assert(result.body.includes('comparison2-page'), path + ': latest comparison content');
+}
 const www = await request('/uk/pricing/?source=redirect-check', 'www.briller.house');
 assert.equal(www.status, 301);
 assert.equal(www.location, 'https://briller.house/uk/pricing/?source=redirect-check');

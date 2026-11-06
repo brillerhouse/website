@@ -118,5 +118,5 @@ export function Comparison2Article({ product, locale }: { product: Comparison2Pr
 export function Comparison2Screen({ locale, product }: { locale: Locale; product?: Comparison2Product }) {
   const c = comparison2Copy(locale);
   const breadcrumbs = [{ name: c.label, href: comparison2Href(locale) }, ...(product ? [{ name: comparison2Title(product), href: comparison2Href(locale, product.slug) }] : [])];
-  return <Shell locale={locale} page={'comparison2' + (product ? '/' + product.slug : '')} breadcrumbs={breadcrumbs}>{product ? <Comparison2Article product={product} locale={locale}/> : <Comparison2Hub locale={locale}/>}</Shell>;
+  return <Shell locale={locale} page={'compare' + (product ? '/' + product.slug : '')} breadcrumbs={breadcrumbs}>{product ? <Comparison2Article product={product} locale={locale}/> : <Comparison2Hub locale={locale}/>}</Shell>;
 }

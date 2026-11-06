@@ -31,18 +31,21 @@ test('The alternative has distinct bilingual capability paragraphs and explicit 
 
 test('All localized alternative pages render prose, pricing-only tables, confirmation flags and accurate plan amounts',()=>{
  for(const locale of ['en','uk'])for(const slug of ['',...original.map(p=>p.slug)]){
-  const path=`/${locale}/comparison2/${slug?slug+'/':''}`;
+  const path=`/${locale}/compare/${slug?slug+'/':''}`;
   const raw=fs.readFileSync('out'+path+'index.html','utf8'),html=markup(raw);
   assert.equal((html.match(/<h1\b/g)||[]).length,1,path);
   assert.ok(html.includes(`<html lang="${locale}"`));
-  assert.ok(html.includes(`name="robots" content="${process.env.BRILLER_PREVIEW==='1'||slug?'noindex':'index'}`));
+  assert.ok(html.includes(`name="robots" content="${process.env.BRILLER_PREVIEW==='1'||(slug&&original.find(p=>p.slug===slug).verification!=='reviewed')?'noindex':'index'}`));
   assert.ok(html.includes(`<link rel="canonical" href="https://briller.house${path}"`));
-  for(const language of ['en','uk'])assert.ok(html.includes(`hrefLang="${language}" href="https://briller.house/${language}/comparison2/${slug?slug+'/':''}"`));
+  for(const language of ['en','uk'])assert.ok(html.includes(`hrefLang="${language}" href="https://briller.house/${language}/compare/${slug?slug+'/':''}"`));
   assert.ok(!forbidden.test(html),path);assert.equal((html.match(/<table\b/g)||[]).length,slug==='roomgpt'?0:1,path);
   if(slug!=='roomgpt')assert.ok(html.indexOf('id="pricing"')<html.indexOf('<table'));
-  const nav=[...html.matchAll(/<(header|footer)\b[^>]*>[\s\S]*?<\/\1>/g)].map(m=>m[0]).join('').replace(/<nav class="footer-languages"[^>]*>[\s\S]*?<\/nav>/g,'');
-  assert.ok(!/href="\/(en|uk)\/comparison2\//.test(nav));
-  if(!slug){for(const product of original)assert.ok(html.includes(`href="/${locale}/comparison2/${product.slug}/"`));continue;}
+  const header=html.match(/<header class="site-header"[\s\S]*?<\/header>/)?.[0]||'';
+  const footer=(html.match(/<footer[\s\S]*?<\/footer>/)?.[0]||'').replace(/<nav class="footer-languages"[^>]*>[\s\S]*?<\/nav>/g,'');
+  assert.ok(!/href="\/(en|uk)\/compare\//.test(header));
+  assert.ok(footer.includes(`href="/${locale}/compare/">AI home design</a>`));
+  assert.equal((footer.match(/href="\/(en|uk)\/compare\//g)||[]).length,1);
+  if(!slug){for(const product of original)assert.ok(html.includes(`href="/${locale}/compare/${product.slug}/"`));continue;}
   const product=original.find(p=>p.slug===slug),article=editorial.find(p=>p.slug===slug);
   const prose=html.slice(html.indexOf('class="comparison2-prose"'),html.indexOf('id="pricing"'));
   assert.ok(!prose.includes('<table'));assert.ok(html.includes('id="to-confirm"'));
@@ -78,18 +81,19 @@ test('All localized alternative pages render prose, pricing-only tables, confirm
  }
 });
 
-test('The guide is listed for discovery while individual alternatives stay outside sitemap and llms listings',()=>{
+test('Public /compare URLs are listed for discovery and legacy /comparison2 URLs redirect to them',()=>{
  const sitemap=fs.readFileSync('out/sitemap.xml','utf8'),llms=fs.readFileSync('out/llms.txt','utf8');
- for(const locale of ['en','uk']){assert.ok(sitemap.includes(`<loc>https://briller.house/${locale}/comparison2/</loc>`));assert.ok(llms.includes(`https://briller.house/${locale}/comparison2/`));}
- for(const product of original){assert.ok(!sitemap.includes('/comparison2/'+product.slug+'/'));assert.ok(!llms.includes('/comparison2/'+product.slug+'/'));}
- for(const slug of ['',...original.map(p=>p.slug)]){
-  const html=markup(fs.readFileSync(`out/comparison2/${slug?slug+'/':''}index.html`,'utf8'));
-  assert.match(html,/class="comparison2-page(?: [^"]+)?"/);
-  assert.ok(html.includes(`<link rel="canonical" href="https://briller.house/en/comparison2/${slug?slug+'/':''}"`));
-  if(slug)for(const id of ['pros','cons','best-for'])assert.ok(html.includes(`id="${id}"`)&&html.includes(`href="#${id}"`),slug+': direct route missing '+id);
+ assert.ok(!sitemap.includes('/comparison2/')&&!llms.includes('/comparison2/'));
+ for(const locale of ['en','uk'])for(const slug of ['',...original.map(p=>p.slug)]){
+  const suffix=slug?slug+'/':'',target=`/${locale}/compare/${suffix}`;
+  assert.ok(sitemap.includes(`<loc>https://briller.house${target}</loc>`));assert.ok(llms.includes('https://briller.house'+target));
+  const old=fs.readFileSync(`out/${locale}/comparison2/${suffix}index.html`,'utf8');
+  assert.ok(old.includes(`href="https://briller.house${target}"`));assert.ok(old.includes(`location.replace("${target}"+location.search+location.hash)`));assert.ok(old.includes('noindex'));
  }
- // Existing comparison pages retain their original published URLs and layout.
- for(const locale of ['en','uk'])for(const product of original){const html=fs.readFileSync(`out/${locale}/compare/${product.slug}/index.html`,'utf8');assert.ok(html.includes('compare-feature-table'));assert.ok(!html.includes('comparison2-capability'));}
+ for(const slug of ['',...original.map(p=>p.slug)])for(const root of ['compare','comparison2']){
+  const suffix=slug?slug+'/':'',html=fs.readFileSync(`out/${root}/${suffix}index.html`,'utf8'),target=`/en/compare/${suffix}`;
+  assert.ok(html.includes(`href="https://briller.house${target}"`));assert.ok(html.includes(`location.replace("${target}"+location.search+location.hash)`));
+ }
 });
 
 
@@ -130,7 +134,7 @@ test('Monthly presentation has 23 tier choices, with no invented RoomGPT subscri
  assert.equal(monthlyTiers(pricing.find(p=>p.slug==='roomgpt')).length,0);
  assert.ok(monthlyTiers(pricing.find(p=>p.slug==='homestyler')).every(t=>!monthlyOffer(t)));
  for(const locale of ['en','uk']){
-  const hub=markup(fs.readFileSync(`out/${locale}/comparison2/index.html`,'utf8'));
+  const hub=markup(fs.readFileSync(`out/${locale}/compare/index.html`,'utf8'));
   assert.ok(hub.includes(labels[locale].noMonthly));assert.ok(hub.includes(labels[locale].monthlyUnknown));
   for(const article of editorial)for(const section of article.sections)assert.ok(fs.existsSync(`out/${locale}/solutions/${section.perspective.solution}/index.html`));
  }
@@ -161,7 +165,7 @@ test('Feature screenshots have matching local image files, provenance and biling
 test('Screenshots appear next to the correct capability, open locally at full size and retain source credits',()=>{
  const products=json('content/comparison2/screenshots.json').products;
  for(const locale of ['en','uk'])for(const product of products){
-  const html=markup(fs.readFileSync(`out/${locale}/comparison2/${product.slug}/index.html`,'utf8'));
+  const html=markup(fs.readFileSync(`out/${locale}/compare/${product.slug}/index.html`,'utf8'));
   const figures=[...html.matchAll(/<figure\b[^>]*data-screenshot-id="([^"]+)"[^>]*>([\s\S]*?)<\/figure>/g)];assert.equal(figures.length,product.images.length);
   for(const image of product.images){
    const figure=figures.find(f=>f[1]===image.id);assert.ok(figure);
@@ -192,7 +196,7 @@ test('Each competitor has a local homepage capture and an official logo with sou
 test('Localized article heroes use homepage images and official website links contain the matching logo',()=>{
  const brands=json('content/comparison2/brands.json').products;
  for(const locale of ['en','uk'])for(const brand of brands){
-  const product=original.find(p=>p.slug===brand.slug),html=markup(fs.readFileSync(`out/${locale}/comparison2/${brand.slug}/index.html`,'utf8'));
+  const product=original.find(p=>p.slug===brand.slug),html=markup(fs.readFileSync(`out/${locale}/compare/${brand.slug}/index.html`,'utf8'));
   const hero=html.slice(html.indexOf('class="page-heading comparison2-hero"'),html.indexOf('class="section comparison2-reading-layout"'));
   assert.ok(hero.includes('comparison2-hero-layout'));assert.ok(hero.includes(`src="${brand.homepage.src}"`));assert.ok(hero.includes(`alt="${brand.homepage.alt[locale]}"`));assert.ok(hero.includes('fetchPriority="high"'));assert.ok(!hero.includes('loading="lazy"'));
   const homepage=hero.match(/<figure class="comparison2-homepage">([\s\S]*?)<\/figure>/)[1];
@@ -207,13 +211,13 @@ test('The overview is a bilingual guide with specific features, pros, cons, best
  const guide=json('content/comparison2/roundup.json');assert.equal(guide.products.length,9);assert.deepEqual([...guide.products.map(p=>p.slug)].sort(),original.map(p=>p.slug).sort());
  for(const locale of ['en','uk']){
   assert.ok(guide.intro[locale].split(/\s+/).length<65);
-  const html=markup(fs.readFileSync(`out/${locale}/comparison2/index.html`,'utf8'));
+  const html=markup(fs.readFileSync(`out/${locale}/compare/index.html`,'utf8'));
   for(const entry of guide.products){
    assert.ok(entry.features.length>=3&&entry.pros.length>=2&&entry.cons.length>=1);assert.ok(entry.summary[locale]&&entry.bestFor[locale]&&entry.confirm[locale]);
    assert.ok(html.includes(`id="${entry.slug}"`));assert.ok(html.includes(`href="#${entry.slug}"`));
    const block=html.slice(html.indexOf(`class="comparison2-roundup-product" id="${entry.slug}"`),html.indexOf('</section>',html.indexOf(`class="comparison2-roundup-product" id="${entry.slug}"`)));
    for(const label of ['keyFeatures','pros','cons','bestFor'])assert.ok(block.includes(`<h3>${labels[locale][label]}</h3>`),entry.slug+': missing '+label);
-   assert.ok(block.includes('comparison2-homepage'));assert.ok(block.includes('comparison2-brand-link'));assert.ok(block.includes(`href="/${locale}/comparison2/${entry.slug}/"`));
+   assert.ok(block.includes('comparison2-homepage'));assert.ok(block.includes('comparison2-brand-link'));assert.ok(block.includes(`href="/${locale}/compare/${entry.slug}/"`));
    const homepage=block.match(/<figure class="comparison2-homepage">([\s\S]*?)<\/figure>/)[1],product=original.find(p=>p.slug===entry.slug);
    assert.ok(homepage.includes(`href="${product.url}" target="_blank" rel="noopener noreferrer"`));assert.ok(!homepage.includes('<figcaption'));assert.ok(!homepage.includes(labels[locale].openScreenshot));
    assert.ok(!block.includes('<table'));for(const feature of entry.features)assert.ok(feature.title[locale]&&feature.text[locale]);
@@ -231,15 +235,15 @@ test('Capterra feedback can render only with verified, dated and attributed sour
  for(const review of feedback.reviews){
   assert.equal(review.verified,true);assert.ok(original.some(p=>p.slug===review.slug));assert.ok(review.id&&review.author);assert.ok(review.score>=1&&review.score<=5);
   assert.match(review.reviewedAt,/^\d{4}-\d{2}-\d{2}$/);assert.match(review.accessedAt,/^\d{4}-\d{2}-\d{2}$/);assert.ok(review.reviewedAt<=review.accessedAt);assert.equal(new URL(review.sourceUrl).hostname,'www.capterra.com');
-  for(const locale of ['en','uk']){assert.ok(review.summary[locale]);const html=markup(fs.readFileSync(`out/${locale}/comparison2/index.html`,'utf8'));assert.ok(html.includes(review.author));assert.ok(html.includes(`dateTime="${review.reviewedAt}"`));assert.ok(html.includes(`href="${review.sourceUrl}"`));}
+  for(const locale of ['en','uk']){assert.ok(review.summary[locale]);const html=markup(fs.readFileSync(`out/${locale}/compare/index.html`,'utf8'));assert.ok(html.includes(review.author));assert.ok(html.includes(`dateTime="${review.reviewedAt}"`));assert.ok(html.includes(`href="${review.sourceUrl}"`));}
  }
- if(!feedback.reviews.length)for(const locale of ['en','uk']){const html=markup(fs.readFileSync(`out/${locale}/comparison2/index.html`,'utf8'));assert.ok(!html.includes('class="comparison2-review"'));}
+ if(!feedback.reviews.length)for(const locale of ['en','uk']){const html=markup(fs.readFileSync(`out/${locale}/compare/index.html`,'utf8'));assert.ok(!html.includes('class="comparison2-review"'));}
 });
 
 test('The 2026 guide has targeted metadata, canonical locales and visible questions matching structured data',()=>{
  const guide=json('content/comparison2/roundup.json');
  for(const locale of ['en','uk']){
-  const raw=fs.readFileSync(`out/${locale}/comparison2/index.html`,'utf8'),html=markup(raw),c=labels[locale];
+  const raw=fs.readFileSync(`out/${locale}/compare/index.html`,'utf8'),html=markup(raw),c=labels[locale];
   assert.ok(html.includes(`<title>${c.seoTitle} | Briller</title>`));assert.ok(html.includes(`<h1>${c.title}</h1>`));
   assert.ok(html.includes(`name="description" content="${c.seoDescription}"`));assert.ok(c.seoDescription.length>=100&&c.seoDescription.length<=170);
   assert.ok(html.includes(`property="og:title" content="${c.seoTitle}"`));assert.ok(html.includes('2026'));

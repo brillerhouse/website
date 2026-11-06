@@ -42,7 +42,7 @@ export const comparison2RoundupProducts = (roundup.products as RoundupEntry[]).m
   return { ...product, roundup: entry, reviews: feedback };
 });
 export const comparison2Copy = (locale: Locale) => ui[locale];
-export const comparison2Href = (locale: Locale, slug?: string) => href(locale, 'comparison2' + (slug ? '/' + slug : ''));
+export const comparison2Href = (locale: Locale, slug?: string) => href(locale, 'compare' + (slug ? '/' + slug : ''));
 export const comparison2Title = (product: Competitor) => `Briller vs ${product.name}`;
 export const comparison2BrillerPlan = (tier: ComparisonTier) => plans.plans.find(plan => plan.name === tier.brillerPlan)!;
 export const comparison2MonthlyTiers = (product: Comparison2Product) => product.tierPricing.tiers.filter(tier => tier.offers.some(offer => offer.billing === 'monthly'));
@@ -75,15 +75,15 @@ export function comparison2BrillerFeatures(plan: typeof plans.plans[number], loc
   return [plan.insights === 'full' ? c.fullAdvice : c.basicAdvice, plan.watermark ? c.watermarked : c.noWatermark, plan.resolution ? c.hdIncluded : c.hdExcluded, plan.pdf ? c.pdfIncluded : c.pdfExcluded, plan.commercial ? c.commercialIncluded : c.commercialExcluded, ...(plan.fastQueue ? [c.fastQueue] : []), ...(plan.sharedProjects ? [c.sharedProjects] : [])];
 }
 export function comparison2Metadata(locale: Locale, product?: Comparison2Product) {
-  const c = comparison2Copy(locale), title = product ? comparison2Title(product) + ': Features & Pricing' : c.seoTitle;
-  const localizedTitle = product && locale === 'uk' ? comparison2Title(product) + ': можливості й тарифи' : title;
+  const c = comparison2Copy(locale), title = product ? product.name + ' Alternative: Briller Features & Pricing' : c.seoTitle;
+  const localizedTitle = product && locale === 'uk' ? 'Альтернатива ' + product.name + ': Briller — можливості й тарифи' : title;
   const text = product ? product.editorial.intro[locale] : c.seoDescription;
   const description = text.length > 180 ? text.slice(0, 180).replace(/\s+\S*$/, '') + '…' : text;
   const url = site.origin + comparison2Href(locale, product?.slug);
   return {
     title: localizedTitle + ' | Briller', description,
-    // The guide is public in production; individual alternatives remain in review.
-    robots: { index: !product && process.env.BRILLER_PREVIEW !== '1', follow: true },
+    // Published comparisons are indexable; preview builds stay private.
+    robots: { index: process.env.BRILLER_PREVIEW !== '1' && (!product || product.verification === 'reviewed'), follow: true },
     alternates: { canonical: url, languages: { en: site.origin + comparison2Href('en', product?.slug), uk: site.origin + comparison2Href('uk', product?.slug), 'x-default': site.origin + comparison2Href('en', product?.slug) } },
     openGraph: { title: localizedTitle, description, url, type: 'website' as const, locale: locale === 'uk' ? 'uk_UA' : 'en_US', images: [socialPreview] },
     twitter: { card: 'summary_large_image' as const, title: localizedTitle, description, images: [socialPreview] }
