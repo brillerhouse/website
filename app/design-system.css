@@ -129,11 +129,10 @@ label { font-weight: 500; }
 .brill-advice-category, .brill-specification .brill-specification-label, .brill-budget-recommendation > span { font-size: var(--text-label); font-weight: 600; }
 .brill-advice-card > p, .brill-specification p { line-height: 1.75; }
 .brill-budget-choices { gap: 8px; }
-.brill-budget-choices label, .feature-budget-choices label { min-height: 48px; border-color: var(--control-border); border-radius: 6px; background: var(--surface); gap: 8px; padding: 10px 12px; font-size: var(--text-ui); }
+.brill-budget-choices label, .feature-budget-choices label { position: relative; min-height: 48px; border-color: var(--control-border); border-radius: 6px; background: var(--surface); gap: 8px; padding: 10px 12px; font-size: var(--text-ui); }
 .brill-budget-choices label.selected, .feature-budget-choices label.selected { background: var(--accent); border-color: var(--accent); color: white; }
 .brill-budget-choices label:focus-within, .feature-budget-choices label:focus-within { outline: 2px solid var(--briller-color-focus); outline-offset: 3px; }
-.brill-budget-choices input, .feature-budget-choices input { width: 16px; height: 16px; }
-.brill-budget-choices .selected input, .feature-budget-choices .selected input { accent-color: var(--surface); }
+.brill-budget-choices input[type="radio"], .feature-budget-choices input[type="radio"] { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
 .spark-hotspot { width: 48px; height: 48px; padding: 6px; }
 .spark-hotspot > span { width: 36px; height: 36px; background: var(--surface); color: var(--accent); border-color: var(--accent); box-shadow: 0 2px 8px #202c3514; }
 .spark-hotspot:hover > span, .spark-hotspot.selected > span { color: var(--accent); background: var(--sage); box-shadow: 0 0 0 3px #ffffffcc, 0 0 0 5px var(--accent); }
